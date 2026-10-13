@@ -24,7 +24,7 @@ Inter (interfaz) y Source Serif 4 (pasajes), fuentes variables bajo licencia OFL
 `keystore.properties` (ignorado por git) define `storeFile`, `storePassword`, `keyAlias` y `keyPassword`. Si no existe, el release se compila sin firmar.
 
 ## D-008 Texto bíblico y repositorio
-El PDF se queda en la raíz del repositorio (ignorado por git). El importador recibirá la ruta por argumento, con ese archivo como valor por defecto. Lo que necesita la app es `assets/bible/rvr1960.json`, generado en local y empaquetado en el APK al compilar; nunca va a git.
+El PDF se queda en la raíz del repositorio (ignorado por git). El importador recibirá la ruta por argumento, con ese archivo como valor por defecto. Lo que necesita la app es la carpeta `assets/bible/libros/` (un JSON por libro), generada en local y empaquetado en el APK al compilar; nunca va a git.
 
 ## D-009 Importador: no corrige nada solo
 El texto de la RVR1960 sale de un PDF no oficial con defectos. El importador asigna libros por orden, extrae versículos por secuencia, compara con un conteo independiente (KJV, solo números) y lo informa todo; las correcciones salen únicamente de `fuentes/correcciones.json`. Si queda algo sin resolver, escribe el JSON con esos versículos como pendientes y termina con código 3, de modo que la app nunca muestra un versículo roto.

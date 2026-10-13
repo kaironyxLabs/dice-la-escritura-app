@@ -58,6 +58,19 @@ def escribir_json(datos: dict, ruta: Path) -> None:
     )
 
 
+def escribir_libros(datos: dict, carpeta: Path) -> None:
+    """Un archivo por libro (<ID>.json) con {"id", "capitulos"}: la app lee solo el libro que necesita."""
+    carpeta.mkdir(parents=True, exist_ok=True)
+    for archivo in carpeta.glob("*.json"):
+        archivo.unlink()  # sin restos de una importación anterior
+    for libro in datos["libros"]:
+        (carpeta / f"{libro['id']}.json").write_text(
+            json.dumps(libro, ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8",
+            newline="\n",
+        )
+
+
 def actualizar_documentacion(
     ruta_doc: Path,
     sha_pdf: str,

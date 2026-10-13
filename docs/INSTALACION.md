@@ -12,7 +12,7 @@
   ```
 
 ## Antes de compilar: el texto bíblico
-El texto de la RVR1960 no viene en el repositorio. Sin `app/src/main/assets/bible/rvr1960.json` la app compila y funciona, pero el modo memorizar avisa que falta el texto. Para generarlo desde tu PDF, sigue `docs/TEXTO_BIBLICO.md`. El archivo se empaqueta en tu APK al compilar y nunca se sube a git.
+El texto de la RVR1960 no viene en el repositorio. Sin la carpeta `app/src/main/assets/bible/libros/` la app compila y funciona, pero el modo memorizar avisa que falta el texto. Para generarlo desde tu PDF, sigue `docs/TEXTO_BIBLICO.md`. El archivo se empaqueta en tu APK al compilar y nunca se sube a git.
 
 ## Compilar
 ```

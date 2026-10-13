@@ -1,4 +1,4 @@
-"""Línea de comandos: PDF -> assets/bible/rvr1960.json + informe de anomalías.
+"""Línea de comandos: PDF -> fuentes/rvr1960.json + assets/bible/libros/<ID>.json + informe de anomalías.
 
 Códigos de salida: 0 todo resuelto; 2 estructura o correcciones inválidas (no se escribe el JSON);
 3 hay anomalías sin resolver (el JSON se escribe, con esos versículos como pendientes).
@@ -30,7 +30,14 @@ def _pdf_por_defecto() -> Path:
 def construir_argumentos() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="importar_biblia", description=__doc__)
     p.add_argument("--pdf", type=Path, default=None, help="PDF de origen (por defecto fuentes/ o la raíz del proyecto)")
-    p.add_argument("--salida", type=Path, default=RAIZ / "app/src/main/assets/bible/rvr1960.json")
+    p.add_argument(
+        "--salida", type=Path, default=RAIZ / "fuentes/rvr1960.json",
+        help="texto completo en un solo archivo (copia local de referencia; no va dentro de la app)",
+    )
+    p.add_argument(
+        "--salida-libros", type=Path, default=RAIZ / "app/src/main/assets/bible/libros",
+        help="carpeta con un archivo por libro, que es lo que lee la app",
+    )
     p.add_argument("--correcciones", type=Path, default=RAIZ / "fuentes/correcciones.json")
     p.add_argument("--esperado", type=Path, default=RAIZ / "docs/versiculos_por_capitulo.json")
     p.add_argument("--informe", type=Path, default=RAIZ / "docs/TEXTO_BIBLICO_informe.md")
@@ -76,6 +83,7 @@ def main(argv: list[str] | None = None, tabla: Sequence[LibroTabla] = LIBROS_RVR
 
     datos = salida.construir_json(resultado, extra)
     salida.escribir_json(datos, args.salida)
+    salida.escribir_libros(datos, args.salida_libros)
     sha_pdf = salida.sha256_de(ruta_pdf)
     sha_json = salida.sha256_de(args.salida)
 
@@ -111,6 +119,7 @@ def main(argv: list[str] | None = None, tabla: Sequence[LibroTabla] = LIBROS_RVR
     print(f"Libros: {resumen['libros']}/{len(tabla)}  Capítulos: {resumen['capitulos']}/{total_capitulos}  "
           f"Versículos: {versiculos}")
     print(f"JSON: {args.salida}")
+    print(f"Libros: {args.salida_libros} ({len(datos['libros'])} archivos)")
     print(f"Informe: {args.informe}")
     if sugeridas["correcciones"]:
         print(f"Sugerencias ({len(sugeridas['correcciones'])} versículos): {args.sugerencias}")

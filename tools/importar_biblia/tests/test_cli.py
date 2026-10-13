@@ -35,6 +35,7 @@ def entorno(tmp_path):
         "esperado": esperado,
         "doc": doc,
         "salida": tmp_path / "salida" / "rvr1960.json",
+        "libros": tmp_path / "salida" / "libros",
         "informe": tmp_path / "informe.md",
         "correcciones": tmp_path / "correcciones.json",
     }
@@ -42,7 +43,7 @@ def entorno(tmp_path):
 
 def ejecutar(entorno, pdf, extra=()):
     argumentos = [
-        "--pdf", str(pdf), "--salida", str(entorno["salida"]), "--esperado", str(entorno["esperado"]),
+        "--pdf", str(pdf), "--salida", str(entorno["salida"]), "--salida-libros", str(entorno["libros"]), "--esperado", str(entorno["esperado"]),
         "--informe", str(entorno["informe"]), "--doc", str(entorno["doc"]),
         "--correcciones", str(entorno["correcciones"]),
         "--sugerencias", str(entorno["tmp"] / "sugeridas.json"), *extra,
@@ -160,3 +161,13 @@ def test_las_pruebas_no_tocan_los_archivos_reales_del_usuario(entorno):
     antes = real.read_bytes() if real.exists() else None
     ejecutar(entorno, crear_pdf(entorno["tmp"] / "prueba.pdf", [CONTENIDO]))
     assert (real.read_bytes() if real.exists() else None) == antes
+
+
+def test_escribe_un_archivo_por_libro_igual_al_completo(entorno):
+    pdf = crear_pdf(entorno["tmp"] / "prueba.pdf", [CONTENIDO])
+    assert ejecutar(entorno, pdf) == 0
+    completo = json.loads(entorno["salida"].read_text(encoding="utf-8"))
+    archivos = sorted(p.name for p in entorno["libros"].glob("*.json"))
+    assert archivos == sorted(f"{libro['id']}.json" for libro in completo["libros"])
+    for libro in completo["libros"]:
+        assert json.loads((entorno["libros"] / f"{libro['id']}.json").read_text(encoding="utf-8")) == libro

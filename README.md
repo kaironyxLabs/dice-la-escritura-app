@@ -15,7 +15,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - Más de 330 preguntas base y 97 de la Confesión, todas **pendientes de tu revisión** (`reviewed: false`).
 
 ## Estado
-Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/CONTENIDO.md`) y probar la app en un teléfono. La interfaz aún no se ha probado en un dispositivo real.
+Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó en dos teléfonos (TCL y Xiaomi): reto diario, racha, memorizar con práctica, ajustes, módulo 1689 y recordatorio funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/CONTENIDO.md`) y respaldar el keystore.
 
 ## Compilar
 Requiere JDK 17 y el Android SDK (ver `docs/INSTALACION.md`).
@@ -27,7 +27,7 @@ Requiere JDK 17 y el Android SDK (ver `docs/INSTALACION.md`).
 El APK queda en `app/build/outputs/apk/debug/`.
 
 ## Texto bíblico
-El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se genera localmente desde un PDF que aporta el usuario con `tools/importar_biblia`; ver `docs/TEXTO_BIBLICO.md`.
+El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se genera localmente desde un PDF que aporta el usuario con `tools/importar_biblia` (66 archivos, uno por libro, en `assets/bible/libros/`); ver `docs/TEXTO_BIBLICO.md`.
 
 ## Documentación
 - `docs/INSTALACION.md`: entorno, compilación, firma, instalación y cambio de teléfono.

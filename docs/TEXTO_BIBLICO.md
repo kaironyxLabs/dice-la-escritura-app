@@ -6,12 +6,13 @@ El texto de la Reina-Valera 1960 tiene derechos de autor. **No está en el repos
 |---|---|---|
 | `biblia_rv1960.pdf` (raíz del proyecto, o `fuentes/`) | el usuario | no |
 | `fuentes/correcciones.json` | el usuario | no |
-| `app/src/main/assets/bible/rvr1960.json` | el importador | no |
+| `app/src/main/assets/bible/libros/<ID>.json` (66 archivos, uno por libro) | el importador | no |
+| `fuentes/rvr1960.json` (texto completo, copia local de referencia) | el importador | no |
 | `docs/TEXTO_BIBLICO_informe.md` | el importador | no (contiene fragmentos del texto) |
 | `fuentes/correcciones_sugeridas.json` | el importador | no |
 | `docs/versiculos_por_capitulo.json` | `generar_conteo_esperado.py` | sí (solo números) |
 
-El APK de uso personal lleva `rvr1960.json` dentro, porque el archivo se empaqueta al compilar desde tu carpeta local. Eso no obliga a subirlo a ningún repositorio.
+El APK de uso personal lleva dentro los archivos de `bible/libros/`, porque se empaquetan al compilar desde tu carpeta local. El archivo completo `fuentes/rvr1960.json` no va en el APK. Eso no obliga a subirlo a ningún repositorio.
 
 ## Procedimiento
 
@@ -109,7 +110,9 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 - **Títulos y referencias pegados**: en 2 Crónicas (y un título con punto en 1 Crónicas 6:49) el PDF deja el título y su referencia paralela en dos líneas seguidas sin línea en blanco; el importador las separa como título y paralelo del versículo siguiente. El verificador marca como aviso cualquier referencia paralela, guion con espacio o palabra repetida que quede dentro del texto de un versículo.
 - **Espacios perdidos**: el PDF pierde el espacio tras algunas vocales acentuadas, de modo que aparecen palabras pegadas ("estáen", "Asíque"). Es visible en la propia página del PDF, no es un fallo de la extracción. El informe los lista; hay más de 300 versículos afectados.
 
-## Formato de `rvr1960.json`
+## Formato
+
+`fuentes/rvr1960.json` tiene todo el texto; cada archivo de `assets/bible/libros/<ID>.json` es un elemento de su lista `libros`, tal cual. La app lee solo el libro que necesita (Salmos, el mayor, pesa unos 200 KB), en vez de analizar los 4 MB completos.
 
 ```json
 {
@@ -138,7 +141,7 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 
 ## En la app
 
-`BibleTextSource` es una interfaz; su implementación lee `assets/bible/rvr1960.json`. Si el archivo falta, las pantallas que dependen del texto (memorizar versículos) lo explican y apuntan a este documento; el resto de la app sigue funcionando. Las pruebas de la app usan un fixture claramente falso ("Texto de prueba, no es RVR1960") solo en las fuentes de test.
+`BibleTextSource` es una interfaz; su implementación lee `assets/bible/libros/<ID>.json`, de a un libro por vez y guardándolo en memoria. Si el archivo falta, las pantallas que dependen del texto (memorizar versículos) lo explican y apuntan a este documento; el resto de la app sigue funcionando. Las pruebas de la app usan un fixture claramente falso ("Texto de prueba, no es RVR1960") solo en las fuentes de test.
 
 ## Última importación
 

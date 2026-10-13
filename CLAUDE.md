@@ -15,7 +15,7 @@ set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot   (cmd)
 Python 3.12 en un entorno virtual propio del proyecto (`tools/importar_biblia/.venv`, ignorado por git):
 ```
 cd tools/importar_biblia
-.venv\Scripts\python -m importar_biblia       # PDF -> app/src/main/assets/bible/rvr1960.json + informe
+.venv\Scripts\python -m importar_biblia       # PDF -> fuentes/rvr1960.json + app/src/main/assets/bible/libros/<ID>.json + informe
 .venv\Scripts\python -m pytest                # pruebas con un PDF sintético y texto falso
 ```
 Salida 0 = todo resuelto; 2 = estructura o correcciones inválidas; 3 = anomalías sin resolver (el usuario las resuelve
@@ -39,7 +39,7 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 - Los commits, push, PR y merge NO llevan atribución a Claude (sin `Co-Authored-By` ni "Generated with").
 
 ## Reglas de contenido (críticas)
-1. El texto de la RVR1960 tiene derechos. No se escribe de memoria, no va en docs ni pruebas, ni a ningún remoto. Solo sale del archivo que aporta el usuario. `biblia_rv1960.pdf`, `fuentes/` y `app/src/main/assets/bible/rvr1960.json` están en `.gitignore`.
+1. El texto de la RVR1960 tiene derechos. No se escribe de memoria, no va en docs ni pruebas, ni a ningún remoto. Solo sale del archivo que aporta el usuario. `biblia_rv1960.pdf`, `fuentes/` y `app/src/main/assets/bible/libros/` están en `.gitignore`.
 2. Preguntas y explicaciones citan referencias y parafrasean; no transcriben versículos.
 3. Preguntas base verificables con un pasaje concreto y sin posturas denominacionales.
 4. La Confesión Bautista de 1689 va en módulo aparte tras la bandera `CONFESION_1689` (apagada por defecto); preguntas originales.
