@@ -1,0 +1,1040 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-ensenanzas-0005",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "En la parábola de la oveja perdida, ¿qué hizo el pastor?",
+      "options": [
+        "Se quedó con las noventa y nueve y olvidó la perdida",
+        "Vendió todo el rebaño",
+        "Dejó las noventa y nueve y fue a buscar la que se perdió",
+        "Esperó a que la oveja regresara sola"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 15:4-6"
+      ],
+      "explanation": "El pastor buscó la oveja perdida hasta encontrarla y se alegró con sus amigos.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0006",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Sobre qué construyó su casa el hombre prudente, según la enseñanza de Jesús?",
+      "options": [
+        "Sobre un monte alto",
+        "Sobre la roca",
+        "Junto a un río",
+        "Sobre la arena"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 7:24-25"
+      ],
+      "explanation": "Quien oye las palabras de Jesús y las hace es como el hombre que edificó su casa sobre la roca.",
+      "tags": [
+        "sermon-del-monte",
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0007",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué hizo con la herencia el hijo menor en la parábola del hijo pródigo?",
+      "options": [
+        "La guardó en un cofre",
+        "La entregó a su hermano",
+        "La malgastó viviendo perdidamente",
+        "La invirtió en ganado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 15:13"
+      ],
+      "explanation": "El hijo menor se fue lejos y desperdició sus bienes viviendo perdidamente.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0008",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿A quién se dirige el Padrenuestro?",
+      "options": [
+        "A los apóstoles",
+        "A los ángeles",
+        "A Moisés",
+        "A Dios como Padre"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 6:9"
+      ],
+      "explanation": "Jesús enseñó a orar dirigiéndose a Dios como Padre que está en los cielos.",
+      "tags": [
+        "sermon-del-monte",
+        "oracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0009",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Jesús llamó a sus discípulos la sal de la tierra y la luz del mundo.",
+      "answer": true,
+      "references": [
+        "Mateo 5:13-14"
+      ],
+      "explanation": "En el Sermón del monte Jesús dijo a sus discípulos que son la sal de la tierra y la luz del mundo.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0010",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola de la moneda perdida, ¿qué hizo la mujer al encontrarla?",
+      "options": [
+        "La gastó enseguida",
+        "Llamó a sus amigas y vecinas para alegrarse con ella",
+        "Regañó a sus vecinas",
+        "La guardó sin decir nada"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 15:8-9"
+      ],
+      "explanation": "La mujer encendió una lámpara, buscó con diligencia y celebró al hallar su moneda.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0011",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué comparó Jesús el reino de los cielos, la más pequeña de las semillas que llega a ser un árbol?",
+      "options": [
+        "Al olivo",
+        "Al trigo",
+        "A la vid",
+        "Al grano de mostaza"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 13:31-32"
+      ],
+      "explanation": "El reino de los cielos es como un grano de mostaza que, siendo muy pequeño, crece hasta ser un árbol.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0012",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola de los talentos, ¿qué hizo el siervo que recibió un solo talento?",
+      "options": [
+        "Lo escondió en la tierra",
+        "Lo invirtió y ganó más",
+        "Lo perdió en un juego",
+        "Lo regaló"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 25:18",
+        "Mateo 25:25"
+      ],
+      "explanation": "Por miedo, el siervo escondió el talento de su señor en la tierra.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0013",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola de las diez vírgenes, ¿por qué cinco fueron llamadas insensatas?",
+      "options": [
+        "Se quedaron dormidas en la calle",
+        "Llegaron tarde por estar enfermas",
+        "Rechazaron la invitación",
+        "No llevaron aceite de reserva para sus lámparas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 25:1-4"
+      ],
+      "explanation": "Las insensatas tomaron sus lámparas pero no llevaron aceite consigo.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0014",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas veces dijo Jesús que hay que perdonar al hermano que peca?",
+      "options": [
+        "Hasta tres veces",
+        "Una sola vez",
+        "Hasta siete veces",
+        "Hasta setenta veces siete"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 18:21-22"
+      ],
+      "explanation": "Pedro propuso perdonar hasta siete veces; Jesús respondió: hasta setenta veces siete.",
+      "tags": [
+        "perdon"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0015",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se describe a sí mismo Jesús en Juan 10?",
+      "options": [
+        "El buen pastor",
+        "El primer sacerdote",
+        "El gran capitán",
+        "El buen sembrador"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 10:11"
+      ],
+      "explanation": "Jesús dijo: Yo soy el buen pastor; el buen pastor su vida da por las ovejas.",
+      "tags": [
+        "yo-soy"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0016",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Jesús que hay que hacer para ver el reino de Dios?",
+      "options": [
+        "Ser circuncidado",
+        "Nacer de nuevo",
+        "Guardar el sábado",
+        "Ofrecer sacrificios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Juan 3:3"
+      ],
+      "explanation": "Jesús le dijo a Nicodemo que quien no nazca de nuevo no puede ver el reino de Dios.",
+      "tags": [
+        "nuevo-nacimiento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0017",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según las bienaventuranzas, ¿qué tienen los pobres en espíritu?",
+      "options": [
+        "Consuelo",
+        "La tierra por heredad",
+        "Ver a Dios",
+        "El reino de los cielos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 5:3"
+      ],
+      "explanation": "Jesús dijo que de los pobres en espíritu es el reino de los cielos.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0018",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según las bienaventuranzas, ¿qué recibirán los mansos?",
+      "options": [
+        "El reino de los cielos",
+        "La tierra por heredad",
+        "Consuelo",
+        "Misericordia"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 5:5"
+      ],
+      "explanation": "Jesús prometió a los mansos que recibirán la tierra por heredad.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0019",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué enseñó Jesús sobre juzgar a los demás?",
+      "options": [
+        "Juzgar siempre con rigor",
+        "No juzgar, para no ser juzgados",
+        "Juzgar solo a los extraños",
+        "Juzgar solo a los incrédulos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 7:1-2"
+      ],
+      "explanation": "Jesús enseñó que con el juicio con que juzgamos seremos juzgados.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0020",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dos ejemplos de la naturaleza usó Jesús para enseñar a no afanarse?",
+      "options": [
+        "Los peces del mar y los cedros",
+        "Las aves del cielo y los lirios del campo",
+        "Las estrellas y las montañas",
+        "Los camellos y las palmeras"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 6:26",
+        "Mateo 6:28"
+      ],
+      "explanation": "Si Dios cuida de las aves y de los lirios, cuidará mucho más de sus hijos.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0021",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es el mayor mandamiento según Jesús?",
+      "options": [
+        "No matar",
+        "Pagar el diezmo",
+        "Amar a Dios con todo el corazón, el alma y la mente",
+        "Guardar el sábado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 22:36-38"
+      ],
+      "explanation": "Jesús dijo que el primero y grande mandamiento es amar al Señor tu Dios con todo tu corazón, alma y mente.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0022",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Jesús con sus discípulos antes de la última cena para enseñarles a servir?",
+      "options": [
+        "Les dio dinero",
+        "Les lavó los pies",
+        "Les cortó el cabello",
+        "Los envió a pescar"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Juan 13:4-5",
+        "Juan 13:14-15"
+      ],
+      "explanation": "Jesús lavó los pies de sus discípulos como ejemplo de servicio mutuo.",
+      "tags": [
+        "servicio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0023",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Jesús, ¿cuál es la señal de que somos sus discípulos?",
+      "options": [
+        "Amarnos unos a otros",
+        "Ayunar a menudo",
+        "Orar en voz alta",
+        "Vestir de blanco"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 13:35"
+      ],
+      "explanation": "Jesús dijo que por el amor mutuo conocerían todos que son sus discípulos.",
+      "tags": [
+        "amor"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0024",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se llama a sí mismo Jesús en Juan 6, el que da vida?",
+      "options": [
+        "La luz del mundo",
+        "El pan de vida",
+        "El agua viva",
+        "La puerta"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Juan 6:35"
+      ],
+      "explanation": "Jesús dijo: Yo soy el pan de vida; el que a mí viene nunca tendrá hambre.",
+      "tags": [
+        "yo-soy"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0025",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo debe orarse a solas, según Jesús?",
+      "options": [
+        "Con voz muy fuerte",
+        "En las esquinas de las calles",
+        "Con muchas repeticiones",
+        "En secreto, a tu Padre que ve en lo secreto"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 6:5-6"
+      ],
+      "explanation": "Jesús enseñó a entrar en el aposento, cerrar la puerta y orar al Padre en secreto.",
+      "tags": [
+        "oracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0026",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde dijo Jesús que debemos acumular tesoros?",
+      "options": [
+        "En los graneros",
+        "En el cielo",
+        "En el templo",
+        "En la tierra"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 6:19-20"
+      ],
+      "explanation": "Jesús enseñó a hacer tesoros en el cielo, donde ni la polilla ni el ladrón los destruyen.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0027",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ofrenda elogió Jesús en el templo?",
+      "options": [
+        "Un buey de un hombre rico",
+        "Un cordero sin defecto",
+        "Las dos blancas de una viuda pobre",
+        "Un diezmo de menta"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Marcos 12:41-44"
+      ],
+      "explanation": "La viuda echó todo lo que tenía para vivir, más que todos los demás.",
+      "tags": [
+        "servicio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0028",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué pregunta provocó la parábola del buen samaritano?",
+      "options": [
+        "¿Quién es mi prójimo?",
+        "¿Cuándo vendrá el reino?",
+        "¿Quién es el mayor?",
+        "¿Cuál es el pan del cielo?"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 10:29"
+      ],
+      "explanation": "Un intérprete de la ley preguntó quién era su prójimo y Jesús respondió con la parábola.",
+      "tags": [
+        "parabolas",
+        "projimo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0029",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué trabajo consiguió el hijo pródigo cuando se le acabó el dinero?",
+      "options": [
+        "Pastorear ovejas",
+        "Cuidar cerdos",
+        "Pescar",
+        "Cultivar viñas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 15:15"
+      ],
+      "explanation": "Un habitante de aquella tierra lo envió a su campo a apacentar cerdos.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0030",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola del trigo y la cizaña, ¿qué crecía junto al trigo?",
+      "options": [
+        "El espino",
+        "La cizaña",
+        "La vid",
+        "La mostaza"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 13:24-30"
+      ],
+      "explanation": "Un enemigo sembró cizaña entre el trigo y ambos crecieron juntos hasta la siega.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0031",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué comparó Jesús el reino de los cielos que una mujer mezcló con tres medidas de harina?",
+      "options": [
+        "Al aceite",
+        "A la sal",
+        "A la levadura",
+        "A la semilla de mostaza"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 13:33"
+      ],
+      "explanation": "El reino es como la levadura que hace fermentar toda la masa.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0032",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la parábola del fariseo y el publicano, ¿quién volvió a casa justificado?",
+      "options": [
+        "El fariseo, que ayunaba dos veces por semana",
+        "Ninguno de los dos",
+        "Ambos por igual",
+        "El publicano, que pedía misericordia"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 18:13-14"
+      ],
+      "explanation": "El publicano se humilló, golpeó su pecho y pidió misericordia.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0033",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo Dios al rico insensato que planeaba ampliar sus graneros?",
+      "options": [
+        "Que construyera graneros aún mayores",
+        "Que su riqueza duraría muchos años",
+        "Que esa misma noche perdería la vida",
+        "Que sería bendecido con más bienes"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 12:20"
+      ],
+      "explanation": "Dios le dijo que esa noche le pedirían su alma y que lo acumulado no le serviría.",
+      "tags": [
+        "parabolas",
+        "riquezas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0034",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué dos señores dijo Jesús que no se puede servir a la vez?",
+      "options": [
+        "A Dios y a las riquezas",
+        "A Dios y al César",
+        "A Dios y a la ley",
+        "A los ricos y a los pobres"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 6:24"
+      ],
+      "explanation": "Nadie puede servir a dos señores: no podéis servir a Dios y a las riquezas.",
+      "tags": [
+        "sermon-del-monte",
+        "riquezas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0035",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo describió Jesús la puerta que lleva a la vida?",
+      "options": [
+        "Estrecha",
+        "Ancha",
+        "De oro",
+        "Cerrada con llave"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 7:13-14"
+      ],
+      "explanation": "Jesús dijo que estrecha es la puerta y angosto el camino que lleva a la vida.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0036",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué respondió Jesús sobre pagar tributo al César?",
+      "options": [
+        "Que se dé al César lo que es del César y a Dios lo que es de Dios",
+        "Que lo decida el sumo sacerdote",
+        "Que se pague solo en el templo",
+        "Que no se pague a nadie"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 22:21"
+      ],
+      "explanation": "Jesús separó lo que corresponde al César de lo que corresponde a Dios.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0037",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo Jesús que debe hacer quien quiera seguirle?",
+      "options": [
+        "Venderlo todo sin excepción",
+        "Negarse a sí mismo, tomar su cruz cada día y seguirle",
+        "Retirarse al desierto",
+        "Ser bautizado cada año"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 9:23"
+      ],
+      "explanation": "Seguir a Jesús implica negarse a uno mismo, tomar la cruz cada día y seguirle.",
+      "tags": [
+        "discipulado"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0038",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con quiénes comparó Jesús a los pámpanos que permanecen en la vid?",
+      "options": [
+        "Con los ángeles del cielo",
+        "Con los discípulos que permanecen en él",
+        "Con los sacerdotes del templo",
+        "Con los profetas del pasado"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Juan 15:4-5"
+      ],
+      "explanation": "Jesús dijo: Yo soy la vid, vosotros los pámpanos; el que permanece en mí lleva mucho fruto.",
+      "tags": [
+        "yo-soy"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0039",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ofreció Jesús a la mujer samaritana, de modo que quien lo bebe no tendrá sed jamás?",
+      "options": [
+        "Vino nuevo",
+        "Aceite santo",
+        "Agua viva",
+        "Pan del cielo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 4:10",
+        "Juan 4:13-14"
+      ],
+      "explanation": "Jesús habló del agua viva que se convierte en fuente que salta para vida eterna.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0040",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Al instituir la Cena, ¿qué dijo Jesús que hicieran sus discípulos?",
+      "options": [
+        "Ayunar antes de comer",
+        "Ofrecer un cordero cada año",
+        "Hacerlo en memoria de él",
+        "Comer solo en el templo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 22:19-20"
+      ],
+      "explanation": "Jesús tomó el pan y la copa y dijo que lo hicieran en memoria suya.",
+      "tags": [
+        "cena-del-senor"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0041",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo reaccionó el hijo mayor cuando el padre celebró el regreso de su hermano?",
+      "options": [
+        "Se fue a vivir lejos",
+        "Se alegró y celebró",
+        "Pidió también su herencia",
+        "Se enojó y no quería entrar"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 15:28"
+      ],
+      "explanation": "El hijo mayor se enojó y el padre salió a rogarle.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0042",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según las bienaventuranzas, ¿qué serán llamados los pacificadores?",
+      "options": [
+        "Reyes",
+        "Profetas",
+        "Siervos fieles",
+        "Hijos de Dios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 5:9"
+      ],
+      "explanation": "Jesús dijo que los pacificadores serán llamados hijos de Dios.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0043",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según las bienaventuranzas, ¿qué promesa tienen los de limpio corazón?",
+      "options": [
+        "Serán saciados",
+        "Heredarán la tierra",
+        "Serán consolados",
+        "Verán a Dios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 5:8"
+      ],
+      "explanation": "Jesús dijo que los de limpio corazón verán a Dios.",
+      "tags": [
+        "sermon-del-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0044",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de las ovejas y los cabritos, ¿qué dijo el Rey a los de su derecha?",
+      "options": [
+        "Que habían ayunado con frecuencia",
+        "Que habían ofrecido muchos sacrificios",
+        "Que lo hecho a los necesitados lo hicieron a él",
+        "Que habían guardado todo el sábado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 25:34-40"
+      ],
+      "explanation": "El Rey dijo que cuanto hicieron a uno de sus hermanos más pequeños, a él lo hicieron.",
+      "tags": [
+        "parabolas",
+        "servicio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0045",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Según Lucas 16, ¿qué ocurrió con el mendigo Lázaro al morir?",
+      "options": [
+        "Fue enterrado con honores",
+        "Los ángeles lo llevaron al seno de Abraham",
+        "Fue llevado al templo",
+        "Resucitó enseguida"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 16:22"
+      ],
+      "explanation": "Lázaro, que había sufrido en vida, fue llevado por los ángeles al seno de Abraham.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0046",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de los obreros de la viña, ¿qué pagó el dueño a los que llegaron al final del día?",
+      "options": [
+        "La mitad de un denario",
+        "El mismo denario que a los primeros",
+        "Dos denarios",
+        "Nada"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 20:9-10"
+      ],
+      "explanation": "Cada obrero recibió un denario, aunque habían trabajado horas distintas.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0047",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué pedía insistentemente la viuda al juez injusto?",
+      "options": [
+        "Un lugar en el templo",
+        "Que perdonara una deuda",
+        "Una limosna",
+        "Que le hiciera justicia frente a su adversario"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 18:3-5"
+      ],
+      "explanation": "La viuda insistió hasta que el juez le hizo justicia, y Jesús enseñó a orar siempre sin desmayar.",
+      "tags": [
+        "parabolas",
+        "oracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0048",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué pidió el viñador que se hiciera con la higuera que no daba fruto?",
+      "options": [
+        "Quemarla",
+        "Cortarla enseguida",
+        "Dejarla un año más para cavar alrededor y abonarla",
+        "Trasplantarla"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 13:7-9"
+      ],
+      "explanation": "El viñador pidió un año más para cuidar la higuera antes de cortarla.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0049",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "true_false",
+      "difficulty": 4,
+      "question": "En la parábola del siervo despiadado, el siervo perdonado se negó a perdonar una deuda pequeña a su consiervo.",
+      "answer": true,
+      "references": [
+        "Mateo 18:28-30"
+      ],
+      "explanation": "El siervo al que se le había perdonado muchísimo no tuvo misericordia de su consiervo.",
+      "tags": [
+        "parabolas",
+        "perdon"
+      ],
+      "reviewed": false
+    }
+  ]
+}

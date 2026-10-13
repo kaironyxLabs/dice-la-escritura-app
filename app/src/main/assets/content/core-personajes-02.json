@@ -1,0 +1,1444 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-personajes-0006",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cómo se llamó el primer hombre creado por Dios?",
+      "options": [
+        "Set",
+        "Abel",
+        "Adán",
+        "Noé"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 2:7"
+      ],
+      "explanation": "Dios formó al hombre del polvo de la tierra y lo llamó Adán.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0007",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue la primera mujer?",
+      "options": [
+        "Rut",
+        "Eva",
+        "Sara",
+        "Rebeca"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 3:20"
+      ],
+      "explanation": "Adán llamó Eva a su mujer, por ser madre de todos los vivientes.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0008",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién mató a su hermano Abel?",
+      "options": [
+        "Caín",
+        "Esaú",
+        "Set",
+        "Jacob"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 4:8"
+      ],
+      "explanation": "Caín se levantó contra su hermano Abel y lo mató.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0009",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿A quién llamó Dios desde una zarza que ardía sin consumirse?",
+      "options": [
+        "A Moisés",
+        "A Samuel",
+        "A Josué",
+        "A Aarón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 3:2-4"
+      ],
+      "explanation": "Dios llamó a Moisés desde la zarza para enviarlo a libertar a Israel de Egipto.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0010",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué joven pastor fue ungido como rey de Israel?",
+      "options": [
+        "Salomón",
+        "Saúl",
+        "Jonatán",
+        "David"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 16:11-13"
+      ],
+      "explanation": "David cuidaba las ovejas de su padre cuando Samuel lo ungió rey.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0011",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué rey pidió a Dios sabiduría para gobernar?",
+      "options": [
+        "Acab",
+        "David",
+        "Salomón",
+        "Ezequías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 3:9-12"
+      ],
+      "explanation": "Salomón pidió un corazón entendido y Dios se lo concedió.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0012",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "María",
+        "Ana",
+        "Marta",
+        "Elisabet"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 1:30-31"
+      ],
+      "explanation": "El ángel anunció a María que concebiría y daría a luz un hijo llamado Jesús.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0013",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién bautizó a Jesús en el Jordán?",
+      "options": [
+        "Santiago",
+        "Juan el Bautista",
+        "Pedro",
+        "Felipe"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 3:13-15"
+      ],
+      "explanation": "Juan bautizó a Jesús en el río Jordán.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0014",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué discípulo negó tres veces a Jesús?",
+      "options": [
+        "Tomás",
+        "Pedro",
+        "Andrés",
+        "Juan"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 26:69-75"
+      ],
+      "explanation": "Pedro negó conocer a Jesús tres veces y lloró amargamente al oír el canto del gallo.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0015",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué discípulo entregó a Jesús por treinta monedas de plata?",
+      "options": [
+        "Judas Iscariote",
+        "Tomás",
+        "Mateo",
+        "Bartolomé"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 26:14-16"
+      ],
+      "explanation": "Judas Iscariote pactó con los principales sacerdotes entregar a Jesús por treinta piezas de plata.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0016",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué hombre de pequeña estatura subió a un sicómoro para ver a Jesús?",
+      "options": [
+        "Nicodemo",
+        "Zaqueo",
+        "Bartimeo",
+        "Lázaro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 19:2-4"
+      ],
+      "explanation": "Zaqueo, jefe de los publicanos, subió a un árbol para ver pasar a Jesús.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0017",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue el hijo prometido de Abraham y Sara?",
+      "options": [
+        "José",
+        "Ismael",
+        "Isaac",
+        "Jacob"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 21:1-3"
+      ],
+      "explanation": "Isaac nació cuando Abraham tenía cien años, conforme a la promesa de Dios.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0018",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue el padre de Isaac?",
+      "options": [
+        "Jacob",
+        "Moisés",
+        "Noé",
+        "Abraham"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 21:3"
+      ],
+      "explanation": "Abraham fue el padre de Isaac, a quien Sara dio a luz.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0019",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué profeta fue tragado por un gran pez?",
+      "options": [
+        "Elías",
+        "Daniel",
+        "Amós",
+        "Jonás"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jonás 1:17"
+      ],
+      "explanation": "Dios preparó un gran pez que se tragó a Jonás.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0020",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué apóstol escribió muchas de las cartas del Nuevo Testamento?",
+      "options": [
+        "Santiago el hermano de Juan",
+        "Pablo",
+        "Andrés",
+        "Juan el Bautista"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 1:1"
+      ],
+      "explanation": "Pablo, apóstol de Jesucristo, escribió trece cartas del Nuevo Testamento.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0021",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué profeta subió al cielo en un torbellino?",
+      "options": [
+        "Eliseo",
+        "Elías",
+        "Moisés",
+        "Isaías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Reyes 2:11"
+      ],
+      "explanation": "Elías subió al cielo en un torbellino mientras Eliseo lo miraba.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0022",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hombre fuerte perdió su fuerza cuando le cortaron el cabello?",
+      "options": [
+        "Gedeón",
+        "Saúl",
+        "Sansón",
+        "Goliat"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jueces 16:17-19"
+      ],
+      "explanation": "Sansón reveló que su fuerza estaba en su cabello consagrado y Dalila se lo hizo cortar.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0023",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hombre soportó grandes pérdidas y aun así bendijo el nombre del Señor?",
+      "options": [
+        "Job",
+        "Esdras",
+        "Jeremías",
+        "Jonás"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Job 1:20-22"
+      ],
+      "explanation": "Job perdió bienes e hijos y dijo que el nombre de Jehová fuera bendito.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0024",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hermano vendió su primogenitura por un plato de guiso?",
+      "options": [
+        "Esaú",
+        "Rubén",
+        "Jacob",
+        "Isaac"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 25:29-34"
+      ],
+      "explanation": "Esaú, hambriento, cedió su primogenitura a Jacob por un guiso de lentejas.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0025",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué nombre nuevo recibió Jacob después de luchar con un ser divino?",
+      "options": [
+        "Israel",
+        "Judá",
+        "Benjamín",
+        "Efraín"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 32:28"
+      ],
+      "explanation": "Dios le cambió el nombre a Israel, que dio nombre al pueblo.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0026",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién interpretó los sueños del faraón?",
+      "options": [
+        "Daniel",
+        "José",
+        "Moisés",
+        "Aarón"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 41:14-16"
+      ],
+      "explanation": "José dijo al faraón que Dios le daría la interpretación, y anunció siete años de abundancia y siete de hambre.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0027",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue el hermano de Moisés que habló al faraón por él?",
+      "options": [
+        "Caleb",
+        "Josué",
+        "Aarón",
+        "Coré"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 4:14-16"
+      ],
+      "explanation": "Dios dispuso que Aarón fuera la boca de Moisés ante el pueblo y el faraón.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0028",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién escondió a los espías de Israel en Jericó?",
+      "options": [
+        "Rahab",
+        "Débora",
+        "Rut",
+        "Jael"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 2:4-6"
+      ],
+      "explanation": "Rahab escondió a los espías en los tallos de lino sobre su terrado.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0029",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué niño oyó la voz de Dios durante la noche en el santuario?",
+      "options": [
+        "Samuel",
+        "Elí",
+        "David",
+        "Josué"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 3:4-10"
+      ],
+      "explanation": "Samuel respondió: Habla, que tu siervo oye.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0030",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué mujer moabita decidió acompañar a su suegra Noemí a Belén?",
+      "options": [
+        "Rut",
+        "Orfa",
+        "Ester",
+        "Ana"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Rut 1:16-19"
+      ],
+      "explanation": "Rut se quedó con Noemí y dijo que su pueblo y su Dios serían los suyos.",
+      "tags": [
+        "historicos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0031",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué joven judía llegó a ser reina de Persia?",
+      "options": [
+        "Rut",
+        "Débora",
+        "Ester",
+        "Miriam"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Ester 2:7",
+        "Ester 2:17"
+      ],
+      "explanation": "Ester, huérfana criada por su primo Mardoqueo, fue hecha reina en lugar de Vasti.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0032",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue la esposa de Abraham?",
+      "options": [
+        "Raquel",
+        "Rebeca",
+        "Sara",
+        "Lea"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 17:15",
+        "Génesis 21:2"
+      ],
+      "explanation": "Sara, esposa de Abraham, dio a luz a Isaac en su vejez.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0033",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué fariseo visitó a Jesús de noche?",
+      "options": [
+        "Nicodemo",
+        "Simón",
+        "José de Arimatea",
+        "Zaqueo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 3:1-2"
+      ],
+      "explanation": "Nicodemo, un principal entre los judíos, fue a Jesús de noche y dialogó con él.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0034",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué discípulo dudó de la resurrección hasta ver a Jesús?",
+      "options": [
+        "Felipe",
+        "Judas Tadeo",
+        "Natanael",
+        "Tomás"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 20:24-28"
+      ],
+      "explanation": "Tomás creyó cuando vio a Jesús resucitado y exclamó: ¡Señor mío, y Dios mío!",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0035",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué recaudador de impuestos fue llamado por Jesús a seguirle?",
+      "options": [
+        "Santiago",
+        "Pedro",
+        "Mateo",
+        "Felipe"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 9:9"
+      ],
+      "explanation": "Jesús vio a Mateo sentado en el lugar de los tributos y le dijo: Sígueme.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0036",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quiénes eran las hermanas de Lázaro?",
+      "options": [
+        "Elisabet y Ana",
+        "Rut y Noemí",
+        "Lea y Raquel",
+        "Marta y María"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 11:1-2",
+        "Lucas 10:38-39"
+      ],
+      "explanation": "Marta y María vivían en Betania con su hermano Lázaro.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0037",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue el joven colaborador de Pablo a quien escribió dos cartas?",
+      "options": [
+        "Tito",
+        "Timoteo",
+        "Silas",
+        "Marcos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Timoteo 1:2",
+        "2 Timoteo 1:2"
+      ],
+      "explanation": "Pablo llamó a Timoteo su verdadero hijo en la fe.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0038",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Con qué título se presentó Pablo en relación con los gentiles?",
+      "options": [
+        "Pastor de Corinto",
+        "Apóstol de los gentiles",
+        "Obispo de Roma",
+        "Apóstol de los judíos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 11:13"
+      ],
+      "explanation": "Pablo dijo ser apóstol de los gentiles y honraba su ministerio.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0039",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién era el esposo de María, la madre de Jesús?",
+      "options": [
+        "Cleofás",
+        "Zacarías",
+        "José",
+        "Simeón"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 1:18-20"
+      ],
+      "explanation": "José, de la casa de David, tomó a María por esposa por indicación del ángel.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0040",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué rey de Israel se casó con Jezabel?",
+      "options": [
+        "Jehú",
+        "Omri",
+        "Jeroboam",
+        "Acab"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Reyes 16:30-31"
+      ],
+      "explanation": "Acab, hijo de Omri, hizo lo malo ante los ojos de Jehová y se casó con Jezabel.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0041",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dos espías animaron al pueblo a conquistar la tierra?",
+      "options": [
+        "Moisés y Aarón",
+        "Gedeón y Barac",
+        "Aarón y Hur",
+        "Josué y Caleb"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Números 13:30",
+        "Números 14:6-9"
+      ],
+      "explanation": "Josué y Caleb dijeron que con la ayuda de Jehová podían tomar la tierra.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0042",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué juez derrotó a Madián con trescientos hombres?",
+      "options": [
+        "Gedeón",
+        "Sansón",
+        "Jefté",
+        "Barac"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jueces 7:7"
+      ],
+      "explanation": "Dios redujo el ejército de Gedeón a trescientos para dar la victoria.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0043",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue el amigo fiel de David, hijo del rey Saúl?",
+      "options": [
+        "Abner",
+        "Joab",
+        "Absalón",
+        "Jonatán"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 18:1-3"
+      ],
+      "explanation": "Jonatán amó a David como a sí mismo e hizo pacto con él.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0044",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué profeta confrontó a David por su pecado con Betsabé?",
+      "options": [
+        "Samuel",
+        "Gad",
+        "Natán",
+        "Elías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Samuel 12:7"
+      ],
+      "explanation": "Natán le dijo a David: Tú eres aquel hombre.",
+      "tags": [
+        "monarquia",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0045",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue el sucesor del profeta Elías?",
+      "options": [
+        "Jonás",
+        "Isaías",
+        "Eliseo",
+        "Amós"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 19:19-21",
+        "2 Reyes 2:9-15"
+      ],
+      "explanation": "Eliseo recibió el manto de Elías y una doble porción de su espíritu.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0046",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué general sirio fue sanado de lepra al sumergirse en el Jordán?",
+      "options": [
+        "Sísara",
+        "Hazael",
+        "Naamán",
+        "Benadad"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Reyes 5:10-14"
+      ],
+      "explanation": "Naamán se sumergió siete veces en el Jordán y su carne quedó limpia.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0047",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué profeta vio al Señor sentado en un trono alto y sublime?",
+      "options": [
+        "Jeremías",
+        "Isaías",
+        "Daniel",
+        "Ezequiel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Isaías 6:1"
+      ],
+      "explanation": "Isaías vio al Señor en su trono y a serafines que lo alababan.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0048",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué profeta vio un valle lleno de huesos secos?",
+      "options": [
+        "Isaías",
+        "Ezequiel",
+        "Amós",
+        "Oseas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Ezequiel 37:1-4"
+      ],
+      "explanation": "Ezequiel vio que Dios daba vida a los huesos secos como imagen de la restauración de Israel.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0049",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué joven interpretó el sueño de la gran estatua de Nabucodonosor?",
+      "options": [
+        "Daniel",
+        "José",
+        "Esdras",
+        "Mardoqueo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 2:19",
+        "Daniel 2:31-45"
+      ],
+      "explanation": "Dios reveló a Daniel el sueño y su interpretación.",
+      "tags": [
+        "exilio",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0050",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién, siendo copero del rey, dirigió la reconstrucción de los muros de Jerusalén?",
+      "options": [
+        "Nehemías",
+        "Mardoqueo",
+        "Zorobabel",
+        "Esdras"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Nehemías 1:11",
+        "Nehemías 2:17-18"
+      ],
+      "explanation": "Nehemías era copero del rey Artajerjes y animó al pueblo a edificar el muro.",
+      "tags": [
+        "regreso"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0051",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué rey de Babilonia fue humillado hasta reconocer al Dios Altísimo?",
+      "options": [
+        "Belsasar",
+        "Darío",
+        "Ciro",
+        "Nabucodonosor"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 4:34-37"
+      ],
+      "explanation": "Después de perder la razón por un tiempo, Nabucodonosor alabó y glorificó al Rey del cielo.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0052",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quiénes fueron los padres de Juan el Bautista?",
+      "options": [
+        "Simeón y Ana",
+        "José y María",
+        "Zacarías y Elisabet",
+        "Joaquín y Ana"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 1:13",
+        "Lucas 1:57"
+      ],
+      "explanation": "Zacarías y Elisabet fueron los padres de Juan, nacido por promesa de Dios en su vejez.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0053",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué mujer conversó con Jesús junto a un pozo en Samaria?",
+      "options": [
+        "Marta",
+        "La viuda de Naín",
+        "La mujer samaritana",
+        "María Magdalena"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 4:7-9"
+      ],
+      "explanation": "Jesús pidió agua a una mujer samaritana en el pozo de Jacob y le habló del agua viva.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0054",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué hermano de Simón Pedro lo llevó a Jesús?",
+      "options": [
+        "Bartolomé",
+        "Santiago",
+        "Andrés",
+        "Felipe"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 1:40-42"
+      ],
+      "explanation": "Andrés encontró a su hermano Simón y lo llevó a Jesús.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0055",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se llamaban los hijos de Zebedeo?",
+      "options": [
+        "Mateo y Tomás",
+        "Pedro y Andrés",
+        "Felipe y Natanael",
+        "Santiago y Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Marcos 3:17"
+      ],
+      "explanation": "Jesús llamó a Santiago y a Juan, hijos de Zebedeo, Boanerges.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0056",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué evangelista era médico?",
+      "options": [
+        "Mateo",
+        "Marcos",
+        "Juan",
+        "Lucas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Colosenses 4:14"
+      ],
+      "explanation": "Pablo llama a Lucas el médico amado.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0057",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién acompañó a Pablo en su primer viaje y era un levita de Chipre?",
+      "options": [
+        "Silas",
+        "Tito",
+        "Timoteo",
+        "Bernabé"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 4:36",
+        "Hechos 13:2"
+      ],
+      "explanation": "Bernabé, levita natural de Chipre, fue enviado con Saulo por el Espíritu Santo.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0058",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué evangelista explicó el camino de salvación al eunuco etíope?",
+      "options": [
+        "Bernabé",
+        "Esteban",
+        "Felipe",
+        "Pedro"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 8:26-38"
+      ],
+      "explanation": "Felipe le anunció a Jesús a partir del libro de Isaías y lo bautizó.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0059",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué profeta fue echado a una cisterna de lodo?",
+      "options": [
+        "Daniel",
+        "Amós",
+        "Jeremías",
+        "Isaías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jeremías 38:6"
+      ],
+      "explanation": "Los príncipes echaron a Jeremías en una cisterna donde se hundió en el lodo.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0060",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién era el primo de Ester que la crió?",
+      "options": [
+        "Esdras",
+        "Nehemías",
+        "Mardoqueo",
+        "Amán"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Ester 2:7"
+      ],
+      "explanation": "Mardoqueo crió a Ester, huérfana de padre y madre.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0061",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién tomó en brazos al niño Jesús en el templo y bendijo a Dios?",
+      "options": [
+        "Simeón",
+        "Natanael",
+        "Zacarías",
+        "Nicodemo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 2:25-28"
+      ],
+      "explanation": "Simeón, hombre justo y piadoso, tomó al niño en sus brazos y bendijo a Dios.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0062",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué ciego pidió misericordia a Jesús, sentado junto al camino cerca de Jericó?",
+      "options": [
+        "Lázaro",
+        "Zaqueo",
+        "Malco",
+        "Bartimeo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Marcos 10:46-52"
+      ],
+      "explanation": "Bartimeo clamó a Jesús y recobró la vista.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0063",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué centurión de Cesarea recibió el evangelio por medio de Pedro?",
+      "options": [
+        "Cornelio",
+        "Lisias",
+        "Julio",
+        "Sergio Paulo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 10:1-2",
+        "Hechos 10:44-48"
+      ],
+      "explanation": "Cornelio, hombre piadoso, y su casa recibieron el Espíritu Santo mientras Pedro hablaba.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0064",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué matrimonio hospedó a Pablo en Corinto y trabajaba haciendo tiendas?",
+      "options": [
+        "Zacarías y Elisabet",
+        "Ananías y Safira",
+        "Felipe y sus hijas",
+        "Priscila y Aquila"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 18:2-3"
+      ],
+      "explanation": "Pablo se alojó con Aquila y Priscila porque tenían el mismo oficio.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0065",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A quién dejó Pablo en Creta para establecer ancianos en las ciudades?",
+      "options": [
+        "Silas",
+        "Tito",
+        "Marcos",
+        "Timoteo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Tito 1:5"
+      ],
+      "explanation": "Pablo dejó a Tito en Creta para corregir lo deficiente y establecer ancianos.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0066",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué rey de Judá oró cuando Senaquerib amenazó a Jerusalén?",
+      "options": [
+        "Acaz",
+        "Ezequías",
+        "Manasés",
+        "Amón"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Reyes 19:14-19"
+      ],
+      "explanation": "Ezequías extendió la carta de Senaquerib delante de Jehová y oró.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0067",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Quién era el judío de Alejandría, elocuente y poderoso en las Escrituras, que enseñaba lo de Jesús?",
+      "options": [
+        "Apolos",
+        "Tíquico",
+        "Epafras",
+        "Silas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 18:24-25"
+      ],
+      "explanation": "Apolos, natural de Alejandría, enseñaba con exactitud lo concerniente al Señor.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    }
+  ]
+}

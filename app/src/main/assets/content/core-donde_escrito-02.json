@@ -1,0 +1,719 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-donde_escrito-0003",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se encuentran por primera vez los Diez Mandamientos?",
+      "options": [
+        "Josué",
+        "Levítico",
+        "Éxodo",
+        "Génesis"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 20:1-17"
+      ],
+      "explanation": "Dios dio los Diez Mandamientos a Moisés en el Sinaí, como se relata en Éxodo 20.",
+      "tags": [
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0004",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se cuenta la historia de la torre de Babel?",
+      "options": [
+        "Job",
+        "Génesis",
+        "Josué",
+        "Éxodo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 11:1-9"
+      ],
+      "explanation": "La torre de Babel se relata en Génesis 11.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0005",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se relatan las plagas de Egipto?",
+      "options": [
+        "Jueces",
+        "Génesis",
+        "Números",
+        "Éxodo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 12:29"
+      ],
+      "explanation": "Éxodo cuenta cómo Dios envió plagas sobre Egipto para libertar a Israel.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0006",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se cuenta la caída de las murallas de Jericó?",
+      "options": [
+        "Rut",
+        "Josué",
+        "Jueces",
+        "1 Samuel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Josué 6:20"
+      ],
+      "explanation": "Los muros de Jericó cayeron en tiempos de Josué.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0007",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué Evangelio se relata la parábola del hijo pródigo?",
+      "options": [
+        "Marcos",
+        "Juan",
+        "Mateo",
+        "Lucas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 15:11-32"
+      ],
+      "explanation": "La parábola del hijo pródigo aparece solo en el Evangelio de Lucas.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0008",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se relata la caída de Adán y Eva?",
+      "options": [
+        "Salmos",
+        "Éxodo",
+        "Génesis",
+        "Job"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 3:1-6"
+      ],
+      "explanation": "Génesis 3 cuenta cómo el hombre y la mujer desobedecieron a Dios.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0009",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata la parábola del buen samaritano?",
+      "options": [
+        "Juan",
+        "Mateo",
+        "Lucas",
+        "Marcos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 10:30-37"
+      ],
+      "explanation": "El buen samaritano aparece solo en el Evangelio de Lucas.",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0010",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata el combate de David contra Goliat?",
+      "options": [
+        "1 Samuel",
+        "2 Samuel",
+        "1 Reyes",
+        "Jueces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 17:48-50"
+      ],
+      "explanation": "David y Goliat se encuentran en 1 Samuel 17.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0011",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se encuentran los dichos de sabiduría atribuidos en gran parte a Salomón?",
+      "options": [
+        "Proverbios",
+        "Job",
+        "Cantares",
+        "Salmos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Proverbios 1:1"
+      ],
+      "explanation": "Proverbios reúne dichos de sabiduría, muchos de ellos de Salomón.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0012",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relatan los pastores y el pesebre en el nacimiento de Jesús?",
+      "options": [
+        "Lucas",
+        "Juan",
+        "Marcos",
+        "Mateo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 2:8-16"
+      ],
+      "explanation": "Lucas cuenta que los pastores visitaron al niño acostado en un pesebre.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0013",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata la visita de los magos de oriente?",
+      "options": [
+        "Juan",
+        "Mateo",
+        "Marcos",
+        "Lucas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 2:1-2"
+      ],
+      "explanation": "Solo Mateo relata la visita de los magos que buscaban al rey de los judíos.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0014",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata la conversión de Pablo en el camino a Damasco?",
+      "options": [
+        "Hechos",
+        "Gálatas",
+        "Filipenses",
+        "Romanos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 9:1-19"
+      ],
+      "explanation": "Hechos 9 narra cómo Saulo encontró al Señor en el camino a Damasco.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0015",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se narra la venida del Espíritu Santo en Pentecostés?",
+      "options": [
+        "Juan",
+        "Apocalipsis",
+        "Hechos",
+        "Romanos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 2:1-4"
+      ],
+      "explanation": "Hechos 2 relata el derramamiento del Espíritu Santo.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0016",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata la resurrección de Lázaro?",
+      "options": [
+        "Lucas",
+        "Marcos",
+        "Mateo",
+        "Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 11:43-44"
+      ],
+      "explanation": "La resurrección de Lázaro solo la relata el Evangelio de Juan.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0017",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata la boda de Caná?",
+      "options": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "Juan relata la primera señal de Jesús en las bodas de Caná.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0018",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué carta se describe el amor como paciente y bondadoso, y se dice que sin amor nada soy?",
+      "options": [
+        "1 Corintios",
+        "Santiago",
+        "Romanos",
+        "1 Juan"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 13:1-3"
+      ],
+      "explanation": "El capítulo 13 de 1 Corintios habla del amor como el camino más excelente.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0019",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata a tres jóvenes echados en un horno de fuego?",
+      "options": [
+        "Ezequiel",
+        "Daniel",
+        "Esdras",
+        "Ester"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 3:19-23"
+      ],
+      "explanation": "El horno de fuego aparece en Daniel 3.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0020",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se describen las siete iglesias de Asia?",
+      "options": [
+        "Hebreos",
+        "Hechos",
+        "Judas",
+        "Apocalipsis"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 1:11"
+      ],
+      "explanation": "Apocalipsis 2 y 3 contienen los mensajes a las siete iglesias.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0021",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata el llamamiento de Moisés desde la zarza?",
+      "options": [
+        "Éxodo",
+        "Deuteronomio",
+        "Génesis",
+        "Números"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 3:2-4"
+      ],
+      "explanation": "Dios llamó a Moisés desde la zarza ardiente, como cuenta Éxodo 3.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0022",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro sufre un hombre justo grandes pérdidas y dialoga con sus amigos?",
+      "options": [
+        "Eclesiastés",
+        "Job",
+        "Salmos",
+        "Proverbios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Job 2:11"
+      ],
+      "explanation": "El libro de Job relata el sufrimiento de Job y sus conversaciones con sus amigos.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0023",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata la conversación de Jesús con Nicodemo?",
+      "options": [
+        "Juan",
+        "Mateo",
+        "Marcos",
+        "Lucas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 3:1-2"
+      ],
+      "explanation": "Juan 3 recoge el diálogo de Jesús con Nicodemo sobre el nuevo nacimiento.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0024",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se relata el desafío de Elías en el monte Carmelo?",
+      "options": [
+        "1 Reyes",
+        "2 Reyes",
+        "2 Crónicas",
+        "1 Samuel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 18:36-39"
+      ],
+      "explanation": "El desafío de Elías a los profetas de Baal está en 1 Reyes 18.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0025",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se relata la visión del valle de huesos secos?",
+      "options": [
+        "Ezequiel",
+        "Jeremías",
+        "Daniel",
+        "Isaías"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Ezequiel 37:1-4"
+      ],
+      "explanation": "Ezequiel 37 narra la visión del valle de huesos secos.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0026",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro está la visión del Señor sentado en un trono alto, con serafines que lo alababan?",
+      "options": [
+        "Ezequiel",
+        "Jeremías",
+        "Isaías",
+        "Daniel"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 6:1-3"
+      ],
+      "explanation": "Isaías 6 describe esta visión y el llamamiento del profeta.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0027",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata la conversación de Jesús con la mujer samaritana?",
+      "options": [
+        "Juan",
+        "Mateo",
+        "Lucas",
+        "Marcos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 4:7-9"
+      ],
+      "explanation": "Juan 4 recoge el diálogo junto al pozo de Jacob.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0028",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata cuando Jesús lavó los pies de sus discípulos?",
+      "options": [
+        "Marcos",
+        "Mateo",
+        "Lucas",
+        "Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 13:4-5"
+      ],
+      "explanation": "Solo el Evangelio de Juan relata el lavamiento de pies.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0029",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se describe la Nueva Jerusalén que desciende del cielo?",
+      "options": [
+        "Ezequiel",
+        "Apocalipsis",
+        "Isaías",
+        "Hebreos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Apocalipsis 21:2"
+      ],
+      "explanation": "Apocalipsis 21 describe la santa ciudad, la nueva Jerusalén, que desciende de Dios.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0030",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro profético se describe al siervo sufriente que carga con los pecados de muchos?",
+      "options": [
+        "Ezequiel",
+        "Daniel",
+        "Jeremías",
+        "Isaías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Isaías 53:5-6"
+      ],
+      "explanation": "Isaías 53 anuncia al siervo que lleva el pecado de muchos.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0031",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro reflexiona un sabio sobre el sentido de la vida debajo del sol?",
+      "options": [
+        "Eclesiastés",
+        "Proverbios",
+        "Cantares",
+        "Job"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Eclesiastés 1:2-3"
+      ],
+      "explanation": "Eclesiastés examina la vida debajo del sol y concluye llamando a temer a Dios.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0032",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se anuncia un nuevo pacto escrito en el corazón?",
+      "options": [
+        "Ezequiel",
+        "Oseas",
+        "Isaías",
+        "Jeremías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jeremías 31:31-33"
+      ],
+      "explanation": "Jeremías 31 anuncia que Dios hará un nuevo pacto y escribirá su ley en el corazón.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0033",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué carta recuerda Pablo cómo el Señor instituyó la Cena?",
+      "options": [
+        "Efesios",
+        "Romanos",
+        "1 Corintios",
+        "Hebreos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 11:23-26"
+      ],
+      "explanation": "Pablo transmite a los corintios lo que recibió del Señor sobre la Cena.",
+      "tags": [
+        "pablo",
+        "cena-del-senor"
+      ],
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-historia-0007",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según Génesis, ¿qué hizo Dios en el séptimo día?",
+      "options": [
+        "Llamó a Abraham",
+        "Descansó de toda su obra",
+        "Envió el diluvio",
+        "Creó a los animales"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 2:2"
+      ],
+      "explanation": "Al terminar la creación, Dios descansó en el séptimo día.",
+      "tags": [
+        "creacion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0008",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué señal puso Dios en las nubes como pacto después del diluvio?",
+      "options": [
+        "Un cometa",
+        "Una columna de fuego",
+        "El arco iris",
+        "Una estrella"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 9:13-16"
+      ],
+      "explanation": "El arco iris es la señal del pacto de Dios de no destruir de nuevo la tierra con un diluvio.",
+      "tags": [
+        "diluvio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0009",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos hijos tuvo Jacob?",
+      "options": [
+        "Catorce",
+        "Doce",
+        "Siete",
+        "Diez"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 35:22-26"
+      ],
+      "explanation": "Jacob tuvo doce hijos, de los que descienden las doce tribus de Israel.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0010",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue vendido por sus hermanos a unos mercaderes?",
+      "options": [
+        "Benjamín",
+        "Judá",
+        "Rubén",
+        "José"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 37:28"
+      ],
+      "explanation": "Los hermanos de José lo vendieron por veinte piezas de plata a unos mercaderes ismaelitas.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0011",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué país llegó a ser José gobernador?",
+      "options": [
+        "Asiria",
+        "Persia",
+        "Babilonia",
+        "Egipto"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 41:41"
+      ],
+      "explanation": "El faraón puso a José sobre toda la tierra de Egipto.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0012",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos mandamientos escribió Dios en las tablas de piedra?",
+      "options": [
+        "Cinco",
+        "Diez",
+        "Doce",
+        "Siete"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 34:28",
+        "Deuteronomio 10:4"
+      ],
+      "explanation": "Dios escribió las diez palabras, o Diez Mandamientos, en dos tablas de piedra.",
+      "tags": [
+        "exodo",
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0013",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué alimento envió Dios del cielo para Israel en el desierto?",
+      "options": [
+        "Dátiles",
+        "Higos",
+        "Maná",
+        "Aceitunas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 16:14-15"
+      ],
+      "explanation": "Dios alimentó a Israel con maná durante cuarenta años.",
+      "tags": [
+        "exodo",
+        "desierto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0014",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué río cruzó Israel para entrar en la tierra prometida?",
+      "options": [
+        "El Jordán",
+        "El Tigris",
+        "El Éufrates",
+        "El Nilo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 3:17"
+      ],
+      "explanation": "Israel cruzó el Jordán en seco, con Josué como líder.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0015",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué ciudad cayó cuando el pueblo gritó y sonaron las trompetas?",
+      "options": [
+        "Hai",
+        "Gaza",
+        "Jerusalén",
+        "Jericó"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Josué 6:20"
+      ],
+      "explanation": "Los muros de Jericó cayeron después de que el pueblo rodeó la ciudad y gritó.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0016",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿A quién venció David con una honda y una piedra?",
+      "options": [
+        "A Saúl",
+        "A Goliat",
+        "A Absalón",
+        "A Abner"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Samuel 17:49-50"
+      ],
+      "explanation": "David derrotó al gigante filisteo Goliat con una piedra de su honda.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0017",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué rey de Israel construyó el templo de Jerusalén?",
+      "options": [
+        "Saúl",
+        "David",
+        "Salomón",
+        "Acab"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 6:1",
+        "2 Crónicas 3:1"
+      ],
+      "explanation": "Salomón edificó el templo en Jerusalén, como David su padre había deseado.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0018",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuánto tiempo estuvo Jonás dentro del gran pez?",
+      "options": [
+        "Un día",
+        "Cuarenta días",
+        "Tres días y tres noches",
+        "Siete días"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jonás 1:17"
+      ],
+      "explanation": "Jonás estuvo tres días y tres noches en el vientre del gran pez.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0019",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué hizo Jesús al tercer día después de su crucifixión?",
+      "options": [
+        "Ascendió al cielo",
+        "Resucitó",
+        "Regresó a Nazaret",
+        "Fue bautizado"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 24:6-7",
+        "1 Corintios 15:3-4"
+      ],
+      "explanation": "Jesús resucitó al tercer día, conforme a las Escrituras.",
+      "tags": [
+        "jesus",
+        "resurreccion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0020",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos apóstoles escogió Jesús?",
+      "options": [
+        "Diez",
+        "Siete",
+        "Doce",
+        "Setenta"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Marcos 3:14"
+      ],
+      "explanation": "Jesús designó a doce para que estuvieran con él y para enviarlos a predicar.",
+      "tags": [
+        "jesus",
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0021",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos días estuvo Jesús en el desierto antes de ser tentado?",
+      "options": [
+        "Cuarenta",
+        "Treinta",
+        "Siete",
+        "Tres"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 4:1-2"
+      ],
+      "explanation": "Después de ayunar cuarenta días y cuarenta noches, Jesús fue tentado por el diablo.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0022",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál fue el primer milagro de Jesús que relata Juan?",
+      "options": [
+        "Resucitar a Lázaro",
+        "Convertir el agua en vino",
+        "Caminar sobre el agua",
+        "Sanar a un ciego"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "En las bodas de Caná de Galilea Jesús convirtió el agua en vino.",
+      "tags": [
+        "jesus",
+        "milagros"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0023",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Con cuántos panes y peces alimentó Jesús a cinco mil hombres?",
+      "options": [
+        "Cinco panes y dos peces",
+        "Tres panes y un pez",
+        "Doce panes y tres peces",
+        "Siete panes y pocos peces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 14:17-21"
+      ],
+      "explanation": "Con cinco panes y dos peces Jesús dio de comer a la multitud y sobraron doce cestas.",
+      "tags": [
+        "jesus",
+        "milagros"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0024",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué hizo Jesús con la tormenta en el mar de Galilea?",
+      "options": [
+        "Dejó que pasara sola",
+        "La evitó navegando hacia la orilla",
+        "La calmó con su palabra",
+        "Pidió a los discípulos que remaran más fuerte"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Marcos 4:39"
+      ],
+      "explanation": "Jesús reprendió al viento y al mar, y se hizo gran calma.",
+      "tags": [
+        "jesus",
+        "milagros"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0025",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién pidió Dios a Abraham que ofreciera en sacrificio?",
+      "options": [
+        "A Lot",
+        "A Ismael",
+        "A su hijo Isaac",
+        "A Jacob"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 22:2"
+      ],
+      "explanation": "Dios probó a Abraham pidiéndole a su hijo Isaac, y detuvo su mano antes de que lo sacrificara.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0026",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días y noches llovió durante el diluvio?",
+      "options": [
+        "Cuarenta",
+        "Siete",
+        "Doce",
+        "Cien"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 7:12"
+      ],
+      "explanation": "Llovió sobre la tierra cuarenta días y cuarenta noches.",
+      "tags": [
+        "diluvio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0027",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál fue la última plaga que Dios envió sobre Egipto?",
+      "options": [
+        "La muerte de los primogénitos",
+        "Las langostas",
+        "Las tinieblas",
+        "El granizo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 12:29-30"
+      ],
+      "explanation": "La décima plaga fue la muerte de los primogénitos; después el faraón dejó salir a Israel.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0028",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué monte recibió Moisés la ley?",
+      "options": [
+        "El Hermón",
+        "El Nebo",
+        "El Carmelo",
+        "El Sinaí"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 19:20",
+        "Éxodo 31:18"
+      ],
+      "explanation": "Dios entregó a Moisés las tablas de la ley en el monte Sinaí.",
+      "tags": [
+        "exodo",
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0029",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos años anduvo Israel por el desierto?",
+      "options": [
+        "Cuarenta",
+        "Setenta",
+        "Diez",
+        "Veinte"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 14:33-34"
+      ],
+      "explanation": "Por no confiar en Dios, Israel anduvo cuarenta años por el desierto antes de entrar en la tierra.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0030",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién guió a Israel a la tierra prometida después de Moisés?",
+      "options": [
+        "Aarón",
+        "Samuel",
+        "Caleb",
+        "Josué"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Josué 1:1-2"
+      ],
+      "explanation": "Dios encargó a Josué, siervo de Moisés, que condujera al pueblo al otro lado del Jordán.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0031",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién ungió Samuel como rey después de Saúl?",
+      "options": [
+        "A Jonatán",
+        "A David",
+        "A Salomón",
+        "A Absalón"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Samuel 16:13"
+      ],
+      "explanation": "Samuel ungió a David, el menor de los hijos de Isaí, en Belén.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0032",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué profeta desafió a los profetas de Baal en el monte Carmelo?",
+      "options": [
+        "Isaías",
+        "Elías",
+        "Eliseo",
+        "Jeremías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 18:19-39"
+      ],
+      "explanation": "Elías invocó a Dios en el Carmelo y cayó fuego del cielo.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0033",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué ciudad fue llevado cautivo el pueblo de Judá?",
+      "options": [
+        "Nínive",
+        "Damasco",
+        "Babilonia",
+        "Roma"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Reyes 25:11",
+        "Salmos 137:1"
+      ],
+      "explanation": "Nabucodonosor llevó cautivo a Judá a Babilonia.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0034",
+      "module": "core",
+      "category": "historia",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Sadrac, Mesac y Abed-nego fueron echados a un horno de fuego por negarse a adorar una estatua.",
+      "answer": true,
+      "references": [
+        "Daniel 3:19-23"
+      ],
+      "explanation": "Los tres jóvenes se negaron a adorar la estatua del rey y Dios los guardó en medio del fuego.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0035",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué reina salvó a su pueblo de un plan de exterminio?",
+      "options": [
+        "Débora",
+        "Ester",
+        "Ana",
+        "Rut"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Ester 4:14-16",
+        "Ester 7:3-4"
+      ],
+      "explanation": "Ester intercedió ante el rey Asuero y su pueblo fue librado.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0036",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién encontró al niño Moisés en el río?",
+      "options": [
+        "Su madre",
+        "La hija del faraón",
+        "Una pastora de Madián",
+        "Miriam"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 2:5-6"
+      ],
+      "explanation": "La hija del faraón lo halló entre los juncos del Nilo y lo adoptó.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0037",
+      "module": "core",
+      "category": "historia",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Jonás huyó en un barco hacia Tarsis en lugar de ir a Nínive.",
+      "answer": true,
+      "references": [
+        "Jonás 1:3"
+      ],
+      "explanation": "Jonás se levantó para huir de la presencia de Dios y tomó un barco hacia Tarsis.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0038",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué fiesta descendió el Espíritu Santo sobre los discípulos?",
+      "options": [
+        "Los Tabernáculos",
+        "La Pascua",
+        "Pentecostés",
+        "La fiesta de la Dedicación"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 2:1-4"
+      ],
+      "explanation": "El Espíritu Santo vino sobre los discípulos reunidos el día de Pentecostés.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0039",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué rey mandó matar a los niños de Belén?",
+      "options": [
+        "César Augusto",
+        "Pilato",
+        "Herodes",
+        "Agripa"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 2:16"
+      ],
+      "explanation": "Herodes mandó matar a los niños menores de dos años en Belén y su comarca.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0040",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue el primer mártir cristiano mencionado en Hechos?",
+      "options": [
+        "Santiago",
+        "Esteban",
+        "Pedro",
+        "Pablo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 7:59-60"
+      ],
+      "explanation": "Esteban fue apedreado y oró por quienes lo mataban.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0041",
+      "module": "core",
+      "category": "historia",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos acontecimientos del Nuevo Testamento.",
+      "items": [
+        "Nacimiento de Jesús",
+        "Bautismo de Jesús",
+        "Crucifixión",
+        "Resurrección",
+        "Pentecostés"
+      ],
+      "references": [
+        "Lucas 2:7",
+        "Mateo 3:16",
+        "Juan 19:18",
+        "Lucas 24:6",
+        "Hechos 2:4"
+      ],
+      "explanation": "Sucedieron en este orden: nacimiento, bautismo, crucifixión, resurrección y Pentecostés.",
+      "tags": [
+        "jesus",
+        "cronologia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0042",
+      "module": "core",
+      "category": "historia",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena a estos patriarcas por generaciones, del más antiguo al más reciente.",
+      "items": [
+        "Abraham",
+        "Isaac",
+        "Jacob",
+        "José"
+      ],
+      "references": [
+        "Génesis 12:1",
+        "Génesis 21:3",
+        "Génesis 25:26",
+        "Génesis 37:5"
+      ],
+      "explanation": "Isaac era hijo de Abraham, Jacob hijo de Isaac y José hijo de Jacob.",
+      "tags": [
+        "patriarcas",
+        "cronologia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0043",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos años reinó Salomón en Jerusalén sobre todo Israel?",
+      "options": [
+        "Veinte",
+        "Cuarenta",
+        "Treinta",
+        "Cincuenta"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 11:42"
+      ],
+      "explanation": "Salomón reinó cuarenta años en Jerusalén.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0044",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo derrotó Gedeón a los madianitas?",
+      "options": [
+        "Con carros de hierro",
+        "Con un ejército de diez mil soldados",
+        "Con trescientos hombres, trompetas y cántaros",
+        "Con mil arqueros en una emboscada"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jueces 7:7",
+        "Jueces 7:19-22"
+      ],
+      "explanation": "Dios redujo el ejército de Gedeón a trescientos hombres, que vencieron con trompetas, cántaros y antorchas.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0045",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos años duraría el cautiverio en Babilonia, según Jeremías?",
+      "options": [
+        "Setenta",
+        "Ciento cincuenta",
+        "Cien",
+        "Cuarenta"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jeremías 25:11-12",
+        "Jeremías 29:10"
+      ],
+      "explanation": "Jeremías anunció que el cautiverio duraría setenta años.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0046",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué rey persa permitió a los judíos volver a Jerusalén para reedificar el templo?",
+      "options": [
+        "Ciro",
+        "Nabucodonosor",
+        "Asuero",
+        "Darío el medo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Esdras 1:1-3"
+      ],
+      "explanation": "Ciro, rey de Persia, decretó que los judíos regresaran a edificar la casa de Dios en Jerusalén.",
+      "tags": [
+        "exilio",
+        "regreso"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0047",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos días tardaron en reconstruir el muro de Jerusalén bajo Nehemías?",
+      "options": [
+        "Cincuenta y dos",
+        "Siete",
+        "Cuarenta",
+        "Ciento veinte"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Nehemías 6:15"
+      ],
+      "explanation": "El muro se terminó en cincuenta y dos días.",
+      "tags": [
+        "regreso"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0048",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál fue la capital del reino del norte, Israel?",
+      "options": [
+        "Betel",
+        "Hebrón",
+        "Jerusalén",
+        "Samaria"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Reyes 16:24"
+      ],
+      "explanation": "El rey Omri compró el monte de Samaria y edificó allí la capital de Israel.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0049",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué rey provocó la división del reino al responder con dureza al pueblo?",
+      "options": [
+        "Asa",
+        "Roboam",
+        "Ezequías",
+        "Joás"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 12:13-16"
+      ],
+      "explanation": "Roboam rechazó el consejo de los ancianos y diez tribus se separaron de la casa de David.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0050",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué apóstol fue sacado de la cárcel por un ángel?",
+      "options": [
+        "Pedro",
+        "Santiago",
+        "Pablo",
+        "Juan"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 12:7-10"
+      ],
+      "explanation": "Un ángel del Señor sacó a Pedro de la cárcel y se le cayeron las cadenas.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0051",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué reina impulsó el culto a Baal en Israel junto con su esposo Acab?",
+      "options": [
+        "Jezabel",
+        "Vasti",
+        "Betsabé",
+        "Atalía"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 16:31"
+      ],
+      "explanation": "Acab se casó con Jezabel, hija del rey de los sidonios, y sirvió a Baal.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0052",
+      "module": "core",
+      "category": "historia",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estos acontecimientos de la historia de Israel.",
+      "items": [
+        "La salida de Egipto",
+        "La entrega de la ley en el Sinaí",
+        "El cruce del Jordán",
+        "La caída de Jericó"
+      ],
+      "references": [
+        "Éxodo 12:51",
+        "Éxodo 20:1",
+        "Josué 3:17",
+        "Josué 6:20"
+      ],
+      "explanation": "Primero salieron de Egipto, recibieron la ley en el Sinaí, cruzaron el Jordán y tomaron Jericó.",
+      "tags": [
+        "cronologia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0053",
+      "module": "core",
+      "category": "historia",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena a estos reyes según su reinado.",
+      "items": [
+        "Saúl",
+        "David",
+        "Salomón",
+        "Roboam"
+      ],
+      "references": [
+        "1 Samuel 10:1",
+        "2 Samuel 5:3",
+        "1 Reyes 1:39",
+        "1 Reyes 12:1"
+      ],
+      "explanation": "Saúl fue el primer rey, seguido de David, Salomón y Roboam.",
+      "tags": [
+        "monarquia",
+        "cronologia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0054",
+      "module": "core",
+      "category": "historia",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Israel cruzó el mar Rojo antes de llegar al monte Sinaí.",
+      "answer": true,
+      "references": [
+        "Éxodo 14:22",
+        "Éxodo 19:1-2"
+      ],
+      "explanation": "Primero cruzaron el mar Rojo y después, en el tercer mes, llegaron al desierto de Sinaí.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0055",
+      "module": "core",
+      "category": "historia",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Josué murió antes de que Israel cruzara el Jordán.",
+      "answer": false,
+      "references": [
+        "Josué 3:17"
+      ],
+      "explanation": "Josué dirigió el cruce del Jordán y la conquista de la tierra.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0056",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos años estuvieron los israelitas en Egipto, según Éxodo 12?",
+      "options": [
+        "430",
+        "215",
+        "600",
+        "70"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 12:40"
+      ],
+      "explanation": "El tiempo que los hijos de Israel habitaron en Egipto fue de cuatrocientos treinta años.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0057",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué rey de Judá vio retroceder la sombra del reloj de sol como señal de su sanidad?",
+      "options": [
+        "Ezequías",
+        "Uzías",
+        "Josías",
+        "Jotam"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 20:8-11"
+      ],
+      "explanation": "Dios hizo retroceder diez grados la sombra como señal de que Ezequías sanaría.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0058",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántas tribus le prometió Dios a Jeroboam?",
+      "options": [
+        "Dos",
+        "Cinco",
+        "Doce",
+        "Diez"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Reyes 11:31"
+      ],
+      "explanation": "El profeta Ahías rasgó su manto en doce pedazos y dio diez a Jeroboam.",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0059",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué ciudad conquistó Josué después de Jericó?",
+      "options": [
+        "Siquem",
+        "Gabaón",
+        "Hai",
+        "Betel"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Josué 8:28"
+      ],
+      "explanation": "Después de un primer fracaso por el pecado de Acán, Israel tomó Hai.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0060",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Quién fue el último rey de Judá antes de la caída de Jerusalén?",
+      "options": [
+        "Sedequías",
+        "Josías",
+        "Manasés",
+        "Joacim"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 25:7"
+      ],
+      "explanation": "Sedequías reinó hasta que Nabucodonosor tomó Jerusalén y lo llevó cautivo a Babilonia.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    }
+  ]
+}

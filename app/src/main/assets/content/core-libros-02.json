@@ -1,0 +1,1057 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-libros-0007",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué libro sigue a Génesis en la Biblia?",
+      "options": [
+        "Salmos",
+        "Éxodo",
+        "Josué",
+        "Levítico"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 1:1"
+      ],
+      "explanation": "Éxodo es el segundo libro de la Biblia y narra la salida de Israel de Egipto.",
+      "tags": [
+        "orden",
+        "pentateuco"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0008",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es el primer libro del Nuevo Testamento?",
+      "options": [
+        "Romanos",
+        "Hechos",
+        "Juan",
+        "Mateo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 1:1"
+      ],
+      "explanation": "El Nuevo Testamento comienza con el Evangelio según Mateo.",
+      "tags": [
+        "orden",
+        "nuevo-testamento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0009",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es el último libro del Antiguo Testamento?",
+      "options": [
+        "Zacarías",
+        "Daniel",
+        "Malaquías",
+        "Isaías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Malaquías 1:1"
+      ],
+      "explanation": "Malaquías cierra el Antiguo Testamento y va justo antes de Mateo.",
+      "tags": [
+        "orden",
+        "antiguo-testamento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0010",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué libro es una colección de cantos y oraciones?",
+      "options": [
+        "Job",
+        "Proverbios",
+        "Salmos",
+        "Eclesiastés"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 1:1"
+      ],
+      "explanation": "Salmos reúne cantos y oraciones de distintos autores, entre ellos David.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0011",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál de estos libros es un Evangelio?",
+      "options": [
+        "Santiago",
+        "Lucas",
+        "Hechos",
+        "Romanos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 1:1"
+      ],
+      "explanation": "Los cuatro Evangelios son Mateo, Marcos, Lucas y Juan.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0012",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Hechos es el quinto libro del Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "Hechos 1:1"
+      ],
+      "explanation": "Después de los cuatro Evangelios (Mateo, Marcos, Lucas y Juan) viene Hechos.",
+      "tags": [
+        "orden",
+        "nuevo-testamento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0013",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Josué es un libro del Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Josué 1:1"
+      ],
+      "explanation": "Josué pertenece al Antiguo Testamento y narra la entrada de Israel en la tierra prometida.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0014",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Romanos es una carta del apóstol Pablo.",
+      "answer": true,
+      "references": [
+        "Romanos 1:1"
+      ],
+      "explanation": "Romanos abre la serie de cartas de Pablo en el Nuevo Testamento.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0015",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué libro cuenta cómo creció la iglesia en sus primeros años?",
+      "options": [
+        "Judas",
+        "Apocalipsis",
+        "Hechos",
+        "Hebreos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 1:8"
+      ],
+      "explanation": "Hechos relata la extensión del evangelio desde Jerusalén hasta lugares lejanos.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0016",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál de estos libros es una carta del Nuevo Testamento?",
+      "options": [
+        "Gálatas",
+        "Ester",
+        "Jonás",
+        "Rut"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Gálatas 1:1"
+      ],
+      "explanation": "Gálatas es una carta de Pablo; Rut, Ester y Jonás son libros del Antiguo Testamento.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0017",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál de estos libros pertenece al Antiguo Testamento?",
+      "options": [
+        "Filemón",
+        "Tito",
+        "Judas",
+        "Ester"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ester 1:1"
+      ],
+      "explanation": "Ester es del Antiguo Testamento; Tito, Judas y Filemón son del Nuevo.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0018",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál de estos libros lleva el nombre de una mujer?",
+      "options": [
+        "Jonás",
+        "Rut",
+        "Josué",
+        "Daniel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Rut 1:1"
+      ],
+      "explanation": "El libro de Rut lleva el nombre de su protagonista, una mujer moabita.",
+      "tags": [
+        "historicos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0019",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos Evangelios hay en el Nuevo Testamento?",
+      "options": [
+        "Tres",
+        "Cinco",
+        "Cuatro",
+        "Seis"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 1:1",
+        "Juan 1:1"
+      ],
+      "explanation": "Son cuatro: Mateo, Marcos, Lucas y Juan.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0020",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué libro de la Biblia tiene 150 capítulos?",
+      "options": [
+        "Génesis",
+        "Salmos",
+        "Isaías",
+        "Proverbios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 150:1"
+      ],
+      "explanation": "Salmos es el libro más largo por número de capítulos: tiene 150.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0021",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estos libros pertenece a los profetas mayores?",
+      "options": [
+        "Joel",
+        "Amós",
+        "Oseas",
+        "Isaías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Isaías 1:1"
+      ],
+      "explanation": "Isaías, Jeremías, Ezequiel y Daniel se llaman profetas mayores por la extensión de sus libros.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0022",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estos libros es de los profetas menores?",
+      "options": [
+        "Miqueas",
+        "Jeremías",
+        "Isaías",
+        "Ezequiel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Miqueas 1:1"
+      ],
+      "explanation": "Los doce profetas menores van de Oseas a Malaquías; Miqueas es uno de ellos.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0023",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos libros tiene el Antiguo Testamento?",
+      "options": [
+        "27",
+        "39",
+        "66",
+        "46"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 1:1",
+        "Malaquías 1:1"
+      ],
+      "explanation": "El Antiguo Testamento tiene 39 libros, de Génesis a Malaquías.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0024",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos libros tiene el Nuevo Testamento?",
+      "options": [
+        "39",
+        "66",
+        "27",
+        "26"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 1:1",
+        "Apocalipsis 1:1"
+      ],
+      "explanation": "El Nuevo Testamento tiene 27 libros, de Mateo a Apocalipsis.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0025",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "En el Nuevo Testamento, las cartas de Pablo aparecen antes que el libro de Hechos.",
+      "answer": false,
+      "references": [
+        "Hechos 1:1",
+        "Romanos 1:1"
+      ],
+      "explanation": "Hechos viene antes; las cartas de Pablo empiezan con Romanos, después de Hechos.",
+      "tags": [
+        "orden",
+        "nuevo-testamento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0026",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué libro del Nuevo Testamento sigue a Hechos?",
+      "options": [
+        "Gálatas",
+        "Romanos",
+        "Santiago",
+        "Hebreos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 1:1"
+      ],
+      "explanation": "Después de Hechos comienzan las cartas de Pablo con Romanos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0027",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estas cartas lleva el nombre de un apóstol que no es Pablo?",
+      "options": [
+        "Filemón",
+        "Gálatas",
+        "Tito",
+        "1 Pedro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Pedro 1:1"
+      ],
+      "explanation": "1 Pedro fue escrita por el apóstol Pedro; las otras tres son de Pablo.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0028",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos libros históricos del Antiguo Testamento según su posición.",
+      "items": [
+        "Josué",
+        "Jueces",
+        "Rut",
+        "1 Samuel",
+        "1 Reyes"
+      ],
+      "references": [
+        "Josué 1:1",
+        "1 Reyes 1:1"
+      ],
+      "explanation": "El orden es Josué, Jueces, Rut, 1 Samuel y 1 Reyes.",
+      "tags": [
+        "orden",
+        "historicos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0029",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena los cinco libros de Moisés según su posición en la Biblia.",
+      "items": [
+        "Génesis",
+        "Éxodo",
+        "Levítico",
+        "Números",
+        "Deuteronomio"
+      ],
+      "references": [
+        "Génesis 1:1",
+        "Deuteronomio 1:1"
+      ],
+      "explanation": "El Pentateuco sigue el orden Génesis, Éxodo, Levítico, Números y Deuteronomio.",
+      "tags": [
+        "orden",
+        "pentateuco"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0030",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estas cartas de Pablo según su posición.",
+      "items": [
+        "Romanos",
+        "1 Corintios",
+        "Gálatas",
+        "Efesios",
+        "Filipenses"
+      ],
+      "references": [
+        "Romanos 1:1",
+        "Filipenses 1:1"
+      ],
+      "explanation": "Van en este orden: Romanos, 1 Corintios, Gálatas, Efesios y Filipenses.",
+      "tags": [
+        "orden",
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0031",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está entre Proverbios y Cantares?",
+      "options": [
+        "Eclesiastés",
+        "Isaías",
+        "Job",
+        "Salmos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Eclesiastés 1:1"
+      ],
+      "explanation": "Los libros poéticos siguen el orden Job, Salmos, Proverbios, Eclesiastés y Cantares.",
+      "tags": [
+        "orden",
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0032",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro sigue a Salmos?",
+      "options": [
+        "Job",
+        "Proverbios",
+        "Isaías",
+        "Eclesiastés"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 1:1"
+      ],
+      "explanation": "Después de Salmos viene Proverbios.",
+      "tags": [
+        "orden",
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0033",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está entre Hechos y 1 Corintios?",
+      "options": [
+        "Hebreos",
+        "Efesios",
+        "Gálatas",
+        "Romanos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Romanos 1:1"
+      ],
+      "explanation": "Entre Hechos y 1 Corintios está Romanos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0034",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta de Pablo está dirigida a una sola persona y es muy breve?",
+      "options": [
+        "Filemón",
+        "Efesios",
+        "Romanos",
+        "Colosenses"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filemón 1:1"
+      ],
+      "explanation": "Filemón es una carta breve que Pablo escribió a un hermano llamado Filemón.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0035",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estos libros del Antiguo Testamento tiene un solo capítulo?",
+      "options": [
+        "Joel",
+        "Abdías",
+        "Nahúm",
+        "Jonás"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Abdías 1:1"
+      ],
+      "explanation": "Abdías tiene un solo capítulo; Joel tiene 3, Jonás 4 y Nahúm 3.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0036",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "La carta de Santiago fue escrita por el apóstol Pablo.",
+      "answer": false,
+      "references": [
+        "Santiago 1:1"
+      ],
+      "explanation": "La carta se presenta como escrita por Santiago, siervo de Dios y del Señor Jesucristo.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0037",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena los profetas mayores y el libro de Lamentaciones según su posición.",
+      "items": [
+        "Isaías",
+        "Jeremías",
+        "Lamentaciones",
+        "Ezequiel",
+        "Daniel"
+      ],
+      "references": [
+        "Isaías 1:1",
+        "Daniel 1:1"
+      ],
+      "explanation": "Lamentaciones va justo después de Jeremías y antes de Ezequiel.",
+      "tags": [
+        "orden",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0038",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estos libros según su posición en la Biblia.",
+      "items": [
+        "Mateo",
+        "Hechos",
+        "Romanos",
+        "Hebreos",
+        "Apocalipsis"
+      ],
+      "references": [
+        "Mateo 1:1",
+        "Apocalipsis 1:1"
+      ],
+      "explanation": "El Nuevo Testamento sigue este orden: Mateo, Hechos, Romanos, Hebreos y Apocalipsis.",
+      "tags": [
+        "orden",
+        "nuevo-testamento"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0039",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántas cartas llevan el nombre de Pablo como autor, de Romanos a Filemón?",
+      "options": [
+        "14",
+        "10",
+        "13",
+        "12"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 1:1",
+        "Filemón 1:1"
+      ],
+      "explanation": "De Romanos a Filemón hay trece cartas que se presentan como de Pablo.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0040",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál de estos libros forma parte de los libros poéticos?",
+      "options": [
+        "Ester",
+        "Rut",
+        "Esdras",
+        "Job"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Job 1:1"
+      ],
+      "explanation": "Job, Salmos, Proverbios, Eclesiastés y Cantares son los libros poéticos.",
+      "tags": [
+        "poeticos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0041",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 4,
+      "question": "Ordena los profetas menores según su posición.",
+      "items": [
+        "Oseas",
+        "Joel",
+        "Amós",
+        "Abdías",
+        "Jonás"
+      ],
+      "references": [
+        "Oseas 1:1",
+        "Jonás 1:1"
+      ],
+      "explanation": "Los profetas menores comienzan con Oseas, Joel, Amós, Abdías y Jonás.",
+      "tags": [
+        "orden",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0042",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué libro está justo antes de Mateo?",
+      "options": [
+        "Isaías",
+        "Malaquías",
+        "Hechos",
+        "Zacarías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Malaquías 1:1",
+        "Mateo 1:1"
+      ],
+      "explanation": "Malaquías es el último libro del Antiguo Testamento y precede a Mateo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0043",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué libro está justo después de Josué?",
+      "options": [
+        "Rut",
+        "Jueces",
+        "1 Samuel",
+        "Deuteronomio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Josué 1:1",
+        "Jueces 1:1"
+      ],
+      "explanation": "Después de Josué viene Jueces.",
+      "tags": [
+        "orden",
+        "historicos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0044",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el Evangelio de Juan?",
+      "options": [
+        "16",
+        "24",
+        "28",
+        "21"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 21:1"
+      ],
+      "explanation": "El Evangelio de Juan tiene 21 capítulos.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0045",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene Apocalipsis?",
+      "options": [
+        "22",
+        "24",
+        "21",
+        "28"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Apocalipsis 22:1"
+      ],
+      "explanation": "Apocalipsis tiene 22 capítulos y cierra la Biblia.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0046",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene Génesis?",
+      "options": [
+        "50",
+        "40",
+        "52",
+        "66"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 50:1"
+      ],
+      "explanation": "Génesis tiene 50 capítulos.",
+      "tags": [
+        "pentateuco"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0047",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 5,
+      "question": "Ordena estos libros del Antiguo Testamento según su posición.",
+      "items": [
+        "Rut",
+        "Esdras",
+        "Ester",
+        "Job",
+        "Isaías",
+        "Daniel"
+      ],
+      "references": [
+        "Rut 1:1",
+        "Daniel 1:1"
+      ],
+      "explanation": "Rut, Esdras y Ester son históricos; luego Job es poético; Isaías y Daniel son proféticos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0048",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué libro de la Biblia tiene 66 capítulos?",
+      "options": [
+        "Salmos",
+        "Ezequiel",
+        "Isaías",
+        "Jeremías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 66:1"
+      ],
+      "explanation": "Isaías tiene 66 capítulos, igual que el número de libros de la Biblia.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0049",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué libro tiene 52 capítulos?",
+      "options": [
+        "Jeremías",
+        "Génesis",
+        "Isaías",
+        "Ezequiel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jeremías 52:1"
+      ],
+      "explanation": "Jeremías tiene 52 capítulos.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0050",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Hechos?",
+      "options": [
+        "24",
+        "21",
+        "28",
+        "31"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 28:1"
+      ],
+      "explanation": "Hechos tiene 28 capítulos.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0051",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 5,
+      "question": "Lamentaciones se encuentra entre Jeremías y Ezequiel.",
+      "answer": true,
+      "references": [
+        "Lamentaciones 1:1"
+      ],
+      "explanation": "Lamentaciones va después de Jeremías y antes de Ezequiel.",
+      "tags": [
+        "orden",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0052",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué libro tiene 48 capítulos?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Ezequiel 48:1"
+      ],
+      "explanation": "Ezequiel tiene 48 capítulos.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    }
+  ]
+}

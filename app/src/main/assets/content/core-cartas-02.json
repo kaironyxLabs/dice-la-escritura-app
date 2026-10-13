@@ -1,0 +1,808 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-cartas-0004",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué carta afirma que todos pecaron y están destituidos de la gloria de Dios?",
+      "options": [
+        "Romanos",
+        "Judas",
+        "Filemón",
+        "Tito"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Romanos 3:23"
+      ],
+      "explanation": "Pablo enseña en Romanos que todos, judíos y gentiles, pecaron.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0005",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué carta se afirma que somos salvos por gracia mediante la fe?",
+      "options": [
+        "2 Juan",
+        "Efesios",
+        "Santiago",
+        "Judas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Efesios 2:8-9"
+      ],
+      "explanation": "Efesios 2 enseña que la salvación es por gracia, por medio de la fe, y no por obras.",
+      "tags": [
+        "pablo",
+        "gracia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0006",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué carta declara que Dios es amor?",
+      "options": [
+        "1 Juan",
+        "2 Pedro",
+        "Gálatas",
+        "Hebreos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Juan 4:8"
+      ],
+      "explanation": "Juan escribe que Dios es amor y que quien ama es nacido de Dios.",
+      "tags": [
+        "juan",
+        "amor"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0007",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta describe la armadura de Dios?",
+      "options": [
+        "Tito",
+        "Colosenses",
+        "Gálatas",
+        "Efesios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Efesios 6:11-17"
+      ],
+      "explanation": "Pablo anima a los efesios a vestirse de toda la armadura de Dios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0008",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta enumera el fruto del Espíritu?",
+      "options": [
+        "Hebreos",
+        "Gálatas",
+        "Romanos",
+        "Efesios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Gálatas 5:22-23"
+      ],
+      "explanation": "Gálatas 5 enumera amor, gozo, paz y los demás frutos del Espíritu.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0009",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta afirma que no hay ninguna condenación para los que están en Cristo Jesús?",
+      "options": [
+        "Filemón",
+        "1 Pedro",
+        "Romanos",
+        "Santiago"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 8:1"
+      ],
+      "explanation": "Romanos 8 comienza declarando que ya no hay condenación para los que están en Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0010",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta dice que la fe sin obras está muerta?",
+      "options": [
+        "Gálatas",
+        "Santiago",
+        "Filipenses",
+        "Efesios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Santiago 2:17",
+        "Santiago 2:26"
+      ],
+      "explanation": "Santiago enseña que la fe verdadera se muestra en obras.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0011",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta contiene la lista de los héroes de la fe?",
+      "options": [
+        "Judas",
+        "Hebreos",
+        "Romanos",
+        "1 Timoteo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 11:1"
+      ],
+      "explanation": "Hebreos 11 recuerda a muchos que vivieron por fe.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0012",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta enseña sobre los dones espirituales y el cuerpo con muchos miembros?",
+      "options": [
+        "Tito",
+        "1 Corintios",
+        "Filipenses",
+        "3 Juan"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Corintios 12:4-12"
+      ],
+      "explanation": "Pablo compara a la iglesia con un cuerpo con muchos miembros y un mismo Espíritu.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0013",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta dice que si alguno está en Cristo, nueva criatura es?",
+      "options": [
+        "Judas",
+        "Hebreos",
+        "2 Corintios",
+        "Tito"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Corintios 5:17"
+      ],
+      "explanation": "Pablo enseña que las cosas viejas pasaron y todas son hechas nuevas en Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0014",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "La carta a los Hebreos presenta a Jesús como sumo sacerdote.",
+      "answer": true,
+      "references": [
+        "Hebreos 4:14"
+      ],
+      "explanation": "Hebreos enseña que tenemos un gran sumo sacerdote, Jesús, el Hijo de Dios.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0015",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta animó con gozo a los creyentes aunque su autor estaba preso?",
+      "options": [
+        "Tito",
+        "Filipenses",
+        "Santiago",
+        "Gálatas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Filipenses 1:13",
+        "Filipenses 4:4"
+      ],
+      "explanation": "Pablo escribió a los filipenses desde la cárcel invitándolos a regocijarse en el Señor.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0016",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta aconseja ser pronto para oír y tardo para hablar?",
+      "options": [
+        "Santiago",
+        "Efesios",
+        "Romanos",
+        "Hebreos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Santiago 1:19"
+      ],
+      "explanation": "Santiago exhorta a ser pronto para oír, tardo para hablar y tardo para airarse.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0017",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta compara la lengua con un fuego pequeño que puede incendiar un gran bosque?",
+      "options": [
+        "1 Pedro",
+        "Hebreos",
+        "Santiago",
+        "Judas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Santiago 3:5-6"
+      ],
+      "explanation": "Santiago advierte del poder de la lengua.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0018",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta habla del regreso del Señor con voz de arcángel y trompeta de Dios?",
+      "options": [
+        "Filemón",
+        "1 Tesalonicenses",
+        "Tito",
+        "Gálatas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Tesalonicenses 4:16-17"
+      ],
+      "explanation": "Pablo consuela a los tesalonicenses con la esperanza del regreso del Señor.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0019",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta se describen los requisitos de los obispos y de los diáconos?",
+      "options": [
+        "1 Timoteo",
+        "2 Juan",
+        "Judas",
+        "Filemón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Timoteo 3:1-13"
+      ],
+      "explanation": "Pablo indica a Timoteo las cualidades de quienes sirven a la iglesia como obispos y diáconos.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0020",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta contiene la despedida de Pablo, quien dice haber acabado la carrera?",
+      "options": [
+        "Filemón",
+        "1 Tesalonicenses",
+        "Tito",
+        "2 Timoteo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Timoteo 4:6-8"
+      ],
+      "explanation": "Pablo, cerca del final de su vida, escribe a Timoteo que ha peleado la buena batalla y acabado la carrera.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0021",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta anima a presentar el cuerpo como sacrificio vivo, santo y agradable a Dios?",
+      "options": [
+        "Colosenses",
+        "Romanos",
+        "1 Pedro",
+        "Santiago"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 12:1"
+      ],
+      "explanation": "Pablo pide presentar los cuerpos en sacrificio vivo como culto racional.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0022",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta habla de Cristo resucitado como primicias de los que durmieron?",
+      "options": [
+        "Filemón",
+        "Santiago",
+        "Efesios",
+        "1 Corintios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Corintios 15:20"
+      ],
+      "explanation": "Pablo afirma que Cristo resucitó y es las primicias de los que durmieron.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0023",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta dice que la palabra de Dios es viva y eficaz, más cortante que toda espada de dos filos?",
+      "options": [
+        "Hebreos",
+        "Romanos",
+        "Efesios",
+        "Santiago"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 4:12"
+      ],
+      "explanation": "Hebreos presenta la Palabra de Dios como viva, eficaz y capaz de discernir los pensamientos.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0024",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta dice que Dios ama al dador alegre?",
+      "options": [
+        "Gálatas",
+        "Tito",
+        "Judas",
+        "2 Corintios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Corintios 9:7"
+      ],
+      "explanation": "Pablo anima a dar con alegría y no por obligación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0025",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta contiene la frase de estar juntamente crucificado con Cristo, de modo que ya no vivo yo?",
+      "options": [
+        "Gálatas",
+        "Tito",
+        "3 Juan",
+        "Filemón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Gálatas 2:20"
+      ],
+      "explanation": "Pablo explica que vive por la fe en el Hijo de Dios, que se entregó por él.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0026",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta dice que el que no quiere trabajar, tampoco coma?",
+      "options": [
+        "Efesios",
+        "1 Corintios",
+        "2 Tesalonicenses",
+        "Filipenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Tesalonicenses 3:10"
+      ],
+      "explanation": "Pablo reprendió a quienes vivían desordenadamente sin trabajar.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0027",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A quién se dirige la segunda carta de Juan?",
+      "options": [
+        "A Gayo",
+        "A la señora elegida y a sus hijos",
+        "A las siete iglesias",
+        "A Diótrefes"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Juan 1:1"
+      ],
+      "explanation": "El anciano escribe a la señora elegida y a sus hijos.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0028",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A quién se dirige la tercera carta de Juan?",
+      "options": [
+        "A Timoteo",
+        "A Tito",
+        "A Filemón",
+        "A Gayo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "3 Juan 1:1"
+      ],
+      "explanation": "Juan escribe a Gayo, el amado, a quien ama en verdad.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0029",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta exhorta a contender ardientemente por la fe que ha sido una vez dada a los santos?",
+      "options": [
+        "Santiago",
+        "Judas",
+        "2 Pedro",
+        "Tito"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Judas 1:3"
+      ],
+      "explanation": "Judas pide contender por la fe dada una vez a los santos.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0030",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta dice que ya no hay judío ni griego, esclavo ni libre, varón ni mujer, porque todos son uno en Cristo?",
+      "options": [
+        "Gálatas",
+        "Filemón",
+        "Hebreos",
+        "Santiago"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Gálatas 3:28"
+      ],
+      "explanation": "Pablo enseña que en Cristo desaparecen esas divisiones.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0031",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta describe a Cristo como imagen del Dios invisible, primogénito de toda creación?",
+      "options": [
+        "Colosenses",
+        "Gálatas",
+        "Tito",
+        "Judas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Colosenses 1:15"
+      ],
+      "explanation": "Colosenses presenta la supremacía de Cristo sobre toda la creación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0032",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta dice que el amor al dinero es la raíz de todos los males?",
+      "options": [
+        "Filemón",
+        "1 Timoteo",
+        "Tito",
+        "Santiago"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Timoteo 6:10"
+      ],
+      "explanation": "Pablo advierte a Timoteo sobre el peligro del amor al dinero.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0033",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta exhorta a estar siempre preparados para presentar defensa de la esperanza que hay en nosotros?",
+      "options": [
+        "Judas",
+        "Santiago",
+        "Hebreos",
+        "1 Pedro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Pedro 3:15"
+      ],
+      "explanation": "Pedro anima a responder con mansedumbre y reverencia a quien pida razón de la esperanza.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0034",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta dice que Pablo dejó a Tito en Creta?",
+      "options": [
+        "Tito",
+        "Filemón",
+        "2 Timoteo",
+        "Judas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Tito 1:5"
+      ],
+      "explanation": "Pablo escribe a Tito, a quien dejó en Creta para poner orden y establecer ancianos.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0035",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta habla de Cristo, que se humilló hasta la muerte de cruz y fue exaltado por Dios?",
+      "options": [
+        "Gálatas",
+        "Tito",
+        "Judas",
+        "Filipenses"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Filipenses 2:5-8"
+      ],
+      "explanation": "Pablo presenta el ejemplo de humildad de Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0036",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta pide someterse a las autoridades superiores porque no hay autoridad sino de parte de Dios?",
+      "options": [
+        "1 Juan",
+        "Romanos",
+        "Santiago",
+        "Filemón"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 13:1"
+      ],
+      "explanation": "Pablo enseña a los romanos a sujetarse a las autoridades que Dios ha establecido.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0037",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta explica cómo debe celebrarse la Cena del Señor y advierte contra participar indignamente?",
+      "options": [
+        "Tito",
+        "Judas",
+        "1 Corintios",
+        "Hebreos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 11:23-29"
+      ],
+      "explanation": "Pablo recuerda a los corintios lo que recibió del Señor sobre la Cena y los exhorta a examinarse.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0038",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué carta afirma que ninguna profecía de la Escritura es de interpretación privada?",
+      "options": [
+        "2 Pedro",
+        "Judas",
+        "Santiago",
+        "1 Pedro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Pedro 1:20-21"
+      ],
+      "explanation": "Pedro enseña que los hombres hablaron de parte de Dios, movidos por el Espíritu Santo.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    }
+  ]
+}

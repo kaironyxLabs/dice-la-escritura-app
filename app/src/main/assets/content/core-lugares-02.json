@@ -1,0 +1,705 @@
+{
+  "contentVersion": 2,
+  "questions": [
+    {
+      "id": "core-lugares-0005",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cómo se llamó el huerto donde Dios puso a Adán y Eva?",
+      "options": [
+        "Sinaí",
+        "Edén",
+        "Carmelo",
+        "Getsemaní"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 2:8"
+      ],
+      "explanation": "Dios plantó un huerto en Edén y puso allí al hombre.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0006",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué ciudad creció Jesús?",
+      "options": [
+        "Jericó",
+        "Nazaret",
+        "Belén",
+        "Capernaúm"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 2:39"
+      ],
+      "explanation": "Jesús volvió con José y María a Nazaret, su ciudad de Galilea, donde creció.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0007",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Sobre qué montes se posó el arca después del diluvio?",
+      "options": [
+        "Sobre el monte Moriah",
+        "Sobre los montes de Ararat",
+        "Sobre el monte Carmelo",
+        "Sobre el monte Sinaí"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 8:4"
+      ],
+      "explanation": "El arca reposó sobre los montes de Ararat.",
+      "tags": [
+        "diluvio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0008",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Hacia qué tierra salió Abraham por mandato de Dios?",
+      "options": [
+        "Persia",
+        "Babilonia",
+        "Canaán",
+        "Egipto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 12:5"
+      ],
+      "explanation": "Abraham salió con su familia para ir a la tierra de Canaán.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0009",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ciudades destruyó Dios con fuego y azufre?",
+      "options": [
+        "Sodoma y Gomorra",
+        "Jericó y Hai",
+        "Nínive y Babilonia",
+        "Tiro y Sidón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 19:24"
+      ],
+      "explanation": "Jehová hizo llover azufre y fuego sobre Sodoma y Gomorra.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0010",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo llamó Jacob al lugar donde soñó con una escalera que llegaba al cielo?",
+      "options": [
+        "Betel",
+        "Peniel",
+        "Siquem",
+        "Hebrón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 28:12",
+        "Génesis 28:19"
+      ],
+      "explanation": "Jacob llamó Betel, casa de Dios, a aquel lugar.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0011",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué tierra huyó Moisés después de matar a un egipcio?",
+      "options": [
+        "Madián",
+        "Edom",
+        "Canaán",
+        "Moab"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 2:15"
+      ],
+      "explanation": "Moisés huyó del faraón y habitó en la tierra de Madián.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0012",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Desde qué monte vio Moisés la tierra prometida antes de morir?",
+      "options": [
+        "El Hermón",
+        "El Sinaí",
+        "El Carmelo",
+        "El monte Nebo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Deuteronomio 34:1"
+      ],
+      "explanation": "Moisés subió al monte Nebo y Jehová le mostró toda la tierra.",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0013",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ciudad junto al mar de Galilea fue centro del ministerio de Jesús?",
+      "options": [
+        "Betania",
+        "Jericó",
+        "Capernaúm",
+        "Belén"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 4:13"
+      ],
+      "explanation": "Jesús dejó Nazaret y fue a vivir en Capernaúm, junto al mar.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0014",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué pueblo de Galilea convirtió Jesús el agua en vino?",
+      "options": [
+        "Naín",
+        "Betsaida",
+        "Caná",
+        "Emaús"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "Jesús hizo su primera señal en las bodas de Caná de Galilea.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0015",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se llamaba el huerto donde Jesús oró antes de ser arrestado?",
+      "options": [
+        "Betania",
+        "Gabaón",
+        "Getsemaní",
+        "Edén"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 26:36"
+      ],
+      "explanation": "Jesús fue con sus discípulos a un lugar llamado Getsemaní y oró allí.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0016",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se llamó el lugar donde crucificaron a Jesús?",
+      "options": [
+        "Betesda",
+        "Siloé",
+        "Getsemaní",
+        "Gólgota"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 19:17-18"
+      ],
+      "explanation": "Jesús fue crucificado en el lugar llamado de la Calavera, Gólgota en hebreo.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0017",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Desde qué monte ascendió Jesús al cielo?",
+      "options": [
+        "Desde el monte Hermón",
+        "Desde el monte Carmelo",
+        "Desde el monte Sinaí",
+        "Desde el monte de los Olivos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 1:9-12"
+      ],
+      "explanation": "Los discípulos volvieron a Jerusalén desde el monte llamado de los Olivos, donde Jesús fue elevado.",
+      "tags": [
+        "jesus",
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0018",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué aldea iban dos discípulos cuando Jesús resucitado caminó con ellos?",
+      "options": [
+        "Naín",
+        "Emaús",
+        "Caná",
+        "Betania"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 24:13-15"
+      ],
+      "explanation": "Dos discípulos iban a Emaús cuando Jesús se acercó y caminó con ellos.",
+      "tags": [
+        "jesus",
+        "resurreccion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0019",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Hacia qué ciudad iba Saulo cuando se le apareció el Señor?",
+      "options": [
+        "Antioquía",
+        "Éfeso",
+        "Damasco",
+        "Roma"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 9:3"
+      ],
+      "explanation": "Cerca de Damasco, una luz del cielo resplandeció alrededor de Saulo.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0020",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué ciudad fueron llamados cristianos por primera vez los discípulos?",
+      "options": [
+        "Jerusalén",
+        "Antioquía",
+        "Corinto",
+        "Éfeso"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 11:26"
+      ],
+      "explanation": "En Antioquía los discípulos fueron llamados cristianos por primera vez.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0021",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué iglesia escribió Pablo sobre divisiones, dones espirituales y la resurrección?",
+      "options": [
+        "Corinto",
+        "Filipos",
+        "Atenas",
+        "Tesalónica"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 1:10-12",
+        "1 Corintios 12:4-7",
+        "1 Corintios 15:12"
+      ],
+      "explanation": "La primera carta a los Corintios trata esos temas dentro de la iglesia de Corinto.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0022",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué ciudad escribió Pablo una carta que expone ampliamente el evangelio, y quiso visitar?",
+      "options": [
+        "Antioquía",
+        "Filipos",
+        "Roma",
+        "Éfeso"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 1:7",
+        "Romanos 1:15"
+      ],
+      "explanation": "Pablo escribió a los creyentes de Roma y deseaba anunciarles el evangelio.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0023",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué ciudad escribió Pablo desde la cárcel una carta de gozo?",
+      "options": [
+        "Filipos",
+        "Tesalónica",
+        "Éfeso",
+        "Colosas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filipenses 1:1",
+        "Filipenses 4:4"
+      ],
+      "explanation": "La carta a los Filipenses, escrita en prisión, invita a regocijarse en el Señor.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0024",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas iglesias recibieron mensajes de Jesús en Apocalipsis 2 y 3?",
+      "options": [
+        "Siete",
+        "Cuatro",
+        "Doce",
+        "Diez"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Apocalipsis 1:11"
+      ],
+      "explanation": "Jesús dirigió mensajes a siete iglesias de Asia.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0025",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué región se dirige la carta de Pablo que defiende la justificación por la fe y no por las obras de la ley?",
+      "options": [
+        "Panfilia",
+        "Bitinia",
+        "Macedonia",
+        "Galacia"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Gálatas 1:2",
+        "Gálatas 2:16"
+      ],
+      "explanation": "La carta a los Gálatas se dirige a las iglesias de Galacia.",
+      "tags": [
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0026",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué ciudad nació el apóstol Pablo?",
+      "options": [
+        "Antioquía",
+        "Tarso",
+        "Damasco",
+        "Jerusalén"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 21:39",
+        "Hechos 22:3"
+      ],
+      "explanation": "Pablo dijo ser judío, natural de Tarso de Cilicia.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0027",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué monte fue escenario del desafío de Elías a los profetas de Baal?",
+      "options": [
+        "El Sinaí",
+        "El Hermón",
+        "El Carmelo",
+        "El Nebo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 18:19-20"
+      ],
+      "explanation": "Elías reunió a Israel y a los profetas de Baal en el monte Carmelo.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0028",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De qué ciudad salió Taré con su familia hacia Canaán?",
+      "options": [
+        "Ur de los caldeos",
+        "Damasco",
+        "Nínive",
+        "Babilonia"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 11:31"
+      ],
+      "explanation": "Taré salió de Ur de los caldeos con Abram, Sarai y Lot para ir a la tierra de Canaán.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0029",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Junto a los ríos de qué ciudad se sentaron a llorar los desterrados?",
+      "options": [
+        "Nínive",
+        "Babilonia",
+        "Menfis",
+        "Damasco"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 137:1"
+      ],
+      "explanation": "Junto a los ríos de Babilonia se sentaron los desterrados y lloraron acordándose de Sión.",
+      "tags": [
+        "exilio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0030",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué isla naufragó Pablo camino a Roma?",
+      "options": [
+        "Chipre",
+        "Malta",
+        "Creta",
+        "Patmos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 28:1"
+      ],
+      "explanation": "Ya a salvo, supieron que la isla se llamaba Malta.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0031",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué ciudad de Grecia habló Pablo ante el Areópago?",
+      "options": [
+        "Corinto",
+        "Berea",
+        "Atenas",
+        "Filipos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 17:19-22"
+      ],
+      "explanation": "Pablo predicó a los atenienses en medio del Areópago.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0032",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué ciudad fueron encarcelados Pablo y Silas, y un terremoto abrió las puertas?",
+      "options": [
+        "Atenas",
+        "Éfeso",
+        "Listra",
+        "Filipos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 16:12",
+        "Hechos 16:25-26"
+      ],
+      "explanation": "Un terremoto sacudió los cimientos de la cárcel de Filipos y se abrieron todas las puertas.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0033",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué ciudad provocó un alboroto de plateros la predicación de Pablo?",
+      "options": [
+        "Éfeso",
+        "Atenas",
+        "Antioquía",
+        "Corinto"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 19:23-28"
+      ],
+      "explanation": "El platero Demetrio alborotó a la ciudad de Éfeso porque la predicación de Pablo afectaba su negocio.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0034",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué ciudad fue apedreado Pablo y dado por muerto durante su primer viaje?",
+      "options": [
+        "Listra",
+        "Iconio",
+        "Antioquía de Pisidia",
+        "Derbe"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 14:19"
+      ],
+      "explanation": "En Listra apedrearon a Pablo y lo arrastraron fuera de la ciudad, pensando que estaba muerto.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    }
+  ]
+}
