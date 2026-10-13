@@ -27,3 +27,6 @@ __pycache__/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Informe de importación: contiene fragmentos del texto bíblico
+docs/TEXTO_BIBLICO_informe.md
