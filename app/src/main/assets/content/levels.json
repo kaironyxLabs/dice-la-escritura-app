@@ -1,0 +1,29 @@
+{
+  "xpPorDificultad": [5, 8, 12, 18, 25],
+  "bonusRachaDesde": 3,
+  "bonusRachaMaximo": 5,
+  "examenPreguntas": 10,
+  "examenAprobacionPorcentaje": 80,
+  "niveles": [
+    { "numero": 1, "nombre": "Semilla", "umbralXp": 0, "dificultadMaxima": 1,
+      "categorias": ["libros", "historia", "personajes", "confesion"] },
+    { "numero": 2, "nombre": "Brote", "umbralXp": 150, "dificultadMaxima": 2,
+      "categorias": ["lugares"] },
+    { "numero": 3, "nombre": "Retoño", "umbralXp": 400, "dificultadMaxima": 2,
+      "categorias": ["ensenanzas"] },
+    { "numero": 4, "nombre": "Arbusto", "umbralXp": 800, "dificultadMaxima": 3,
+      "categorias": ["cartas"] },
+    { "numero": 5, "nombre": "Vid", "umbralXp": 1300, "dificultadMaxima": 3,
+      "categorias": ["donde_escrito"] },
+    { "numero": 6, "nombre": "Olivo", "umbralXp": 2000, "dificultadMaxima": 4,
+      "categorias": [] },
+    { "numero": 7, "nombre": "Higuera", "umbralXp": 2900, "dificultadMaxima": 4,
+      "categorias": [] },
+    { "numero": 8, "nombre": "Palmera", "umbralXp": 4000, "dificultadMaxima": 5,
+      "categorias": [] },
+    { "numero": 9, "nombre": "Encina", "umbralXp": 5400, "dificultadMaxima": 5,
+      "categorias": [] },
+    { "numero": 10, "nombre": "Cedro", "umbralXp": 7200, "dificultadMaxima": 5,
+      "categorias": [] }
+  ]
+}

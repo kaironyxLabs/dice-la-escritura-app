@@ -8,10 +8,72 @@
     <string name="nav_progreso">Progreso</string>
     <string name="nav_ajustes">Ajustes</string>
 
-    <!-- Pantallas provisionales (H0): se reemplazan en los hitos siguientes -->
-    <string name="titulo_inicio">Inicio</string>
+    <!-- Pantallas provisionales: se reemplazan en los hitos siguientes -->
     <string name="titulo_memorizar">Memorizar versículos</string>
     <string name="titulo_progreso">Progreso</string>
     <string name="titulo_ajustes">Ajustes</string>
     <string name="pantalla_proximamente">Esta sección se construirá en un próximo hito.</string>
+
+    <!-- Inicio -->
+    <string name="titulo_inicio">Inicio</string>
+    <string name="nivel_numero">Nivel %1$d</string>
+    <string name="nivel_nombre">%1$s</string>
+    <string name="xp_progreso">%1$d de %2$d XP</string>
+    <string name="xp_total">%1$d XP</string>
+    <string name="descripcion_barra_xp">Progreso del nivel: %1$d por ciento</string>
+    <string name="nivel_maximo">Has alcanzado el nivel más alto.</string>
+    <string name="examen_disponible">La barra está llena. Puedes presentar el examen de ascenso.</string>
+    <string name="boton_examen">Examen de ascenso</string>
+    <string name="boton_jugar_categoria">Jugar por categoría</string>
+
+    <!-- Categorías -->
+    <string name="titulo_categorias">Categorías</string>
+    <string name="cat_libros">Libros y orden de la Biblia</string>
+    <string name="cat_historia">Historia bíblica</string>
+    <string name="cat_personajes">Personajes</string>
+    <string name="cat_lugares">Lugares y geografía</string>
+    <string name="cat_ensenanzas">Enseñanzas y parábolas de Jesús</string>
+    <string name="cat_cartas">Cartas del Nuevo Testamento</string>
+    <string name="cat_donde_escrito">¿Dónde está escrito?</string>
+    <string name="cat_confesion">Confesión Bautista de 1689</string>
+    <string name="categoria_bloqueada">Se desbloquea en el nivel %1$d</string>
+    <plurals name="preguntas_disponibles">
+        <item quantity="one">%d pregunta disponible</item>
+        <item quantity="other">%d preguntas disponibles</item>
+    </plurals>
+    <string name="volver">Volver</string>
+
+    <!-- Partida y examen -->
+    <string name="titulo_partida">Partida</string>
+    <string name="titulo_examen">Examen de ascenso</string>
+    <string name="pregunta_n_de_total">Pregunta %1$d de %2$d</string>
+    <string name="salir_partida">Salir de la partida</string>
+    <string name="verdadero">Verdadero</string>
+    <string name="falso">Falso</string>
+    <string name="correcto">Correcto</string>
+    <string name="incorrecto">Incorrecto</string>
+    <string name="xp_ganado_aviso">+%1$d XP</string>
+    <string name="respuesta_correcta_era">Respuesta correcta: %1$s</string>
+    <string name="orden_correcto_era">Orden correcto: %1$s</string>
+    <string name="referencias_aviso">Referencias: %1$s</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="ver_resultado">Ver resultado</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="ordenar_instruccion">Toca los elementos en el orden correcto. Toca uno de tu lista para quitarlo.</string>
+    <string name="tu_orden">Tu orden</string>
+    <string name="por_ordenar">Por ordenar</string>
+    <string name="posicion_elemento">%1$d. %2$s</string>
+    <string name="cargando">Cargando…</string>
+    <string name="sin_preguntas">No hay preguntas disponibles con la configuración actual.</string>
+    <string name="examen_sin_preguntas">Todavía no hay suficientes preguntas para presentar este examen.</string>
+    <string name="categoria_bloqueada_aviso">Esta categoría aún no está desbloqueada.</string>
+
+    <!-- Resultado -->
+    <string name="resultado_titulo">Resultado</string>
+    <string name="resultado_aciertos">%1$d de %2$d respuestas correctas</string>
+    <string name="resultado_xp">XP ganado: %1$d</string>
+    <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
+    <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
+    <string name="volver_inicio">Volver al inicio</string>
+    <string name="jugar_otra_vez">Jugar otra vez</string>
 </resources>
