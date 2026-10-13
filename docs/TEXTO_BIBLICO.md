@@ -104,7 +104,7 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 
 - Génesis 30:6-8 (falta el v. 7 y el v. 8; resto dañado), Salmo 39:10-11 (carácter suelto y número dañado), 1 Corintios 1:31 (numerado como 32), Ezequiel 31:17-18 (fundidos), Éxodo 2:15 (dígito dentro de una palabra) y caracteres sueltos en Éxodo 39, 2 Samuel 4 y 8, Amós 5 y Filemón 1.
 - **Salmo 47**: tiene 10 versículos en la edición del usuario (la KJV, usada para el conteo esperado, trae 9); el ajuste está en `generar_conteo_esperado.py`.
-- **Acentos de "Él"**: el PDF escribe el pronombre "Él" sin tilde en mayúscula; la edición impresa del usuario sí la lleva. Es una diferencia de edición, no un daño; se corrige solo donde el usuario la dicta.
+- **Acentos de "Él"**: el PDF escribe el pronombre "Él" sin tilde en mayúscula; la edición impresa del usuario sí la lleva. Es una diferencia de edición, no un daño. Se corrigieron solo las combinaciones donde "El" va seguido de un verbo o pronombre (es siempre pronombre) y el usuario las aprobó; "El mismo" se revisó caso por caso porque puede ser artículo ("El mismo día").
 - **Espacios perdidos**: el PDF pierde el espacio tras algunas vocales acentuadas, de modo que aparecen palabras pegadas ("estáen", "Asíque"). Es visible en la propia página del PDF, no es un fallo de la extracción. El informe los lista; hay más de 300 versículos afectados.
 
 ## Formato de `rvr1960.json`
@@ -143,8 +143,8 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 <!-- importacion:inicio -->
 - Última importación: 2026-10-13
 - SHA-256 del PDF (`biblia_rv1960.pdf`): `a750b2f89e73d9043892cd2ca9c1ed068bacf09049c96c334612b83bbd939f50`
-- SHA-256 del JSON (`rvr1960.json`): `b90f4f60ea50d9c7f2e7ec75e7808b08a5e6ce8e33d2c0792cc4bb5a36b05942`
+- SHA-256 del JSON (`rvr1960.json`): `86e51b659f76fc02759b449c6ac8564537155e922c18b7bb64a86298c5bbf665`
 - Libros: 66; capítulos: 1189; versículos: 31104
-- Correcciones aplicadas: 263; versículos pendientes: 0
+- Correcciones aplicadas: 499; versículos pendientes: 0
 - Anomalías sin resolver: 0
 <!-- importacion:fin -->

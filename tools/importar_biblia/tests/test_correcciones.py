@@ -214,11 +214,22 @@ def test_palabras_sin_apariciones_no_falla(tmp_path):
 
 
 def test_palabras_valida_el_formato(tmp_path):
-    with pytest.raises(mod.ErrorCorreccion, match="una sola palabra"):
-        cargar(tmp_path, {"palabras": [{"buscar": "dos palabras", "por": "x"}]})
+    with pytest.raises(mod.ErrorCorreccion, match="palabra o frase"):
+        cargar(tmp_path, {"palabras": [{"buscar": "dos, palabras", "por": "x"}]})
+    with pytest.raises(mod.ErrorCorreccion, match="palabra o frase"):
+        cargar(tmp_path, {"palabras": [{"buscar": "doble  espacio", "por": "x"}]})
     with pytest.raises(mod.ErrorCorreccion, match="no vacíos"):
         cargar(tmp_path, {"palabras": [{"buscar": "a", "por": " "}]})
     with pytest.raises(mod.ErrorCorreccion, match="repetida"):
         cargar(tmp_path, {"palabras": [{"buscar": "ab", "por": "a b"}, {"buscar": "ab", "por": "a b"}]})
     with pytest.raises(mod.ErrorCorreccion, match="claves desconocidas"):
         cargar(tmp_path, {"palabras": [{"buscar": "ab", "por": "a b", "otra": 1}]})
+
+
+def test_palabras_acepta_frases_como_la_tilde_de_el(tmp_path):
+    uno = Libro("UNO", [Capitulo(1, versiculos=["El les dijo: El mismo día. El lesionado. Y El les habló.", None])])
+    r = Resultado([uno], [], 1)
+    c = cargar(tmp_path, {"palabras": [{"buscar": "El les", "por": "Él les"}]})
+    mod.aplicar(r, c)
+    # Solo la frase completa y con la palabra entera: "El lesionado" y "El mismo" no cambian.
+    assert r.libros[0].capitulos[0].versiculos[0] == "Él les dijo: El mismo día. El lesionado. Y Él les habló."

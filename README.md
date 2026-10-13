@@ -15,7 +15,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - Más de 330 preguntas base y 97 de la Confesión, todas **pendientes de tu revisión** (`reviewed: false`).
 
 ## Estado
-Hitos H0 a H8 completos. Pendiente de tu parte (ver `docs/`): generar el texto bíblico y resolver las anomalías del PDF (`docs/TEXTO_BIBLICO.md`), revisar las preguntas (`docs/CONTENIDO.md`) y firmar el APK (`docs/INSTALACION.md`). La interfaz aún no se ha probado en un dispositivo real.
+Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/CONTENIDO.md`) y probar la app en un teléfono. La interfaz aún no se ha probado en un dispositivo real.
 
 ## Compilar
 Requiere JDK 17 y el Android SDK (ver `docs/INSTALACION.md`).

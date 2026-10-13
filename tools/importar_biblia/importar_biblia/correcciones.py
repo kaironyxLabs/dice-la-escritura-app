@@ -24,9 +24,10 @@ vacío) o "eliminar". Un "pendiente" deja el versículo sin texto utilizable has
 Una "nota" corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte del
 versículo): {"libro", "capitulo", "tipo": "paralelo" | "seccion", "buscar": "<tal cual>", "por": "<corregido>"};
 "buscar" debe aparecer exactamente una vez entre los textos de ese tipo del capítulo.
-Una "palabra" aprobada reemplaza una palabra completa en TODOS los versículos donde aparece (sirve para los
-espacios perdidos del PDF, p. ej. "estáen" -> "está en"): {"buscar": "estáen", "por": "está en"}. Solo cambia la
-palabra entera (nunca un trozo de otra) y se aplica después de las correcciones por versículo.
+Una "palabra" aprobada reemplaza una palabra o frase corta completa en TODOS los versículos donde aparece (sirve
+para los espacios perdidos, p. ej. "estáen" -> "está en", y para la tilde de "Él", p. ej. "El les" -> "Él les"):
+{"buscar": "estáen", "por": "está en"}. Solo cambia palabras enteras (nunca un trozo de otra), distingue
+mayúsculas y se aplica después de las correcciones por versículo.
 Una "aceptada" declara que una anomalía (por su "tipo", y opcionalmente "versiculo") es correcta tal cual.
 """
 
@@ -45,7 +46,8 @@ OPERACIONES = ("texto", "reemplazos", "renumerar_a", "eliminar")
 
 
 LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"
-PATRON_SOLO_LETRAS = re.compile(rf"[{LETRAS}]+")
+# Una palabra o una frase corta de palabras separadas por un solo espacio.
+PATRON_FRASE = re.compile(rf"[{LETRAS}]+(?: [{LETRAS}]+)*")
 
 
 class ErrorCorreccion(Exception):
@@ -150,8 +152,8 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         buscar, por = entrada.get("buscar"), entrada.get("por")
         if not (isinstance(buscar, str) and isinstance(por, str) and buscar and por.strip()):
             raise ErrorCorreccion(f"{donde}: requiere 'buscar' y 'por' no vacíos")
-        if not PATRON_SOLO_LETRAS.fullmatch(buscar):
-            raise ErrorCorreccion(f"{donde}: 'buscar' debe ser una sola palabra (solo letras)")
+        if not PATRON_FRASE.fullmatch(buscar):
+            raise ErrorCorreccion(f"{donde}: 'buscar' debe ser una palabra o frase corta (solo letras y espacios simples)")
         if buscar in vistas:
             raise ErrorCorreccion(f"{donde}: la palabra '{buscar}' está repetida")
         vistas.add(buscar)
