@@ -116,6 +116,8 @@ def clasificar_bloque(bloque: list[str]) -> str:
         return "continuacion"  # poesía: sigue el versículo anterior y trae marcadores más abajo
     if PATRON_PARALELO.match(texto):
         return "paralelo"
+    if len(bloque) >= 2 and PATRON_PARALELO.match(bloque[-1]) and _candidato_a_titulo(" ".join(bloque[:-1])):
+        return "titulo_paralelo"  # "Título" y su "(Ex. 1.1-2)" en líneas seguidas
     if PATRON_MARCADOR_EN_LINEA.search(texto):
         return "continuacion"  # continuación de un versículo (p. ej. tras un salto de página) con marcadores
     if es_mayusculas(texto):
@@ -135,6 +137,7 @@ class _ConstructorCapitulo:
         # Todas las líneas con texto de versículos del capítulo, para decidir marcadores dudosos mirando adelante.
         self._restantes = lineas_del_cuerpo
         self._pos_linea = 0
+        self._ultima_linea: str | None = None  # última línea de texto de versículo agregada
         self.capitulo = Capitulo(numero=numero)
         self.anomalias = anomalias
         self.esperado = 1
@@ -165,6 +168,7 @@ class _ConstructorCapitulo:
     def agregar_bloque_numerado(self, bloque: list[str]) -> None:
         for indice_linea, linea in enumerate(bloque):
             self._pos_linea += 1
+            self._ultima_linea = linea
             if self.actual is None and not PATRON_INICIO_NUMERADO.match(linea):
                 # Texto sin numerar antes del primer versículo (sobrescrito): va al encabezado.
                 texto = normalizar_espacios(linea)
@@ -264,10 +268,35 @@ class _ConstructorCapitulo:
             return True
         return False
 
+    def _es_titulo_con_punto(self, bloque: list[str]) -> bool:
+        """Una sola línea corta, sin signos por dentro, que el PDF puso entre dos versículos terminada en punto
+        (p. ej. "Descendientes de Aarón."). No lo es una cita que sigue a "y:" o a un texto terminado en ":" ni
+        una frase que empieza con "Y"/"E" (continúa el versículo)."""
+        if len(bloque) != 1 or self._ultima_linea is None:
+            return False
+        linea = bloque[0].strip()
+        sin_final = linea[:-1] if linea.endswith(".") else linea
+        return (
+            len(linea) <= 45
+            and linea[:1].isupper()
+            and not re.search(r"[,;:?!¿¡()]", sin_final)
+            and not re.match(r"[YE] ", linea)
+            and bool(re.search(r"[.?!;)]\s*$", self._ultima_linea))
+        )
+
     def agregar_bloque_no_numerado(self, clase: str, bloque: list[str]) -> None:
         texto = normalizar_espacios(" ".join(bloque))
         if clase in ("titulo", "paralelo"):
             self.pendientes_antes.append((clase, texto))
+        elif clase == "titulo_paralelo":
+            self.pendientes_antes.append(("titulo", normalizar_espacios(" ".join(bloque[:-1]))))
+            self.pendientes_antes.append(("paralelo", normalizar_espacios(bloque[-1])))
+        elif clase == "texto" and self.actual is not None and self._es_titulo_con_punto(bloque):
+            self._anomalia(
+                SIN_NUMERAR, INFO, self.actual,
+                "título de sección con punto final entre dos versículos; se guardó como título del siguiente",
+            )
+            self.pendientes_antes.append(("titulo", texto))
         elif clase == "texto":
             if self.actual is None:
                 self._pos_linea += len(bloque)
@@ -344,7 +373,10 @@ def _aplicar_texto_previo(
     sobrescritos: list[str] = []
     for clase, bloque in previo:
         texto = normalizar_espacios(" ".join(bloque))
-        if clase == "titulo":
+        if clase == "titulo_paralelo":
+            secciones.append(Seccion(1, normalizar_espacios(" ".join(bloque[:-1]))))
+            paralelos.append(Paralelo(1, normalizar_espacios(bloque[-1])))
+        elif clase == "titulo":
             secciones.append(Seccion(1, texto))
         elif clase == "paralelo":
             paralelos.append(Paralelo(1, texto))

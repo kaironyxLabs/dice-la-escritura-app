@@ -28,6 +28,8 @@ Una "palabra" aprobada reemplaza una palabra o frase corta completa en TODOS los
 para los espacios perdidos, p. ej. "estáen" -> "está en", y para la tilde de "Él", p. ej. "El les" -> "Él les"):
 {"buscar": "estáen", "por": "está en"}. Solo cambia palabras enteras (nunca un trozo de otra), distingue
 mayúsculas y se aplica después de las correcciones por versículo.
+Una "normalizacion" aplica una regla general a todos los versículos. Disponible: "guion_con_espacio" une
+"Bet- el" en "Bet-el" (nombres compuestos que el PDF partió con un espacio tras el guion).
 Una "aceptada" declara que una anomalía (por su "tipo", y opcionalmente "versiculo") es correcta tal cual.
 """
 
@@ -50,6 +52,11 @@ LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"
 PATRON_FRASE = re.compile(rf"[{LETRAS}]+(?: [{LETRAS}]+)*")
 
 
+NORMALIZACIONES = {
+    "guion_con_espacio": (re.compile(rf"(?<=[{LETRAS}])- (?=[{LETRAS}])"), "-"),
+}
+
+
 class ErrorCorreccion(Exception):
     """El archivo de correcciones es inválido o no aplica al texto extraído."""
 
@@ -61,6 +68,7 @@ class Correcciones:
     aceptadas: list[dict] = field(default_factory=list)
     notas: list[dict] = field(default_factory=list)
     palabras: list[dict] = field(default_factory=list)
+    normalizaciones: list[str] = field(default_factory=list)
 
     def versiculos_corregidos(self) -> set[tuple[str, int, int]]:
         corregidos: set[tuple[str, int, int]] = set()
@@ -88,7 +96,7 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         raise ErrorCorreccion(f"{ruta}: JSON inválido ({error})") from error
     if not isinstance(datos, dict):
         raise ErrorCorreccion(f"{ruta}: se esperaba un objeto con 'correcciones', 'pendientes' y 'aceptadas'")
-    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas", "notas", "palabras"}
+    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas", "notas", "palabras", "normalizaciones"}
     if desconocidas:
         raise ErrorCorreccion(f"{ruta}: claves desconocidas {sorted(desconocidas)}")
 
@@ -143,6 +151,12 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         if not isinstance(entrada.get("tipo"), str):
             raise ErrorCorreccion(f"{donde}: falta 'tipo'")
         resultado.aceptadas.append(entrada)
+    for nombre in datos.get("normalizaciones", []):
+        if nombre not in NORMALIZACIONES:
+            raise ErrorCorreccion(f"normalizaciones: '{nombre}' desconocida (disponibles: {sorted(NORMALIZACIONES)})")
+        if nombre not in resultado.normalizaciones:
+            resultado.normalizaciones.append(nombre)
+
     vistas: set[str] = set()
     for i, entrada in enumerate(datos.get("palabras", []), start=1):
         donde = f"palabras[{i}]"
@@ -187,6 +201,21 @@ def _aplicar_palabras(resultado: Resultado, palabras: list[dict]) -> None:
                             capitulo.versiculos[i] = nuevo
                             total += veces
         resultado.correcciones_aplicadas.append(f"palabra '{entrada['buscar']}' -> '{entrada['por']}': {total} aparición(es)")
+
+
+def _aplicar_normalizaciones(resultado: Resultado, nombres: list[str]) -> None:
+    for nombre in nombres:
+        patron, reemplazo = NORMALIZACIONES[nombre]
+        total = 0
+        for libro in resultado.libros:
+            for capitulo in libro.capitulos:
+                for i, texto in enumerate(capitulo.versiculos):
+                    if texto:
+                        nuevo, veces = patron.subn(reemplazo, texto)
+                        if veces:
+                            capitulo.versiculos[i] = nuevo
+                            total += veces
+        resultado.correcciones_aplicadas.append(f"normalización '{nombre}': {total} aparición(es)")
 
 
 def _reclasificar_paralelos(capitulo: Capitulo) -> None:
@@ -260,6 +289,7 @@ def aplicar(resultado: Resultado, correcciones: Correcciones) -> None:
         _recortar_cola(capitulo)
 
     _aplicar_palabras(resultado, correcciones.palabras)
+    _aplicar_normalizaciones(resultado, correcciones.normalizaciones)
 
     for entrada in correcciones.notas:
         libro, numero = entrada["libro"], entrada["capitulo"]

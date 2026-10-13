@@ -32,6 +32,9 @@ PERMITIDOS = LETRAS_PERMITIDAS | set("0123456789 .,;:¿?¡!()-–—")
 LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"
 PATRON_DIGITO_PEGADO = re.compile(rf"(?<=[{LETRAS}])\d+|\d+(?=[{LETRAS}])")
 PATRON_PALABRA = re.compile(rf"[{LETRAS}]+")
+PATRON_GUION_CON_ESPACIO = re.compile(rf"[{LETRAS}]+- [{LETRAS}]+")
+PATRON_PARALELO_EN_TEXTO = re.compile(rf"\(\s*(?:[123] )?[A-ZÁÉÍÓÚ][{LETRAS}]*\.? \d+[.:]\d+")
+PATRON_REPETIDA = re.compile(rf"(?<![{LETRAS}])([{LETRAS}]+) \1(?![{LETRAS}])", re.IGNORECASE)
 VOCALES_ACENTUADAS = "áéíóúÁÉÍÓÚ"
 # Palabras cortas que pueden quedar pegadas a la anterior cuando el PDF pierde el espacio.
 PALABRAS_FUNCIONALES = frozenset(
@@ -140,6 +143,23 @@ def verificar(
                             f"{c!r} (U+{ord(c):04X})" for c in raros
                         ),
                     ))
+                if numero is not None:  # solo texto de versículos (los títulos y paralelos pueden llevar guiones)
+                    for coincidencia in PATRON_GUION_CON_ESPACIO.finditer(texto):
+                        anomalias.append(Anomalia(
+                            SOSPECHOSO, AVISO, *ubicacion, numero,
+                            f"guion seguido de espacio: \"{coincidencia.group(0)}\" (¿nombre compuesto cortado?)",
+                        ))
+                    for coincidencia in PATRON_PARALELO_EN_TEXTO.finditer(texto):
+                        anomalias.append(Anomalia(
+                            SOSPECHOSO, AVISO, *ubicacion, numero,
+                            "referencia a pasaje paralelo dentro del texto del versículo (debería ir aparte)",
+                        ))
+                    for coincidencia in PATRON_REPETIDA.finditer(texto):
+                        inicio = max(0, coincidencia.start() - 12)
+                        anomalias.append(Anomalia(
+                            SOSPECHOSO, AVISO, *ubicacion, numero,
+                            f"palabra repetida seguida: \"…{texto[inicio:coincidencia.end() + 12]}…\"",
+                        ))
                 for pegado in PATRON_DIGITO_PEGADO.finditer(texto):
                     inicio = max(0, pegado.start() - 8)
                     anomalias.append(Anomalia(

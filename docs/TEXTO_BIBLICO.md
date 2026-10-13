@@ -91,6 +91,7 @@ Lo escribes tú, con el texto verificado en tu edición impresa u otra fuente.
   - `renumerar_a`: mueve el texto a otro número vacío (útil cuando el PDF numera mal).
   - `eliminar`: quita el versículo.
 - `palabras`: reemplaza una palabra completa en toda la Biblia (para los espacios perdidos): `{"buscar": "estáen", "por": "está en"}`. Solo cambia la palabra entera, distingue mayúsculas (la forma con mayúscula inicial se aprueba aparte) y se aplica después de las correcciones por versículo. El informe registra cuántas veces se aplicó.
+- `normalizaciones`: reglas generales sobre todos los versículos. Disponible: `"guion_con_espacio"` (une "Bet- el" en "Bet-el", nombres compuestos que el PDF partió).
 - `notas`: corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte): `{"libro": "EXO", "capitulo": 39, "tipo": "seccion", "buscar": "(Ex. 35.10-19_", "por": "(Ex. 35.10-19)"}`. `buscar` debe aparecer exactamente una vez. Una referencia entre paréntesis que el PDF dejó mal cerrada se toma por título; tras corregirla pasa a pasajes paralelos.
 - `pendientes`: el versículo queda sin texto utilizable hasta que lo verifiques. La app lo muestra como no disponible.
 - `aceptadas`: la anomalía (por su `tipo` y, opcionalmente, `versiculo`) es correcta tal cual; solo para diferencias legítimas.
@@ -105,6 +106,7 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 - Génesis 30:6-8 (falta el v. 7 y el v. 8; resto dañado), Salmo 39:10-11 (carácter suelto y número dañado), 1 Corintios 1:31 (numerado como 32), Ezequiel 31:17-18 (fundidos), Éxodo 2:15 (dígito dentro de una palabra) y caracteres sueltos en Éxodo 39, 2 Samuel 4 y 8, Amós 5 y Filemón 1.
 - **Salmo 47**: tiene 10 versículos en la edición del usuario (la KJV, usada para el conteo esperado, trae 9); el ajuste está en `generar_conteo_esperado.py`.
 - **Acentos de "Él"**: el PDF escribe el pronombre "Él" sin tilde en mayúscula; la edición impresa del usuario sí la lleva. Es una diferencia de edición, no un daño. Se corrigieron solo las combinaciones donde "El" va seguido de un verbo o pronombre (es siempre pronombre) y el usuario las aprobó; "El mismo" se revisó caso por caso porque puede ser artículo ("El mismo día").
+- **Títulos y referencias pegados**: en 2 Crónicas (y un título con punto en 1 Crónicas 6:49) el PDF deja el título y su referencia paralela en dos líneas seguidas sin línea en blanco; el importador las separa como título y paralelo del versículo siguiente. El verificador marca como aviso cualquier referencia paralela, guion con espacio o palabra repetida que quede dentro del texto de un versículo.
 - **Espacios perdidos**: el PDF pierde el espacio tras algunas vocales acentuadas, de modo que aparecen palabras pegadas ("estáen", "Asíque"). Es visible en la propia página del PDF, no es un fallo de la extracción. El informe los lista; hay más de 300 versículos afectados.
 
 ## Formato de `rvr1960.json`
@@ -143,8 +145,8 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 <!-- importacion:inicio -->
 - Última importación: 2026-10-13
 - SHA-256 del PDF (`biblia_rv1960.pdf`): `a750b2f89e73d9043892cd2ca9c1ed068bacf09049c96c334612b83bbd939f50`
-- SHA-256 del JSON (`rvr1960.json`): `86e51b659f76fc02759b449c6ac8564537155e922c18b7bb64a86298c5bbf665`
+- SHA-256 del JSON (`rvr1960.json`): `510c32a4520f5cde293158c658a0cc0f184c6823490aee625d9db3ef3902aa3d`
 - Libros: 66; capítulos: 1189; versículos: 31104
-- Correcciones aplicadas: 499; versículos pendientes: 0
+- Correcciones aplicadas: 507; versículos pendientes: 0
 - Anomalías sin resolver: 0
 <!-- importacion:fin -->

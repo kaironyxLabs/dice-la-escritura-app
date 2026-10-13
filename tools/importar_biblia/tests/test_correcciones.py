@@ -233,3 +233,18 @@ def test_palabras_acepta_frases_como_la_tilde_de_el(tmp_path):
     mod.aplicar(r, c)
     # Solo la frase completa y con la palabra entera: "El lesionado" y "El mismo" no cambian.
     assert r.libros[0].capitulos[0].versiculos[0] == "Él les dijo: El mismo día. El lesionado. Y Él les habló."
+
+
+def test_normalizacion_une_el_guion_con_espacio(tmp_path):
+    uno = Libro("UNO", [Capitulo(1, versiculos=["Fue a Bet- el y a Is- boset; bien - dicho; ¡Ven! - sí."])])
+    r = Resultado([uno], [], 1)
+    c = cargar(tmp_path, {"normalizaciones": ["guion_con_espacio"]})
+    mod.aplicar(r, c)
+    # Solo une letra-guion-espacio-letra; un guion suelto con espacios a ambos lados no se toca.
+    assert r.libros[0].capitulos[0].versiculos[0] == "Fue a Bet-el y a Is-boset; bien - dicho; ¡Ven! - sí."
+    assert r.correcciones_aplicadas == ["normalización 'guion_con_espacio': 2 aparición(es)"]
+
+
+def test_normalizacion_desconocida_falla(tmp_path):
+    with pytest.raises(mod.ErrorCorreccion, match="desconocida"):
+        cargar(tmp_path, {"normalizaciones": ["inventada"]})

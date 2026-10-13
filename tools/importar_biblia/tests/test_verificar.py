@@ -119,3 +119,16 @@ def test_no_confunde_el_imperfecto_en_ia_con_un_espacio_perdido():
     # "escondí" aparece suelto varias veces, pero "escondía" es una palabra correcta.
     normales = [f"Yo escondí algo {i}." for i in range(1, 6)] + ["Lo escondía bien.", "Se abría solo."]
     assert ESPACIO not in tipos(verificar.verificar(resultado(*normales), TABLA, None))
+
+
+def test_detecta_guion_con_espacio_paralelo_dentro_del_texto_y_palabra_repetida():
+    anomalias = verificar.verificar(resultado("Fue a Bet- el y volvió.", "Un talento de de oro.", "Salomón (1 R. 10.26-29) comercia."), TABLA, None)
+    detalles = [a.detalle for a in anomalias if a.tipo == SOSPECHOSO]
+    assert any("guion seguido de espacio" in d for d in detalles)
+    assert any("palabra repetida" in d for d in detalles)
+    assert any("paralelo dentro del texto" in d for d in detalles)
+
+
+def test_los_detectores_nuevos_no_marcan_texto_normal():
+    normal = "Fue a Bet-el con Is-boset, y dijo: (a) uno y otro; Santo, santo, santo."
+    assert verificar.verificar(resultado(normal), TABLA, None) == []

@@ -175,3 +175,53 @@ def test_un_salto_de_pagina_solo_separa_bloques_si_la_linea_parece_titulo():
 
     continuacion = [Linea("1 Una oración que sigue"), Linea("en la otra página.", inicio_de_pagina=True)]
     assert len(construir_bloques(continuacion, [])) == 1
+
+
+def test_titulo_y_paralelo_en_lineas_seguidas_no_se_pegan_al_versiculo_anterior():
+    r = analizar_basico(
+        "Libro Uno 1", "", f"1 {FALSO}", "", "Titulo de prueba", "(Ex. 1.1-2)", "", f"2 Segundo {FALSO}", "",
+        "Libro Uno 2", "", f"1 {FALSO}", "", "Libro Dos 1", "", f"1 {FALSO}",
+    )
+    c = capitulo(r, "UNO", 1)
+    assert c.versiculos == [FALSO, f"Segundo {FALSO}"]  # nada pegado al versículo 1
+    assert [(s.antes_del_versiculo, s.titulo) for s in c.secciones] == [(2, "Titulo de prueba")]
+    assert [(p.antes_del_versiculo, p.texto) for p in c.paralelos] == [(2, "(Ex. 1.1-2)")]
+
+
+def test_titulo_y_paralelo_antes_de_un_capitulo_van_al_inicio_de_ese_capitulo():
+    r = analizar_basico(
+        "Libro Uno 1", "", f"1 {FALSO}", "", "Titulo del capitulo dos", "(Ex. 9.9)", "", "Libro Uno 2", "", f"1 {FALSO}", "",
+        "Libro Dos 1", "", f"1 {FALSO}",
+    )
+    c2 = capitulo(r, "UNO", 2)
+    assert [(s.antes_del_versiculo, s.titulo) for s in c2.secciones] == [(1, "Titulo del capitulo dos")]
+    assert [(p.antes_del_versiculo, p.texto) for p in c2.paralelos] == [(1, "(Ex. 9.9)")]
+    assert capitulo(r, "UNO", 1).versiculos == [FALSO]
+
+
+def test_titulo_corto_con_punto_entre_versiculos_es_un_titulo():
+    r = analizar_basico(
+        "Libro Uno 1", "", f"1 {FALSO}", "", "Descendientes de Aaron.", "", f"2 Segundo {FALSO}", "",
+        "Libro Uno 2", "", f"1 {FALSO}", "", "Libro Dos 1", "", f"1 {FALSO}",
+    )
+    c = capitulo(r, "UNO", 1)
+    assert c.versiculos == [FALSO, f"Segundo {FALSO}"]
+    assert [(s.antes_del_versiculo, s.titulo) for s in c.secciones] == [(2, "Descendientes de Aaron.")]
+
+
+def test_una_cita_corta_tras_dos_puntos_sigue_siendo_parte_del_versiculo():
+    r = analizar_basico(
+        "Libro Uno 1", "", f"1 Dijo el profeta, y:", "", "Tome otro su oficio.", "", f"2 Segundo {FALSO}", "",
+        "Libro Uno 2", "", f"1 {FALSO}", "", "Libro Dos 1", "", f"1 {FALSO}",
+    )
+    c = capitulo(r, "UNO", 1)
+    assert c.versiculos[0] == "Dijo el profeta, y: Tome otro su oficio."
+    assert c.secciones == []
+
+
+def test_una_frase_corta_que_empieza_con_y_sigue_siendo_parte_del_versiculo():
+    r = analizar_basico(
+        "Libro Uno 1", "", f"1 {FALSO}", "", "Y él les respondió.", "", f"2 Segundo {FALSO}", "",
+        "Libro Uno 2", "", f"1 {FALSO}", "", "Libro Dos 1", "", f"1 {FALSO}",
+    )
+    assert capitulo(r, "UNO", 1).versiculos[0] == f"{FALSO} Y él les respondió."
