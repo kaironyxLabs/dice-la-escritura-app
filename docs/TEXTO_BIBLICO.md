@@ -145,8 +145,8 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 <!-- importacion:inicio -->
 - Última importación: 2026-10-13
 - SHA-256 del PDF (`biblia_rv1960.pdf`): `a750b2f89e73d9043892cd2ca9c1ed068bacf09049c96c334612b83bbd939f50`
-- SHA-256 del JSON (`rvr1960.json`): `510c32a4520f5cde293158c658a0cc0f184c6823490aee625d9db3ef3902aa3d`
+- SHA-256 del JSON (`rvr1960.json`): `3e7faa846ef1d65537f8f9480966da05583bd5ea9d42c817f9f368cdf755d809`
 - Libros: 66; capítulos: 1189; versículos: 31104
-- Correcciones aplicadas: 507; versículos pendientes: 0
+- Correcciones aplicadas: 1073; versículos pendientes: 0
 - Anomalías sin resolver: 0
 <!-- importacion:fin -->
