@@ -42,4 +42,4 @@ jobs:
         run: |
           python -m pip install -r tools/importar_biblia/requirements.txt
           (cd tools/importar_biblia && python -m pytest -q)
-          python -m pytest tools/contenido -q
+          python -m pytest tools/contenido tools/hooks -q

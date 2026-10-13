@@ -1,0 +1,19 @@
+#!/bin/sh
+# Regla permanente del proyecto: antes de cada merge se actualiza el README.md global.
+# Rechaza el merge si lo que integra cambia algo pero no toca README.md.
+# Para saltarlo de forma consciente: git merge --no-verify <rama>
+#
+# En este punto el resultado del merge ya está en el índice: se compara contra HEAD.
+
+# Sin cambios que integrar: nada que documentar.
+if git diff --cached --quiet HEAD; then
+    exit 0
+fi
+
+if git diff --cached --quiet HEAD -- README.md; then
+    echo "MERGE RECHAZADO: lo que integras no actualiza README.md." >&2
+    echo "Regla del proyecto: el README global debe estar al día en cada merge." >&2
+    echo "Actualízalo en la rama, haz commit y vuelve a intentar (o usa --no-verify a conciencia)." >&2
+    exit 1
+fi
+exit 0

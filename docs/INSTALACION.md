@@ -44,6 +44,9 @@ Android 8 (API 26) o superior. Copia el APK al teléfono y ábrelo (permite inst
 
 La app no usa internet: el manifiesto no declara el permiso `INTERNET` (una prueba y el CI lo verifican). Solo pide, en contexto y si activas el recordatorio, el permiso de notificaciones.
 
+## Hook de git (regla del README)
+Para que cada merge exija el README al día, en cada clon del repositorio: `git config core.hooksPath tools/hooks` y `git config merge.ff false`. Sus pruebas: `python -m pytest tools/hooks`.
+
 ## Cambiar de teléfono
 En el teléfono viejo: Ajustes, Copia del progreso, Exportar progreso. Pasa el archivo al nuevo, instala la app y usa Importar progreso. El importar reemplaza el progreso del teléfono, incluidos la racha, los repasos, los versículos que memorizas y los ajustes de contenido y recordatorio.
 
