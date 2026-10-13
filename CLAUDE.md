@@ -35,6 +35,7 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 - Todo texto visible va en `strings.xml`. Sin permiso INTERNET, sin analíticas, sin cuentas.
 - Versiones solo en `gradle/libs.versions.toml`.
 - Commits pequeños en español con prefijo (`feat:`, `fix:`, `docs:`, `test:`, `chore:`).
+- **Regla permanente:** antes de cada merge (o de preparar un PR para merge) se actualiza el `README.md` global para que refleje el estado real del proyecto (funcionalidades, hitos, comandos, pendientes y enlaces a docs), en un commit `docs:` de la misma rama.
 - Los commits, push, PR y merge NO llevan atribución a Claude (sin `Co-Authored-By` ni "Generated with").
 
 ## Reglas de contenido (críticas)
