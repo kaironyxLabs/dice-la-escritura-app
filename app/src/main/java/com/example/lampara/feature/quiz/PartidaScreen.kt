@@ -27,6 +27,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
@@ -321,7 +322,7 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
     ) {
         Text(stringResource(R.string.resultado_titulo), style = MaterialTheme.typography.headlineMedium)
         Text(
-            stringResource(R.string.resultado_aciertos, estado.resumen.aciertos, estado.resumen.total),
+            pluralStringResource(R.plurals.resultado_aciertos, estado.resumen.aciertos, estado.resumen.aciertos, estado.resumen.total),
             style = MaterialTheme.typography.titleLarge,
         )
         if (estado.modo != ModoJuego.EXAMEN) {

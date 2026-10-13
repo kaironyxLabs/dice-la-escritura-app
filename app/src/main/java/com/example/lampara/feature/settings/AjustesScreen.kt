@@ -2,7 +2,6 @@ package com.example.lampara.feature.settings
 
 import android.Manifest
 import android.net.Uri
-import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.selection.toggleable
@@ -92,7 +91,8 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
                 } else if (Notificaciones.tienePermiso(contexto)) {
                     permisoDenegado = false
                     viewModel.activarRecordatorio(true)
-                } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                } else {
+                    // Sin permiso solo puede ocurrir en Android 13 o superior, donde se pide en este momento.
                     pedirPermiso.launch(Manifest.permission.POST_NOTIFICATIONS)
                 }
             },

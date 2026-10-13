@@ -120,13 +120,13 @@ private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
                 }
                 is EstadoReto.EnCurso -> {
                     Text(
-                        stringResource(R.string.reto_en_curso, reto.respondidas, reto.total),
+                        pluralStringResource(R.plurals.reto_en_curso, reto.total, reto.respondidas, reto.total),
                         style = MaterialTheme.typography.bodyMedium,
                     )
                     BotonReto(R.string.reto_boton_continuar, onReto)
                 }
                 is EstadoReto.Completado -> Text(
-                    stringResource(R.string.reto_completado, reto.aciertos, reto.total),
+                    pluralStringResource(R.plurals.reto_completado, reto.aciertos, reto.aciertos, reto.total),
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }

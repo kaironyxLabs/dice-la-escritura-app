@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
     <string name="app_name">Lámpara</string>
 
     <!-- Bienvenida -->
@@ -17,9 +17,7 @@
     <string name="nav_progreso">Progreso</string>
     <string name="nav_ajustes">Ajustes</string>
 
-    <!-- Pantallas provisionales: se reemplazan en los hitos siguientes -->
     <string name="titulo_ajustes">Ajustes</string>
-    <string name="pantalla_proximamente">Esta sección se construirá en un próximo hito.</string>
 
     <!-- Memorizar versículos -->
     <string name="titulo_memorizar">Memorizar versículos</string>
@@ -56,10 +54,8 @@
     <!-- Inicio -->
     <string name="titulo_inicio">Inicio</string>
     <string name="nivel_numero">Nivel %1$d</string>
-    <string name="nivel_nombre">%1$s</string>
     <string name="xp_progreso">%1$d de %2$d XP</string>
-    <string name="xp_total">%1$d XP</string>
-    <string name="descripcion_barra_xp">Progreso del nivel: %1$d por ciento</string>
+    <string name="descripcion_barra_xp" tools:ignore="PluralsCandidate">Progreso del nivel: %1$d por ciento</string>
     <string name="nivel_maximo">Has alcanzado el nivel más alto.</string>
     <string name="examen_disponible">La barra está llena. Puedes presentar el examen de ascenso.</string>
     <string name="boton_examen">Examen de ascenso</string>
@@ -79,11 +75,11 @@
     <plurals name="preguntas_disponibles">
         <item quantity="one">%d pregunta disponible</item>
         <item quantity="other">%d preguntas disponibles</item>
+        <item quantity="many">%d preguntas disponibles</item>
     </plurals>
     <string name="volver">Volver</string>
 
     <!-- Partida y examen -->
-    <string name="titulo_partida">Partida</string>
     <string name="titulo_examen">Examen de ascenso</string>
     <string name="pregunta_n_de_total">Pregunta %1$d de %2$d</string>
     <string name="salir_partida">Salir de la partida</string>
@@ -110,14 +106,23 @@
     <!-- Reto diario y racha -->
     <string name="reto_titulo">Reto diario</string>
     <string name="reto_sin_empezar">Preguntas nuevas y de repaso. Se renueva cada día.</string>
-    <string name="reto_en_curso">Llevas %1$d de %2$d preguntas.</string>
-    <string name="reto_completado">Completaste el reto de hoy: %1$d de %2$d correctas.</string>
+    <plurals name="reto_en_curso">
+        <item quantity="one">Llevas %1$d de %2$d pregunta.</item>
+        <item quantity="other">Llevas %1$d de %2$d preguntas.</item>
+        <item quantity="many">Llevas %1$d de %2$d preguntas.</item>
+    </plurals>
+    <plurals name="reto_completado">
+        <item quantity="one">Completaste el reto de hoy: %1$d de %2$d correcta.</item>
+        <item quantity="other">Completaste el reto de hoy: %1$d de %2$d correctas.</item>
+        <item quantity="many">Completaste el reto de hoy: %1$d de %2$d correctas.</item>
+    </plurals>
     <string name="reto_boton_empezar">Empezar el reto de hoy</string>
     <string name="reto_boton_continuar">Continuar el reto</string>
     <string name="reto_ya_completado_aviso">Ya completaste el reto de hoy. Mañana habrá uno nuevo.</string>
     <plurals name="racha_dias">
         <item quantity="one">Racha: %d día</item>
         <item quantity="other">Racha: %d días</item>
+        <item quantity="many">Racha: %d días</item>
     </plurals>
     <string name="racha_mejor">Mejor racha: %1$d</string>
     <string name="racha_vacia">Completa el reto de hoy para empezar tu racha.</string>
@@ -129,7 +134,7 @@
     <string name="progreso_precision_valor">%1$d %% (%2$d de %3$d)</string>
     <string name="progreso_precision_vacia">Sin respuestas todavía</string>
     <string name="progreso_historial_titulo">Últimos 30 días</string>
-    <string name="progreso_historial_resumen">%1$d preguntas respondidas en %2$d días. Aciertos: %3$d %%.</string>
+    <string name="progreso_historial_resumen">Preguntas respondidas: %1$d. Días con actividad: %2$d. Aciertos: %3$d %%.</string>
     <string name="progreso_historial_vacio">Todavía no hay actividad en los últimos 30 días.</string>
     <string name="progreso_historial_descripcion">Gráfico de barras: preguntas respondidas por día durante los últimos 30 días. %1$s</string>
     <string name="progreso_historial_maximo">Máximo en un día: %1$d.</string>
@@ -174,10 +179,13 @@
 
     <!-- Resultado -->
     <string name="resultado_titulo">Resultado</string>
-    <string name="resultado_aciertos">%1$d de %2$d respuestas correctas</string>
+    <plurals name="resultado_aciertos">
+        <item quantity="one">%1$d de %2$d respuesta correcta</item>
+        <item quantity="other">%1$d de %2$d respuestas correctas</item>
+        <item quantity="many">%1$d de %2$d respuestas correctas</item>
+    </plurals>
     <string name="resultado_xp">XP ganado: %1$d</string>
     <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
-    <string name="jugar_otra_vez">Jugar otra vez</string>
 </resources>

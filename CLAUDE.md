@@ -22,6 +22,11 @@ Salida 0 = todo resuelto; 2 = estructura o correcciones inválidas; 3 = anomalí
 en `fuentes/correcciones.json`). El informe `docs/TEXTO_BIBLICO_informe.md` contiene fragmentos del texto y no se
 sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 
+## Contenido y revisión (tools/contenido)
+- `python tools/contenido/informe_revision.py`: genera `docs/REVISION_PREGUNTAS.md` con casillas para que el usuario revise.
+- `python tools/contenido/aplicar_revision.py`: pasa a `reviewed: true` solo lo que el usuario marcó. Claude nunca ejecuta esto ni marca `true` por su cuenta.
+- Las pruebas de contenido (`ContenidoCompletoTest` y otras) validan mínimos, referencias y versículos citados; corren con `./gradlew test`.
+
 ## Stack y convenciones
 - Kotlin + Compose Material 3, una Activity, Navigation Compose con rutas tipadas (`core/navigation/Destinos.kt`).
 - MVVM (ViewModel + StateFlow), Hilt, Room, DataStore, WorkManager, kotlinx.serialization.
@@ -40,6 +45,9 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 5. Todo contenido nuevo lleva `reviewed: false`. Nunca marcar `true`: lo revisa el usuario.
 6. No inventar datos: si una referencia o hecho es dudoso, se descarta la pregunta.
 7. El texto bíblico solo se corrige desde `fuentes/correcciones.json`, nunca de memoria.
+
+## Release
+`./gradlew assembleRelease` aplica R8 (reglas en `app/proguard-rules.pro`). El manifiesto no debe declarar INTERNET (`ManifiestoTest` y el CI lo verifican). El keystore y `keystore.properties` nunca van al repositorio.
 
 ## Dispositivos
 No ejecutar nada en teléfono ni emulador sin que el usuario lo indique. Pruebas JVM y build no lo necesitan.
