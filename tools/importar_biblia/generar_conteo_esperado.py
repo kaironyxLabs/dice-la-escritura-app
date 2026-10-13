@@ -29,6 +29,12 @@ AJUSTES = [
         "esperado": 15,
         "motivo": "La RVR1960 numera 15 versículos en 3 Juan (la KJV, 14); el PDF también trae 15.",
     },
+    {
+        "libro": "PSA",
+        "capitulo": 47,
+        "esperado": 10,
+        "motivo": "La RVR1960 numera 10 versículos en el Salmo 47 (la KJV, 9); confirmado en la edición impresa del usuario.",
+    },
 ]
 
 

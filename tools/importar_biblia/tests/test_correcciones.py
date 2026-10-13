@@ -3,7 +3,7 @@ import json
 import pytest
 
 from importar_biblia import correcciones as mod
-from importar_biblia.modelo import Capitulo, Libro, Resultado
+from importar_biblia.modelo import Capitulo, Libro, Paralelo, Resultado, Seccion
 
 from .ayudas import TABLA
 
@@ -134,3 +134,50 @@ def test_aceptadas(tmp_path):
     assert not c.esta_aceptada("conteo", "UNO", 2, None)
     assert c.esta_aceptada("patron-sospechoso", "UNO", 2, 1)
     assert not c.esta_aceptada("patron-sospechoso", "UNO", 2, 2)
+
+
+def resultado_con_notas() -> Resultado:
+    r = resultado()
+    capitulo = r.libros[0].capitulos[0]
+    capitulo.secciones = [Seccion(1, "Titulo de prueba")]
+    capitulo.paralelos = [Paralelo(1, "(Ex. 1.1-2_"), Paralelo(2, "(Ex. 3.4)")]
+    return r
+
+
+def test_nota_corrige_un_paralelo(tmp_path):
+    r = resultado_con_notas()
+    c = cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "paralelo", "buscar": "1.1-2_", "por": "1.1-2)"}]})
+    mod.aplicar(r, c)
+    assert [p.texto for p in r.libros[0].capitulos[0].paralelos] == ["(Ex. 1.1-2)", "(Ex. 3.4)"]
+    assert r.correcciones_aplicadas == ["UNO 1: paralelo corregido"]
+
+
+def test_nota_corrige_una_seccion(tmp_path):
+    r = resultado_con_notas()
+    c = cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "seccion", "buscar": "prueba", "por": "ejemplo"}]})
+    mod.aplicar(r, c)
+    assert r.libros[0].capitulos[0].secciones[0].titulo == "Titulo de ejemplo"
+
+
+def test_nota_exige_una_sola_aparicion(tmp_path):
+    for buscar in ("(Ex.", "inexistente"):
+        c = cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "paralelo", "buscar": buscar, "por": "x"}]})
+        with pytest.raises(mod.ErrorCorreccion, match="aparece"):
+            mod.aplicar(resultado_con_notas(), c)
+
+
+def test_validacion_de_notas(tmp_path):
+    with pytest.raises(mod.ErrorCorreccion, match="tipo"):
+        cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "otro", "buscar": "a", "por": "b"}]})
+    with pytest.raises(mod.ErrorCorreccion, match="buscar"):
+        cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "paralelo", "buscar": "", "por": "b"}]})
+
+
+def test_una_referencia_mal_cerrada_clasificada_como_seccion_pasa_a_paralelo(tmp_path):
+    r = resultado()
+    capitulo = r.libros[0].capitulos[0]
+    capitulo.secciones = [Seccion(2, "Titulo de prueba"), Seccion(2, "(Ex. 1.1-2_")]
+    c = cargar(tmp_path, {"notas": [{"libro": "UNO", "capitulo": 1, "tipo": "seccion", "buscar": "1.1-2_", "por": "1.1-2)"}]})
+    mod.aplicar(r, c)
+    assert [s.titulo for s in capitulo.secciones] == ["Titulo de prueba"]
+    assert [(p.antes_del_versiculo, p.texto) for p in capitulo.paralelos] == [(2, "(Ex. 1.1-2)")]

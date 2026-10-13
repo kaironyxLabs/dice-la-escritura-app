@@ -21,6 +21,9 @@ una edición impresa u otra fuente. Formato:
 Cada corrección lleva exactamente una operación: "texto" (reemplaza o inserta el versículo),
 "reemplazos" (cada "buscar" debe aparecer exactamente una vez), "renumerar_a" (mueve el texto a otro número
 vacío) o "eliminar". Un "pendiente" deja el versículo sin texto utilizable hasta que se verifique.
+Una "nota" corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte del
+versículo): {"libro", "capitulo", "tipo": "paralelo" | "seccion", "buscar": "<tal cual>", "por": "<corregido>"};
+"buscar" debe aparecer exactamente una vez entre los textos de ese tipo del capítulo.
 Una "aceptada" declara que una anomalía (por su "tipo", y opcionalmente "versiculo") es correcta tal cual.
 """
 
@@ -32,7 +35,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .libros import LibroTabla
-from .modelo import Capitulo, Resultado
+from .modelo import Capitulo, Paralelo, Resultado
 
 OPERACIONES = ("texto", "reemplazos", "renumerar_a", "eliminar")
 
@@ -46,6 +49,7 @@ class Correcciones:
     correcciones: list[dict] = field(default_factory=list)
     pendientes: dict[tuple[str, int, int], str] = field(default_factory=dict)
     aceptadas: list[dict] = field(default_factory=list)
+    notas: list[dict] = field(default_factory=list)
 
     def versiculos_corregidos(self) -> set[tuple[str, int, int]]:
         corregidos: set[tuple[str, int, int]] = set()
@@ -73,7 +77,7 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         raise ErrorCorreccion(f"{ruta}: JSON inválido ({error})") from error
     if not isinstance(datos, dict):
         raise ErrorCorreccion(f"{ruta}: se esperaba un objeto con 'correcciones', 'pendientes' y 'aceptadas'")
-    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas"}
+    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas", "notas"}
     if desconocidas:
         raise ErrorCorreccion(f"{ruta}: claves desconocidas {sorted(desconocidas)}")
 
@@ -128,7 +132,28 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         if not isinstance(entrada.get("tipo"), str):
             raise ErrorCorreccion(f"{donde}: falta 'tipo'")
         resultado.aceptadas.append(entrada)
+    for i, entrada in enumerate(datos.get("notas", []), start=1):
+        donde = f"notas[{i}]"
+        validar_ubicacion(entrada, donde, versiculo_obligatorio=False)
+        extras = set(entrada) - {"libro", "capitulo", "tipo", "buscar", "por", "motivo"}
+        if extras:
+            raise ErrorCorreccion(f"{donde}: claves desconocidas {sorted(extras)}")
+        if entrada.get("tipo") not in ("paralelo", "seccion"):
+            raise ErrorCorreccion(f"{donde}: 'tipo' debe ser 'paralelo' o 'seccion'")
+        if not (isinstance(entrada.get("buscar"), str) and entrada["buscar"] and isinstance(entrada.get("por"), str) and entrada["por"].strip()):
+            raise ErrorCorreccion(f"{donde}: requiere 'buscar' y 'por' no vacíos")
+        resultado.notas.append(entrada)
     return resultado
+
+
+def _reclasificar_paralelos(capitulo: Capitulo) -> None:
+    """Una referencia como "(Ex. 35.10-19)" mal cerrada en el PDF se tomó por título de sección; una vez
+    corregida, pasa a ser un paralelo (conservando su posición y sin tocar su texto)."""
+    movidas = [s for s in capitulo.secciones if s.titulo.startswith("(") and s.titulo.endswith(")")]
+    for seccion in movidas:
+        capitulo.secciones.remove(seccion)
+        capitulo.paralelos.append(Paralelo(seccion.antes_del_versiculo, seccion.titulo))
+    capitulo.paralelos.sort(key=lambda p: p.antes_del_versiculo)
 
 
 def _asegurar_longitud(capitulo: Capitulo, versiculo: int) -> None:
@@ -190,6 +215,22 @@ def aplicar(resultado: Resultado, correcciones: Correcciones) -> None:
             capitulo.versiculos[versiculo - 1] = None
             resultado.correcciones_aplicadas.append(f"{donde}: eliminado")
         _recortar_cola(capitulo)
+
+    for entrada in correcciones.notas:
+        libro, numero = entrada["libro"], entrada["capitulo"]
+        capitulo = _capitulo(resultado, libro, numero)
+        elementos = capitulo.paralelos if entrada["tipo"] == "paralelo" else capitulo.secciones
+        atributo = "texto" if entrada["tipo"] == "paralelo" else "titulo"
+        coincidencias = [e for e in elementos if entrada["buscar"] in getattr(e, atributo)]
+        veces = sum(getattr(e, atributo).count(entrada["buscar"]) for e in elementos)
+        if len(coincidencias) != 1 or veces != 1:
+            raise ErrorCorreccion(
+                f"{libro} {numero}: el texto a buscar en {entrada['tipo']} aparece {veces} veces (debe aparecer exactamente una)",
+            )
+        elemento = coincidencias[0]
+        setattr(elemento, atributo, " ".join(getattr(elemento, atributo).replace(entrada["buscar"], entrada["por"], 1).split()))
+        resultado.correcciones_aplicadas.append(f"{libro} {numero}: {entrada['tipo']} corregido")
+        _reclasificar_paralelos(capitulo)
 
     for (libro, numero, versiculo) in correcciones.pendientes:
         capitulo = _capitulo(resultado, libro, numero)

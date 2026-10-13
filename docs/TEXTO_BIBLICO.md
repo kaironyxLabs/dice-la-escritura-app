@@ -90,6 +90,7 @@ Lo escribes tú, con el texto verificado en tu edición impresa u otra fuente.
   - `reemplazos`: cada `buscar` debe aparecer exactamente una vez en el versículo; si no, el importador se detiene.
   - `renumerar_a`: mueve el texto a otro número vacío (útil cuando el PDF numera mal).
   - `eliminar`: quita el versículo.
+- `notas`: corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte): `{"libro": "EXO", "capitulo": 39, "tipo": "seccion", "buscar": "(Ex. 35.10-19_", "por": "(Ex. 35.10-19)"}`. `buscar` debe aparecer exactamente una vez. Una referencia entre paréntesis que el PDF dejó mal cerrada se toma por título; tras corregirla pasa a pasajes paralelos.
 - `pendientes`: el versículo queda sin texto utilizable hasta que lo verifiques. La app lo muestra como no disponible.
 - `aceptadas`: la anomalía (por su `tipo` y, opcionalmente, `versiculo`) es correcta tal cual; solo para diferencias legítimas.
 - Las correcciones se registran en el informe (sin copiar el texto).
@@ -101,7 +102,8 @@ Lo escribes tú, con el texto verificado en tu edición impresa u otra fuente.
 Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el informe en la importación del 13 de octubre de 2026:
 
 - Génesis 30:6-8 (falta el v. 7 y el v. 8; resto dañado), Salmo 39:10-11 (carácter suelto y número dañado), 1 Corintios 1:31 (numerado como 32), Ezequiel 31:17-18 (fundidos), Éxodo 2:15 (dígito dentro de una palabra) y caracteres sueltos en Éxodo 39, 2 Samuel 4 y 8, Amós 5 y Filemón 1.
-- **Salmo 47**: el PDF numera 10 versículos (la numeración de la RVR1960 trae 9; el v. 9 aparece partido en dos).
+- **Salmo 47**: tiene 10 versículos en la edición del usuario (la KJV, usada para el conteo esperado, trae 9); el ajuste está en `generar_conteo_esperado.py`.
+- **Acentos de "Él"**: el PDF escribe el pronombre "Él" sin tilde en mayúscula; la edición impresa del usuario sí la lleva. Es una diferencia de edición, no un daño; se corrige solo donde el usuario la dicta.
 - **Espacios perdidos**: el PDF pierde el espacio tras algunas vocales acentuadas, de modo que aparecen palabras pegadas ("estáen", "Asíque"). Es visible en la propia página del PDF, no es un fallo de la extracción. El informe los lista; hay más de 300 versículos afectados.
 
 ## Formato de `rvr1960.json`
@@ -140,8 +142,8 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 <!-- importacion:inicio -->
 - Última importación: 2026-10-13
 - SHA-256 del PDF (`biblia_rv1960.pdf`): `a750b2f89e73d9043892cd2ca9c1ed068bacf09049c96c334612b83bbd939f50`
-- SHA-256 del JSON (`rvr1960.json`): `d0a8200aaf854d81d2a64e55f9ca02307a8e5b186eaa2fe8918b2161a4c7d0e3`
+- SHA-256 del JSON (`rvr1960.json`): `ddf05a07be855d3192d0e317997e76dc72145f7f549e47631d45578f9f2f4f1a`
 - Libros: 66; capítulos: 1189; versículos: 31104
-- Correcciones aplicadas: 0; versículos pendientes: 11
-- Anomalías sin resolver: 386
+- Correcciones aplicadas: 18; versículos pendientes: 0
+- Anomalías sin resolver: 369
 <!-- importacion:fin -->
