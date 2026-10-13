@@ -16,6 +16,9 @@ interface PerfilDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(perfil: PerfilEntity)
+
+    @Query("DELETE FROM perfil")
+    suspend fun borrar()
 }
 
 @Dao
@@ -31,6 +34,12 @@ interface ProgresoPreguntaDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(progreso: ProgresoPreguntaEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardarTodos(progreso: List<ProgresoPreguntaEntity>)
+
+    @Query("DELETE FROM progreso_pregunta")
+    suspend fun borrarTodos()
 }
 
 @Dao
@@ -46,6 +55,15 @@ interface RetoDiarioDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(reto: RetoDiarioEntity)
+
+    @Query("SELECT * FROM reto_diario ORDER BY fechaDia")
+    suspend fun todos(): List<RetoDiarioEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardarTodos(retos: List<RetoDiarioEntity>)
+
+    @Query("DELETE FROM reto_diario")
+    suspend fun borrarTodos()
 }
 
 @Dao
@@ -58,6 +76,15 @@ interface ProgresoVersiculoDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(progreso: ProgresoVersiculoEntity)
+
+    @Query("SELECT * FROM progreso_versiculo ORDER BY pasajeId")
+    suspend fun todos(): List<ProgresoVersiculoEntity>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardarTodos(progreso: List<ProgresoVersiculoEntity>)
+
+    @Query("DELETE FROM progreso_versiculo")
+    suspend fun borrarTodos()
 }
 
 @Dao
@@ -67,4 +94,13 @@ interface SesionDao {
 
     @Query("SELECT * FROM sesion WHERE fechaDia >= :desdeDia ORDER BY creadaEnMs DESC")
     fun desde(desdeDia: Long): Flow<List<SesionEntity>>
+
+    @Query("SELECT * FROM sesion ORDER BY id")
+    suspend fun todas(): List<SesionEntity>
+
+    @Insert
+    suspend fun insertarTodas(sesiones: List<SesionEntity>)
+
+    @Query("DELETE FROM sesion")
+    suspend fun borrarTodas()
 }

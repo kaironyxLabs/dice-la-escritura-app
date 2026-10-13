@@ -8,9 +8,11 @@ import com.example.lampara.data.db.SesionEntity
 import com.example.lampara.data.db.TipoSesion
 import com.example.lampara.domain.model.Categoria
 import com.example.lampara.domain.model.Perfil
+import com.example.lampara.domain.usecase.ConteoPregunta
 import com.example.lampara.domain.usecase.GestorNiveles
 import com.example.lampara.domain.usecase.Leitner
 import com.example.lampara.domain.usecase.SeguimientoPregunta
+import com.example.lampara.domain.usecase.SesionResumida
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.time.Clock
@@ -44,6 +46,19 @@ class ProgresoRepository @Inject constructor(
     fun perfil(): Flow<Perfil> = perfilDao.observar().map { it?.let { e -> Perfil(e.nivel, e.xp) } ?: Perfil.INICIAL }
 
     suspend fun perfilActual(): Perfil = perfilDao.obtener()?.let { Perfil(it.nivel, it.xp) } ?: Perfil.INICIAL
+
+    /** Aciertos y fallos acumulados por pregunta (para las estadísticas). */
+    fun observarConteos(): Flow<Map<String, ConteoPregunta>> = progresoDao.observarTodos().map { filas ->
+        filas.associate { it.preguntaId to ConteoPregunta(it.aciertos, it.fallos) }
+    }
+
+    /** Sesiones de los últimos [dias] días, con su categoría si fueron de una sola. */
+    fun observarSesiones(dias: Int = 30): Flow<List<SesionResumida>> =
+        sesionDao.desde(hoy().minusDays((dias - 1).toLong()).toEpochDay()).map { filas ->
+            filas.map {
+                SesionResumida(LocalDate.ofEpochDay(it.fechaDia), it.aciertos, it.total, it.categoria?.let(Categoria::desdeId))
+            }
+        }
 
     suspend fun seguimiento(): Map<String, SeguimientoPregunta> = progresoDao.todos().associate {
         it.preguntaId to SeguimientoPregunta(it.caja, LocalDate.ofEpochDay(it.proximaFechaDia))

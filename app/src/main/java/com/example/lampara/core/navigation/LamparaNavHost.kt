@@ -22,13 +22,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.lampara.R
-import com.example.lampara.core.ui.PantallaProvisional
 import com.example.lampara.feature.home.InicioScreen
 import com.example.lampara.feature.memorize.MemorizarScreen
 import com.example.lampara.feature.memorize.PracticaScreen
 import com.example.lampara.feature.onboarding.OnboardingScreen
 import com.example.lampara.feature.onboarding.RaizViewModel
+import com.example.lampara.feature.progress.ProgresoScreen
 import com.example.lampara.feature.quiz.CategoriasScreen
 import com.example.lampara.feature.quiz.PartidaScreen
 import com.example.lampara.feature.settings.AjustesScreen
@@ -112,7 +111,7 @@ fun LamparaNavHost(raiz: RaizViewModel = hiltViewModel()) {
             composable<Destino.Practica> {
                 PracticaScreen(onSalir = { navController.popBackStack() })
             }
-            composable<Destino.Progreso> { PantallaProvisional(R.string.titulo_progreso) }
+            composable<Destino.Progreso> { ProgresoScreen() }
             composable<Destino.Ajustes> { AjustesScreen() }
         }
     }

@@ -1,6 +1,7 @@
 package com.example.lampara.feature.settings
 
 import android.Manifest
+import android.net.Uri
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -36,8 +37,10 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.example.lampara.BuildConfig
 import com.example.lampara.R
 import com.example.lampara.core.notifications.Notificaciones
+import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
@@ -95,7 +98,85 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
             },
             onCambiarHora = viewModel::cambiarHoraRecordatorio,
         )
+        SeccionRespaldo(viewModel)
+        SeccionAcerca()
     }
+}
+
+@Composable
+private fun SeccionRespaldo(viewModel: AjustesViewModel) {
+    val mensaje by viewModel.mensaje.collectAsStateWithLifecycle()
+    var importacionPendiente by remember { mutableStateOf<Uri?>(null) }
+
+    val crearArchivo = rememberLauncherForActivityResult(
+        ActivityResultContracts.CreateDocument("application/json"),
+    ) { uri -> if (uri != null) viewModel.exportarA(uri) }
+    val abrirArchivo = rememberLauncherForActivityResult(
+        ActivityResultContracts.OpenDocument(),
+    ) { uri -> if (uri != null) importacionPendiente = uri }
+
+    Text(stringResource(R.string.ajustes_respaldo_titulo), style = MaterialTheme.typography.titleMedium)
+    Text(stringResource(R.string.ajustes_respaldo_descripcion), style = MaterialTheme.typography.bodyMedium)
+    OutlinedButton(
+        onClick = {
+            viewModel.descartarMensaje()
+            crearArchivo.launch("lampara-progreso-${LocalDate.now()}.json")
+        },
+        modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
+    ) { Text(stringResource(R.string.ajustes_exportar)) }
+    OutlinedButton(
+        onClick = {
+            viewModel.descartarMensaje()
+            abrirArchivo.launch(arrayOf("application/json", "text/plain", "application/octet-stream"))
+        },
+        modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
+    ) { Text(stringResource(R.string.ajustes_importar)) }
+
+    mensaje?.let { m ->
+        Text(
+            text = when (m) {
+                MensajeRespaldo.Exportado -> stringResource(R.string.respaldo_exportado)
+                MensajeRespaldo.Importado -> stringResource(R.string.respaldo_importado)
+                MensajeRespaldo.ErrorAlExportar -> stringResource(R.string.respaldo_error_exportar)
+                MensajeRespaldo.ErrorAlLeer -> stringResource(R.string.respaldo_error_leer)
+                is MensajeRespaldo.Rechazado -> stringResource(R.string.respaldo_rechazado, m.motivo)
+            },
+            style = MaterialTheme.typography.bodyMedium,
+            color = if (m == MensajeRespaldo.Exportado || m == MensajeRespaldo.Importado) {
+                MaterialTheme.colorScheme.primary
+            } else {
+                MaterialTheme.colorScheme.error
+            },
+        )
+    }
+
+    importacionPendiente?.let { uri ->
+        AlertDialog(
+            onDismissRequest = { importacionPendiente = null },
+            title = { Text(stringResource(R.string.ajustes_importar_confirmar_titulo)) },
+            text = { Text(stringResource(R.string.ajustes_importar_confirmar_texto)) },
+            confirmButton = {
+                TextButton(onClick = {
+                    importacionPendiente = null
+                    viewModel.importarDesde(uri)
+                }) { Text(stringResource(R.string.ajustes_importar_confirmar_boton)) }
+            },
+            dismissButton = {
+                TextButton(onClick = { importacionPendiente = null }) { Text(stringResource(R.string.cancelar)) }
+            },
+        )
+    }
+}
+
+@Composable
+private fun SeccionAcerca() {
+    Text(stringResource(R.string.ajustes_acerca_titulo), style = MaterialTheme.typography.titleMedium)
+    Text(stringResource(R.string.ajustes_acerca_version, BuildConfig.VERSION_NAME), style = MaterialTheme.typography.bodyMedium)
+    Text(
+        stringResource(R.string.ajustes_acerca_descripcion),
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
 }
 
 @OptIn(ExperimentalMaterial3Api::class)

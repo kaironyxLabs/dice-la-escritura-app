@@ -18,7 +18,6 @@
     <string name="nav_ajustes">Ajustes</string>
 
     <!-- Pantallas provisionales: se reemplazan en los hitos siguientes -->
-    <string name="titulo_progreso">Progreso</string>
     <string name="titulo_ajustes">Ajustes</string>
     <string name="pantalla_proximamente">Esta sección se construirá en un próximo hito.</string>
 
@@ -123,6 +122,37 @@
     <string name="racha_mejor">Mejor racha: %1$d</string>
     <string name="racha_vacia">Completa el reto de hoy para empezar tu racha.</string>
     <string name="racha_gracia">Tienes un día de gracia disponible esta semana.</string>
+
+    <!-- Progreso -->
+    <string name="titulo_progreso">Progreso</string>
+    <string name="progreso_precision_titulo">Precisión por categoría</string>
+    <string name="progreso_precision_valor">%1$d %% (%2$d de %3$d)</string>
+    <string name="progreso_precision_vacia">Sin respuestas todavía</string>
+    <string name="progreso_historial_titulo">Últimos 30 días</string>
+    <string name="progreso_historial_resumen">%1$d preguntas respondidas en %2$d días. Aciertos: %3$d %%.</string>
+    <string name="progreso_historial_vacio">Todavía no hay actividad en los últimos 30 días.</string>
+    <string name="progreso_historial_descripcion">Gráfico de barras: preguntas respondidas por día durante los últimos 30 días. %1$s</string>
+    <string name="progreso_historial_maximo">Máximo en un día: %1$d.</string>
+    <string name="progreso_mejor_racha">Mejor racha: %1$d</string>
+
+    <!-- Respaldo -->
+    <string name="ajustes_respaldo_titulo">Copia del progreso</string>
+    <string name="ajustes_respaldo_descripcion">Guarda tu progreso en un archivo para cambiar de teléfono o tener una copia. Al importar se reemplaza el progreso actual.</string>
+    <string name="ajustes_exportar">Exportar progreso</string>
+    <string name="ajustes_importar">Importar progreso</string>
+    <string name="ajustes_importar_confirmar_titulo">¿Reemplazar el progreso actual?</string>
+    <string name="ajustes_importar_confirmar_texto">El progreso de este teléfono se sustituirá por el del archivo. No se puede deshacer.</string>
+    <string name="ajustes_importar_confirmar_boton">Reemplazar</string>
+    <string name="respaldo_exportado">Progreso exportado.</string>
+    <string name="respaldo_importado">Progreso importado.</string>
+    <string name="respaldo_error_exportar">No se pudo guardar el archivo.</string>
+    <string name="respaldo_error_leer">No se pudo leer el archivo.</string>
+    <string name="respaldo_rechazado">El archivo no se importó: %1$s</string>
+
+    <!-- Acerca de -->
+    <string name="ajustes_acerca_titulo">Acerca de</string>
+    <string name="ajustes_acerca_version">Lámpara, versión %1$s</string>
+    <string name="ajustes_acerca_descripcion">App para aprender la Biblia un poco cada día, sin conexión. Sin anuncios, sin analíticas y sin cuentas: tus datos viven solo en este teléfono. El texto bíblico es la Reina-Valera 1960 y lo aporta cada usuario. Tipografías Inter y Source Serif 4 bajo licencia SIL Open Font 1.1.</string>
 
     <!-- Ajustes y recordatorio -->
     <string name="ajustes_contenido_titulo">Contenido</string>
