@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Sin permiso INTERNET a propósito: la app es 100 % sin conexión. -->
+    <!-- Sin permiso de red a propósito: la app es 100 % sin conexión. -->
+
+    <!-- Solo para el recordatorio diario opcional; se pide en contexto, al activarlo en Ajustes. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:name=".LamparaApp"

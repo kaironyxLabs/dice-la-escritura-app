@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "21c6ac31a56f76a84538de978d153573",
+    "identityHash": "0c3d42218a209377c9f0e7556334d0d1",
     "entities": [
       {
         "tableName": "perfil",
@@ -145,11 +145,59 @@
             "id"
           ]
         }
+      },
+      {
+        "tableName": "reto_diario",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`fechaDia` INTEGER NOT NULL, `preguntaIds` TEXT NOT NULL, `respondidas` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, `xpGanado` INTEGER NOT NULL, `completado` INTEGER NOT NULL, PRIMARY KEY(`fechaDia`))",
+        "fields": [
+          {
+            "fieldPath": "fechaDia",
+            "columnName": "fechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "preguntaIds",
+            "columnName": "preguntaIds",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "respondidas",
+            "columnName": "respondidas",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpGanado",
+            "columnName": "xpGanado",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completado",
+            "columnName": "completado",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "fechaDia"
+          ]
+        }
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '21c6ac31a56f76a84538de978d153573')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '0c3d42218a209377c9f0e7556334d0d1')"
     ]
   }
 }

@@ -18,8 +18,12 @@ sealed interface Destino {
     @Serializable data object Ajustes : Destino
     @Serializable data object Categorias : Destino
 
-    /** Partida de una categoría (`categoria` = id de [com.example.lampara.domain.model.Categoria]) o examen de ascenso. */
-    @Serializable data class Partida(val categoria: String? = null, val examen: Boolean = false) : Destino
+    /** Partida de una categoría (`categoria` = id de [com.example.lampara.domain.model.Categoria]), examen de ascenso o reto diario. */
+    @Serializable data class Partida(
+        val categoria: String? = null,
+        val examen: Boolean = false,
+        val reto: Boolean = false,
+    ) : Destino
 }
 
 /** Destinos de la barra inferior. */

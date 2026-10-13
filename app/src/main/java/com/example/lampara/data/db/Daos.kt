@@ -34,6 +34,21 @@ interface ProgresoPreguntaDao {
 }
 
 @Dao
+interface RetoDiarioDao {
+    @Query("SELECT * FROM reto_diario WHERE fechaDia = :fechaDia")
+    suspend fun obtener(fechaDia: Long): RetoDiarioEntity?
+
+    @Query("SELECT * FROM reto_diario WHERE fechaDia = :fechaDia")
+    fun observar(fechaDia: Long): Flow<RetoDiarioEntity?>
+
+    @Query("SELECT fechaDia FROM reto_diario WHERE completado = 1 ORDER BY fechaDia")
+    fun observarFechasCompletadas(): Flow<List<Long>>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardar(reto: RetoDiarioEntity)
+}
+
+@Dao
 interface SesionDao {
     @Insert
     suspend fun insertar(sesion: SesionEntity): Long

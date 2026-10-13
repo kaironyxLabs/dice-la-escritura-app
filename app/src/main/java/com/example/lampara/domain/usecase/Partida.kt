@@ -78,6 +78,34 @@ class SelectorPreguntas(private val random: Random = Random.Default) {
     }
 
     /**
+     * Reto diario: mezcla de repaso vencido (hasta la mitad, el más atrasado primero) y preguntas nuevas.
+     * Si faltan nuevas se completa con más repaso y, por último, con preguntas aún no vencidas.
+     */
+    fun reto(
+        banco: List<Pregunta>,
+        filtro: FiltroJuego,
+        seguimiento: Map<String, SeguimientoPregunta>,
+        hoy: LocalDate,
+        cantidad: Int,
+    ): List<Pregunta> {
+        val candidatas = elegibles(banco, filtro)
+        val (vistas, nuevas) = candidatas.partition { it.id in seguimiento }
+        val (vencidas, vigentes) = vistas.partition { Leitner.estaVencida(seguimiento.getValue(it.id).proximaFecha, hoy) }
+        val vencidasPorAtraso = vencidas.sortedBy { seguimiento.getValue(it.id).proximaFecha }
+        val repaso = vencidasPorAtraso.take(cantidad / 2)
+
+        val elegidas = repaso.toMutableList()
+        elegidas += nuevas.shuffled(random).take(cantidad - elegidas.size)
+        if (elegidas.size < cantidad) {
+            elegidas += vencidasPorAtraso.drop(repaso.size).take(cantidad - elegidas.size)
+        }
+        if (elegidas.size < cantidad) {
+            elegidas += vigentes.sortedBy { seguimiento.getValue(it.id).proximaFecha }.take(cantidad - elegidas.size)
+        }
+        return elegidas.shuffled(random)
+    }
+
+    /**
      * Examen de ascenso: preguntas de las categorías desbloqueadas, favoreciendo las de la dificultad
      * más alta del nivel. Si no hay [cantidad] disponibles devuelve las que haya.
      */

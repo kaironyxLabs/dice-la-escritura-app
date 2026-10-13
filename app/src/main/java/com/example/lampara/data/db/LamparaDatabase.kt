@@ -9,13 +9,19 @@ import androidx.room.RoomDatabase
  * desde la primera instalación, cada cambio exige subir la versión y escribir su migración.
  */
 @Database(
-    entities = [PerfilEntity::class, ProgresoPreguntaEntity::class, SesionEntity::class],
+    entities = [
+        PerfilEntity::class,
+        ProgresoPreguntaEntity::class,
+        SesionEntity::class,
+        RetoDiarioEntity::class,
+    ],
     version = 1,
     exportSchema = true,
 )
 abstract class LamparaDatabase : RoomDatabase() {
     abstract fun perfilDao(): PerfilDao
     abstract fun progresoPreguntaDao(): ProgresoPreguntaDao
+    abstract fun retoDiarioDao(): RetoDiarioDao
     abstract fun sesionDao(): SesionDao
 
     companion object {

@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -16,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -24,22 +26,25 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.lampara.R
 import com.example.lampara.domain.usecase.EstadoNivel
+import com.example.lampara.domain.usecase.Racha
 
 @Composable
 fun InicioScreen(
     onJugarPorCategoria: () -> Unit,
     onExamen: () -> Unit,
+    onReto: () -> Unit,
     viewModel: InicioViewModel = hiltViewModel(),
 ) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
-    InicioContenido(estado, onJugarPorCategoria, onExamen)
+    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto)
 }
 
 @Composable
 fun InicioContenido(
-    estado: EstadoNivel?,
+    estado: InicioUiState?,
     onJugarPorCategoria: () -> Unit,
     onExamen: () -> Unit,
+    onReto: () -> Unit,
 ) {
     Column(
         modifier = Modifier
@@ -53,23 +58,22 @@ fun InicioContenido(
             Text(stringResource(R.string.cargando))
             return@Column
         }
-        TarjetaNivel(estado)
-        if (estado.examenDisponible) {
+        TarjetaNivel(estado.nivel)
+        TarjetaReto(estado, onReto)
+        if (estado.nivel.examenDisponible) {
             Text(
                 stringResource(R.string.examen_disponible),
                 style = MaterialTheme.typography.bodyLarge,
             )
-            Button(onClick = onExamen, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.boton_examen))
-            }
-            OutlinedButton(onClick = onJugarPorCategoria, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.boton_jugar_categoria))
-            }
-        } else {
-            Button(onClick = onJugarPorCategoria, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.boton_jugar_categoria))
-            }
+            Button(
+                onClick = onExamen,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
+            ) { Text(stringResource(R.string.boton_examen)) }
         }
+        OutlinedButton(
+            onClick = onJugarPorCategoria,
+            modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
+        ) { Text(stringResource(R.string.boton_jugar_categoria)) }
     }
 }
 
@@ -100,5 +104,70 @@ private fun TarjetaNivel(estado: EstadoNivel) {
                 style = MaterialTheme.typography.bodyMedium,
             )
         }
+    }
+}
+
+@Composable
+private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
+            TextoRacha(estado.racha)
+            when (val reto = estado.reto) {
+                EstadoReto.SinEmpezar -> {
+                    Text(stringResource(R.string.reto_sin_empezar), style = MaterialTheme.typography.bodyMedium)
+                    BotonReto(R.string.reto_boton_empezar, onReto)
+                }
+                is EstadoReto.EnCurso -> {
+                    Text(
+                        stringResource(R.string.reto_en_curso, reto.respondidas, reto.total),
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
+                    BotonReto(R.string.reto_boton_continuar, onReto)
+                }
+                is EstadoReto.Completado -> Text(
+                    stringResource(R.string.reto_completado, reto.aciertos, reto.total),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun BotonReto(etiqueta: Int, onClick: () -> Unit) {
+    Button(onClick = onClick, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+        Text(stringResource(etiqueta))
+    }
+}
+
+/** Racha en tono sobrio: informa, no presiona. */
+@Composable
+private fun TextoRacha(racha: Racha) {
+    if (racha.actual == 0) {
+        Text(
+            stringResource(R.string.racha_vacia),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        return
+    }
+    Text(
+        pluralStringResource(R.plurals.racha_dias, racha.actual, racha.actual),
+        style = MaterialTheme.typography.titleMedium,
+    )
+    if (racha.mejor > racha.actual) {
+        Text(
+            stringResource(R.string.racha_mejor, racha.mejor),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
+    if (racha.graciaDisponibleEstaSemana) {
+        Text(
+            stringResource(R.string.racha_gracia),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }

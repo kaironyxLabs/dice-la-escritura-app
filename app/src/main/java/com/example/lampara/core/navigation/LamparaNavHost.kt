@@ -21,6 +21,7 @@ import com.example.lampara.core.ui.PantallaProvisional
 import com.example.lampara.feature.home.InicioScreen
 import com.example.lampara.feature.quiz.CategoriasScreen
 import com.example.lampara.feature.quiz.PartidaScreen
+import com.example.lampara.feature.settings.AjustesScreen
 
 @Composable
 fun LamparaNavHost() {
@@ -62,6 +63,7 @@ fun LamparaNavHost() {
                 InicioScreen(
                     onJugarPorCategoria = { navController.navigate(Destino.Categorias) },
                     onExamen = { navController.navigate(Destino.Partida(examen = true)) },
+                    onReto = { navController.navigate(Destino.Partida(reto = true)) },
                 )
             }
             composable<Destino.Categorias> {
@@ -72,7 +74,7 @@ fun LamparaNavHost() {
             }
             composable<Destino.Memorizar> { PantallaProvisional(R.string.titulo_memorizar) }
             composable<Destino.Progreso> { PantallaProvisional(R.string.titulo_progreso) }
-            composable<Destino.Ajustes> { PantallaProvisional(R.string.titulo_ajustes) }
+            composable<Destino.Ajustes> { AjustesScreen() }
         }
     }
 }

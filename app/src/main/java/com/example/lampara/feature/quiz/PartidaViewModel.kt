@@ -11,6 +11,7 @@ import com.example.lampara.data.datastore.AjustesRepository
 import com.example.lampara.data.db.TipoSesion
 import com.example.lampara.data.repository.PreguntaRepository
 import com.example.lampara.data.repository.ProgresoRepository
+import com.example.lampara.data.repository.RetoDiarioRepository
 import com.example.lampara.data.repository.SesionTerminada
 import com.example.lampara.domain.model.Categoria
 import com.example.lampara.domain.model.Nivel
@@ -32,7 +33,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-enum class MotivoSinPreguntas { SIN_PREGUNTAS, EXAMEN_INSUFICIENTE, CATEGORIA_BLOQUEADA }
+enum class MotivoSinPreguntas { SIN_PREGUNTAS, EXAMEN_INSUFICIENTE, CATEGORIA_BLOQUEADA, RETO_COMPLETADO }
+
+enum class ModoJuego { CATEGORIA, EXAMEN, RETO_DIARIO }
 
 sealed interface PartidaUiState {
     data object Cargando : PartidaUiState
@@ -42,7 +45,7 @@ sealed interface PartidaUiState {
     data class EnCurso(
         val numero: Int,
         val total: Int,
-        val esExamen: Boolean,
+        val modo: ModoJuego,
         val pregunta: Pregunta,
         /** Opciones u elementos barajados; vacío en verdadero/falso. */
         val disposicion: List<String>,
@@ -55,7 +58,7 @@ sealed interface PartidaUiState {
 
     data class Terminada(
         val resumen: ResumenSesion,
-        val esExamen: Boolean,
+        val modo: ModoJuego,
         val aprobado: Boolean?,
         val nivelNuevo: Nivel?,
         val porcentajeAprobacion: Int,
@@ -67,6 +70,7 @@ class PartidaViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
     private val preguntas: PreguntaRepository,
     private val progreso: ProgresoRepository,
+    private val retos: RetoDiarioRepository,
     private val ajustes: AjustesRepository,
     private val flags: FeatureFlags,
     private val gestor: GestorNiveles,
@@ -74,7 +78,11 @@ class PartidaViewModel @Inject constructor(
 
     private val destino = savedStateHandle.toRoute<Destino.Partida>()
     private val categoria: Categoria? = destino.categoria?.let { Categoria.desdeId(it) }
-    private val esExamen: Boolean = destino.examen
+    private val modo = when {
+        destino.reto -> ModoJuego.RETO_DIARIO
+        destino.examen -> ModoJuego.EXAMEN
+        else -> ModoJuego.CATEGORIA
+    }
 
     private val _estado = MutableStateFlow<PartidaUiState>(PartidaUiState.Cargando)
     val estado: StateFlow<PartidaUiState> = _estado.asStateFlow()
@@ -93,7 +101,7 @@ class PartidaViewModel @Inject constructor(
         val modulos = flags.modulosHabilitados().first()
         val soloRevisadas = ajustes.soloRevisadas.first()
         val desbloqueadas = gestor.categoriasDesbloqueadas(perfil.nivel)
-        if (!esExamen && (categoria == null || categoria !in desbloqueadas)) {
+        if (modo == ModoJuego.CATEGORIA && (categoria == null || categoria !in desbloqueadas)) {
             _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.CATEGORIA_BLOQUEADA)
             return
         }
@@ -103,25 +111,70 @@ class PartidaViewModel @Inject constructor(
             soloRevisadas = soloRevisadas,
             dificultadMaxima = gestor.nivel(perfil.nivel).dificultadMaxima,
             categoriasPermitidas = desbloqueadas,
-            categoria = if (esExamen) null else categoria,
+            categoria = if (modo == ModoJuego.CATEGORIA) categoria else null,
         )
+        val banco = withContext(Dispatchers.Default) { preguntas.preguntas(modulos, soloRevisadas) }
+
+        if (modo == ModoJuego.RETO_DIARIO) {
+            iniciarReto(banco, filtro, seguimiento)
+            return
+        }
+
         val elegidas = withContext(Dispatchers.Default) {
-            val banco = preguntas.preguntas(modulos, soloRevisadas)
             val selector = SelectorPreguntas()
-            if (esExamen) {
+            if (modo == ModoJuego.EXAMEN) {
                 selector.examen(banco, filtro, gestor.config.examenPreguntas)
             } else {
                 selector.partida(banco, filtro, seguimiento, progreso.hoy(), PREGUNTAS_POR_PARTIDA)
             }
         }
-        val minimo = if (esExamen) minOf(gestor.config.examenPreguntas, MINIMO_EXAMEN) else 1
+        val minimo = if (modo == ModoJuego.EXAMEN) minOf(gestor.config.examenPreguntas, MINIMO_EXAMEN) else 1
         if (elegidas.size < minimo) {
             _estado.value = PartidaUiState.SinPreguntas(
-                if (esExamen) MotivoSinPreguntas.EXAMEN_INSUFICIENTE else MotivoSinPreguntas.SIN_PREGUNTAS,
+                if (modo == ModoJuego.EXAMEN) MotivoSinPreguntas.EXAMEN_INSUFICIENTE else MotivoSinPreguntas.SIN_PREGUNTAS,
             )
             return
         }
-        sesion = SesionJuego(elegidas, esExamen, gestor)
+        sesion = SesionJuego(elegidas, esExamen = modo == ModoJuego.EXAMEN, gestor = gestor)
+        publicar()
+    }
+
+    /** Retoma el reto de hoy o lo crea. Las preguntas quedan fijadas al crearlo. */
+    private suspend fun iniciarReto(
+        banco: List<Pregunta>,
+        filtro: FiltroJuego,
+        seguimiento: Map<String, com.example.lampara.domain.usecase.SeguimientoPregunta>,
+    ) {
+        val reto = retos.retoDeHoy() ?: run {
+            val ids = withContext(Dispatchers.Default) {
+                SelectorPreguntas().reto(banco, filtro, seguimiento, progreso.hoy(), PREGUNTAS_POR_PARTIDA)
+            }.map { it.id }
+            if (ids.isEmpty()) {
+                _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.SIN_PREGUNTAS)
+                return
+            }
+            retos.crearRetoDeHoy(ids)
+        }
+        if (reto.completado) {
+            _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.RETO_COMPLETADO)
+            return
+        }
+        val porId = banco.associateBy { it.id }
+        val pendientes = reto.preguntaIds.drop(reto.respondidas).mapNotNull { porId[it] }
+        if (pendientes.isEmpty()) {
+            // Lo que faltaba ya no está disponible (por ejemplo, se apagó un módulo): se da por terminado.
+            retos.completar()
+            _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.RETO_COMPLETADO)
+            return
+        }
+        sesion = SesionJuego(
+            preguntas = pendientes,
+            esExamen = false,
+            gestor = gestor,
+            respondidasPrevias = reto.respondidas,
+            aciertosPrevios = reto.aciertos,
+            xpPrevio = reto.xpGanado,
+        )
         publicar()
     }
 
@@ -132,7 +185,10 @@ class PartidaViewModel @Inject constructor(
         val resultado = s.responder(respuesta)
         respuestaDada = respuesta
         publicar()
-        viewModelScope.launch { progreso.registrarRespuesta(pregunta.id, resultado.correcta, resultado.xp) }
+        viewModelScope.launch {
+            progreso.registrarRespuesta(pregunta.id, resultado.correcta, resultado.xp)
+            if (modo == ModoJuego.RETO_DIARIO) retos.registrarRespuesta(resultado.correcta, resultado.xp)
+        }
     }
 
     /** En ordenar: añade el elemento a la lista del jugador o, si ya estaba, lo quita. */
@@ -167,15 +223,20 @@ class PartidaViewModel @Inject constructor(
         viewModelScope.launch {
             var aprobado: Boolean? = null
             var nivelNuevo: Nivel? = null
-            if (esExamen) {
+            if (modo == ModoJuego.EXAMEN) {
                 val resultado = gestor.evaluarExamen(resumen.aciertos, resumen.total)
                 aprobado = resultado.aprobado
                 if (resultado.aprobado) nivelNuevo = gestor.nivel(progreso.ascender().nivel)
             }
+            if (modo == ModoJuego.RETO_DIARIO) retos.completar()
             progreso.guardarSesion(
                 SesionTerminada(
-                    tipo = if (esExamen) TipoSesion.EXAMEN else TipoSesion.PARTIDA,
-                    categoria = if (esExamen) null else categoria,
+                    tipo = when (modo) {
+                        ModoJuego.EXAMEN -> TipoSesion.EXAMEN
+                        ModoJuego.RETO_DIARIO -> TipoSesion.RETO_DIARIO
+                        ModoJuego.CATEGORIA -> TipoSesion.PARTIDA
+                    },
+                    categoria = if (modo == ModoJuego.CATEGORIA) categoria else null,
                     aciertos = resumen.aciertos,
                     total = resumen.total,
                     xpGanado = resumen.xpGanado,
@@ -184,7 +245,7 @@ class PartidaViewModel @Inject constructor(
             )
             _estado.value = PartidaUiState.Terminada(
                 resumen = resumen,
-                esExamen = esExamen,
+                modo = modo,
                 aprobado = aprobado,
                 nivelNuevo = nivelNuevo,
                 porcentajeAprobacion = gestor.config.examenAprobacionPorcentaje,
@@ -197,7 +258,7 @@ class PartidaViewModel @Inject constructor(
         _estado.value = PartidaUiState.EnCurso(
             numero = s.indice + 1,
             total = s.total,
-            esExamen = esExamen,
+            modo = modo,
             pregunta = s.pregunta,
             disposicion = s.disposicionActual,
             orden = orden,

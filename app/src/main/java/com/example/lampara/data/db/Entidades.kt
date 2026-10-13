@@ -42,6 +42,18 @@ data class SesionEntity(
     val aprobado: Boolean?,
 )
 
+/** Reto diario de una fecha. Las preguntas quedan fijadas al crearlo, así que reabrirlo no cambia nada. */
+@Entity(tableName = "reto_diario")
+data class RetoDiarioEntity(
+    @PrimaryKey val fechaDia: Long,
+    /** Ids de las preguntas separados por coma, en el orden en que se presentan. */
+    val preguntaIds: String,
+    val respondidas: Int,
+    val aciertos: Int,
+    val xpGanado: Int,
+    val completado: Boolean,
+)
+
 enum class TipoSesion(val id: String) {
     PARTIDA("partida"),
     EXAMEN("examen"),

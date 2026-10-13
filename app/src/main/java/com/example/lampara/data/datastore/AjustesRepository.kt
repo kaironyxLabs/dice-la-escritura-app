@@ -4,8 +4,10 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
 import com.example.lampara.core.flags.FeatureFlag
 import com.example.lampara.core.flags.FeatureFlags
+import com.example.lampara.domain.usecase.Recordatorio
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
@@ -20,6 +22,8 @@ class AjustesRepository @Inject constructor(
 
     private val claveSoloRevisadas = booleanPreferencesKey("solo_revisadas")
     private val claveOnboardingVisto = booleanPreferencesKey("onboarding_visto")
+    private val claveRecordatorioActivo = booleanPreferencesKey("recordatorio_activo")
+    private val claveRecordatorioMinutos = intPreferencesKey("recordatorio_minutos")
 
     override fun habilitada(flag: FeatureFlag): Flow<Boolean> =
         dataStore.data.map { it[booleanPreferencesKey(flag.clave)] ?: flag.valorPorDefecto }.distinctUntilChanged()
@@ -34,6 +38,20 @@ class AjustesRepository @Inject constructor(
 
     suspend fun establecerSoloRevisadas(valor: Boolean) {
         dataStore.edit { it[claveSoloRevisadas] = valor }
+    }
+
+    val recordatorioActivo: Flow<Boolean> =
+        dataStore.data.map { it[claveRecordatorioActivo] ?: false }.distinctUntilChanged()
+
+    /** Hora del recordatorio en minutos desde las 00:00 (20:00 por defecto). */
+    val recordatorioMinutos: Flow<Int> =
+        dataStore.data.map { it[claveRecordatorioMinutos] ?: Recordatorio.MINUTOS_POR_DEFECTO }.distinctUntilChanged()
+
+    suspend fun establecerRecordatorio(activo: Boolean, minutos: Int) {
+        dataStore.edit {
+            it[claveRecordatorioActivo] = activo
+            it[claveRecordatorioMinutos] = minutos
+        }
     }
 
     val onboardingVisto: Flow<Boolean> =

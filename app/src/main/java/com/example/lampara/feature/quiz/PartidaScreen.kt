@@ -80,6 +80,7 @@ private fun SinPreguntas(motivo: MotivoSinPreguntas, onSalir: () -> Unit) {
                     MotivoSinPreguntas.SIN_PREGUNTAS -> R.string.sin_preguntas
                     MotivoSinPreguntas.EXAMEN_INSUFICIENTE -> R.string.examen_sin_preguntas
                     MotivoSinPreguntas.CATEGORIA_BLOQUEADA -> R.string.categoria_bloqueada_aviso
+                    MotivoSinPreguntas.RETO_COMPLETADO -> R.string.reto_ya_completado_aviso
                 },
             ),
             style = MaterialTheme.typography.bodyLarge,
@@ -104,8 +105,11 @@ private fun PreguntaEnCurso(
             horizontalArrangement = Arrangement.SpaceBetween,
         ) {
             Column {
-                if (estado.esExamen) {
-                    Text(stringResource(R.string.titulo_examen), style = MaterialTheme.typography.labelLarge)
+                if (estado.modo != ModoJuego.CATEGORIA) {
+                    Text(
+                        stringResource(if (estado.modo == ModoJuego.EXAMEN) R.string.titulo_examen else R.string.reto_titulo),
+                        style = MaterialTheme.typography.labelLarge,
+                    )
                 }
                 Text(
                     stringResource(R.string.pregunta_n_de_total, estado.numero, estado.total),
@@ -320,10 +324,10 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
             stringResource(R.string.resultado_aciertos, estado.resumen.aciertos, estado.resumen.total),
             style = MaterialTheme.typography.titleLarge,
         )
-        if (!estado.esExamen) {
+        if (estado.modo != ModoJuego.EXAMEN) {
             Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
         }
-        if (estado.esExamen) {
+        if (estado.modo == ModoJuego.EXAMEN) {
             val nivel = estado.nivelNuevo
             Text(
                 text = if (estado.aprobado == true && nivel != null) {

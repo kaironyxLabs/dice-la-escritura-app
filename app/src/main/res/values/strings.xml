@@ -68,6 +68,35 @@
     <string name="examen_sin_preguntas">Todavía no hay suficientes preguntas para presentar este examen.</string>
     <string name="categoria_bloqueada_aviso">Esta categoría aún no está desbloqueada.</string>
 
+    <!-- Reto diario y racha -->
+    <string name="reto_titulo">Reto diario</string>
+    <string name="reto_sin_empezar">Preguntas nuevas y de repaso. Se renueva cada día.</string>
+    <string name="reto_en_curso">Llevas %1$d de %2$d preguntas.</string>
+    <string name="reto_completado">Completaste el reto de hoy: %1$d de %2$d correctas.</string>
+    <string name="reto_boton_empezar">Empezar el reto de hoy</string>
+    <string name="reto_boton_continuar">Continuar el reto</string>
+    <string name="reto_ya_completado_aviso">Ya completaste el reto de hoy. Mañana habrá uno nuevo.</string>
+    <plurals name="racha_dias">
+        <item quantity="one">Racha: %d día</item>
+        <item quantity="other">Racha: %d días</item>
+    </plurals>
+    <string name="racha_mejor">Mejor racha: %1$d</string>
+    <string name="racha_vacia">Completa el reto de hoy para empezar tu racha.</string>
+    <string name="racha_gracia">Tienes un día de gracia disponible esta semana.</string>
+
+    <!-- Ajustes y recordatorio -->
+    <string name="ajustes_recordatorio_titulo">Recordatorio diario</string>
+    <string name="ajustes_recordatorio_descripcion">Recibir un aviso a la hora elegida si aún no has hecho el reto</string>
+    <string name="ajustes_recordatorio_permiso_denegado">Sin el permiso de notificaciones no se puede mostrar el recordatorio. Puedes concederlo en los ajustes del sistema.</string>
+    <string name="ajustes_recordatorio_hora">Hora: %1$s</string>
+    <string name="ajustes_recordatorio_elegir_hora">Hora del recordatorio</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="canal_recordatorio_nombre">Recordatorio diario</string>
+    <string name="canal_recordatorio_descripcion">Aviso opcional para hacer el reto del día</string>
+    <string name="recordatorio_titulo">Reto diario</string>
+    <string name="recordatorio_texto">Tu reto de hoy está disponible.</string>
+
     <!-- Resultado -->
     <string name="resultado_titulo">Resultado</string>
     <string name="resultado_aciertos">%1$d de %2$d respuestas correctas</string>
