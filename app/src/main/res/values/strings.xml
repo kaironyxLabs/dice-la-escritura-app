@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lámpara</string>
+
+    <!-- Navegación principal -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_memorizar">Memorizar</string>
+    <string name="nav_progreso">Progreso</string>
+    <string name="nav_ajustes">Ajustes</string>
+
+    <!-- Pantallas provisionales (H0): se reemplazan en los hitos siguientes -->
+    <string name="titulo_inicio">Inicio</string>
+    <string name="titulo_memorizar">Memorizar versículos</string>
+    <string name="titulo_progreso">Progreso</string>
+    <string name="titulo_ajustes">Ajustes</string>
+    <string name="pantalla_proximamente">Esta sección se construirá en un próximo hito.</string>
+</resources>
