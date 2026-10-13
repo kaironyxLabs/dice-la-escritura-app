@@ -1,0 +1,74 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-personajes-0001",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién construyó un arca por mandato de Dios antes del diluvio?",
+      "options": ["Moisés", "Noé", "Abraham", "Josué"],
+      "answerIndex": 1,
+      "references": ["Génesis 6:14-22"],
+      "explanation": "Dios le indicó a Noé cómo construir el arca para preservar a su familia y a los animales.",
+      "tags": ["origenes"],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0002",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue echado al foso de los leones por seguir orando a su Dios?",
+      "options": ["Daniel", "Sadrac", "José", "Elías"],
+      "answerIndex": 0,
+      "references": ["Daniel 6:10", "Daniel 6:16"],
+      "explanation": "Daniel siguió orando como de costumbre pese al decreto del rey Darío, y fue echado al foso de los leones.",
+      "tags": ["exilio"],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0003",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue la madre del profeta Samuel?",
+      "options": ["Sara", "Ana", "Rebeca", "Noemí"],
+      "answerIndex": 1,
+      "references": ["1 Samuel 1:20"],
+      "explanation": "Ana oró pidiendo un hijo y dio a luz a Samuel.",
+      "tags": ["jueces", "profetas"],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0004",
+      "module": "core",
+      "category": "personajes",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "El apóstol Pablo era conocido también como Saulo.",
+      "answer": true,
+      "references": ["Hechos 9:1", "Hechos 13:9"],
+      "explanation": "Saulo, que perseguía a la iglesia, es el mismo que más tarde se conoce como Pablo.",
+      "tags": ["apostoles"],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0005",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué profetisa juzgaba a Israel debajo de una palmera entre Ramá y Bet-el?",
+      "options": ["Miriam", "Débora", "Ana", "Hulda"],
+      "answerIndex": 1,
+      "references": ["Jueces 4:4-5"],
+      "explanation": "Débora era profetisa y jueza de Israel; el pueblo acudía a ella para resolver sus asuntos.",
+      "tags": ["jueces"],
+      "reviewed": false
+    }
+  ]
+}

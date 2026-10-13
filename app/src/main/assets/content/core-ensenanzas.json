@@ -1,0 +1,65 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-ensenanzas-0001",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "En la parábola del hijo pródigo, ¿cómo reaccionó el padre cuando su hijo regresó?",
+      "options": [
+        "Lo recibió con compasión y celebró su regreso",
+        "Lo reprendió y lo despidió de nuevo",
+        "Lo puso a trabajar como jornalero",
+        "No quiso reconocerlo"
+      ],
+      "answerIndex": 0,
+      "references": ["Lucas 15:20-24"],
+      "explanation": "El padre salió a su encuentro movido a compasión y organizó una fiesta por el hijo que había vuelto.",
+      "tags": ["parabolas", "perdon"],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0002",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola del sembrador, ¿qué tipo de terreno representa a quien oye la palabra y da fruto?",
+      "options": ["El camino", "Los pedregales", "Entre espinos", "La buena tierra"],
+      "answerIndex": 3,
+      "references": ["Mateo 13:8", "Mateo 13:23"],
+      "explanation": "La semilla en buena tierra representa a quien oye la palabra, la entiende y da fruto.",
+      "tags": ["parabolas"],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0003",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "En el Sermón del monte, Jesús enseñó a amar también a los enemigos.",
+      "answer": true,
+      "references": ["Mateo 5:44"],
+      "explanation": "Jesús llamó a amar a los enemigos y a orar por quienes persiguen.",
+      "tags": ["sermon-del-monte"],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0004",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la parábola del buen samaritano, ¿quién se detuvo a socorrer al hombre herido?",
+      "options": ["Un sacerdote", "Un levita", "Un samaritano", "Un fariseo"],
+      "answerIndex": 2,
+      "references": ["Lucas 10:33-34"],
+      "explanation": "El sacerdote y el levita pasaron de largo; el samaritano se compadeció, lo curó y lo llevó a un mesón.",
+      "tags": ["parabolas", "projimo"],
+      "reviewed": false
+    }
+  ]
+}

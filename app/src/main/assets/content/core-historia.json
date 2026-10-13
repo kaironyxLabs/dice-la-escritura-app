@@ -1,0 +1,98 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-historia-0001",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cómo cruzó el pueblo de Israel el mar Rojo al salir de Egipto?",
+      "options": [
+        "En seco, porque las aguas se abrieron",
+        "En barcas construidas por los egipcios",
+        "Por un puente de piedra",
+        "Esperaron meses a que el mar se secara"
+      ],
+      "answerIndex": 0,
+      "references": ["Éxodo 14:21-22"],
+      "explanation": "Dios abrió el mar y el pueblo pasó por en medio, con las aguas como muro a ambos lados.",
+      "tags": ["exodo"],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0002",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días y noches estuvo Moisés en el monte cuando recibió las tablas de la ley?",
+      "options": ["7", "12", "40", "50"],
+      "answerIndex": 2,
+      "references": ["Éxodo 24:18"],
+      "explanation": "Moisés permaneció en el monte cuarenta días y cuarenta noches.",
+      "tags": ["exodo", "sinai"],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0003",
+      "module": "core",
+      "category": "historia",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Los muros de Jericó cayeron después de que el pueblo rodeó la ciudad durante siete días.",
+      "answer": true,
+      "references": ["Josué 6:15-20"],
+      "explanation": "Durante seis días rodearon la ciudad una vez al día, y el séptimo día la rodearon siete veces; entonces cayeron los muros.",
+      "tags": ["conquista"],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0004",
+      "module": "core",
+      "category": "historia",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos sucesos del Antiguo Testamento de más antiguo a más reciente.",
+      "items": [
+        "La creación",
+        "El diluvio en tiempos de Noé",
+        "La torre de Babel",
+        "El llamamiento de Abram",
+        "La salida de Israel de Egipto"
+      ],
+      "references": ["Génesis 1:1", "Génesis 7:17", "Génesis 11:9", "Génesis 12:1", "Éxodo 12:51"],
+      "explanation": "Los primeros capítulos de Génesis siguen este orden, y la salida de Egipto abre el libro de Éxodo.",
+      "tags": ["cronologia", "origenes"],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0005",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue el primer rey de Israel?",
+      "options": ["David", "Saúl", "Salomón", "Samuel"],
+      "answerIndex": 1,
+      "references": ["1 Samuel 10:1", "1 Samuel 11:15"],
+      "explanation": "Samuel ungió a Saúl, hijo de Cis, y el pueblo lo proclamó rey en Gilgal. Samuel fue profeta y juez, no rey.",
+      "tags": ["monarquia"],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0006",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué rey de Judá promovió una reforma tras hallarse el libro de la ley en el templo y celebró una gran Pascua?",
+      "options": ["Ezequías", "Josías", "Joás", "Manasés"],
+      "answerIndex": 1,
+      "references": ["2 Reyes 22:8", "2 Reyes 23:21-23"],
+      "explanation": "Josías escuchó la lectura del libro de la ley hallado en el templo, renovó el pacto y mandó celebrar la Pascua.",
+      "tags": ["monarquia", "reforma"],
+      "reviewed": false
+    }
+  ]
+}
