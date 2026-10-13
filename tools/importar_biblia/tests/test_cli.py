@@ -44,7 +44,8 @@ def ejecutar(entorno, pdf, extra=()):
     argumentos = [
         "--pdf", str(pdf), "--salida", str(entorno["salida"]), "--esperado", str(entorno["esperado"]),
         "--informe", str(entorno["informe"]), "--doc", str(entorno["doc"]),
-        "--correcciones", str(entorno["correcciones"]), *extra,
+        "--correcciones", str(entorno["correcciones"]),
+        "--sugerencias", str(entorno["tmp"] / "sugeridas.json"), *extra,
     ]
     return main(argumentos, tabla=TABLA)
 
@@ -149,3 +150,13 @@ def test_correcciones_invalidas_no_escriben_el_json(entorno):
     entorno["correcciones"].write_text("{no es json", encoding="utf-8")
     assert ejecutar(entorno, pdf) == 2
     assert not entorno["salida"].exists()
+
+
+def test_las_pruebas_no_tocan_los_archivos_reales_del_usuario(entorno):
+    """Regresión: una prueba llegó a borrar fuentes/correcciones_sugeridas.json por no redirigir su salida."""
+    from importar_biblia.cli import RAIZ
+
+    real = RAIZ / "fuentes" / "correcciones_sugeridas.json"
+    antes = real.read_bytes() if real.exists() else None
+    ejecutar(entorno, crear_pdf(entorno["tmp"] / "prueba.pdf", [CONTENIDO]))
+    assert (real.read_bytes() if real.exists() else None) == antes

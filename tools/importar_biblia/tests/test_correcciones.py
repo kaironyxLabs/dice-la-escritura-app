@@ -181,3 +181,44 @@ def test_una_referencia_mal_cerrada_clasificada_como_seccion_pasa_a_paralelo(tmp
     mod.aplicar(r, c)
     assert [s.titulo for s in capitulo.secciones] == ["Titulo de prueba"]
     assert [(p.antes_del_versiculo, p.texto) for p in capitulo.paralelos] == [(2, "(Ex. 1.1-2)")]
+
+
+def resultado_con_palabras() -> Resultado:
+    uno = Libro("UNO", [Capitulo(1, versiculos=["Ya estáen casa y estáen paz.", "Nada estáenorme aquí.", None])])
+    dos = Libro("DOS", [Capitulo(1, versiculos=["Estáen el Señor. Estáen."])])
+    return Resultado([uno, dos], [], 2)
+
+
+def test_palabras_reemplaza_la_palabra_completa_en_toda_la_biblia(tmp_path):
+    r = resultado_con_palabras()
+    c = cargar(tmp_path, {"palabras": [{"buscar": "estáen", "por": "está en"}]})
+    mod.aplicar(r, c)
+    assert r.libros[0].capitulos[0].versiculos == ["Ya está en casa y está en paz.", "Nada estáenorme aquí.", None]
+    # Distingue mayúsculas: "Estáen" es otra palabra para este reemplazo.
+    assert r.libros[1].capitulos[0].versiculos == ["Estáen el Señor. Estáen."]
+    assert r.correcciones_aplicadas == ["palabra 'estáen' -> 'está en': 2 aparición(es)"]
+
+
+def test_palabras_con_mayuscula_inicial_se_aprueban_aparte(tmp_path):
+    r = resultado_con_palabras()
+    c = cargar(tmp_path, {"palabras": [{"buscar": "Estáen", "por": "Está en"}]})
+    mod.aplicar(r, c)
+    assert r.libros[1].capitulos[0].versiculos == ["Está en el Señor. Está en."]
+
+
+def test_palabras_sin_apariciones_no_falla(tmp_path):
+    c = cargar(tmp_path, {"palabras": [{"buscar": "inexistente", "por": "in existente"}]})
+    r = resultado_con_palabras()
+    mod.aplicar(r, c)
+    assert r.correcciones_aplicadas == ["palabra 'inexistente' -> 'in existente': 0 aparición(es)"]
+
+
+def test_palabras_valida_el_formato(tmp_path):
+    with pytest.raises(mod.ErrorCorreccion, match="una sola palabra"):
+        cargar(tmp_path, {"palabras": [{"buscar": "dos palabras", "por": "x"}]})
+    with pytest.raises(mod.ErrorCorreccion, match="no vacíos"):
+        cargar(tmp_path, {"palabras": [{"buscar": "a", "por": " "}]})
+    with pytest.raises(mod.ErrorCorreccion, match="repetida"):
+        cargar(tmp_path, {"palabras": [{"buscar": "ab", "por": "a b"}, {"buscar": "ab", "por": "a b"}]})
+    with pytest.raises(mod.ErrorCorreccion, match="claves desconocidas"):
+        cargar(tmp_path, {"palabras": [{"buscar": "ab", "por": "a b", "otra": 1}]})

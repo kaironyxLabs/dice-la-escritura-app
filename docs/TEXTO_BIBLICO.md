@@ -90,6 +90,7 @@ Lo escribes tú, con el texto verificado en tu edición impresa u otra fuente.
   - `reemplazos`: cada `buscar` debe aparecer exactamente una vez en el versículo; si no, el importador se detiene.
   - `renumerar_a`: mueve el texto a otro número vacío (útil cuando el PDF numera mal).
   - `eliminar`: quita el versículo.
+- `palabras`: reemplaza una palabra completa en toda la Biblia (para los espacios perdidos): `{"buscar": "estáen", "por": "está en"}`. Solo cambia la palabra entera, distingue mayúsculas (la forma con mayúscula inicial se aprueba aparte) y se aplica después de las correcciones por versículo. El informe registra cuántas veces se aplicó.
 - `notas`: corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte): `{"libro": "EXO", "capitulo": 39, "tipo": "seccion", "buscar": "(Ex. 35.10-19_", "por": "(Ex. 35.10-19)"}`. `buscar` debe aparecer exactamente una vez. Una referencia entre paréntesis que el PDF dejó mal cerrada se toma por título; tras corregirla pasa a pasajes paralelos.
 - `pendientes`: el versículo queda sin texto utilizable hasta que lo verifiques. La app lo muestra como no disponible.
 - `aceptadas`: la anomalía (por su `tipo` y, opcionalmente, `versiculo`) es correcta tal cual; solo para diferencias legítimas.
@@ -142,8 +143,8 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 <!-- importacion:inicio -->
 - Última importación: 2026-10-13
 - SHA-256 del PDF (`biblia_rv1960.pdf`): `a750b2f89e73d9043892cd2ca9c1ed068bacf09049c96c334612b83bbd939f50`
-- SHA-256 del JSON (`rvr1960.json`): `ddf05a07be855d3192d0e317997e76dc72145f7f549e47631d45578f9f2f4f1a`
+- SHA-256 del JSON (`rvr1960.json`): `b90f4f60ea50d9c7f2e7ec75e7808b08a5e6ce8e33d2c0792cc4bb5a36b05942`
 - Libros: 66; capítulos: 1189; versículos: 31104
-- Correcciones aplicadas: 18; versículos pendientes: 0
-- Anomalías sin resolver: 369
+- Correcciones aplicadas: 263; versículos pendientes: 0
+- Anomalías sin resolver: 0
 <!-- importacion:fin -->

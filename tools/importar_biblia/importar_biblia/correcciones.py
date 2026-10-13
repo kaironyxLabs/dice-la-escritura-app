@@ -24,12 +24,16 @@ vacío) o "eliminar". Un "pendiente" deja el versículo sin texto utilizable has
 Una "nota" corrige un título de sección o una referencia a pasajes paralelos (que se guardan aparte del
 versículo): {"libro", "capitulo", "tipo": "paralelo" | "seccion", "buscar": "<tal cual>", "por": "<corregido>"};
 "buscar" debe aparecer exactamente una vez entre los textos de ese tipo del capítulo.
+Una "palabra" aprobada reemplaza una palabra completa en TODOS los versículos donde aparece (sirve para los
+espacios perdidos del PDF, p. ej. "estáen" -> "está en"): {"buscar": "estáen", "por": "está en"}. Solo cambia la
+palabra entera (nunca un trozo de otra) y se aplica después de las correcciones por versículo.
 Una "aceptada" declara que una anomalía (por su "tipo", y opcionalmente "versiculo") es correcta tal cual.
 """
 
 from __future__ import annotations
 
 import json
+import re
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -38,6 +42,10 @@ from .libros import LibroTabla
 from .modelo import Capitulo, Paralelo, Resultado
 
 OPERACIONES = ("texto", "reemplazos", "renumerar_a", "eliminar")
+
+
+LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"
+PATRON_SOLO_LETRAS = re.compile(rf"[{LETRAS}]+")
 
 
 class ErrorCorreccion(Exception):
@@ -50,6 +58,7 @@ class Correcciones:
     pendientes: dict[tuple[str, int, int], str] = field(default_factory=dict)
     aceptadas: list[dict] = field(default_factory=list)
     notas: list[dict] = field(default_factory=list)
+    palabras: list[dict] = field(default_factory=list)
 
     def versiculos_corregidos(self) -> set[tuple[str, int, int]]:
         corregidos: set[tuple[str, int, int]] = set()
@@ -77,7 +86,7 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         raise ErrorCorreccion(f"{ruta}: JSON inválido ({error})") from error
     if not isinstance(datos, dict):
         raise ErrorCorreccion(f"{ruta}: se esperaba un objeto con 'correcciones', 'pendientes' y 'aceptadas'")
-    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas", "notas"}
+    desconocidas = set(datos) - {"correcciones", "pendientes", "aceptadas", "notas", "palabras"}
     if desconocidas:
         raise ErrorCorreccion(f"{ruta}: claves desconocidas {sorted(desconocidas)}")
 
@@ -132,6 +141,22 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
         if not isinstance(entrada.get("tipo"), str):
             raise ErrorCorreccion(f"{donde}: falta 'tipo'")
         resultado.aceptadas.append(entrada)
+    vistas: set[str] = set()
+    for i, entrada in enumerate(datos.get("palabras", []), start=1):
+        donde = f"palabras[{i}]"
+        extras = set(entrada) - {"buscar", "por", "motivo"}
+        if extras:
+            raise ErrorCorreccion(f"{donde}: claves desconocidas {sorted(extras)}")
+        buscar, por = entrada.get("buscar"), entrada.get("por")
+        if not (isinstance(buscar, str) and isinstance(por, str) and buscar and por.strip()):
+            raise ErrorCorreccion(f"{donde}: requiere 'buscar' y 'por' no vacíos")
+        if not PATRON_SOLO_LETRAS.fullmatch(buscar):
+            raise ErrorCorreccion(f"{donde}: 'buscar' debe ser una sola palabra (solo letras)")
+        if buscar in vistas:
+            raise ErrorCorreccion(f"{donde}: la palabra '{buscar}' está repetida")
+        vistas.add(buscar)
+        resultado.palabras.append(entrada)
+
     for i, entrada in enumerate(datos.get("notas", []), start=1):
         donde = f"notas[{i}]"
         validar_ubicacion(entrada, donde, versiculo_obligatorio=False)
@@ -144,6 +169,22 @@ def cargar(ruta: Path | None, tabla: Sequence[LibroTabla]) -> Correcciones:
             raise ErrorCorreccion(f"{donde}: requiere 'buscar' y 'por' no vacíos")
         resultado.notas.append(entrada)
     return resultado
+
+
+def _aplicar_palabras(resultado: Resultado, palabras: list[dict]) -> None:
+    """Reemplaza palabras completas en todos los versículos y registra cuántas veces (sin copiar el texto)."""
+    for entrada in palabras:
+        patron = re.compile(rf"(?<![{LETRAS}]){re.escape(entrada['buscar'])}(?![{LETRAS}])")
+        total = 0
+        for libro in resultado.libros:
+            for capitulo in libro.capitulos:
+                for i, texto in enumerate(capitulo.versiculos):
+                    if texto:
+                        nuevo, veces = patron.subn(entrada["por"], texto)
+                        if veces:
+                            capitulo.versiculos[i] = nuevo
+                            total += veces
+        resultado.correcciones_aplicadas.append(f"palabra '{entrada['buscar']}' -> '{entrada['por']}': {total} aparición(es)")
 
 
 def _reclasificar_paralelos(capitulo: Capitulo) -> None:
@@ -215,6 +256,8 @@ def aplicar(resultado: Resultado, correcciones: Correcciones) -> None:
             capitulo.versiculos[versiculo - 1] = None
             resultado.correcciones_aplicadas.append(f"{donde}: eliminado")
         _recortar_cola(capitulo)
+
+    _aplicar_palabras(resultado, correcciones.palabras)
 
     for entrada in correcciones.notas:
         libro, numero = entrada["libro"], entrada["capitulo"]
