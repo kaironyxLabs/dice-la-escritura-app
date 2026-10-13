@@ -1,0 +1,29 @@
+﻿# Texto bíblico con derechos de autor: nunca al repositorio
+fuentes/
+biblia_rv1960.pdf
+*.pdf
+app/src/main/assets/bible/rvr1960.json
+
+# Android / Gradle
+local.properties
+build/
+.gradle/
+.idea/
+*.iml
+captures/
+.cxx/
+
+# Firma
+*.jks
+*.keystore
+keystore.properties
+
+# Entornos virtuales y cachés de Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
