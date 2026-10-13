@@ -66,6 +66,19 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
             Text(stringResource(R.string.cargando))
             return@Column
         }
+        Text(stringResource(R.string.ajustes_contenido_titulo), style = MaterialTheme.typography.titleMedium)
+        FilaInterruptor(
+            titulo = R.string.ajustes_confesion_titulo,
+            descripcion = R.string.ajustes_confesion_descripcion,
+            marcado = actual.confesionActiva,
+            onCambio = viewModel::activarConfesion,
+        )
+        FilaInterruptor(
+            titulo = R.string.ajustes_revisadas_titulo,
+            descripcion = R.string.ajustes_revisadas_descripcion,
+            marcado = actual.soloRevisadas,
+            onCambio = viewModel::establecerSoloRevisadas,
+        )
         SeccionRecordatorio(
             estado = actual,
             permisoDenegado = permisoDenegado,
@@ -148,5 +161,33 @@ private fun SeccionRecordatorio(
                 TextButton(onClick = { mostrarSelector = false }) { Text(stringResource(R.string.cancelar)) }
             },
         )
+    }
+}
+
+/** Fila con título, descripción e interruptor; toda la fila es el objetivo táctil. */
+@Composable
+private fun FilaInterruptor(
+    @androidx.annotation.StringRes titulo: Int,
+    @androidx.annotation.StringRes descripcion: Int,
+    marcado: Boolean,
+    onCambio: (Boolean) -> Unit,
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(min = 56.dp)
+            .toggleable(value = marcado, role = Role.Switch, onValueChange = onCambio),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween,
+    ) {
+        Column(modifier = Modifier.weight(1f).padding(end = 16.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(stringResource(titulo), style = MaterialTheme.typography.bodyLarge)
+            Text(
+                stringResource(descripcion),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        Switch(checked = marcado, onCheckedChange = null)
     }
 }

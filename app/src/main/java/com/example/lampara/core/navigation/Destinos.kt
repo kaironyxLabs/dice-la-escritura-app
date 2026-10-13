@@ -12,6 +12,7 @@ import kotlinx.serialization.Serializable
 
 /** Rutas con tipos seguros (Navigation Compose + kotlinx.serialization). */
 sealed interface Destino {
+    @Serializable data object Onboarding : Destino
     @Serializable data object Inicio : Destino
     @Serializable data object Memorizar : Destino
     @Serializable data object Progreso : Destino

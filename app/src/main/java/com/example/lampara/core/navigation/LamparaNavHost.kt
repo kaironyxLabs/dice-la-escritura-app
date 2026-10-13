@@ -1,5 +1,7 @@
 package com.example.lampara.core.navigation
 
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -8,8 +10,12 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
@@ -21,22 +27,38 @@ import com.example.lampara.core.ui.PantallaProvisional
 import com.example.lampara.feature.home.InicioScreen
 import com.example.lampara.feature.memorize.MemorizarScreen
 import com.example.lampara.feature.memorize.PracticaScreen
+import com.example.lampara.feature.onboarding.OnboardingScreen
+import com.example.lampara.feature.onboarding.RaizViewModel
 import com.example.lampara.feature.quiz.CategoriasScreen
 import com.example.lampara.feature.quiz.PartidaScreen
 import com.example.lampara.feature.settings.AjustesScreen
 
+/** Pantallas a pantalla completa: sin barra inferior. */
+private fun NavDestination?.sinBarra(): Boolean =
+    this != null && (
+        hasRoute(Destino.Partida::class) ||
+            hasRoute(Destino.Practica::class) ||
+            hasRoute(Destino.Onboarding::class)
+        )
+
 @Composable
-fun LamparaNavHost() {
+fun LamparaNavHost(raiz: RaizViewModel = hiltViewModel()) {
+    val visto by raiz.onboardingVisto.collectAsStateWithLifecycle()
+    if (visto == null) {
+        // La pantalla de inicio del sistema cubre esta espera; solo evita decidir la ruta de partida a ciegas.
+        Box(Modifier.fillMaxSize())
+        return
+    }
+    // La ruta de partida se decide una sola vez: al terminar la bienvenida se navega a mano.
+    val inicio: Destino = remember { if (visto == true) Destino.Inicio else Destino.Onboarding }
+
     val navController = rememberNavController()
     val entrada by navController.currentBackStackEntryAsState()
     val actual = entrada?.destination
-    // La barra inferior solo acompaña a las pantallas principales, no a una partida o práctica en curso.
-    val mostrarBarra = actual?.hasRoute(Destino.Partida::class) != true &&
-        actual?.hasRoute(Destino.Practica::class) != true
 
     Scaffold(
         bottomBar = {
-            if (mostrarBarra) {
+            if (!actual.sinBarra()) {
                 NavigationBar {
                     DestinoPrincipal.entries.forEach { item ->
                         val etiqueta = stringResource(item.etiqueta)
@@ -59,9 +81,18 @@ fun LamparaNavHost() {
     ) { padding ->
         NavHost(
             navController = navController,
-            startDestination = Destino.Inicio,
+            startDestination = inicio,
             modifier = Modifier.padding(padding),
         ) {
+            composable<Destino.Onboarding> {
+                OnboardingScreen(
+                    alTerminar = {
+                        navController.navigate(Destino.Inicio) {
+                            popUpTo(Destino.Onboarding) { inclusive = true }
+                        }
+                    },
+                )
+            }
             composable<Destino.Inicio> {
                 InicioScreen(
                     onJugarPorCategoria = { navController.navigate(Destino.Categorias) },

@@ -2,6 +2,15 @@
 <resources>
     <string name="app_name">Lámpara</string>
 
+    <!-- Bienvenida -->
+    <string name="onboarding_titulo">Bienvenido a Lámpara</string>
+    <string name="onboarding_intro">Aprende la Biblia un poco cada día, sin conexión a internet. Todo se basa en la Reina-Valera 1960 y tu progreso se guarda solo en este teléfono.</string>
+    <string name="onboarding_confesion_titulo">Módulo opcional: Confesión Bautista de Fe de 1689</string>
+    <string name="onboarding_confesion_descripcion">Además del contenido bíblico base, la app incluye un módulo aparte con preguntas sobre la Confesión Bautista de Fe de 1689, un documento histórico de la tradición bautista reformada. Es un contenido distinto del bíblico: las preguntas del módulo base solo se apoyan en lo que el texto bíblico afirma directamente.</string>
+    <string name="onboarding_confesion_cambiar">Puedes activarlo o desactivarlo cuando quieras en Ajustes. Mientras esté desactivado, no aparece en ninguna parte de la app.</string>
+    <string name="onboarding_activar">Activar el módulo</string>
+    <string name="onboarding_ahora_no">Ahora no</string>
+
     <!-- Navegación principal -->
     <string name="nav_inicio">Inicio</string>
     <string name="nav_memorizar">Memorizar</string>
@@ -116,6 +125,11 @@
     <string name="racha_gracia">Tienes un día de gracia disponible esta semana.</string>
 
     <!-- Ajustes y recordatorio -->
+    <string name="ajustes_contenido_titulo">Contenido</string>
+    <string name="ajustes_confesion_titulo">Módulo Confesión Bautista de 1689</string>
+    <string name="ajustes_confesion_descripcion">Preguntas sobre la Confesión de 1689, aparte del contenido bíblico base. Al desactivarlo se conserva tu progreso, pero no se cuenta ni se muestra.</string>
+    <string name="ajustes_revisadas_titulo">Mostrar solo preguntas revisadas</string>
+    <string name="ajustes_revisadas_descripcion">Usa únicamente las preguntas que ya has revisado. Está desactivado mientras el contenido siga pendiente de revisión.</string>
     <string name="ajustes_recordatorio_titulo">Recordatorio diario</string>
     <string name="ajustes_recordatorio_descripcion">Recibir un aviso a la hora elegida si aún no has hecho el reto</string>
     <string name="ajustes_recordatorio_permiso_denegado">Sin el permiso de notificaciones no se puede mostrar el recordatorio. Puedes concederlo en los ajustes del sistema.</string>

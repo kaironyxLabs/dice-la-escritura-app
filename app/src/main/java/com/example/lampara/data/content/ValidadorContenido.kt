@@ -23,6 +23,12 @@ object ValidadorContenido {
 
     private val formatoId = Regex("""^(core|confesion1689)-[a-z_]+-\d{4}$""")
 
+    /** "cap. 3", "cap. 3, párr. 2" o "cap. 1-5" (varios capítulos). */
+    private val formatoConfesion = Regex("""^cap\. (\d{1,2})(?:-(\d{1,2}))?(?:, párr\. (\d{1,2}))?$""")
+
+    /** La Confesión de 1689 tiene 32 capítulos. */
+    const val CAPITULOS_CONFESION = 32
+
     fun validar(dtos: List<PreguntaDto>): InformeValidacion {
         val errores = mutableListOf<String>()
         val preguntas = mutableListOf<Pregunta>()
@@ -68,8 +74,23 @@ object ValidadorContenido {
             if (resultado is ResultadoReferencia.Invalida) e += "referencia \"$texto\": ${resultado.motivo}"
         }
 
-        if (modulo == Modulo.CONFESION_1689 && dto.confessionRef.isNullOrBlank()) {
-            e += "falta confessionRef (módulo 1689)"
+        if (modulo == Modulo.CONFESION_1689) {
+            val ref = dto.confessionRef
+            if (ref.isNullOrBlank()) {
+                e += "falta confessionRef (módulo 1689)"
+            } else {
+                val coincidencia = formatoConfesion.matchEntire(ref)
+                if (coincidencia == null) {
+                    e += "confessionRef \"$ref\" con formato inválido (ej. \"cap. 1, párr. 1\")"
+                } else {
+                    val (inicio, fin) = coincidencia.destructured
+                    val desde = inicio.toInt()
+                    val hasta = fin.takeIf { it.isNotEmpty() }?.toInt() ?: desde
+                    if (desde !in 1..CAPITULOS_CONFESION || hasta !in desde..CAPITULOS_CONFESION) {
+                        e += "confessionRef \"$ref\": capítulo fuera de 1..$CAPITULOS_CONFESION"
+                    }
+                }
+            }
         }
         if (modulo == Modulo.CORE && dto.confessionRef != null) e += "confessionRef solo aplica al módulo 1689"
 
