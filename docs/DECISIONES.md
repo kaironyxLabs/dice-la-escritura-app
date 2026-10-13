@@ -25,3 +25,18 @@ Inter (interfaz) y Source Serif 4 (pasajes), fuentes variables bajo licencia OFL
 
 ## D-008 Texto bíblico y repositorio
 El PDF se queda en la raíz del repositorio (ignorado por git). El importador recibirá la ruta por argumento, con ese archivo como valor por defecto. Lo que necesita la app es `assets/bible/rvr1960.json`, generado en local y empaquetado en el APK al compilar; nunca va a git.
+
+## D-009 Importador: no corrige nada solo
+El texto de la RVR1960 sale de un PDF no oficial con defectos. El importador asigna libros por orden, extrae versículos por secuencia, compara con un conteo independiente (KJV, solo números) y lo informa todo; las correcciones salen únicamente de `fuentes/correcciones.json`. Si queda algo sin resolver, escribe el JSON con esos versículos como pendientes y termina con código 3, de modo que la app nunca muestra un versículo roto.
+
+## D-010 Marcadores de versículo dudosos
+Un número dentro de un renglón solo se toma como marcador si es el esperado en la secuencia. Si no lo delata su entorno (tras puntuación, o antes de mayúscula, paréntesis o signo de apertura), se acepta únicamente cuando el mismo número no vuelve a aparecer después como marcador claro. Es la regla que separó bien los 31.104 versículos del PDF; los casos restantes los detecta la comparación de conteos.
+
+## D-011 Espacios perdidos del PDF
+El PDF pierde el espacio tras algunas vocales acentuadas (palabras pegadas). El importador los detecta con una heurística (palabra funcional pegada a una raíz que aparece suelta; se descartan los imperfectos en -ía) y deja sugerencias en `fuentes/correcciones_sugeridas.json`. Nunca se aplican sin que el usuario las copie a `correcciones.json`.
+
+## D-012 Memorizar versículos
+Sube de grado al acertar (20, 40, 60 % de palabras ocultas y 100 % escribiendo). Se aprueba con el 90 % de las palabras, ignorando mayúsculas, tildes y puntuación, con la subsecuencia común más larga para que una palabra olvidada no desplace las demás. Al acertar escribiendo, el repaso se aleja (1, 3, 7, 14, 30 y 60 días); un fallo baja un grado y vuelve a mañana. Solo se admiten pasajes de un capítulo. Los pasajes con un versículo pendiente se muestran como no disponibles.
+
+## D-013 Esquema de Room v1 abierto
+Hasta que la app se instale por primera vez en un teléfono, el esquema v1 puede seguir cambiando (se agregaron reto diario y progreso de versículos sin migraciones). Desde la primera instalación, cada cambio exige subir la versión y escribir su migración.

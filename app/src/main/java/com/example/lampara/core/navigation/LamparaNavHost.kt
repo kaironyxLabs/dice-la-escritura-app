@@ -19,6 +19,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.lampara.R
 import com.example.lampara.core.ui.PantallaProvisional
 import com.example.lampara.feature.home.InicioScreen
+import com.example.lampara.feature.memorize.MemorizarScreen
+import com.example.lampara.feature.memorize.PracticaScreen
 import com.example.lampara.feature.quiz.CategoriasScreen
 import com.example.lampara.feature.quiz.PartidaScreen
 import com.example.lampara.feature.settings.AjustesScreen
@@ -28,8 +30,9 @@ fun LamparaNavHost() {
     val navController = rememberNavController()
     val entrada by navController.currentBackStackEntryAsState()
     val actual = entrada?.destination
-    // La barra inferior solo acompaña a las pantallas principales, no a una partida en curso.
-    val mostrarBarra = actual?.hasRoute(Destino.Partida::class) != true
+    // La barra inferior solo acompaña a las pantallas principales, no a una partida o práctica en curso.
+    val mostrarBarra = actual?.hasRoute(Destino.Partida::class) != true &&
+        actual?.hasRoute(Destino.Practica::class) != true
 
     Scaffold(
         bottomBar = {
@@ -72,7 +75,12 @@ fun LamparaNavHost() {
             composable<Destino.Partida> {
                 PartidaScreen(onSalir = { navController.popBackStack(Destino.Inicio, inclusive = false) })
             }
-            composable<Destino.Memorizar> { PantallaProvisional(R.string.titulo_memorizar) }
+            composable<Destino.Memorizar> {
+                MemorizarScreen(onPracticar = { navController.navigate(Destino.Practica(it)) })
+            }
+            composable<Destino.Practica> {
+                PracticaScreen(onSalir = { navController.popBackStack() })
+            }
             composable<Destino.Progreso> { PantallaProvisional(R.string.titulo_progreso) }
             composable<Destino.Ajustes> { AjustesScreen() }
         }

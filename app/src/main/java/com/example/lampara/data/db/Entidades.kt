@@ -54,6 +54,20 @@ data class RetoDiarioEntity(
     val completado: Boolean,
 )
 
+/** Progreso de memorización de un pasaje del modo memorizar. Las fechas son días desde la época. */
+@Entity(tableName = "progreso_versiculo")
+data class ProgresoVersiculoEntity(
+    @PrimaryKey val pasajeId: String,
+    /** El usuario lo marcó como "lo estoy memorizando". */
+    val memorizando: Boolean,
+    /** Grado actual: 0 = 20 %, 1 = 40 %, 2 = 60 %, 3 = escribir. */
+    val grado: Int,
+    val dominio: Int,
+    val proximaFechaDia: Long,
+    val intentos: Int,
+    val aciertos: Int,
+)
+
 enum class TipoSesion(val id: String) {
     PARTIDA("partida"),
     EXAMEN("examen"),

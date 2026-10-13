@@ -11,6 +11,17 @@ set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.20.8-hotspot   (cmd)
 ```
 `local.properties` (ignorado por git) apunta al SDK. No hay ANDROID_HOME definido.
 
+## Importador del texto bíblico (tools/importar_biblia)
+Python 3.12 en un entorno virtual propio del proyecto (`tools/importar_biblia/.venv`, ignorado por git):
+```
+cd tools/importar_biblia
+.venv\Scripts\python -m importar_biblia       # PDF -> app/src/main/assets/bible/rvr1960.json + informe
+.venv\Scripts\python -m pytest                # pruebas con un PDF sintético y texto falso
+```
+Salida 0 = todo resuelto; 2 = estructura o correcciones inválidas; 3 = anomalías sin resolver (el usuario las resuelve
+en `fuentes/correcciones.json`). El informe `docs/TEXTO_BIBLICO_informe.md` contiene fragmentos del texto y no se
+sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
+
 ## Stack y convenciones
 - Kotlin + Compose Material 3, una Activity, Navigation Compose con rutas tipadas (`core/navigation/Destinos.kt`).
 - MVVM (ViewModel + StateFlow), Hilt, Room, DataStore, WorkManager, kotlinx.serialization.

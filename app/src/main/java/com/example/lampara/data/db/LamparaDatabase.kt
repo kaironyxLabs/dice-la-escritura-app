@@ -14,6 +14,7 @@ import androidx.room.RoomDatabase
         ProgresoPreguntaEntity::class,
         SesionEntity::class,
         RetoDiarioEntity::class,
+        ProgresoVersiculoEntity::class,
     ],
     version = 1,
     exportSchema = true,
@@ -22,6 +23,7 @@ abstract class LamparaDatabase : RoomDatabase() {
     abstract fun perfilDao(): PerfilDao
     abstract fun progresoPreguntaDao(): ProgresoPreguntaDao
     abstract fun retoDiarioDao(): RetoDiarioDao
+    abstract fun progresoVersiculoDao(): ProgresoVersiculoDao
     abstract fun sesionDao(): SesionDao
 
     companion object {

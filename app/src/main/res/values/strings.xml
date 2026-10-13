@@ -9,10 +9,41 @@
     <string name="nav_ajustes">Ajustes</string>
 
     <!-- Pantallas provisionales: se reemplazan en los hitos siguientes -->
-    <string name="titulo_memorizar">Memorizar versículos</string>
     <string name="titulo_progreso">Progreso</string>
     <string name="titulo_ajustes">Ajustes</string>
     <string name="pantalla_proximamente">Esta sección se construirá en un próximo hito.</string>
+
+    <!-- Memorizar versículos -->
+    <string name="titulo_memorizar">Memorizar versículos</string>
+    <string name="memorizar_texto_faltante_titulo">Falta el texto bíblico</string>
+    <string name="memorizar_texto_faltante">Para memorizar hace falta el texto de la Reina-Valera 1960, que no viene incluido por sus derechos de autor. Sigue los pasos de docs/TEXTO_BIBLICO.md para generarlo desde tu PDF y vuelve a compilar la app. El resto de la app funciona igual.</string>
+    <string name="memorizar_texto_invalido">El archivo del texto bíblico no se pudo leer. Vuelve a generarlo siguiendo docs/TEXTO_BIBLICO.md.</string>
+    <string name="memorizar_solo_mis_pasajes">Solo los que memorizo</string>
+    <string name="memorizar_estoy_memorizando">Lo estoy memorizando</string>
+    <string name="memorizar_practicar">Practicar</string>
+    <string name="memorizar_repaso_pendiente">Repaso pendiente</string>
+    <string name="memorizar_proximo_repaso">Próximo repaso: %1$s</string>
+    <string name="memorizar_no_disponible_pendiente">No disponible: el texto de este pasaje está pendiente de verificar.</string>
+    <string name="memorizar_no_disponible_sin_texto">No disponible sin el texto bíblico.</string>
+    <string name="memorizar_no_disponible_inexistente">No disponible: el pasaje no está en el texto instalado.</string>
+    <string name="memorizar_sin_pasajes">No hay pasajes que mostrar.</string>
+    <string name="practica_titulo">Practicar</string>
+    <string name="practica_instruccion_ocultar">Escribe las palabras que faltan, en orden y separadas por espacios.</string>
+    <string name="practica_instruccion_escribir">Escribe el pasaje completo de memoria.</string>
+    <string name="practica_grado_ocultar">Palabras ocultas: %1$d %%</string>
+    <string name="practica_grado_escribir">Escribiendo el pasaje completo</string>
+    <string name="practica_entrada_etiqueta">Tu respuesta</string>
+    <string name="practica_palabra_oculta">palabra oculta</string>
+    <string name="practica_comprobar">Comprobar</string>
+    <string name="practica_resultado">Palabras correctas: %1$d de %2$d</string>
+    <string name="practica_aprobado">Muy bien.</string>
+    <string name="practica_no_aprobado">Todavía no. Sigue practicando.</string>
+    <string name="practica_texto_correcto">Texto del pasaje</string>
+    <string name="practica_siguiente_grado">Siguiente grado</string>
+    <string name="practica_reintentar">Intentar de nuevo</string>
+    <string name="practica_terminar">Terminar</string>
+    <string name="practica_dominado">Pasaje practicado. Próximo repaso: %1$s.</string>
+    <string name="practica_pasaje_desconocido">Este pasaje no existe.</string>
 
     <!-- Inicio -->
     <string name="titulo_inicio">Inicio</string>

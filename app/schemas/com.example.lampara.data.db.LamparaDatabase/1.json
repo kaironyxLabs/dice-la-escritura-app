@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "0c3d42218a209377c9f0e7556334d0d1",
+    "identityHash": "65dbd4ce14d928c90dd0bb5ac3780fc4",
     "entities": [
       {
         "tableName": "perfil",
@@ -193,11 +193,65 @@
             "fechaDia"
           ]
         }
+      },
+      {
+        "tableName": "progreso_versiculo",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`pasajeId` TEXT NOT NULL, `memorizando` INTEGER NOT NULL, `grado` INTEGER NOT NULL, `dominio` INTEGER NOT NULL, `proximaFechaDia` INTEGER NOT NULL, `intentos` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, PRIMARY KEY(`pasajeId`))",
+        "fields": [
+          {
+            "fieldPath": "pasajeId",
+            "columnName": "pasajeId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "memorizando",
+            "columnName": "memorizando",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "grado",
+            "columnName": "grado",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dominio",
+            "columnName": "dominio",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "proximaFechaDia",
+            "columnName": "proximaFechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "intentos",
+            "columnName": "intentos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pasajeId"
+          ]
+        }
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '0c3d42218a209377c9f0e7556334d0d1')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '65dbd4ce14d928c90dd0bb5ac3780fc4')"
     ]
   }
 }

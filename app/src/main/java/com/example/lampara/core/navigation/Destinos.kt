@@ -18,6 +18,9 @@ sealed interface Destino {
     @Serializable data object Ajustes : Destino
     @Serializable data object Categorias : Destino
 
+    /** Práctica de memorización de un pasaje (`pasajeId` de memorize.json). */
+    @Serializable data class Practica(val pasajeId: String) : Destino
+
     /** Partida de una categoría (`categoria` = id de [com.example.lampara.domain.model.Categoria]), examen de ascenso o reto diario. */
     @Serializable data class Partida(
         val categoria: String? = null,

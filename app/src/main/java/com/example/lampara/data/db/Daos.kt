@@ -49,6 +49,18 @@ interface RetoDiarioDao {
 }
 
 @Dao
+interface ProgresoVersiculoDao {
+    @Query("SELECT * FROM progreso_versiculo")
+    fun observarTodos(): Flow<List<ProgresoVersiculoEntity>>
+
+    @Query("SELECT * FROM progreso_versiculo WHERE pasajeId = :id")
+    suspend fun obtener(id: String): ProgresoVersiculoEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardar(progreso: ProgresoVersiculoEntity)
+}
+
+@Dao
 interface SesionDao {
     @Insert
     suspend fun insertar(sesion: SesionEntity): Long
