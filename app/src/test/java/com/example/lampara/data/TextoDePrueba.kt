@@ -1,9 +1,11 @@
 package com.example.lampara.data
 
 import com.example.lampara.data.bible.BibleTextSource
-import com.example.lampara.data.bible.CargaTexto
+import com.example.lampara.data.bible.CargaLibro
 import com.example.lampara.data.bible.LectorBiblia
+import com.example.lampara.domain.model.Libro
 import com.example.lampara.domain.model.TablaLibros
+import com.example.lampara.domain.model.TextoBiblico
 
 const val TEXTO_FALSO = "Texto de prueba, no es RVR1960."
 
@@ -15,26 +17,40 @@ object TextoDePrueba {
     const val VERSICULOS_POR_CAPITULO = 180
 
     /**
-     * [pendientes] indica, por "ID capítulo", los versículos pendientes (ej. "JHN 3" a [16]).
-     * [modificar] permite alterar el JSON generado para probar formatos inválidos.
+     * JSON de un libro (formato de assets/bible/libros/<ID>.json). [pendientes] indica, por número de capítulo,
+     * los versículos pendientes (ej. 3 a [16]).
      */
-    fun json(pendientes: Map<String, List<Int>> = emptyMap(), omitirLibro: String? = null): String {
-        val libros = TablaLibros.todos.filter { it.id != omitirLibro }.joinToString(",") { libro ->
-            val capitulos = (1..libro.capitulos).joinToString(",") { numero ->
-                val versiculos = (1..VERSICULOS_POR_CAPITULO).joinToString(",") { v ->
-                    "\"$TEXTO_FALSO ${libro.id} $numero:$v\""
-                }
-                val pend = pendientes["${libro.id} $numero"].orEmpty().joinToString(",")
-                """{"numero":$numero,"encabezado":null,"versiculos":[$versiculos],"secciones":[],"paralelos":[],"pendientes":[$pend]}"""
+    fun jsonLibro(libro: Libro, pendientes: Map<Int, List<Int>> = emptyMap()): String {
+        val capitulos = (1..libro.capitulos).joinToString(",") { numero ->
+            val versiculos = (1..VERSICULOS_POR_CAPITULO).joinToString(",") { v ->
+                "\"$TEXTO_FALSO ${libro.id} $numero:$v\""
             }
-            """{"id":"${libro.id}","capitulos":[$capitulos]}"""
+            val pend = pendientes[numero].orEmpty().joinToString(",")
+            """{"numero":$numero,"encabezado":null,"versiculos":[$versiculos],"secciones":[],"paralelos":[],"pendientes":[$pend]}"""
         }
-        return """{"traduccion":"RVR1960","libros":[$libros]}"""
+        return """{"id":"${libro.id}","capitulos":[$capitulos]}"""
     }
 
-    fun texto(pendientes: Map<String, List<Int>> = emptyMap()) = LectorBiblia.leer(json(pendientes))
+    /** Los 66 libros con la estructura de la RVR1960. [pendientes] va por "ID capítulo" (ej. "JHN 3" a [16]). */
+    fun texto(pendientes: Map<String, List<Int>> = emptyMap()): TextoBiblico = TextoBiblico(
+        TablaLibros.todos.associate { libro ->
+            val delLibro = pendientes.entries
+                .filter { it.key.startsWith("${libro.id} ") }
+                .associate { it.key.substringAfter(" ").toInt() to it.value }
+            libro.id to LectorBiblia.leerLibro(jsonLibro(libro, delLibro), libro)
+        },
+    )
 }
 
-class FuenteDeTextoFalsa(private val carga: CargaTexto) : BibleTextSource {
-    override suspend fun cargar(): CargaTexto = carga
+/** Fuente de texto falsa: entrega los libros de [texto], o el mismo resultado de error para todos. */
+class FuenteDeTextoFalsa private constructor(
+    private val respuesta: (String) -> CargaLibro,
+) : BibleTextSource {
+    constructor(texto: TextoBiblico) : this({ id ->
+        texto.libro(id)?.let { CargaLibro.Cargado(it) } ?: CargaLibro.Faltante
+    })
+
+    constructor(error: CargaLibro) : this({ error })
+
+    override suspend fun libro(id: String): CargaLibro = respuesta(id)
 }

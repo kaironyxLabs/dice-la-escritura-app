@@ -35,12 +35,14 @@ sealed interface ResultadoTexto {
 
     data class NoDisponible(val motivo: MotivoNoDisponible, val versiculo: Int) : ResultadoTexto
 
-    /** No está instalado el archivo del texto bíblico (assets/bible/rvr1960.json). */
+    /** No está instalado el archivo del texto bíblico (assets/bible/libros). */
     data object ArchivoFaltante : ResultadoTexto
 }
 
 /** Texto bíblico completo, indexado por id de libro. */
 class TextoBiblico(private val libros: Map<String, List<CapituloTexto>>) {
+
+    fun libro(libroId: String): List<CapituloTexto>? = libros[libroId]
 
     fun capitulo(libroId: String, numero: Int): CapituloTexto? = libros[libroId]?.getOrNull(numero - 1)
 

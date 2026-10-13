@@ -2,6 +2,7 @@ package com.example.lampara.data.bible
 
 import com.example.lampara.domain.model.Referencia
 import com.example.lampara.domain.model.ResultadoTexto
+import com.example.lampara.domain.model.TextoBiblico
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -10,14 +11,25 @@ import javax.inject.Singleton
 class BibleRepository @Inject constructor(
     private val fuente: BibleTextSource,
 ) {
-    /** Estado de la instalación del texto: cargado, faltante o inválido. */
-    suspend fun estado(): CargaTexto = fuente.cargar()
+    /** Estado de la instalación del texto. Comprueba un libro pequeño: no hace falta leer toda la Biblia. */
+    suspend fun estado(): CargaTexto = when (val carga = fuente.libro(LIBRO_SONDA)) {
+        is CargaLibro.Cargado -> CargaTexto.Cargado
+        CargaLibro.Faltante -> CargaTexto.Faltante
+        is CargaLibro.Invalido -> CargaTexto.Invalido(carga.motivo)
+    }
 
-    suspend fun disponible(): Boolean = fuente.cargar() is CargaTexto.Cargado
+    suspend fun disponible(): Boolean = estado() is CargaTexto.Cargado
 
     /** Texto de un pasaje de un capítulo. Nunca lanza por falta del archivo: lo informa en el resultado. */
-    suspend fun textoDe(referencia: Referencia): ResultadoTexto = when (val carga = fuente.cargar()) {
-        is CargaTexto.Cargado -> carga.texto.versiculos(referencia)
-        CargaTexto.Faltante, is CargaTexto.Invalido -> ResultadoTexto.ArchivoFaltante
+    suspend fun textoDe(referencia: Referencia): ResultadoTexto {
+        val id = referencia.libro.id
+        return when (val carga = fuente.libro(id)) {
+            is CargaLibro.Cargado -> TextoBiblico(mapOf(id to carga.capitulos)).versiculos(referencia)
+            CargaLibro.Faltante, is CargaLibro.Invalido -> ResultadoTexto.ArchivoFaltante
+        }
+    }
+
+    private companion object {
+        const val LIBRO_SONDA = "RUT"
     }
 }
