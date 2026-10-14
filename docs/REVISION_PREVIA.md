@@ -134,4 +134,4 @@ Claude puede aplicar las correcciones que apruebes (editando los JSON, sin tocar
 ## 5. Correcciones ya aplicadas (módulo base)
 Aplicadas en los JSON (`contentVersion` +1 en los seis archivos `-02`, `reviewed` intacto en `false`): las 2 ambiguas, las 2 fugas y 16 de las menores del módulo base (`core-historia-0013/0021/0031/0048/0059`, `core-personajes-0006/0047/0052/0056`, `core-lugares-0015/0023`, `core-ensenanzas-0015/0022/0038`, `core-libros-0027/0034`). Se comprobaron contra el texto local del pasaje.
 
-**Pendiente: todo lo de la Confesión** (sesgo de longitud, cercanía de redacción, `-0020/-0037/-0049/-0052`). El repositorio no tiene el texto de la Confesión de 1689 y las preguntas se escribieron de memoria, así que no se pueden verificar ni corregir sin una fuente que aporte el usuario. Tampoco se han tocado los distractores de Cartas ni las V/F falsas ni el contenido de niveles altos.
+**Confesión:** contrastada con la fuente que aportó el usuario (`lbcos.pdf`) y corregida; ver [CONTRASTE_CONFESION.md](CONTRASTE_CONFESION.md). Sigue pendiente lo de Cartas, las V/F falsas del módulo base y el contenido de niveles altos.

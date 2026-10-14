@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "confesion1689-confesion-0014",
@@ -69,10 +69,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 3, ¿en qué se basa la elección de Dios para vida eterna?",
       "options": [
-        "En la fe que Dios previó en cada persona",
-        "En las buenas obras que Dios previó",
-        "En la nobleza de cada persona",
-        "En su sola gracia y amor, sin que dependa de algo previsto en la criatura"
+        "En la fe que Dios previó en cada elegido, antes de la fundación del mundo",
+        "En las buenas obras que Dios previó en cada elegido, desde la eternidad",
+        "En la nobleza y los méritos que Dios vio en cada persona",
+        "Solo en su gracia y amor, sin nada previsto en la criatura"
       ],
       "answerIndex": 3,
       "references": [
@@ -92,13 +92,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "La Confesión indica que la doctrina de la predestinación debe tratarse con especial prudencia y cuidado.",
-      "answer": true,
+      "question": "La Confesión indica que la doctrina de la predestinación debe tratarse sin ninguna cautela especial.",
+      "answer": false,
       "references": [
         "Romanos 11:33",
         "Deuteronomio 29:29"
       ],
-      "explanation": "Por ser un alto misterio, la Confesión pide tratar esta doctrina con prudencia y atención a lo que Dios ha revelado.",
+      "explanation": "Por ser un profundo misterio, la Confesión pide tratarla con especial prudencia y cuidado.",
       "tags": [
         "decreto"
       ],
@@ -113,10 +113,10 @@
       "difficulty": 1,
       "question": "Según el capítulo 4, ¿en cuánto tiempo creó Dios el mundo y todo lo que hay en él?",
       "options": [
-        "En un solo instante",
-        "En cuarenta días",
-        "En mil años",
-        "En el espacio de seis días"
+        "En un solo instante, por un acto de su voluntad",
+        "En cuarenta días, como en el diluvio",
+        "En mil años, durante una larga era",
+        "En el lapso de seis días, y todas muy buenas"
       ],
       "answerIndex": 3,
       "references": [
@@ -138,17 +138,17 @@
       "difficulty": 2,
       "question": "¿Con qué dotó Dios al hombre al crearlo, según el capítulo 4?",
       "options": [
-        "Con una naturaleza divina",
-        "Con alma racional e inmortal, conocimiento, justicia y verdadera santidad",
-        "Con poder para no morir jamás",
-        "Con conocimiento de todo el futuro"
+        "Con una naturaleza divina, igual a la de Dios",
+        "Con alma racional e inmortal y a su imagen",
+        "Con poder para no morir jamás ni pecar nunca",
+        "Con conocimiento de todo el futuro y de los ángeles"
       ],
       "answerIndex": 1,
       "references": [
         "Génesis 1:27",
         "Colosenses 3:10"
       ],
-      "explanation": "El hombre fue creado varón y hembra, a imagen de Dios, con una ley escrita en su corazón.",
+      "explanation": "Dios creó al hombre con alma racional e inmortal, a su imagen en conocimiento, justicia y santidad.",
       "tags": [
         "creacion"
       ],
@@ -163,10 +163,10 @@
       "difficulty": 3,
       "question": "¿Qué precepto especial recibió Adán, según el capítulo 4?",
       "options": [
-        "Guardar el sábado",
-        "No salir del huerto",
-        "No comer del árbol de la ciencia del bien y del mal",
-        "Ofrecer un sacrificio cada día"
+        "Guardar el sábado todos los días de reposo del huerto",
+        "No salir del huerto sin pedir primero permiso a Dios",
+        "No comer del árbol del conocimiento del bien y del mal",
+        "Ofrecer un sacrificio de animales cada día en el huerto"
       ],
       "answerIndex": 2,
       "references": [
@@ -177,7 +177,7 @@
         "creacion"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 4, párr. 2"
+      "confessionRef": "cap. 4, párr. 3"
     },
     {
       "id": "confesion1689-confesion-0022",
@@ -187,17 +187,17 @@
       "difficulty": 2,
       "question": "Según el capítulo 5, ¿qué hace la providencia de Dios con todas las criaturas y cosas?",
       "options": [
-        "Solo cuida las que son buenas",
-        "Las abandona a su suerte",
-        "Las sostiene, dirige y gobierna",
-        "Las deja a merced del azar"
+        "Solo cuida a las criaturas que son buenas y justas",
+        "Las abandona a su suerte una vez creadas",
+        "Las sostiene, dirige, dispone y gobierna, de la mayor a la menor",
+        "Las deja a merced del azar y de las causas segundas"
       ],
       "answerIndex": 2,
       "references": [
         "Hebreos 1:3",
         "Salmos 103:19"
       ],
-      "explanation": "La Confesión enseña que Dios sostiene, dirige, dispone y gobierna a todas las criaturas, acciones y cosas.",
+      "explanation": "Dios mantiene y conduce todo lo creado, de lo más grande a lo más pequeño.",
       "tags": [
         "providencia"
       ],
@@ -231,10 +231,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 5, ¿qué cuidado especial tiene la providencia de Dios?",
       "options": [
-        "El de los reyes de la tierra",
-        "El de los ángeles",
-        "El de su iglesia, a la que ordena todas las cosas para su bien",
-        "El de los sacerdotes únicamente"
+        "El de los reyes y las naciones que gobiernan la tierra",
+        "El de los ángeles que sirven continuamente delante de él",
+        "El de su iglesia, a la que dispone todo para su bien",
+        "El de los sacerdotes y levitas del templo únicamente"
       ],
       "answerIndex": 2,
       "references": [
@@ -256,10 +256,10 @@
       "difficulty": 2,
       "question": "Según el capítulo 6, ¿cómo cayeron nuestros primeros padres en el pecado?",
       "options": [
-        "Por ignorancia de la ley",
-        "Seducidos por la astucia y la tentación de Satanás",
-        "Por la presión de sus hijos",
-        "Por mandato de Dios"
+        "Por ignorancia de la ley que se les había dado",
+        "Seducidos por la astucia de Satanás",
+        "Por la presión de sus hijos y de la serpiente",
+        "Por mandato directo de Dios"
       ],
       "answerIndex": 1,
       "references": [
@@ -281,9 +281,9 @@
       "difficulty": 3,
       "question": "Según el capítulo 6, ¿qué se transmitió a toda la descendencia de Adán?",
       "options": [
-        "Únicamente la tendencia a errar",
-        "La obligación de ofrecer sacrificios",
-        "Solo la muerte física",
+        "Únicamente la tendencia a errar y a equivocarse",
+        "La obligación de ofrecer sacrificios por el pecado",
+        "Solo la muerte física, sin culpa ni corrupción",
         "La culpa del pecado y una naturaleza corrompida"
       ],
       "answerIndex": 3,
@@ -304,18 +304,18 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según la Confesión, todo pecado merece la ira de Dios y la maldición de la ley.",
+      "question": "Según la Confesión, la corrupción de la naturaleza permanece durante esta vida incluso en los regenerados.",
       "answer": true,
       "references": [
-        "Romanos 6:23",
-        "Gálatas 3:10"
+        "1 Juan 1:8-10",
+        "Romanos 7:14-25"
       ],
-      "explanation": "El capítulo 6 enseña que cada pecado trae culpa sobre el pecador y lo hace sujeto a la ira de Dios y a la muerte.",
+      "explanation": "Aunque sea perdonada y mortificada por Cristo, la corrupción que queda en el creyente sigue siendo pecado.",
       "tags": [
         "caida"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 6, párr. 6"
+      "confessionRef": "cap. 6, párr. 5"
     },
     {
       "id": "confesion1689-confesion-0028",
@@ -325,10 +325,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 7, ¿cómo ha querido Dios relacionarse con el hombre, dada la enorme distancia entre Creador y criatura?",
       "options": [
-        "Solo mediante la ley de Moisés",
-        "Solo mediante sacrificios",
-        "Mediante un pacto, por condescendencia voluntaria",
-        "Mediante los méritos del hombre"
+        "Solo mediante la ley dada a Moisés en el Sinaí",
+        "Solo mediante sacrificios de animales",
+        "Mediante un pacto, por condescendencia suya",
+        "Mediante los méritos acumulados del hombre"
       ],
       "answerIndex": 2,
       "references": [
@@ -350,10 +350,10 @@
       "difficulty": 4,
       "question": "Según el capítulo 7, ¿por qué hizo Dios el pacto de gracia?",
       "options": [
-        "Porque el pacto con Israel fracasó",
-        "Porque el hombre, por su caída, se hizo incapaz de la vida por el primer pacto",
-        "Porque Dios cambió de plan",
-        "Porque el hombre lo pidió"
+        "Porque el pacto hecho con Israel en el Sinaí había fracasado por completo",
+        "Porque el hombre, caído, no podía alcanzar la vida por el primer pacto",
+        "Porque Dios cambió de plan al ver que Adán había pecado",
+        "Porque el hombre se lo pidió a Dios en oración y arrepentimiento"
       ],
       "answerIndex": 1,
       "references": [
@@ -393,17 +393,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 8, ¿cómo fue concebido el Hijo de Dios en la persona de Jesús?",
       "options": [
-        "Por la voluntad de José y María",
-        "Por un milagro en Belén",
-        "Por el Espíritu Santo, en el vientre de la virgen María",
-        "Por un decreto del sumo sacerdote"
+        "Por la voluntad de José y María, como cualquier hijo",
+        "Por un milagro en Belén durante el censo de Augusto",
+        "Por obra del Espíritu Santo en la virgen María",
+        "Por decreto del sumo sacerdote y del Sanedrín"
       ],
       "answerIndex": 2,
       "references": [
         "Lucas 1:35",
         "Mateo 1:20"
       ],
-      "explanation": "El Hijo de Dios tomó la naturaleza humana, concebido por el poder del Espíritu Santo en el vientre de la virgen María.",
+      "explanation": "El Hijo de Dios tomó la naturaleza humana, concebido por obra del Espíritu Santo en la virgen María.",
       "tags": [
         "cristo"
       ],
@@ -427,7 +427,7 @@
         "cristo"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 8"
+      "confessionRef": "cap. 8, párr. 1"
     },
     {
       "id": "confesion1689-confesion-0033",
@@ -435,13 +435,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 2,
-      "question": "Según la Confesión, Dios dotó a la voluntad del hombre de una libertad natural.",
-      "answer": true,
+      "question": "Según la Confesión, la voluntad del hombre está determinada por la necesidad de su naturaleza a hacer solo el bien o solo el mal.",
+      "answer": false,
       "references": [
         "Deuteronomio 30:19",
         "Santiago 1:14"
       ],
-      "explanation": "La voluntad del hombre fue dotada de libertad natural, sin ser forzada a lo bueno ni a lo malo.",
+      "explanation": "La voluntad tiene libertad natural: ninguna necesidad de la naturaleza la fuerza a un solo camino.",
       "tags": [
         "libre-albedrio"
       ],
@@ -456,17 +456,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 9, ¿cómo era la voluntad del hombre en su estado de inocencia?",
       "options": [
-        "Sometida al pecado",
-        "Libre y con poder para querer y hacer lo bueno que agrada a Dios",
-        "Dependiente de la suerte",
-        "Incapaz de elegir"
+        "Sometida al pecado y a la corrupción",
+        "Libre y con poder para querer y hacer lo bueno",
+        "Dependiente de la suerte y de las circunstancias",
+        "Incapaz de elegir entre el bien y el mal"
       ],
       "answerIndex": 1,
       "references": [
         "Eclesiastés 7:29",
         "Génesis 1:27"
       ],
-      "explanation": "En la inocencia el hombre tenía libertad y poder para querer y hacer lo bueno, aunque mudable y capaz de caer.",
+      "explanation": "En la inocencia el hombre podía querer y hacer lo bueno, aunque su voluntad era mudable y podía caer.",
       "tags": [
         "libre-albedrio"
       ],
@@ -481,17 +481,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 9, ¿qué perdió el hombre por su caída respecto a las cosas espirituales?",
       "options": [
-        "Toda capacidad de querer algún bien espiritual que acompañe a la salvación",
-        "Solo la memoria de lo bueno",
-        "La libertad de elegir entre cosas naturales",
-        "La capacidad de razonar"
+        "Toda capacidad de querer el bien espiritual que salva",
+        "Solo la memoria de lo bueno que había conocido antes",
+        "La libertad de elegir entre las cosas de la vida natural",
+        "La capacidad de razonar y de entender lo que se le dice"
       ],
       "answerIndex": 0,
       "references": [
         "Romanos 5:6",
         "Romanos 8:7"
       ],
-      "explanation": "El hombre natural, enteramente opuesto a ese bien y muerto en el pecado, no puede convertirse a sí mismo ni prepararse para ello.",
+      "explanation": "El hombre natural, opuesto a ese bien y muerto en el pecado, no puede convertirse ni prepararse por sí mismo.",
       "tags": [
         "libre-albedrio"
       ],
@@ -506,8 +506,8 @@
       "difficulty": 2,
       "question": "Según el capítulo 10, ¿por medio de qué llama Dios eficazmente a los elegidos?",
       "options": [
-        "Por la tradición",
-        "Por su Palabra y por su Espíritu",
+        "Por la tradición de los padres",
+        "Por su Palabra y su Espíritu",
         "Por las obras de la ley",
         "Por los sacrificios del templo"
       ],
@@ -531,17 +531,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 10, ¿de dónde proviene este llamamiento eficaz?",
       "options": [
-        "De los méritos del hombre",
+        "De los méritos que el hombre acumula",
         "De la fe que el hombre produce por sí mismo",
-        "Solo de la gracia libre y especial de Dios, no de algo previsto en el hombre",
-        "De sus buenas obras previstas"
+        "Solo de la gracia libre y especial de Dios",
+        "De sus buenas obras que Dios previó"
       ],
       "answerIndex": 2,
       "references": [
         "2 Timoteo 1:9",
         "Efesios 2:8"
       ],
-      "explanation": "El hombre es enteramente pasivo en el llamamiento hasta que el Espíritu Santo lo vivifica.",
+      "explanation": "El llamamiento viene solo de la gracia de Dios; el hombre es pasivo hasta que el Espíritu lo vivifica.",
       "tags": [
         "llamamiento"
       ],
@@ -556,17 +556,17 @@
       "difficulty": 4,
       "question": "Según el capítulo 10, ¿qué enseña acerca de los elegidos que mueren en la infancia?",
       "options": [
-        "Que quedan sin salvación",
-        "Que son regenerados y salvados por Cristo mediante el Espíritu",
-        "Que dependen del bautismo",
-        "Que esperan un juicio especial"
+        "Que quedan sin salvación por no haber creído",
+        "Que esperan un juicio especial al final",
+        "Que dependen del bautismo de sus padres",
+        "Que son regenerados y salvados por Cristo"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "references": [
         "Juan 3:3",
         "Hechos 4:12"
       ],
-      "explanation": "La Confesión sostiene que los elegidos que mueren en la infancia son regenerados y salvos por Cristo.",
+      "explanation": "Los niños elegidos que mueren siendo infantes son regenerados y salvos por Cristo, mediante el Espíritu.",
       "tags": [
         "llamamiento"
       ],
@@ -579,13 +579,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según el capítulo 11, la fe que justifica no está sola en la persona justificada, sino acompañada de las demás gracias salvadoras.",
+      "question": "Según el capítulo 11, la fe que justifica va siempre acompañada de las demás gracias salvadoras.",
       "answer": true,
       "references": [
         "Santiago 2:17",
         "Gálatas 5:6"
       ],
-      "explanation": "La fe justificadora no es una fe muerta, sino que obra por el amor.",
+      "explanation": "La fe que justifica no es una fe muerta: va con las demás virtudes salvadoras y obra por amor.",
       "tags": [
         "justificacion"
       ],
@@ -668,10 +668,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 12, ¿cómo trata Dios a sus hijos adoptados?",
       "options": [
-        "Los desecha si fallan",
-        "Como un padre: los compadece, protege, provee y corrige, sin desecharlos jamás",
-        "Los castiga sin misericordia",
-        "Los deja a su suerte"
+        "Los desecha cuando vuelven a fallar en el camino",
+        "Como un padre: los compadece, protege y corrige",
+        "Los castiga sin misericordia ni consuelo alguno",
+        "Los deja a su suerte mientras sean pecadores"
       ],
       "answerIndex": 1,
       "references": [
@@ -693,10 +693,10 @@
       "difficulty": 2,
       "question": "Según el capítulo 13, ¿por virtud de qué son santificados los regenerados?",
       "options": [
-        "De la pertenencia a una iglesia",
-        "De la ley de Moisés",
+        "De la pertenencia a una iglesia visible en la tierra",
+        "De la ley dada a Moisés",
         "De la muerte y resurrección de Cristo",
-        "De sus propias obras"
+        "De sus propias obras y esfuerzos"
       ],
       "answerIndex": 2,
       "references": [
@@ -718,10 +718,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 13, ¿cómo es la santificación en esta vida?",
       "options": [
-        "Es perfecta desde el primer día",
-        "Alcanza a todo el hombre, pero es imperfecta mientras quedan restos de corrupción",
-        "Solo alcanza al alma",
-        "Es opcional para el creyente"
+        "Es perfecta y completa desde el primer día de la fe",
+        "Alcanza al hombre entero, aunque es incompleta en esta vida",
+        "Solo alcanza al alma, pero nunca al cuerpo ni a la mente",
+        "Es opcional para el creyente que ya fue justificado"
       ],
       "answerIndex": 1,
       "references": [
@@ -747,7 +747,7 @@
         "Gálatas 5:17",
         "Romanos 7:23"
       ],
-      "explanation": "La carne lucha contra el Espíritu y el Espíritu contra la carne, aunque la gracia santificante prevalece.",
+      "explanation": "Hay un conflicto continuo entre la carne y el Espíritu, aunque la gracia santificante prevalece.",
       "tags": [
         "santificacion"
       ],
@@ -762,17 +762,17 @@
       "difficulty": 2,
       "question": "Según el capítulo 14, ¿de quién es obra la gracia de la fe?",
       "options": [
-        "Del propio creyente",
+        "Del propio creyente, por su esfuerzo",
         "Del Espíritu de Cristo en el corazón",
-        "De la iglesia local",
-        "Del ministro que predica"
+        "De la iglesia local, por su ministerio",
+        "Del ministro que predica con elocuencia"
       ],
       "answerIndex": 1,
       "references": [
         "Efesios 2:8",
         "2 Corintios 4:13"
       ],
-      "explanation": "La gracia de la fe, por la cual los elegidos creen para salvación de su alma, es obra del Espíritu de Cristo.",
+      "explanation": "La fe con que los elegidos creen para salvación la produce el Espíritu de Cristo en sus corazones.",
       "tags": [
         "fe"
       ],
@@ -787,10 +787,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 14, ¿por qué medio se produce ordinariamente la fe?",
       "options": [
-        "Por los ritos",
-        "Por la razón humana sola",
-        "Por los sueños",
-        "Por el ministerio de la Palabra"
+        "Por los ritos y las ceremonias de la iglesia",
+        "Por la razón humana sola, sin ayuda de nadie",
+        "Por los sueños y las visiones personales",
+        "Ordinariamente, por el ministerio de la Palabra"
       ],
       "answerIndex": 3,
       "references": [
@@ -810,13 +810,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 4,
-      "question": "Según la Confesión, la fe salvadora puede ser débil o fuerte, pero es de la misma naturaleza en todo creyente.",
+      "question": "Según la Confesión, la fe salvadora puede ser débil o fuerte, pero aun la más débil es distinta en naturaleza de la fe de quienes creen solo por un tiempo.",
       "answer": true,
       "references": [
         "Mateo 6:30",
         "Romanos 4:19-20"
       ],
-      "explanation": "La fe puede ser débil o fuerte, pero en el menor grado es distinta en su naturaleza de la fe de los creyentes temporales.",
+      "explanation": "La fe salvadora admite grados, pero en su nivel más bajo difiere en clase de la fe pasajera.",
       "tags": [
         "fe"
       ],
@@ -831,12 +831,12 @@
       "difficulty": 2,
       "question": "Según el capítulo 15, ¿qué es el arrepentimiento para vida?",
       "options": [
-        "Una gracia evangélica que Dios da a los elegidos",
-        "Un sentimiento pasajero",
-        "Una ceremonia de la iglesia",
-        "Un mérito que el hombre acumula"
+        "Un mérito que el hombre acumula con obras",
+        "Un sentimiento pasajero de culpa",
+        "Una ceremonia de la iglesia local",
+        "Una gracia evangélica que Dios da"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "references": [
         "Hechos 11:18",
         "Zacarías 12:10"
@@ -846,7 +846,7 @@
         "arrepentimiento"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 15, párr. 1"
+      "confessionRef": "cap. 15, párr. 3"
     },
     {
       "id": "confesion1689-confesion-0051",
@@ -856,10 +856,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 15, ¿qué incluye el arrepentimiento verdadero?",
       "options": [
-        "Solo obras de penitencia",
-        "Solo tristeza",
-        "Tristeza por el pecado y volverse a Dios con propósito de obedecer",
-        "Solo confesarse ante otros"
+        "Solo obras de penitencia, ayunos y limosnas",
+        "Solo tristeza por las consecuencias del pecado",
+        "Dolor por el pecado y volverse a Dios con propósito de obedecer",
+        "Solo confesar el pecado delante de otras personas"
       ],
       "answerIndex": 2,
       "references": [
@@ -871,7 +871,7 @@
         "arrepentimiento"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 15, párr. 2"
+      "confessionRef": "cap. 15, párr. 3"
     },
     {
       "id": "confesion1689-confesion-0052",
@@ -881,22 +881,22 @@
       "difficulty": 4,
       "question": "Según el capítulo 15, ¿qué dice la Confesión del pecado y la condenación?",
       "options": [
-        "Hay pecados que ningún arrepentimiento puede perdonar",
-        "Los pecados pequeños no necesitan perdón",
-        "Solo los pecados públicos requieren arrepentimiento",
-        "Ningún pecado es tan pequeño que no merezca condenación, ni tan grande que condene a quienes se arrepienten de verdad"
+        "Hay pecados tan graves que ningún arrepentimiento puede alcanzar perdón",
+        "Los pecados pequeños no necesitan perdón ni arrepentimiento alguno",
+        "Solo los pecados públicos y notorios requieren arrepentimiento",
+        "Ningún pecado es tan grande que condene a quien se arrepiente"
       ],
       "answerIndex": 3,
       "references": [
         "Romanos 6:23",
         "Isaías 55:7"
       ],
-      "explanation": "Por eso los pecadores deben arrepentirse de sus pecados particulares con prontitud.",
+      "explanation": "Por eso la Confesión pide predicar el arrepentimiento de manera constante.",
       "tags": [
         "arrepentimiento"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 15"
+      "confessionRef": "cap. 15, párr. 5"
     },
     {
       "id": "confesion1689-confesion-0053",
@@ -906,12 +906,12 @@
       "difficulty": 2,
       "question": "Según el capítulo 16, ¿cuáles son las buenas obras?",
       "options": [
-        "Solo las que Dios ha mandado en su santa Palabra",
-        "Las que cada uno considera buenas",
-        "Las que impone la iglesia",
-        "Las que la tradición recomienda"
+        "Las que la tradición recomienda desde antiguo",
+        "Las que cada uno considera buenas según su conciencia",
+        "Las que impone la iglesia a sus miembros",
+        "Solo las que Dios ha ordenado en su santa Palabra"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "references": [
         "Miqueas 6:8",
         "Hebreos 13:21"
@@ -931,10 +931,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 16, ¿qué son las buenas obras respecto de la fe?",
       "options": [
-        "Algo sin relación con la fe",
-        "Un mérito que Dios debe pagar",
-        "La causa de la salvación",
-        "Frutos y evidencias de una fe verdadera"
+        "Algo que no guarda relación alguna con la fe",
+        "Un mérito por el que Dios debe pagar al creyente",
+        "La causa principal por la que somos salvos",
+        "Frutos de una fe verdadera y viva"
       ],
       "answerIndex": 3,
       "references": [
@@ -975,10 +975,10 @@
       "difficulty": 2,
       "question": "Según el capítulo 17, ¿qué ocurre con quienes Dios aceptó en Cristo y santificó por su Espíritu?",
       "options": [
-        "No caerán total ni finalmente del estado de gracia",
-        "Perderán la salvación si pecan",
-        "Dependerán de sus propias fuerzas",
-        "Deberán ser salvos de nuevo"
+        "No caerán total ni definitivamente de la gracia",
+        "Perderán la salvación si llegan a pecar gravemente",
+        "Dependerán de sus propias fuerzas para perseverar",
+        "Deberán ser salvos de nuevo cada vez que caigan"
       ],
       "answerIndex": 0,
       "references": [
@@ -1000,17 +1000,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 17, ¿de qué depende la perseverancia de los santos?",
       "options": [
-        "De la fuerza de voluntad del creyente",
-        "De la inmutabilidad del decreto de elección y del amor de Dios, no del libre albedrío del creyente",
-        "De las obras del creyente",
-        "De la aprobación de la iglesia"
+        "De la fuerza de voluntad y la constancia del creyente",
+        "Del decreto inmutable de elección y del amor de Dios",
+        "De las obras que el creyente va acumulando con los años",
+        "De la aprobación continua de la iglesia local"
       ],
       "answerIndex": 1,
       "references": [
         "2 Timoteo 2:19",
         "Romanos 8:30"
       ],
-      "explanation": "La perseverancia descansa en la inmutabilidad del decreto de elección, que fluye del amor libre de Dios Padre.",
+      "explanation": "La perseverancia descansa en que el decreto de elección no cambia, pues nace del amor libre de Dios Padre.",
       "tags": [
         "perseverancia"
       ],
@@ -1044,9 +1044,9 @@
       "difficulty": 3,
       "question": "Según el capítulo 18, ¿qué pueden hacer los hipócritas y los no regenerados con respecto a su salvación?",
       "options": [
-        "Conocer con certeza que están salvos",
-        "Dudar siempre de todo",
-        "Engañarse con falsas esperanzas de estar en gracia",
+        "Conocer con certeza que ya están salvos",
+        "Dudar siempre de todo lo que oyen",
+        "Engañarse con esperanzas falsas de estar en gracia",
         "Salvarse por su propia esperanza"
       ],
       "answerIndex": 2,
@@ -1069,12 +1069,12 @@
       "difficulty": 3,
       "question": "Según el capítulo 18, ¿qué pueden tener los verdaderos creyentes?",
       "options": [
-        "Certeza segura de que están en estado de gracia",
-        "Certeza basada en sus obras únicamente",
-        "Solo una esperanza dudosa",
-        "Ninguna certeza mientras vivan"
+        "Ninguna certeza mientras vivan en la tierra",
+        "Certeza basada solamente en sus propias obras",
+        "Solo una esperanza dudosa y conjetural",
+        "Certeza segura de que están en gracia"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "references": [
         "1 Juan 5:13",
         "Romanos 5:2"
@@ -1084,7 +1084,7 @@
         "seguridad"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 18, párr. 2"
+      "confessionRef": "cap. 18, párr. 1"
     },
     {
       "id": "confesion1689-confesion-0061",
@@ -1092,7 +1092,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 4,
-      "question": "Según la Confesión, la seguridad de la gracia pertenece a la esencia de la fe, de modo que sin ella no hay verdadera fe.",
+      "question": "Según la Confesión, sin la seguridad de la salvación no puede haber verdadera fe.",
       "answer": false,
       "references": [
         "Isaías 50:10",
@@ -1113,10 +1113,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 19, ¿qué ley dio Dios a Adán?",
       "options": [
-        "Una ley de perfecta obediencia, escrita en su corazón",
-        "Ninguna ley",
-        "La ley civil de Israel",
-        "La ley ceremonial"
+        "Una ley de obediencia escrita en su corazón",
+        "Ninguna ley, pues vivía en total libertad",
+        "La ley civil de Israel con todas sus ordenanzas",
+        "La ley ceremonial con sus sacrificios y fiestas"
       ],
       "answerIndex": 0,
       "references": [
@@ -1136,13 +1136,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según la Confesión, la ley ceremonial fue abrogada por Cristo en el Nuevo Testamento.",
-      "answer": true,
+      "question": "Según la Confesión, las leyes ceremoniales de Israel siguen obligando a los cristianos hoy.",
+      "answer": false,
       "references": [
         "Colosenses 2:14-17",
         "Efesios 2:14-16"
       ],
-      "explanation": "Las ordenanzas ceremoniales de Israel prefiguraban a Cristo y fueron abolidas con su venida.",
+      "explanation": "Las leyes ceremoniales prefiguraban a Cristo y fueron abrogadas por él.",
       "tags": [
         "ley"
       ],
@@ -1157,10 +1157,10 @@
       "difficulty": 4,
       "question": "Según el capítulo 19, ¿a quiénes obliga la ley moral para siempre?",
       "options": [
-        "Solo a los pastores",
+        "Solo a los pastores y ancianos",
         "A todos, tanto justificados como no justificados",
-        "Solo a los judíos",
-        "Solo a los no creyentes"
+        "Solo a los judíos del pacto antiguo",
+        "Solo a quienes no creen en Cristo"
       ],
       "answerIndex": 1,
       "references": [
@@ -1185,7 +1185,7 @@
       "references": [
         "Génesis 3:15"
       ],
-      "explanation": "Después de la caída Dios dio la promesa de Cristo, la simiente de la mujer, como medio de salvación.",
+      "explanation": "Tras la caída, Dios prometió a Cristo, descendiente de la mujer, como el medio para llamar a los elegidos.",
       "tags": [
         "evangelio"
       ],
@@ -1200,17 +1200,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 20, ¿cómo se revela el evangelio, la promesa de Cristo?",
       "options": [
-        "Solo por la Palabra, no por la luz de la naturaleza ni de la providencia",
+        "Por la conciencia de cada persona",
         "Solo por las obras de la creación",
-        "Por la razón natural",
-        "Por la conciencia sola"
+        "Por la razón natural del hombre",
+        "Solo por la Palabra de Dios, no por la naturaleza ni la providencia"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "references": [
         "Romanos 1:17",
         "Romanos 10:14-15"
       ],
-      "explanation": "Las obras de la creación y la providencia, con la luz de la naturaleza, no revelan a Cristo ni su gracia.",
+      "explanation": "Ni la creación ni la providencia, ni la luz natural, dan a conocer a Cristo ni su gracia.",
       "tags": [
         "evangelio"
       ],
@@ -1223,24 +1223,24 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 20, ¿qué hace el evangelio con los pecadores?",
+      "question": "Según el capítulo 20, además del evangelio como medio externo, ¿qué es necesario en toda alma para que nazca de nuevo?",
       "options": [
-        "Les exige pagar primero su deuda",
-        "Les ofrece a Cristo y su gracia gratuitamente",
-        "Los juzga sin darles oportunidad",
-        "Los excluye hasta que sean santos"
+        "Una obra eficaz del Espíritu Santo",
+        "Un esfuerzo moral sostenido durante años",
+        "La aprobación de la iglesia local",
+        "Un conocimiento amplio de la ley de Moisés"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "references": [
-        "Mateo 11:28",
-        "Isaías 55:1"
+        "Juan 3:5-8",
+        "Efesios 2:1-5"
       ],
-      "explanation": "El evangelio se anuncia a los pecadores para que acudan a Cristo y reciban su gracia.",
+      "explanation": "El evangelio basta como medio externo, pero hace falta la obra eficaz del Espíritu para dar nueva vida.",
       "tags": [
         "evangelio"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 20"
+      "confessionRef": "cap. 20, párr. 4"
     },
     {
       "id": "confesion1689-confesion-0068",
@@ -1250,17 +1250,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 21, ¿de qué libertad gozan los creyentes por Cristo?",
       "options": [
-        "De la obligación de obedecer a Dios",
-        "De toda autoridad humana",
-        "De la necesidad de orar",
-        "De la culpa del pecado, la ira de Dios y la maldición de la ley"
+        "De la obligación de obedecer a Dios en todo lo que manda",
+        "De toda autoridad humana, sea civil o eclesiástica",
+        "De la necesidad de orar y leer la Palabra a diario",
+        "De la culpa del pecado y la maldición de la ley"
       ],
       "answerIndex": 3,
       "references": [
         "Gálatas 3:13",
         "Romanos 8:1"
       ],
-      "explanation": "Cristo compró para los creyentes libertad de la culpa del pecado, de la ira de Dios y del yugo de la ley ceremonial.",
+      "explanation": "Cristo compró libertad del pecado y su culpa, de la ira de Dios y del yugo ceremonial.",
       "tags": [
         "libertad"
       ],
@@ -1294,10 +1294,10 @@
       "difficulty": 4,
       "question": "Según el capítulo 21, ¿qué ocurre con quienes pecan con el pretexto de la libertad cristiana?",
       "options": [
-        "Ejercen un derecho legítimo",
+        "Ejercen un derecho legítimo que Cristo les dio",
         "Destruyen el propósito mismo de esa libertad",
-        "Muestran mayor madurez",
-        "Quedan libres de culpa"
+        "Muestran mayor madurez y conocimiento espiritual",
+        "Quedan libres de culpa delante de Dios"
       ],
       "answerIndex": 1,
       "references": [
@@ -1319,10 +1319,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 22, ¿cómo debe ser el culto a Dios?",
       "options": [
-        "Como la tradición disponga",
+        "Como la tradición de la iglesia lo ha dispuesto siempre",
         "Como cada congregación prefiera",
-        "Como Dios mismo lo ha instituido en su Palabra",
-        "Según la imaginación humana"
+        "Como Dios mismo lo instituyó en su Palabra",
+        "Según la imaginación de los hombres"
       ],
       "answerIndex": 2,
       "references": [
@@ -1354,7 +1354,7 @@
         "Juan 14:13-14",
         "1 Timoteo 2:5"
       ],
-      "explanation": "La oración debe hacerse en el nombre del Hijo, con la ayuda del Espíritu y conforme a la voluntad de Dios.",
+      "explanation": "Se ora en el nombre del Hijo, ayudados por el Espíritu y conforme a la voluntad divina.",
       "tags": [
         "culto"
       ],
@@ -1369,22 +1369,22 @@
       "difficulty": 3,
       "question": "Según el capítulo 23, ¿por qué nombre puede hacerse un juramento lícito?",
       "options": [
-        "Por el cielo",
-        "Por la tierra",
-        "Solo por el nombre de Dios",
-        "Por el templo"
+        "Por el cielo, que es el trono de Dios",
+        "Por la tierra, que es el estrado de sus pies",
+        "Únicamente por el nombre de Dios",
+        "Por el templo de Jerusalén y su altar"
       ],
       "answerIndex": 2,
       "references": [
         "Deuteronomio 10:20",
         "Mateo 5:34-37"
       ],
-      "explanation": "El juramento lícito es parte del culto religioso y se hace solo por el nombre de Dios.",
+      "explanation": "Los hombres solo deben jurar por el nombre de Dios, con santo temor y reverencia.",
       "tags": [
         "juramentos"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 23, párr. 1"
+      "confessionRef": "cap. 23, párr. 2"
     },
     {
       "id": "confesion1689-confesion-0074",
@@ -1437,10 +1437,10 @@
       "difficulty": 2,
       "question": "Según el capítulo 24, ¿quién instituyó a las autoridades civiles?",
       "options": [
-        "Los antiguos reyes",
-        "Dios, para su gloria y el bien público",
-        "Los sacerdotes",
-        "El pueblo, sin intervención de Dios"
+        "Los antiguos reyes de Israel y Judá, por derecho propio",
+        "Dios, para su propia gloria y para el bien público de todos",
+        "Los sacerdotes, que recibieron la autoridad del templo",
+        "El pueblo mismo, sin intervención de Dios"
       ],
       "answerIndex": 1,
       "references": [
@@ -1459,12 +1459,12 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según la Confesión, es lícito que los cristianos acepten y ejerzan el cargo de magistrado.",
-      "answer": true,
+      "question": "Según la Confesión, no es lícito que un cristiano acepte cargos en la autoridad civil.",
+      "answer": false,
       "references": [
         "Romanos 13:1-2"
       ],
-      "explanation": "La Confesión enseña que es lícito a los cristianos aceptar y desempeñar ese cargo, dirigiéndose por las leyes de cada Estado.",
+      "explanation": "Es lícito aceptar esos cargos cuando se es llamado a ocuparlos, procurando la justicia y la paz.",
       "tags": [
         "magistrado"
       ],
@@ -1479,12 +1479,12 @@
       "difficulty": 3,
       "question": "Según el capítulo 24, ¿qué deben hacer los creyentes con las autoridades?",
       "options": [
-        "Orar por ellas, honrarlas y obedecer sus mandatos lícitos",
-        "Ignorarlas siempre",
-        "Obedecerlas aunque manden pecar",
-        "Combatirlas"
+        "Combatirlas siempre con las armas",
+        "Ignorarlas siempre y no tener trato con ellas",
+        "Obedecerlas en todo, aunque manden pecar",
+        "Orar por ellas y sujetarse en lo lícito"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "references": [
         "1 Timoteo 2:1-2",
         "1 Pedro 2:13-14"
@@ -1504,10 +1504,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 25, ¿para qué fue ordenado el matrimonio?",
       "options": [
-        "Solo para unir familias",
-        "Para obtener riquezas",
-        "Solo para tener hijos",
-        "Para la ayuda mutua de marido y mujer, el aumento de la descendencia y evitar la inmoralidad"
+        "Solo para unir a las familias de los contrayentes",
+        "Para obtener riquezas y posición social",
+        "Solo para tener hijos y continuar el apellido",
+        "Ayuda mutua, descendencia y evitar la impureza"
       ],
       "answerIndex": 3,
       "references": [
@@ -1529,10 +1529,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 25, ¿con quién deben casarse los creyentes?",
       "options": [
-        "No deben casarse",
-        "Con cualquier persona",
-        "Solo en el Señor, con quien también profese la verdadera religión",
-        "Con quien su familia elija sin importar su fe"
+        "No deben casarse jamás, por ser cristianos",
+        "Con cualquier persona que acepte casarse",
+        "En el Señor, con quien profese la verdadera fe cristiana",
+        "Con quien su familia elija, sin importar su fe"
       ],
       "answerIndex": 2,
       "references": [
@@ -1553,17 +1553,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 26, ¿a quiénes comprende la iglesia católica o universal?",
       "options": [
-        "A los que viven en una región",
-        "A todos los bautizados",
-        "A los miembros de una denominación",
-        "A todos los elegidos de todos los tiempos, reunidos en Cristo"
+        "A los que viven en una región determinada",
+        "A todos los bautizados de todas las épocas",
+        "A los miembros de una denominación concreta",
+        "A todos los elegidos, reunidos en Cristo"
       ],
       "answerIndex": 3,
       "references": [
         "Efesios 1:22-23",
         "Hebreos 12:23"
       ],
-      "explanation": "La iglesia universal está formada por el número completo de los elegidos, que son reunidos en uno bajo Cristo, su cabeza.",
+      "explanation": "La iglesia universal la forman todos los elegidos de todas las épocas, unidos bajo Cristo, su cabeza.",
       "tags": [
         "iglesia"
       ],
@@ -1578,10 +1578,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 26, ¿cuáles son los oficios permanentes de la iglesia?",
       "options": [
-        "Papas y cardenales",
-        "Obispos o ancianos, y diáconos",
-        "Profetas y apóstoles",
-        "Reyes y sacerdotes"
+        "Papas, cardenales y arzobispos",
+        "Ancianos (obispos) y diáconos",
+        "Profetas, apóstoles y evangelistas",
+        "Reyes, sacerdotes y levitas"
       ],
       "answerIndex": 1,
       "references": [
@@ -1603,10 +1603,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 27, ¿con quién tienen comunión los santos unidos a Cristo?",
       "options": [
-        "Solo con los de su congregación",
-        "Con Cristo y entre sí, en sus gracias, sufrimientos, muerte, resurrección y gloria",
-        "Solo con los ángeles",
-        "Únicamente con los difuntos"
+        "Solo con los miembros de su propia congregación local",
+        "Con Cristo y entre sí, en su muerte, resurrección y gloria",
+        "Solo con los ángeles que sirven delante de Dios",
+        "Únicamente con los creyentes que ya han muerto"
       ],
       "answerIndex": 1,
       "references": [
@@ -1628,10 +1628,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 27, ¿qué están obligados a hacer los santos unos con otros?",
       "options": [
-        "Compartir sus bienes de manera obligatoria",
-        "Mantener comunión en el culto y servirse mutuamente según sus dones",
-        "Competir entre sí",
-        "Aislarse unos de otros"
+        "Compartir todos sus bienes de manera obligatoria",
+        "Mantener comunión en el culto y servirse unos a otros",
+        "Competir entre sí por los dones espirituales",
+        "Aislarse unos de otros para evitar el pecado"
       ],
       "answerIndex": 1,
       "references": [
@@ -1662,7 +1662,7 @@
         "comunion"
       ],
       "reviewed": false,
-      "confessionRef": "cap. 27, párr. 3"
+      "confessionRef": "cap. 27, párr. 2"
     },
     {
       "id": "confesion1689-confesion-0086",
@@ -1672,10 +1672,10 @@
       "difficulty": 2,
       "question": "Según el capítulo 28, ¿cuántas ordenanzas instituyó el Señor Jesucristo para su iglesia?",
       "options": [
-        "Tres",
-        "Una: el bautismo",
-        "Dos: el bautismo y la Cena del Señor",
-        "Siete"
+        "Tres: bautismo, Cena y confirmación",
+        "Una sola: el bautismo de los creyentes",
+        "Dos: el bautismo de los creyentes y la Cena del Señor",
+        "Siete, como enseña la Iglesia de Roma"
       ],
       "answerIndex": 2,
       "references": [
@@ -1695,13 +1695,13 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según la Confesión, el bautismo y la Cena del Señor deben continuar en la iglesia hasta el fin del mundo.",
-      "answer": true,
+      "question": "Según la Confesión, el bautismo y la Cena del Señor eran solo para la época de los apóstoles y ya no deben practicarse.",
+      "answer": false,
       "references": [
         "Mateo 28:19-20",
         "1 Corintios 11:26"
       ],
-      "explanation": "Ambas ordenanzas han de continuar hasta el fin del mundo.",
+      "explanation": "Ambas ordenanzas han de continuar en la iglesia hasta el fin del mundo.",
       "tags": [
         "ordenanzas"
       ],
@@ -1716,10 +1716,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 28, ¿quiénes deben administrar estas ordenanzas?",
       "options": [
-        "Solo quienes están calificados y llamados para ello",
-        "Solo los líderes de otras ciudades",
-        "Cualquier persona",
-        "Solo los ancianos de más edad"
+        "Solo quienes estén calificados y llamados",
+        "Solo los líderes de otras ciudades o regiones",
+        "Cualquier persona, aunque no sea miembro",
+        "Solo los ancianos de más edad de la iglesia"
       ],
       "answerIndex": 0,
       "references": [
@@ -1741,10 +1741,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 29, ¿qué simboliza el bautismo?",
       "options": [
-        "La ordenación de un ministro",
-        "Solo el ingreso a una nación",
-        "La unión con Cristo en su muerte y resurrección, y la entrega a Dios para andar en vida nueva",
-        "Solo la limpieza física"
+        "La ordenación de un ministro para servir a la iglesia",
+        "Solo el ingreso a una nación o a un pueblo determinado",
+        "La unión con Cristo en su muerte y resurrección",
+        "Solo la limpieza física del cuerpo con agua limpia"
       ],
       "answerIndex": 2,
       "references": [
@@ -1784,10 +1784,10 @@
       "difficulty": 3,
       "question": "Según el capítulo 30, ¿qué rechaza la Confesión sobre la Cena?",
       "options": [
-        "Que el pan y el vino se conviertan en el cuerpo y la sangre de Cristo",
-        "Que se celebre en comunidad",
-        "Que se celebre con pan",
-        "Que se recuerde a Cristo"
+        "Que el pan y el vino se conviertan en Cristo",
+        "Que se celebre en comunidad con toda la iglesia",
+        "Que se celebre con pan y con vino",
+        "Que se recuerde la muerte de Cristo con gratitud"
       ],
       "answerIndex": 0,
       "references": [
@@ -1852,17 +1852,17 @@
       "difficulty": 3,
       "question": "Según el capítulo 31, ¿a dónde van las almas de los justos al morir?",
       "options": [
-        "Al purgatorio",
-        "A la nada",
-        "A un sueño sin conciencia",
-        "Son recibidas en el paraíso, donde están con Cristo"
+        "Al purgatorio, para ser purificadas",
+        "A la nada, pues dejan de existir",
+        "A un sueño sin conciencia hasta la resurrección",
+        "Al paraíso, donde están con Cristo"
       ],
       "answerIndex": 3,
       "references": [
         "Lucas 23:43",
         "Filipenses 1:23"
       ],
-      "explanation": "Las almas de los justos son perfeccionadas en santidad y recibidas en el paraíso, donde esperan la resurrección.",
+      "explanation": "Las almas de los justos son perfeccionadas en santidad y entran al paraíso, a la espera de la resurrección.",
       "tags": [
         "muerte"
       ],
@@ -1877,10 +1877,10 @@
       "difficulty": 4,
       "question": "Según el capítulo 31, ¿con qué cuerpo resucitarán los muertos?",
       "options": [
-        "Con el cuerpo de otra persona",
-        "Sin cuerpo",
-        "Con el mismo cuerpo que tuvieron, aunque con cualidades distintas",
-        "Con un cuerpo totalmente distinto"
+        "Con el cuerpo de otra persona que ya murió",
+        "Sin cuerpo alguno, como espíritus puros",
+        "Con sus mismos cuerpos, de otras cualidades",
+        "Con un cuerpo totalmente distinto del actual"
       ],
       "answerIndex": 2,
       "references": [
@@ -1927,17 +1927,17 @@
       "difficulty": 4,
       "question": "Según el capítulo 32, ¿para qué ha señalado Dios el día del juicio?",
       "options": [
-        "Para probar a los ángeles",
-        "Para manifestar la gloria de su misericordia en la salvación de los elegidos y de su justicia en la condenación de los reprobos",
-        "Solo para castigar",
-        "Para empezar la creación"
+        "Para probar la fe de los ángeles y de los hombres, uno por uno, en su obediencia",
+        "Para mostrar su misericordia en los elegidos y su justicia en los reprobos",
+        "Solo para castigar sin misericordia a todos los pecadores sin distinción alguna",
+        "Para dar comienzo a una nueva creación de todas las cosas en el último día"
       ],
       "answerIndex": 1,
       "references": [
         "Romanos 9:22-23",
         "Mateo 25:31-32"
       ],
-      "explanation": "El fin del juicio es la manifestación de la gloria de la misericordia y de la justicia de Dios.",
+      "explanation": "El juicio final deja ver la misericordia de Dios con los elegidos y su justicia con los reprobos.",
       "tags": [
         "juicio"
       ],
