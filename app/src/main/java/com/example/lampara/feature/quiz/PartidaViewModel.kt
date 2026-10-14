@@ -25,6 +25,7 @@ import com.example.lampara.domain.usecase.SelectorPreguntas
 import com.example.lampara.domain.usecase.SesionJuego
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -58,7 +59,10 @@ sealed interface PartidaUiState {
     ) : PartidaUiState
 
     data class Terminada(
+        /** Con el XP que de verdad entró en la barra. */
         val resumen: ResumenSesion,
+        /** XP que no se sumó porque la barra del nivel ya estaba llena. */
+        val xpPerdido: Int,
         val modo: ModoJuego,
         val aprobado: Boolean?,
         val nivelNuevo: Nivel?,
@@ -92,6 +96,12 @@ class PartidaViewModel @Inject constructor(
     private var orden: List<String> = emptyList()
     private var respuestaDada: Respuesta? = null
     private var terminando = false
+
+    /** Último guardado de una respuesta; los guardados se encadenan para terminar con el XP ya contado. */
+    private var registro: Job? = null
+
+    /** XP ganado que no entró en la barra porque el nivel estaba lleno (espera al examen de ascenso). */
+    private var xpPerdido = 0
 
     /** Día del reto en juego; no cambia aunque la partida cruce la medianoche. */
     private var fechaReto: LocalDate? = null
@@ -191,10 +201,13 @@ class PartidaViewModel @Inject constructor(
         respuestaDada = respuesta
         publicar()
         val fecha = fechaReto
-        viewModelScope.launch {
-            progreso.registrarRespuesta(pregunta.id, resultado.correcta, resultado.xp)
+        val anterior = registro
+        registro = viewModelScope.launch {
+            anterior?.join()
+            val aplicado = progreso.registrarRespuesta(pregunta.id, resultado.correcta, resultado.xp)
+            xpPerdido += resultado.xp - aplicado
             if (modo == ModoJuego.RETO_DIARIO && fecha != null) {
-                retos.registrarRespuesta(resultado.correcta, resultado.xp, fecha)
+                retos.registrarRespuesta(resultado.correcta, aplicado, fecha)
             }
         }
     }
@@ -229,7 +242,10 @@ class PartidaViewModel @Inject constructor(
         terminando = true
         val resumen = s.resumen
         val fecha = fechaReto
+        val pendiente = registro
         viewModelScope.launch {
+            pendiente?.join()
+            val perdido = xpPerdido
             var aprobado: Boolean? = null
             var nivelNuevo: Nivel? = null
             if (modo == ModoJuego.EXAMEN) {
@@ -248,12 +264,13 @@ class PartidaViewModel @Inject constructor(
                     categoria = if (modo == ModoJuego.CATEGORIA) categoria else null,
                     aciertos = resumen.aciertos,
                     total = resumen.total,
-                    xpGanado = resumen.xpGanado,
+                    xpGanado = resumen.xpGanado - perdido,
                     aprobado = aprobado,
                 ),
             )
             _estado.value = PartidaUiState.Terminada(
-                resumen = resumen,
+                resumen = resumen.copy(xpGanado = resumen.xpGanado - perdido),
+                xpPerdido = perdido,
                 modo = modo,
                 aprobado = aprobado,
                 nivelNuevo = nivelNuevo,

@@ -67,8 +67,9 @@ class ProgresoRepository @Inject constructor(
     /**
      * Registra una respuesta al instante (así no se pierde nada si el usuario sale a mitad de partida):
      * actualiza la caja Leitner de la pregunta y suma el XP ganado respetando el tope del nivel.
+     * Devuelve el XP que de verdad entró en la barra (menos que [xp] si el tope lo recortó).
      */
-    suspend fun registrarRespuesta(preguntaId: String, acerto: Boolean, xp: Int) = db.withTransaction {
+    suspend fun registrarRespuesta(preguntaId: String, acerto: Boolean, xp: Int): Int = db.withTransaction {
         val hoy = hoy()
         val previo = progresoDao.obtener(preguntaId)
         val estado = Leitner.responder(previo?.caja, acerto, hoy)
@@ -82,7 +83,14 @@ class ProgresoRepository @Inject constructor(
                 ultimaFechaDia = hoy.toEpochDay(),
             ),
         )
-        if (xp > 0) guardarPerfil(gestor.sumarXp(perfilActual(), xp))
+        if (xp > 0) {
+            val antes = perfilActual()
+            val despues = gestor.sumarXp(antes, xp)
+            guardarPerfil(despues)
+            despues.xp - antes.xp
+        } else {
+            0
+        }
     }
 
     /** Sube de nivel si la barra está llena. Devuelve el perfil resultante. */

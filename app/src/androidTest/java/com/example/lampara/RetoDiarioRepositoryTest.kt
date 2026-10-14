@@ -6,6 +6,7 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.lampara.data.db.LamparaDatabase
 import com.example.lampara.data.repository.RetoDiarioRepository
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Assert.assertEquals
@@ -79,6 +80,57 @@ class RetoDiarioRepositoryTest {
         assertEquals(1, reto.respondidas)
         assertEquals(0, reto.aciertos)
         assertTrue(reto.completado)
+    }
+
+    private fun irAlDia(fecha: LocalDate) {
+        reloj.ahora = fecha.atTime(12, 0).toInstant(ZoneOffset.UTC)
+    }
+
+    private suspend fun completarReto(fecha: LocalDate) {
+        irAlDia(fecha)
+        repo.crearRetoDeHoy(listOf("a"))
+        repo.registrarRespuesta(acerto = true, xp = 5, fecha = fecha)
+        repo.completar(fecha)
+    }
+
+    @Test
+    fun rachaDeVariosDiasConDiaDeGraciaYRupturaPorSegundoSalto() = runBlocking {
+        // Martes 13, miércoles 14 y jueves 15 de octubre de 2026.
+        completarReto(LocalDate.of(2026, 10, 13))
+        assertEquals(1, repo.observarRacha().first().actual)
+        completarReto(LocalDate.of(2026, 10, 14))
+        completarReto(LocalDate.of(2026, 10, 15))
+        assertEquals(3, repo.observarRacha().first().actual)
+
+        // Viernes 16 sin reto: sábado 17 a primera hora la racha sigue viva (día de gracia pendiente).
+        irAlDia(LocalDate.of(2026, 10, 17))
+        val sabado = repo.observarRacha().first()
+        assertEquals(3, sabado.actual)
+        assertFalse(sabado.completadoHoy)
+
+        // Al completar el sábado, el viernes saltado se perdona y la racha crece a 4.
+        completarReto(LocalDate.of(2026, 10, 17))
+        val tras = repo.observarRacha().first()
+        assertEquals(4, tras.actual)
+        assertEquals(4, tras.mejor)
+        assertFalse(tras.graciaDisponibleEstaSemana)
+
+        // Domingo 18 sin reto y lunes 19 completado: el salto cae en la misma semana que el del viernes.
+        // La gracia de esa semana ya estaba gastada: la racha se rompe y vuelve a 1; la mejor se conserva.
+        completarReto(LocalDate.of(2026, 10, 19))
+        val rota = repo.observarRacha().first()
+        assertEquals(1, rota.actual)
+        assertEquals(4, rota.mejor)
+    }
+
+    @Test
+    fun unaRachaSinReto_pasadoDosDiasSePierde() = runBlocking {
+        completarReto(LocalDate.of(2026, 10, 13))
+        completarReto(LocalDate.of(2026, 10, 14))
+        irAlDia(LocalDate.of(2026, 10, 17)) // 15 y 16 sin reto
+        val r = repo.observarRacha().first()
+        assertEquals(0, r.actual)
+        assertEquals(2, r.mejor)
     }
 
     @Test

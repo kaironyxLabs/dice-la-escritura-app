@@ -119,6 +119,8 @@ object EvaluadorMemoria {
     /**
      * Compara lo escrito con las palabras [esperadas] (en orden). Cuenta la subsecuencia común más larga,
      * así olvidar o repetir una palabra no desplaza y penaliza todas las siguientes.
+     * Cada palabra de más sobre las esperadas resta un acierto: en un grado con huecos, copiar el pasaje
+     * completo no cuenta como saberse las palabras que faltaban.
      */
     fun evaluar(esperadas: List<String>, escrito: String): ResultadoMemoria {
         val esperado = esperadas.map(::normalizar).filter { it.isNotEmpty() }
@@ -133,6 +135,7 @@ object EvaluadorMemoria {
             }
             anterior = actual
         }
-        return ResultadoMemoria(aciertos = anterior[dado.size], total = esperado.size)
+        val sobrantes = maxOf(0, dado.size - esperado.size)
+        return ResultadoMemoria(aciertos = maxOf(0, anterior[dado.size] - sobrantes), total = esperado.size)
     }
 }

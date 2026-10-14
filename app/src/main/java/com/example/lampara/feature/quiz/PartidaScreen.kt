@@ -27,6 +27,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalWindowInfo
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -99,6 +101,9 @@ private fun PreguntaEnCurso(
     onComprobarOrden: () -> Unit,
     onSiguiente: () -> Unit,
 ) {
+    // En horizontal (pantalla baja) el botón fijo abajo se comería casi toda la altura: va dentro del desplazable.
+    val altoDp = with(LocalDensity.current) { LocalWindowInfo.current.containerSize.height.toDp() }
+    val pantallaBaja = altoDp < ALTURA_PANTALLA_BAJA_DP.dp
     Column(modifier = Modifier.fillMaxSize()) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(start = 24.dp, end = 8.dp, top = 8.dp),
@@ -139,15 +144,23 @@ private fun PreguntaEnCurso(
                 is Contenido.Ordenar -> Ordenar(estado, contenido, onTocarElemento, onComprobarOrden)
             }
             estado.resultado?.let { Retroalimentacion(estado, it) }
+            if (estado.resultado != null && pantallaBaja) BotonSiguiente(estado, onSiguiente, Modifier)
         }
-        if (estado.resultado != null) {
-            Button(
-                onClick = onSiguiente,
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 12.dp).heightIn(min = 52.dp),
-            ) {
-                Text(stringResource(if (estado.esUltima) R.string.ver_resultado else R.string.siguiente))
-            }
+        if (estado.resultado != null && !pantallaBaja) {
+            BotonSiguiente(estado, onSiguiente, Modifier.padding(horizontal = 24.dp, vertical = 12.dp))
         }
+    }
+}
+
+private const val ALTURA_PANTALLA_BAJA_DP = 480
+
+@Composable
+private fun BotonSiguiente(estado: PartidaUiState.EnCurso, onSiguiente: () -> Unit, modifier: Modifier) {
+    Button(
+        onClick = onSiguiente,
+        modifier = modifier.fillMaxWidth().heightIn(min = 52.dp),
+    ) {
+        Text(stringResource(if (estado.esUltima) R.string.ver_resultado else R.string.siguiente))
     }
 }
 
@@ -327,6 +340,13 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
         )
         if (estado.modo != ModoJuego.EXAMEN) {
             Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
+            if (estado.xpPerdido > 0) {
+                Text(
+                    stringResource(R.string.resultado_xp_tope, estado.xpPerdido),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
         if (estado.modo == ModoJuego.EXAMEN) {
             val nivel = estado.nivelNuevo

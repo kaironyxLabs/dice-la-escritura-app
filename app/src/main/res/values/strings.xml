@@ -185,6 +185,7 @@
         <item quantity="many">%1$d de %2$d respuestas correctas</item>
     </plurals>
     <string name="resultado_xp">XP ganado: %1$d</string>
+    <string name="resultado_xp_tope">La barra del nivel ya estaba llena: otros %1$d XP no se sumaron. Presenta el examen de ascenso para seguir avanzando.</string>
     <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>

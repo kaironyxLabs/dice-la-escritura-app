@@ -156,6 +156,31 @@ class MemorizacionTest {
     }
 
     @Test
+    fun `copiar el pasaje completo no aprueba un grado con huecos`() {
+        // Faltan 2 palabras (b y f) y se escriben las 8: 2 aciertos menos 6 sobrantes.
+        val r = EvaluadorMemoria.evaluar(listOf("b", "f"), "a b c d e f g h")
+        assertEquals(0, r.aciertos)
+        assertFalse(r.aprobado)
+    }
+
+    @Test
+    fun `una palabra de mas se tolera si hay margen y se descuenta si no`() {
+        val veinte = (1..20).map { "p$it" }
+        val conExtra = veinte.joinToString(" ") + " extra"
+        val r = EvaluadorMemoria.evaluar(veinte, conExtra)
+        assertEquals(19, r.aciertos) // 20 en orden menos 1 sobrante
+        assertTrue(r.aprobado) // 95 %
+        assertFalse(EvaluadorMemoria.evaluar(listOf("a", "b"), "a b c").aprobado)
+    }
+
+    @Test
+    fun `escribir exactamente las palabras esperadas sigue dando todos los aciertos`() {
+        val r = EvaluadorMemoria.evaluar(listOf("Porque", "de", "tal"), "porque, de tal")
+        assertEquals(3, r.aciertos)
+        assertTrue(r.aprobado)
+    }
+
+    @Test
     fun `lo escrito vacio o fuera de orden no aprueba`() {
         val esperadas = listOf("uno", "dos", "tres")
         assertEquals(0, EvaluadorMemoria.evaluar(esperadas, "").aciertos)
