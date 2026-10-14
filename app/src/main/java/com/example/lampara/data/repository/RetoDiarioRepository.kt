@@ -42,8 +42,12 @@ class RetoDiarioRepository @Inject constructor(
         retoDeHoy() ?: RetoDiario(hoy(), preguntaIds, 0, 0, 0, false).also { dao.guardar(it.aEntidad()) }
     }
 
-    suspend fun registrarRespuesta(acerto: Boolean, xp: Int) = db.withTransaction {
-        val actual = retoDeHoy() ?: return@withTransaction
+    /**
+     * [fecha] es el día del reto que se está jugando: si la partida cruza la medianoche, las respuestas
+     * y la finalización siguen contando para el reto que se empezó, no para el día nuevo.
+     */
+    suspend fun registrarRespuesta(acerto: Boolean, xp: Int, fecha: LocalDate = hoy()) = db.withTransaction {
+        val actual = dao.obtener(fecha.toEpochDay())?.aDominio() ?: return@withTransaction
         dao.guardar(
             actual.copy(
                 respondidas = actual.respondidas + 1,
@@ -53,8 +57,8 @@ class RetoDiarioRepository @Inject constructor(
         )
     }
 
-    suspend fun completar() = db.withTransaction {
-        val actual = retoDeHoy() ?: return@withTransaction
+    suspend fun completar(fecha: LocalDate = hoy()) = db.withTransaction {
+        val actual = dao.obtener(fecha.toEpochDay())?.aDominio() ?: return@withTransaction
         dao.guardar(actual.copy(completado = true).aEntidad())
     }
 

@@ -31,6 +31,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.time.LocalDate
 import javax.inject.Inject
 
 enum class MotivoSinPreguntas { SIN_PREGUNTAS, EXAMEN_INSUFICIENTE, CATEGORIA_BLOQUEADA, RETO_COMPLETADO }
@@ -91,6 +92,9 @@ class PartidaViewModel @Inject constructor(
     private var orden: List<String> = emptyList()
     private var respuestaDada: Respuesta? = null
     private var terminando = false
+
+    /** Día del reto en juego; no cambia aunque la partida cruce la medianoche. */
+    private var fechaReto: LocalDate? = null
 
     init {
         viewModelScope.launch { iniciar() }
@@ -155,6 +159,7 @@ class PartidaViewModel @Inject constructor(
             }
             retos.crearRetoDeHoy(ids)
         }
+        fechaReto = reto.fecha
         if (reto.completado) {
             _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.RETO_COMPLETADO)
             return
@@ -163,7 +168,7 @@ class PartidaViewModel @Inject constructor(
         val pendientes = reto.preguntaIds.drop(reto.respondidas).mapNotNull { porId[it] }
         if (pendientes.isEmpty()) {
             // Lo que faltaba ya no está disponible (por ejemplo, se apagó un módulo): se da por terminado.
-            retos.completar()
+            retos.completar(reto.fecha)
             _estado.value = PartidaUiState.SinPreguntas(MotivoSinPreguntas.RETO_COMPLETADO)
             return
         }
@@ -185,9 +190,12 @@ class PartidaViewModel @Inject constructor(
         val resultado = s.responder(respuesta)
         respuestaDada = respuesta
         publicar()
+        val fecha = fechaReto
         viewModelScope.launch {
             progreso.registrarRespuesta(pregunta.id, resultado.correcta, resultado.xp)
-            if (modo == ModoJuego.RETO_DIARIO) retos.registrarRespuesta(resultado.correcta, resultado.xp)
+            if (modo == ModoJuego.RETO_DIARIO && fecha != null) {
+                retos.registrarRespuesta(resultado.correcta, resultado.xp, fecha)
+            }
         }
     }
 
@@ -220,6 +228,7 @@ class PartidaViewModel @Inject constructor(
         if (terminando) return
         terminando = true
         val resumen = s.resumen
+        val fecha = fechaReto
         viewModelScope.launch {
             var aprobado: Boolean? = null
             var nivelNuevo: Nivel? = null
@@ -228,7 +237,7 @@ class PartidaViewModel @Inject constructor(
                 aprobado = resultado.aprobado
                 if (resultado.aprobado) nivelNuevo = gestor.nivel(progreso.ascender().nivel)
             }
-            if (modo == ModoJuego.RETO_DIARIO) retos.completar()
+            if (modo == ModoJuego.RETO_DIARIO && fecha != null) retos.completar(fecha)
             progreso.guardarSesion(
                 SesionTerminada(
                     tipo = when (modo) {
