@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-lugares-0005",
@@ -192,7 +192,7 @@
       "category": "lugares",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué ciudad junto al mar de Galilea fue centro del ministerio de Jesús?",
+      "question": "¿En qué ciudad junto al mar de Galilea fue a vivir Jesús al dejar Nazaret?",
       "options": [
         "Betania",
         "Jericó",
@@ -601,6 +601,7 @@
       ],
       "answerIndex": 1,
       "references": [
+        "Hechos 27:41-44",
         "Hechos 28:1"
       ],
       "explanation": "Ya a salvo, supieron que la isla se llamaba Malta.",
@@ -694,6 +695,7 @@
       ],
       "answerIndex": 0,
       "references": [
+        "Hechos 14:8",
         "Hechos 14:19"
       ],
       "explanation": "En Listra apedrearon a Pablo y lo arrastraron fuera de la ciudad, pensando que estaba muerto.",

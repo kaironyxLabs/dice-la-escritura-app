@@ -46,6 +46,7 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 5. Todo contenido nuevo lleva `reviewed: false`. Nunca marcar `true`: lo revisa el usuario.
 6. No inventar datos: si una referencia o hecho es dudoso, se descarta la pregunta.
 7. El texto bíblico solo se corrige desde `fuentes/correcciones.json`, nunca de memoria.
+8. Las fuentes del usuario son la base de todo el contenido: el PDF de la RVR1960 (`fuentes/rvr1960.json`) y el PDF de la Confesión de 1689 (`fuentes/confesion/lbcos.pdf`), ambos ignorados por git. Toda pregunta nueva o modificada se deriva del texto de esas fuentes y, después de escribirla, se lee el pasaje citado para comprobar que lo sostiene. Que la cita exista no basta. No se afirma «verificado» si solo se comprobó eso.
 
 ## Release
 `./gradlew assembleRelease` aplica R8 (reglas en `app/proguard-rules.pro`). El manifiesto no debe declarar INTERNET (`ManifiestoTest` y el CI lo verifican). El keystore y `keystore.properties` nunca van al repositorio.

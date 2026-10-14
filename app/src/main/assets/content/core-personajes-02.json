@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-personajes-0006",
@@ -500,7 +500,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Éxodo 4:14-16"
+        "Éxodo 4:14-16",
+        "Éxodo 7:1-2"
       ],
       "explanation": "Dios dispuso que Aarón fuera la boca de Moisés ante el pueblo y el faraón.",
       "tags": [
@@ -569,6 +570,7 @@
       ],
       "answerIndex": 0,
       "references": [
+        "Rut 1:4",
         "Rut 1:16-19"
       ],
       "explanation": "Rut se quedó con Noemí y dijo que su pueblo y su Dios serían los suyos.",

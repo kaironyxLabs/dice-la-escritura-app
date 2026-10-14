@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "core-ensenanzas-0005",
@@ -770,10 +770,10 @@
       "difficulty": 3,
       "question": "¿Quiénes son los pámpanos en la imagen de la vid que usó Jesús?",
       "options": [
-        "Con los ángeles del cielo",
-        "Con los discípulos que permanecen en él",
-        "Con los sacerdotes del templo",
-        "Con los profetas del pasado"
+        "Los ángeles del cielo",
+        "Los discípulos que permanecen en él",
+        "Los sacerdotes del templo",
+        "Los profetas del pasado"
       ],
       "answerIndex": 1,
       "references": [

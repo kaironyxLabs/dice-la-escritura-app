@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-donde_escrito-0003",
@@ -361,7 +361,8 @@
       ],
       "answerIndex": 0,
       "references": [
-        "1 Corintios 13:1-3"
+        "1 Corintios 13:1-3",
+        "1 Corintios 13:4-7"
       ],
       "explanation": "El capítulo 13 de 1 Corintios habla del amor como el camino más excelente.",
       "tags": [

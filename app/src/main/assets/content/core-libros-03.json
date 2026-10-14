@@ -7,76 +7,6 @@
       "category": "libros",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "¿Cuál es el primer libro de la Biblia?",
-      "options": [
-        "Éxodo",
-        "Salmos",
-        "Mateo",
-        "Génesis"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "Génesis 1:1"
-      ],
-      "explanation": "La Biblia comienza con Génesis, el libro de los orígenes.",
-      "tags": [
-        "orden"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-libros-0054",
-      "module": "core",
-      "category": "libros",
-      "type": "multiple_choice",
-      "difficulty": 1,
-      "question": "¿Cuál es el último libro de la Biblia?",
-      "options": [
-        "Judas",
-        "Hechos",
-        "Apocalipsis",
-        "Malaquías"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Apocalipsis 1:1"
-      ],
-      "explanation": "La Biblia termina con Apocalipsis, la revelación de Jesucristo.",
-      "tags": [
-        "orden"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-libros-0055",
-      "module": "core",
-      "category": "libros",
-      "type": "multiple_choice",
-      "difficulty": 1,
-      "question": "¿Cuántos Evangelios hay en el Nuevo Testamento?",
-      "options": [
-        "Tres",
-        "Cuatro",
-        "Cinco",
-        "Siete"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Mateo 1:1",
-        "Juan 1:1"
-      ],
-      "explanation": "Son cuatro: Mateo, Marcos, Lucas y Juan.",
-      "tags": [
-        "evangelios"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-libros-0056",
-      "module": "core",
-      "category": "libros",
-      "type": "multiple_choice",
-      "difficulty": 1,
       "question": "¿Qué libro reúne canciones y oraciones de alabanza a Dios, como el que habla del Señor como pastor?",
       "options": [
         "Salmos",
@@ -95,7 +25,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0057",
+      "id": "core-libros-0054",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -118,7 +48,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0058",
+      "id": "core-libros-0055",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -142,7 +72,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0059",
+      "id": "core-libros-0056",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -165,7 +95,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0060",
+      "id": "core-libros-0057",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -188,7 +118,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0061",
+      "id": "core-libros-0058",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -211,7 +141,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0062",
+      "id": "core-libros-0059",
       "module": "core",
       "category": "libros",
       "type": "multiple_choice",
@@ -235,7 +165,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0063",
+      "id": "core-libros-0060",
       "module": "core",
       "category": "libros",
       "type": "ordering",
@@ -258,7 +188,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0064",
+      "id": "core-libros-0061",
       "module": "core",
       "category": "libros",
       "type": "ordering",
@@ -281,7 +211,7 @@
       "reviewed": false
     },
     {
-      "id": "core-libros-0065",
+      "id": "core-libros-0062",
       "module": "core",
       "category": "libros",
       "type": "ordering",

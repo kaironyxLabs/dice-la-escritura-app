@@ -7,30 +7,6 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "¿En cuántos días creó Dios los cielos y la tierra antes de descansar?",
-      "options": [
-        "Tres",
-        "Seis",
-        "Siete",
-        "Cuarenta"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Génesis 1:31",
-        "Génesis 2:2"
-      ],
-      "explanation": "Dios trabajó seis días y descansó el séptimo.",
-      "tags": [
-        "creacion"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-historia-0062",
-      "module": "core",
-      "category": "historia",
-      "type": "multiple_choice",
-      "difficulty": 1,
       "question": "¿Qué animal habló con Eva en el huerto de Edén?",
       "options": [
         "La serpiente",
@@ -49,30 +25,7 @@
       "reviewed": false
     },
     {
-      "id": "core-historia-0063",
-      "module": "core",
-      "category": "historia",
-      "type": "multiple_choice",
-      "difficulty": 1,
-      "question": "¿Quién construyó un arca por mandato de Dios antes del diluvio?",
-      "options": [
-        "Moisés",
-        "Abraham",
-        "Jonás",
-        "Noé"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "Génesis 6:13-14"
-      ],
-      "explanation": "Dios encargó a Noé la construcción del arca para salvar a su familia y a los animales.",
-      "tags": [
-        "diluvio"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-historia-0064",
+      "id": "core-historia-0062",
       "module": "core",
       "category": "historia",
       "type": "multiple_choice",
@@ -95,31 +48,7 @@
       "reviewed": false
     },
     {
-      "id": "core-historia-0065",
-      "module": "core",
-      "category": "historia",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué rey de Judá recibió como señal de su sanidad que la sombra del reloj retrocediera diez grados?",
-      "options": [
-        "Josías",
-        "Uzías",
-        "Ezequías",
-        "Joás"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "2 Reyes 20:8-11",
-        "Isaías 38:8"
-      ],
-      "explanation": "Dios dio a Ezequías esa señal cuando se recuperó de su enfermedad.",
-      "tags": [
-        "reyes"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-historia-0066",
+      "id": "core-historia-0063",
       "module": "core",
       "category": "historia",
       "type": "multiple_choice",
@@ -143,7 +72,7 @@
       "reviewed": false
     },
     {
-      "id": "core-historia-0067",
+      "id": "core-historia-0064",
       "module": "core",
       "category": "historia",
       "type": "multiple_choice",
@@ -166,30 +95,7 @@
       "reviewed": false
     },
     {
-      "id": "core-historia-0068",
-      "module": "core",
-      "category": "historia",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué rey persa permitió a los judíos volver a Jerusalén para reconstruir el templo?",
-      "options": [
-        "Darío el medo",
-        "Nabucodonosor",
-        "Belsasar",
-        "Ciro"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "Esdras 1:1-3"
-      ],
-      "explanation": "Ciro proclamó un decreto que autorizaba el regreso y la reconstrucción de la casa del Señor.",
-      "tags": [
-        "exilio"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-historia-0069",
+      "id": "core-historia-0065",
       "module": "core",
       "category": "historia",
       "type": "multiple_choice",
@@ -212,7 +118,7 @@
       "reviewed": false
     },
     {
-      "id": "core-historia-0070",
+      "id": "core-historia-0066",
       "module": "core",
       "category": "historia",
       "type": "multiple_choice",
@@ -232,29 +138,6 @@
       "explanation": "Senaquerib volvió a Nínive después de que el ángel de Jehová hirió su campamento.",
       "tags": [
         "reyes"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-historia-0071",
-      "module": "core",
-      "category": "historia",
-      "type": "multiple_choice",
-      "difficulty": 5,
-      "question": "¿En qué año vio Isaías al Señor sentado en un trono alto y sublime?",
-      "options": [
-        "En el año que murió el rey Uzías",
-        "En el año en que Ezequías enfermó",
-        "En el año de la caída de Samaria",
-        "En el año en que nació Manasés"
-      ],
-      "answerIndex": 0,
-      "references": [
-        "Isaías 6:1"
-      ],
-      "explanation": "Isaías cuenta que su visión en el templo ocurrió el año de la muerte de Uzías.",
-      "tags": [
-        "profetas"
       ],
       "reviewed": false
     }

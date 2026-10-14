@@ -7,76 +7,6 @@
       "category": "lugares",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "¿Qué ciudad edificó el rey Omri en el monte que compró a Semer?",
-      "options": [
-        "Betel",
-        "Siquem",
-        "Jezreel",
-        "Samaria"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "1 Reyes 16:23-24"
-      ],
-      "explanation": "Omri le puso a la ciudad el nombre de Samaria, por el nombre de Semer, dueño del monte.",
-      "tags": [
-        "reinos"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-lugares-0036",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué ciudad se llamó cristianos por primera vez a los discípulos?",
-      "options": [
-        "Jerusalén",
-        "Éfeso",
-        "Antioquía",
-        "Corinto"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Hechos 11:26"
-      ],
-      "explanation": "En Antioquía los discípulos fueron llamados cristianos por primera vez.",
-      "tags": [
-        "hechos"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-lugares-0037",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué ciudad habló Pablo en medio del Areópago a los atenienses?",
-      "options": [
-        "Roma",
-        "Atenas",
-        "Filipos",
-        "Tesalónica"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Hechos 17:16",
-        "Hechos 17:19-22"
-      ],
-      "explanation": "Pablo habló del Dios no conocido a los atenienses en el Areópago.",
-      "tags": [
-        "hechos"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-lugares-0038",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
       "question": "¿Cuál de las siete iglesias de Asia se menciona primero en el libro de Apocalipsis?",
       "options": [
         "Éfeso",
@@ -96,7 +26,7 @@
       "reviewed": false
     },
     {
-      "id": "core-lugares-0039",
+      "id": "core-lugares-0036",
       "module": "core",
       "category": "lugares",
       "type": "multiple_choice",
@@ -120,7 +50,7 @@
       "reviewed": false
     },
     {
-      "id": "core-lugares-0040",
+      "id": "core-lugares-0037",
       "module": "core",
       "category": "lugares",
       "type": "multiple_choice",

@@ -7,29 +7,6 @@
       "category": "ensenanzas",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "En la parábola de los obreros de la viña, ¿cuánto pagó el dueño a cada jornalero?",
-      "options": [
-        "Dos denarios",
-        "Un denario",
-        "Un talento",
-        "Una moneda de plata"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Mateo 20:9-10"
-      ],
-      "explanation": "Todos recibieron un denario, aunque habían trabajado distinto número de horas.",
-      "tags": [
-        "parabolas"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-ensenanzas-0051",
-      "module": "core",
-      "category": "ensenanzas",
-      "type": "multiple_choice",
-      "difficulty": 4,
       "question": "En la parábola del buen samaritano, ¿cuántos denarios dejó el samaritano al mesonero para el cuidado del herido?",
       "options": [
         "Dos",
@@ -48,7 +25,7 @@
       "reviewed": false
     },
     {
-      "id": "core-ensenanzas-0052",
+      "id": "core-ensenanzas-0051",
       "module": "core",
       "category": "ensenanzas",
       "type": "multiple_choice",
@@ -71,7 +48,7 @@
       "reviewed": false
     },
     {
-      "id": "core-ensenanzas-0053",
+      "id": "core-ensenanzas-0052",
       "module": "core",
       "category": "ensenanzas",
       "type": "multiple_choice",
@@ -94,7 +71,7 @@
       "reviewed": false
     },
     {
-      "id": "core-ensenanzas-0054",
+      "id": "core-ensenanzas-0053",
       "module": "core",
       "category": "ensenanzas",
       "type": "multiple_choice",
@@ -117,7 +94,7 @@
       "reviewed": false
     },
     {
-      "id": "core-ensenanzas-0055",
+      "id": "core-ensenanzas-0054",
       "module": "core",
       "category": "ensenanzas",
       "type": "multiple_choice",
@@ -136,29 +113,6 @@
       "explanation": "A uno dio cinco talentos, a otro dos y a otro uno, a cada uno según su capacidad.",
       "tags": [
         "parabolas"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-ensenanzas-0056",
-      "module": "core",
-      "category": "ensenanzas",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "Cuando Pedro preguntó cuántas veces debía perdonar a su hermano, ¿qué respondió Jesús?",
-      "options": [
-        "Hasta siete veces, como enseñaban los maestros",
-        "Hasta tres veces, como dice la ley",
-        "Solo una vez, y después no más",
-        "Hasta setenta veces siete"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "Mateo 18:21-22"
-      ],
-      "explanation": "Jesús enseñó a perdonar sin llevar la cuenta.",
-      "tags": [
-        "perdon"
       ],
       "reviewed": false
     }

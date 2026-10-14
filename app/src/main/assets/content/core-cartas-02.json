@@ -1,5 +1,5 @@
 {
-  "contentVersion": 5,
+  "contentVersion": 6,
   "questions": [
     {
       "id": "core-cartas-0004",
@@ -180,7 +180,8 @@
       ],
       "answerIndex": 1,
       "references": [
-        "Hebreos 11:1"
+        "Hebreos 11:1",
+        "Hebreos 11:4"
       ],
       "explanation": "Hebreos 11 recuerda a muchos que vivieron por fe.",
       "tags": [
@@ -727,7 +728,7 @@
       ],
       "answerIndex": 3,
       "references": [
-        "Filipenses 2:5-8"
+        "Filipenses 2:5-9"
       ],
       "explanation": "Pablo presenta el ejemplo de humildad de Cristo.",
       "tags": [

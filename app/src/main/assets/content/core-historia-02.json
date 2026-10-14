@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "core-historia-0007",
@@ -964,7 +964,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué ciudad edificó el rey Omri como capital del reino del norte, Israel?",
+      "question": "¿Qué ciudad edificó el rey Omri en el monte que compró a Semer?",
       "options": [
         "Betel",
         "Hebrón",
@@ -1042,7 +1042,8 @@
       ],
       "answerIndex": 0,
       "references": [
-        "1 Reyes 16:31"
+        "1 Reyes 16:31",
+        "1 Reyes 18:19"
       ],
       "explanation": "Acab se casó con Jezabel, hija del rey de los sidonios, y sirvió a Baal.",
       "tags": [

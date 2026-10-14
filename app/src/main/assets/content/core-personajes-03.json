@@ -7,77 +7,6 @@
       "category": "personajes",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "¿Quién fue el primer hombre creado por Dios?",
-      "options": [
-        "Abel",
-        "Noé",
-        "Adán",
-        "Set"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Génesis 2:7",
-        "Génesis 5:1"
-      ],
-      "explanation": "Dios formó a Adán del polvo de la tierra e infundió en él aliento de vida.",
-      "tags": [
-        "creacion"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0069",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 1,
-      "question": "¿Quién fue la esposa de Abraham y madre de Isaac?",
-      "options": [
-        "Rebeca",
-        "Sara",
-        "Raquel",
-        "Lea"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Génesis 17:15-16",
-        "Génesis 17:19"
-      ],
-      "explanation": "Sara fue la esposa de Abraham y recibió la promesa de ser madre de naciones.",
-      "tags": [
-        "patriarcas"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0070",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 1,
-      "question": "¿Qué discípulo entregó a Jesús a los principales sacerdotes por treinta piezas de plata?",
-      "options": [
-        "Judas Iscariote",
-        "Tomás",
-        "Santiago",
-        "Felipe"
-      ],
-      "answerIndex": 0,
-      "references": [
-        "Mateo 26:14-16"
-      ],
-      "explanation": "Judas Iscariote acordó entregar a Jesús a cambio de dinero.",
-      "tags": [
-        "discipulos"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0071",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 1,
       "question": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
       "options": [
         "Juan",
@@ -96,30 +25,7 @@
       "reviewed": false
     },
     {
-      "id": "core-personajes-0072",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué profetisa fue jueza de Israel y acompañó a Barac a la batalla contra Sísara?",
-      "options": [
-        "Miriam",
-        "Hulda",
-        "Ana",
-        "Débora"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "Jueces 4:4-9"
-      ],
-      "explanation": "Débora juzgaba a Israel y animó a Barac a salir contra el ejército cananeo.",
-      "tags": [
-        "jueces"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0073",
+      "id": "core-personajes-0069",
       "module": "core",
       "category": "personajes",
       "type": "multiple_choice",
@@ -142,7 +48,7 @@
       "reviewed": false
     },
     {
-      "id": "core-personajes-0074",
+      "id": "core-personajes-0070",
       "module": "core",
       "category": "personajes",
       "type": "multiple_choice",
@@ -165,7 +71,7 @@
       "reviewed": false
     },
     {
-      "id": "core-personajes-0075",
+      "id": "core-personajes-0071",
       "module": "core",
       "category": "personajes",
       "type": "multiple_choice",
@@ -188,54 +94,7 @@
       "reviewed": false
     },
     {
-      "id": "core-personajes-0076",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué profeta reprendió al rey David por su pecado con Betsabé?",
-      "options": [
-        "Gad",
-        "Samuel",
-        "Elías",
-        "Natán"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "2 Samuel 11:3",
-        "2 Samuel 12:1-7"
-      ],
-      "explanation": "Natán lo confrontó con una parábola y le dijo: tú eres ese hombre.",
-      "tags": [
-        "profetas"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0077",
-      "module": "core",
-      "category": "personajes",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué matrimonio de fabricantes de tiendas recibió a Pablo en Corinto?",
-      "options": [
-        "Ananías y Safira",
-        "Zacarías y Elisabet",
-        "Aquila y Priscila",
-        "Andrónico y Junias"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Hechos 18:1-3"
-      ],
-      "explanation": "Aquila y Priscila compartieron con Pablo el oficio y el hogar en Corinto.",
-      "tags": [
-        "apostoles"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "core-personajes-0078",
+      "id": "core-personajes-0072",
       "module": "core",
       "category": "personajes",
       "type": "multiple_choice",
@@ -258,7 +117,7 @@
       "reviewed": false
     },
     {
-      "id": "core-personajes-0079",
+      "id": "core-personajes-0073",
       "module": "core",
       "category": "personajes",
       "type": "multiple_choice",
