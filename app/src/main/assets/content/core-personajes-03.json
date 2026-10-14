@@ -1,0 +1,281 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-personajes-0068",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue el primer hombre creado por Dios?",
+      "options": [
+        "Abel",
+        "Noé",
+        "Adán",
+        "Set"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 2:7"
+      ],
+      "explanation": "Dios formó a Adán del polvo de la tierra e infundió en él aliento de vida.",
+      "tags": [
+        "creacion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0069",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Quién fue la esposa de Abraham y madre de Isaac?",
+      "options": [
+        "Rebeca",
+        "Sara",
+        "Raquel",
+        "Lea"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 17:15-16"
+      ],
+      "explanation": "Sara fue la esposa de Abraham y recibió la promesa de ser madre de naciones.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0070",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué discípulo entregó a Jesús a los principales sacerdotes por treinta piezas de plata?",
+      "options": [
+        "Judas Iscariote",
+        "Tomás",
+        "Santiago",
+        "Felipe"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 26:14-16"
+      ],
+      "explanation": "Judas Iscariote acordó entregar a Jesús a cambio de dinero.",
+      "tags": [
+        "discipulos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0071",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Juan",
+        "Andrés",
+        "Mateo",
+        "Pedro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 14:28-29"
+      ],
+      "explanation": "Pedro salió de la barca y caminó hacia Jesús hasta que miró el viento y comenzó a hundirse.",
+      "tags": [
+        "discipulos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0072",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué profetisa fue jueza de Israel y acompañó a Barac a la batalla contra Sísara?",
+      "options": [
+        "Miriam",
+        "Hulda",
+        "Ana",
+        "Débora"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jueces 4:4-9"
+      ],
+      "explanation": "Débora juzgaba a Israel y animó a Barac a salir contra el ejército cananeo.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0073",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba el padre de Josué, sucesor de Moisés?",
+      "options": [
+        "Caleb",
+        "Jefone",
+        "Nun",
+        "Amram"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Josué 1:1"
+      ],
+      "explanation": "Josué es presentado como hijo de Nun, ayudante de Moisés.",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0074",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién fue el rey de Salem y sacerdote del Dios Altísimo que bendijo a Abram?",
+      "options": [
+        "Lot",
+        "Melquisedec",
+        "Abimelec",
+        "Eliezer"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 14:18-19"
+      ],
+      "explanation": "Melquisedec salió al encuentro de Abram con pan y vino y lo bendijo.",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0075",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba el siervo de Eliseo que codició los regalos de Naamán?",
+      "options": [
+        "Giezi",
+        "Abisai",
+        "Obadías",
+        "Joab"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 5:20"
+      ],
+      "explanation": "Giezi corrió tras Naamán para pedirle lo que Eliseo había rechazado.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0076",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué profeta reprendió al rey David por su pecado con Betsabé?",
+      "options": [
+        "Gad",
+        "Samuel",
+        "Elías",
+        "Natán"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Samuel 12:1-7"
+      ],
+      "explanation": "Natán lo confrontó con una parábola y le dijo: tú eres ese hombre.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0077",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué matrimonio de fabricantes de tiendas recibió a Pablo en Corinto?",
+      "options": [
+        "Ananías y Safira",
+        "Zacarías y Elisabet",
+        "Aquila y Priscila",
+        "Andrónico y Junias"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 18:1-3"
+      ],
+      "explanation": "Aquila y Priscila compartieron con Pablo el oficio y el hogar en Corinto.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0078",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién fue elegido para ocupar el lugar de Judas entre los doce apóstoles?",
+      "options": [
+        "Bernabé",
+        "Matías",
+        "Silas",
+        "Timoteo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 1:23-26"
+      ],
+      "explanation": "Echaron suertes y la elección recayó en Matías.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0079",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué discípula de Jope, conocida por sus buenas obras, fue resucitada por medio de Pedro?",
+      "options": [
+        "Tabita, llamada Dorcas",
+        "Lidia",
+        "Febe",
+        "Rode"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 9:36-41"
+      ],
+      "explanation": "Pedro oró y Tabita abrió los ojos y se incorporó.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": false
+    }
+  ]
+}

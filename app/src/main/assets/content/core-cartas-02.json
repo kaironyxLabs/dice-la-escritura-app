@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "core-cartas-0004",
@@ -10,9 +10,9 @@
       "question": "¿Qué carta afirma que todos pecaron y están destituidos de la gloria de Dios?",
       "options": [
         "Romanos",
-        "Judas",
-        "Filemón",
-        "Tito"
+        "Filipenses",
+        "Colosenses",
+        "1 Tesalonicenses"
       ],
       "answerIndex": 0,
       "references": [
@@ -32,10 +32,10 @@
       "difficulty": 1,
       "question": "¿En qué carta se afirma que somos salvos por gracia mediante la fe?",
       "options": [
-        "2 Juan",
+        "Colosenses",
         "Efesios",
-        "Santiago",
-        "Judas"
+        "1 Corintios",
+        "Filipenses"
       ],
       "answerIndex": 1,
       "references": [
@@ -57,9 +57,9 @@
       "question": "¿Qué carta declara que Dios es amor?",
       "options": [
         "1 Juan",
-        "2 Pedro",
-        "Gálatas",
-        "Hebreos"
+        "1 Pedro",
+        "Hebreos",
+        "Gálatas"
       ],
       "answerIndex": 0,
       "references": [
@@ -80,9 +80,9 @@
       "difficulty": 2,
       "question": "¿Qué carta describe la armadura de Dios?",
       "options": [
-        "Tito",
         "Colosenses",
         "Gálatas",
+        "Filipenses",
         "Efesios"
       ],
       "answerIndex": 3,
@@ -103,10 +103,10 @@
       "difficulty": 2,
       "question": "¿Qué carta enumera el fruto del Espíritu?",
       "options": [
-        "Hebreos",
+        "Efesios",
         "Gálatas",
         "Romanos",
-        "Efesios"
+        "Colosenses"
       ],
       "answerIndex": 1,
       "references": [
@@ -126,10 +126,10 @@
       "difficulty": 2,
       "question": "¿Qué carta afirma que no hay ninguna condenación para los que están en Cristo Jesús?",
       "options": [
-        "Filemón",
+        "Gálatas",
         "1 Pedro",
         "Romanos",
-        "Santiago"
+        "Efesios"
       ],
       "answerIndex": 2,
       "references": [
@@ -173,10 +173,10 @@
       "difficulty": 2,
       "question": "¿Qué carta contiene la lista de los héroes de la fe?",
       "options": [
-        "Judas",
-        "Hebreos",
         "Romanos",
-        "1 Timoteo"
+        "Hebreos",
+        "1 Corintios",
+        "Santiago"
       ],
       "answerIndex": 1,
       "references": [
@@ -196,10 +196,10 @@
       "difficulty": 2,
       "question": "¿Qué carta enseña sobre los dones espirituales y el cuerpo con muchos miembros?",
       "options": [
-        "Tito",
+        "Gálatas",
         "1 Corintios",
         "Filipenses",
-        "3 Juan"
+        "Colosenses"
       ],
       "answerIndex": 1,
       "references": [
@@ -219,10 +219,10 @@
       "difficulty": 2,
       "question": "¿Qué carta dice que si alguno está en Cristo, nueva criatura es?",
       "options": [
-        "Judas",
-        "Hebreos",
+        "Filipenses",
+        "Colosenses",
         "2 Corintios",
-        "Tito"
+        "1 Tesalonicenses"
       ],
       "answerIndex": 2,
       "references": [
@@ -240,12 +240,12 @@
       "category": "cartas",
       "type": "true_false",
       "difficulty": 2,
-      "question": "La carta a los Hebreos presenta a Jesús como sumo sacerdote.",
-      "answer": true,
+      "question": "La carta a los Hebreos afirma que Jesús, como sumo sacerdote, no puede compadecerse de nuestras debilidades.",
+      "answer": false,
       "references": [
-        "Hebreos 4:14"
+        "Hebreos 4:14-15"
       ],
-      "explanation": "Hebreos enseña que tenemos un gran sumo sacerdote, Jesús, el Hijo de Dios.",
+      "explanation": "Hebreos enseña que Jesús, nuestro gran sumo sacerdote, sí se compadece de nuestras debilidades.",
       "tags": [
         "generales"
       ],
@@ -259,10 +259,10 @@
       "difficulty": 3,
       "question": "¿Qué carta animó con gozo a los creyentes aunque su autor estaba preso?",
       "options": [
-        "Tito",
+        "1 Corintios",
         "Filipenses",
-        "Santiago",
-        "Gálatas"
+        "Gálatas",
+        "1 Tesalonicenses"
       ],
       "answerIndex": 1,
       "references": [
@@ -309,7 +309,7 @@
         "1 Pedro",
         "Hebreos",
         "Santiago",
-        "Judas"
+        "Efesios"
       ],
       "answerIndex": 2,
       "references": [
@@ -329,9 +329,9 @@
       "difficulty": 3,
       "question": "¿Qué carta habla del regreso del Señor con voz de arcángel y trompeta de Dios?",
       "options": [
-        "Filemón",
+        "Colosenses",
         "1 Tesalonicenses",
-        "Tito",
+        "Filipenses",
         "Gálatas"
       ],
       "answerIndex": 1,
@@ -353,9 +353,9 @@
       "question": "¿En qué carta se describen los requisitos de los obispos y de los diáconos?",
       "options": [
         "1 Timoteo",
-        "2 Juan",
-        "Judas",
-        "Filemón"
+        "2 Timoteo",
+        "Efesios",
+        "Colosenses"
       ],
       "answerIndex": 0,
       "references": [
@@ -375,9 +375,9 @@
       "difficulty": 3,
       "question": "¿Qué carta contiene la despedida de Pablo, quien dice haber acabado la carrera?",
       "options": [
-        "Filemón",
+        "Filipenses",
         "1 Tesalonicenses",
-        "Tito",
+        "Colosenses",
         "2 Timoteo"
       ],
       "answerIndex": 3,
@@ -401,7 +401,7 @@
         "Colosenses",
         "Romanos",
         "1 Pedro",
-        "Santiago"
+        "Efesios"
       ],
       "answerIndex": 1,
       "references": [
@@ -421,8 +421,8 @@
       "difficulty": 3,
       "question": "¿Qué carta habla de Cristo resucitado como primicias de los que durmieron?",
       "options": [
-        "Filemón",
-        "Santiago",
+        "Colosenses",
+        "Filipenses",
         "Efesios",
         "1 Corintios"
       ],
@@ -468,8 +468,8 @@
       "question": "¿Qué carta dice que Dios ama al dador alegre?",
       "options": [
         "Gálatas",
-        "Tito",
-        "Judas",
+        "Romanos",
+        "Filipenses",
         "2 Corintios"
       ],
       "answerIndex": 3,
@@ -491,9 +491,9 @@
       "question": "¿Qué carta contiene la frase de estar juntamente crucificado con Cristo, de modo que ya no vivo yo?",
       "options": [
         "Gálatas",
-        "Tito",
-        "3 Juan",
-        "Filemón"
+        "Efesios",
+        "Filipenses",
+        "1 Tesalonicenses"
       ],
       "answerIndex": 0,
       "references": [
@@ -585,7 +585,7 @@
         "Santiago",
         "Judas",
         "2 Pedro",
-        "Tito"
+        "1 Juan"
       ],
       "answerIndex": 1,
       "references": [
@@ -606,7 +606,7 @@
       "question": "¿Qué carta dice que ya no hay judío ni griego, esclavo ni libre, varón ni mujer, porque todos son uno en Cristo?",
       "options": [
         "Gálatas",
-        "Filemón",
+        "Filipenses",
         "Hebreos",
         "Santiago"
       ],
@@ -630,8 +630,8 @@
       "options": [
         "Colosenses",
         "Gálatas",
-        "Tito",
-        "Judas"
+        "Filipenses",
+        "1 Timoteo"
       ],
       "answerIndex": 0,
       "references": [
@@ -651,9 +651,9 @@
       "difficulty": 4,
       "question": "¿Qué carta dice que el amor al dinero es la raíz de todos los males?",
       "options": [
-        "Filemón",
+        "Filipenses",
         "1 Timoteo",
-        "Tito",
+        "2 Timoteo",
         "Santiago"
       ],
       "answerIndex": 1,
@@ -674,7 +674,7 @@
       "difficulty": 4,
       "question": "¿Qué carta exhorta a estar siempre preparados para presentar defensa de la esperanza que hay en nosotros?",
       "options": [
-        "Judas",
+        "Efesios",
         "Santiago",
         "Hebreos",
         "1 Pedro"
@@ -698,9 +698,9 @@
       "question": "¿En qué carta se encarga a su destinatario establecer ancianos en cada ciudad de Creta?",
       "options": [
         "Tito",
-        "Filemón",
+        "1 Timoteo",
         "2 Timoteo",
-        "Judas"
+        "Efesios"
       ],
       "answerIndex": 0,
       "references": [
@@ -721,8 +721,8 @@
       "question": "¿Qué carta habla de Cristo, que se humilló hasta la muerte de cruz y fue exaltado por Dios?",
       "options": [
         "Gálatas",
-        "Tito",
-        "Judas",
+        "Romanos",
+        "Colosenses",
         "Filipenses"
       ],
       "answerIndex": 3,
@@ -743,10 +743,10 @@
       "difficulty": 4,
       "question": "¿Qué carta pide someterse a las autoridades superiores porque no hay autoridad sino de parte de Dios?",
       "options": [
-        "1 Juan",
+        "Gálatas",
         "Romanos",
         "Santiago",
-        "Filemón"
+        "Colosenses"
       ],
       "answerIndex": 1,
       "references": [
@@ -766,8 +766,8 @@
       "difficulty": 4,
       "question": "¿Qué carta explica cómo debe celebrarse la Cena del Señor y advierte contra participar indignamente?",
       "options": [
-        "Tito",
-        "Judas",
+        "Gálatas",
+        "Colosenses",
         "1 Corintios",
         "Hebreos"
       ],

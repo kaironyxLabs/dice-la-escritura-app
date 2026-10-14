@@ -1,0 +1,143 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-donde_escrito-0034",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Además de Éxodo, ¿en qué libro se repiten los diez mandamientos?",
+      "options": [
+        "Levítico",
+        "Números",
+        "Josué",
+        "Deuteronomio"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Deuteronomio 5:6-21"
+      ],
+      "explanation": "Moisés vuelve a recitarlos al pueblo antes de entrar en la tierra prometida.",
+      "tags": [
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0035",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro habla una asna a su dueño, que era el profeta Balaam?",
+      "options": [
+        "Génesis",
+        "Jueces",
+        "Números",
+        "1 Reyes"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Números 22:28"
+      ],
+      "explanation": "El Señor abrió la boca del asna de Balaam para que lo reprendiera.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0036",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué libro aparece la oración de Jabes pidiendo que Dios ensanchara su territorio?",
+      "options": [
+        "Génesis",
+        "1 Crónicas",
+        "Jueces",
+        "Nehemías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Crónicas 4:9-10"
+      ],
+      "explanation": "Entre las genealogías de Crónicas se recuerda la petición de Jabes y que Dios se la concedió.",
+      "tags": [
+        "oracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0037",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué libro se habla de las setenta semanas decretadas sobre el pueblo de Daniel?",
+      "options": [
+        "Daniel",
+        "Ezequiel",
+        "Zacarías",
+        "Isaías"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 9:24"
+      ],
+      "explanation": "Gabriel explica a Daniel el plan de Dios para su pueblo y la santa ciudad.",
+      "tags": [
+        "profecia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0038",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se relata la muerte de Ananías y Safira por mentir al Espíritu Santo?",
+      "options": [
+        "Romanos",
+        "Lucas",
+        "Gálatas",
+        "Hechos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 5:1-10"
+      ],
+      "explanation": "Ananías y Safira ocultaron parte del precio de una propiedad y mintieron sobre ello.",
+      "tags": [
+        "iglesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0039",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro dice el Señor que sus pensamientos hacia su pueblo son de paz y no de mal?",
+      "options": [
+        "Isaías",
+        "Lamentaciones",
+        "Jeremías",
+        "Ezequiel"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jeremías 29:11"
+      ],
+      "explanation": "En su carta a los desterrados, Jeremías transmite la promesa de un futuro y una esperanza.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    }
+  ]
+}

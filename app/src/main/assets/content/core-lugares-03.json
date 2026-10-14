@@ -1,0 +1,143 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-lugares-0035",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué ciudad fue la capital del reino del norte, Israel, desde los días de Omri?",
+      "options": [
+        "Betel",
+        "Siquem",
+        "Jezreel",
+        "Samaria"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Reyes 16:23-24"
+      ],
+      "explanation": "Omri compró el monte de Samaria y edificó allí la ciudad que sería capital.",
+      "tags": [
+        "reinos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0036",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué ciudad se llamó cristianos por primera vez a los discípulos?",
+      "options": [
+        "Jerusalén",
+        "Éfeso",
+        "Antioquía",
+        "Corinto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 11:26"
+      ],
+      "explanation": "En Antioquía los discípulos fueron llamados cristianos por primera vez.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0037",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué ciudad predicó Pablo ante los filósofos del Areópago?",
+      "options": [
+        "Roma",
+        "Atenas",
+        "Filipos",
+        "Tesalónica"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 17:19-22"
+      ],
+      "explanation": "Pablo habló del Dios no conocido a los atenienses en el Areópago.",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0038",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál de las siete iglesias de Asia se menciona primero en el libro de Apocalipsis?",
+      "options": [
+        "Éfeso",
+        "Esmirna",
+        "Pérgamo",
+        "Laodicea"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Apocalipsis 2:1"
+      ],
+      "explanation": "La primera carta de las siete va dirigida al ángel de la iglesia en Éfeso.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0039",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba el valle donde David se enfrentó a Goliat?",
+      "options": [
+        "Valle de Hinom",
+        "Valle de Josafat",
+        "Valle de Acor",
+        "Valle de Ela"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 17:2"
+      ],
+      "explanation": "Los ejércitos de Israel y de los filisteos se alinearon frente a frente en el valle de Ela.",
+      "tags": [
+        "reyes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0040",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué estanque de Jerusalén, con cinco pórticos, estaba junto a la puerta de las ovejas, donde Jesús sanó a un hombre enfermo desde hacía treinta y ocho años?",
+      "options": [
+        "Siloé",
+        "Gihón",
+        "Betesda",
+        "Hebrón"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 5:2-9"
+      ],
+      "explanation": "Junto al estanque de Betesda, Jesús ordenó al paralítico que se levantara y caminara.",
+      "tags": [
+        "milagros"
+      ],
+      "reviewed": false
+    }
+  ]
+}

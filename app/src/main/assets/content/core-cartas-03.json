@@ -1,0 +1,166 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-cartas-0039",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué carta llama al amor el vínculo perfecto?",
+      "options": [
+        "Efesios",
+        "Filipenses",
+        "Colosenses",
+        "1 Tesalonicenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Colosenses 3:14"
+      ],
+      "explanation": "Pablo pide a los colosenses vestirse de amor, que une todo en perfecta armonía.",
+      "tags": [
+        "amor"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0040",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué carta se afirma que la fe viene por el oír, y el oír por la palabra de Dios?",
+      "options": [
+        "Gálatas",
+        "Romanos",
+        "Efesios",
+        "Hebreos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 10:17"
+      ],
+      "explanation": "Pablo explica que la fe nace al escuchar el mensaje de Cristo.",
+      "tags": [
+        "fe"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0041",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué carta compara a quien vuelve a sus antiguos caminos con un perro que vuelve a su vómito?",
+      "options": [
+        "2 Pedro",
+        "1 Pedro",
+        "Judas",
+        "Santiago"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Pedro 2:20-22"
+      ],
+      "explanation": "Pedro advierte contra regresar a la corrupción después de conocer el camino de la justicia.",
+      "tags": [
+        "advertencias"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0042",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta llama a los creyentes linaje escogido, real sacerdocio y nación santa?",
+      "options": [
+        "Hebreos",
+        "Romanos",
+        "Efesios",
+        "1 Pedro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Pedro 2:9"
+      ],
+      "explanation": "Pedro recuerda a los creyentes su identidad como pueblo de Dios.",
+      "tags": [
+        "iglesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0043",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué carta termina exhortando a los hijitos a guardarse de los ídolos?",
+      "options": [
+        "2 Juan",
+        "Judas",
+        "1 Juan",
+        "1 Tesalonicenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Juan 5:21"
+      ],
+      "explanation": "Juan cierra su primera carta con esta advertencia sencilla y directa.",
+      "tags": [
+        "advertencias"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0044",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta invita a mirar cuán grande amor nos ha dado el Padre al llamarnos hijos de Dios?",
+      "options": [
+        "Efesios",
+        "1 Juan",
+        "2 Corintios",
+        "Gálatas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Juan 3:1"
+      ],
+      "explanation": "Juan celebra el amor del Padre que hace hijos suyos a los creyentes.",
+      "tags": [
+        "amor"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0045",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta aconseja pensar en todo lo verdadero, honesto, justo, puro y amable?",
+      "options": [
+        "Filipenses",
+        "Colosenses",
+        "Efesios",
+        "1 Timoteo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filipenses 4:8"
+      ],
+      "explanation": "Pablo anima a ocupar la mente en lo virtuoso y digno de alabanza.",
+      "tags": [
+        "vida_cristiana"
+      ],
+      "reviewed": false
+    }
+  ]
+}

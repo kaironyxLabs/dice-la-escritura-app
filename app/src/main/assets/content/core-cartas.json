@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-cartas-0001",
@@ -8,11 +8,22 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿Cuál de estas cartas de Pablo desarrolla de forma extensa la justificación por la fe?",
-      "options": ["Romanos", "Filemón", "Tito", "2 Tesalonicenses"],
+      "options": [
+        "Romanos",
+        "1 Corintios",
+        "Colosenses",
+        "2 Tesalonicenses"
+      ],
       "answerIndex": 0,
-      "references": ["Romanos 3:28", "Romanos 5:1"],
+      "references": [
+        "Romanos 3:28",
+        "Romanos 5:1"
+      ],
       "explanation": "Romanos explica que el ser humano es justificado por la fe en Cristo y no por las obras de la ley.",
-      "tags": ["pablo", "justificacion"],
+      "tags": [
+        "pablo",
+        "justificacion"
+      ],
       "reviewed": false
     },
     {
@@ -22,11 +33,21 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿En qué carta de Pablo describe el capítulo 13 las características del amor (paciente, bondadoso, que no envidia)?",
-      "options": ["1 Corintios", "Gálatas", "Filipenses", "Colosenses"],
+      "options": [
+        "1 Corintios",
+        "Gálatas",
+        "Filipenses",
+        "Colosenses"
+      ],
       "answerIndex": 0,
-      "references": ["1 Corintios 13:4-7"],
+      "references": [
+        "1 Corintios 13:4-7"
+      ],
       "explanation": "Pablo presenta el amor como el camino más excelente dentro de su enseñanza sobre los dones en Corinto.",
-      "tags": ["pablo", "amor"],
+      "tags": [
+        "pablo",
+        "amor"
+      ],
       "reviewed": false
     },
     {
@@ -37,9 +58,14 @@
       "difficulty": 3,
       "question": "En la carta a Filemón, Pablo intercede en favor de Onésimo.",
       "answer": true,
-      "references": ["Filemón 1:10-12"],
+      "references": [
+        "Filemón 1:10-12"
+      ],
       "explanation": "Pablo pide a Filemón que reciba a Onésimo, a quien envía de vuelta, como a un hermano amado.",
-      "tags": ["pablo", "cartas-breves"],
+      "tags": [
+        "pablo",
+        "cartas-breves"
+      ],
       "reviewed": false
     }
   ]

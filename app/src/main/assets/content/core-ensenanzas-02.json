@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-ensenanzas-0005",
@@ -1024,12 +1024,12 @@
       "category": "ensenanzas",
       "type": "true_false",
       "difficulty": 4,
-      "question": "En la parábola del siervo despiadado, el siervo perdonado se negó a perdonar una deuda pequeña a su consiervo.",
-      "answer": true,
+      "question": "En la parábola del siervo despiadado, el siervo perdonado también perdonó la deuda pequeña a su consiervo.",
+      "answer": false,
       "references": [
         "Mateo 18:28-30"
       ],
-      "explanation": "El siervo al que se le había perdonado muchísimo no tuvo misericordia de su consiervo.",
+      "explanation": "Aunque se le había perdonado muchísimo, el siervo no tuvo misericordia de su consiervo.",
       "tags": [
         "parabolas",
         "perdon"

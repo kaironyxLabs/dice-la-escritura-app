@@ -1,0 +1,307 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-libros-0053",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es el primer libro de la Biblia?",
+      "options": [
+        "Éxodo",
+        "Salmos",
+        "Mateo",
+        "Génesis"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 1:1"
+      ],
+      "explanation": "La Biblia comienza con Génesis, el libro de los orígenes.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0054",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es el último libro de la Biblia?",
+      "options": [
+        "Judas",
+        "Hechos",
+        "Apocalipsis",
+        "Malaquías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Apocalipsis 1:1"
+      ],
+      "explanation": "La Biblia termina con Apocalipsis, la revelación de Jesucristo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0055",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos Evangelios hay en el Nuevo Testamento?",
+      "options": [
+        "Tres",
+        "Cuatro",
+        "Cinco",
+        "Siete"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 1:1",
+        "Juan 1:1"
+      ],
+      "explanation": "Son cuatro: Mateo, Marcos, Lucas y Juan.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0056",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué libro reúne canciones y oraciones de alabanza a Dios, como el que habla del Señor como pastor?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Cantares",
+        "Lamentaciones"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 23:1"
+      ],
+      "explanation": "Salmos es el libro de oraciones y cantos del pueblo de Dios.",
+      "tags": [
+        "poesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0057",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué libro de la Biblia no menciona directamente el nombre de Dios?",
+      "options": [
+        "Ester",
+        "Rut",
+        "Job",
+        "Jonás"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Ester 1:1"
+      ],
+      "explanation": "En Ester la mano de Dios se intuye en los hechos, pero su nombre no aparece en el texto.",
+      "tags": [
+        "curiosidades"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0058",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuál es el libro más corto del Antiguo Testamento por número de versículos?",
+      "options": [
+        "Joel",
+        "Nahúm",
+        "Hageo",
+        "Abdías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Abdías 1:1",
+        "Abdías 1:21"
+      ],
+      "explanation": "Abdías tiene un solo capítulo de 21 versículos.",
+      "tags": [
+        "curiosidades"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0059",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se encuentra el capítulo más corto de la Biblia, de solo dos versículos?",
+      "options": [
+        "Proverbios",
+        "Judas",
+        "Salmos",
+        "Lamentaciones"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 117"
+      ],
+      "explanation": "El Salmo 117 invita a todas las naciones a alabar al Señor en apenas dos versículos.",
+      "tags": [
+        "curiosidades"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0060",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué lugar ocupa Salmos en el orden de los libros de la Biblia?",
+      "options": [
+        "El 17",
+        "El 19",
+        "El 21",
+        "El 23"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 1:1"
+      ],
+      "explanation": "Contando desde Génesis, Salmos es el libro número 19, justo después de Job.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0061",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué libro viene justo después de Cantar de los Cantares?",
+      "options": [
+        "Isaías",
+        "Jeremías",
+        "Proverbios",
+        "Eclesiastés"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 1:1"
+      ],
+      "explanation": "Tras Cantares comienzan los libros proféticos con Isaías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0062",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué libro está colocado justo antes de Job en la Biblia?",
+      "options": [
+        "Nehemías",
+        "Esdras",
+        "Salmos",
+        "Ester"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Job 1:1",
+        "Ester 1:1"
+      ],
+      "explanation": "Ester cierra los libros históricos y después comienzan los libros poéticos con Job.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0063",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 4,
+      "question": "Ordena estas cartas de Pablo como aparecen en el Nuevo Testamento, de la primera a la última.",
+      "items": [
+        "Gálatas",
+        "Efesios",
+        "Filipenses",
+        "Colosenses"
+      ],
+      "references": [
+        "Gálatas 1:1",
+        "Colosenses 1:1"
+      ],
+      "explanation": "Tras 2 Corintios vienen Gálatas, Efesios, Filipenses y Colosenses.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0064",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 4,
+      "question": "Ordena estos profetas menores como aparecen en el Antiguo Testamento.",
+      "items": [
+        "Oseas",
+        "Joel",
+        "Amós",
+        "Abdías"
+      ],
+      "references": [
+        "Oseas 1:1",
+        "Abdías 1:1"
+      ],
+      "explanation": "Los doce profetas menores comienzan con Oseas, Joel, Amós y Abdías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0065",
+      "module": "core",
+      "category": "libros",
+      "type": "ordering",
+      "difficulty": 5,
+      "question": "Ordena estos profetas menores como aparecen en el Antiguo Testamento.",
+      "items": [
+        "Nahúm",
+        "Habacuc",
+        "Sofonías",
+        "Hageo"
+      ],
+      "references": [
+        "Nahúm 1:1",
+        "Hageo 1:1"
+      ],
+      "explanation": "Después de Miqueas siguen Nahúm, Habacuc, Sofonías y Hageo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    }
+  ]
+}

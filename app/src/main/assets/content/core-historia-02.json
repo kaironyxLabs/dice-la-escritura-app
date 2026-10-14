@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-historia-0007",
@@ -642,12 +642,12 @@
       "category": "historia",
       "type": "true_false",
       "difficulty": 2,
-      "question": "Sadrac, Mesac y Abed-nego fueron echados a un horno de fuego por negarse a adorar una estatua.",
-      "answer": true,
+      "question": "Sadrac, Mesac y Abed-nego fueron echados a un foso de leones por negarse a adorar una estatua.",
+      "answer": false,
       "references": [
         "Daniel 3:19-23"
       ],
-      "explanation": "Los tres jóvenes se negaron a adorar la estatua del rey y Dios los guardó en medio del fuego.",
+      "explanation": "Fueron echados a un horno de fuego, no a un foso de leones, y Dios los guardó en medio del fuego.",
       "tags": [
         "exilio"
       ],
@@ -1107,8 +1107,8 @@
       "category": "historia",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Israel cruzó el mar Rojo antes de llegar al monte Sinaí.",
-      "answer": true,
+      "question": "Israel llegó al monte Sinaí antes de cruzar el mar Rojo.",
+      "answer": false,
       "references": [
         "Éxodo 14:22",
         "Éxodo 19:1-2"
