@@ -41,6 +41,6 @@ El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se 
 - `docs/TEXTO_BIBLICO.md`: importación del texto bíblico y su procedimiento de correcciones.
 - `docs/DECISIONES.md`: decisiones de diseño y sus motivos.
 - `docs/REVISION_PREGUNTAS.md`: informe de revisión con casillas (generado con `tools/contenido/informe_revision.py`).
-- `docs/REVISION_PREVIA.md`: pasada previa de Claude sobre las 430 preguntas (problemas sistémicos y preguntas a corregir); no marca nada como revisado.
+- `docs/REVISION_PREVIA.md`: pasada previa de Claude sobre las 430 preguntas (problemas sistémicos, correcciones ya aplicadas al módulo base y lo pendiente de la Confesión); no marca nada como revisado.
 - `docs/licencias/`: licencias de las fuentes empaquetadas.
 - `CLAUDE.md`: guía de trabajo del repositorio (comandos, convenciones y reglas de contenido).

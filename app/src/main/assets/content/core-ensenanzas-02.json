@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-ensenanzas-0005",
@@ -234,7 +234,7 @@
       "category": "ensenanzas",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "¿Cómo se describe a sí mismo Jesús en Juan 10?",
+      "question": "En Juan 10:11, ¿cómo se describe a sí mismo Jesús?",
       "options": [
         "El buen pastor",
         "El primer sacerdote",
@@ -396,7 +396,7 @@
       "category": "ensenanzas",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "¿Qué hizo Jesús con sus discípulos antes de la última cena para enseñarles a servir?",
+      "question": "¿Qué hizo Jesús con sus discípulos durante la última cena para enseñarles a servir?",
       "options": [
         "Les dio dinero",
         "Les lavó los pies",
@@ -582,18 +582,18 @@
       "category": "ensenanzas",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "En la parábola del trigo y la cizaña, ¿qué crecía junto al trigo?",
+      "question": "En la parábola del trigo y la cizaña, ¿quién sembró la mala semilla en el campo?",
       "options": [
-        "El espino",
-        "La cizaña",
-        "La vid",
-        "La mostaza"
+        "Los segadores",
+        "El enemigo del dueño",
+        "El mayordomo",
+        "El hijo del dueño"
       ],
       "answerIndex": 1,
       "references": [
         "Mateo 13:24-30"
       ],
-      "explanation": "Un enemigo sembró cizaña entre el trigo y ambos crecieron juntos hasta la siega.",
+      "explanation": "Un enemigo del dueño sembró mala semilla entre el trigo y ambos crecieron juntos hasta la siega.",
       "tags": [
         "parabolas"
       ],
@@ -747,7 +747,7 @@
       "difficulty": 3,
       "question": "¿Qué dijo Jesús que debe hacer quien quiera seguirle?",
       "options": [
-        "Venderlo todo sin excepción",
+        "Cumplir todo el ritual del templo",
         "Negarse a sí mismo, tomar su cruz cada día y seguirle",
         "Retirarse al desierto",
         "Ser bautizado cada año"
@@ -768,7 +768,7 @@
       "category": "ensenanzas",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Con quiénes comparó Jesús a los pámpanos que permanecen en la vid?",
+      "question": "¿Quiénes son los pámpanos en la imagen de la vid que usó Jesús?",
       "options": [
         "Con los ángeles del cielo",
         "Con los discípulos que permanecen en él",

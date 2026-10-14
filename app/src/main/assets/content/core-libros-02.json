@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-libros-0007",
@@ -452,7 +452,7 @@
       "category": "libros",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "¿Cuál de estas cartas lleva el nombre de un apóstol que no es Pablo?",
+      "question": "¿Cuál de estas cartas fue escrita por un apóstol distinto de Pablo?",
       "options": [
         "Filemón",
         "Gálatas",
@@ -621,7 +621,7 @@
       "category": "libros",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué carta de Pablo está dirigida a una sola persona y es muy breve?",
+      "question": "¿Cuál es la carta más breve de Pablo, dirigida a una sola persona?",
       "options": [
         "Filemón",
         "Efesios",

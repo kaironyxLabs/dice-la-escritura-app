@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-historia-0007",
@@ -156,7 +156,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Éxodo 16:14-15"
+        "Éxodo 16:14-15",
+        "Éxodo 16:35"
       ],
       "explanation": "Dios alimentó a Israel con maná durante cuarenta años.",
       "tags": [
@@ -336,7 +337,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "¿Cuántos días estuvo Jesús en el desierto antes de ser tentado?",
+      "question": "¿Cuántos días ayunó Jesús en el desierto?",
       "options": [
         "Cuarenta",
         "Treinta",
@@ -571,7 +572,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "¿A quién ungió Samuel como rey después de Saúl?",
+      "question": "¿A quién ungió Samuel como futuro rey cuando Saúl aún reinaba?",
       "options": [
         "A Jonatán",
         "A David",
@@ -963,7 +964,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Cuál fue la capital del reino del norte, Israel?",
+      "question": "¿Qué ciudad edificó el rey Omri como capital del reino del norte, Israel?",
       "options": [
         "Betel",
         "Hebrón",
@@ -1009,7 +1010,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué apóstol fue sacado de la cárcel por un ángel?",
+      "question": "¿Qué apóstol, preso por orden de Herodes y custodiado con cadenas, fue sacado de la cárcel por un ángel?",
       "options": [
         "Pedro",
         "Santiago",
@@ -1219,7 +1220,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Josué 8:28"
+        "Josué 8:28",
+        "Josué 7:1"
       ],
       "explanation": "Después de un primer fracaso por el pecado de Acán, Israel tomó Hai.",
       "tags": [

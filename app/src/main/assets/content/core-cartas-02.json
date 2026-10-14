@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-cartas-0004",
@@ -695,7 +695,7 @@
       "category": "cartas",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "¿Qué carta dice que Pablo dejó a Tito en Creta?",
+      "question": "¿En qué carta se encarga a su destinatario establecer ancianos en cada ciudad de Creta?",
       "options": [
         "Tito",
         "Filemón",

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-lugares-0005",
@@ -247,7 +247,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Mateo 26:36"
+        "Mateo 26:36",
+        "Juan 18:1"
       ],
       "explanation": "Jesús fue con sus discípulos a un lugar llamado Getsemaní y oró allí.",
       "tags": [
@@ -427,7 +428,7 @@
       "category": "lugares",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿A qué ciudad escribió Pablo desde la cárcel una carta de gozo?",
+      "question": "¿A qué ciudad escribió Pablo desde la cárcel una carta que insiste en regocijarse en el Señor?",
       "options": [
         "Filipos",
         "Tesalónica",

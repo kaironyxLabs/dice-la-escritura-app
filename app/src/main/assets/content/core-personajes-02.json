@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-personajes-0006",
@@ -16,7 +16,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Génesis 2:7"
+        "Génesis 2:7",
+        "Génesis 5:2"
       ],
       "explanation": "Dios formó al hombre del polvo de la tierra y lo llamó Adán.",
       "tags": [
@@ -957,7 +958,7 @@
       "category": "personajes",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué profeta vio al Señor sentado en un trono alto y sublime?",
+      "question": "¿Qué profeta vio al Señor sentado en un trono alto y sublime, rodeado de serafines?",
       "options": [
         "Jeremías",
         "Isaías",
@@ -1080,7 +1081,7 @@
         "Simeón y Ana",
         "José y María",
         "Zacarías y Elisabet",
-        "Joaquín y Ana"
+        "Aquila y Priscila"
       ],
       "answerIndex": 2,
       "references": [
@@ -1177,7 +1178,8 @@
       ],
       "answerIndex": 3,
       "references": [
-        "Colosenses 4:14"
+        "Colosenses 4:14",
+        "Lucas 1:1-4"
       ],
       "explanation": "Pablo llama a Lucas el médico amado.",
       "tags": [
