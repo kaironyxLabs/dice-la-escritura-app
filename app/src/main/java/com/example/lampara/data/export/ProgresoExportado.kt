@@ -1,6 +1,7 @@
 package com.example.lampara.data.export
 
 import com.example.lampara.data.db.TipoSesion
+import com.example.lampara.domain.model.Categoria
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
@@ -120,13 +121,15 @@ object CodecProgreso {
         }
         val tiposValidos = TipoSesion.entries.map { it.id }.toSet()
         p.sesiones.forEachIndexed { i, s ->
-            if (s.tipo !in tiposValidos || s.total < 0 || s.aciertos !in 0..s.total || s.xpGanado < 0) {
+            val categoriaValida = s.categoria == null || Categoria.desdeId(s.categoria) != null
+            if (s.tipo !in tiposValidos || !categoriaValida || s.total < 0 || s.aciertos !in 0..s.total || s.xpGanado < 0) {
                 e += "Sesión ${i + 1} inválida."
             }
         }
         if (p.retos.map { it.fechaDia }.toSet().size != p.retos.size) e += "Hay retos diarios repetidos."
         p.retos.forEach {
-            if (it.respondidas < 0 || it.aciertos !in 0..it.respondidas || it.xpGanado < 0 || it.preguntaIds.any { id -> id.isBlank() || ',' in id }) {
+            val idsValidos = it.preguntaIds.none { id -> id.isBlank() || ',' in id }
+            if (it.respondidas !in 0..it.preguntaIds.size || it.aciertos !in 0..it.respondidas || it.xpGanado < 0 || !idsValidos) {
                 e += "Reto del día ${it.fechaDia} inválido."
             }
         }

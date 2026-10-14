@@ -90,7 +90,10 @@ class ProgresoExportadoTest {
         assertTrue(errores(base.copy(preguntas = listOf(base.preguntas[0], base.preguntas[0]))).any { "repetidas" in it })
         assertTrue(errores(base.copy(sesiones = listOf(base.sesiones[0].copy(aciertos = 11)))).isNotEmpty())
         assertTrue(errores(base.copy(sesiones = listOf(base.sesiones[0].copy(tipo = "inventada")))).isNotEmpty())
+        assertTrue(errores(base.copy(sesiones = listOf(base.sesiones[0].copy(categoria = "inventada")))).isNotEmpty())
         assertTrue(errores(base.copy(retos = listOf(base.retos[0].copy(aciertos = 3)))).isNotEmpty())
+        // Más respondidas que preguntas en el reto no tiene sentido.
+        assertTrue(errores(base.copy(retos = listOf(base.retos[0].copy(respondidas = 3, aciertos = 1)))).isNotEmpty())
         assertTrue(errores(base.copy(versiculos = listOf(base.versiculos[0].copy(grado = 4)))).isNotEmpty())
         assertTrue(errores(base.copy(ajustes = base.ajustes.copy(recordatorioMinutos = 1_440))).isNotEmpty())
         assertTrue(errores(base).isEmpty())
