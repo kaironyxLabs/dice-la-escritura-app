@@ -1,7 +1,9 @@
 package com.example.lampara.feature.settings
 
 import android.Manifest
+import android.content.Intent
 import android.net.Uri
+import android.provider.Settings
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.selection.toggleable
@@ -35,6 +37,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.lampara.BuildConfig
 import com.example.lampara.R
@@ -53,6 +57,10 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
     val pedirPermiso = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { concedido ->
         permisoDenegado = !concedido
         if (concedido) viewModel.activarRecordatorio(true)
+    }
+    // Si el usuario concede el permiso en los ajustes del sistema y vuelve, el aviso deja de tener sentido.
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        if (permisoDenegado && Notificaciones.tienePermiso(contexto)) permisoDenegado = false
     }
 
     Column(
@@ -97,6 +105,12 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
                 }
             },
             onCambiarHora = viewModel::cambiarHoraRecordatorio,
+            onAbrirAjustesSistema = {
+                contexto.startActivity(
+                    Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                        .putExtra(Settings.EXTRA_APP_PACKAGE, contexto.packageName),
+                )
+            },
         )
         SeccionRespaldo(viewModel)
         SeccionAcerca()
@@ -186,6 +200,7 @@ private fun SeccionRecordatorio(
     permisoDenegado: Boolean,
     onActivar: (Boolean) -> Unit,
     onCambiarHora: (Int) -> Unit,
+    onAbrirAjustesSistema: () -> Unit,
 ) {
     var mostrarSelector by remember { mutableStateOf(false) }
     val hora = LocalTime.of(estado.recordatorioMinutos / 60, estado.recordatorioMinutos % 60)
@@ -213,6 +228,9 @@ private fun SeccionRecordatorio(
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.error,
         )
+        TextButton(onClick = onAbrirAjustesSistema) {
+            Text(stringResource(R.string.ajustes_recordatorio_abrir_ajustes))
+        }
     }
     OutlinedButton(
         onClick = { mostrarSelector = true },

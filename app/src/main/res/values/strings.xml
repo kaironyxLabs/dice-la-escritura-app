@@ -168,6 +168,7 @@
     <string name="ajustes_recordatorio_titulo">Recordatorio diario</string>
     <string name="ajustes_recordatorio_descripcion">Recibir un aviso a la hora elegida si aún no has hecho el reto</string>
     <string name="ajustes_recordatorio_permiso_denegado">Sin el permiso de notificaciones no se puede mostrar el recordatorio. Puedes concederlo en los ajustes del sistema.</string>
+    <string name="ajustes_recordatorio_abrir_ajustes">Abrir ajustes de notificaciones</string>
     <string name="ajustes_recordatorio_hora">Hora: %1$s</string>
     <string name="ajustes_recordatorio_elegir_hora">Hora del recordatorio</string>
     <string name="aceptar">Aceptar</string>
@@ -185,7 +186,7 @@
         <item quantity="many">%1$d de %2$d respuestas correctas</item>
     </plurals>
     <string name="resultado_xp">XP ganado: %1$d</string>
-    <string name="resultado_xp_tope">La barra del nivel ya estaba llena: otros %1$d XP no se sumaron. Presenta el examen de ascenso para seguir avanzando.</string>
+    <string name="resultado_xp_tope">La barra del nivel está llena: %1$d XP no se sumaron. Presenta el examen de ascenso para seguir avanzando.</string>
     <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
