@@ -25,7 +25,8 @@ data class EstadoMemoria(val grado: Int, val dominio: Int, val proximaFecha: Loc
 /**
  * Repetición espaciada propia de los versículos. Se sube de grado al acertar (20, 40, 60 y 100 %
  * escribiendo). Al acertar escribiendo el pasaje completo, el dominio sube y el repaso se aleja
- * (1, 3, 7, 14, 30 y 60 días). Un fallo baja un grado y el repaso vuelve al día siguiente.
+ * (1, 3, 7, 14, 30 y 60 días), pero solo si el repaso ya tocaba: practicar antes de tiempo no suma dominio.
+ * Un fallo baja un grado y el repaso vuelve al día siguiente.
  */
 object Memorizacion {
     val INTERVALOS_DIAS = listOf(1, 3, 7, 14, 30, 60)
@@ -37,6 +38,8 @@ object Memorizacion {
         acierto && estado.grado < ULTIMO_GRADO ->
             // Se puede seguir practicando el grado siguiente hoy mismo.
             estado.copy(grado = estado.grado + 1, proximaFecha = hoy)
+        // Practicar antes de tiempo un pasaje ya dominado no acelera sus repasos: solo cuenta si toca.
+        acierto && !estaVencido(estado, hoy) -> estado
         acierto -> {
             val dominio = estado.dominio + 1
             val intervalo = INTERVALOS_DIAS[minOf(dominio, INTERVALOS_DIAS.size) - 1]

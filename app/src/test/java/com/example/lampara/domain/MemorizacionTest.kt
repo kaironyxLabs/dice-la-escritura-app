@@ -40,14 +40,30 @@ class MemorizacionTest {
     @Test
     fun `acertar escribiendo aleja el repaso con intervalos crecientes`() {
         var e = EstadoMemoria(grado = 3, dominio = 0, proximaFecha = hoy)
+        var dia = hoy
         val dias = mutableListOf<Long>()
         repeat(8) {
-            e = Memorizacion.registrar(e, true, hoy)
-            dias += java.time.temporal.ChronoUnit.DAYS.between(hoy, e.proximaFecha)
+            e = Memorizacion.registrar(e, true, dia)
+            dias += java.time.temporal.ChronoUnit.DAYS.between(dia, e.proximaFecha)
             assertEquals(3, e.grado)
+            dia = e.proximaFecha // el siguiente repaso se hace cuando toca
         }
         assertEquals(listOf(1L, 3L, 7L, 14L, 30L, 60L, 60L, 60L), dias)
         assertEquals(8, e.dominio)
+    }
+
+    @Test
+    fun `practicar antes de que toque no suma dominio ni cambia el repaso`() {
+        val e = EstadoMemoria(grado = 3, dominio = 2, proximaFecha = hoy.plusDays(7))
+        assertEquals(e, Memorizacion.registrar(e, true, hoy))
+    }
+
+    @Test
+    fun `fallar antes de que toque si baja de grado`() {
+        val e = Memorizacion.registrar(EstadoMemoria(3, 2, hoy.plusDays(7)), false, hoy)
+        assertEquals(2, e.grado)
+        assertEquals(1, e.dominio)
+        assertEquals(hoy.plusDays(1), e.proximaFecha)
     }
 
     @Test
