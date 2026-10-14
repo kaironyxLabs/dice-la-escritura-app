@@ -1,5 +1,5 @@
 {
-  "contentVersion": 5,
+  "contentVersion": 6,
   "questions": [
     {
       "id": "core-ensenanzas-0005",
@@ -22,7 +22,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0006",
@@ -46,7 +46,7 @@
         "sermon-del-monte",
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0007",
@@ -69,7 +69,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0008",
@@ -93,7 +93,7 @@
         "sermon-del-monte",
         "oracion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0009",
@@ -110,7 +110,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0010",
@@ -133,7 +133,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0011",
@@ -156,7 +156,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0012",
@@ -180,7 +180,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0013",
@@ -203,7 +203,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0014",
@@ -226,7 +226,7 @@
       "tags": [
         "perdon"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0015",
@@ -249,7 +249,7 @@
       "tags": [
         "yo-soy"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0016",
@@ -272,7 +272,7 @@
       "tags": [
         "nuevo-nacimiento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0017",
@@ -295,7 +295,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0018",
@@ -318,7 +318,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0019",
@@ -341,7 +341,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0020",
@@ -365,7 +365,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0021",
@@ -388,7 +388,7 @@
       "tags": [
         "mandamientos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0022",
@@ -412,7 +412,7 @@
       "tags": [
         "servicio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0023",
@@ -435,7 +435,7 @@
       "tags": [
         "amor"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0024",
@@ -458,7 +458,7 @@
       "tags": [
         "yo-soy"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0025",
@@ -481,7 +481,7 @@
       "tags": [
         "oracion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0026",
@@ -504,7 +504,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0027",
@@ -527,7 +527,7 @@
       "tags": [
         "servicio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0028",
@@ -551,7 +551,7 @@
         "parabolas",
         "projimo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0029",
@@ -574,7 +574,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0030",
@@ -597,7 +597,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0031",
@@ -620,7 +620,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0032",
@@ -643,7 +643,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0033",
@@ -667,7 +667,7 @@
         "parabolas",
         "riquezas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0034",
@@ -691,7 +691,7 @@
         "sermon-del-monte",
         "riquezas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0035",
@@ -714,7 +714,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0036",
@@ -737,7 +737,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0037",
@@ -760,7 +760,7 @@
       "tags": [
         "discipulado"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0038",
@@ -783,7 +783,7 @@
       "tags": [
         "yo-soy"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0039",
@@ -807,7 +807,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0040",
@@ -830,7 +830,7 @@
       "tags": [
         "cena-del-senor"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0041",
@@ -853,7 +853,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0042",
@@ -876,7 +876,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0043",
@@ -899,7 +899,7 @@
       "tags": [
         "sermon-del-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0044",
@@ -923,7 +923,7 @@
         "parabolas",
         "servicio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0045",
@@ -946,7 +946,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0046",
@@ -969,7 +969,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0047",
@@ -993,7 +993,7 @@
         "parabolas",
         "oracion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0048",
@@ -1016,7 +1016,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0049",
@@ -1034,7 +1034,7 @@
         "parabolas",
         "perdon"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "core-personajes-0006",
@@ -23,7 +23,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0007",
@@ -46,7 +46,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0008",
@@ -69,7 +69,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0009",
@@ -92,7 +92,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0010",
@@ -115,7 +115,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0011",
@@ -138,7 +138,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0012",
@@ -161,7 +161,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0013",
@@ -184,7 +184,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0014",
@@ -207,7 +207,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0015",
@@ -230,7 +230,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0016",
@@ -253,7 +253,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0017",
@@ -276,7 +276,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0018",
@@ -299,7 +299,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0019",
@@ -322,7 +322,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0020",
@@ -345,7 +345,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0021",
@@ -368,7 +368,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0022",
@@ -391,7 +391,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0023",
@@ -414,7 +414,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0024",
@@ -437,7 +437,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0025",
@@ -460,7 +460,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0026",
@@ -483,7 +483,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0027",
@@ -507,7 +507,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0028",
@@ -530,7 +530,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0029",
@@ -553,7 +553,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0030",
@@ -577,7 +577,7 @@
       "tags": [
         "historicos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0031",
@@ -601,7 +601,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0032",
@@ -625,7 +625,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0033",
@@ -648,7 +648,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0034",
@@ -671,7 +671,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0035",
@@ -694,7 +694,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0036",
@@ -718,7 +718,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0037",
@@ -742,7 +742,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0038",
@@ -765,7 +765,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0039",
@@ -788,7 +788,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0040",
@@ -811,7 +811,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0041",
@@ -835,7 +835,7 @@
       "tags": [
         "desierto"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0042",
@@ -858,7 +858,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0043",
@@ -881,7 +881,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0044",
@@ -905,7 +905,7 @@
         "monarquia",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0045",
@@ -929,7 +929,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0046",
@@ -952,7 +952,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0047",
@@ -975,7 +975,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0048",
@@ -998,7 +998,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0049",
@@ -1023,7 +1023,7 @@
         "exilio",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0050",
@@ -1047,7 +1047,7 @@
       "tags": [
         "regreso"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0051",
@@ -1070,7 +1070,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0052",
@@ -1094,7 +1094,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0053",
@@ -1117,7 +1117,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0054",
@@ -1140,7 +1140,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0055",
@@ -1163,7 +1163,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0056",
@@ -1187,7 +1187,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0057",
@@ -1211,7 +1211,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0058",
@@ -1234,7 +1234,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0059",
@@ -1257,7 +1257,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0060",
@@ -1280,7 +1280,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0061",
@@ -1303,7 +1303,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0062",
@@ -1326,7 +1326,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0063",
@@ -1350,7 +1350,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0064",
@@ -1373,7 +1373,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0065",
@@ -1396,7 +1396,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0066",
@@ -1419,7 +1419,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0067",
@@ -1442,7 +1442,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

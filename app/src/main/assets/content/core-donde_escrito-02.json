@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-donde_escrito-0003",
@@ -22,7 +22,7 @@
       "tags": [
         "ley"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0004",
@@ -45,7 +45,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0005",
@@ -68,7 +68,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0006",
@@ -91,7 +91,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0007",
@@ -114,7 +114,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0008",
@@ -137,7 +137,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0009",
@@ -160,7 +160,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0010",
@@ -183,7 +183,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0011",
@@ -206,7 +206,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0012",
@@ -229,7 +229,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0013",
@@ -252,7 +252,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0014",
@@ -275,7 +275,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0015",
@@ -298,7 +298,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0016",
@@ -321,7 +321,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0017",
@@ -344,7 +344,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0018",
@@ -368,7 +368,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0019",
@@ -391,7 +391,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0020",
@@ -414,7 +414,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0021",
@@ -437,7 +437,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0022",
@@ -460,7 +460,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0023",
@@ -483,7 +483,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0024",
@@ -506,7 +506,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0025",
@@ -529,7 +529,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0026",
@@ -552,7 +552,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0027",
@@ -575,7 +575,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0028",
@@ -598,7 +598,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0029",
@@ -621,7 +621,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0030",
@@ -644,7 +644,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0031",
@@ -667,7 +667,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0032",
@@ -690,7 +690,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0033",
@@ -714,7 +714,7 @@
         "pablo",
         "cena-del-senor"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

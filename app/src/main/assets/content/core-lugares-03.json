@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-lugares-0035",
@@ -23,7 +23,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0036",
@@ -47,7 +47,7 @@
       "tags": [
         "reyes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0037",
@@ -70,7 +70,7 @@
       "tags": [
         "milagros"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

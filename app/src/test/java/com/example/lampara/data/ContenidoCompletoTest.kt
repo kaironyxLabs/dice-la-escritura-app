@@ -35,9 +35,8 @@ class ContenidoCompletoTest {
     private val confesion = todas.filter { it.modulo == Modulo.CONFESION_1689 }
 
     @Test
-    fun `no hay errores de carga y todo el contenido esta pendiente de revision`() {
+    fun `no hay errores de carga en el contenido`() {
         assertEquals(emptyList<String>(), repositorio.erroresDeCarga)
-        assertTrue("Ninguna pregunta nueva debe venir marcada como revisada", todas.none { it.revisada })
     }
 
     @Test

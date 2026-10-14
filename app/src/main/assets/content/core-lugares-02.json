@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "core-lugares-0005",
@@ -22,7 +22,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0006",
@@ -45,7 +45,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0007",
@@ -68,7 +68,7 @@
       "tags": [
         "diluvio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0008",
@@ -91,7 +91,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0009",
@@ -114,7 +114,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0010",
@@ -138,7 +138,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0011",
@@ -161,7 +161,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0012",
@@ -184,7 +184,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0013",
@@ -207,7 +207,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0014",
@@ -230,7 +230,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0015",
@@ -254,7 +254,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0016",
@@ -277,7 +277,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0017",
@@ -301,7 +301,7 @@
         "jesus",
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0018",
@@ -325,7 +325,7 @@
         "jesus",
         "resurreccion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0019",
@@ -348,7 +348,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0020",
@@ -371,7 +371,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0021",
@@ -396,7 +396,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0022",
@@ -420,7 +420,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0023",
@@ -444,7 +444,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0024",
@@ -467,7 +467,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0025",
@@ -491,7 +491,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0026",
@@ -515,7 +515,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0027",
@@ -538,7 +538,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0028",
@@ -561,7 +561,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0029",
@@ -584,7 +584,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0030",
@@ -608,7 +608,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0031",
@@ -631,7 +631,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0032",
@@ -655,7 +655,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0033",
@@ -678,7 +678,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0034",
@@ -702,7 +702,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-libros-0001",
@@ -8,12 +8,22 @@
       "type": "multiple_choice",
       "difficulty": 1,
       "question": "¿Cuál es el primer libro de la Biblia?",
-      "options": ["Génesis", "Éxodo", "Salmos", "Mateo"],
+      "options": [
+        "Génesis",
+        "Éxodo",
+        "Salmos",
+        "Mateo"
+      ],
       "answerIndex": 0,
-      "references": ["Génesis 1:1"],
+      "references": [
+        "Génesis 1:1"
+      ],
       "explanation": "Génesis abre la Biblia: narra la creación y los orígenes del pueblo de Dios.",
-      "tags": ["orden", "pentateuco"],
-      "reviewed": false
+      "tags": [
+        "orden",
+        "pentateuco"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-libros-0002",
@@ -22,12 +32,22 @@
       "type": "multiple_choice",
       "difficulty": 1,
       "question": "¿Cuál es el último libro de la Biblia?",
-      "options": ["Judas", "Apocalipsis", "Hechos", "Malaquías"],
+      "options": [
+        "Judas",
+        "Apocalipsis",
+        "Hechos",
+        "Malaquías"
+      ],
       "answerIndex": 1,
-      "references": ["Apocalipsis 1:1"],
+      "references": [
+        "Apocalipsis 1:1"
+      ],
       "explanation": "Apocalipsis cierra el Nuevo Testamento y toda la Biblia; Malaquías cierra el Antiguo Testamento.",
-      "tags": ["orden", "nuevo-testamento"],
-      "reviewed": false
+      "tags": [
+        "orden",
+        "nuevo-testamento"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-libros-0003",
@@ -37,10 +57,15 @@
       "difficulty": 1,
       "question": "El libro de Rut pertenece al Nuevo Testamento.",
       "answer": false,
-      "references": ["Rut 1:1"],
+      "references": [
+        "Rut 1:1"
+      ],
       "explanation": "Rut es un libro del Antiguo Testamento: transcurre en la época de los jueces y precede a los libros de Samuel.",
-      "tags": ["testamentos", "historicos"],
-      "reviewed": false
+      "tags": [
+        "testamentos",
+        "historicos"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-libros-0004",
@@ -49,11 +74,22 @@
       "type": "ordering",
       "difficulty": 2,
       "question": "Ordena los cuatro Evangelios tal como aparecen en el Nuevo Testamento.",
-      "items": ["Mateo", "Marcos", "Lucas", "Juan"],
-      "references": ["Mateo 1:1", "Juan 1:1"],
+      "items": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "references": [
+        "Mateo 1:1",
+        "Juan 1:1"
+      ],
       "explanation": "El Nuevo Testamento empieza con Mateo, seguido de Marcos, Lucas y Juan.",
-      "tags": ["orden", "evangelios"],
-      "reviewed": false
+      "tags": [
+        "orden",
+        "evangelios"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-libros-0005",
@@ -62,12 +98,21 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿Cuál de estos libros forma parte del Pentateuco?",
-      "options": ["Josué", "Rut", "Deuteronomio", "Job"],
+      "options": [
+        "Josué",
+        "Rut",
+        "Deuteronomio",
+        "Job"
+      ],
       "answerIndex": 2,
-      "references": ["Deuteronomio 1:1"],
+      "references": [
+        "Deuteronomio 1:1"
+      ],
       "explanation": "El Pentateuco reúne los cinco primeros libros: Génesis, Éxodo, Levítico, Números y Deuteronomio.",
-      "tags": ["pentateuco"],
-      "reviewed": false
+      "tags": [
+        "pentateuco"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-libros-0006",
@@ -76,11 +121,22 @@
       "type": "ordering",
       "difficulty": 3,
       "question": "Ordena estos libros según su posición en la Biblia, del primero al último.",
-      "items": ["Josué", "Rut", "Salmos", "Isaías", "Hechos"],
-      "references": ["Josué 1:1", "Hechos 1:1"],
+      "items": [
+        "Josué",
+        "Rut",
+        "Salmos",
+        "Isaías",
+        "Hechos"
+      ],
+      "references": [
+        "Josué 1:1",
+        "Hechos 1:1"
+      ],
       "explanation": "Josué y Rut son libros históricos, Salmos es poético, Isaías es profético y Hechos ya pertenece al Nuevo Testamento.",
-      "tags": ["orden"],
-      "reviewed": false
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
     }
   ]
 }

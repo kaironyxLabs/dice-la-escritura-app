@@ -1,5 +1,5 @@
 {
-  "contentVersion": 5,
+  "contentVersion": 6,
   "questions": [
     {
       "id": "core-historia-0007",
@@ -22,7 +22,7 @@
       "tags": [
         "creacion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0008",
@@ -45,7 +45,7 @@
       "tags": [
         "diluvio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0009",
@@ -68,7 +68,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0010",
@@ -91,7 +91,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0011",
@@ -114,7 +114,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0012",
@@ -139,7 +139,7 @@
         "exodo",
         "ley"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0013",
@@ -164,7 +164,7 @@
         "exodo",
         "desierto"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0014",
@@ -187,7 +187,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0015",
@@ -210,7 +210,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0016",
@@ -233,7 +233,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0017",
@@ -257,7 +257,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0018",
@@ -280,7 +280,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0019",
@@ -305,7 +305,7 @@
         "jesus",
         "resurreccion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0020",
@@ -329,7 +329,7 @@
         "jesus",
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0021",
@@ -352,7 +352,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0022",
@@ -376,7 +376,7 @@
         "jesus",
         "milagros"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0023",
@@ -400,7 +400,7 @@
         "jesus",
         "milagros"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0024",
@@ -424,7 +424,7 @@
         "jesus",
         "milagros"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0025",
@@ -447,7 +447,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0026",
@@ -470,7 +470,7 @@
       "tags": [
         "diluvio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0027",
@@ -493,7 +493,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0028",
@@ -518,7 +518,7 @@
         "exodo",
         "ley"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0029",
@@ -541,7 +541,7 @@
       "tags": [
         "desierto"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0030",
@@ -564,7 +564,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0031",
@@ -587,7 +587,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0032",
@@ -610,7 +610,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0033",
@@ -634,7 +634,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0034",
@@ -651,7 +651,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0035",
@@ -675,7 +675,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0036",
@@ -698,7 +698,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0037",
@@ -715,7 +715,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0038",
@@ -738,7 +738,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0039",
@@ -761,7 +761,7 @@
       "tags": [
         "jesus"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0040",
@@ -784,7 +784,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0041",
@@ -812,7 +812,7 @@
         "jesus",
         "cronologia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0042",
@@ -838,7 +838,7 @@
         "patriarcas",
         "cronologia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0043",
@@ -861,7 +861,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0044",
@@ -885,7 +885,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0045",
@@ -909,7 +909,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0046",
@@ -933,7 +933,7 @@
         "exilio",
         "regreso"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0047",
@@ -956,7 +956,7 @@
       "tags": [
         "regreso"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0048",
@@ -979,7 +979,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0049",
@@ -1002,7 +1002,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0050",
@@ -1025,7 +1025,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0051",
@@ -1049,7 +1049,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0052",
@@ -1074,7 +1074,7 @@
       "tags": [
         "cronologia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0053",
@@ -1100,7 +1100,7 @@
         "monarquia",
         "cronologia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0054",
@@ -1118,7 +1118,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0055",
@@ -1135,7 +1135,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0056",
@@ -1158,7 +1158,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0057",
@@ -1181,7 +1181,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0058",
@@ -1204,7 +1204,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0059",
@@ -1228,7 +1228,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0060",
@@ -1251,7 +1251,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

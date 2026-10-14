@@ -1,5 +1,5 @@
 {
-  "contentVersion": 6,
+  "contentVersion": 7,
   "questions": [
     {
       "id": "core-cartas-0004",
@@ -22,7 +22,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0005",
@@ -46,7 +46,7 @@
         "pablo",
         "gracia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0006",
@@ -70,7 +70,7 @@
         "juan",
         "amor"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0007",
@@ -93,7 +93,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0008",
@@ -116,7 +116,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0009",
@@ -139,7 +139,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0010",
@@ -163,7 +163,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0011",
@@ -187,7 +187,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0012",
@@ -210,7 +210,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0013",
@@ -233,7 +233,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0014",
@@ -250,7 +250,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0015",
@@ -274,7 +274,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0016",
@@ -297,7 +297,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0017",
@@ -320,7 +320,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0018",
@@ -343,7 +343,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0019",
@@ -366,7 +366,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0020",
@@ -389,7 +389,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0021",
@@ -412,7 +412,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0022",
@@ -435,7 +435,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0023",
@@ -458,7 +458,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0024",
@@ -481,7 +481,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0025",
@@ -504,7 +504,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0026",
@@ -527,7 +527,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0027",
@@ -550,7 +550,7 @@
       "tags": [
         "juan"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0028",
@@ -573,7 +573,7 @@
       "tags": [
         "juan"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0029",
@@ -596,7 +596,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0030",
@@ -619,7 +619,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0031",
@@ -642,7 +642,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0032",
@@ -665,7 +665,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0033",
@@ -688,7 +688,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0034",
@@ -711,7 +711,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0035",
@@ -734,7 +734,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0036",
@@ -757,7 +757,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0037",
@@ -780,7 +780,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0038",
@@ -803,7 +803,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

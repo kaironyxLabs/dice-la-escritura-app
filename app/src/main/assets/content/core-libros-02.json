@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "core-libros-0007",
@@ -23,7 +23,7 @@
         "orden",
         "pentateuco"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0008",
@@ -47,7 +47,7 @@
         "orden",
         "nuevo-testamento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0009",
@@ -71,7 +71,7 @@
         "orden",
         "antiguo-testamento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0010",
@@ -94,7 +94,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0011",
@@ -117,7 +117,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0012",
@@ -135,7 +135,7 @@
         "orden",
         "nuevo-testamento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0013",
@@ -152,7 +152,7 @@
       "tags": [
         "testamentos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0014",
@@ -169,7 +169,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0015",
@@ -192,7 +192,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0016",
@@ -215,7 +215,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0017",
@@ -238,7 +238,7 @@
       "tags": [
         "testamentos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0018",
@@ -261,7 +261,7 @@
       "tags": [
         "historicos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0019",
@@ -285,7 +285,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0020",
@@ -308,7 +308,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0021",
@@ -331,7 +331,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0022",
@@ -354,7 +354,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0023",
@@ -378,7 +378,7 @@
       "tags": [
         "testamentos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0024",
@@ -402,7 +402,7 @@
       "tags": [
         "testamentos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0025",
@@ -421,7 +421,7 @@
         "orden",
         "nuevo-testamento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0026",
@@ -444,7 +444,7 @@
       "tags": [
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0027",
@@ -467,7 +467,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0028",
@@ -492,7 +492,7 @@
         "orden",
         "historicos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0029",
@@ -517,7 +517,7 @@
         "orden",
         "pentateuco"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0030",
@@ -542,7 +542,7 @@
         "orden",
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0031",
@@ -566,7 +566,7 @@
         "orden",
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0032",
@@ -590,7 +590,7 @@
         "orden",
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0033",
@@ -613,7 +613,7 @@
       "tags": [
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0034",
@@ -636,7 +636,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0035",
@@ -659,7 +659,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0036",
@@ -676,7 +676,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0037",
@@ -701,7 +701,7 @@
         "orden",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0038",
@@ -726,7 +726,7 @@
         "orden",
         "nuevo-testamento"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0039",
@@ -750,7 +750,7 @@
       "tags": [
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0040",
@@ -773,7 +773,7 @@
       "tags": [
         "poeticos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0041",
@@ -798,7 +798,7 @@
         "orden",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0042",
@@ -822,7 +822,7 @@
       "tags": [
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0043",
@@ -847,7 +847,7 @@
         "orden",
         "historicos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0044",
@@ -870,7 +870,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0045",
@@ -893,7 +893,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0046",
@@ -916,7 +916,7 @@
       "tags": [
         "pentateuco"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0047",
@@ -941,7 +941,7 @@
       "tags": [
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0048",
@@ -964,7 +964,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0049",
@@ -987,7 +987,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0050",
@@ -1010,7 +1010,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0051",
@@ -1028,7 +1028,7 @@
         "orden",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0052",
@@ -1051,7 +1051,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

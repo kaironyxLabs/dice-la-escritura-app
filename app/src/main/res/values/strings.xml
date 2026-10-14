@@ -90,10 +90,10 @@
     <string name="xp_ganado_aviso">+%1$d XP</string>
     <string name="respuesta_correcta_era">Respuesta correcta: %1$s</string>
     <string name="orden_correcto_era">Orden correcto: %1$s</string>
-    <string name="referencias_aviso">Búscalo en tu Biblia impresa: %1$s</string>
+    <string name="referencias_aviso">Búscalo en tu Biblia física (impresa): %1$s</string>
     <string name="justificacion_titulo">Justificación bíblica</string>
     <string name="confesion_aviso">Confesión de 1689: %1$s</string>
-    <string name="verifica_invitacion">Te invitamos a tomar tu Biblia impresa, buscar estos pasajes y comprobar por ti mismo si la respuesta es correcta.</string>
+    <string name="verifica_invitacion">Te invitamos a tomar tu Biblia física (impresa), buscar estos pasajes y comprobar por ti mismo si la respuesta es correcta.</string>
     <string name="siguiente">Siguiente</string>
     <string name="ver_resultado">Ver resultado</string>
     <string name="comprobar">Comprobar</string>

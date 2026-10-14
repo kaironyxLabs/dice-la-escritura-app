@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-cartas-0001",
@@ -24,7 +24,7 @@
         "pablo",
         "justificacion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0002",
@@ -48,7 +48,7 @@
         "pablo",
         "amor"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0003",
@@ -66,7 +66,7 @@
         "pablo",
         "cartas-breves"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

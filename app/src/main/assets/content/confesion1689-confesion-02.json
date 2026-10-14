@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "confesion1689-confesion-0014",
@@ -16,7 +16,7 @@
       "tags": [
         "escrituras"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 1, párr. 3"
     },
     {
@@ -40,7 +40,7 @@
       "tags": [
         "escrituras"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 1, párr. 9"
     },
     {
@@ -58,7 +58,7 @@
       "tags": [
         "dios"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 2, párr. 1"
     },
     {
@@ -83,7 +83,7 @@
       "tags": [
         "decreto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 3, párr. 5"
     },
     {
@@ -102,7 +102,7 @@
       "tags": [
         "decreto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 3, párr. 7"
     },
     {
@@ -127,7 +127,7 @@
       "tags": [
         "creacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 4, párr. 1"
     },
     {
@@ -152,7 +152,7 @@
       "tags": [
         "creacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 4, párr. 2"
     },
     {
@@ -176,7 +176,7 @@
       "tags": [
         "creacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 4, párr. 3"
     },
     {
@@ -201,7 +201,7 @@
       "tags": [
         "providencia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 5, párr. 1"
     },
     {
@@ -220,7 +220,7 @@
       "tags": [
         "providencia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 5, párr. 2"
     },
     {
@@ -245,7 +245,7 @@
       "tags": [
         "providencia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 5, párr. 7"
     },
     {
@@ -270,7 +270,7 @@
       "tags": [
         "caida"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 6, párr. 1"
     },
     {
@@ -295,7 +295,7 @@
       "tags": [
         "caida"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 6, párr. 3"
     },
     {
@@ -314,7 +314,7 @@
       "tags": [
         "caida"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 6, párr. 5"
     },
     {
@@ -339,7 +339,7 @@
       "tags": [
         "pacto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 7, párr. 1"
     },
     {
@@ -364,7 +364,7 @@
       "tags": [
         "pacto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 7, párr. 2"
     },
     {
@@ -382,7 +382,7 @@
       "tags": [
         "pacto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 7, párr. 3"
     },
     {
@@ -407,7 +407,7 @@
       "tags": [
         "cristo"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 8, párr. 2"
     },
     {
@@ -426,7 +426,7 @@
       "tags": [
         "cristo"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 8, párr. 1"
     },
     {
@@ -445,7 +445,7 @@
       "tags": [
         "libre-albedrio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 9, párr. 1"
     },
     {
@@ -470,7 +470,7 @@
       "tags": [
         "libre-albedrio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 9, párr. 2"
     },
     {
@@ -495,7 +495,7 @@
       "tags": [
         "libre-albedrio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 9, párr. 3"
     },
     {
@@ -520,7 +520,7 @@
       "tags": [
         "llamamiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 10, párr. 1"
     },
     {
@@ -545,7 +545,7 @@
       "tags": [
         "llamamiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 10, párr. 2"
     },
     {
@@ -570,7 +570,7 @@
       "tags": [
         "llamamiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 10, párr. 3"
     },
     {
@@ -589,7 +589,7 @@
       "tags": [
         "justificacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 11, párr. 2"
     },
     {
@@ -614,7 +614,7 @@
       "tags": [
         "justificacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 11, párr. 3"
     },
     {
@@ -633,7 +633,7 @@
       "tags": [
         "adopcion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 12, párr. 1"
     },
     {
@@ -657,7 +657,7 @@
       "tags": [
         "adopcion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 12, párr. 1"
     },
     {
@@ -682,7 +682,7 @@
       "tags": [
         "adopcion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 12, párr. 1"
     },
     {
@@ -707,7 +707,7 @@
       "tags": [
         "santificacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 13, párr. 1"
     },
     {
@@ -732,7 +732,7 @@
       "tags": [
         "santificacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 13, párr. 2"
     },
     {
@@ -751,7 +751,7 @@
       "tags": [
         "santificacion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 13, párr. 2"
     },
     {
@@ -776,7 +776,7 @@
       "tags": [
         "fe"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 14, párr. 1"
     },
     {
@@ -801,7 +801,7 @@
       "tags": [
         "fe"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 14, párr. 1"
     },
     {
@@ -820,7 +820,7 @@
       "tags": [
         "fe"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 14, párr. 3"
     },
     {
@@ -845,7 +845,7 @@
       "tags": [
         "arrepentimiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 15, párr. 3"
     },
     {
@@ -870,7 +870,7 @@
       "tags": [
         "arrepentimiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 15, párr. 3"
     },
     {
@@ -895,7 +895,7 @@
       "tags": [
         "arrepentimiento"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 15, párr. 5"
     },
     {
@@ -920,7 +920,7 @@
       "tags": [
         "buenas-obras"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 16, párr. 1"
     },
     {
@@ -945,7 +945,7 @@
       "tags": [
         "buenas-obras"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 16, párr. 2"
     },
     {
@@ -964,7 +964,7 @@
       "tags": [
         "buenas-obras"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 16, párr. 5"
     },
     {
@@ -989,7 +989,7 @@
       "tags": [
         "perseverancia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 17, párr. 1"
     },
     {
@@ -1014,7 +1014,7 @@
       "tags": [
         "perseverancia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 17, párr. 2"
     },
     {
@@ -1033,7 +1033,7 @@
       "tags": [
         "perseverancia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 17, párr. 3"
     },
     {
@@ -1058,7 +1058,7 @@
       "tags": [
         "seguridad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 18, párr. 1"
     },
     {
@@ -1083,7 +1083,7 @@
       "tags": [
         "seguridad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 18, párr. 1"
     },
     {
@@ -1102,7 +1102,7 @@
       "tags": [
         "seguridad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 18, párr. 3"
     },
     {
@@ -1127,7 +1127,7 @@
       "tags": [
         "ley"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 19, párr. 1"
     },
     {
@@ -1146,7 +1146,7 @@
       "tags": [
         "ley"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 19, párr. 3"
     },
     {
@@ -1171,7 +1171,7 @@
       "tags": [
         "ley"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 19, párr. 5"
     },
     {
@@ -1189,7 +1189,7 @@
       "tags": [
         "evangelio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 20, párr. 1"
     },
     {
@@ -1214,7 +1214,7 @@
       "tags": [
         "evangelio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 20, párr. 2"
     },
     {
@@ -1239,7 +1239,7 @@
       "tags": [
         "evangelio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 20, párr. 4"
     },
     {
@@ -1264,7 +1264,7 @@
       "tags": [
         "libertad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 21, párr. 1"
     },
     {
@@ -1283,7 +1283,7 @@
       "tags": [
         "libertad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 21, párr. 2"
     },
     {
@@ -1308,7 +1308,7 @@
       "tags": [
         "libertad"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 21, párr. 3"
     },
     {
@@ -1333,7 +1333,7 @@
       "tags": [
         "culto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 22, párr. 1"
     },
     {
@@ -1358,7 +1358,7 @@
       "tags": [
         "culto"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 22, párr. 3"
     },
     {
@@ -1383,7 +1383,7 @@
       "tags": [
         "juramentos"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 23, párr. 2"
     },
     {
@@ -1407,7 +1407,7 @@
       "tags": [
         "juramentos"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 23, párr. 5"
     },
     {
@@ -1426,7 +1426,7 @@
       "tags": [
         "juramentos"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 23, párr. 1"
     },
     {
@@ -1450,7 +1450,7 @@
       "tags": [
         "magistrado"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 24, párr. 1"
     },
     {
@@ -1468,7 +1468,7 @@
       "tags": [
         "magistrado"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 24, párr. 2"
     },
     {
@@ -1493,7 +1493,7 @@
       "tags": [
         "magistrado"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 24, párr. 3"
     },
     {
@@ -1518,7 +1518,7 @@
       "tags": [
         "matrimonio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 25, párr. 2"
     },
     {
@@ -1542,7 +1542,7 @@
       "tags": [
         "matrimonio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 25, párr. 3"
     },
     {
@@ -1567,7 +1567,7 @@
       "tags": [
         "iglesia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 26, párr. 1"
     },
     {
@@ -1592,7 +1592,7 @@
       "tags": [
         "iglesia"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 26, párr. 8"
     },
     {
@@ -1617,7 +1617,7 @@
       "tags": [
         "comunion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 27, párr. 1"
     },
     {
@@ -1642,7 +1642,7 @@
       "tags": [
         "comunion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 27, párr. 2"
     },
     {
@@ -1661,7 +1661,7 @@
       "tags": [
         "comunion"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 27, párr. 2"
     },
     {
@@ -1686,7 +1686,7 @@
       "tags": [
         "ordenanzas"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 28, párr. 1"
     },
     {
@@ -1705,7 +1705,7 @@
       "tags": [
         "ordenanzas"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 28, párr. 1"
     },
     {
@@ -1730,7 +1730,7 @@
       "tags": [
         "ordenanzas"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 28, párr. 2"
     },
     {
@@ -1755,7 +1755,7 @@
       "tags": [
         "bautismo"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 29, párr. 1"
     },
     {
@@ -1773,7 +1773,7 @@
       "tags": [
         "cena-del-senor"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 30, párr. 1"
     },
     {
@@ -1797,7 +1797,7 @@
       "tags": [
         "cena-del-senor"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 30, párr. 6"
     },
     {
@@ -1816,7 +1816,7 @@
       "tags": [
         "cena-del-senor"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 30, párr. 2"
     },
     {
@@ -1841,7 +1841,7 @@
       "tags": [
         "muerte"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 31, párr. 1"
     },
     {
@@ -1866,7 +1866,7 @@
       "tags": [
         "muerte"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 31, párr. 1"
     },
     {
@@ -1891,7 +1891,7 @@
       "tags": [
         "muerte"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 31, párr. 2"
     },
     {
@@ -1916,7 +1916,7 @@
       "tags": [
         "juicio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 32, párr. 1"
     },
     {
@@ -1941,7 +1941,7 @@
       "tags": [
         "juicio"
       ],
-      "reviewed": false,
+      "reviewed": true,
       "confessionRef": "cap. 32, párr. 2"
     }
   ]

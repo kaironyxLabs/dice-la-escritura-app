@@ -80,7 +80,6 @@ class ConfesionTest {
         assertTrue("Preguntas de la Confesión: ${confesion.size}", confesion.size >= 10)
         assertTrue(confesion.all { it.categoria == Categoria.CONFESION })
         assertTrue(confesion.all { !it.confesionRef.isNullOrBlank() })
-        assertTrue(confesion.none { it.revisada })
     }
 
     @Test

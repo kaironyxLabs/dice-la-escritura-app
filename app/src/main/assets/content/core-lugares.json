@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-lugares-0001",
@@ -8,12 +8,22 @@
       "type": "multiple_choice",
       "difficulty": 1,
       "question": "¿En qué ciudad nació Jesús?",
-      "options": ["Nazaret", "Jerusalén", "Belén", "Capernaúm"],
+      "options": [
+        "Nazaret",
+        "Jerusalén",
+        "Belén",
+        "Capernaúm"
+      ],
       "answerIndex": 2,
-      "references": ["Mateo 2:1", "Lucas 2:4-7"],
+      "references": [
+        "Mateo 2:1",
+        "Lucas 2:4-7"
+      ],
       "explanation": "Jesús nació en Belén de Judea, la ciudad de David; creció después en Nazaret.",
-      "tags": ["nacimiento-de-jesus"],
-      "reviewed": false
+      "tags": [
+        "nacimiento-de-jesus"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-lugares-0002",
@@ -22,12 +32,21 @@
       "type": "multiple_choice",
       "difficulty": 1,
       "question": "¿En qué río fue bautizado Jesús?",
-      "options": ["Nilo", "Jordán", "Éufrates", "Jaboc"],
+      "options": [
+        "Nilo",
+        "Jordán",
+        "Éufrates",
+        "Jaboc"
+      ],
       "answerIndex": 1,
-      "references": ["Mateo 3:13"],
+      "references": [
+        "Mateo 3:13"
+      ],
       "explanation": "Jesús fue desde Galilea al río Jordán para ser bautizado por Juan.",
-      "tags": ["bautismo"],
-      "reviewed": false
+      "tags": [
+        "bautismo"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-lugares-0003",
@@ -36,12 +55,21 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿A qué ciudad envió Dios al profeta Jonás para que predicara?",
-      "options": ["Babilonia", "Tarsis", "Nínive", "Damasco"],
+      "options": [
+        "Babilonia",
+        "Tarsis",
+        "Nínive",
+        "Damasco"
+      ],
       "answerIndex": 2,
-      "references": ["Jonás 1:2"],
+      "references": [
+        "Jonás 1:2"
+      ],
       "explanation": "Dios mandó a Jonás a Nínive; él huyó hacia Tarsis, pero finalmente predicó en Nínive.",
-      "tags": ["profetas"],
-      "reviewed": false
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-lugares-0004",
@@ -50,12 +78,21 @@
       "type": "multiple_choice",
       "difficulty": 3,
       "question": "¿En qué isla se hallaba Juan cuando recibió la revelación escrita en el Apocalipsis?",
-      "options": ["Chipre", "Creta", "Patmos", "Malta"],
+      "options": [
+        "Chipre",
+        "Creta",
+        "Patmos",
+        "Malta"
+      ],
       "answerIndex": 2,
-      "references": ["Apocalipsis 1:9"],
+      "references": [
+        "Apocalipsis 1:9"
+      ],
       "explanation": "Juan estaba en la isla de Patmos por causa de la palabra de Dios y el testimonio de Jesús.",
-      "tags": ["apocalipsis"],
-      "reviewed": false
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
     }
   ]
 }

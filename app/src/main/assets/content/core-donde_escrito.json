@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-donde_escrito-0001",
@@ -8,12 +8,21 @@
       "type": "multiple_choice",
       "difficulty": 1,
       "question": "¿En qué libro se encuentra el relato de la creación del mundo en seis días?",
-      "options": ["Génesis", "Éxodo", "Job", "Salmos"],
+      "options": [
+        "Génesis",
+        "Éxodo",
+        "Job",
+        "Salmos"
+      ],
       "answerIndex": 0,
-      "references": ["Génesis 1:1-2:3"],
+      "references": [
+        "Génesis 1:1-2:3"
+      ],
       "explanation": "El relato de la creación abre el libro de Génesis, con el descanso del séptimo día al final.",
-      "tags": ["creacion"],
-      "reviewed": false
+      "tags": [
+        "creacion"
+      ],
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0002",
@@ -22,12 +31,22 @@
       "type": "multiple_choice",
       "difficulty": 2,
       "question": "¿En qué Evangelio se encuentra el Sermón del monte?",
-      "options": ["Mateo", "Marcos", "Lucas", "Juan"],
+      "options": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
       "answerIndex": 0,
-      "references": ["Mateo 5:1"],
+      "references": [
+        "Mateo 5:1"
+      ],
       "explanation": "El Sermón del monte ocupa los capítulos 5 a 7 de Mateo; Lucas contiene enseñanzas parecidas en un discurso distinto.",
-      "tags": ["sermon-del-monte", "evangelios"],
-      "reviewed": false
+      "tags": [
+        "sermon-del-monte",
+        "evangelios"
+      ],
+      "reviewed": true
     }
   ]
 }

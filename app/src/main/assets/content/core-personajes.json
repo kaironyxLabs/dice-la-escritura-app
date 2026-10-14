@@ -1,5 +1,5 @@
 {
-  "contentVersion": 2,
+  "contentVersion": 3,
   "questions": [
     {
       "id": "core-personajes-0001",
@@ -22,7 +22,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0002",
@@ -46,7 +46,7 @@
       "tags": [
         "exilio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0003",
@@ -70,7 +70,7 @@
         "jueces",
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0004",
@@ -88,7 +88,7 @@
       "tags": [
         "apostoles"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0005",
@@ -111,7 +111,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

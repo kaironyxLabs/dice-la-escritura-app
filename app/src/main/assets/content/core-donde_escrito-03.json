@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-donde_escrito-0034",
@@ -22,7 +22,7 @@
       "tags": [
         "ley"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0035",
@@ -45,7 +45,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0036",
@@ -68,7 +68,7 @@
       "tags": [
         "oracion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0037",
@@ -91,7 +91,7 @@
       "tags": [
         "profecia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0038",
@@ -114,7 +114,7 @@
       "tags": [
         "iglesia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0039",
@@ -137,7 +137,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

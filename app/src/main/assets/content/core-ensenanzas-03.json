@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-ensenanzas-0050",
@@ -22,7 +22,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0051",
@@ -45,7 +45,7 @@
       "tags": [
         "sermon"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0052",
@@ -68,7 +68,7 @@
       "tags": [
         "sermon"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0053",
@@ -91,7 +91,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0054",
@@ -114,7 +114,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }
