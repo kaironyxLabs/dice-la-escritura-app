@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-libros-0053",
@@ -193,7 +193,7 @@
       "category": "libros",
       "type": "ordering",
       "difficulty": 4,
-      "question": "Ordena estos profetas menores como aparecen en el Antiguo Testamento.",
+      "question": "Ordena los cuatro primeros profetas menores como aparecen en el Antiguo Testamento.",
       "items": [
         "Oseas",
         "Joel",
@@ -216,7 +216,7 @@
       "category": "libros",
       "type": "ordering",
       "difficulty": 5,
-      "question": "Ordena estos profetas menores como aparecen en el Antiguo Testamento.",
+      "question": "Ordena estos profetas menores, que vienen después de Miqueas, como aparecen en el Antiguo Testamento.",
       "items": [
         "Nahúm",
         "Habacuc",

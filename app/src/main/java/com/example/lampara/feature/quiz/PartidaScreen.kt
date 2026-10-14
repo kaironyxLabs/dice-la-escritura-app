@@ -31,6 +31,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalWindowInfo
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -307,22 +308,25 @@ private fun Retroalimentacion(estado: PartidaUiState.EnCurso, resultado: com.exa
                     Text(stringResource(R.string.xp_ganado_aviso, resultado.xp), style = MaterialTheme.typography.labelLarge)
                 }
             }
-            if (!resultado.correcta) {
-                val textoCorrecto = when (val c = pregunta.contenido) {
-                    is Contenido.OpcionMultiple -> stringResource(R.string.respuesta_correcta_era, c.opciones[c.indiceCorrecto])
-                    is Contenido.VerdaderoFalso -> stringResource(
-                        R.string.respuesta_correcta_era,
-                        stringResource(if (c.respuesta) R.string.verdadero else R.string.falso),
-                    )
-                    is Contenido.Ordenar -> stringResource(R.string.orden_correcto_era, c.elementos.joinToString(", "))
-                }
-                Text(textoCorrecto, style = MaterialTheme.typography.bodyLarge)
+            val textoCorrecto = when (val c = pregunta.contenido) {
+                is Contenido.OpcionMultiple -> stringResource(R.string.respuesta_correcta_era, c.opciones[c.indiceCorrecto])
+                is Contenido.VerdaderoFalso -> stringResource(
+                    R.string.respuesta_correcta_era,
+                    stringResource(if (c.respuesta) R.string.verdadero else R.string.falso),
+                )
+                is Contenido.Ordenar -> stringResource(R.string.orden_correcto_era, c.elementos.joinToString(", "))
             }
+            Text(textoCorrecto, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
+            Text(stringResource(R.string.justificacion_titulo), style = MaterialTheme.typography.titleSmall)
             Text(pregunta.explicacion, style = MaterialTheme.typography.bodyMedium)
             Text(
                 stringResource(R.string.referencias_aviso, pregunta.referencias.joinToString("; ")),
                 style = MaterialTheme.typography.labelLarge,
             )
+            pregunta.confesionRef?.let {
+                Text(stringResource(R.string.confesion_aviso, it), style = MaterialTheme.typography.labelLarge)
+            }
+            Text(stringResource(R.string.verifica_invitacion), style = MaterialTheme.typography.bodySmall)
         }
     }
 }
