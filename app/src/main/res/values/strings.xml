@@ -167,7 +167,7 @@
     <string name="ajustes_confesion_titulo">Módulo Confesión Bautista de 1689</string>
     <string name="ajustes_confesion_descripcion">Preguntas sobre la Confesión de 1689, aparte del contenido bíblico base. Al desactivarlo se conserva tu progreso, pero no se cuenta ni se muestra.</string>
     <string name="ajustes_revisadas_titulo">Mostrar solo preguntas revisadas</string>
-    <string name="ajustes_revisadas_descripcion">Usa únicamente las preguntas que ya has revisado. Está desactivado mientras el contenido siga pendiente de revisión.</string>
+    <string name="ajustes_revisadas_descripcion">Usa únicamente las preguntas marcadas como revisadas.</string>
     <string name="ajustes_recordatorio_titulo">Recordatorio diario</string>
     <string name="ajustes_recordatorio_descripcion">Recibir un aviso a la hora elegida si aún no has hecho el reto</string>
     <string name="ajustes_recordatorio_permiso_denegado">Sin el permiso de notificaciones no se puede mostrar el recordatorio. Puedes concederlo en los ajustes del sistema.</string>

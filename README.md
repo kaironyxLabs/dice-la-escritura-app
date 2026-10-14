@@ -14,7 +14,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - Módulo opcional de la Confesión Bautista de Fe de 1689, apagado por defecto y sin rastro en la app mientras lo esté.
 - Progreso con estadísticas, exportar e importar el progreso en JSON y ajustes.
 - Después de cada respuesta la app muestra siempre la respuesta correcta, su justificación bíblica y las citas, e invita a buscarlas en la Biblia física (impresa) y comprobarlo (sin lector digital: así lo prefieren muchos usuarios) (en la Confesión añade además el capítulo y párrafo).
-- 376 preguntas base y 97 de la Confesión, todas **pendientes de tu revisión** (`reviewed: false`); todas se contrastaron con el texto local de la RVR1960 o con el PDF de la Confesión (ver `docs/CONTRASTE_CONFESION.md` y `docs/REVISION_PREVIA.md`).
+- 376 preguntas base y 97 de la Confesión, todas revisadas por el usuario (`reviewed: true`); además se contrastaron con el texto local de la RVR1960 o con el PDF de la Confesión (ver `docs/CONTRASTE_CONFESION.md` y `docs/REVISION_PREVIA.md`).
 
 ## Estado
 Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Pendiente de probar en dispositivo: nada conocido.
@@ -41,6 +41,8 @@ El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se 
 - `docs/CONTENIDO.md`: cómo agregar y revisar preguntas.
 - `docs/TEXTO_BIBLICO.md`: importación del texto bíblico y su procedimiento de correcciones.
 - `docs/DECISIONES.md`: decisiones de diseño y sus motivos.
+- `docs/MANUAL_USUARIO.md`: manual de usuario detallado.
+- `docs/PLAN_DESARROLLO.md`: lo que falta para terminar, por etapas. Con `docs/PLAN_CUENTA_LOCAL.md` (perfil local con nombre y avatar) y `docs/PLAN_REFACTOR_UI.md` (rediseño de la interfaz).
 - `docs/REVISION_PREGUNTAS.md`: informe de revisión con casillas (generado con `tools/contenido/informe_revision.py`).
 - `docs/REVISION_PREVIA.md`: pasada previa de Claude sobre las preguntas (con los cambios posteriores) (problemas sistémicos, correcciones ya aplicadas al módulo base y lo pendiente de la Confesión); no marca nada como revisado.
 - `docs/licencias/`: licencias de las fuentes empaquetadas.
