@@ -13,7 +13,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - Memorizar unos 100 pasajes clave: completar con 20, 40 y 60 % de palabras ocultas y escribiendo el pasaje completo. Aprueba con el 90 % de las palabras; cada palabra de más resta un acierto, y practicar un pasaje antes de que toque su repaso no acelera los intervalos (1, 3, 7, 14, 30 y 60 días).
 - Módulo opcional de la Confesión Bautista de Fe de 1689, apagado por defecto y sin rastro en la app mientras lo esté.
 - Progreso con estadísticas, exportar e importar el progreso en JSON y ajustes.
-- Después de cada respuesta la app muestra siempre la respuesta correcta, su justificación bíblica y las citas, e invita a abrir la Biblia y comprobarlo (en la Confesión añade además el capítulo y párrafo).
+- Después de cada respuesta la app muestra siempre la respuesta correcta, su justificación bíblica y las citas, e invita a buscarlas en la Biblia impresa y comprobarlo (sin lector digital: así lo prefieren muchos usuarios) (en la Confesión añade además el capítulo y párrafo).
 - 376 preguntas base y 97 de la Confesión, todas **pendientes de tu revisión** (`reviewed: false`); todas se contrastaron con el texto local de la RVR1960 o con el PDF de la Confesión (ver `docs/CONTRASTE_CONFESION.md` y `docs/REVISION_PREVIA.md`).
 
 ## Estado
