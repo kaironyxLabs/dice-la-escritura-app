@@ -7,7 +7,7 @@
       "category": "lugares",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "¿Qué ciudad fue la capital del reino del norte, Israel, desde los días de Omri?",
+      "question": "¿Qué ciudad edificó el rey Omri en el monte que compró a Semer?",
       "options": [
         "Betel",
         "Siquem",
@@ -18,7 +18,7 @@
       "references": [
         "1 Reyes 16:23-24"
       ],
-      "explanation": "Omri compró el monte de Samaria y edificó allí la ciudad que sería capital.",
+      "explanation": "Omri le puso a la ciudad el nombre de Samaria, por el nombre de Semer, dueño del monte.",
       "tags": [
         "reinos"
       ],
@@ -53,7 +53,7 @@
       "category": "lugares",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "¿En qué ciudad predicó Pablo ante los filósofos del Areópago?",
+      "question": "¿En qué ciudad habló Pablo en medio del Areópago a los atenienses?",
       "options": [
         "Roma",
         "Atenas",
@@ -62,6 +62,7 @@
       ],
       "answerIndex": 1,
       "references": [
+        "Hechos 17:16",
         "Hechos 17:19-22"
       ],
       "explanation": "Pablo habló del Dios no conocido a los atenienses en el Areópago.",
@@ -85,6 +86,7 @@
       ],
       "answerIndex": 0,
       "references": [
+        "Apocalipsis 1:11",
         "Apocalipsis 2:1"
       ],
       "explanation": "La primera carta de las siete va dirigida al ángel de la iglesia en Éfeso.",
@@ -108,7 +110,8 @@
       ],
       "answerIndex": 3,
       "references": [
-        "1 Samuel 17:2"
+        "1 Samuel 17:2",
+        "1 Samuel 17:4"
       ],
       "explanation": "Los ejércitos de Israel y de los filisteos se alinearon frente a frente en el valle de Ela.",
       "tags": [

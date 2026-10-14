@@ -16,7 +16,8 @@
       ],
       "answerIndex": 2,
       "references": [
-        "Génesis 2:7"
+        "Génesis 2:7",
+        "Génesis 5:1"
       ],
       "explanation": "Dios formó a Adán del polvo de la tierra e infundió en él aliento de vida.",
       "tags": [
@@ -39,7 +40,8 @@
       ],
       "answerIndex": 1,
       "references": [
-        "Génesis 17:15-16"
+        "Génesis 17:15-16",
+        "Génesis 17:19"
       ],
       "explanation": "Sara fue la esposa de Abraham y recibió la promesa de ser madre de naciones.",
       "tags": [
@@ -168,7 +170,7 @@
       "category": "personajes",
       "type": "multiple_choice",
       "difficulty": 5,
-      "question": "¿Cómo se llamaba el siervo de Eliseo que codició los regalos de Naamán?",
+      "question": "¿Cómo se llamaba el criado de Eliseo que corrió tras Naamán para tomarle alguna cosa?",
       "options": [
         "Giezi",
         "Abisai",
@@ -200,6 +202,7 @@
       ],
       "answerIndex": 3,
       "references": [
+        "2 Samuel 11:3",
         "2 Samuel 12:1-7"
       ],
       "explanation": "Natán lo confrontó con una parábola y le dijo: tú eres ese hombre.",

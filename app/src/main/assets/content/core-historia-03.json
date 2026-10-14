@@ -77,11 +77,11 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "¿Dónde puso su madre al bebé Moisés para protegerlo?",
+      "question": "¿Dónde puso su madre al niño Moisés cuando ya no pudo ocultarlo?",
       "options": [
         "En una cueva escondida en el monte",
         "En el palacio de Faraón, entre sus hijos",
-        "En una canasta de juncos junto al río",
+        "En una arquilla de juncos a la orilla del río",
         "En una barca pequeña en el mar"
       ],
       "answerIndex": 2,
@@ -109,7 +109,7 @@
       ],
       "answerIndex": 2,
       "references": [
-        "2 Reyes 20:9-11",
+        "2 Reyes 20:8-11",
         "Isaías 38:8"
       ],
       "explanation": "Dios dio a Ezequías esa señal cuando se recuperó de su enfermedad.",
@@ -148,7 +148,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "¿Quién fue el último juez de Israel antes de que el pueblo pidiera un rey?",
+      "question": "¿Qué profeta, ya envejecido, recibió de los ancianos de Israel la petición de que les constituyera un rey?",
       "options": [
         "Samuel",
         "Elí",
@@ -159,7 +159,7 @@
       "references": [
         "1 Samuel 8:1-5"
       ],
-      "explanation": "Samuel juzgó a Israel hasta que los ancianos le pidieron un rey como tenían las demás naciones.",
+      "explanation": "Cuando Samuel envejeció y sus hijos no andaron en sus caminos, los ancianos le pidieron un rey que los juzgara.",
       "tags": [
         "jueces"
       ],
@@ -217,7 +217,7 @@
       "category": "historia",
       "type": "multiple_choice",
       "difficulty": 5,
-      "question": "¿Qué rey asirio sitió Jerusalén en tiempos de Ezequías y perdió su ejército por obra de un ángel del Señor?",
+      "question": "¿Qué rey asirio subió contra las ciudades de Judá en tiempos de Ezequías y perdió a ciento ochenta y cinco mil hombres por obra del ángel de Jehová?",
       "options": [
         "Salmanasar",
         "Senaquerib",
@@ -226,9 +226,10 @@
       ],
       "answerIndex": 1,
       "references": [
+        "2 Reyes 18:13",
         "2 Reyes 19:35-36"
       ],
-      "explanation": "Senaquerib tuvo que regresar a Nínive después de la derrota que Dios le infligió.",
+      "explanation": "Senaquerib volvió a Nínive después de que el ángel de Jehová hirió su campamento.",
       "tags": [
         "reyes"
       ],
