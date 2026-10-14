@@ -22,8 +22,14 @@ APK en `app/build/outputs/apk/debug/app-debug.apk`. Para el APK de uso diario, f
 
 Otros comandos:
 - `./gradlew assembleRelease`: APK de release con R8 (sin firma si no hay `keystore.properties`).
-- `./gradlew connectedDebugAndroidTest`: pruebas de humo de la interfaz (requieren un dispositivo o emulador).
+- `./gradlew connectedDebugAndroidTest`: 11 pruebas instrumentadas (interfaz y Room en memoria; requieren un dispositivo o emulador). Con más de un dispositivo conectado, `ANDROID_SERIAL=<serie>` fija el que se usa. Ver abajo las particularidades de algunos teléfonos.
 - `cd tools/importar_biblia && .venv\Scripts\python -m pytest`: pruebas del importador. `python -m pytest tools/contenido`: pruebas de los scripts de revisión.
+
+### Pruebas instrumentadas en teléfonos reales
+Dos teléfonos de prueba (TCL con Android 12 y Xiaomi con Android 15) bloquean por defecto el arranque de la app en segundo plano y la instrumentación se queda esperando:
+- **TCL:** `./gradlew connectedDebugAndroidTest` se cuelga. Lanzar a mano `adb shell am instrument -w -r com.example.lampara.test/androidx.test.runner.AndroidJUnitRunner` y, a los pocos segundos, abrir la app con `adb shell monkey -p com.example.lampara -c android.intent.category.LAUNCHER 1`.
+- **Xiaomi (HyperOS):** las pruebas de interfaz solo corren si antes se permite el arranque en segundo plano de MIUI: `adb shell appops set com.example.lampara 10021 allow` (y lo mismo para `com.example.lampara.test`). Para devolverlo: `... 10021 default`.
+- En Git Bash, anteponer `MSYS_NO_PATHCONV=1` a los comandos `adb` con rutas como `/sdcard/...`.
 
 ## Firma de release
 1. Crear un keystore fuera del repositorio:

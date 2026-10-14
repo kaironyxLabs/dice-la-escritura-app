@@ -7,15 +7,21 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 ## Qué incluye
 - 10 niveles (de Semilla a Cedro) con examen de ascenso (10 preguntas, 80 % para subir). Los umbrales viven en `assets/content/levels.json`.
 - Partidas de 10 preguntas por categoría: libros y orden, historia, personajes, lugares, enseñanzas de Jesús, cartas y "¿dónde está escrito?". Opción múltiple, verdadero o falso y ordenar.
-- Reto diario de 10 preguntas (nuevas y de repaso vencido), racha con un día de gracia por semana y recordatorio opcional.
+- Reto diario de 10 preguntas (nuevas y de repaso vencido), que se retoma si sales a mitad (también tras cerrar la app) y que, si cruza la medianoche, cuenta en el día en que empezó. Racha con un día de gracia por semana y recordatorio opcional (pide el permiso de notificaciones en Android 13 o superior y ofrece abrir los ajustes del sistema si lo rechazas).
+- El XP tiene tope por nivel: con la barra llena, lo ganado espera al examen de ascenso. El resultado de cada partida muestra el XP que de verdad entró y avisa de lo que no se sumó.
 - Repetición espaciada Leitner de 5 cajas (1, 2, 4, 8 y 16 días).
-- Memorizar unos 100 pasajes clave: completar con 20, 40 y 60 % de palabras ocultas y escribiendo el pasaje completo.
+- Memorizar unos 100 pasajes clave: completar con 20, 40 y 60 % de palabras ocultas y escribiendo el pasaje completo. Aprueba con el 90 % de las palabras; cada palabra de más resta un acierto, y practicar un pasaje antes de que toque su repaso no acelera los intervalos (1, 3, 7, 14, 30 y 60 días).
 - Módulo opcional de la Confesión Bautista de Fe de 1689, apagado por defecto y sin rastro en la app mientras lo esté.
 - Progreso con estadísticas, exportar e importar el progreso en JSON y ajustes.
 - Más de 330 preguntas base y 97 de la Confesión, todas **pendientes de tu revisión** (`reviewed: false`).
 
 ## Estado
-Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó en dos teléfonos (TCL y Xiaomi): reto diario, racha, memorizar con práctica, ajustes, módulo 1689 y recordatorio funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/CONTENIDO.md`) y respaldar el keystore.
+Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Pendiente de probar en dispositivo: nada conocido.
+
+## Pruebas
+- `./gradlew test`: 160 pruebas JVM (dominio, contenido, texto bíblico y exportación del progreso).
+- `./gradlew connectedDebugAndroidTest`: 11 pruebas instrumentadas (4 de interfaz y 7 sobre Room con reloj simulado: reto que cruza la medianoche, racha de varios días, XP con tope). En algunos teléfonos hay que arrancarlas de otra forma; ver `docs/INSTALACION.md`.
+- `tools/importar_biblia` (87 pruebas) y `tools/contenido` (8): ver los comandos en `docs/INSTALACION.md`.
 
 ## Compilar
 Requiere JDK 17 y el Android SDK (ver `docs/INSTALACION.md`).
