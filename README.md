@@ -2,7 +2,7 @@
 
 App Android en español para aprender la Biblia un poco cada día, sin conexión. Niveles de conocimiento, partidas por categoría, reto diario con repetición espaciada y memorización de versículos, todo basado en la Reina-Valera 1960.
 
-Uso personal y de un círculo cercano: se instala por APK, no se publica en Play Store. No usa internet, anuncios, analíticas ni cuentas; el progreso vive en el teléfono y se respalda exportándolo a un archivo.
+Uso personal y de un círculo cercano: se instala por APK, no se publica en Play Store. No usa internet, anuncios, analíticas ni cuentas en línea (solo un perfil local con nombre y color); el progreso vive en el teléfono y se respalda exportándolo a un archivo.
 
 ## Qué incluye
 - 10 niveles (de Semilla a Cedro) con examen de ascenso (10 preguntas, 80 % para subir). Los umbrales viven en `assets/content/levels.json`.
@@ -12,12 +12,13 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - Repetición espaciada Leitner de 5 cajas (1, 2, 4, 8 y 16 días).
 - Memorizar unos 100 pasajes clave: completar con 20, 40 y 60 % de palabras ocultas y escribiendo el pasaje completo. Aprueba con el 90 % de las palabras; cada palabra de más resta un acierto, y practicar un pasaje antes de que toque su repaso no acelera los intervalos (1, 3, 7, 14, 30 y 60 días).
 - Módulo opcional de la Confesión Bautista de Fe de 1689, apagado por defecto y sin rastro en la app mientras lo esté.
-- Progreso con estadísticas, exportar e importar el progreso en JSON y ajustes.
+- Perfil local único por teléfono: nombre y color de avatar en la bienvenida, saludo en Inicio y pantalla de perfil. El avance cuelga de ese perfil (Room v2, migración 1→2).
+- Progreso con estadísticas, exportar e importar el progreso en JSON (versión 2 con el usuario; sigue leyendo la versión 1) y ajustes.
 - Después de cada respuesta la app muestra siempre la respuesta correcta, su justificación bíblica y las citas, e invita a buscarlas en la Biblia física (impresa) y comprobarlo (sin lector digital: así lo prefieren muchos usuarios) (en la Confesión añade además el capítulo y párrafo).
 - 376 preguntas base y 97 de la Confesión, todas revisadas por el usuario (`reviewed: true`); además se contrastaron con el texto local de la RVR1960 o con el PDF de la Confesión (ver `docs/CONTRASTE_CONFESION.md` y `docs/REVISION_PREVIA.md`).
 
 ## Estado
-Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Pendiente de probar en dispositivo: nada conocido.
+Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Cuenta local C1 a C3 hecha (decisión: un solo perfil por teléfono, sin C4). Pendiente de probar en dispositivo: la migración Room 1→2 sobre una instalación v1 real y los androidTest nuevos (`PerfilesAisladosTest`). Pendientes de decisión: nombre definitivo de la app e id de paquete.
 
 ## Pruebas
 - `./gradlew test`: 160 pruebas JVM (dominio, contenido, texto bíblico y exportación del progreso).

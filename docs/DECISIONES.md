@@ -40,3 +40,6 @@ Sube de grado al acertar (20, 40, 60 % de palabras ocultas y 100 % escribiendo).
 
 ## D-013 Esquema de Room v1 abierto
 Hasta que la app se instale por primera vez en un teléfono, el esquema v1 puede seguir cambiando (se agregaron reto diario y progreso de versículos sin migraciones). Desde la primera instalación, cada cambio exige subir la versión y escribir su migración.
+
+## D-014 Un solo perfil por teléfono
+La app es de uso personal: un perfil local por teléfono (nombre y color) que agrupa avance, logros y estadísticas. No se implementa C4 (varios perfiles); las preferencias siguen en DataStore global. Si algún día hiciera falta, el modelo (`perfilId` en todas las tablas) ya lo permite.

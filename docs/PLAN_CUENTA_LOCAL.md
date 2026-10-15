@@ -103,7 +103,7 @@ Como no hay nube, el riesgo real es perder el teléfono o desinstalar. Dos mejor
 1. **C1 Modelo y migración.** Tablas, perfil único, migración y pruebas. La app se ve igual.
 2. **C2 Bienvenida y perfil.** Nombre y avatar en la bienvenida y pantalla de perfil.
 3. **C3 Exportación v2.** Con compatibilidad hacia atrás.
-4. **C4 Varios perfiles** (si decides la opción 2).
+4. **C4 Varios perfiles** (descartada: un solo perfil por teléfono, ver D-014).
 5. **C5 Respaldo mejorado** (opcional).
 
 Cada etapa termina con `test`, `lint` y `assembleDebug` en verde y, si hay cambios de esquema, con la migración probada.
