@@ -2,6 +2,8 @@ package com.example.lampara.feature.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.lampara.data.repository.PerfilLocal
+import com.example.lampara.data.repository.PerfilRepository
 import com.example.lampara.data.repository.ProgresoRepository
 import com.example.lampara.data.repository.RetoDiarioRepository
 import com.example.lampara.domain.usecase.EstadoNivel
@@ -21,6 +23,7 @@ sealed interface EstadoReto {
 }
 
 data class InicioUiState(
+    val persona: PerfilLocal?,
     val nivel: EstadoNivel,
     val racha: Racha,
     val reto: EstadoReto,
@@ -29,6 +32,7 @@ data class InicioUiState(
 @HiltViewModel
 class InicioViewModel @Inject constructor(
     progreso: ProgresoRepository,
+    perfiles: PerfilRepository,
     retos: RetoDiarioRepository,
     gestor: GestorNiveles,
 ) : ViewModel() {
@@ -37,8 +41,10 @@ class InicioViewModel @Inject constructor(
     val estado: StateFlow<InicioUiState?> = combine(
         progreso.perfil(),
         retos.observarEstado(),
-    ) { perfil, (racha, reto) ->
+        perfiles.observarActivo(),
+    ) { perfil, (racha, reto), persona ->
         InicioUiState(
+            persona = persona,
             nivel = gestor.estado(perfil),
             racha = racha,
             reto = when {

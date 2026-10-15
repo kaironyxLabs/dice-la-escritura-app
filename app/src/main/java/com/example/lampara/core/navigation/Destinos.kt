@@ -18,6 +18,7 @@ sealed interface Destino {
     @Serializable data object Progreso : Destino
     @Serializable data object Ajustes : Destino
     @Serializable data object Categorias : Destino
+    @Serializable data object Perfil : Destino
 
     /** Práctica de memorización de un pasaje (`pasajeId` de memorize.json). */
     @Serializable data class Practica(val pasajeId: String) : Destino

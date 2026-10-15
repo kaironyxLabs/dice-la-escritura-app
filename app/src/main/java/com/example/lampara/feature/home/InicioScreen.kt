@@ -1,6 +1,8 @@
 package com.example.lampara.feature.home
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,6 +18,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
@@ -25,6 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.lampara.R
+import com.example.lampara.data.repository.PerfilLocal
+import com.example.lampara.feature.perfil.AvatarCircular
 import com.example.lampara.domain.usecase.EstadoNivel
 import com.example.lampara.domain.usecase.Racha
 
@@ -33,10 +38,11 @@ fun InicioScreen(
     onJugarPorCategoria: () -> Unit,
     onExamen: () -> Unit,
     onReto: () -> Unit,
+    onPerfil: () -> Unit,
     viewModel: InicioViewModel = hiltViewModel(),
 ) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
-    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto)
+    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto, onPerfil)
 }
 
 @Composable
@@ -45,6 +51,7 @@ fun InicioContenido(
     onJugarPorCategoria: () -> Unit,
     onExamen: () -> Unit,
     onReto: () -> Unit,
+    onPerfil: () -> Unit,
 ) {
     Column(
         modifier = Modifier
@@ -53,11 +60,12 @@ fun InicioContenido(
             .padding(horizontal = 24.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(stringResource(R.string.titulo_inicio), style = MaterialTheme.typography.headlineMedium)
         if (estado == null) {
+            Text(stringResource(R.string.titulo_inicio), style = MaterialTheme.typography.headlineMedium)
             Text(stringResource(R.string.cargando))
             return@Column
         }
+        Saludo(estado.persona, onPerfil)
         TarjetaNivel(estado.nivel)
         TarjetaReto(estado, onReto)
         if (estado.nivel.examenDisponible) {
@@ -74,6 +82,30 @@ fun InicioContenido(
             onClick = onJugarPorCategoria,
             modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
         ) { Text(stringResource(R.string.boton_jugar_categoria)) }
+    }
+}
+
+/** Saludo con el avatar; tocarlo abre el perfil. */
+@Composable
+private fun Saludo(persona: PerfilLocal?, onPerfil: () -> Unit) {
+    if (persona == null) {
+        Text(stringResource(R.string.titulo_inicio), style = MaterialTheme.typography.headlineMedium)
+        return
+    }
+    val descripcion = stringResource(R.string.inicio_abrir_perfil)
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onPerfil)
+            .semantics(mergeDescendants = true) { contentDescription = descripcion },
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        AvatarCircular(persona.nombre, persona.avatar, tamano = 56.dp)
+        Text(
+            stringResource(R.string.inicio_saludo, persona.nombre),
+            style = MaterialTheme.typography.headlineMedium,
+        )
     }
 }
 

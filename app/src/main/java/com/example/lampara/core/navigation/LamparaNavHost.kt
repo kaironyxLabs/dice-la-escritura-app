@@ -27,6 +27,7 @@ import com.example.lampara.feature.memorize.MemorizarScreen
 import com.example.lampara.feature.memorize.PracticaScreen
 import com.example.lampara.feature.onboarding.OnboardingScreen
 import com.example.lampara.feature.onboarding.RaizViewModel
+import com.example.lampara.feature.perfil.PerfilScreen
 import com.example.lampara.feature.progress.ProgresoScreen
 import com.example.lampara.feature.quiz.CategoriasScreen
 import com.example.lampara.feature.quiz.PartidaScreen
@@ -97,7 +98,11 @@ fun LamparaNavHost(raiz: RaizViewModel = hiltViewModel()) {
                     onJugarPorCategoria = { navController.navigate(Destino.Categorias) },
                     onExamen = { navController.navigate(Destino.Partida(examen = true)) },
                     onReto = { navController.navigate(Destino.Partida(reto = true)) },
+                    onPerfil = { navController.navigate(Destino.Perfil) },
                 )
+            }
+            composable<Destino.Perfil> {
+                PerfilScreen(alVolver = { navController.popBackStack() })
             }
             composable<Destino.Categorias> {
                 CategoriasScreen(onElegir = { navController.navigate(Destino.Partida(categoria = it.id)) })

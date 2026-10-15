@@ -8,6 +8,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.lampara.core.theme.LamparaTheme
+import com.example.lampara.data.repository.PerfilLocal
 import com.example.lampara.domain.model.Categoria
 import com.example.lampara.domain.model.Nivel
 import com.example.lampara.domain.usecase.EstadoNivel
@@ -37,6 +38,7 @@ class InicioHumoTest {
         examenDisponible: Boolean = false,
         racha: Racha = Racha(0, 0, completadoHoy = false, graciaDisponibleEstaSemana = true),
     ) = InicioUiState(
+        persona = PerfilLocal("Ana", "c0", java.time.LocalDate.of(2026, 10, 1)),
         nivel = EstadoNivel(semilla, xpEnNivel = 60, xpDelNivel = 150, fraccion = 0.4f, examenDisponible = examenDisponible),
         racha = racha,
         reto = reto,
@@ -45,8 +47,9 @@ class InicioHumoTest {
     @Test
     fun muestraNivelBarraYBotonesPrincipales() {
         compose.setContent {
-            LamparaTheme { InicioContenido(estado(), onJugarPorCategoria = {}, onExamen = {}, onReto = {}) }
+            LamparaTheme { InicioContenido(estado(), onJugarPorCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
         }
+        compose.onNodeWithText("Hola, Ana").assertIsDisplayed()
         compose.onNodeWithText("Semilla").assertIsDisplayed()
         compose.onNodeWithText("Nivel 1").assertIsDisplayed()
         compose.onNodeWithText("60 de 150 XP").assertIsDisplayed()
@@ -67,6 +70,7 @@ class InicioHumoTest {
                     onJugarPorCategoria = {},
                     onExamen = { examen++ },
                     onReto = { reto++ },
+                    onPerfil = {},
                 )
             }
         }
@@ -86,7 +90,7 @@ class InicioHumoTest {
                     ),
                     onJugarPorCategoria = {},
                     onExamen = {},
-                    onReto = {},
+                    onReto = {}, onPerfil = {},
                 )
             }
         }
@@ -98,7 +102,7 @@ class InicioHumoTest {
     @Test
     fun mientrasCargaMuestraUnMensajeSinFallar() {
         compose.setContent {
-            LamparaTheme { InicioContenido(null, onJugarPorCategoria = {}, onExamen = {}, onReto = {}) }
+            LamparaTheme { InicioContenido(null, onJugarPorCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
         }
         compose.onNodeWithText("Cargando…").assertIsDisplayed()
     }

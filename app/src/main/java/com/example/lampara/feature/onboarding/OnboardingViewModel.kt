@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.lampara.core.flags.FeatureFlag
 import com.example.lampara.core.flags.FeatureFlags
 import com.example.lampara.data.datastore.AjustesRepository
+import com.example.lampara.data.repository.PerfilRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -27,11 +28,16 @@ class RaizViewModel @Inject constructor(
 class OnboardingViewModel @Inject constructor(
     private val ajustes: AjustesRepository,
     private val flags: FeatureFlags,
+    private val perfiles: PerfilRepository,
 ) : ViewModel() {
 
-    /** Termina la bienvenida; si [activarConfesion], enciende el módulo de la Confesión de 1689. */
-    fun terminar(activarConfesion: Boolean, alTerminar: () -> Unit) {
+    /**
+     * Termina la bienvenida; si [activarConfesion], enciende el módulo de la Confesión de 1689.
+     * Un [nombre] vacío conserva el nombre por defecto.
+     */
+    fun terminar(nombre: String, avatar: String, activarConfesion: Boolean, alTerminar: () -> Unit) {
         viewModelScope.launch {
+            perfiles.guardar(nombre, avatar)
             flags.establecer(FeatureFlag.CONFESION_1689, activarConfesion)
             ajustes.marcarOnboardingVisto()
             alTerminar()
