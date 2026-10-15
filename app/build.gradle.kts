@@ -10,11 +10,11 @@ plugins {
 
 android {
     // Para cambiar el id de paquete: namespace, applicationId y las carpetas bajo java/.
-    namespace = "com.example.lampara"
+    namespace = "com.kaironyx.diceescritura"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.lampara"
+        applicationId = "com.kaironyx.diceescritura"
         minSdk = 26
         targetSdk = 37
         versionCode = 1

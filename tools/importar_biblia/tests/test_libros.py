@@ -3,7 +3,7 @@ from pathlib import Path
 
 from importar_biblia.libros import LIBROS_RVR1960, TOTAL_CAPITULOS, TOTAL_LIBROS, normalizar_nombre
 
-KOTLIN = Path(__file__).resolve().parents[3] / "app/src/main/java/com/example/lampara/domain/model/TablaLibros.kt"
+KOTLIN = Path(__file__).resolve().parents[3] / "app/src/main/java/com/kaironyx/diceescritura/domain/model/TablaLibros.kt"
 
 
 def test_hay_66_libros_y_1189_capitulos():

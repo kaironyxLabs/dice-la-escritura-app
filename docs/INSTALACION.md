@@ -27,8 +27,8 @@ Otros comandos:
 
 ### Pruebas instrumentadas en teléfonos reales
 Dos teléfonos de prueba (TCL con Android 12 y Xiaomi con Android 15) bloquean por defecto el arranque de la app en segundo plano y la instrumentación se queda esperando:
-- **TCL:** `./gradlew connectedDebugAndroidTest` se cuelga. Lanzar a mano `adb shell am instrument -w -r com.example.lampara.test/androidx.test.runner.AndroidJUnitRunner` y, a los pocos segundos, abrir la app con `adb shell monkey -p com.example.lampara -c android.intent.category.LAUNCHER 1`.
-- **Xiaomi (HyperOS):** las pruebas de interfaz solo corren si antes se permite el arranque en segundo plano de MIUI: `adb shell appops set com.example.lampara 10021 allow` (y lo mismo para `com.example.lampara.test`). Para devolverlo: `... 10021 default`.
+- **TCL:** `./gradlew connectedDebugAndroidTest` se cuelga. Lanzar a mano `adb shell am instrument -w -r com.kaironyx.diceescritura.test/androidx.test.runner.AndroidJUnitRunner` y, a los pocos segundos, abrir la app con `adb shell monkey -p com.kaironyx.diceescritura -c android.intent.category.LAUNCHER 1`.
+- **Xiaomi (HyperOS):** las pruebas de interfaz solo corren si antes se permite el arranque en segundo plano de MIUI: `adb shell appops set com.kaironyx.diceescritura 10021 allow` (y lo mismo para `com.kaironyx.diceescritura.test`). Para devolverlo: `... 10021 default`.
 - En Git Bash, anteponer `MSYS_NO_PATHCONV=1` a los comandos `adb` con rutas como `/sdcard/...`.
 
 ## Firma de release

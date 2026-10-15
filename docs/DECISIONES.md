@@ -2,8 +2,8 @@
 
 Registro de decisiones técnicas y de producto. Las de la sección 2 del prompt inicial son fijas y no se repiten aquí.
 
-## D-001 Id de paquete provisional
-`com.example.lampara`. Para cambiarlo: `namespace` y `applicationId` en `app/build.gradle.kts`, las carpetas bajo `app/src/*/java/com/example/lampara`, las declaraciones `package`/`import` y las reglas de `app/proguard-rules.pro`.
+## D-001 Id de paquete (cerrado en D-015)
+Era provisional (`com.example.lampara`); ahora es `com.kaironyx.diceescritura`. Para cambiarlo: `namespace` y `applicationId` en `app/build.gradle.kts`, las carpetas bajo `app/src/*/java/com/kaironyx/diceescritura`, las declaraciones `package`/`import` y las reglas de `app/proguard-rules.pro`.
 
 ## D-002 Versiones (2026-10-13)
 AGP 9.4.1, Gradle 9.8.1, Kotlin 2.4.21, KSP 2.3.12, Hilt 2.60.1, Room 2.8.5, Compose BOM 2026.09.00, Navigation 2.10.2, DataStore 1.2.1 (la 1.3.0 solo está en RC), WorkManager 2.12.0. Se eligió la última versión estable de cada librería; todas viven en `gradle/libs.versions.toml`. compileSdk y targetSdk 37.
@@ -43,3 +43,6 @@ Hasta que la app se instale por primera vez en un teléfono, el esquema v1 puede
 
 ## D-014 Un solo perfil por teléfono
 La app es de uso personal: un perfil local por teléfono (nombre y color) que agrupa avance, logros y estadísticas. No se implementa C4 (varios perfiles); las preferencias siguen en DataStore global. Si algún día hiciera falta, el modelo (`perfilId` en todas las tablas) ya lo permite.
+
+## D-015 Nombre e id de paquete (2026-10-15)
+La app pasa de «Lámpara» a **Dice la Escritura**. Id de paquete y namespace: `com.kaironyx.diceescritura`; las clases `Lampara*` pasan a `DiceEscritura*`. Se conservan por compatibilidad el nombre interno de la base (`lampara.db`), el campo `formato` de la exportación (`lampara-progreso`, para leer los respaldos antiguos) y el alias del keystore (`lampara`). Al cambiar el id, Android lo trata como otra app: la anterior (`com.example.lampara`) no comparte datos y hay que desinstalarla a mano; el avance de pruebas se puede pasar exportándolo e importándolo.

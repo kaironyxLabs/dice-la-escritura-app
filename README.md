@@ -1,4 +1,4 @@
-# Lámpara
+# Dice la Escritura
 
 App Android en español para aprender la Biblia un poco cada día, sin conexión. Niveles de conocimiento, partidas por categoría, reto diario con repetición espaciada y memorización de versículos, todo basado en la Reina-Valera 1960.
 
@@ -18,7 +18,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 - 376 preguntas base y 97 de la Confesión, todas revisadas por el usuario (`reviewed: true`); además se contrastaron con el texto local de la RVR1960 o con el PDF de la Confesión (ver `docs/CONTRASTE_CONFESION.md` y `docs/REVISION_PREVIA.md`).
 
 ## Estado
-Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Cuenta local C1 a C3 hecha (decisión: un solo perfil por teléfono, sin C4). Probado en el TCL: migración Room 1→2 sobre una instalación v1 real (datos intactos) y 13/13 androidTest. Pendientes de decisión: nombre definitivo de la app e id de paquete.
+Hitos H0 a H8 completos. El texto bíblico del PDF está revisado: el importador termina sin anomalías (66 libros, 1.189 capítulos, 31.104 versículos) con las correcciones que dictó el usuario desde su edición impresa. El texto se compara con BibleGateway RVR1960 (fuente de referencia indicada por el usuario) y la app lo lee de a un libro por vez. La app se probó a mano y con pruebas instrumentadas en dos teléfonos (TCL con Android 12 y Xiaomi con Android 15): reto diario con reanudación, racha, partidas, examen de ascenso, memorizar con práctica, módulo 1689, exportar e importar el progreso, permiso y disparo puntual del recordatorio, y rotación de pantalla funcionan. Pendiente de tu parte (ver `docs/`): revisar las preguntas (`docs/REVISION_PREGUNTAS.md`, guía en `docs/CONTENIDO.md`) y respaldar el keystore. Cuenta local C1 a C3 hecha (decisión: un solo perfil por teléfono, sin C4). Probado en el TCL: migración Room 1→2 sobre una instalación v1 real (datos intactos) y 13/13 androidTest. Nombre definitivo «Dice la Escritura» e id de paquete `com.kaironyx.diceescritura` (D-015).
 
 ## Pruebas
 - `./gradlew test`: 160 pruebas JVM (dominio, contenido, texto bíblico y exportación del progreso).

@@ -1,4 +1,4 @@
-# Lámpara: guía para el trabajo en este repositorio
+# Dice la Escritura: guía para el trabajo en este repositorio
 
 App Android en español, 100 % sin conexión, para aprender la Biblia (RVR1960) por niveles. Especificación completa en `PROMPT_INICIAL_CLAUDE_CODE.md`. Decisiones tomadas en `docs/DECISIONES.md`.
 
@@ -30,7 +30,7 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 ## Stack y convenciones
 - Kotlin + Compose Material 3, una Activity, Navigation Compose con rutas tipadas (`core/navigation/Destinos.kt`).
 - MVVM (ViewModel + StateFlow), Hilt, Room, DataStore, WorkManager, kotlinx.serialization.
-- Un módulo `app`, paquetes por funcionalidad bajo `com.example.lampara` (provisional): `core`, `data`, `domain`, `feature`.
+- Un módulo `app`, paquetes por funcionalidad bajo `com.kaironyx.diceescritura`: `core`, `data`, `domain`, `feature`.
 - `domain` es Kotlin puro, sin dependencias de Android. Fechas con `java.time` y un `Clock` inyectado.
 - Todo texto visible va en `strings.xml`. Sin permiso INTERNET, sin analíticas, sin cuentas.
 - Versiones solo en `gradle/libs.versions.toml`.

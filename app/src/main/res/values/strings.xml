@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
-    <string name="app_name">Lámpara</string>
+    <string name="app_name">Dice la Escritura</string>
 
     <!-- Bienvenida -->
-    <string name="onboarding_titulo">Bienvenido a Lámpara</string>
+    <string name="onboarding_titulo">Bienvenido a Dice la Escritura</string>
     <string name="onboarding_intro">Aprende la Biblia un poco cada día, sin conexión a internet. Todo se basa en la Reina-Valera 1960 y tu progreso se guarda solo en este teléfono.</string>
     <string name="onboarding_perfil_titulo">¿Cómo te llamas?</string>
     <string name="onboarding_perfil_descripcion">Es solo un nombre y un color para esta app; no hay cuenta ni registro y no sale de tu teléfono. Si prefieres no ponerlo, usaremos «Estudiante».</string>
@@ -172,7 +172,7 @@
 
     <!-- Acerca de -->
     <string name="ajustes_acerca_titulo">Acerca de</string>
-    <string name="ajustes_acerca_version">Lámpara, versión %1$s</string>
+    <string name="ajustes_acerca_version">Dice la Escritura, versión %1$s</string>
     <string name="ajustes_acerca_descripcion">App para aprender la Biblia un poco cada día, sin conexión. Sin anuncios, sin analíticas y sin cuentas: tus datos viven solo en este teléfono. El texto bíblico es la Reina-Valera 1960 y lo aporta cada usuario. Tipografías Inter y Source Serif 4 bajo licencia SIL Open Font 1.1.</string>
 
     <!-- Ajustes y recordatorio -->
