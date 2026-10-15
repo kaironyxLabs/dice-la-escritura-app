@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.domain.model.Categoria
 import com.kaironyx.diceescritura.feature.nombreRes
 
@@ -39,7 +40,7 @@ fun CategoriasScreen(
         )
         val lista = categorias
         if (lista == null) {
-            Text(stringResource(R.string.cargando), modifier = Modifier.padding(24.dp))
+            EstadoCargando()
         } else {
             LazyColumn(
                 contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 24.dp, vertical = 8.dp),

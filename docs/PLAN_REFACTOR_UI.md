@@ -94,7 +94,7 @@ Todo el movimiento debe poder reducirse o apagarse si el sistema tiene activada 
 ## 9. Etapas (cada una termina con test, lint y assembleDebug en verde)
 
 - **U0 Sistema de diseño (hecha, 15-oct).** Paleta bíblica con prueba de contraste, títulos en serifa, formas y espaciado (`core/theme`), componentes base en `core/ui` (tarjeta, botones, chip de cita, barra animada, insignia de nivel, retroalimentación) y catálogo de componentes accesible desde Ajustes solo en debug. Los iconos propios llegan con U2.
-- **U1 Navegación y estructura.** Barra inferior rediseñada, transiciones, estados vacíos y de carga.
+- **U1 Navegación y estructura (hecha, 15-oct).** Barra inferior con los colores del tema, transiciones entre pantallas (atenuación y desplazamiento breve, apagadas si el sistema quita las animaciones) y componentes comunes de estado de carga y estado vacío (`core/ui/Estados.kt`).
 - **U2 Inicio y mapa de niveles.** Panel de avance, jardín, ilustraciones de los 10 niveles.
 - **U3 Partida.** Tarjeta de pregunta, retroalimentación, ordenar con arrastre, resultado, animación de subida de nivel.
 - **U4 Reto diario y racha.** Indicadores, lámpara y celebración.

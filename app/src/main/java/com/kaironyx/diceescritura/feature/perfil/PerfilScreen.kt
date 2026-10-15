@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.domain.usecase.NombrePerfil
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
@@ -61,7 +62,7 @@ fun PerfilScreen(
     ) {
         Text(stringResource(R.string.perfil_titulo), style = MaterialTheme.typography.headlineMedium)
         if (actual == null || nombre == null || avatar == null) {
-            Text(stringResource(R.string.cargando))
+            EstadoCargando()
             return@Column
         }
         EditorPerfil(nombre!!, avatar!!, { nombre = it }, { avatar = it })

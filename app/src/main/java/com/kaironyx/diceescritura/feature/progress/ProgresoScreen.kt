@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.domain.usecase.PrecisionCategoria
 import com.kaironyx.diceescritura.domain.usecase.ResumenHistorial
 import com.kaironyx.diceescritura.feature.nombreRes
@@ -47,7 +48,7 @@ fun ProgresoScreen(viewModel: ProgresoViewModel = hiltViewModel()) {
         Text(stringResource(R.string.titulo_progreso), style = MaterialTheme.typography.headlineMedium)
         val e = estado
         if (e == null) {
-            Text(stringResource(R.string.cargando))
+            EstadoCargando()
             return@Column
         }
         ResumenNivel(e)

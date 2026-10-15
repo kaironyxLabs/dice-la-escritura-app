@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
@@ -49,7 +50,7 @@ fun MemorizarScreen(
             modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 16.dp, bottom = 8.dp),
         )
         when (val e = estado) {
-            MemorizarUiState.Cargando -> Text(stringResource(R.string.cargando), modifier = Modifier.padding(24.dp))
+            MemorizarUiState.Cargando -> EstadoCargando()
             is MemorizarUiState.Listo -> {
                 if (e.texto != EstadoTexto.INSTALADO) AvisoTextoFaltante(e.texto)
                 FilterChip(

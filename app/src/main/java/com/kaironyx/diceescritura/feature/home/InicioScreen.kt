@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.data.repository.PerfilLocal
 import com.kaironyx.diceescritura.feature.perfil.AvatarCircular
 import com.kaironyx.diceescritura.domain.usecase.EstadoNivel
@@ -62,7 +63,7 @@ fun InicioContenido(
     ) {
         if (estado == null) {
             Text(stringResource(R.string.titulo_inicio), style = MaterialTheme.typography.headlineMedium)
-            Text(stringResource(R.string.cargando))
+            EstadoCargando()
             return@Column
         }
         Saludo(estado.persona, onPerfil)

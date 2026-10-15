@@ -2,6 +2,7 @@ package com.kaironyx.diceescritura.feature.quiz
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -36,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.domain.model.Contenido
 import com.kaironyx.diceescritura.domain.usecase.Respuesta
 
@@ -46,7 +48,7 @@ fun PartidaScreen(
 ) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
     when (val e = estado) {
-        PartidaUiState.Cargando -> MensajeCentrado(stringResource(R.string.cargando))
+        PartidaUiState.Cargando -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { EstadoCargando() }
         is PartidaUiState.SinPreguntas -> SinPreguntas(e.motivo, onSalir)
         is PartidaUiState.EnCurso -> PreguntaEnCurso(
             estado = e,
@@ -57,17 +59,6 @@ fun PartidaScreen(
             onSiguiente = viewModel::siguiente,
         )
         is PartidaUiState.Terminada -> Resultado(e, onSalir)
-    }
-}
-
-@Composable
-private fun MensajeCentrado(texto: String) {
-    Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally,
-    ) {
-        Text(texto, style = MaterialTheme.typography.bodyLarge)
     }
 }
 

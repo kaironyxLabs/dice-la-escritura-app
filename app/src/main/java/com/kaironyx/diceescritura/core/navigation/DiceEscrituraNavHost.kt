@@ -1,11 +1,20 @@
 package com.kaironyx.diceescritura.core.navigation
 
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,6 +33,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.kaironyx.diceescritura.BuildConfig
 import com.kaironyx.diceescritura.core.ui.CatalogoComponentes
+import com.kaironyx.diceescritura.core.ui.rememberAnimacionesActivas
 import com.kaironyx.diceescritura.feature.home.InicioScreen
 import com.kaironyx.diceescritura.feature.memorize.MemorizarScreen
 import com.kaironyx.diceescritura.feature.memorize.PracticaScreen
@@ -61,7 +71,7 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
     Scaffold(
         bottomBar = {
             if (!actual.sinBarra()) {
-                NavigationBar {
+                NavigationBar(containerColor = MaterialTheme.colorScheme.surfaceContainer) {
                     DestinoPrincipal.entries.forEach { item ->
                         val etiqueta = stringResource(item.etiqueta)
                         NavigationBarItem(
@@ -75,16 +85,26 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
                             },
                             icon = { Icon(item.icono, contentDescription = null) },
                             label = { Text(etiqueta) },
+                            colors = NavigationBarItemDefaults.colors(
+                                indicatorColor = MaterialTheme.colorScheme.primaryContainer,
+                                selectedIconColor = MaterialTheme.colorScheme.onPrimaryContainer,
+                                selectedTextColor = MaterialTheme.colorScheme.onSurface,
+                            ),
                         )
                     }
                 }
             }
         },
     ) { padding ->
+        val animar = rememberAnimacionesActivas()
         NavHost(
             navController = navController,
             startDestination = inicio,
             modifier = Modifier.padding(padding),
+            enterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { it / 12 } else EnterTransition.None },
+            exitTransition = { if (animar) fadeOut(tween(160)) else ExitTransition.None },
+            popEnterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { -it / 12 } else EnterTransition.None },
+            popExitTransition = { if (animar) fadeOut(tween(160)) + slideOutHorizontally(tween(220)) { it / 12 } else ExitTransition.None },
         ) {
             composable<Destino.Onboarding> {
                 OnboardingScreen(

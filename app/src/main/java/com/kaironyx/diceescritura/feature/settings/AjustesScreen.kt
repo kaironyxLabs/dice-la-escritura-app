@@ -42,6 +42,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.BuildConfig
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.notifications.Notificaciones
 import java.time.LocalDate
 import java.time.LocalTime
@@ -73,7 +74,7 @@ fun AjustesScreen(onCatalogo: (() -> Unit)? = null, viewModel: AjustesViewModel 
         Text(stringResource(R.string.titulo_ajustes), style = MaterialTheme.typography.headlineMedium)
         val actual = estado
         if (actual == null) {
-            Text(stringResource(R.string.cargando))
+            EstadoCargando()
             return@Column
         }
         Text(stringResource(R.string.ajustes_contenido_titulo), style = MaterialTheme.typography.titleMedium)
