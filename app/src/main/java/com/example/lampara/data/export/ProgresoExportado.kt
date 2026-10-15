@@ -2,6 +2,7 @@ package com.example.lampara.data.export
 
 import com.example.lampara.data.db.TipoSesion
 import com.example.lampara.domain.model.Categoria
+import com.example.lampara.domain.usecase.NombrePerfil
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
@@ -12,6 +13,8 @@ data class ProgresoExportado(
     val version: Int = VERSION,
     /** Instante de la exportación (ISO-8601). Solo informativo. */
     val exportadoEn: String,
+    /** Quién es la persona (versión 2). Los archivos de la versión 1 no lo traen. */
+    val usuario: UsuarioExp? = null,
     val perfil: PerfilExp,
     val preguntas: List<PreguntaExp> = emptyList(),
     val sesiones: List<SesionExp> = emptyList(),
@@ -21,10 +24,18 @@ data class ProgresoExportado(
 ) {
     companion object {
         const val FORMATO = "lampara-progreso"
-        const val VERSION = 1
+        const val VERSION = 2
+
+        /** Versión más antigua que todavía se sabe leer. */
+        const val VERSION_MINIMA = 1
     }
 }
 
+/** Nombre, avatar y fecha de creación del perfil local. */
+@Serializable
+data class UsuarioExp(val nombre: String, val avatar: String, val creadoEnMs: Long)
+
+/** Nivel y XP. */
 @Serializable
 data class PerfilExp(val nivel: Int, val xp: Int)
 
@@ -109,8 +120,15 @@ object CodecProgreso {
     fun validar(p: ProgresoExportado): List<String> {
         val e = mutableListOf<String>()
         if (p.formato != ProgresoExportado.FORMATO) e += "Formato desconocido: \"${p.formato}\"."
-        if (p.version != ProgresoExportado.VERSION) {
-            e += "Versión ${p.version} no compatible (esta app lee la ${ProgresoExportado.VERSION})."
+        if (p.version !in ProgresoExportado.VERSION_MINIMA..ProgresoExportado.VERSION) {
+            e += "Versión ${p.version} no compatible (esta app lee de la ${ProgresoExportado.VERSION_MINIMA} a la ${ProgresoExportado.VERSION})."
+        }
+        if (p.version < 2 && p.usuario != null) e += "Un archivo de la versión 1 no puede traer usuario."
+        p.usuario?.let {
+            if (NombrePerfil.normalizar(it.nombre) == null || it.nombre.length > NombrePerfil.MAX || it.creadoEnMs < 0) {
+                e += "Nombre de usuario inválido."
+            }
+            if (NombrePerfil.avatarValido(it.avatar) != it.avatar) e += "Avatar desconocido: \"${it.avatar}\"."
         }
         if (p.perfil.nivel < 1 || p.perfil.xp < 0) e += "Perfil inválido (nivel ${p.perfil.nivel}, XP ${p.perfil.xp})."
         if (p.preguntas.map { it.preguntaId }.toSet().size != p.preguntas.size) e += "Hay preguntas repetidas."

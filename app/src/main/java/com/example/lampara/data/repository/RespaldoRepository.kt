@@ -19,6 +19,7 @@ import com.example.lampara.data.export.PreguntaExp
 import com.example.lampara.data.export.ProgresoExportado
 import com.example.lampara.data.export.RetoExp
 import com.example.lampara.data.export.SesionExp
+import com.example.lampara.data.export.UsuarioExp
 import com.example.lampara.data.export.VersiculoExp
 import kotlinx.coroutines.flow.first
 import java.time.Clock
@@ -47,8 +48,10 @@ class RespaldoRepository @Inject constructor(
     suspend fun exportar(): ProgresoExportado {
         val id = activo.actual
         val perfil = db.avanceDao().obtener(id)
+        val usuario = db.perfilUsuarioDao().obtener(id)
         return ProgresoExportado(
             exportadoEn = Instant.now(clock).toString(),
+            usuario = usuario?.let { UsuarioExp(it.nombre, it.avatar, it.creadoEnMs) },
             perfil = PerfilExp(perfil?.nivel ?: 1, perfil?.xp ?: 0),
             preguntas = db.progresoPreguntaDao().todos(id).map {
                 PreguntaExp(it.preguntaId, it.caja, it.proximaFechaDia, it.aciertos, it.fallos, it.ultimaFechaDia)
@@ -83,6 +86,13 @@ class RespaldoRepository @Inject constructor(
         }
         db.withTransaction {
             val id = activo.actual
+            // La identidad solo cambia si el archivo la trae (versión 2); uno de la versión 1 conserva la actual.
+            progreso.usuario?.let { u ->
+                val actual = db.perfilUsuarioDao().obtener(id)
+                if (actual != null) {
+                    db.perfilUsuarioDao().guardar(actual.copy(nombre = u.nombre, avatar = u.avatar, creadoEnMs = u.creadoEnMs))
+                }
+            }
             db.avanceDao().borrar(id)
             db.progresoPreguntaDao().borrarTodos(id)
             db.sesionDao().borrarTodas(id)

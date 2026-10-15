@@ -8,6 +8,7 @@ import com.example.lampara.data.export.PreguntaExp
 import com.example.lampara.data.export.ProgresoExportado
 import com.example.lampara.data.export.RetoExp
 import com.example.lampara.data.export.SesionExp
+import com.example.lampara.data.export.UsuarioExp
 import com.example.lampara.data.export.VersiculoExp
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
@@ -17,6 +18,7 @@ class ProgresoExportadoTest {
 
     private fun ejemplo() = ProgresoExportado(
         exportadoEn = "2026-10-13T12:00:00Z",
+        usuario = UsuarioExp("Ana María", "c3", 1_760_000_000_000),
         perfil = PerfilExp(nivel = 3, xp = 612),
         preguntas = listOf(
             PreguntaExp("core-libros-0001", caja = 2, proximaFechaDia = 20_000, aciertos = 4, fallos = 1, ultimaFechaDia = 19_998),
@@ -58,7 +60,7 @@ class ProgresoExportadoTest {
     fun `el archivo lleva formato y version`() {
         val json = CodecProgreso.aJson(ejemplo())
         assertTrue("\"formato\":\"lampara-progreso\"" in json)
-        assertTrue("\"version\":1" in json)
+        assertTrue("\"version\":2" in json)
     }
 
     private fun invalido(texto: String): List<String> =
@@ -74,9 +76,21 @@ class ProgresoExportadoTest {
     }
 
     @Test
+    fun `lee un archivo de la version 1 sin usuario`() {
+        val v1 = CodecProgreso.aJson(ejemplo().copy(usuario = null, version = 1))
+            .replace("\"usuario\":null,", "")
+        assertTrue("usuario" !in v1)
+        val lectura = CodecProgreso.leer(v1)
+        assertTrue(lectura.toString(), lectura is LecturaProgreso.Valido)
+        assertEquals(null, (lectura as LecturaProgreso.Valido).progreso.usuario)
+        assertEquals(1, lectura.progreso.version)
+    }
+
+    @Test
     fun `rechaza otra version o formato`() {
         val json = CodecProgreso.aJson(ejemplo())
-        assertTrue(invalido(json.replace("\"version\":1", "\"version\":2")).any { "Versión" in it })
+        assertTrue(invalido(json.replace("\"version\":2", "\"version\":3")).any { "Versión" in it })
+        assertTrue(invalido(json.replace("\"version\":2", "\"version\":0")).any { "Versión" in it })
         assertTrue(invalido(json.replace("lampara-progreso", "otra-cosa")).any { "Formato" in it })
     }
 
@@ -96,6 +110,10 @@ class ProgresoExportadoTest {
         assertTrue(errores(base.copy(retos = listOf(base.retos[0].copy(respondidas = 3, aciertos = 1)))).isNotEmpty())
         assertTrue(errores(base.copy(versiculos = listOf(base.versiculos[0].copy(grado = 4)))).isNotEmpty())
         assertTrue(errores(base.copy(ajustes = base.ajustes.copy(recordatorioMinutos = 1_440))).isNotEmpty())
+        assertTrue(errores(base.copy(usuario = UsuarioExp("   ", "c0", 0))).isNotEmpty())
+        assertTrue(errores(base.copy(usuario = UsuarioExp("x".repeat(31), "c0", 0))).isNotEmpty())
+        assertTrue(errores(base.copy(usuario = UsuarioExp("Ana", "rojo", 0))).isNotEmpty())
+        assertTrue(errores(base.copy(version = 1)).any { "versión 1" in it })
         assertTrue(errores(base).isEmpty())
     }
 }
