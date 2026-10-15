@@ -1,0 +1,643 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-cartas-0046",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué carta se afirma que la paga del pecado es muerte, pero que el don de Dios es vida eterna?",
+      "options": [
+        "Hebreos",
+        "Gálatas",
+        "Romanos",
+        "Efesios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 6:23"
+      ],
+      "explanation": "Romanos contrasta la paga del pecado, que es la muerte, con la vida eterna que Dios da en Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0047",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué carta dice que todo lo podemos en Cristo, quien nos fortalece?",
+      "options": [
+        "Colosenses",
+        "Efesios",
+        "Gálatas",
+        "Filipenses"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Filipenses 4:13"
+      ],
+      "explanation": "Pablo escribe a los filipenses que él puede todo por la fortaleza que recibe de Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0048",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué carta se exhorta a estar siempre gozosos, orar sin cesar y dar gracias en todo?",
+      "options": [
+        "2 Tesalonicenses",
+        "1 Tesalonicenses",
+        "Filemón",
+        "1 Timoteo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Tesalonicenses 5:16-18"
+      ],
+      "explanation": "Al final de la primera carta a los tesalonicenses, Pablo pide gozo constante, oración continua y gratitud en toda circunstancia.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0049",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta dice que será salvo quien confiese con su boca que Jesús es el Señor y crea en su corazón que Dios lo resucitó?",
+      "options": [
+        "Hebreos",
+        "Santiago",
+        "Romanos",
+        "1 Corintios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 10:9"
+      ],
+      "explanation": "Romanos une la confesión de Jesús como Señor con la fe en su resurrección para la salvación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0050",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué carta se promete que Dios es fiel y justo para perdonar nuestros pecados si los confesamos?",
+      "options": [
+        "Hebreos",
+        "1 Juan",
+        "Romanos",
+        "Judas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Juan 1:9"
+      ],
+      "explanation": "La primera carta de Juan enseña que Dios perdona y limpia a quienes confiesan sus pecados.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0051",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta advierte que Dios no puede ser burlado y que lo que el hombre siembre, eso mismo segará?",
+      "options": [
+        "Romanos",
+        "Filipenses",
+        "Gálatas",
+        "Efesios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Gálatas 6:7"
+      ],
+      "explanation": "Pablo recuerda a los gálatas que cada uno cosecha lo que siembra.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0052",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta afirma que Jesucristo es el mismo ayer, hoy y por los siglos?",
+      "options": [
+        "Santiago",
+        "Judas",
+        "1 Pedro",
+        "Hebreos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hebreos 13:8"
+      ],
+      "explanation": "Hebreos destaca que Jesucristo no cambia.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0053",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué carta se invita a echar sobre el Señor toda ansiedad, porque él tiene cuidado de nosotros?",
+      "options": [
+        "1 Juan",
+        "1 Pedro",
+        "2 Pedro",
+        "Santiago"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Pedro 5:7"
+      ],
+      "explanation": "Pedro anima a los creyentes a confiar al Señor sus preocupaciones porque él cuida de ellos.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0054",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta indica que quien tenga falta de sabiduría se la pida a Dios, que da a todos abundantemente y sin reproche?",
+      "options": [
+        "1 Pedro",
+        "2 Pedro",
+        "Santiago",
+        "Judas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Santiago 1:5"
+      ],
+      "explanation": "Santiago anima a pedir sabiduría a Dios, quien la da con generosidad.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0055",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué carta se dice que toda la Escritura es inspirada por Dios y útil para enseñar, corregir e instruir?",
+      "options": [
+        "1 Timoteo",
+        "Hebreos",
+        "Tito",
+        "2 Timoteo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Timoteo 3:16"
+      ],
+      "explanation": "Pablo enseña a Timoteo que la Escritura procede de Dios y sirve para formar al creyente.",
+      "tags": [
+        "pablo",
+        "escritura"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0056",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué carta pide no estar afanosos por nada y presentar a Dios las peticiones con oración y acción de gracias?",
+      "options": [
+        "1 Tesalonicenses",
+        "Filipenses",
+        "Efesios",
+        "Colosenses"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Filipenses 4:6-7"
+      ],
+      "explanation": "Pablo promete a los filipenses que la paz de Dios guardará sus corazones cuando oren en vez de afanarse.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0057",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta se ordena a los maridos amar a sus mujeres como Cristo amó a la iglesia y se entregó por ella?",
+      "options": [
+        "Gálatas",
+        "Colosenses",
+        "1 Corintios",
+        "Efesios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Efesios 5:25"
+      ],
+      "explanation": "Efesios propone el amor sacrificial de Cristo por su iglesia como modelo para el esposo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0058",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta pide ser benignos y misericordiosos, perdonándose unos a otros como Dios perdonó en Cristo?",
+      "options": [
+        "1 Tesalonicenses",
+        "Gálatas",
+        "Efesios",
+        "Filipenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 4:32"
+      ],
+      "explanation": "Pablo basa el perdón entre los creyentes en el perdón que Dios les dio en Cristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0059",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta se asegura que Dios, que es fiel, no permite ser tentados más de lo que podemos resistir y da la salida?",
+      "options": [
+        "2 Corintios",
+        "Hebreos",
+        "1 Corintios",
+        "Santiago"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 10:13"
+      ],
+      "explanation": "Pablo consuela a los corintios con la fidelidad de Dios frente a la tentación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0060",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta dice que nadie tenga en poco la juventud del destinatario, sino que sea ejemplo de los creyentes?",
+      "options": [
+        "2 Timoteo",
+        "Filemón",
+        "Tito",
+        "1 Timoteo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Timoteo 4:12"
+      ],
+      "explanation": "Pablo anima a Timoteo a ser ejemplo en palabra, conducta, amor, espíritu, fe y pureza.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0061",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta recuerda Pablo que Dios no dio espíritu de cobardía, sino de poder, de amor y de dominio propio?",
+      "options": [
+        "2 Timoteo",
+        "1 Timoteo",
+        "Tito",
+        "Filipenses"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Timoteo 1:7"
+      ],
+      "explanation": "Pablo anima a Timoteo a no avergonzarse ni temer, recordando lo que Dios le dio.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0062",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta afirma que el Señor no retarda su promesa, sino que es paciente, no queriendo que nadie perezca?",
+      "options": [
+        "2 Pedro",
+        "1 Juan",
+        "1 Pedro",
+        "Judas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Pedro 3:9"
+      ],
+      "explanation": "Pedro explica que la aparente tardanza del Señor es paciencia para dar lugar al arrepentimiento.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0063",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta se habla de una gran nube de testigos y de correr con paciencia la carrera puestos los ojos en Jesús?",
+      "options": [
+        "1 Pedro",
+        "Hebreos",
+        "Santiago",
+        "Filipenses"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 12:1-2"
+      ],
+      "explanation": "Hebreos anima a correr la carrera de la fe mirando a Jesús, autor y consumador de la fe.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0064",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué carta de Pablo menciona en su saludo inicial a los obispos y diáconos de la iglesia a la que escribe?",
+      "options": [
+        "Efesios",
+        "Filipenses",
+        "Gálatas",
+        "Romanos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Filipenses 1:1"
+      ],
+      "explanation": "El saludo de Filipenses se dirige a los santos en Filipos, con los obispos y diáconos.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0065",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quiénes se dirige la carta de Santiago?",
+      "options": [
+        "A las iglesias de Galacia",
+        "A los santos y fieles en Éfeso",
+        "A Timoteo, verdadero hijo en la fe",
+        "A las doce tribus de la dispersión"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Santiago 1:1"
+      ],
+      "explanation": "Santiago saluda a las doce tribus que están en la dispersión.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0066",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A quiénes dirige Pedro su primera carta?",
+      "options": [
+        "A los expatriados de la dispersión en el Ponto, Galacia, Capadocia, Asia y Bitinia",
+        "A todos los que están en Roma, amados de Dios",
+        "A las doce tribus que están en la dispersión",
+        "A la señora elegida y a sus hijos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Pedro 1:1"
+      ],
+      "explanation": "Pedro escribe a creyentes expatriados y dispersos por varias regiones de Asia Menor.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0067",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "En su carta a los gálatas, Pablo se dirige a la iglesia de Corinto.",
+      "answer": false,
+      "references": [
+        "Gálatas 1:2"
+      ],
+      "explanation": "Gálatas va dirigida a las iglesias de Galacia; la iglesia de Corinto recibe las cartas a los corintios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0068",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "La carta a los Hebreos comienza diciendo que Dios ha hablado en estos postreros días por el Hijo.",
+      "answer": true,
+      "references": [
+        "Hebreos 1:1-2"
+      ],
+      "explanation": "Hebreos abre contrastando lo dicho por los profetas con lo que Dios habló por medio de su Hijo.",
+      "tags": [
+        "generales"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0069",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Pablo llama a Timoteo «verdadero hijo en la fe» al comienzo de la primera carta que le escribe.",
+      "answer": true,
+      "references": [
+        "1 Timoteo 1:2"
+      ],
+      "explanation": "El saludo de 1 Timoteo lo llama verdadero hijo en la fe.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0070",
+      "module": "core",
+      "category": "cartas",
+      "type": "ordering",
+      "difficulty": 1,
+      "question": "Ordena estas cartas de Pablo según aparecen en el Nuevo Testamento.",
+      "items": [
+        "Romanos",
+        "1 Corintios",
+        "2 Corintios",
+        "Gálatas"
+      ],
+      "references": [
+        "Romanos 1:1",
+        "1 Corintios 1:1",
+        "2 Corintios 1:1",
+        "Gálatas 1:1"
+      ],
+      "explanation": "El orden en la Biblia es Romanos, 1 Corintios, 2 Corintios y Gálatas.",
+      "tags": [
+        "pablo",
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0071",
+      "module": "core",
+      "category": "cartas",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estas cartas de Pablo según aparecen en el Nuevo Testamento.",
+      "items": [
+        "Gálatas",
+        "Efesios",
+        "Filipenses",
+        "Colosenses"
+      ],
+      "references": [
+        "Gálatas 1:1",
+        "Efesios 1:1",
+        "Filipenses 1:1",
+        "Colosenses 1:1"
+      ],
+      "explanation": "El orden en la Biblia es Gálatas, Efesios, Filipenses y Colosenses.",
+      "tags": [
+        "pablo",
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0072",
+      "module": "core",
+      "category": "cartas",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estas cartas según aparecen en el Nuevo Testamento.",
+      "items": [
+        "1 Tesalonicenses",
+        "1 Timoteo",
+        "Tito",
+        "Hebreos"
+      ],
+      "references": [
+        "1 Tesalonicenses 1:1",
+        "1 Timoteo 1:1",
+        "Tito 1:1",
+        "Hebreos 1:1"
+      ],
+      "explanation": "El orden en la Biblia es 1 Tesalonicenses, 1 Timoteo, Tito y Hebreos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0073",
+      "module": "core",
+      "category": "cartas",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estas cartas generales según aparecen en el Nuevo Testamento.",
+      "items": [
+        "Santiago",
+        "1 Pedro",
+        "1 Juan",
+        "Judas"
+      ],
+      "references": [
+        "Santiago 1:1",
+        "1 Pedro 1:1",
+        "1 Juan 1:1",
+        "Judas 1"
+      ],
+      "explanation": "El orden en la Biblia es Santiago, 1 Pedro, 1 Juan y Judas.",
+      "tags": [
+        "generales",
+        "orden"
+      ],
+      "reviewed": false
+    }
+  ]
+}

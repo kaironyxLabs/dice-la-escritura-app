@@ -1,0 +1,881 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-donde_escrito-0040",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro de la Biblia se encuentra el salmo que comienza afirmando que el Señor es mi pastor y nada me faltará?",
+      "options": [
+        "Proverbios",
+        "Salmos",
+        "Isaías",
+        "Job"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 23:1"
+      ],
+      "explanation": "El Salmo 23 compara al Señor con un pastor que cuida de su oveja.",
+      "tags": [
+        "poesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0041",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se relata que un hombre estuvo tres días y tres noches dentro de un gran pez?",
+      "options": [
+        "Ester",
+        "Daniel",
+        "Josué",
+        "Jonás"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jonás 1:17"
+      ],
+      "explanation": "El libro de Jonás cuenta cómo Dios preparó un gran pez que tragó al profeta.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0042",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se relata que Daniel fue echado en el foso de los leones?",
+      "options": [
+        "Jonás",
+        "Daniel",
+        "Esdras",
+        "Ezequiel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 6:16-22"
+      ],
+      "explanation": "Daniel 6 cuenta cómo Dios envió su ángel y cerró la boca de los leones.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0043",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se cuenta que los hermanos de José lo vendieron a unos mercaderes que lo llevaron a Egipto?",
+      "options": [
+        "Números",
+        "Génesis",
+        "Éxodo",
+        "Rut"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 37:23-28"
+      ],
+      "explanation": "Génesis 37 narra cómo sus hermanos lo vendieron por veinte piezas de plata.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0044",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué libro se relata que los israelitas atravesaron el mar en seco, con las aguas como muro a ambos lados?",
+      "options": [
+        "Deuteronomio",
+        "Josué",
+        "Números",
+        "Éxodo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 14:21-22"
+      ],
+      "explanation": "Éxodo 14 cuenta que el Señor abrió el mar para que su pueblo pasara en seco.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0045",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata que Dios pidió a Abraham que ofreciera a su hijo Isaac en un monte de la tierra de Moriah?",
+      "options": [
+        "Génesis",
+        "Éxodo",
+        "Hebreos",
+        "Levítico"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 22:1-12"
+      ],
+      "explanation": "Génesis 22 narra la prueba de Abraham y cómo el ángel del Señor detuvo su mano.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0046",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro dice una mujer a su suegra que el pueblo y el Dios de ella serán los suyos?",
+      "options": [
+        "Rut",
+        "Ester",
+        "Jueces",
+        "Nehemías"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Rut 1:16"
+      ],
+      "explanation": "En Rut, una moabita decide quedarse con Noemí y adoptar su pueblo y su Dios.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0047",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro una reina pide a su pueblo ayunar tres días antes de presentarse ante el rey sin haber sido llamada?",
+      "options": [
+        "Nehemías",
+        "Rut",
+        "Daniel",
+        "Ester"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ester 4:16"
+      ],
+      "explanation": "Ester decide acudir al rey aunque eso fuera contra la ley.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0048",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata que a Sansón le cortaron las siete guedejas y los filisteos lo apresaron?",
+      "options": [
+        "1 Samuel",
+        "Jueces",
+        "Josué",
+        "Rut"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jueces 16:19-21"
+      ],
+      "explanation": "Jueces 16 cuenta cómo Sansón perdió su fuerza y fue llevado a Gaza.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0049",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro unge Samuel a David entre sus hermanos?",
+      "options": [
+        "Rut",
+        "2 Samuel",
+        "1 Reyes",
+        "1 Samuel"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 16:12-13"
+      ],
+      "explanation": "En 1 Samuel 16, el Espíritu del Señor vino sobre David desde el día en que fue ungido.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0050",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata el juicio de Salomón entre dos mujeres que disputaban por un niño vivo?",
+      "options": [
+        "1 Reyes",
+        "1 Samuel",
+        "2 Reyes",
+        "Proverbios"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 3:16-27"
+      ],
+      "explanation": "Salomón descubrió quién era la madre por la compasión de la mujer que pidió que no mataran al niño.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0051",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se cuenta cómo se reconstruyó el muro de Jerusalén en cincuenta y dos días?",
+      "options": [
+        "Daniel",
+        "Esdras",
+        "Nehemías",
+        "Ester"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Nehemías 2:17",
+        "Nehemías 6:15"
+      ],
+      "explanation": "Nehemías animó al pueblo a edificar el muro y la obra se terminó en cincuenta y dos días.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0052",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata que Pedro pidió a Jesús ir hacia él caminando sobre las aguas?",
+      "options": [
+        "Marcos",
+        "Juan",
+        "Mateo",
+        "Lucas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 14:28-29"
+      ],
+      "explanation": "Solo Mateo cuenta que Pedro descendió de la barca y anduvo sobre las aguas.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0053",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio se relata que Zaqueo, jefe de los publicanos, subió a un sicómoro para ver a Jesús?",
+      "options": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 19:2-6"
+      ],
+      "explanation": "Lucas cuenta que Jesús vio a Zaqueo en el árbol y se hospedó en su casa.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0054",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio dice Jesús: «Yo soy el buen pastor»?",
+      "options": [
+        "Mateo",
+        "Lucas",
+        "Juan",
+        "Marcos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 10:11"
+      ],
+      "explanation": "En Juan 10, Jesús se presenta como el buen pastor que da su vida por las ovejas.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0055",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué Evangelio dice Jesús que él es el camino, la verdad y la vida?",
+      "options": [
+        "Juan",
+        "Marcos",
+        "Mateo",
+        "Lucas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 14:6"
+      ],
+      "explanation": "En Juan 14, Jesús afirma que nadie viene al Padre sino por él.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0056",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata la muerte de Esteban, apedreado mientras pedía que el Señor no tomara en cuenta ese pecado?",
+      "options": [
+        "Romanos",
+        "Lucas",
+        "Apocalipsis",
+        "Hechos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 7:59-60"
+      ],
+      "explanation": "Hechos 7 narra la muerte de Esteban.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0057",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué libro se relata que Felipe explicó las Escrituras a un funcionario etíope que leía al profeta Isaías?",
+      "options": [
+        "Hechos",
+        "Lucas",
+        "Juan",
+        "Romanos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 8:26-31"
+      ],
+      "explanation": "Hechos 8 cuenta el encuentro de Felipe con el etíope en el camino a Gaza.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0058",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata a un hombre rico y un mendigo llamado Lázaro que murieron y tuvieron destinos distintos?",
+      "options": [
+        "Lucas",
+        "Mateo",
+        "Marcos",
+        "Juan"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 16:19-23"
+      ],
+      "explanation": "Lucas 16 relata el contraste entre el rico y Lázaro, llevado al seno de Abraham.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0059",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata que Elisabet dijo que su hijo se llamaría Juan, y no como su padre?",
+      "options": [
+        "Lucas",
+        "Marcos",
+        "Mateo",
+        "Juan"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 1:57-60"
+      ],
+      "explanation": "Lucas 1 cuenta el nacimiento de Juan, hijo de Elisabet y Zacarías.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0060",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata la parábola de un hombre que entregó cinco, dos y un talento a sus siervos antes de irse lejos?",
+      "options": [
+        "Juan",
+        "Marcos",
+        "Mateo",
+        "Lucas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 25:14-15"
+      ],
+      "explanation": "Mateo 25 reparte los talentos a cada siervo conforme a su capacidad.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0061",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué Evangelio se relata la parábola de diez vírgenes, cinco prudentes y cinco insensatas, que esperaban al esposo?",
+      "options": [
+        "Juan",
+        "Marcos",
+        "Mateo",
+        "Lucas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 25:1-4"
+      ],
+      "explanation": "Mateo 25 contrasta a las que llevaron aceite con las que no.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0062",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se relata que un carcelero preguntó a Pablo y a Silas qué debía hacer para ser salvo, tras un terremoto?",
+      "options": [
+        "Lucas",
+        "Romanos",
+        "Hechos",
+        "Filipenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 16:25-31"
+      ],
+      "explanation": "Hechos 16 cuenta que el carcelero preguntó cómo ser salvo y recibió respuesta de Pablo y Silas.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0063",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro habla Pablo a los atenienses en el Areópago sobre un altar «al Dios no conocido»?",
+      "options": [
+        "Hechos",
+        "Filipenses",
+        "1 Corintios",
+        "Romanos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 17:22-23"
+      ],
+      "explanation": "Hechos 17 recoge el discurso de Pablo en Atenas.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0064",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro un general sirio se lava siete veces en el Jordán y queda limpio de su lepra?",
+      "options": [
+        "2 Samuel",
+        "1 Reyes",
+        "Levítico",
+        "2 Reyes"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Reyes 5:10-14"
+      ],
+      "explanation": "2 Reyes 5 cuenta cómo Naamán obedeció la palabra del profeta Eliseo.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0065",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se relata que doce hombres exploraron Canaán y diez de ellos desanimaron al pueblo?",
+      "options": [
+        "Números",
+        "Josué",
+        "Deuteronomio",
+        "Éxodo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 13:1-3",
+        "Números 13:30-33"
+      ],
+      "explanation": "Números 13 narra que solo Caleb animó a subir y tomar la tierra.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0066",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro dice Moisés a Israel que el Señor es uno y que debe amarlo con todo el corazón, el alma y las fuerzas?",
+      "options": [
+        "Números",
+        "Deuteronomio",
+        "Levítico",
+        "Éxodo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Deuteronomio 6:4-5"
+      ],
+      "explanation": "Deuteronomio 6 contiene este mandato central para Israel.",
+      "tags": [
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0067",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro cruza el pueblo el Jordán en seco mientras los sacerdotes sostienen el arca del pacto?",
+      "options": [
+        "Josué",
+        "Éxodo",
+        "Números",
+        "Jueces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 3:14-17"
+      ],
+      "explanation": "Josué 3 cuenta que las aguas se detuvieron hasta que todo Israel pasó.",
+      "tags": [
+        "narracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0068",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro se afirma que todo tiene su tiempo y que todo lo que se quiere debajo del cielo tiene su hora?",
+      "options": [
+        "Eclesiastés",
+        "Salmos",
+        "Proverbios",
+        "Job"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Eclesiastés 3:1"
+      ],
+      "explanation": "Eclesiastés 3 reflexiona sobre los tiempos de la vida.",
+      "tags": [
+        "poesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0069",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libro profético invita el Señor a traer todos los diezmos al alfolí y probarlo?",
+      "options": [
+        "Amós",
+        "Hageo",
+        "Zacarías",
+        "Malaquías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Malaquías 3:10"
+      ],
+      "explanation": "Malaquías 3 llama al pueblo a traer los diezmos y promete bendición abundante.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0070",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se dice que las misericordias del Señor son nuevas cada mañana y grande es su fidelidad?",
+      "options": [
+        "Jeremías",
+        "Salmos",
+        "Isaías",
+        "Lamentaciones"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lamentaciones 3:22-23"
+      ],
+      "explanation": "Lamentaciones 3 recuerda, en medio del dolor, la fidelidad y las misericordias del Señor.",
+      "tags": [
+        "poesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0071",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro profético se anuncia que de Belén Efrata saldrá el que será Señor en Israel?",
+      "options": [
+        "Oseas",
+        "Miqueas",
+        "Nahúm",
+        "Isaías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Miqueas 5:2"
+      ],
+      "explanation": "Miqueas 5 señala a Belén como el lugar de donde vendría el gobernante de Israel.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0072",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro profético se afirma que el justo por su fe vivirá?",
+      "options": [
+        "Amós",
+        "Sofonías",
+        "Joel",
+        "Habacuc"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Habacuc 2:4"
+      ],
+      "explanation": "Habacuc 2 contrasta al orgulloso con el justo que vive por su fe.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0073",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro profético promete el Señor derramar su Espíritu sobre toda carne, para que hijos e hijas profeticen?",
+      "options": [
+        "Amós",
+        "Oseas",
+        "Malaquías",
+        "Joel"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Joel 2:28"
+      ],
+      "explanation": "Joel 2 anuncia el derramamiento del Espíritu del Señor.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0074",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro profético se anuncia a un rey justo y humilde que viene cabalgando sobre un asno?",
+      "options": [
+        "Malaquías",
+        "Joel",
+        "Hageo",
+        "Zacarías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Zacarías 9:9"
+      ],
+      "explanation": "Zacarías 9 invita a la hija de Sion a alegrarse por la venida de su rey.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0075",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se establece el día en que el pueblo debe afligir su alma y se hace expiación por sus pecados?",
+      "options": [
+        "Números",
+        "Éxodo",
+        "Deuteronomio",
+        "Levítico"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Levítico 16:29-30"
+      ],
+      "explanation": "Levítico 16 regula el día de la expiación.",
+      "tags": [
+        "ley"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0076",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué libro profético se pide que corra el juicio como las aguas y la justicia como impetuoso arroyo?",
+      "options": [
+        "Amós",
+        "Joel",
+        "Miqueas",
+        "Oseas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Amós 5:24"
+      ],
+      "explanation": "Amós 5 reclama justicia en lugar de religiosidad vacía.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0077",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué libro profético se resume lo que el Señor pide: hacer justicia, amar misericordia y humillarse ante Dios?",
+      "options": [
+        "Miqueas",
+        "Amós",
+        "Habacuc",
+        "Oseas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Miqueas 6:8"
+      ],
+      "explanation": "Miqueas 6 resume lo que Dios requiere del hombre.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    }
+  ]
+}
