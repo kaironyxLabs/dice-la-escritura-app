@@ -7,30 +7,48 @@ import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface PerfilDao {
-    @Query("SELECT * FROM perfil WHERE id = 1")
-    fun observar(): Flow<PerfilEntity?>
+interface PerfilUsuarioDao {
+    @Query("SELECT * FROM perfil_usuario WHERE id = :id")
+    fun observar(id: Long): Flow<PerfilUsuarioEntity?>
 
-    @Query("SELECT * FROM perfil WHERE id = 1")
-    suspend fun obtener(): PerfilEntity?
+    @Query("SELECT * FROM perfil_usuario WHERE id = :id")
+    suspend fun obtener(id: Long): PerfilUsuarioEntity?
+
+    @Query("SELECT * FROM perfil_usuario ORDER BY id")
+    fun observarTodos(): Flow<List<PerfilUsuarioEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun guardar(perfil: PerfilEntity)
+    suspend fun guardar(perfil: PerfilUsuarioEntity): Long
 
-    @Query("DELETE FROM perfil")
-    suspend fun borrar()
+    @Query("DELETE FROM perfil_usuario WHERE id = :id")
+    suspend fun eliminar(id: Long)
+}
+
+@Dao
+interface AvanceDao {
+    @Query("SELECT * FROM avance WHERE perfilId = :perfilId")
+    fun observar(perfilId: Long): Flow<AvanceEntity?>
+
+    @Query("SELECT * FROM avance WHERE perfilId = :perfilId")
+    suspend fun obtener(perfilId: Long): AvanceEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun guardar(avance: AvanceEntity)
+
+    @Query("DELETE FROM avance WHERE perfilId = :perfilId")
+    suspend fun borrar(perfilId: Long)
 }
 
 @Dao
 interface ProgresoPreguntaDao {
-    @Query("SELECT * FROM progreso_pregunta")
-    suspend fun todos(): List<ProgresoPreguntaEntity>
+    @Query("SELECT * FROM progreso_pregunta WHERE perfilId = :perfilId")
+    suspend fun todos(perfilId: Long): List<ProgresoPreguntaEntity>
 
-    @Query("SELECT * FROM progreso_pregunta")
-    fun observarTodos(): Flow<List<ProgresoPreguntaEntity>>
+    @Query("SELECT * FROM progreso_pregunta WHERE perfilId = :perfilId")
+    fun observarTodos(perfilId: Long): Flow<List<ProgresoPreguntaEntity>>
 
-    @Query("SELECT * FROM progreso_pregunta WHERE preguntaId = :id")
-    suspend fun obtener(id: String): ProgresoPreguntaEntity?
+    @Query("SELECT * FROM progreso_pregunta WHERE perfilId = :perfilId AND preguntaId = :id")
+    suspend fun obtener(perfilId: Long, id: String): ProgresoPreguntaEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(progreso: ProgresoPreguntaEntity)
@@ -38,53 +56,53 @@ interface ProgresoPreguntaDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardarTodos(progreso: List<ProgresoPreguntaEntity>)
 
-    @Query("DELETE FROM progreso_pregunta")
-    suspend fun borrarTodos()
+    @Query("DELETE FROM progreso_pregunta WHERE perfilId = :perfilId")
+    suspend fun borrarTodos(perfilId: Long)
 }
 
 @Dao
 interface RetoDiarioDao {
-    @Query("SELECT * FROM reto_diario WHERE fechaDia = :fechaDia")
-    suspend fun obtener(fechaDia: Long): RetoDiarioEntity?
+    @Query("SELECT * FROM reto_diario WHERE perfilId = :perfilId AND fechaDia = :fechaDia")
+    suspend fun obtener(perfilId: Long, fechaDia: Long): RetoDiarioEntity?
 
-    @Query("SELECT * FROM reto_diario WHERE fechaDia = :fechaDia")
-    fun observar(fechaDia: Long): Flow<RetoDiarioEntity?>
+    @Query("SELECT * FROM reto_diario WHERE perfilId = :perfilId AND fechaDia = :fechaDia")
+    fun observar(perfilId: Long, fechaDia: Long): Flow<RetoDiarioEntity?>
 
-    @Query("SELECT fechaDia FROM reto_diario WHERE completado = 1 ORDER BY fechaDia")
-    fun observarFechasCompletadas(): Flow<List<Long>>
+    @Query("SELECT fechaDia FROM reto_diario WHERE perfilId = :perfilId AND completado = 1 ORDER BY fechaDia")
+    fun observarFechasCompletadas(perfilId: Long): Flow<List<Long>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(reto: RetoDiarioEntity)
 
-    @Query("SELECT * FROM reto_diario ORDER BY fechaDia")
-    suspend fun todos(): List<RetoDiarioEntity>
+    @Query("SELECT * FROM reto_diario WHERE perfilId = :perfilId ORDER BY fechaDia")
+    suspend fun todos(perfilId: Long): List<RetoDiarioEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardarTodos(retos: List<RetoDiarioEntity>)
 
-    @Query("DELETE FROM reto_diario")
-    suspend fun borrarTodos()
+    @Query("DELETE FROM reto_diario WHERE perfilId = :perfilId")
+    suspend fun borrarTodos(perfilId: Long)
 }
 
 @Dao
 interface ProgresoVersiculoDao {
-    @Query("SELECT * FROM progreso_versiculo")
-    fun observarTodos(): Flow<List<ProgresoVersiculoEntity>>
+    @Query("SELECT * FROM progreso_versiculo WHERE perfilId = :perfilId")
+    fun observarTodos(perfilId: Long): Flow<List<ProgresoVersiculoEntity>>
 
-    @Query("SELECT * FROM progreso_versiculo WHERE pasajeId = :id")
-    suspend fun obtener(id: String): ProgresoVersiculoEntity?
+    @Query("SELECT * FROM progreso_versiculo WHERE perfilId = :perfilId AND pasajeId = :id")
+    suspend fun obtener(perfilId: Long, id: String): ProgresoVersiculoEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(progreso: ProgresoVersiculoEntity)
 
-    @Query("SELECT * FROM progreso_versiculo ORDER BY pasajeId")
-    suspend fun todos(): List<ProgresoVersiculoEntity>
+    @Query("SELECT * FROM progreso_versiculo WHERE perfilId = :perfilId ORDER BY pasajeId")
+    suspend fun todos(perfilId: Long): List<ProgresoVersiculoEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardarTodos(progreso: List<ProgresoVersiculoEntity>)
 
-    @Query("DELETE FROM progreso_versiculo")
-    suspend fun borrarTodos()
+    @Query("DELETE FROM progreso_versiculo WHERE perfilId = :perfilId")
+    suspend fun borrarTodos(perfilId: Long)
 }
 
 @Dao
@@ -92,15 +110,15 @@ interface SesionDao {
     @Insert
     suspend fun insertar(sesion: SesionEntity): Long
 
-    @Query("SELECT * FROM sesion WHERE fechaDia >= :desdeDia ORDER BY creadaEnMs DESC")
-    fun desde(desdeDia: Long): Flow<List<SesionEntity>>
+    @Query("SELECT * FROM sesion WHERE perfilId = :perfilId AND fechaDia >= :desdeDia ORDER BY creadaEnMs DESC")
+    fun desde(perfilId: Long, desdeDia: Long): Flow<List<SesionEntity>>
 
-    @Query("SELECT * FROM sesion ORDER BY id")
-    suspend fun todas(): List<SesionEntity>
+    @Query("SELECT * FROM sesion WHERE perfilId = :perfilId ORDER BY id")
+    suspend fun todas(perfilId: Long): List<SesionEntity>
 
     @Insert
     suspend fun insertarTodas(sesiones: List<SesionEntity>)
 
-    @Query("DELETE FROM sesion")
-    suspend fun borrarTodas()
+    @Query("DELETE FROM sesion WHERE perfilId = :perfilId")
+    suspend fun borrarTodas(perfilId: Long)
 }

@@ -24,20 +24,21 @@ data class ProgresoPasaje(
 class MemorizacionRepository @Inject constructor(
     private val db: LamparaDatabase,
     private val clock: Clock,
+    private val activo: PerfilActivo,
 ) {
     private val dao = db.progresoVersiculoDao()
 
     fun hoy(): LocalDate = LocalDate.now(clock)
 
-    fun observar(): Flow<Map<String, ProgresoPasaje>> = dao.observarTodos().map { filas ->
+    fun observar(): Flow<Map<String, ProgresoPasaje>> = activo.observar { dao.observarTodos(it) }.map { filas ->
         filas.associate { it.pasajeId to it.aDominio() }
     }
 
-    suspend fun obtener(pasajeId: String): ProgresoPasaje? = dao.obtener(pasajeId)?.aDominio()
+    suspend fun obtener(pasajeId: String): ProgresoPasaje? = dao.obtener(activo.actual, pasajeId)?.aDominio()
 
     /** Marca o desmarca un pasaje como "lo estoy memorizando"; conserva el avance si ya lo había practicado. */
     suspend fun establecerMemorizando(pasajeId: String, memorizando: Boolean) = db.withTransaction {
-        val actual = dao.obtener(pasajeId)?.aDominio()
+        val actual = dao.obtener(activo.actual, pasajeId)?.aDominio()
         val nuevo = (actual ?: ProgresoPasaje(false, Memorizacion.iniciar(hoy()), 0, 0)).copy(memorizando = memorizando)
         dao.guardar(nuevo.aEntidad(pasajeId))
     }
@@ -45,7 +46,7 @@ class MemorizacionRepository @Inject constructor(
     /** Registra el resultado de una práctica y reprograma el repaso. */
     suspend fun registrarPractica(pasajeId: String, acierto: Boolean) = db.withTransaction {
         val hoy = hoy()
-        val actual = dao.obtener(pasajeId)?.aDominio() ?: ProgresoPasaje(true, Memorizacion.iniciar(hoy), 0, 0)
+        val actual = dao.obtener(activo.actual, pasajeId)?.aDominio() ?: ProgresoPasaje(true, Memorizacion.iniciar(hoy), 0, 0)
         val nuevo = actual.copy(
             estado = Memorizacion.registrar(actual.estado, acierto, hoy),
             intentos = actual.intentos + 1,
@@ -62,6 +63,7 @@ class MemorizacionRepository @Inject constructor(
     )
 
     private fun ProgresoPasaje.aEntidad(pasajeId: String) = ProgresoVersiculoEntity(
+        perfilId = activo.actual,
         pasajeId = pasajeId,
         memorizando = memorizando,
         grado = estado.grado,

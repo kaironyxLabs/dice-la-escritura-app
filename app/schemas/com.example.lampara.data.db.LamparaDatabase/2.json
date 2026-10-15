@@ -1,0 +1,396 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "f906f9bd3e8ef3bd5e3c713279126dbb",
+    "entities": [
+      {
+        "tableName": "perfil_usuario",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nombre` TEXT NOT NULL, `avatar` TEXT NOT NULL, `creadoEnMs` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nombre",
+            "columnName": "nombre",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "avatar",
+            "columnName": "avatar",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creadoEnMs",
+            "columnName": "creadoEnMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "avance",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`perfilId` INTEGER NOT NULL, `nivel` INTEGER NOT NULL, `xp` INTEGER NOT NULL, PRIMARY KEY(`perfilId`), FOREIGN KEY(`perfilId`) REFERENCES `perfil_usuario`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "perfilId",
+            "columnName": "perfilId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nivel",
+            "columnName": "nivel",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xp",
+            "columnName": "xp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "perfilId"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "perfil_usuario",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "perfilId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "progreso_pregunta",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`perfilId` INTEGER NOT NULL, `preguntaId` TEXT NOT NULL, `caja` INTEGER NOT NULL, `proximaFechaDia` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, `fallos` INTEGER NOT NULL, `ultimaFechaDia` INTEGER NOT NULL, PRIMARY KEY(`perfilId`, `preguntaId`), FOREIGN KEY(`perfilId`) REFERENCES `perfil_usuario`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "perfilId",
+            "columnName": "perfilId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "preguntaId",
+            "columnName": "preguntaId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "caja",
+            "columnName": "caja",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "proximaFechaDia",
+            "columnName": "proximaFechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fallos",
+            "columnName": "fallos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ultimaFechaDia",
+            "columnName": "ultimaFechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "perfilId",
+            "preguntaId"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "perfil_usuario",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "perfilId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "sesion",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `perfilId` INTEGER NOT NULL, `tipo` TEXT NOT NULL, `categoria` TEXT, `fechaDia` INTEGER NOT NULL, `creadaEnMs` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, `total` INTEGER NOT NULL, `xpGanado` INTEGER NOT NULL, `aprobado` INTEGER, FOREIGN KEY(`perfilId`) REFERENCES `perfil_usuario`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "perfilId",
+            "columnName": "perfilId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tipo",
+            "columnName": "tipo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "categoria",
+            "columnName": "categoria",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "fechaDia",
+            "columnName": "fechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creadaEnMs",
+            "columnName": "creadaEnMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "total",
+            "columnName": "total",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpGanado",
+            "columnName": "xpGanado",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aprobado",
+            "columnName": "aprobado",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_sesion_perfilId",
+            "unique": false,
+            "columnNames": [
+              "perfilId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_sesion_perfilId` ON `${TABLE_NAME}` (`perfilId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "perfil_usuario",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "perfilId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "reto_diario",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`perfilId` INTEGER NOT NULL, `fechaDia` INTEGER NOT NULL, `preguntaIds` TEXT NOT NULL, `respondidas` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, `xpGanado` INTEGER NOT NULL, `completado` INTEGER NOT NULL, PRIMARY KEY(`perfilId`, `fechaDia`), FOREIGN KEY(`perfilId`) REFERENCES `perfil_usuario`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "perfilId",
+            "columnName": "perfilId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fechaDia",
+            "columnName": "fechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "preguntaIds",
+            "columnName": "preguntaIds",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "respondidas",
+            "columnName": "respondidas",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpGanado",
+            "columnName": "xpGanado",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completado",
+            "columnName": "completado",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "perfilId",
+            "fechaDia"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "perfil_usuario",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "perfilId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "progreso_versiculo",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`perfilId` INTEGER NOT NULL, `pasajeId` TEXT NOT NULL, `memorizando` INTEGER NOT NULL, `grado` INTEGER NOT NULL, `dominio` INTEGER NOT NULL, `proximaFechaDia` INTEGER NOT NULL, `intentos` INTEGER NOT NULL, `aciertos` INTEGER NOT NULL, PRIMARY KEY(`perfilId`, `pasajeId`), FOREIGN KEY(`perfilId`) REFERENCES `perfil_usuario`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "perfilId",
+            "columnName": "perfilId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pasajeId",
+            "columnName": "pasajeId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "memorizando",
+            "columnName": "memorizando",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "grado",
+            "columnName": "grado",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dominio",
+            "columnName": "dominio",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "proximaFechaDia",
+            "columnName": "proximaFechaDia",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "intentos",
+            "columnName": "intentos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "aciertos",
+            "columnName": "aciertos",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "perfilId",
+            "pasajeId"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "perfil_usuario",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "perfilId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f906f9bd3e8ef3bd5e3c713279126dbb')"
+    ]
+  }
+}

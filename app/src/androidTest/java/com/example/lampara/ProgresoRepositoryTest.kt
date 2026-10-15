@@ -6,7 +6,9 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.lampara.data.content.LectorNiveles
 import com.example.lampara.data.db.LamparaDatabase
-import com.example.lampara.data.db.PerfilEntity
+import com.example.lampara.data.db.AvanceEntity
+import com.example.lampara.data.db.PerfilUsuarioEntity
+import com.example.lampara.data.repository.PerfilActivo
 import com.example.lampara.data.repository.ProgresoRepository
 import com.example.lampara.domain.usecase.GestorNiveles
 import kotlinx.coroutines.runBlocking
@@ -30,9 +32,10 @@ class ProgresoRepositoryTest {
     fun abrir() {
         val contexto = ApplicationProvider.getApplicationContext<Context>()
         db = Room.inMemoryDatabaseBuilder(contexto, LamparaDatabase::class.java).build()
+        runBlocking { db.perfilUsuarioDao().guardar(PerfilUsuarioEntity(PerfilUsuarioEntity.ID_INICIAL, "Prueba", "", 0)) }
         val niveles = contexto.assets.open("content/levels.json").bufferedReader(Charsets.UTF_8).use { it.readText() }
         val reloj = Clock.fixed(Instant.parse("2026-10-14T15:00:00Z"), ZoneOffset.UTC)
-        repo = ProgresoRepository(db, GestorNiveles(LectorNiveles.leer(niveles)), reloj)
+        repo = ProgresoRepository(db, GestorNiveles(LectorNiveles.leer(niveles)), reloj, PerfilActivo())
     }
 
     @After
@@ -41,7 +44,7 @@ class ProgresoRepositoryTest {
     @Test
     fun devuelveElXpQueDeVerdadoEntroEnLaBarra() = runBlocking {
         // El nivel 1 se llena con 150 XP: con 140, de 25 XP ganados solo entran 10.
-        db.perfilDao().guardar(PerfilEntity(nivel = 1, xp = 140))
+        db.avanceDao().guardar(AvanceEntity(PerfilUsuarioEntity.ID_INICIAL, nivel = 1, xp = 140))
         assertEquals(10, repo.registrarRespuesta("p1", acerto = true, xp = 25))
         assertEquals(150, repo.perfilActual().xp)
 
@@ -53,7 +56,7 @@ class ProgresoRepositoryTest {
 
     @Test
     fun sinTopeEntraTodoElXpYUnaRespuestaSinXpNoCambiaElPerfil() = runBlocking {
-        db.perfilDao().guardar(PerfilEntity(nivel = 1, xp = 20))
+        db.avanceDao().guardar(AvanceEntity(PerfilUsuarioEntity.ID_INICIAL, nivel = 1, xp = 20))
         assertEquals(8, repo.registrarRespuesta("p1", acerto = true, xp = 8))
         assertEquals(28, repo.perfilActual().xp)
         assertEquals(0, repo.registrarRespuesta("p1", acerto = false, xp = 0))

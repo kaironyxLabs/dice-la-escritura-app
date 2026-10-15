@@ -28,14 +28,15 @@ data class RetoDiario(
 class RetoDiarioRepository @Inject constructor(
     private val db: LamparaDatabase,
     private val clock: Clock,
+    private val activo: PerfilActivo,
 ) {
     private val dao = db.retoDiarioDao()
 
     private fun hoy(): LocalDate = LocalDate.now(clock)
 
-    suspend fun retoDeHoy(): RetoDiario? = dao.obtener(hoy().toEpochDay())?.aDominio()
+    suspend fun retoDeHoy(): RetoDiario? = dao.obtener(activo.actual, hoy().toEpochDay())?.aDominio()
 
-    fun observarRetoDeHoy(): Flow<RetoDiario?> = dao.observar(hoy().toEpochDay()).map { it?.aDominio() }
+    fun observarRetoDeHoy(): Flow<RetoDiario?> = activo.observar { dao.observar(it, hoy().toEpochDay()) }.map { it?.aDominio() }
 
     /** Crea el reto de hoy con estas preguntas. Si ya existía uno, lo conserva y lo devuelve. */
     suspend fun crearRetoDeHoy(preguntaIds: List<String>): RetoDiario = db.withTransaction {
@@ -47,7 +48,7 @@ class RetoDiarioRepository @Inject constructor(
      * y la finalización siguen contando para el reto que se empezó, no para el día nuevo.
      */
     suspend fun registrarRespuesta(acerto: Boolean, xp: Int, fecha: LocalDate = hoy()) = db.withTransaction {
-        val actual = dao.obtener(fecha.toEpochDay())?.aDominio() ?: return@withTransaction
+        val actual = dao.obtener(activo.actual, fecha.toEpochDay())?.aDominio() ?: return@withTransaction
         dao.guardar(
             actual.copy(
                 respondidas = actual.respondidas + 1,
@@ -58,17 +59,17 @@ class RetoDiarioRepository @Inject constructor(
     }
 
     suspend fun completar(fecha: LocalDate = hoy()) = db.withTransaction {
-        val actual = dao.obtener(fecha.toEpochDay())?.aDominio() ?: return@withTransaction
+        val actual = dao.obtener(activo.actual, fecha.toEpochDay())?.aDominio() ?: return@withTransaction
         dao.guardar(actual.copy(completado = true).aEntidad())
     }
 
     /** Racha vigente calculada con los retos completados y la fecha de hoy. */
-    fun observarRacha(): Flow<Racha> = dao.observarFechasCompletadas().map { dias ->
+    fun observarRacha(): Flow<Racha> = activo.observar { dao.observarFechasCompletadas(it) }.map { dias ->
         CalculadoraRacha.calcular(dias.map { LocalDate.ofEpochDay(it) }, hoy())
     }
 
     fun observarFechasCompletadas(): Flow<List<LocalDate>> =
-        dao.observarFechasCompletadas().map { dias -> dias.map { LocalDate.ofEpochDay(it) } }
+        activo.observar { dao.observarFechasCompletadas(it) }.map { dias -> dias.map { LocalDate.ofEpochDay(it) } }
 
     /** Racha y reto de hoy juntos, para la pantalla de inicio. */
     fun observarEstado(): Flow<Pair<Racha, RetoDiario?>> =
@@ -84,6 +85,7 @@ class RetoDiarioRepository @Inject constructor(
     )
 
     private fun RetoDiario.aEntidad() = RetoDiarioEntity(
+        perfilId = activo.actual,
         fechaDia = fecha.toEpochDay(),
         preguntaIds = preguntaIds.joinToString(","),
         respondidas = respondidas,

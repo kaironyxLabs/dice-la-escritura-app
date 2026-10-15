@@ -5,6 +5,8 @@ import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.lampara.data.db.LamparaDatabase
+import com.example.lampara.data.db.PerfilUsuarioEntity
+import com.example.lampara.data.repository.PerfilActivo
 import com.example.lampara.data.repository.RetoDiarioRepository
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
@@ -47,7 +49,8 @@ class RetoDiarioRepositoryTest {
     fun abrir() {
         val contexto = ApplicationProvider.getApplicationContext<Context>()
         db = Room.inMemoryDatabaseBuilder(contexto, LamparaDatabase::class.java).build()
-        repo = RetoDiarioRepository(db, reloj)
+        runBlocking { db.perfilUsuarioDao().guardar(PerfilUsuarioEntity(PerfilUsuarioEntity.ID_INICIAL, "Prueba", "", 0)) }
+        repo = RetoDiarioRepository(db, reloj, PerfilActivo())
     }
 
     @After
@@ -62,12 +65,12 @@ class RetoDiarioRepositoryTest {
         repo.registrarRespuesta(acerto = true, xp = 8, fecha = dia1)
         repo.completar(dia1)
 
-        val reto = db.retoDiarioDao().obtener(dia1.toEpochDay())!!
+        val reto = db.retoDiarioDao().obtener(PerfilUsuarioEntity.ID_INICIAL, dia1.toEpochDay())!!
         assertEquals(2, reto.respondidas)
         assertEquals(2, reto.aciertos)
         assertEquals(16, reto.xpGanado)
         assertTrue(reto.completado)
-        assertNull(db.retoDiarioDao().obtener(dia2.toEpochDay()))
+        assertNull(db.retoDiarioDao().obtener(PerfilUsuarioEntity.ID_INICIAL, dia2.toEpochDay()))
         assertNull(repo.retoDeHoy())
     }
 

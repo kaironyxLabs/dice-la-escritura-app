@@ -5,22 +5,23 @@ import androidx.room.RoomDatabase
 
 /**
  * Base de datos del progreso. El esquema se exporta a app/schemas.
- * Mientras la app no se haya instalado en ningún teléfono, el esquema v1 puede seguir cambiando;
- * desde la primera instalación, cada cambio exige subir la versión y escribir su migración.
+ * Desde la versión 2 cada cambio sube la versión y lleva su migración (ver [MIGRACION_1_2]).
  */
 @Database(
     entities = [
-        PerfilEntity::class,
+        PerfilUsuarioEntity::class,
+        AvanceEntity::class,
         ProgresoPreguntaEntity::class,
         SesionEntity::class,
         RetoDiarioEntity::class,
         ProgresoVersiculoEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = true,
 )
 abstract class LamparaDatabase : RoomDatabase() {
-    abstract fun perfilDao(): PerfilDao
+    abstract fun perfilUsuarioDao(): PerfilUsuarioDao
+    abstract fun avanceDao(): AvanceDao
     abstract fun progresoPreguntaDao(): ProgresoPreguntaDao
     abstract fun retoDiarioDao(): RetoDiarioDao
     abstract fun progresoVersiculoDao(): ProgresoVersiculoDao

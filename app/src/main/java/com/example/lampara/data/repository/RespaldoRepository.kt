@@ -6,7 +6,7 @@ import com.example.lampara.core.flags.FeatureFlags
 import com.example.lampara.core.notifications.RecordatorioScheduler
 import com.example.lampara.data.datastore.AjustesRepository
 import com.example.lampara.data.db.LamparaDatabase
-import com.example.lampara.data.db.PerfilEntity
+import com.example.lampara.data.db.AvanceEntity
 import com.example.lampara.data.db.ProgresoPreguntaEntity
 import com.example.lampara.data.db.ProgresoVersiculoEntity
 import com.example.lampara.data.db.RetoDiarioEntity
@@ -40,28 +40,30 @@ class RespaldoRepository @Inject constructor(
     private val flags: FeatureFlags,
     private val recordatorios: RecordatorioScheduler,
     private val clock: Clock,
+    private val activo: PerfilActivo,
 ) {
     suspend fun exportarJson(): String = CodecProgreso.aJson(exportar())
 
     suspend fun exportar(): ProgresoExportado {
-        val perfil = db.perfilDao().obtener()
+        val id = activo.actual
+        val perfil = db.avanceDao().obtener(id)
         return ProgresoExportado(
             exportadoEn = Instant.now(clock).toString(),
             perfil = PerfilExp(perfil?.nivel ?: 1, perfil?.xp ?: 0),
-            preguntas = db.progresoPreguntaDao().todos().map {
+            preguntas = db.progresoPreguntaDao().todos(id).map {
                 PreguntaExp(it.preguntaId, it.caja, it.proximaFechaDia, it.aciertos, it.fallos, it.ultimaFechaDia)
             },
-            sesiones = db.sesionDao().todas().map {
+            sesiones = db.sesionDao().todas(id).map {
                 SesionExp(it.tipo, it.categoria, it.fechaDia, it.creadaEnMs, it.aciertos, it.total, it.xpGanado, it.aprobado)
             },
-            retos = db.retoDiarioDao().todos().map {
+            retos = db.retoDiarioDao().todos(id).map {
                 RetoExp(
                     it.fechaDia,
                     if (it.preguntaIds.isEmpty()) emptyList() else it.preguntaIds.split(','),
                     it.respondidas, it.aciertos, it.xpGanado, it.completado,
                 )
             },
-            versiculos = db.progresoVersiculoDao().todos().map {
+            versiculos = db.progresoVersiculoDao().todos(id).map {
                 VersiculoExp(it.pasajeId, it.memorizando, it.grado, it.dominio, it.proximaFechaDia, it.intentos, it.aciertos)
             },
             ajustes = AjustesExp(
@@ -80,30 +82,31 @@ class RespaldoRepository @Inject constructor(
             is LecturaProgreso.Invalido -> return ResultadoImportacion.Rechazada(lectura.errores)
         }
         db.withTransaction {
-            db.perfilDao().borrar()
-            db.progresoPreguntaDao().borrarTodos()
-            db.sesionDao().borrarTodas()
-            db.retoDiarioDao().borrarTodos()
-            db.progresoVersiculoDao().borrarTodos()
+            val id = activo.actual
+            db.avanceDao().borrar(id)
+            db.progresoPreguntaDao().borrarTodos(id)
+            db.sesionDao().borrarTodas(id)
+            db.retoDiarioDao().borrarTodos(id)
+            db.progresoVersiculoDao().borrarTodos(id)
 
-            db.perfilDao().guardar(PerfilEntity(nivel = progreso.perfil.nivel, xp = progreso.perfil.xp))
+            db.avanceDao().guardar(AvanceEntity(perfilId = id, nivel = progreso.perfil.nivel, xp = progreso.perfil.xp))
             db.progresoPreguntaDao().guardarTodos(progreso.preguntas.map {
-                ProgresoPreguntaEntity(it.preguntaId, it.caja, it.proximaFechaDia, it.aciertos, it.fallos, it.ultimaFechaDia)
+                ProgresoPreguntaEntity(id, it.preguntaId, it.caja, it.proximaFechaDia, it.aciertos, it.fallos, it.ultimaFechaDia)
             })
             db.sesionDao().insertarTodas(progreso.sesiones.map {
                 SesionEntity(
-                    tipo = it.tipo, categoria = it.categoria, fechaDia = it.fechaDia, creadaEnMs = it.creadaEnMs,
+                    perfilId = id, tipo = it.tipo, categoria = it.categoria, fechaDia = it.fechaDia, creadaEnMs = it.creadaEnMs,
                     aciertos = it.aciertos, total = it.total, xpGanado = it.xpGanado, aprobado = it.aprobado,
                 )
             })
             db.retoDiarioDao().guardarTodos(progreso.retos.map {
                 RetoDiarioEntity(
-                    it.fechaDia, it.preguntaIds.joinToString(","), it.respondidas, it.aciertos, it.xpGanado, it.completado,
+                    id, it.fechaDia, it.preguntaIds.joinToString(","), it.respondidas, it.aciertos, it.xpGanado, it.completado,
                 )
             })
             db.progresoVersiculoDao().guardarTodos(progreso.versiculos.map {
                 ProgresoVersiculoEntity(
-                    it.pasajeId, it.memorizando, it.grado, it.dominio, it.proximaFechaDia, it.intentos, it.aciertos,
+                    id, it.pasajeId, it.memorizando, it.grado, it.dominio, it.proximaFechaDia, it.intentos, it.aciertos,
                 )
             })
         }

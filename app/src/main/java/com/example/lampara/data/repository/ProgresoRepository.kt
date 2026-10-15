@@ -2,7 +2,7 @@ package com.example.lampara.data.repository
 
 import androidx.room.withTransaction
 import com.example.lampara.data.db.LamparaDatabase
-import com.example.lampara.data.db.PerfilEntity
+import com.example.lampara.data.db.AvanceEntity
 import com.example.lampara.data.db.ProgresoPreguntaEntity
 import com.example.lampara.data.db.SesionEntity
 import com.example.lampara.data.db.TipoSesion
@@ -36,31 +36,32 @@ class ProgresoRepository @Inject constructor(
     private val db: LamparaDatabase,
     private val gestor: GestorNiveles,
     private val clock: Clock,
+    private val activo: PerfilActivo,
 ) {
-    private val perfilDao = db.perfilDao()
+    private val avanceDao = db.avanceDao()
     private val progresoDao = db.progresoPreguntaDao()
     private val sesionDao = db.sesionDao()
 
     fun hoy(): LocalDate = LocalDate.now(clock)
 
-    fun perfil(): Flow<Perfil> = perfilDao.observar().map { it?.let { e -> Perfil(e.nivel, e.xp) } ?: Perfil.INICIAL }
+    fun perfil(): Flow<Perfil> = activo.observar { avanceDao.observar(it) }.map { it?.let { e -> Perfil(e.nivel, e.xp) } ?: Perfil.INICIAL }
 
-    suspend fun perfilActual(): Perfil = perfilDao.obtener()?.let { Perfil(it.nivel, it.xp) } ?: Perfil.INICIAL
+    suspend fun perfilActual(): Perfil = avanceDao.obtener(activo.actual)?.let { Perfil(it.nivel, it.xp) } ?: Perfil.INICIAL
 
     /** Aciertos y fallos acumulados por pregunta (para las estadísticas). */
-    fun observarConteos(): Flow<Map<String, ConteoPregunta>> = progresoDao.observarTodos().map { filas ->
+    fun observarConteos(): Flow<Map<String, ConteoPregunta>> = activo.observar { progresoDao.observarTodos(it) }.map { filas ->
         filas.associate { it.preguntaId to ConteoPregunta(it.aciertos, it.fallos) }
     }
 
     /** Sesiones de los últimos [dias] días, con su categoría si fueron de una sola. */
     fun observarSesiones(dias: Int = 30): Flow<List<SesionResumida>> =
-        sesionDao.desde(hoy().minusDays((dias - 1).toLong()).toEpochDay()).map { filas ->
+        activo.observar { sesionDao.desde(it, hoy().minusDays((dias - 1).toLong()).toEpochDay()) }.map { filas ->
             filas.map {
                 SesionResumida(LocalDate.ofEpochDay(it.fechaDia), it.aciertos, it.total, it.categoria?.let(Categoria::desdeId))
             }
         }
 
-    suspend fun seguimiento(): Map<String, SeguimientoPregunta> = progresoDao.todos().associate {
+    suspend fun seguimiento(): Map<String, SeguimientoPregunta> = progresoDao.todos(activo.actual).associate {
         it.preguntaId to SeguimientoPregunta(it.caja, LocalDate.ofEpochDay(it.proximaFechaDia))
     }
 
@@ -71,10 +72,11 @@ class ProgresoRepository @Inject constructor(
      */
     suspend fun registrarRespuesta(preguntaId: String, acerto: Boolean, xp: Int): Int = db.withTransaction {
         val hoy = hoy()
-        val previo = progresoDao.obtener(preguntaId)
+        val previo = progresoDao.obtener(activo.actual, preguntaId)
         val estado = Leitner.responder(previo?.caja, acerto, hoy)
         progresoDao.guardar(
             ProgresoPreguntaEntity(
+                perfilId = activo.actual,
                 preguntaId = preguntaId,
                 caja = estado.caja,
                 proximaFechaDia = estado.proximaFecha.toEpochDay(),
@@ -103,6 +105,7 @@ class ProgresoRepository @Inject constructor(
     suspend fun guardarSesion(sesion: SesionTerminada) {
         sesionDao.insertar(
             SesionEntity(
+                perfilId = activo.actual,
                 tipo = sesion.tipo.id,
                 categoria = sesion.categoria?.id,
                 fechaDia = hoy().toEpochDay(),
@@ -116,6 +119,6 @@ class ProgresoRepository @Inject constructor(
     }
 
     private suspend fun guardarPerfil(perfil: Perfil) {
-        perfilDao.guardar(PerfilEntity(nivel = perfil.nivel, xp = perfil.xp))
+        avanceDao.guardar(AvanceEntity(perfilId = activo.actual, nivel = perfil.nivel, xp = perfil.xp))
     }
 }
