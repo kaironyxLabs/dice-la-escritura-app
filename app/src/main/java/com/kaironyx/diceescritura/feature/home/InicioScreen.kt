@@ -23,11 +23,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.onClick
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.BarraProgresoAnimada
+import com.kaironyx.diceescritura.core.ui.BotonPrincipal
+import com.kaironyx.diceescritura.core.ui.BotonSecundario
+import com.kaironyx.diceescritura.core.ui.PlantaNivel
+import com.kaironyx.diceescritura.core.ui.PuntosReto
+import com.kaironyx.diceescritura.core.ui.TarjetaContenido
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.data.repository.PerfilLocal
 import com.kaironyx.diceescritura.feature.perfil.AvatarCircular
@@ -40,10 +47,11 @@ fun InicioScreen(
     onExamen: () -> Unit,
     onReto: () -> Unit,
     onPerfil: () -> Unit,
+    onNiveles: () -> Unit,
     viewModel: InicioViewModel = hiltViewModel(),
 ) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
-    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto, onPerfil)
+    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto, onPerfil, onNiveles)
 }
 
 @Composable
@@ -53,6 +61,7 @@ fun InicioContenido(
     onExamen: () -> Unit,
     onReto: () -> Unit,
     onPerfil: () -> Unit,
+    onNiveles: () -> Unit = {},
 ) {
     Column(
         modifier = Modifier
@@ -67,22 +76,16 @@ fun InicioContenido(
             return@Column
         }
         Saludo(estado.persona, onPerfil)
-        TarjetaNivel(estado.nivel)
+        TarjetaNivel(estado.nivel, onNiveles)
         TarjetaReto(estado, onReto)
         if (estado.nivel.examenDisponible) {
             Text(
                 stringResource(R.string.examen_disponible),
                 style = MaterialTheme.typography.bodyLarge,
             )
-            Button(
-                onClick = onExamen,
-                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
-            ) { Text(stringResource(R.string.boton_examen)) }
+            BotonPrincipal(stringResource(R.string.boton_examen), onClick = onExamen)
         }
-        OutlinedButton(
-            onClick = onJugarPorCategoria,
-            modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
-        ) { Text(stringResource(R.string.boton_jugar_categoria)) }
+        BotonSecundario(stringResource(R.string.boton_jugar_categoria), onClick = onJugarPorCategoria)
     }
 }
 
@@ -111,66 +114,71 @@ private fun Saludo(persona: PerfilLocal?, onPerfil: () -> Unit) {
 }
 
 @Composable
-private fun TarjetaNivel(estado: EstadoNivel) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(
-                stringResource(R.string.nivel_numero, estado.nivel.numero),
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
+private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
+    val abrir = stringResource(R.string.inicio_ver_niveles)
+    TarjetaContenido(
+        modifier = Modifier.fillMaxWidth().semantics { onClick(label = abrir, action = null) },
+        onClick = onNiveles,
+    ) {
+        Row(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            PlantaNivel(
+                numero = estado.nivel.numero,
+                tamano = 88.dp,
+                descripcion = stringResource(R.string.niveles_descripcion_planta_actual, estado.nivel.numero, estado.nivel.nombre),
             )
-            Text(estado.nivel.nombre, style = MaterialTheme.typography.headlineSmall)
-            val porcentaje = (estado.fraccion * 100).toInt()
-            val descripcion = stringResource(R.string.descripcion_barra_xp, porcentaje)
-            LinearProgressIndicator(
-                progress = { estado.fraccion },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .semantics { contentDescription = descripcion },
-            )
-            Text(
-                text = if (estado.xpDelNivel == null) {
-                    stringResource(R.string.nivel_maximo)
-                } else {
-                    stringResource(R.string.xp_progreso, estado.xpEnNivel, estado.xpDelNivel)
-                },
-                style = MaterialTheme.typography.bodyMedium,
-            )
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    stringResource(R.string.nivel_numero, estado.nivel.numero),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Text(estado.nivel.nombre, style = MaterialTheme.typography.headlineSmall)
+            }
         }
+        val porcentaje = (estado.fraccion * 100).toInt()
+        BarraProgresoAnimada(estado.fraccion, stringResource(R.string.descripcion_barra_xp, porcentaje))
+        Text(
+            text = if (estado.xpDelNivel == null) {
+                stringResource(R.string.nivel_maximo)
+            } else {
+                stringResource(R.string.xp_progreso, estado.xpEnNivel, estado.xpDelNivel)
+            },
+            style = MaterialTheme.typography.bodyMedium,
+        )
+        Text(
+            stringResource(R.string.inicio_ver_niveles),
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.primary,
+        )
     }
 }
 
 @Composable
 private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
-            TextoRacha(estado.racha)
-            when (val reto = estado.reto) {
-                EstadoReto.SinEmpezar -> {
-                    Text(stringResource(R.string.reto_sin_empezar), style = MaterialTheme.typography.bodyMedium)
-                    BotonReto(R.string.reto_boton_empezar, onReto)
-                }
-                is EstadoReto.EnCurso -> {
-                    Text(
-                        pluralStringResource(R.plurals.reto_en_curso, reto.total, reto.respondidas, reto.total),
-                        style = MaterialTheme.typography.bodyMedium,
-                    )
-                    BotonReto(R.string.reto_boton_continuar, onReto)
-                }
-                is EstadoReto.Completado -> Text(
+    TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
+        Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
+        TextoRacha(estado.racha)
+        when (val reto = estado.reto) {
+            EstadoReto.SinEmpezar -> {
+                Text(stringResource(R.string.reto_sin_empezar), style = MaterialTheme.typography.bodyMedium)
+                BotonPrincipal(stringResource(R.string.reto_boton_empezar), onClick = onReto)
+            }
+            is EstadoReto.EnCurso -> {
+                PuntosReto(reto.respondidas, reto.total)
+                Text(
+                    pluralStringResource(R.plurals.reto_en_curso, reto.total, reto.respondidas, reto.total),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                BotonPrincipal(stringResource(R.string.reto_boton_continuar), onClick = onReto)
+            }
+            is EstadoReto.Completado -> {
+                PuntosReto(reto.total, reto.total)
+                Text(
                     pluralStringResource(R.plurals.reto_completado, reto.aciertos, reto.aciertos, reto.total),
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }
         }
-    }
-}
-
-@Composable
-private fun BotonReto(etiqueta: Int, onClick: () -> Unit) {
-    Button(onClick = onClick, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
-        Text(stringResource(etiqueta))
     }
 }
 

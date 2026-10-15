@@ -37,6 +37,7 @@ import com.kaironyx.diceescritura.core.ui.rememberAnimacionesActivas
 import com.kaironyx.diceescritura.feature.home.InicioScreen
 import com.kaironyx.diceescritura.feature.memorize.MemorizarScreen
 import com.kaironyx.diceescritura.feature.memorize.PracticaScreen
+import com.kaironyx.diceescritura.feature.niveles.NivelesScreen
 import com.kaironyx.diceescritura.feature.onboarding.OnboardingScreen
 import com.kaironyx.diceescritura.feature.onboarding.RaizViewModel
 import com.kaironyx.diceescritura.feature.perfil.PerfilScreen
@@ -121,7 +122,11 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
                     onExamen = { navController.navigate(Destino.Partida(examen = true)) },
                     onReto = { navController.navigate(Destino.Partida(reto = true)) },
                     onPerfil = { navController.navigate(Destino.Perfil) },
+                    onNiveles = { navController.navigate(Destino.Niveles) },
                 )
+            }
+            composable<Destino.Niveles> {
+                NivelesScreen(alVolver = { navController.popBackStack() })
             }
             composable<Destino.Perfil> {
                 PerfilScreen(alVolver = { navController.popBackStack() })

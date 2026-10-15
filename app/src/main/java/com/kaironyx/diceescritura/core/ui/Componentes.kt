@@ -32,6 +32,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
@@ -175,6 +176,26 @@ fun ContenedorRetroalimentacion(
                 Text(titulo, style = MaterialTheme.typography.titleMedium)
                 if (cuerpo != null) Text(cuerpo, style = MaterialTheme.typography.bodyMedium)
             }
+        }
+    }
+}
+
+/** Una fila de puntos que se van llenando (reto diario: un punto por pregunta). Es decorativa. */
+@Composable
+fun PuntosReto(llenos: Int, total: Int, modifier: Modifier = Modifier) {
+    val lleno = MaterialTheme.colorScheme.primary
+    val vacio = MaterialTheme.colorScheme.outlineVariant
+    Row(
+        modifier = modifier.clearAndSetSemantics {},
+        horizontalArrangement = Arrangement.spacedBy(Espacio.s),
+    ) {
+        repeat(total) { i ->
+            Box(
+                Modifier
+                    .size(14.dp)
+                    .clip(CircleShape)
+                    .background(if (i < llenos) lleno else vacio),
+            )
         }
     }
 }

@@ -95,7 +95,7 @@ Todo el movimiento debe poder reducirse o apagarse si el sistema tiene activada 
 
 - **U0 Sistema de diseño (hecha, 15-oct).** Paleta bíblica con prueba de contraste, títulos en serifa, formas y espaciado (`core/theme`), componentes base en `core/ui` (tarjeta, botones, chip de cita, barra animada, insignia de nivel, retroalimentación) y catálogo de componentes accesible desde Ajustes solo en debug. Los iconos propios llegan con U2.
 - **U1 Navegación y estructura (hecha, 15-oct).** Barra inferior con los colores del tema, transiciones entre pantallas (atenuación y desplazamiento breve, apagadas si el sistema quita las animaciones) y componentes comunes de estado de carga y estado vacío (`core/ui/Estados.kt`).
-- **U2 Inicio y mapa de niveles.** Panel de avance, jardín, ilustraciones de los 10 niveles.
+- **U2 Inicio y mapa de niveles (hecha, 15-oct).** Inicio con la planta del nivel, barra animada y puntos del reto diario; pantalla «Tus niveles» con los 10 niveles, su planta, lo que desbloquean y si ya se alcanzaron (se abre tocando la tarjeta del nivel). Las diez plantas son vectores propios dibujados en Compose (`core/ui/PlantasNivel.kt`). Falta el jardín como fondo y la animación de crecimiento, que van con U3 (subida de nivel).
 - **U3 Partida.** Tarjeta de pregunta, retroalimentación, ordenar con arrastre, resultado, animación de subida de nivel.
 - **U4 Reto diario y racha.** Indicadores, lámpara y celebración.
 - **U5 Memorizar y práctica.** Tarjetas, arrastrar palabras, resaltado de resultados.

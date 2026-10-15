@@ -19,6 +19,7 @@ sealed interface Destino {
     @Serializable data object Ajustes : Destino
     @Serializable data object Categorias : Destino
     @Serializable data object Perfil : Destino
+    @Serializable data object Niveles : Destino
 
     /** Catálogo de componentes de diseño; solo se registra en builds de depuración. */
     @Serializable data object Catalogo : Destino

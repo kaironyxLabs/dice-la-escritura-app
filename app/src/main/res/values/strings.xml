@@ -207,6 +207,18 @@
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
 
+    <!-- Mapa de niveles -->
+    <string name="niveles_titulo">Tus niveles</string>
+    <string name="niveles_actual">Nivel actual</string>
+    <string name="niveles_superado">Nivel alcanzado</string>
+    <string name="niveles_bloqueado">Aún sin alcanzar</string>
+    <string name="niveles_requisito">Requiere %1$d XP y aprobar el examen anterior.</string>
+    <string name="niveles_desbloquea">Desbloquea: %1$s</string>
+    <string name="niveles_dificultad">Preguntas de hasta dificultad %1$d.</string>
+    <string name="niveles_descripcion_planta">Nivel %1$d, %2$s. %3$s.</string>
+    <string name="niveles_descripcion_planta_actual">Planta del nivel %1$d: %2$s</string>
+    <string name="inicio_ver_niveles">Ver todos los niveles</string>
+
     <!-- Catálogo de componentes (solo se llega a él en builds de depuración) -->
     <string name="ajustes_catalogo">Catálogo de componentes (desarrollo)</string>
     <string name="catalogo_titulo">Catálogo de componentes</string>
