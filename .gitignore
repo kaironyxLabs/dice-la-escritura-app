@@ -33,3 +33,5 @@ docs/TEXTO_BIBLICO_informe.md
 
 # Un archivo por libro generado por el importador (texto con derechos)
 app/src/main/assets/bible/libros/
+
+.claude/settings.local.json

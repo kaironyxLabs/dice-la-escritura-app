@@ -22,7 +22,7 @@ APK en `app/build/outputs/apk/debug/app-debug.apk`. Para el APK de uso diario, f
 
 Otros comandos:
 - `./gradlew assembleRelease`: APK de release con R8 (sin firma si no hay `keystore.properties`).
-- `./gradlew connectedDebugAndroidTest`: 11 pruebas instrumentadas (interfaz y Room en memoria; requieren un dispositivo o emulador). Con más de un dispositivo conectado, `ANDROID_SERIAL=<serie>` fija el que se usa. Ver abajo las particularidades de algunos teléfonos.
+- `./gradlew connectedDebugAndroidTest`: 13 pruebas instrumentadas (interfaz y Room en memoria; requieren un dispositivo o emulador). Con más de un dispositivo conectado, `ANDROID_SERIAL=<serie>` fija el que se usa. Ver abajo las particularidades de algunos teléfonos.
 - `cd tools/importar_biblia && .venv\Scripts\python -m pytest`: pruebas del importador. `python -m pytest tools/contenido`: pruebas de los scripts de revisión.
 
 ### Pruebas instrumentadas en teléfonos reales
