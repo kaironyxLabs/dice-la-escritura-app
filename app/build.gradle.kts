@@ -57,6 +57,12 @@ android {
 
     testOptions {
         unitTests.isReturnDefaultValues = true
+        // Las pruebas de contenido leen los JSON por ruta de archivo: se declaran como entrada para
+        // que Gradle no dé por buena una ejecución anterior cuando el contenido cambia.
+        unitTests.all { prueba ->
+            prueba.inputs.dir("src/main/assets/content")
+            prueba.inputs.file("../docs/versiculos_por_capitulo.json")
+        }
     }
 
     sourceSets {

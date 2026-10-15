@@ -49,7 +49,7 @@ import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 
 @Composable
-fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
+fun AjustesScreen(onCatalogo: (() -> Unit)? = null, viewModel: AjustesViewModel = hiltViewModel()) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
     val contexto = LocalContext.current
     var permisoDenegado by remember { mutableStateOf(false) }
@@ -114,6 +114,11 @@ fun AjustesScreen(viewModel: AjustesViewModel = hiltViewModel()) {
         )
         SeccionRespaldo(viewModel)
         SeccionAcerca()
+        if (onCatalogo != null) {
+            OutlinedButton(onClick = onCatalogo, modifier = Modifier.fillMaxWidth()) {
+                Text(stringResource(R.string.ajustes_catalogo))
+            }
+        }
     }
 }
 

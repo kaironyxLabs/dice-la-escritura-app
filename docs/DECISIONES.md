@@ -46,3 +46,6 @@ La app es de uso personal: un perfil local por teléfono (nombre y color) que ag
 
 ## D-015 Nombre e id de paquete (2026-10-15)
 La app pasa de «Lámpara» a **Dice la Escritura**. Id de paquete y namespace: `com.kaironyx.diceescritura`; las clases `Lampara*` pasan a `DiceEscritura*`. Se conservan por compatibilidad el nombre interno de la base (`lampara.db`), el campo `formato` de la exportación (`lampara-progreso`, para leer los respaldos antiguos) y el alias del keystore (`lampara`). Al cambiar el id, Android lo trata como otra app: la anterior (`com.example.lampara`) no comparte datos y hay que desinstalarla a mano; el avance de pruebas se puede pasar exportándolo e importándolo.
+
+## D-016 Tono visual bíblico y logros (2026-10-15)
+El rediseño usa un tono clásico: pergamino para los fondos, tinta para el texto, verde olivo como acción principal, cuero como secundario y oro antiguo como acento; títulos en serifa (Source Serif 4) y cuerpo en Inter. Se mantiene el jardín de plantas para los niveles y se añaden logros pocos y sobrios. La paleta se verifica con `ContrasteTest` (AA, 4,5:1). El motivo de la lámpara de aceite del icono y de la racha queda pendiente de revisar con el nombre nuevo.

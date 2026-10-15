@@ -45,13 +45,14 @@ val EstiloPasaje = TextStyle(
 private val base = Typography()
 
 internal val DiceEscrituraTypography = Typography(
-    displayLarge = base.displayLarge.copy(fontFamily = InterfazFontFamily),
-    displayMedium = base.displayMedium.copy(fontFamily = InterfazFontFamily),
-    displaySmall = base.displaySmall.copy(fontFamily = InterfazFontFamily),
-    headlineLarge = base.headlineLarge.copy(fontFamily = InterfazFontFamily),
-    headlineMedium = base.headlineMedium.copy(fontFamily = InterfazFontFamily),
-    headlineSmall = base.headlineSmall.copy(fontFamily = InterfazFontFamily),
-    titleLarge = base.titleLarge.copy(fontFamily = InterfazFontFamily, fontWeight = FontWeight.SemiBold),
+    // Títulos con serifa (carácter de libro); el cuerpo y las etiquetas usan la sans de interfaz.
+    displayLarge = base.displayLarge.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    displayMedium = base.displayMedium.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    displaySmall = base.displaySmall.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    headlineLarge = base.headlineLarge.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    headlineMedium = base.headlineMedium.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    headlineSmall = base.headlineSmall.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
+    titleLarge = base.titleLarge.copy(fontFamily = PasajeFontFamily, fontWeight = FontWeight.SemiBold),
     titleMedium = base.titleMedium.copy(fontFamily = InterfazFontFamily, fontWeight = FontWeight.Medium),
     titleSmall = base.titleSmall.copy(fontFamily = InterfazFontFamily, fontWeight = FontWeight.Medium),
     bodyLarge = base.bodyLarge.copy(fontFamily = InterfazFontFamily),

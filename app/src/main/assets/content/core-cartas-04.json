@@ -542,7 +542,7 @@
       "category": "cartas",
       "type": "ordering",
       "difficulty": 1,
-      "question": "Ordena estas cartas de Pablo según aparecen en el Nuevo Testamento.",
+      "question": "Ordena estas cartas de Pablo, de Romanos a Gálatas, según aparecen en el Nuevo Testamento.",
       "items": [
         "Romanos",
         "1 Corintios",
@@ -568,7 +568,7 @@
       "category": "cartas",
       "type": "ordering",
       "difficulty": 2,
-      "question": "Ordena estas cartas de Pablo según aparecen en el Nuevo Testamento.",
+      "question": "Ordena estas cartas de Pablo, de Gálatas a Colosenses, según aparecen en el Nuevo Testamento.",
       "items": [
         "Gálatas",
         "Efesios",

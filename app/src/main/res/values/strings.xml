@@ -206,4 +206,28 @@
     <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
+
+    <!-- Catálogo de componentes (solo se llega a él en builds de depuración) -->
+    <string name="ajustes_catalogo">Catálogo de componentes (desarrollo)</string>
+    <string name="catalogo_titulo">Catálogo de componentes</string>
+    <string name="catalogo_intro">Pantalla de desarrollo para revisar el sistema de diseño en claro, oscuro y con fuente grande.</string>
+    <string name="catalogo_tipografia">Tipografía</string>
+    <string name="catalogo_muestra">Dice la Escritura</string>
+    <string name="catalogo_botones">Botones</string>
+    <string name="catalogo_boton_principal">Acción principal</string>
+    <string name="catalogo_boton_secundario">Acción secundaria</string>
+    <string name="catalogo_boton_deshabilitado">Acción no disponible</string>
+    <string name="catalogo_tarjetas">Tarjetas</string>
+    <string name="catalogo_tarjeta_titulo">Título de la tarjeta</string>
+    <string name="catalogo_tarjeta_cuerpo">Texto de apoyo de la tarjeta, con la información que el usuario necesita.</string>
+    <string name="catalogo_tarjeta_tocable">Tarjeta que se puede tocar</string>
+    <string name="catalogo_citas">Citas</string>
+    <string name="catalogo_cita_uno">Romanos 3:23</string>
+    <string name="catalogo_cita_dos">Salmos 119:105</string>
+    <string name="catalogo_progreso">Progreso e insignias</string>
+    <string name="catalogo_progreso_descripcion">Avance de muestra: 40 %%</string>
+    <string name="catalogo_retroalimentacion">Retroalimentación</string>
+    <string name="catalogo_acierto">Correcto</string>
+    <string name="catalogo_error">Incorrecto</string>
+    <string name="catalogo_explicacion">Explicación breve que remite a comprobar el pasaje en tu Biblia impresa.</string>
 </resources>

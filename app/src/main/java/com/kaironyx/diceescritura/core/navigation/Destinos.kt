@@ -20,6 +20,9 @@ sealed interface Destino {
     @Serializable data object Categorias : Destino
     @Serializable data object Perfil : Destino
 
+    /** Catálogo de componentes de diseño; solo se registra en builds de depuración. */
+    @Serializable data object Catalogo : Destino
+
     /** Práctica de memorización de un pasaje (`pasajeId` de memorize.json). */
     @Serializable data class Practica(val pasajeId: String) : Destino
 

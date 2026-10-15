@@ -22,6 +22,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.kaironyx.diceescritura.BuildConfig
+import com.kaironyx.diceescritura.core.ui.CatalogoComponentes
 import com.kaironyx.diceescritura.feature.home.InicioScreen
 import com.kaironyx.diceescritura.feature.memorize.MemorizarScreen
 import com.kaironyx.diceescritura.feature.memorize.PracticaScreen
@@ -117,7 +119,14 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
                 PracticaScreen(onSalir = { navController.popBackStack() })
             }
             composable<Destino.Progreso> { ProgresoScreen() }
-            composable<Destino.Ajustes> { AjustesScreen() }
+            composable<Destino.Ajustes> {
+                AjustesScreen(
+                    onCatalogo = if (BuildConfig.DEBUG) ({ navController.navigate(Destino.Catalogo) }) else null,
+                )
+            }
+            if (BuildConfig.DEBUG) {
+                composable<Destino.Catalogo> { CatalogoComponentes() }
+            }
         }
     }
 }

@@ -13,6 +13,7 @@ fun DiceEscrituraTheme(
     MaterialTheme(
         colorScheme = if (darkTheme) DarkColors else LightColors,
         typography = DiceEscrituraTypography,
+        shapes = DiceEscrituraShapes,
         content = content,
     )
 }
