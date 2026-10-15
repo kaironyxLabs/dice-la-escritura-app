@@ -44,7 +44,7 @@ El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se 
 - `docs/DECISIONES.md`: decisiones de diseño y sus motivos.
 - `docs/MANUAL_USUARIO.md`: manual de usuario detallado.
 - `docs/PLAN_DESARROLLO.md`: lo que falta para terminar, por etapas. Con `docs/PLAN_CUENTA_LOCAL.md` (perfil local con nombre y avatar) y `docs/PLAN_REFACTOR_UI.md` (rediseño de la interfaz).
-- Rediseño en curso: etapas U0 a U2 hechas y splash animado de pergamino (sistema de diseño, catálogo de componentes en debug, transiciones, estados de carga, plantas de los 10 niveles y mapa de niveles, ver `docs/PLAN_REFACTOR_UI.md`).
+- Rediseño en curso: etapas U0 a U2 hechas y splash en video del pergamino (sistema de diseño, catálogo de componentes en debug, transiciones, estados de carga, plantas de los 10 niveles y mapa de niveles, ver `docs/PLAN_REFACTOR_UI.md`).
 - `docs/REVISION_PREGUNTAS.md`: informe de revisión con casillas (generado con `tools/contenido/informe_revision.py`).
 - `docs/REVISION_PREVIA.md`: pasada previa de Claude sobre las preguntas (con los cambios posteriores) (problemas sistémicos, correcciones ya aplicadas al módulo base y lo pendiente de la Confesión); no marca nada como revisado.
 - `docs/licencias/`: licencias de las fuentes empaquetadas.
