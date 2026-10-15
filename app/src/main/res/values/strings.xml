@@ -207,6 +207,12 @@
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
 
+    <!-- Splash -->
+    <string name="splash_titulo">Dice la\nEscritura</string>
+    <string name="splash_lema">Aprende la Biblia un poco cada día</string>
+    <string name="splash_descripcion">Dice la Escritura</string>
+    <string name="splash_saltar">Saltar la animación de inicio</string>
+
     <!-- Mapa de niveles -->
     <string name="niveles_titulo">Tus niveles</string>
     <string name="niveles_actual">Nivel actual</string>

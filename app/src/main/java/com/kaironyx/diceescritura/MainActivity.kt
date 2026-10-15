@@ -6,7 +6,19 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
 import com.kaironyx.diceescritura.core.navigation.DiceEscrituraNavHost
+import com.kaironyx.diceescritura.core.splash.SplashBiblico
 import com.kaironyx.diceescritura.core.theme.DiceEscrituraTheme
 import com.kaironyx.diceescritura.feature.onboarding.RaizViewModel
 import dagger.hilt.android.AndroidEntryPoint
@@ -23,7 +35,15 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DiceEscrituraTheme {
-                DiceEscrituraNavHost()
+                // La app se compone debajo del splash para que cargue mientras se anima.
+                var mostrarSplash by rememberSaveable { mutableStateOf(true) }
+                val visto by raiz.onboardingVisto.collectAsStateWithLifecycle()
+                Box(Modifier.fillMaxSize()) {
+                    DiceEscrituraNavHost()
+                    AnimatedVisibility(visible = mostrarSplash, exit = fadeOut(tween(350))) {
+                        SplashBiblico(alTerminar = { mostrarSplash = false }, iniciar = visto != null)
+                    }
+                }
             }
         }
     }
