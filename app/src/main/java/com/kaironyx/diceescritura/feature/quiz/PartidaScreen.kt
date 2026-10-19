@@ -1,6 +1,7 @@
 package com.kaironyx.diceescritura.feature.quiz
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,6 +16,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilledTonalButton
@@ -24,7 +26,14 @@ import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.graphics.TransformOrigin
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -37,7 +46,13 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.theme.Espacio
+import com.kaironyx.diceescritura.core.ui.ChipCita
+import com.kaironyx.diceescritura.core.ui.ContenedorRetroalimentacion
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
+import com.kaironyx.diceescritura.core.ui.PlantaNivel
+import com.kaironyx.diceescritura.core.ui.TarjetaContenido
+import com.kaironyx.diceescritura.core.ui.rememberAnimacionesActivas
 import com.kaironyx.diceescritura.domain.model.Contenido
 import com.kaironyx.diceescritura.domain.usecase.Respuesta
 
@@ -129,7 +144,9 @@ private fun PreguntaEnCurso(
                 .padding(horizontal = 24.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Text(estado.pregunta.enunciado, style = MaterialTheme.typography.titleLarge)
+            TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
+                Text(estado.pregunta.enunciado, style = MaterialTheme.typography.titleLarge)
+            }
             when (val contenido = estado.pregunta.contenido) {
                 is Contenido.OpcionMultiple -> OpcionesMultiples(estado, contenido, onResponder)
                 is Contenido.VerdaderoFalso -> BotonesVerdaderoFalso(estado, contenido, onResponder)
@@ -210,10 +227,20 @@ private fun FilaOpcion(
         esErronea -> BorderStroke(2.dp, colores.error)
         else -> BorderStroke(1.dp, colores.outline)
     }
+    val relleno = when {
+        esCorrecta -> colores.primaryContainer
+        esErronea -> colores.errorContainer
+        else -> colores.surface
+    }
     OutlinedButton(
         onClick = onClick,
         enabled = enabled || esCorrecta || esErronea,
         border = borde,
+        colors = ButtonDefaults.outlinedButtonColors(
+            containerColor = relleno,
+            disabledContainerColor = relleno,
+            disabledContentColor = colores.onSurface,
+        ),
         modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
     ) {
         Row(
@@ -279,41 +306,24 @@ private fun Ordenar(
 @Composable
 private fun Retroalimentacion(estado: PartidaUiState.EnCurso, resultado: com.kaironyx.diceescritura.domain.usecase.ResultadoRespuesta) {
     val pregunta = estado.pregunta
-    Card(
-        modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(
-            containerColor = if (resultado.correcta) {
-                MaterialTheme.colorScheme.primaryContainer
-            } else {
-                MaterialTheme.colorScheme.errorContainer
-            },
-        ),
-    ) {
-        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    stringResource(if (resultado.correcta) R.string.correcto else R.string.incorrecto),
-                    style = MaterialTheme.typography.titleMedium,
-                )
-                if (resultado.xp > 0) {
-                    Text(stringResource(R.string.xp_ganado_aviso, resultado.xp), style = MaterialTheme.typography.labelLarge)
-                }
-            }
-            val textoCorrecto = when (val c = pregunta.contenido) {
-                is Contenido.OpcionMultiple -> stringResource(R.string.respuesta_correcta_era, c.opciones[c.indiceCorrecto])
-                is Contenido.VerdaderoFalso -> stringResource(
-                    R.string.respuesta_correcta_era,
-                    stringResource(if (c.respuesta) R.string.verdadero else R.string.falso),
-                )
-                is Contenido.Ordenar -> stringResource(R.string.orden_correcto_era, c.elementos.joinToString(", "))
-            }
-            Text(textoCorrecto, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
+    val textoCorrecto = when (val c = pregunta.contenido) {
+        is Contenido.OpcionMultiple -> stringResource(R.string.respuesta_correcta_era, c.opciones[c.indiceCorrecto])
+        is Contenido.VerdaderoFalso -> stringResource(
+            R.string.respuesta_correcta_era,
+            stringResource(if (c.respuesta) R.string.verdadero else R.string.falso),
+        )
+        is Contenido.Ordenar -> stringResource(R.string.orden_correcto_era, c.elementos.joinToString(", "))
+    }
+    val titulo = stringResource(if (resultado.correcta) R.string.correcto else R.string.incorrecto) +
+        if (resultado.xp > 0) " · " + stringResource(R.string.xp_ganado_aviso, resultado.xp) else ""
+    Column(verticalArrangement = Arrangement.spacedBy(Espacio.m)) {
+        ContenedorRetroalimentacion(acierto = resultado.correcta, titulo = titulo, cuerpo = textoCorrecto)
+        TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
             Text(stringResource(R.string.justificacion_titulo), style = MaterialTheme.typography.titleSmall)
             Text(pregunta.explicacion, style = MaterialTheme.typography.bodyMedium)
-            Text(
-                stringResource(R.string.referencias_aviso, pregunta.referencias.joinToString("; ")),
-                style = MaterialTheme.typography.labelLarge,
-            )
+            Row(horizontalArrangement = Arrangement.spacedBy(Espacio.s), modifier = Modifier.horizontalScroll(rememberScrollState())) {
+                pregunta.referencias.forEach { ChipCita(it) }
+            }
             pregunta.confesionRef?.let {
                 Text(stringResource(R.string.confesion_aviso, it), style = MaterialTheme.typography.labelLarge)
             }
@@ -345,6 +355,7 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
         }
         if (estado.modo == ModoJuego.EXAMEN) {
             val nivel = estado.nivelNuevo
+            if (estado.aprobado == true && nivel != null) PlantaCreciendo(nivel.numero)
             Text(
                 text = if (estado.aprobado == true && nivel != null) {
                     stringResource(R.string.examen_aprobado, nivel.numero, nivel.nombre)
@@ -357,5 +368,24 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
         Button(onClick = onSalir, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
             Text(stringResource(R.string.volver_inicio))
         }
+    }
+}
+
+/** La planta del nivel nuevo aparece creciendo desde el suelo; sin animaciones del sistema, aparece ya formada. */
+@Composable
+private fun PlantaCreciendo(numero: Int) {
+    val animar = rememberAnimacionesActivas()
+    val escala = remember { Animatable(if (animar) 0.3f else 1f) }
+    LaunchedEffect(Unit) { if (animar) escala.animateTo(1f, tween(900, easing = FastOutSlowInEasing)) }
+    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+        PlantaNivel(
+            numero = numero,
+            tamano = 160.dp,
+            modifier = Modifier.graphicsLayer {
+                scaleX = escala.value
+                scaleY = escala.value
+                transformOrigin = TransformOrigin(0.5f, 0.9f)
+            },
+        )
     }
 }
