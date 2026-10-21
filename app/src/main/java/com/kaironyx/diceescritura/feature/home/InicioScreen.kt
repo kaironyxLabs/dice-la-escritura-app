@@ -3,6 +3,7 @@ package com.kaironyx.diceescritura.feature.home
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -10,6 +11,23 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Email
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Place
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import com.kaironyx.diceescritura.core.theme.PasajeFontFamily
+import com.kaironyx.diceescritura.core.ui.IconoLibro
+import com.kaironyx.diceescritura.core.ui.Medallon
+import com.kaironyx.diceescritura.core.ui.Pergamino
+import com.kaironyx.diceescritura.feature.nombreRes
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.LinearProgressIndicator
@@ -30,34 +48,39 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.BarraProgresoAnimada
-import com.kaironyx.diceescritura.core.ui.BotonPrincipal
-import com.kaironyx.diceescritura.core.ui.BotonSecundario
+import com.kaironyx.diceescritura.core.ui.BotonDorado
 import com.kaironyx.diceescritura.core.ui.PlantaNivel
 import com.kaironyx.diceescritura.core.ui.PuntosReto
-import com.kaironyx.diceescritura.core.ui.TarjetaContenido
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.data.repository.PerfilLocal
+import com.kaironyx.diceescritura.domain.model.Categoria
 import com.kaironyx.diceescritura.feature.perfil.AvatarCircular
+import com.kaironyx.diceescritura.feature.quiz.CategoriasViewModel
+import com.kaironyx.diceescritura.feature.quiz.ItemCategoria
 import com.kaironyx.diceescritura.domain.usecase.EstadoNivel
 import com.kaironyx.diceescritura.domain.usecase.Racha
 
 @Composable
 fun InicioScreen(
-    onJugarPorCategoria: () -> Unit,
+    onElegirCategoria: (Categoria) -> Unit,
     onExamen: () -> Unit,
     onReto: () -> Unit,
     onPerfil: () -> Unit,
     onNiveles: () -> Unit,
     viewModel: InicioViewModel = hiltViewModel(),
+    categoriasViewModel: CategoriasViewModel = hiltViewModel(),
 ) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
-    InicioContenido(estado, onJugarPorCategoria, onExamen, onReto, onPerfil, onNiveles)
+    val categorias by categoriasViewModel.categorias.collectAsStateWithLifecycle()
+    InicioContenido(estado, categorias, onElegirCategoria, onExamen, onReto, onPerfil, onNiveles)
 }
 
 @Composable
 fun InicioContenido(
     estado: InicioUiState?,
-    onJugarPorCategoria: () -> Unit,
+    categorias: List<ItemCategoria>?,
+    onElegirCategoria: (Categoria) -> Unit,
     onExamen: () -> Unit,
     onReto: () -> Unit,
     onPerfil: () -> Unit,
@@ -67,7 +90,7 @@ fun InicioContenido(
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = 24.dp, vertical = 16.dp),
+            .padding(horizontal = 20.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         if (estado == null) {
@@ -83,9 +106,10 @@ fun InicioContenido(
                 stringResource(R.string.examen_disponible),
                 style = MaterialTheme.typography.bodyLarge,
             )
-            BotonPrincipal(stringResource(R.string.boton_examen), onClick = onExamen)
+            BotonDorado(stringResource(R.string.boton_examen), onClick = onExamen)
         }
-        BotonSecundario(stringResource(R.string.boton_jugar_categoria), onClick = onJugarPorCategoria)
+        Text(stringResource(R.string.boton_jugar_categoria), style = MaterialTheme.typography.headlineSmall)
+        if (categorias == null) EstadoCargando() else CuadriculaCategorias(categorias, onElegirCategoria)
     }
 }
 
@@ -116,7 +140,7 @@ private fun Saludo(persona: PerfilLocal?, onPerfil: () -> Unit) {
 @Composable
 private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
     val abrir = stringResource(R.string.inicio_ver_niveles)
-    TarjetaContenido(
+    TarjetaPergamino(
         modifier = Modifier.fillMaxWidth().semantics { onClick(label = abrir, action = null) },
         onClick = onNiveles,
     ) {
@@ -155,13 +179,13 @@ private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
 
 @Composable
 private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
-    TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth()) {
         Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
         TextoRacha(estado.racha)
         when (val reto = estado.reto) {
             EstadoReto.SinEmpezar -> {
                 Text(stringResource(R.string.reto_sin_empezar), style = MaterialTheme.typography.bodyMedium)
-                BotonPrincipal(stringResource(R.string.reto_boton_empezar), onClick = onReto)
+                BotonDorado(stringResource(R.string.reto_boton_empezar), onClick = onReto)
             }
             is EstadoReto.EnCurso -> {
                 PuntosReto(reto.respondidas, reto.total)
@@ -169,7 +193,7 @@ private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
                     pluralStringResource(R.plurals.reto_en_curso, reto.total, reto.respondidas, reto.total),
                     style = MaterialTheme.typography.bodyMedium,
                 )
-                BotonPrincipal(stringResource(R.string.reto_boton_continuar), onClick = onReto)
+                BotonDorado(stringResource(R.string.reto_boton_continuar), onClick = onReto)
             }
             is EstadoReto.Completado -> {
                 PuntosReto(reto.total, reto.total)
@@ -211,4 +235,69 @@ private fun TextoRacha(racha: Racha) {
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
     }
+}
+
+/** Categorías en dos columnas, cada una con su medallón. Las bloqueadas se ven atenuadas y no se tocan. */
+@Composable
+private fun CuadriculaCategorias(categorias: List<ItemCategoria>, onElegir: (Categoria) -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        categorias.chunked(2).forEach { fila ->
+            Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                fila.forEach { item ->
+                    LosaCategoria(item, onClick = { onElegir(item.categoria) }, modifier = Modifier.weight(1f))
+                }
+                if (fila.size == 1) Spacer(Modifier.weight(1f))
+            }
+        }
+    }
+}
+
+@Composable
+private fun LosaCategoria(item: ItemCategoria, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val bloqueada = item.bloqueadaHastaNivel != null
+    val habilitada = !bloqueada && item.preguntasDisponibles > 0
+    TarjetaPergamino(
+        modifier = modifier.alpha(if (habilitada) 1f else 0.55f),
+        onClick = if (habilitada) onClick else null,
+    ) {
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Medallon(item.categoria.icono())
+            Text(
+                stringResource(item.categoria.nombreRes()),
+                style = MaterialTheme.typography.titleMedium.copy(
+                    fontFamily = PasajeFontFamily,
+                    fontWeight = FontWeight.Bold,
+                    textAlign = TextAlign.Center,
+                ),
+                color = Pergamino.Tinta,
+                minLines = 2,
+            )
+            Text(
+                text = if (bloqueada) {
+                    stringResource(R.string.categoria_bloqueada, item.bloqueadaHastaNivel)
+                } else {
+                    pluralStringResource(R.plurals.preguntas_disponibles, item.preguntasDisponibles, item.preguntasDisponibles)
+                },
+                style = MaterialTheme.typography.bodySmall,
+                color = Pergamino.TintaSuave,
+                textAlign = TextAlign.Center,
+            )
+        }
+    }
+}
+
+/** Icono provisional de cada categoría, hasta que exista su ilustración. */
+private fun Categoria.icono(): ImageVector = when (this) {
+    Categoria.LIBROS -> IconoLibro
+    Categoria.HISTORIA -> Icons.Filled.DateRange
+    Categoria.PERSONAJES -> Icons.Filled.Person
+    Categoria.LUGARES -> Icons.Filled.Place
+    Categoria.ENSENANZAS -> Icons.Filled.Star
+    Categoria.CARTAS -> Icons.Filled.Email
+    Categoria.DONDE_ESTA_ESCRITO -> Icons.Filled.Search
+    Categoria.CONFESION -> Icons.Filled.Info
 }

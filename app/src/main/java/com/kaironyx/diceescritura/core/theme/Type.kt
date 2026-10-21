@@ -33,6 +33,9 @@ val PasajeFontFamily = FontFamily(
     variable(R.font.source_serif_4, FontWeight.Bold),
 )
 
+/** Letra de manuscrito (Almendra) solo para el nombre de la app en la cabecera. */
+val TituloFontFamily = FontFamily(Font(R.font.almendra_bold, FontWeight.Bold))
+
 /** Estilo del texto de un versículo; escala con el tamaño de fuente del sistema (sp). */
 val EstiloPasaje = TextStyle(
     fontFamily = PasajeFontFamily,
