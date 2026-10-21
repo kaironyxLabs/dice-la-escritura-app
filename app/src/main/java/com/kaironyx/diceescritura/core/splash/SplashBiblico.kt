@@ -39,7 +39,7 @@ private const val ANCHO_SOBRE_ALTO = 720f / 1280f
  * resto es fondo oscuro; con esto el pergamino llena más pantalla (franjas oscuras más angostas)
  * a costa de recortar un poco más los lados (con más ampliación se corta el título).
  */
-private const val ZOOM_EXTRA = 1.05f
+private const val ZOOM_EXTRA = 1.0f
 
 /**
  * Pantalla de apertura: reproduce el video del pergamino (`res/raw/splash_video.mp4`, sin audio) a
