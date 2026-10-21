@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name=".LamparaApp"
+        android:name=".DiceEscrituraApp"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="false"
@@ -15,11 +15,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lampara.Splash">
+        android:theme="@style/Theme.DiceEscritura.Splash">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Lampara.Splash">
+            android:theme="@style/Theme.DiceEscritura.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -10,11 +10,11 @@ plugins {
 
 android {
     // Para cambiar el id de paquete: namespace, applicationId y las carpetas bajo java/.
-    namespace = "com.example.lampara"
+    namespace = "com.kaironyx.diceescritura"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.lampara"
+        applicationId = "com.kaironyx.diceescritura"
         minSdk = 26
         targetSdk = 37
         versionCode = 1
@@ -57,6 +57,12 @@ android {
 
     testOptions {
         unitTests.isReturnDefaultValues = true
+        // Las pruebas de contenido leen los JSON por ruta de archivo: se declaran como entrada para
+        // que Gradle no dé por buena una ejecución anterior cuando el contenido cambia.
+        unitTests.all { prueba ->
+            prueba.inputs.dir("src/main/assets/content")
+            prueba.inputs.file("../docs/versiculos_por_capitulo.json")
+        }
     }
 
     sourceSets {

@@ -3,6 +3,6 @@
 -dontnote kotlinx.serialization.AnnotationsKt
 -keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
 -keepclasseswithmembers class kotlinx.serialization.json.** { kotlinx.serialization.KSerializer serializer(...); }
--keep,includedescriptorclasses class com.example.lampara.**$$serializer { *; }
--keepclassmembers class com.example.lampara.** { *** Companion; }
--keepclasseswithmembers class com.example.lampara.** { kotlinx.serialization.KSerializer serializer(...); }
+-keep,includedescriptorclasses class com.kaironyx.diceescritura.**$$serializer { *; }
+-keepclassmembers class com.kaironyx.diceescritura.** { *** Companion; }
+-keepclasseswithmembers class com.kaironyx.diceescritura.** { kotlinx.serialization.KSerializer serializer(...); }

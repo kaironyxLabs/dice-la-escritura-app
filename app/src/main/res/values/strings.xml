@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
-    <string name="app_name">Lámpara</string>
+    <string name="app_name">Dice la Escritura</string>
 
     <!-- Bienvenida -->
-    <string name="onboarding_titulo">Bienvenido a Lámpara</string>
+    <string name="onboarding_titulo">Bienvenido a Dice la Escritura</string>
     <string name="onboarding_intro">Aprende la Biblia un poco cada día, sin conexión a internet. Todo se basa en la Reina-Valera 1960 y tu progreso se guarda solo en este teléfono.</string>
+    <string name="onboarding_perfil_titulo">¿Cómo te llamas?</string>
+    <string name="onboarding_perfil_descripcion">Es solo un nombre y un color para esta app; no hay cuenta ni registro y no sale de tu teléfono. Si prefieres no ponerlo, usaremos «Estudiante».</string>
     <string name="onboarding_confesion_titulo">Módulo opcional: Confesión Bautista de Fe de 1689</string>
     <string name="onboarding_confesion_descripcion">Además del contenido bíblico base, la app incluye un módulo aparte con preguntas sobre la Confesión Bautista de Fe de 1689, un documento histórico de la tradición bautista reformada. Es un contenido distinto del bíblico: las preguntas del módulo base solo se apoyan en lo que el texto bíblico afirma directamente.</string>
     <string name="onboarding_confesion_cambiar">Puedes activarlo o desactivarlo cuando quieras en Ajustes. Mientras esté desactivado, no aparece en ninguna parte de la app.</string>
@@ -16,6 +18,17 @@
     <string name="nav_memorizar">Memorizar</string>
     <string name="nav_progreso">Progreso</string>
     <string name="nav_ajustes">Ajustes</string>
+
+    <!-- Perfil -->
+    <string name="perfil_titulo">Tu perfil</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_avatar">Color</string>
+    <string name="perfil_avatar_opcion">Color %1$d</string>
+    <string name="perfil_desde">Estudiando desde el %1$s</string>
+    <string name="perfil_guardar">Guardar</string>
+    <string name="perfil_cancelar">Cancelar</string>
+    <string name="inicio_saludo">Hola, %1$s</string>
+    <string name="inicio_abrir_perfil">Abrir tu perfil</string>
 
     <string name="titulo_ajustes">Ajustes</string>
 
@@ -159,7 +172,7 @@
 
     <!-- Acerca de -->
     <string name="ajustes_acerca_titulo">Acerca de</string>
-    <string name="ajustes_acerca_version">Lámpara, versión %1$s</string>
+    <string name="ajustes_acerca_version">Dice la Escritura, versión %1$s</string>
     <string name="ajustes_acerca_descripcion">App para aprender la Biblia un poco cada día, sin conexión. Sin anuncios, sin analíticas y sin cuentas: tus datos viven solo en este teléfono. El texto bíblico es la Reina-Valera 1960 y lo aporta cada usuario. Tipografías Inter y Source Serif 4 bajo licencia SIL Open Font 1.1.</string>
 
     <!-- Ajustes y recordatorio -->
@@ -193,4 +206,44 @@
     <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
+
+    <!-- Splash -->
+    <string name="splash_descripcion">Dice la Escritura</string>
+    <string name="splash_saltar">Saltar la animación de inicio</string>
+
+    <!-- Mapa de niveles -->
+    <string name="niveles_titulo">Tus niveles</string>
+    <string name="niveles_actual">Nivel actual</string>
+    <string name="niveles_superado">Nivel alcanzado</string>
+    <string name="niveles_bloqueado">Aún sin alcanzar</string>
+    <string name="niveles_requisito">Requiere %1$d XP y aprobar el examen anterior.</string>
+    <string name="niveles_desbloquea">Desbloquea: %1$s</string>
+    <string name="niveles_dificultad">Preguntas de hasta dificultad %1$d.</string>
+    <string name="niveles_descripcion_planta">Nivel %1$d, %2$s. %3$s.</string>
+    <string name="niveles_descripcion_planta_actual">Planta del nivel %1$d: %2$s</string>
+    <string name="inicio_ver_niveles">Ver todos los niveles</string>
+
+    <!-- Catálogo de componentes (solo se llega a él en builds de depuración) -->
+    <string name="ajustes_catalogo">Catálogo de componentes (desarrollo)</string>
+    <string name="catalogo_titulo">Catálogo de componentes</string>
+    <string name="catalogo_intro">Pantalla de desarrollo para revisar el sistema de diseño en claro, oscuro y con fuente grande.</string>
+    <string name="catalogo_tipografia">Tipografía</string>
+    <string name="catalogo_muestra">Dice la Escritura</string>
+    <string name="catalogo_botones">Botones</string>
+    <string name="catalogo_boton_principal">Acción principal</string>
+    <string name="catalogo_boton_secundario">Acción secundaria</string>
+    <string name="catalogo_boton_deshabilitado">Acción no disponible</string>
+    <string name="catalogo_tarjetas">Tarjetas</string>
+    <string name="catalogo_tarjeta_titulo">Título de la tarjeta</string>
+    <string name="catalogo_tarjeta_cuerpo">Texto de apoyo de la tarjeta, con la información que el usuario necesita.</string>
+    <string name="catalogo_tarjeta_tocable">Tarjeta que se puede tocar</string>
+    <string name="catalogo_citas">Citas</string>
+    <string name="catalogo_cita_uno">Romanos 3:23</string>
+    <string name="catalogo_cita_dos">Salmos 119:105</string>
+    <string name="catalogo_progreso">Progreso e insignias</string>
+    <string name="catalogo_progreso_descripcion">Avance de muestra: 40 %%</string>
+    <string name="catalogo_retroalimentacion">Retroalimentación</string>
+    <string name="catalogo_acierto">Correcto</string>
+    <string name="catalogo_error">Incorrecto</string>
+    <string name="catalogo_explicacion">Explicación breve que remite a comprobar el pasaje en tu Biblia impresa.</string>
 </resources>

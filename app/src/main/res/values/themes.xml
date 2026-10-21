@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Lampara.Splash" parent="Theme.SplashScreen">
+    <style name="Theme.DiceEscritura.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_fondo</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
-        <item name="postSplashScreenTheme">@style/Theme.Lampara</item>
+        <item name="postSplashScreenTheme">@style/Theme.DiceEscritura</item>
     </style>
 
-    <style name="Theme.Lampara" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.DiceEscritura" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/splash_fondo</item>
     </style>
 </resources>

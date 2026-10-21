@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "lampara"
+rootProject.name = "dice-la-escritura"
 include(":app")
