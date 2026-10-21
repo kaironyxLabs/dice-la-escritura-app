@@ -9,6 +9,9 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -21,30 +24,28 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.rememberAnimacionesActivas
 
 private val FondoBase = Color(0xFF0F0A05)
 
-/** Proporción del video (720 x 1280). */
-private const val ANCHO_SOBRE_ALTO = 720f / 1280f
+/** Proporción del video (720 x 1450: el original 9:16 se estiró un 13 % en alto para llenar mejor pantallas altas). */
+private const val ANCHO_SOBRE_ALTO = 720f / 1450f
 
-/**
- * Ampliación extra sobre «cubrir». El pergamino ocupa unos tres cuartos del alto del video y el
- * resto es fondo oscuro; con esto el pergamino llena más pantalla (franjas oscuras más angostas)
- * a costa de recortar un poco más los lados (con más ampliación se corta el título).
- */
-private const val ZOOM_EXTRA = 1.05f
+/** Alto de los degradados que funden los bordes del video con el fondo oscuro. */
+private val AltoFundido = 48.dp
 
 /**
  * Pantalla de apertura: reproduce el video del pergamino (`res/raw/splash_video.mp4`, sin audio) a
- * pantalla completa. En pantallas más altas que 9:16 el video se amplía hasta cubrir y se recortan
- * un poco los lados (sin franjas). Se salta con un toque. Si el sistema tiene las animaciones
+ * todo el ancho de la pantalla, sin recortar los lados (se ven todos los personajes). Si sobra alto,
+ * los bordes de arriba y abajo se funden con el fondo oscuro. Se salta con un toque. Si el sistema tiene las animaciones
  * apagadas, no se muestra.
  *
  * [iniciar] retrasa la reproducción hasta que el splash del sistema se haya ido; si no, correría
@@ -86,17 +87,13 @@ fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar
         contentAlignment = Alignment.Center,
     ) {
         if (iniciar && animar && videoVisible) {
-            // Tamaño que cubre la pantalla conservando la proporción del video.
-            val altoPantalla = maxHeight
-            val anchoPantalla = maxWidth
-            val anchoSiCubreAlto = altoPantalla * ANCHO_SOBRE_ALTO
-            val (anchoBase, altoBase) = if (anchoSiCubreAlto >= anchoPantalla) {
-                anchoSiCubreAlto to altoPantalla
+            // Tamaño que cabe entero en la pantalla conservando la proporción del video.
+            val anchoSiCabeAlto = maxHeight * ANCHO_SOBRE_ALTO
+            val (ancho, alto) = if (anchoSiCabeAlto <= maxWidth) {
+                anchoSiCabeAlto to maxHeight
             } else {
-                anchoPantalla to anchoPantalla / ANCHO_SOBRE_ALTO
+                maxWidth to maxWidth / ANCHO_SOBRE_ALTO
             }
-            val ancho = anchoBase * ZOOM_EXTRA
-            val alto = altoBase * ZOOM_EXTRA
             AndroidView(
                 modifier = Modifier.requiredSize(ancho, alto),
                 factory = { contexto ->
@@ -116,6 +113,18 @@ fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar
                     }
                 },
             )
+            // Con franjas arriba y abajo, el borde del video se funde con el fondo oscuro.
+            if (maxHeight > alto) {
+                val franja = (maxHeight - alto) / 2
+                Box(
+                    Modifier.align(Alignment.TopCenter).offset(y = franja).fillMaxWidth().height(AltoFundido)
+                        .background(Brush.verticalGradient(listOf(FondoBase, Color.Transparent))),
+                )
+                Box(
+                    Modifier.align(Alignment.BottomCenter).offset(y = -franja).fillMaxWidth().height(AltoFundido)
+                        .background(Brush.verticalGradient(listOf(Color.Transparent, FondoBase))),
+                )
+            }
         }
         Box(Modifier.fillMaxSize().alpha(cubierta.value).background(FondoBase))
     }
