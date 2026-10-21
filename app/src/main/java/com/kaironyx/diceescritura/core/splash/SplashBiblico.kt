@@ -35,6 +35,13 @@ private val FondoBase = Color(0xFF0F0A05)
 private const val ANCHO_SOBRE_ALTO = 720f / 1280f
 
 /**
+ * Ampliación extra sobre «cubrir». El pergamino ocupa unos tres cuartos del alto del video y el
+ * resto es fondo oscuro; con esto el pergamino llena más pantalla (franjas oscuras más angostas)
+ * a costa de recortar un poco más los lados (con más ampliación se corta el título).
+ */
+private const val ZOOM_EXTRA = 1.05f
+
+/**
  * Pantalla de apertura: reproduce el video del pergamino (`res/raw/splash_video.mp4`, sin audio) a
  * pantalla completa. En pantallas más altas que 9:16 el video se amplía hasta cubrir y se recortan
  * un poco los lados (sin franjas). Se salta con un toque. Si el sistema tiene las animaciones
@@ -83,11 +90,13 @@ fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar
             val altoPantalla = maxHeight
             val anchoPantalla = maxWidth
             val anchoSiCubreAlto = altoPantalla * ANCHO_SOBRE_ALTO
-            val (ancho, alto) = if (anchoSiCubreAlto >= anchoPantalla) {
+            val (anchoBase, altoBase) = if (anchoSiCubreAlto >= anchoPantalla) {
                 anchoSiCubreAlto to altoPantalla
             } else {
                 anchoPantalla to anchoPantalla / ANCHO_SOBRE_ALTO
             }
+            val ancho = anchoBase * ZOOM_EXTRA
+            val alto = altoBase * ZOOM_EXTRA
             AndroidView(
                 modifier = Modifier.requiredSize(ancho, alto),
                 factory = { contexto ->
