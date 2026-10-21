@@ -143,6 +143,7 @@ private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
     TarjetaPergamino(
         modifier = Modifier.fillMaxWidth().semantics { onClick(label = abrir, action = null) },
         onClick = onNiveles,
+        semilla = 2,
     ) {
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
             PlantaNivel(
@@ -179,7 +180,7 @@ private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
 
 @Composable
 private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
-    TarjetaPergamino(modifier = Modifier.fillMaxWidth()) {
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 5) {
         Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
         TextoRacha(estado.racha)
         when (val reto = estado.reto) {
@@ -259,6 +260,7 @@ private fun LosaCategoria(item: ItemCategoria, onClick: () -> Unit, modifier: Mo
     TarjetaPergamino(
         modifier = modifier.alpha(if (habilitada) 1f else 0.55f),
         onClick = if (habilitada) onClick else null,
+        semilla = 11 + item.categoria.ordinal * 4,
     ) {
         Column(
             modifier = Modifier.fillMaxWidth(),
