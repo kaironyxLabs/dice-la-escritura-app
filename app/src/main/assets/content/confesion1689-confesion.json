@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "questions": [
     {
       "id": "confesion1689-confesion-0001",
@@ -92,7 +92,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 8, ¿cuántas naturalezas tiene la persona de Cristo, el Mediador?",
+      "question": "Según el capítulo 8 de la Confesión de 1689, ¿cuántas naturalezas tiene la persona de Cristo, el Mediador?",
       "options": [
         "Una sola: únicamente la divina",
         "Dos: la divina y la humana, unidas en una persona",
@@ -117,7 +117,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 11, ¿qué papel tiene la fe en la justificación?",
+      "question": "Según el capítulo 11 de la Confesión de 1689, ¿qué papel tiene la fe en la justificación?",
       "options": [
         "Es opcional, porque las buenas obras bastan para justificar",
         "Es una obra meritoria que Dios recompensa con la justificación",
@@ -187,7 +187,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 29, ¿a quiénes corresponde el bautismo?",
+      "question": "Según el capítulo 29 de la Confesión de 1689, ¿a quiénes corresponde el bautismo?",
       "options": [
         "Cualquier persona, sin importar lo que crea",
         "Todos los recién nacidos de familias cristianas",
@@ -212,7 +212,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según el capítulo 29, el modo correcto de administrar el bautismo es la inmersión: sumergir a la persona en agua.",
+      "question": "Según el capítulo 29 de la Confesión de 1689, el modo correcto de administrar el bautismo es la inmersión: sumergir a la persona en agua.",
       "answer": true,
       "references": [
         "Romanos 6:3-4",
@@ -231,7 +231,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 25, ¿entre quiénes debe ser el matrimonio?",
+      "question": "Según el capítulo 25 de la Confesión de 1689, ¿entre quiénes debe ser el matrimonio?",
       "options": [
         "Entre un hombre y una mujer",
         "Entre varios hombres y varias mujeres",
@@ -256,7 +256,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 2,
-      "question": "Según el capítulo 32, en el día del juicio solo comparecerán los ángeles caídos, no las personas.",
+      "question": "Según el capítulo 32 de la Confesión de 1689, en el día del juicio solo comparecerán los ángeles caídos, no las personas.",
       "answer": false,
       "references": [
         "Hechos 17:31"

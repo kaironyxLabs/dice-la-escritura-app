@@ -52,8 +52,8 @@ fun TarjetaContenido(
     onClick: (() -> Unit)? = null,
     contenido: @Composable ColumnScope.() -> Unit,
 ) {
-    val colores = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow)
-    val borde = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
+    val colores = CardDefaults.cardColors(containerColor = Pergamino.Claro)
+    val borde = BorderStroke(1.dp, Pergamino.Borde)
     val cuerpo: @Composable ColumnScope.() -> Unit = {
         Column(
             modifier = Modifier.padding(Espacio.m + Espacio.xs),

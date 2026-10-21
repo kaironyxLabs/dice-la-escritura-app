@@ -1,13 +1,15 @@
 package com.kaironyx.diceescritura.core.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 
-/** Tema propio, sin colores dinámicos del sistema: la identidad visual es la de la app. */
+/**
+ * Tema propio, sin colores dinámicos del sistema: la identidad visual es la de la app. La app es de
+ * pergamino (claro) siempre; la paleta oscura se conserva para las vistas previas.
+ */
 @Composable
 fun DiceEscrituraTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = false,
     content: @Composable () -> Unit,
 ) {
     MaterialTheme(

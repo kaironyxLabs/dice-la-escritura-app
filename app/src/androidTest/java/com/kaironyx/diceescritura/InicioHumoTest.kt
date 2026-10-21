@@ -47,7 +47,7 @@ class InicioHumoTest {
     @Test
     fun muestraNivelBarraYBotonesPrincipales() {
         compose.setContent {
-            DiceEscrituraTheme { InicioContenido(estado(), onJugarPorCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
+            DiceEscrituraTheme { InicioContenido(estado(), categorias = null, onElegirCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
         }
         compose.onNodeWithText("Hola, Ana").assertIsDisplayed()
         compose.onNodeWithText("Semilla").assertIsDisplayed()
@@ -67,7 +67,8 @@ class InicioHumoTest {
             DiceEscrituraTheme {
                 InicioContenido(
                     estado(examenDisponible = true, reto = EstadoReto.EnCurso(respondidas = 4, total = 10)),
-                    onJugarPorCategoria = {},
+                    categorias = null,
+                    onElegirCategoria = {},
                     onExamen = { examen++ },
                     onReto = { reto++ },
                     onPerfil = {},
@@ -88,7 +89,8 @@ class InicioHumoTest {
                         reto = EstadoReto.Completado(aciertos = 8, total = 10),
                         racha = Racha(actual = 5, mejor = 9, completadoHoy = true, graciaDisponibleEstaSemana = false),
                     ),
-                    onJugarPorCategoria = {},
+                    categorias = null,
+                    onElegirCategoria = {},
                     onExamen = {},
                     onReto = {}, onPerfil = {},
                 )
@@ -102,7 +104,7 @@ class InicioHumoTest {
     @Test
     fun mientrasCargaMuestraUnMensajeSinFallar() {
         compose.setContent {
-            DiceEscrituraTheme { InicioContenido(null, onJugarPorCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
+            DiceEscrituraTheme { InicioContenido(null, categorias = null, onElegirCategoria = {}, onExamen = {}, onReto = {}, onPerfil = {}) }
         }
         compose.onNodeWithText("Cargando…").assertIsDisplayed()
     }
