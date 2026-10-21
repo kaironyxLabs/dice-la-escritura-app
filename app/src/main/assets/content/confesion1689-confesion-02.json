@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "questions": [
     {
       "id": "confesion1689-confesion-0014",
@@ -25,7 +25,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 1, ¿cuál es la regla infalible para interpretar la Escritura?",
+      "question": "Según el capítulo 1 de la Confesión de 1689, ¿cuál es la regla infalible para interpretar la Escritura?",
       "options": [
         "La razón de cada lector",
         "La decisión de la iglesia",
@@ -67,7 +67,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 3, ¿en qué se basa la elección de Dios para vida eterna?",
+      "question": "Según el capítulo 3 de la Confesión de 1689, ¿en qué se basa la elección de Dios para vida eterna?",
       "options": [
         "En la fe que Dios previó en cada elegido, antes de la fundación del mundo",
         "En las buenas obras que Dios previó en cada elegido, desde la eternidad",
@@ -111,7 +111,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 1,
-      "question": "Según el capítulo 4, ¿en cuánto tiempo creó Dios el mundo y todo lo que hay en él?",
+      "question": "Según el capítulo 4 de la Confesión de 1689, ¿en cuánto tiempo creó Dios el mundo y todo lo que hay en él?",
       "options": [
         "En un solo instante, por un acto de su voluntad",
         "En cuarenta días, como en el diluvio",
@@ -136,7 +136,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "¿Con qué dotó Dios al hombre al crearlo, según el capítulo 4?",
+      "question": "¿Con qué dotó Dios al hombre al crearlo, según el capítulo 4 de la Confesión de 1689?",
       "options": [
         "Con una naturaleza divina, igual a la de Dios",
         "Con alma racional e inmortal y a su imagen",
@@ -161,7 +161,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "¿Qué precepto especial recibió Adán, según el capítulo 4?",
+      "question": "¿Qué precepto especial recibió Adán, según el capítulo 4 de la Confesión de 1689?",
       "options": [
         "Guardar el sábado todos los días de reposo del huerto",
         "No salir del huerto sin pedir primero permiso a Dios",
@@ -185,7 +185,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 5, ¿qué hace la providencia de Dios con todas las criaturas y cosas?",
+      "question": "Según el capítulo 5 de la Confesión de 1689, ¿qué hace la providencia de Dios con todas las criaturas y cosas?",
       "options": [
         "Solo cuida a las criaturas que son buenas y justas",
         "Las abandona a su suerte una vez creadas",
@@ -210,7 +210,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según el capítulo 5, nada sucede fuera de la providencia de Dios.",
+      "question": "Según el capítulo 5 de la Confesión de 1689, nada sucede fuera de la providencia de Dios.",
       "answer": true,
       "references": [
         "Proverbios 16:33",
@@ -229,7 +229,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 5, ¿qué cuidado especial tiene la providencia de Dios?",
+      "question": "Según el capítulo 5 de la Confesión de 1689, ¿qué cuidado especial tiene la providencia de Dios?",
       "options": [
         "El de los reyes y las naciones que gobiernan la tierra",
         "El de los ángeles que sirven continuamente delante de él",
@@ -254,7 +254,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 6, ¿cómo cayeron nuestros primeros padres en el pecado?",
+      "question": "Según el capítulo 6 de la Confesión de 1689, ¿cómo cayeron nuestros primeros padres en el pecado?",
       "options": [
         "Por ignorancia de la ley que se les había dado",
         "Seducidos por la astucia de Satanás",
@@ -279,7 +279,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 6, ¿qué se transmitió a toda la descendencia de Adán?",
+      "question": "Según el capítulo 6 de la Confesión de 1689, ¿qué se transmitió a toda la descendencia de Adán?",
       "options": [
         "Únicamente la tendencia a errar y a equivocarse",
         "La obligación de ofrecer sacrificios por el pecado",
@@ -323,7 +323,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 7, ¿cómo ha querido Dios relacionarse con el hombre, dada la enorme distancia entre Creador y criatura?",
+      "question": "Según el capítulo 7 de la Confesión de 1689, ¿cómo ha querido Dios relacionarse con el hombre, dada la enorme distancia entre Creador y criatura?",
       "options": [
         "Solo mediante la ley dada a Moisés en el Sinaí",
         "Solo mediante sacrificios de animales",
@@ -348,7 +348,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 7, ¿por qué hizo Dios el pacto de gracia?",
+      "question": "Según el capítulo 7 de la Confesión de 1689, ¿por qué hizo Dios el pacto de gracia?",
       "options": [
         "Porque el pacto hecho con Israel en el Sinaí había fracasado por completo",
         "Porque el hombre, caído, no podía alcanzar la vida por el primer pacto",
@@ -391,7 +391,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 8, ¿cómo fue concebido el Hijo de Dios en la persona de Jesús?",
+      "question": "Según el capítulo 8 de la Confesión de 1689, ¿cómo fue concebido el Hijo de Dios en la persona de Jesús?",
       "options": [
         "Por la voluntad de José y María, como cualquier hijo",
         "Por un milagro en Belén durante el censo de Augusto",
@@ -454,7 +454,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 9, ¿cómo era la voluntad del hombre en su estado de inocencia?",
+      "question": "Según el capítulo 9 de la Confesión de 1689, ¿cómo era la voluntad del hombre en su estado de inocencia?",
       "options": [
         "Sometida al pecado y a la corrupción",
         "Libre y con poder para querer y hacer lo bueno",
@@ -479,7 +479,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 9, ¿qué perdió el hombre por su caída respecto a las cosas espirituales?",
+      "question": "Según el capítulo 9 de la Confesión de 1689, ¿qué perdió el hombre por su caída respecto a las cosas espirituales?",
       "options": [
         "Toda capacidad de querer el bien espiritual que salva",
         "Solo la memoria de lo bueno que había conocido antes",
@@ -504,7 +504,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 10, ¿por medio de qué llama Dios eficazmente a los elegidos?",
+      "question": "Según el capítulo 10 de la Confesión de 1689, ¿por medio de qué llama Dios eficazmente a los elegidos?",
       "options": [
         "Por la tradición de los padres",
         "Por su Palabra y su Espíritu",
@@ -529,7 +529,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 10, ¿de dónde proviene este llamamiento eficaz?",
+      "question": "Según el capítulo 10 de la Confesión de 1689, ¿de dónde proviene este llamamiento eficaz?",
       "options": [
         "De los méritos que el hombre acumula",
         "De la fe que el hombre produce por sí mismo",
@@ -554,7 +554,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 10, ¿qué enseña acerca de los elegidos que mueren en la infancia?",
+      "question": "Según el capítulo 10 de la Confesión de 1689, ¿qué enseña acerca de los elegidos que mueren en la infancia?",
       "options": [
         "Que quedan sin salvación por no haber creído",
         "Que esperan un juicio especial al final",
@@ -579,7 +579,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según el capítulo 11, la fe que justifica va siempre acompañada de las demás gracias salvadoras.",
+      "question": "Según el capítulo 11 de la Confesión de 1689, la fe que justifica va siempre acompañada de las demás gracias salvadoras.",
       "answer": true,
       "references": [
         "Santiago 2:17",
@@ -598,7 +598,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 11, ¿qué hizo Cristo por los justificados con su obediencia y su muerte?",
+      "question": "Según el capítulo 11 de la Confesión de 1689, ¿qué hizo Cristo por los justificados con su obediencia y su muerte?",
       "options": [
         "Saldó plenamente la deuda de todos ellos",
         "Les enseñó cómo pagarla",
@@ -642,7 +642,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 12, ¿qué Espíritu reciben los adoptados?",
+      "question": "Según el capítulo 12 de la Confesión de 1689, ¿qué Espíritu reciben los adoptados?",
       "options": [
         "El Espíritu de adopción",
         "El espíritu del mundo",
@@ -666,7 +666,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 12, ¿cómo trata Dios a sus hijos adoptados?",
+      "question": "Según el capítulo 12 de la Confesión de 1689, ¿cómo trata Dios a sus hijos adoptados?",
       "options": [
         "Los desecha cuando vuelven a fallar en el camino",
         "Como un padre: los compadece, protege y corrige",
@@ -691,7 +691,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 13, ¿por virtud de qué son santificados los regenerados?",
+      "question": "Según el capítulo 13 de la Confesión de 1689, ¿por virtud de qué son santificados los regenerados?",
       "options": [
         "De la pertenencia a una iglesia visible en la tierra",
         "De la ley dada a Moisés",
@@ -716,7 +716,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 13, ¿cómo es la santificación en esta vida?",
+      "question": "Según el capítulo 13 de la Confesión de 1689, ¿cómo es la santificación en esta vida?",
       "options": [
         "Es perfecta y completa desde el primer día de la fe",
         "Alcanza al hombre entero, aunque es incompleta en esta vida",
@@ -741,7 +741,7 @@
       "category": "confesion",
       "type": "true_false",
       "difficulty": 3,
-      "question": "Según el capítulo 13, en el creyente hay una lucha continua entre la carne y el Espíritu.",
+      "question": "Según el capítulo 13 de la Confesión de 1689, en el creyente hay una lucha continua entre la carne y el Espíritu.",
       "answer": true,
       "references": [
         "Gálatas 5:17",
@@ -760,7 +760,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 14, ¿de quién es obra la gracia de la fe?",
+      "question": "Según el capítulo 14 de la Confesión de 1689, ¿de quién es obra la gracia de la fe?",
       "options": [
         "Del propio creyente, por su esfuerzo",
         "Del Espíritu de Cristo en el corazón",
@@ -785,7 +785,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 14, ¿por qué medio se produce ordinariamente la fe?",
+      "question": "Según el capítulo 14 de la Confesión de 1689, ¿por qué medio se produce ordinariamente la fe?",
       "options": [
         "Por los ritos y las ceremonias de la iglesia",
         "Por la razón humana sola, sin ayuda de nadie",
@@ -829,7 +829,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 15, ¿qué es el arrepentimiento para vida?",
+      "question": "Según el capítulo 15 de la Confesión de 1689, ¿qué es el arrepentimiento para vida?",
       "options": [
         "Un mérito que el hombre acumula con obras",
         "Un sentimiento pasajero de culpa",
@@ -854,7 +854,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 15, ¿qué incluye el arrepentimiento verdadero?",
+      "question": "Según el capítulo 15 de la Confesión de 1689, ¿qué incluye el arrepentimiento verdadero?",
       "options": [
         "Solo obras de penitencia, ayunos y limosnas",
         "Solo tristeza por las consecuencias del pecado",
@@ -904,7 +904,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 16, ¿cuáles son las buenas obras?",
+      "question": "Según el capítulo 16 de la Confesión de 1689, ¿cuáles son las buenas obras?",
       "options": [
         "Las que la tradición recomienda desde antiguo",
         "Las que cada uno considera buenas según su conciencia",
@@ -929,7 +929,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 16, ¿qué son las buenas obras respecto de la fe?",
+      "question": "Según el capítulo 16 de la Confesión de 1689, ¿qué son las buenas obras respecto de la fe?",
       "options": [
         "Algo que no guarda relación alguna con la fe",
         "Un mérito por el que Dios debe pagar al creyente",
@@ -973,7 +973,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 17, ¿qué ocurre con quienes Dios aceptó en Cristo y santificó por su Espíritu?",
+      "question": "Según el capítulo 17 de la Confesión de 1689, ¿qué ocurre con quienes Dios aceptó en Cristo y santificó por su Espíritu?",
       "options": [
         "No caerán total ni definitivamente de la gracia",
         "Perderán la salvación si llegan a pecar gravemente",
@@ -998,7 +998,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 17, ¿de qué depende la perseverancia de los santos?",
+      "question": "Según el capítulo 17 de la Confesión de 1689, ¿de qué depende la perseverancia de los santos?",
       "options": [
         "De la fuerza de voluntad y la constancia del creyente",
         "Del decreto inmutable de elección y del amor de Dios",
@@ -1042,7 +1042,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 18, ¿qué pueden hacer los hipócritas y los no regenerados con respecto a su salvación?",
+      "question": "Según el capítulo 18 de la Confesión de 1689, ¿qué pueden hacer los hipócritas y los no regenerados con respecto a su salvación?",
       "options": [
         "Conocer con certeza que ya están salvos",
         "Dudar siempre de todo lo que oyen",
@@ -1067,7 +1067,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 18, ¿qué pueden tener los verdaderos creyentes?",
+      "question": "Según el capítulo 18 de la Confesión de 1689, ¿qué pueden tener los verdaderos creyentes?",
       "options": [
         "Ninguna certeza mientras vivan en la tierra",
         "Certeza basada solamente en sus propias obras",
@@ -1111,7 +1111,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 19, ¿qué ley dio Dios a Adán?",
+      "question": "Según el capítulo 19 de la Confesión de 1689, ¿qué ley dio Dios a Adán?",
       "options": [
         "Una ley de obediencia escrita en su corazón",
         "Ninguna ley, pues vivía en total libertad",
@@ -1155,7 +1155,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 19, ¿a quiénes obliga la ley moral para siempre?",
+      "question": "Según el capítulo 19 de la Confesión de 1689, ¿a quiénes obliga la ley moral para siempre?",
       "options": [
         "Solo a los pastores y ancianos",
         "A todos, tanto justificados como no justificados",
@@ -1198,7 +1198,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 20, ¿cómo se revela el evangelio, la promesa de Cristo?",
+      "question": "Según el capítulo 20 de la Confesión de 1689, ¿cómo se revela el evangelio, la promesa de Cristo?",
       "options": [
         "Por la conciencia de cada persona",
         "Solo por las obras de la creación",
@@ -1223,7 +1223,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 20, además del evangelio como medio externo, ¿qué es necesario en toda alma para que nazca de nuevo?",
+      "question": "Según el capítulo 20 de la Confesión de 1689, además del evangelio como medio externo, ¿qué es necesario en toda alma para que nazca de nuevo?",
       "options": [
         "Una obra eficaz del Espíritu Santo",
         "Un esfuerzo moral sostenido durante años",
@@ -1248,7 +1248,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 21, ¿de qué libertad gozan los creyentes por Cristo?",
+      "question": "Según el capítulo 21 de la Confesión de 1689, ¿de qué libertad gozan los creyentes por Cristo?",
       "options": [
         "De la obligación de obedecer a Dios en todo lo que manda",
         "De toda autoridad humana, sea civil o eclesiástica",
@@ -1292,7 +1292,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 21, ¿qué ocurre con quienes pecan con el pretexto de la libertad cristiana?",
+      "question": "Según el capítulo 21 de la Confesión de 1689, ¿qué ocurre con quienes pecan con el pretexto de la libertad cristiana?",
       "options": [
         "Ejercen un derecho legítimo que Cristo les dio",
         "Destruyen el propósito mismo de esa libertad",
@@ -1317,7 +1317,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 22, ¿cómo debe ser el culto a Dios?",
+      "question": "Según el capítulo 22 de la Confesión de 1689, ¿cómo debe ser el culto a Dios?",
       "options": [
         "Como la tradición de la iglesia lo ha dispuesto siempre",
         "Como cada congregación prefiera",
@@ -1342,7 +1342,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 22, ¿en nombre de quién debe hacerse la oración?",
+      "question": "Según el capítulo 22 de la Confesión de 1689, ¿en nombre de quién debe hacerse la oración?",
       "options": [
         "En el nombre del Hijo",
         "En el nombre de los ángeles",
@@ -1367,7 +1367,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 23, ¿por qué nombre puede hacerse un juramento lícito?",
+      "question": "Según el capítulo 23 de la Confesión de 1689, ¿por qué nombre puede hacerse un juramento lícito?",
       "options": [
         "Por el cielo, que es el trono de Dios",
         "Por la tierra, que es el estrado de sus pies",
@@ -1392,7 +1392,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 23, ¿a quién deben hacerse los votos?",
+      "question": "Según el capítulo 23 de la Confesión de 1689, ¿a quién deben hacerse los votos?",
       "options": [
         "Solo a Dios",
         "A los santos",
@@ -1435,7 +1435,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 24, ¿quién instituyó a las autoridades civiles?",
+      "question": "Según el capítulo 24 de la Confesión de 1689, ¿quién instituyó a las autoridades civiles?",
       "options": [
         "Los antiguos reyes de Israel y Judá, por derecho propio",
         "Dios, para su propia gloria y para el bien público de todos",
@@ -1477,7 +1477,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 24, ¿qué deben hacer los creyentes con las autoridades?",
+      "question": "Según el capítulo 24 de la Confesión de 1689, ¿qué deben hacer los creyentes con las autoridades?",
       "options": [
         "Combatirlas siempre con las armas",
         "Ignorarlas siempre y no tener trato con ellas",
@@ -1502,7 +1502,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 25, ¿para qué fue ordenado el matrimonio?",
+      "question": "Según el capítulo 25 de la Confesión de 1689, ¿para qué fue ordenado el matrimonio?",
       "options": [
         "Solo para unir a las familias de los contrayentes",
         "Para obtener riquezas y posición social",
@@ -1527,7 +1527,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 25, ¿con quién deben casarse los creyentes?",
+      "question": "Según el capítulo 25 de la Confesión de 1689, ¿con quién deben casarse los creyentes?",
       "options": [
         "No deben casarse jamás, por ser cristianos",
         "Con cualquier persona que acepte casarse",
@@ -1551,7 +1551,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 26, ¿a quiénes comprende la iglesia católica o universal?",
+      "question": "Según el capítulo 26 de la Confesión de 1689, ¿a quiénes comprende la iglesia católica o universal?",
       "options": [
         "A los que viven en una región determinada",
         "A todos los bautizados de todas las épocas",
@@ -1576,7 +1576,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 26, ¿cuáles son los oficios permanentes de la iglesia?",
+      "question": "Según el capítulo 26 de la Confesión de 1689, ¿cuáles son los oficios permanentes de la iglesia?",
       "options": [
         "Papas, cardenales y arzobispos",
         "Ancianos (obispos) y diáconos",
@@ -1601,7 +1601,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 27, ¿con quién tienen comunión los santos unidos a Cristo?",
+      "question": "Según el capítulo 27 de la Confesión de 1689, ¿con quién tienen comunión los santos unidos a Cristo?",
       "options": [
         "Solo con los miembros de su propia congregación local",
         "Con Cristo y entre sí, en su muerte, resurrección y gloria",
@@ -1626,7 +1626,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 27, ¿qué están obligados a hacer los santos unos con otros?",
+      "question": "Según el capítulo 27 de la Confesión de 1689, ¿qué están obligados a hacer los santos unos con otros?",
       "options": [
         "Compartir todos sus bienes de manera obligatoria",
         "Mantener comunión en el culto y servirse unos a otros",
@@ -1670,7 +1670,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 2,
-      "question": "Según el capítulo 28, ¿cuántas ordenanzas instituyó el Señor Jesucristo para su iglesia?",
+      "question": "Según el capítulo 28 de la Confesión de 1689, ¿cuántas ordenanzas instituyó el Señor Jesucristo para su iglesia?",
       "options": [
         "Tres: bautismo, Cena y confirmación",
         "Una sola: el bautismo de los creyentes",
@@ -1714,7 +1714,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 28, ¿quiénes deben administrar estas ordenanzas?",
+      "question": "Según el capítulo 28 de la Confesión de 1689, ¿quiénes deben administrar estas ordenanzas?",
       "options": [
         "Solo quienes estén calificados y llamados",
         "Solo los líderes de otras ciudades o regiones",
@@ -1739,7 +1739,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 29, ¿qué simboliza el bautismo?",
+      "question": "Según el capítulo 29 de la Confesión de 1689, ¿qué simboliza el bautismo?",
       "options": [
         "La ordenación de un ministro para servir a la iglesia",
         "Solo el ingreso a una nación o a un pueblo determinado",
@@ -1825,7 +1825,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 31, ¿qué ocurre con los cuerpos de los hombres después de la muerte?",
+      "question": "Según el capítulo 31 de la Confesión de 1689, ¿qué ocurre con los cuerpos de los hombres después de la muerte?",
       "options": [
         "Son llevados al cielo de inmediato",
         "Se convierten en espíritus",
@@ -1850,7 +1850,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 31, ¿a dónde van las almas de los justos al morir?",
+      "question": "Según el capítulo 31 de la Confesión de 1689, ¿a dónde van las almas de los justos al morir?",
       "options": [
         "Al purgatorio, para ser purificadas",
         "A la nada, pues dejan de existir",
@@ -1875,7 +1875,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 31, ¿con qué cuerpo resucitarán los muertos?",
+      "question": "Según el capítulo 31 de la Confesión de 1689, ¿con qué cuerpo resucitarán los muertos?",
       "options": [
         "Con el cuerpo de otra persona que ya murió",
         "Sin cuerpo alguno, como espíritus puros",
@@ -1900,7 +1900,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "question": "Según el capítulo 32, ¿a quién ha dado Dios todo el juicio?",
+      "question": "Según el capítulo 32 de la Confesión de 1689, ¿a quién ha dado Dios todo el juicio?",
       "options": [
         "A Moisés",
         "A los apóstoles",
@@ -1925,7 +1925,7 @@
       "category": "confesion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "question": "Según el capítulo 32, ¿para qué ha señalado Dios el día del juicio?",
+      "question": "Según el capítulo 32 de la Confesión de 1689, ¿para qué ha señalado Dios el día del juicio?",
       "options": [
         "Para probar la fe de los ángeles y de los hombres, uno por uno, en su obediencia",
         "Para mostrar su misericordia en los elegidos y su justicia en los reprobos",
