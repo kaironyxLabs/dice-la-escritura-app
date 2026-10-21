@@ -1,4 +1,4 @@
-# Plan de desarrollo: lo que falta para terminar Lámpara
+# Plan de desarrollo: lo que falta para terminar Dice la Escritura
 
 Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada etapa dice qué se hace, cómo se sabe que está terminada y qué necesita de ti. Los planes detallados de la cuenta local y del rediseño visual están en `docs/PLAN_CUENTA_LOCAL.md` y `docs/PLAN_REFACTOR_UI.md`; el manual de lo que la app hace hoy está en `docs/MANUAL_USUARIO.md`.
 

@@ -1,10 +1,10 @@
-# Lámpara: manual de usuario
+# Dice la Escritura: manual de usuario
 
-Este manual explica, paso a paso y con todo detalle, cómo funciona Lámpara desde el punto de vista de quien la usa. Describe la versión actual de la app. Cuando algo está planeado pero todavía no existe (cuenta local, rediseño visual), se dice expresamente.
+Este manual explica, paso a paso y con todo detalle, cómo funciona Dice la Escritura desde el punto de vista de quien la usa. Describe la versión actual de la app. Cuando algo está planeado pero todavía no existe (cuenta local, rediseño visual), se dice expresamente.
 
-## 1. Qué es Lámpara
+## 1. Qué es Dice la Escritura
 
-Lámpara es una app para Android, en español, que te ayuda a aprender la Biblia un poco cada día. Todo funciona **sin conexión a internet**: no tiene anuncios, no recopila datos, no pide que crees una cuenta y no se comunica con ningún servidor. Tu avance vive solo en tu teléfono.
+Dice la Escritura es una app para Android, en español, que te ayuda a aprender la Biblia un poco cada día. Todo funciona **sin conexión a internet**: no tiene anuncios, no recopila datos, no pide que crees una cuenta y no se comunica con ningún servidor. Tu avance vive solo en tu teléfono.
 
 La app se basa en la **Reina-Valera 1960**. Las preguntas no copian los versículos: los citan y los resumen con otras palabras, y siempre te invitan a comprobar la respuesta en tu **Biblia física (impresa)**.
 
@@ -18,7 +18,7 @@ La app tiene cuatro zonas, que aparecen como pestañas en la barra inferior:
 ## 2. Primer uso
 
 ### 2.1 Instalación
-Lámpara no está en Play Store. Se instala con un archivo APK que te entrega quien administra la app. Al instalarla, Android puede pedirte permiso para "instalar apps de fuentes desconocidas" o confirmar la instalación en la pantalla del teléfono. En algunos teléfonos (por ejemplo, Xiaomi) conviene aceptar el aviso que aparece en pantalla.
+Dice la Escritura no está en Play Store. Se instala con un archivo APK que te entrega quien administra la app. Al instalarla, Android puede pedirte permiso para "instalar apps de fuentes desconocidas" o confirmar la instalación en la pantalla del teléfono. En algunos teléfonos (por ejemplo, Xiaomi) conviene aceptar el aviso que aparece en pantalla.
 
 ### 2.2 Pantalla de bienvenida
 La primera vez que abres la app aparece una bienvenida que explica tres cosas:
@@ -198,7 +198,7 @@ La racha se muestra con un tono sobrio: informa, no presiona.
 
 ## 8. Repetición espaciada (el sistema de repaso)
 
-Lámpara usa un sistema de cajas llamado **Leitner** para que repases justo cuando estás por olvidar. Cada pregunta que respondes tiene una caja del 1 al 5:
+Dice la Escritura usa un sistema de cajas llamado **Leitner** para que repases justo cuando estás por olvidar. Cada pregunta que respondes tiene una caja del 1 al 5:
 
 | Caja | Se vuelve a repasar a los… |
 |---|---|

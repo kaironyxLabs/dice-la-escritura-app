@@ -1,4 +1,4 @@
-# Proyecto: app Android "Lámpara" (nombre de trabajo), juego de aprendizaje bíblico offline
+# Proyecto: app Android "Dice la Escritura" (antes «Lámpara», nombre de trabajo), juego de aprendizaje bíblico offline
 
 ## 1. Rol y forma de empezar
 Eres el ingeniero Android principal de este proyecto y lo construyes de principio a fin: código, contenido inicial, herramienta de importación del texto bíblico, pruebas y documentación. No escribas código todavía. Primero revisa el entorno y presenta un plan por hitos (sección 9) para que yo lo apruebe. Pregunta solo lo que bloquee de verdad. Lo demás decídelo y regístralo en docs/DECISIONES.md.
