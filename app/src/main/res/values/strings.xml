@@ -53,6 +53,11 @@
     <string name="practica_grado_escribir">Escribiendo el pasaje completo</string>
     <string name="practica_entrada_etiqueta">Tu respuesta</string>
     <string name="practica_palabra_oculta">palabra oculta</string>
+    <string name="practica_elegir_palabras">Elegir las palabras en vez de escribirlas</string>
+    <string name="practica_escribir_palabras">Escribir las palabras</string>
+    <string name="practica_instruccion_banco">Toca las palabras en el orden en que van en los huecos.</string>
+    <string name="practica_deshacer">Quitar la última</string>
+    <string name="practica_leyenda">Verde: acertadas. Rojo subrayado: olvidadas o mal escritas.</string>
     <string name="practica_comprobar">Comprobar</string>
     <string name="practica_resultado">Palabras correctas: %1$d de %2$d</string>
     <string name="practica_aprobado">Muy bien.</string>

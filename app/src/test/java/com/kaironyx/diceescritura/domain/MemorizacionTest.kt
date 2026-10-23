@@ -188,4 +188,19 @@ class MemorizacionTest {
         assertEquals(0, EvaluadorMemoria.evaluar(emptyList(), "algo").total)
         assertFalse(EvaluadorMemoria.evaluar(emptyList(), "algo").aprobado)
     }
+
+    @Test
+    fun `marcar senala las palabras acertadas y las olvidadas`() {
+        val marcas = EvaluadorMemoria.marcar(listOf("uno", "dos", "tres", "cuatro"), "uno tres cuatro")
+        assertEquals(listOf(true, false, true, true), marcas)
+    }
+
+    @Test
+    fun `marcar ignora tildes y mayusculas, y coincide con evaluar`() {
+        val esperadas = listOf("Dió", "Señor", "amor")
+        val escrito = "dio SEÑOR"
+        val marcas = EvaluadorMemoria.marcar(esperadas, escrito)
+        assertEquals(listOf(true, true, false), marcas)
+        assertEquals(EvaluadorMemoria.evaluar(esperadas, escrito).aciertos, marcas.count { it })
+    }
 }

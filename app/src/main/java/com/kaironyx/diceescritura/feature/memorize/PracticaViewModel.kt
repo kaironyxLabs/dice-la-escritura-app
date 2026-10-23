@@ -21,6 +21,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import java.time.LocalDate
+import kotlin.random.Random
 import javax.inject.Inject
 
 enum class MotivoSinTexto { ARCHIVO_FALTANTE, PASAJE_NO_DISPONIBLE, PASAJE_DESCONOCIDO }
@@ -31,6 +32,8 @@ data class ResultadoPractica(
     val gradoSiguiente: GradoMemoria,
     /** Próximo repaso, solo cuando se acertó escribiendo el pasaje completo. */
     val proximoRepaso: LocalDate?,
+    /** Índice de token del pasaje -> si esa palabra se acertó; solo las palabras que se pedían. */
+    val marcas: Map<Int, Boolean>,
 )
 
 sealed interface PracticaUiState {
@@ -46,6 +49,12 @@ sealed interface PracticaUiState {
         val entrada: String,
         val textoCompleto: String,
         val resultado: ResultadoPractica?,
+        /** Ocultar palabras: se eligen de un banco en vez de escribirse. */
+        val modoBanco: Boolean = false,
+        /** Palabras ocultas barajadas (banco de palabras). */
+        val banco: List<String> = emptyList(),
+        /** Posiciones del banco ya colocadas, en el orden de los huecos. */
+        val usadas: List<Int> = emptyList(),
     ) : PracticaUiState
 }
 
@@ -88,19 +97,41 @@ class PracticaViewModel @Inject constructor(
         }
     }
 
-    private fun empezar(grado: GradoMemoria) {
+    private fun empezar(grado: GradoMemoria, modoBanco: Boolean = false) {
         val pasaje = pasaje ?: return
         intento++
+        val semilla = pasaje.id.hashCode() * 31L + intento
+        val oculto = if (grado.esEscribir) null else Ocultador.ocultar(textoCompleto, grado.porcentaje, semilla = semilla)
         _estado.value = PracticaUiState.Practicando(
             referencia = pasaje.referenciaTexto,
             grado = grado,
-            oculto = if (grado.esEscribir) null else {
-                Ocultador.ocultar(textoCompleto, grado.porcentaje, semilla = pasaje.id.hashCode() * 31L + intento)
-            },
+            oculto = oculto,
             entrada = "",
             textoCompleto = textoCompleto,
             resultado = null,
+            modoBanco = modoBanco && oculto != null,
+            banco = oculto?.palabrasOcultas?.shuffled(Random(semilla)).orEmpty(),
         )
+    }
+
+    /** Cambia entre escribir las palabras y elegirlas de un banco; vuelve a empezar el grado. */
+    fun alternarBanco() {
+        val actual = _estado.value as? PracticaUiState.Practicando ?: return
+        if (actual.resultado != null || actual.oculto == null) return
+        _estado.value = actual.copy(modoBanco = !actual.modoBanco, entrada = "", usadas = emptyList())
+    }
+
+    fun elegirPalabra(posicion: Int) {
+        val actual = _estado.value as? PracticaUiState.Practicando ?: return
+        if (actual.resultado != null || !actual.modoBanco) return
+        if (posicion !in actual.banco.indices || posicion in actual.usadas) return
+        _estado.value = actual.copy(usadas = actual.usadas + posicion)
+    }
+
+    fun deshacerPalabra() {
+        val actual = _estado.value as? PracticaUiState.Practicando ?: return
+        if (actual.resultado != null || actual.usadas.isEmpty()) return
+        _estado.value = actual.copy(usadas = actual.usadas.dropLast(1))
     }
 
     fun cambiarEntrada(texto: String) {
@@ -110,9 +141,15 @@ class PracticaViewModel @Inject constructor(
 
     fun comprobar() {
         val actual = _estado.value as? PracticaUiState.Practicando ?: return
-        if (actual.resultado != null || actual.entrada.isBlank()) return
+        val escrito = if (actual.modoBanco) actual.usadas.joinToString(" ") { actual.banco[it] } else actual.entrada
+        if (actual.resultado != null || escrito.isBlank()) return
         val esperadas = actual.oculto?.palabrasOcultas ?: EvaluadorMemoria.palabras(actual.textoCompleto)
-        val resultado = EvaluadorMemoria.evaluar(esperadas, actual.entrada)
+        val resultado = EvaluadorMemoria.evaluar(esperadas, escrito)
+        // Tokens del pasaje que se pedían, en el mismo orden y con el mismo filtro que usa el evaluador.
+        val tokens = actual.oculto?.tokens ?: Ocultador.tokenizar(actual.textoCompleto)
+        val pedidos = (actual.oculto?.ocultas?.sorted() ?: tokens.indices.filter { tokens[it].esPalabra })
+            .filter { EvaluadorMemoria.normalizar(tokens[it].texto).isNotEmpty() }
+        val marcas = pedidos.zip(EvaluadorMemoria.marcar(esperadas, escrito)).toMap()
         viewModelScope.launch {
             val id = pasaje?.id ?: return@launch
             memorizacion.registrarPractica(id, resultado.aprobado)
@@ -122,6 +159,7 @@ class PracticaViewModel @Inject constructor(
                     resultado = resultado,
                     gradoSiguiente = GradoMemoria.desdeIndice(estado?.grado ?: 0),
                     proximoRepaso = if (resultado.aprobado && actual.grado.esEscribir) estado?.proximaFecha else null,
+                    marcas = marcas,
                 ),
             )
         }
@@ -131,6 +169,6 @@ class PracticaViewModel @Inject constructor(
     fun continuar() {
         val actual = _estado.value as? PracticaUiState.Practicando ?: return
         val resultado = actual.resultado ?: return
-        empezar(resultado.gradoSiguiente)
+        empezar(resultado.gradoSiguiente, modoBanco = actual.modoBanco)
     }
 }

@@ -29,6 +29,14 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.domain.usecase.Token
+import com.kaironyx.diceescritura.domain.usecase.Ocultador
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.material3.TextButton
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import com.kaironyx.diceescritura.core.theme.EstiloPasaje
 import com.kaironyx.diceescritura.domain.usecase.TextoOculto
 
@@ -53,6 +61,9 @@ fun PracticaScreen(
         is PracticaUiState.Practicando -> Practicando(
             estado = e,
             onEntrada = viewModel::cambiarEntrada,
+            onAlternarBanco = viewModel::alternarBanco,
+            onElegirPalabra = viewModel::elegirPalabra,
+            onDeshacerPalabra = viewModel::deshacerPalabra,
             onComprobar = viewModel::comprobar,
             onContinuar = viewModel::continuar,
             onSalir = onSalir,
@@ -72,14 +83,19 @@ private fun Mensaje(texto: String, onSalir: () -> Unit, conBoton: Boolean = true
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Practicando(
     estado: PracticaUiState.Practicando,
     onEntrada: (String) -> Unit,
+    onAlternarBanco: () -> Unit,
+    onElegirPalabra: (Int) -> Unit,
+    onDeshacerPalabra: () -> Unit,
     onComprobar: () -> Unit,
     onContinuar: () -> Unit,
     onSalir: () -> Unit,
 ) {
+    val sinResultado = estado.resultado == null
     Column(
         modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
@@ -95,26 +111,54 @@ private fun Practicando(
             style = MaterialTheme.typography.titleSmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-        estado.oculto?.let { TextoConHuecos(it) }
-        Text(
-            stringResource(
-                if (estado.grado.esEscribir) R.string.practica_instruccion_escribir else R.string.practica_instruccion_ocultar,
-            ),
-            style = MaterialTheme.typography.bodyMedium,
-        )
-        OutlinedTextField(
-            value = estado.entrada,
-            onValueChange = onEntrada,
-            enabled = estado.resultado == null,
-            label = { Text(stringResource(R.string.practica_entrada_etiqueta)) },
-            minLines = if (estado.grado.esEscribir) 5 else 2,
-            modifier = Modifier.fillMaxWidth(),
-        )
+        estado.oculto?.let { oculto ->
+            TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 4) {
+                TextoConHuecos(oculto, estado.banco, if (estado.modoBanco) estado.usadas else emptyList(), estado.modoBanco)
+            }
+        }
+        if (sinResultado && estado.oculto != null) {
+            TextButton(onClick = onAlternarBanco) {
+                Text(stringResource(if (estado.modoBanco) R.string.practica_escribir_palabras else R.string.practica_elegir_palabras))
+            }
+        }
+        if (estado.modoBanco) {
+            if (sinResultado) {
+                Text(stringResource(R.string.practica_instruccion_banco), style = MaterialTheme.typography.bodyMedium)
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    estado.banco.forEachIndexed { posicion, palabra ->
+                        val usada = posicion in estado.usadas
+                        OutlinedButton(
+                            onClick = { onElegirPalabra(posicion) },
+                            enabled = !usada,
+                            modifier = Modifier.heightIn(min = 48.dp),
+                        ) { Text(palabra) }
+                    }
+                }
+                if (estado.usadas.isNotEmpty()) {
+                    TextButton(onClick = onDeshacerPalabra) { Text(stringResource(R.string.practica_deshacer)) }
+                }
+            }
+        } else {
+            Text(
+                stringResource(
+                    if (estado.grado.esEscribir) R.string.practica_instruccion_escribir else R.string.practica_instruccion_ocultar,
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+            )
+            OutlinedTextField(
+                value = estado.entrada,
+                onValueChange = onEntrada,
+                enabled = sinResultado,
+                label = { Text(stringResource(R.string.practica_entrada_etiqueta)) },
+                minLines = if (estado.grado.esEscribir) 5 else 2,
+                modifier = Modifier.fillMaxWidth(),
+            )
+        }
         val resultado = estado.resultado
         if (resultado == null) {
             Button(
                 onClick = onComprobar,
-                enabled = estado.entrada.isNotBlank(),
+                enabled = if (estado.modoBanco) estado.usadas.size == estado.banco.size else estado.entrada.isNotBlank(),
                 modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
             ) { Text(stringResource(R.string.practica_comprobar)) }
         } else {
@@ -123,18 +167,38 @@ private fun Practicando(
     }
 }
 
-/** Pasaje con las palabras ocultas como huecos; para TalkBack se lee "palabra oculta" en su lugar. */
+/**
+ * Pasaje con las palabras ocultas como huecos; para TalkBack se lee "palabra oculta" en su lugar.
+ * En el modo banco, las palabras ya colocadas ([usadas], posiciones de [banco]) llenan los huecos en orden
+ * y el siguiente hueco por llenar se resalta.
+ */
 @Composable
-private fun TextoConHuecos(oculto: TextoOculto) {
+private fun TextoConHuecos(oculto: TextoOculto, banco: List<String>, usadas: List<Int>, modoBanco: Boolean) {
     val colorHueco = MaterialTheme.colorScheme.primary
     val leido = stringResource(R.string.practica_palabra_oculta)
-    val descripcion = oculto.tokens.mapIndexed { i, t -> if (i in oculto.ocultas) leido else t.texto }.joinToString("")
+    val ordenHuecos = oculto.ocultas.sorted()
+    val descripcion = oculto.tokens.mapIndexed { i, t ->
+        val k = ordenHuecos.indexOf(i)
+        when {
+            k < 0 -> t.texto
+            modoBanco && k < usadas.size -> banco[usadas[k]]
+            else -> leido
+        }
+    }.joinToString("")
     val visible = buildAnnotatedString {
         oculto.tokens.forEachIndexed { i, token ->
-            if (i in oculto.ocultas) {
-                withStyle(SpanStyle(color = colorHueco)) { append("_".repeat(token.texto.length.coerceAtLeast(3))) }
-            } else {
-                append(token.texto)
+            val k = ordenHuecos.indexOf(i)
+            when {
+                k < 0 -> append(token.texto)
+                modoBanco && k < usadas.size ->
+                    withStyle(SpanStyle(color = colorHueco, fontWeight = FontWeight.Bold)) { append(banco[usadas[k]]) }
+                else -> withStyle(
+                    SpanStyle(
+                        color = colorHueco,
+                        fontWeight = if (modoBanco && k == usadas.size) FontWeight.Bold else null,
+                        textDecoration = if (modoBanco && k == usadas.size) TextDecoration.Underline else null,
+                    ),
+                ) { append("_".repeat(token.texto.length.coerceAtLeast(3))) }
             }
         }
     }
@@ -143,6 +207,25 @@ private fun TextoConHuecos(oculto: TextoOculto) {
         style = EstiloPasaje,
         modifier = Modifier.fillMaxWidth().semantics { contentDescription = descripcion },
     )
+}
+
+/** Pasaje completo con las palabras pedidas en verde si se acertaron y en rojo subrayado si se olvidaron. */
+@Composable
+private fun PasajeResaltado(tokens: List<Token>, marcas: Map<Int, Boolean>) {
+    val acierto = MaterialTheme.colorScheme.primary
+    val fallo = MaterialTheme.colorScheme.error
+    val texto = buildAnnotatedString {
+        tokens.forEachIndexed { i, token ->
+            when (marcas[i]) {
+                true -> withStyle(SpanStyle(color = acierto, fontWeight = FontWeight.Bold)) { append(token.texto) }
+                false -> withStyle(SpanStyle(color = fallo, fontWeight = FontWeight.Bold, textDecoration = TextDecoration.Underline)) {
+                    append(token.texto)
+                }
+                null -> append(token.texto)
+            }
+        }
+    }
+    Text(texto, style = EstiloPasaje)
 }
 
 @Composable
@@ -174,7 +257,14 @@ private fun Resultado(
         }
     }
     Text(stringResource(R.string.practica_texto_correcto), style = MaterialTheme.typography.titleSmall)
-    Text(estado.textoCompleto, style = EstiloPasaje)
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 6) {
+        PasajeResaltado(estado.oculto?.tokens ?: Ocultador.tokenizar(estado.textoCompleto), resultado.marcas)
+        Text(
+            stringResource(R.string.practica_leyenda),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
 
     val terminado = resultado.proximoRepaso != null
     if (!terminado) {
