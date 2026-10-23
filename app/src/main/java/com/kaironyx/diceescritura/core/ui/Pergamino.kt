@@ -47,7 +47,13 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.theme.Espacio
 import com.kaironyx.diceescritura.core.theme.TituloFontFamily
@@ -55,10 +61,10 @@ import kotlin.math.sin
 
 /** Paleta de pergamino: fondos de papel, tinta marrón y oro. El texto sobre [Oro] es blanco (AA). */
 object Pergamino {
-    val Crema = Color(0xFFFBF3DC)
-    val Claro = Color(0xFFF5E8C8)
-    val Medio = Color(0xFFE9D5A4)
-    val Oscuro = Color(0xFFD9BE86)
+    val Crema = Color(0xFFF6EBCB)
+    val Claro = Color(0xFFF0E2BC)
+    val Medio = Color(0xFFE7D6AC)
+    val Oscuro = Color(0xFFE2CE9F)
     val Borde = Color(0xFFBFA066)
     val Tinta = Color(0xFF4A2F10)
     val TintaSuave = Color(0xFF6B4410)
@@ -66,7 +72,7 @@ object Pergamino {
     val OroClaro = Color(0xFFD4A63A)
 
     /** Marrón de quemado del borde del papel. */
-    val Quemado = Color(0xFF6A3E10)
+    val Quemado = Color(0xFF8A5A24)
 }
 
 /** Textura de papel (res/drawable-nodpi/pergamino_textura.webp), espejada para que no se vean costuras. */
@@ -161,11 +167,11 @@ fun Modifier.hojaPergamino(semilla: Int = 7): Modifier {
         onDrawBehind {
             // Sombra: la misma hoja desplazada y repetida con poca opacidad.
             for (i in 4 downTo 1) {
-                translateYPath(camino, i * 1.6.dp.toPx(), Color.Black.copy(alpha = 0.07f))
+                translateYPath(camino, i * 1.6.dp.toPx(), Color.Black.copy(alpha = 0.05f))
             }
             drawPath(camino, brush = textura)
-            quemarBorde(camino, grosor = 14.dp.toPx(), intensidad = 0.55f)
-            drawPath(camino, color = Pergamino.Quemado.copy(alpha = 0.45f), style = Stroke(width = 1.dp.toPx()))
+            quemarBorde(camino, grosor = 9.dp.toPx(), intensidad = 0.25f)
+            drawPath(camino, color = Pergamino.Quemado.copy(alpha = 0.3f), style = Stroke(width = 1.dp.toPx()))
         }
     }
 }
@@ -180,7 +186,7 @@ fun Modifier.fondoPergamino(): Modifier {
     val textura = rememberTextura()
     return this
         .background(Pergamino.Crema)
-        .drawBehind { drawRect(textura, alpha = 0.32f) }
+        .drawBehind { drawRect(textura, alpha = 0.5f) }
 }
 
 /** Losa de pergamino: la tarjeta de la app. Si recibe [onClick], es tocable. */
@@ -251,7 +257,7 @@ fun BarraTituloPergamino(titulo: String, modifier: Modifier = Modifier) {
                 // Quemado del borde de abajo.
                 drawRect(
                     Brush.verticalGradient(
-                        listOf(Color.Transparent, Pergamino.Quemado.copy(alpha = 0.38f)),
+                        listOf(Color.Transparent, Pergamino.Quemado.copy(alpha = 0.16f)),
                         startY = size.height - 36.dp.toPx(),
                         endY = size.height,
                     ),
@@ -261,16 +267,40 @@ fun BarraTituloPergamino(titulo: String, modifier: Modifier = Modifier) {
             .padding(top = Espacio.s + Espacio.xs, bottom = Espacio.l),
         contentAlignment = Alignment.Center,
     ) {
+        TituloDorado(titulo)
+    }
+}
+
+/**
+ * Título con letras de oro bruñido y contorno marrón, como el del video. Tres capas: sombra, contorno y relleno
+ * con degradado metálico (luz arriba, oro oscuro al centro, reflejo abajo).
+ */
+@Composable
+fun TituloDorado(texto: String, modifier: Modifier = Modifier, tamano: TextUnit = 38.sp) {
+    val base = MaterialTheme.typography.headlineMedium.copy(
+        fontFamily = TituloFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = tamano,
+        letterSpacing = 0.8.sp,
+        textAlign = TextAlign.Center,
+    )
+    val oro = Brush.verticalGradient(
+        0f to Color(0xFFFFF1B0),
+        0.35f to Color(0xFFE9B83C),
+        0.6f to Color(0xFFB8801A),
+        0.85f to Color(0xFFE7B643),
+        1f to Color(0xFFFBE08A),
+    )
+    Box(modifier = modifier.semantics { contentDescription = texto }, contentAlignment = Alignment.Center) {
         Text(
-            titulo,
-            style = MaterialTheme.typography.headlineMedium.copy(
-                fontFamily = TituloFontFamily,
-                fontWeight = FontWeight.Bold,
-                fontSize = 32.sp,
-                textAlign = TextAlign.Center,
+            texto,
+            style = base.copy(
+                color = Color(0xFF3A210A),
+                shadow = Shadow(Color(0x66301800), Offset(2f, 5f), 6f),
+                drawStyle = Stroke(width = 6f, join = StrokeJoin.Round),
             ),
-            color = Pergamino.TintaSuave,
         )
+        Text(texto, style = base.copy(brush = oro))
     }
 }
 
@@ -285,7 +315,7 @@ fun Modifier.fondoBarraInferior(): Modifier {
             drawRect(textura)
             drawRect(
                 Brush.verticalGradient(
-                    listOf(Pergamino.Quemado.copy(alpha = 0.38f), Color.Transparent),
+                    listOf(Pergamino.Quemado.copy(alpha = 0.16f), Color.Transparent),
                     startY = 0f,
                     endY = 36.dp.toPx(),
                 ),

@@ -53,7 +53,11 @@ import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.ui.PlantaNivel
 import com.kaironyx.diceescritura.core.ui.TarjetaContenido
 import com.kaironyx.diceescritura.core.ui.rememberAnimacionesActivas
+import com.kaironyx.diceescritura.domain.model.Categoria
 import com.kaironyx.diceescritura.domain.model.Contenido
+import com.kaironyx.diceescritura.domain.model.Pregunta
+import com.kaironyx.diceescritura.domain.model.ResultadoReferencia
+import com.kaironyx.diceescritura.domain.usecase.ParserReferencias
 import com.kaironyx.diceescritura.domain.usecase.Respuesta
 
 @Composable
@@ -146,6 +150,13 @@ private fun PreguntaEnCurso(
         ) {
             TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
                 Text(estado.pregunta.enunciado, style = MaterialTheme.typography.titleLarge)
+                pistaCapitulo(estado.pregunta)?.let {
+                    Text(
+                        stringResource(R.string.pista_capitulo, it),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
             when (val contenido = estado.pregunta.contenido) {
                 is Contenido.OpcionMultiple -> OpcionesMultiples(estado, contenido, onResponder)
@@ -255,6 +266,23 @@ private fun FilaOpcion(
     }
 }
 
+/**
+ * Libro y capítulo del pasaje, como referencia aproximada que no regala la respuesta. Solo en las categorías cuya
+ * respuesta no es un libro o un lugar del pasaje (en libros, cartas y «dónde está escrito» el capítulo la delataría).
+ */
+private fun pistaCapitulo(pregunta: Pregunta): String? {
+    if (pregunta.categoria !in CATEGORIAS_CON_PISTA) return null
+    return pregunta.referencias
+        .mapNotNull { (ParserReferencias.analizar(it) as? ResultadoReferencia.Valida)?.referencia }
+        .map { "${it.libro.nombre} ${it.capituloInicio}" }
+        .distinct()
+        .take(2)
+        .joinToString(" · ")
+        .ifEmpty { null }
+}
+
+private val CATEGORIAS_CON_PISTA = setOf(Categoria.HISTORIA, Categoria.PERSONAJES, Categoria.LUGARES, Categoria.ENSENANZAS)
+
 @Composable
 private fun Ordenar(
     estado: PartidaUiState.EnCurso,
@@ -334,7 +362,6 @@ private fun Retroalimentacion(estado: PartidaUiState.EnCurso, resultado: com.kai
             pregunta.confesionRef?.let {
                 Text(stringResource(R.string.confesion_aviso, it), style = MaterialTheme.typography.labelLarge)
             }
-            Text(stringResource(R.string.verifica_invitacion), style = MaterialTheme.typography.bodySmall)
         }
     }
 }
