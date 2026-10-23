@@ -138,4 +138,35 @@ object EvaluadorMemoria {
         val sobrantes = maxOf(0, dado.size - esperado.size)
         return ResultadoMemoria(aciertos = maxOf(0, anterior[dado.size] - sobrantes), total = esperado.size)
     }
+
+    /**
+     * Para cada palabra de [esperadas] (las vacías tras normalizar se omiten, igual que en [evaluar]),
+     * si quedó emparejada con lo escrito en la subsecuencia común más larga. Sirve para resaltar
+     * aciertos y olvidos en el pasaje.
+     */
+    fun marcar(esperadas: List<String>, escrito: String): List<Boolean> {
+        val esperado = esperadas.map(::normalizar).filter { it.isNotEmpty() }
+        val dado = palabras(escrito)
+        val tabla = Array(esperado.size + 1) { IntArray(dado.size + 1) }
+        for (i in esperado.indices) {
+            for (j in dado.indices) {
+                tabla[i + 1][j + 1] = if (esperado[i] == dado[j]) {
+                    tabla[i][j] + 1
+                } else {
+                    maxOf(tabla[i][j + 1], tabla[i + 1][j])
+                }
+            }
+        }
+        val marcas = BooleanArray(esperado.size)
+        var i = esperado.size
+        var j = dado.size
+        while (i > 0 && j > 0) {
+            when {
+                esperado[i - 1] == dado[j - 1] -> { marcas[i - 1] = true; i--; j-- }
+                tabla[i - 1][j] >= tabla[i][j - 1] -> i--
+                else -> j--
+            }
+        }
+        return marcas.toList()
+    }
 }
