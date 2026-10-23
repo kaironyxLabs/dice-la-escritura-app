@@ -49,11 +49,11 @@ private val AltoFundido = 48.dp
  * apagadas, no se muestra.
  *
  * [iniciar] retrasa la reproducción hasta que el splash del sistema se haya ido; si no, correría
- * sin verse. El video entra con un fundido desde oscuro; al terminar se funde de nuevo a oscuro y
+ * sin verse. [alArrancar] avisa cuando el video ya está en marcha (la app espera para componerse). El video entra con un fundido desde oscuro; al terminar se funde de nuevo a oscuro y
  * se llama a [alTerminar].
  */
 @Composable
-fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar: Boolean = true) {
+fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar: Boolean = true, alArrancar: () -> Unit = {}) {
     val animar = rememberAnimacionesActivas()
     val terminar by rememberUpdatedState(alTerminar)
     // Cubierta oscura sobre el video: 1 = todo oscuro. Baja al empezar y sube al terminar.
@@ -66,7 +66,10 @@ fun SplashBiblico(alTerminar: () -> Unit, modifier: Modifier = Modifier, iniciar
         if (!animar) terminar()
     }
     LaunchedEffect(reproduciendo) {
-        if (reproduciendo) cubierta.animateTo(0f, tween(300))
+        if (reproduciendo) {
+            cubierta.animateTo(0f, tween(300))
+            alArrancar()
+        }
     }
     LaunchedEffect(fin) {
         if (!fin) return@LaunchedEffect
