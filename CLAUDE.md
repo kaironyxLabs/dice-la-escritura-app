@@ -40,7 +40,7 @@ sube. Detalle completo en `docs/TEXTO_BIBLICO.md`.
 
 ## Reglas de contenido (críticas)
 1. El texto de la RVR1960 tiene derechos. No se escribe de memoria, no va en docs ni pruebas, ni a ningún remoto. Solo sale del archivo que aporta el usuario. `biblia_rv1960.pdf`, `fuentes/` y `app/src/main/assets/bible/libros/` están en `.gitignore`.
-2. Preguntas y explicaciones citan referencias y parafrasean; no transcriben versículos.
+2. Preguntas y explicaciones guardan solo la referencia (nunca el texto del versículo, ni parafraseado). La app lee el pasaje de la RVR1960 local (`BibleRepository`) y lo muestra tras responder.
 3. Preguntas base verificables con un pasaje concreto y sin posturas denominacionales.
 4. La Confesión Bautista de 1689 va en módulo aparte tras la bandera `CONFESION_1689` (apagada por defecto); preguntas originales.
 5. Todo contenido nuevo lleva `reviewed: false`. Nunca marcar `true`: lo revisa el usuario.

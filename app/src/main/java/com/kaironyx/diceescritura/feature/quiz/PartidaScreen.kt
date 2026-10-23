@@ -321,8 +321,15 @@ private fun Retroalimentacion(estado: PartidaUiState.EnCurso, resultado: com.kai
         TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
             Text(stringResource(R.string.justificacion_titulo), style = MaterialTheme.typography.titleSmall)
             Text(pregunta.explicacion, style = MaterialTheme.typography.bodyMedium)
-            Row(horizontalArrangement = Arrangement.spacedBy(Espacio.s), modifier = Modifier.horizontalScroll(rememberScrollState())) {
-                pregunta.referencias.forEach { ChipCita(it) }
+            val porLeer = estado.citas.filter { it.texto == null }
+            estado.citas.filter { it.texto != null }.forEach { cita ->
+                ChipCita(cita.referencia)
+                Text(cita.texto.orEmpty(), style = MaterialTheme.typography.bodyMedium)
+            }
+            if (porLeer.isNotEmpty()) {
+                Row(horizontalArrangement = Arrangement.spacedBy(Espacio.s), modifier = Modifier.horizontalScroll(rememberScrollState())) {
+                    porLeer.forEach { ChipCita(it.referencia) }
+                }
             }
             pregunta.confesionRef?.let {
                 Text(stringResource(R.string.confesion_aviso, it), style = MaterialTheme.typography.labelLarge)
