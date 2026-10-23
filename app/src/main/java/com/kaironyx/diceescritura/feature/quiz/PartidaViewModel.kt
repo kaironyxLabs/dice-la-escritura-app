@@ -7,6 +7,7 @@ import androidx.navigation.toRoute
 import com.kaironyx.diceescritura.core.flags.FeatureFlags
 import com.kaironyx.diceescritura.core.flags.modulosHabilitados
 import com.kaironyx.diceescritura.core.navigation.Destino
+import com.kaironyx.diceescritura.data.bible.BibleRepository
 import com.kaironyx.diceescritura.data.datastore.AjustesRepository
 import com.kaironyx.diceescritura.data.db.TipoSesion
 import com.kaironyx.diceescritura.data.repository.PreguntaRepository
@@ -16,6 +17,9 @@ import com.kaironyx.diceescritura.data.repository.SesionTerminada
 import com.kaironyx.diceescritura.domain.model.Categoria
 import com.kaironyx.diceescritura.domain.model.Nivel
 import com.kaironyx.diceescritura.domain.model.Pregunta
+import com.kaironyx.diceescritura.domain.model.ResultadoReferencia
+import com.kaironyx.diceescritura.domain.model.ResultadoTexto
+import com.kaironyx.diceescritura.domain.usecase.ParserReferencias
 import com.kaironyx.diceescritura.domain.usecase.FiltroJuego
 import com.kaironyx.diceescritura.domain.usecase.GestorNiveles
 import com.kaironyx.diceescritura.domain.usecase.Respuesta
@@ -39,6 +43,9 @@ enum class MotivoSinPreguntas { SIN_PREGUNTAS, EXAMEN_INSUFICIENTE, CATEGORIA_BL
 
 enum class ModoJuego { CATEGORIA, EXAMEN, RETO_DIARIO }
 
+/** Pasaje citado por una pregunta; [texto] es el de la RVR1960 local, o nulo si no se pudo leer. */
+data class CitaLeida(val referencia: String, val texto: String?)
+
 sealed interface PartidaUiState {
     data object Cargando : PartidaUiState
 
@@ -56,6 +63,8 @@ sealed interface PartidaUiState {
         val respuestaDada: Respuesta?,
         val resultado: ResultadoRespuesta?,
         val esUltima: Boolean,
+        /** Pasajes de la pregunta ya leídos del texto local; vacío hasta responder. */
+        val citas: List<CitaLeida> = emptyList(),
     ) : PartidaUiState
 
     data class Terminada(
@@ -79,6 +88,7 @@ class PartidaViewModel @Inject constructor(
     private val ajustes: AjustesRepository,
     private val flags: FeatureFlags,
     private val gestor: GestorNiveles,
+    private val biblia: BibleRepository,
 ) : ViewModel() {
 
     private val destino = savedStateHandle.toRoute<Destino.Partida>()
@@ -96,6 +106,7 @@ class PartidaViewModel @Inject constructor(
     private var orden: List<String> = emptyList()
     private var respuestaDada: Respuesta? = null
     private var terminando = false
+    private var citas: List<CitaLeida> = emptyList()
 
     /** Último guardado de una respuesta; los guardados se encadenan para terminar con el XP ya contado. */
     private var registro: Job? = null
@@ -199,7 +210,15 @@ class PartidaViewModel @Inject constructor(
         val pregunta = s.pregunta
         val resultado = s.responder(respuesta)
         respuestaDada = respuesta
+        citas = pregunta.referencias.map { CitaLeida(it, null) }
         publicar()
+        viewModelScope.launch {
+            val leidas = pregunta.referencias.map { CitaLeida(it, leerPasaje(it)) }
+            if (sesion?.pregunta?.id == pregunta.id) {
+                citas = leidas
+                publicar()
+            }
+        }
         val fecha = fechaReto
         val anterior = registro
         registro = viewModelScope.launch {
@@ -231,6 +250,7 @@ class PartidaViewModel @Inject constructor(
         if (s.avanzar()) {
             orden = emptyList()
             respuestaDada = null
+            citas = emptyList()
             publicar()
         } else {
             terminar(s)
@@ -291,7 +311,16 @@ class PartidaViewModel @Inject constructor(
             respuestaDada = respuestaDada,
             resultado = s.resultadoActual,
             esUltima = s.esUltima,
+            citas = if (s.resultadoActual != null) citas else emptyList(),
         )
+    }
+
+    /** Texto del pasaje; nulo si la referencia abarca capítulos completos o el texto no está disponible. */
+    private suspend fun leerPasaje(texto: String): String? {
+        val ref = (ParserReferencias.analizar(texto) as? ResultadoReferencia.Valida)?.referencia ?: return null
+        if (ref.versiculoInicio == null || ref.versiculoFin == null || ref.capituloInicio != ref.capituloFin) return null
+        return (biblia.textoDe(ref) as? ResultadoTexto.Disponible)?.versiculos
+            ?.joinToString(" ") { "${it.numero} ${it.texto}" }
     }
 
     private companion object {
