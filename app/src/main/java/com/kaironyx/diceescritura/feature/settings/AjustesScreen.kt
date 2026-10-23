@@ -42,6 +42,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.BuildConfig
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.notifications.Notificaciones
 import java.time.LocalDate
@@ -77,44 +78,48 @@ fun AjustesScreen(onCatalogo: (() -> Unit)? = null, viewModel: AjustesViewModel 
             EstadoCargando()
             return@Column
         }
-        Text(stringResource(R.string.ajustes_contenido_titulo), style = MaterialTheme.typography.titleMedium)
-        FilaInterruptor(
-            titulo = R.string.ajustes_confesion_titulo,
-            descripcion = R.string.ajustes_confesion_descripcion,
-            marcado = actual.confesionActiva,
-            onCambio = viewModel::activarConfesion,
-        )
-        FilaInterruptor(
-            titulo = R.string.ajustes_revisadas_titulo,
-            descripcion = R.string.ajustes_revisadas_descripcion,
-            marcado = actual.soloRevisadas,
-            onCambio = viewModel::establecerSoloRevisadas,
-        )
-        SeccionRecordatorio(
-            estado = actual,
-            permisoDenegado = permisoDenegado,
-            onActivar = { activar ->
-                if (!activar) {
-                    permisoDenegado = false
-                    viewModel.activarRecordatorio(false)
-                } else if (Notificaciones.tienePermiso(contexto)) {
-                    permisoDenegado = false
-                    viewModel.activarRecordatorio(true)
-                } else {
-                    // Sin permiso solo puede ocurrir en Android 13 o superior, donde se pide en este momento.
-                    pedirPermiso.launch(Manifest.permission.POST_NOTIFICATIONS)
-                }
-            },
-            onCambiarHora = viewModel::cambiarHoraRecordatorio,
-            onAbrirAjustesSistema = {
-                contexto.startActivity(
-                    Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
-                        .putExtra(Settings.EXTRA_APP_PACKAGE, contexto.packageName),
-                )
-            },
-        )
-        SeccionRespaldo(viewModel)
-        SeccionAcerca()
+        TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 3) {
+            Text(stringResource(R.string.ajustes_contenido_titulo), style = MaterialTheme.typography.titleMedium)
+            FilaInterruptor(
+                titulo = R.string.ajustes_confesion_titulo,
+                descripcion = R.string.ajustes_confesion_descripcion,
+                marcado = actual.confesionActiva,
+                onCambio = viewModel::activarConfesion,
+            )
+            FilaInterruptor(
+                titulo = R.string.ajustes_revisadas_titulo,
+                descripcion = R.string.ajustes_revisadas_descripcion,
+                marcado = actual.soloRevisadas,
+                onCambio = viewModel::establecerSoloRevisadas,
+            )
+        }
+        TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 5) {
+            SeccionRecordatorio(
+                estado = actual,
+                permisoDenegado = permisoDenegado,
+                onActivar = { activar ->
+                    if (!activar) {
+                        permisoDenegado = false
+                        viewModel.activarRecordatorio(false)
+                    } else if (Notificaciones.tienePermiso(contexto)) {
+                        permisoDenegado = false
+                        viewModel.activarRecordatorio(true)
+                    } else {
+                        // Sin permiso solo puede ocurrir en Android 13 o superior, donde se pide en este momento.
+                        pedirPermiso.launch(Manifest.permission.POST_NOTIFICATIONS)
+                    }
+                },
+                onCambiarHora = viewModel::cambiarHoraRecordatorio,
+                onAbrirAjustesSistema = {
+                    contexto.startActivity(
+                        Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                            .putExtra(Settings.EXTRA_APP_PACKAGE, contexto.packageName),
+                    )
+                },
+            )
+        }
+        TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 9) { SeccionRespaldo(viewModel) }
+        TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 2) { SeccionAcerca() }
         if (onCatalogo != null) {
             OutlinedButton(onClick = onCatalogo, modifier = Modifier.fillMaxWidth()) {
                 Text(stringResource(R.string.ajustes_catalogo))

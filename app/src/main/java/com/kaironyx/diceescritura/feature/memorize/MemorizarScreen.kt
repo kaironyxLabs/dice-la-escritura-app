@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -106,50 +107,48 @@ private fun AvisoTextoFaltante(texto: EstadoTexto) {
 @Composable
 private fun TarjetaPasaje(item: ItemPasaje, onAlternar: (Boolean) -> Unit, onPracticar: () -> Unit) {
     val disponible = item.disponibilidad == Disponibilidad.DISPONIBLE
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(item.pasaje.referenciaTexto, style = MaterialTheme.typography.titleMedium)
-            if (item.pasaje.etiquetas.isNotEmpty()) {
-                Text(
-                    item.pasaje.etiquetas.joinToString(" · "),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth()) {
+        Text(item.pasaje.referenciaTexto, style = MaterialTheme.typography.titleMedium)
+        if (item.pasaje.etiquetas.isNotEmpty()) {
+            Text(
+                item.pasaje.etiquetas.joinToString(" · "),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        if (!disponible) {
+            Text(
+                stringResource(
+                    when (item.disponibilidad) {
+                        Disponibilidad.PENDIENTE -> R.string.memorizar_no_disponible_pendiente
+                        Disponibilidad.INEXISTENTE -> R.string.memorizar_no_disponible_inexistente
+                        else -> R.string.memorizar_no_disponible_sin_texto
+                    },
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        } else {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = 48.dp)
+                    .toggleable(value = item.memorizando, role = Role.Switch, onValueChange = onAlternar),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween,
+            ) {
+                Text(stringResource(R.string.memorizar_estoy_memorizando), style = MaterialTheme.typography.bodyLarge)
+                Switch(checked = item.memorizando, onCheckedChange = null)
             }
-            if (!disponible) {
-                Text(
-                    stringResource(
-                        when (item.disponibilidad) {
-                            Disponibilidad.PENDIENTE -> R.string.memorizar_no_disponible_pendiente
-                            Disponibilidad.INEXISTENTE -> R.string.memorizar_no_disponible_inexistente
-                            else -> R.string.memorizar_no_disponible_sin_texto
-                        },
-                    ),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            } else {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .heightIn(min = 48.dp)
-                        .toggleable(value = item.memorizando, role = Role.Switch, onValueChange = onAlternar),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                ) {
-                    Text(stringResource(R.string.memorizar_estoy_memorizando), style = MaterialTheme.typography.bodyLarge)
-                    Switch(checked = item.memorizando, onCheckedChange = null)
-                }
-                if (item.memorizando) {
-                    EstadoDeRepaso(item)
-                    OutlinedButton(
-                        onClick = onPracticar,
-                        modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
-                    ) { Text(stringResource(R.string.memorizar_practicar)) }
-                }
+            if (item.memorizando) {
+                EstadoDeRepaso(item)
+                OutlinedButton(
+                    onClick = onPracticar,
+                    modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
+                ) { Text(stringResource(R.string.memorizar_practicar)) }
             }
         }
-    }
+}
 }
 
 @Composable

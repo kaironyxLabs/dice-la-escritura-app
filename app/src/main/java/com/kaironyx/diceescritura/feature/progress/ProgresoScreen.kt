@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.domain.usecase.PrecisionCategoria
 import com.kaironyx.diceescritura.domain.usecase.ResumenHistorial
@@ -61,31 +62,29 @@ fun ProgresoScreen(viewModel: ProgresoViewModel = hiltViewModel()) {
 
 @Composable
 private fun ResumenNivel(e: ProgresoUiState) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(
-                stringResource(R.string.nivel_numero, e.nivel.nivel.numero) + " · " + e.nivel.nivel.nombre,
-                style = MaterialTheme.typography.titleLarge,
-            )
-            Text(
-                text = if (e.nivel.xpDelNivel == null) {
-                    stringResource(R.string.nivel_maximo)
-                } else {
-                    stringResource(R.string.xp_progreso, e.nivel.xpEnNivel, e.nivel.xpDelNivel)
-                },
-                style = MaterialTheme.typography.bodyMedium,
-            )
-            Text(
-                pluralStringResource(R.plurals.racha_dias, e.racha.actual, e.racha.actual),
-                style = MaterialTheme.typography.bodyLarge,
-            )
-            Text(
-                stringResource(R.string.progreso_mejor_racha, e.racha.mejor),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-    }
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth()) {
+        Text(
+            stringResource(R.string.nivel_numero, e.nivel.nivel.numero) + " · " + e.nivel.nivel.nombre,
+            style = MaterialTheme.typography.titleLarge,
+        )
+        Text(
+            text = if (e.nivel.xpDelNivel == null) {
+                stringResource(R.string.nivel_maximo)
+            } else {
+                stringResource(R.string.xp_progreso, e.nivel.xpEnNivel, e.nivel.xpDelNivel)
+            },
+            style = MaterialTheme.typography.bodyMedium,
+        )
+        Text(
+            pluralStringResource(R.plurals.racha_dias, e.racha.actual, e.racha.actual),
+            style = MaterialTheme.typography.bodyLarge,
+        )
+        Text(
+            stringResource(R.string.progreso_mejor_racha, e.racha.mejor),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+}
 }
 
 @Composable
