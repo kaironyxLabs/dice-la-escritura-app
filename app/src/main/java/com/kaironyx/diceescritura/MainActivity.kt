@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -37,11 +38,13 @@ class MainActivity : ComponentActivity() {
             DiceEscrituraTheme {
                 // La app se compone debajo del splash para que cargue mientras se anima.
                 var mostrarSplash by rememberSaveable { mutableStateOf(true) }
+                var videoEnMarcha by remember { mutableStateOf(false) }
                 val visto by raiz.onboardingVisto.collectAsStateWithLifecycle()
                 Box(Modifier.fillMaxSize()) {
-                    DiceEscrituraNavHost()
+                    // La app (pesada de componer) espera a que el video ya esté en marcha; así el splash no se retrasa.
+                    if (visto != null && (videoEnMarcha || !mostrarSplash)) DiceEscrituraNavHost()
                     AnimatedVisibility(visible = mostrarSplash, exit = fadeOut(tween(350))) {
-                        SplashBiblico(alTerminar = { mostrarSplash = false }, iniciar = visto != null)
+                        SplashBiblico(alTerminar = { mostrarSplash = false }, iniciar = visto != null, alArrancar = { videoEnMarcha = true })
                     }
                 }
             }
