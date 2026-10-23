@@ -109,9 +109,10 @@
     <string name="siguiente">Siguiente</string>
     <string name="ver_resultado">Ver resultado</string>
     <string name="comprobar">Comprobar</string>
-    <string name="ordenar_instruccion">Toca los elementos en el orden correcto. Toca uno de tu lista para quitarlo.</string>
+    <string name="ordenar_instruccion">Arrastra el asa ≡ para poner los elementos en el orden correcto.</string>
+    <string name="ordenar_subir">Subir</string>
+    <string name="ordenar_bajar">Bajar</string>
     <string name="tu_orden">Tu orden</string>
-    <string name="por_ordenar">Por ordenar</string>
     <string name="posicion_elemento">%1$d. %2$s</string>
     <string name="cargando">Cargando…</string>
     <string name="sin_preguntas">No hay preguntas disponibles con la configuración actual.</string>

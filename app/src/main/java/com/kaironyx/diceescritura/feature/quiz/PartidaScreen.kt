@@ -19,7 +19,6 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
@@ -73,7 +72,7 @@ fun PartidaScreen(
             estado = e,
             onSalir = onSalir,
             onResponder = viewModel::responder,
-            onTocarElemento = viewModel::tocarElemento,
+            onMoverElemento = viewModel::moverElemento,
             onComprobarOrden = viewModel::comprobarOrden,
             onSiguiente = viewModel::siguiente,
         )
@@ -108,7 +107,7 @@ private fun PreguntaEnCurso(
     estado: PartidaUiState.EnCurso,
     onSalir: () -> Unit,
     onResponder: (Respuesta) -> Unit,
-    onTocarElemento: (String) -> Unit,
+    onMoverElemento: (Int, Int) -> Unit,
     onComprobarOrden: () -> Unit,
     onSiguiente: () -> Unit,
 ) {
@@ -161,7 +160,7 @@ private fun PreguntaEnCurso(
             when (val contenido = estado.pregunta.contenido) {
                 is Contenido.OpcionMultiple -> OpcionesMultiples(estado, contenido, onResponder)
                 is Contenido.VerdaderoFalso -> BotonesVerdaderoFalso(estado, contenido, onResponder)
-                is Contenido.Ordenar -> Ordenar(estado, contenido, onTocarElemento, onComprobarOrden)
+                is Contenido.Ordenar -> Ordenar(estado, contenido, onMoverElemento, onComprobarOrden)
             }
             estado.resultado?.let { Retroalimentacion(estado, it) }
             if (estado.resultado != null && pantallaBaja) BotonSiguiente(estado, onSiguiente, Modifier)
@@ -287,47 +286,33 @@ private val CATEGORIAS_CON_PISTA = setOf(Categoria.HISTORIA, Categoria.PERSONAJE
 private fun Ordenar(
     estado: PartidaUiState.EnCurso,
     contenido: Contenido.Ordenar,
-    onTocarElemento: (String) -> Unit,
+    onMover: (Int, Int) -> Unit,
     onComprobar: () -> Unit,
 ) {
     val respondida = estado.resultado != null
-    Text(
-        stringResource(R.string.ordenar_instruccion),
-        style = MaterialTheme.typography.bodyMedium,
-        color = MaterialTheme.colorScheme.onSurfaceVariant,
-    )
     if (!respondida) {
-        Text(stringResource(R.string.por_ordenar), style = MaterialTheme.typography.titleSmall)
-        estado.disposicion.filter { it !in estado.orden }.forEach { elemento ->
-            FilledTonalButton(
-                onClick = { onTocarElemento(elemento) },
-                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
-            ) { Text(elemento) }
-        }
-    }
-    Text(stringResource(R.string.tu_orden), style = MaterialTheme.typography.titleSmall)
-    val mostrado = if (respondida) {
-        (estado.respuestaDada as? Respuesta.Orden)?.elementos.orEmpty()
-    } else {
-        estado.orden
-    }
-    mostrado.forEachIndexed { indice, elemento ->
-        val acierto = respondida && contenido.elementos.getOrNull(indice) == elemento
-        val fallo = respondida && !acierto
-        FilaOpcion(
-            texto = stringResource(R.string.posicion_elemento, indice + 1, elemento),
-            enabled = !respondida,
-            esCorrecta = acierto,
-            esErronea = fallo,
-            onClick = { onTocarElemento(elemento) },
+        Text(
+            stringResource(R.string.ordenar_instruccion),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-    }
-    if (!respondida) {
+        ListaOrdenable(elementos = estado.orden, alMover = onMover)
         Button(
             onClick = onComprobar,
-            enabled = estado.orden.size == estado.disposicion.size,
             modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
         ) { Text(stringResource(R.string.comprobar)) }
+    } else {
+        Text(stringResource(R.string.tu_orden), style = MaterialTheme.typography.titleSmall)
+        (estado.respuestaDada as? Respuesta.Orden)?.elementos.orEmpty().forEachIndexed { indice, elemento ->
+            val acierto = contenido.elementos.getOrNull(indice) == elemento
+            FilaOpcion(
+                texto = stringResource(R.string.posicion_elemento, indice + 1, elemento),
+                enabled = false,
+                esCorrecta = acierto,
+                esErronea = !acierto,
+                onClick = {},
+            )
+        }
     }
 }
 

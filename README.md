@@ -6,7 +6,7 @@ Uso personal y de un círculo cercano: se instala por APK, no se publica en Play
 
 ## Qué incluye
 - 10 niveles (de Semilla a Cedro) con examen de ascenso (10 preguntas, 80 % para subir). Los umbrales viven en `assets/content/levels.json`.
-- Partidas de 10 preguntas por categoría: libros y orden, historia, personajes, lugares, enseñanzas de Jesús, cartas y "¿dónde está escrito?". Opción múltiple, verdadero o falso y ordenar.
+- Partidas de 10 preguntas por categoría: libros y orden, historia, personajes, lugares, enseñanzas de Jesús, cartas y "¿dónde está escrito?". Opción múltiple, verdadero o falso y ordenar (se reordena arrastrando el asa de cada elemento; con TalkBack, acciones subir y bajar).
 - Reto diario de 10 preguntas (nuevas y de repaso vencido), que se retoma si sales a mitad (también tras cerrar la app) y que, si cruza la medianoche, cuenta en el día en que empezó. Racha con un día de gracia por semana y recordatorio opcional (pide el permiso de notificaciones en Android 13 o superior y ofrece abrir los ajustes del sistema si lo rechazas).
 - El XP tiene tope por nivel: con la barra llena, lo ganado espera al examen de ascenso. El resultado de cada partida muestra el XP que de verdad entró y avisa de lo que no se sumó.
 - Repetición espaciada Leitner de 5 cajas (1, 2, 4, 8 y 16 días).
