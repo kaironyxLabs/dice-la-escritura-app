@@ -45,6 +45,9 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
+import com.kaironyx.diceescritura.core.ui.JardinNivel
+import androidx.compose.ui.text.style.TextAlign
 import com.kaironyx.diceescritura.core.theme.Espacio
 import com.kaironyx.diceescritura.core.ui.ChipCita
 import com.kaironyx.diceescritura.core.ui.ContenedorRetroalimentacion
@@ -353,58 +356,51 @@ private fun Retroalimentacion(estado: PartidaUiState.EnCurso, resultado: com.kai
 
 @Composable
 private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
+    val nivel = estado.nivelNuevo
+    val subio = estado.modo == ModoJuego.EXAMEN && estado.aprobado == true && nivel != null
     Column(
         modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(stringResource(R.string.resultado_titulo), style = MaterialTheme.typography.headlineMedium)
         Text(
-            pluralStringResource(R.plurals.resultado_aciertos, estado.resumen.aciertos, estado.resumen.aciertos, estado.resumen.total),
-            style = MaterialTheme.typography.titleLarge,
+            stringResource(if (subio) R.string.nivel_subiste else R.string.resultado_titulo),
+            style = MaterialTheme.typography.headlineMedium,
         )
-        if (estado.modo != ModoJuego.EXAMEN) {
-            Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
-            if (estado.xpPerdido > 0) {
+        if (subio && nivel != null) {
+            TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 3) {
+                JardinNivel(nivel = nivel.numero, celebrar = true)
                 Text(
-                    stringResource(R.string.resultado_xp_tope, estado.xpPerdido),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    stringResource(R.string.nivel_nombre, nivel.numero, nivel.nombre),
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
                 )
             }
         }
-        if (estado.modo == ModoJuego.EXAMEN) {
-            val nivel = estado.nivelNuevo
-            if (estado.aprobado == true && nivel != null) PlantaCreciendo(nivel.numero)
+        TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 5) {
             Text(
-                text = if (estado.aprobado == true && nivel != null) {
-                    stringResource(R.string.examen_aprobado, nivel.numero, nivel.nombre)
-                } else {
-                    stringResource(R.string.examen_no_aprobado, estado.porcentajeAprobacion)
-                },
-                style = MaterialTheme.typography.bodyLarge,
+                pluralStringResource(R.plurals.resultado_aciertos, estado.resumen.aciertos, estado.resumen.aciertos, estado.resumen.total),
+                style = MaterialTheme.typography.titleLarge,
             )
+            if (estado.modo != ModoJuego.EXAMEN) {
+                Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
+                if (estado.xpPerdido > 0) {
+                    Text(
+                        stringResource(R.string.resultado_xp_tope, estado.xpPerdido),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+            if (estado.modo == ModoJuego.EXAMEN && !subio) {
+                Text(
+                    stringResource(R.string.examen_no_aprobado, estado.porcentajeAprobacion),
+                    style = MaterialTheme.typography.bodyLarge,
+                )
+            }
         }
         Button(onClick = onSalir, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
             Text(stringResource(R.string.volver_inicio))
         }
-    }
-}
-
-/** La planta del nivel nuevo aparece creciendo desde el suelo; sin animaciones del sistema, aparece ya formada. */
-@Composable
-private fun PlantaCreciendo(numero: Int) {
-    val animar = rememberAnimacionesActivas()
-    val escala = remember { Animatable(if (animar) 0.3f else 1f) }
-    LaunchedEffect(Unit) { if (animar) escala.animateTo(1f, tween(900, easing = FastOutSlowInEasing)) }
-    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
-        PlantaNivel(
-            numero = numero,
-            tamano = 160.dp,
-            modifier = Modifier.graphicsLayer {
-                scaleX = escala.value
-                scaleY = escala.value
-                transformOrigin = TransformOrigin(0.5f, 0.9f)
-            },
-        )
     }
 }

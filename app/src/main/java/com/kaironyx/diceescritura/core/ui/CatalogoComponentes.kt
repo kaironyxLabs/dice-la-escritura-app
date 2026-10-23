@@ -73,6 +73,9 @@ fun CatalogoComponentes(modifier: Modifier = Modifier) {
             InsigniaNivel(10)
         }
 
+        Seccion(R.string.catalogo_jardin)
+        JardinNivel(nivel = 4, celebrar = true)
+
         Seccion(R.string.catalogo_retroalimentacion)
         ContenedorRetroalimentacion(
             acierto = true,
