@@ -203,7 +203,8 @@
     </plurals>
     <string name="resultado_xp">XP ganado: %1$d</string>
     <string name="resultado_xp_tope">La barra del nivel está llena: %1$d XP no se sumaron. Presenta el examen de ascenso para seguir avanzando.</string>
-    <string name="examen_aprobado">Aprobaste el examen. Subes al nivel %1$d: %2$s.</string>
+    <string name="nivel_subiste">¡Subiste de nivel!</string>
+    <string name="nivel_nombre">Nivel %1$d: %2$s</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
     <string name="volver_inicio">Volver al inicio</string>
 
@@ -240,10 +241,11 @@
     <string name="catalogo_citas">Citas</string>
     <string name="catalogo_cita_uno">Romanos 3:23</string>
     <string name="catalogo_cita_dos">Salmos 119:105</string>
+    <string name="catalogo_jardin">Jardín y celebración de nivel</string>
     <string name="catalogo_progreso">Progreso e insignias</string>
     <string name="catalogo_progreso_descripcion">Avance de muestra: 40 %%</string>
     <string name="catalogo_retroalimentacion">Retroalimentación</string>
     <string name="catalogo_acierto">Correcto</string>
     <string name="catalogo_error">Incorrecto</string>
-    <string name="catalogo_explicacion">Explicación breve que remite a comprobar el pasaje en tu Biblia impresa.</string>
+    <string name="catalogo_explicacion">Explicación breve que remite al pasaje.</string>
 </resources>
