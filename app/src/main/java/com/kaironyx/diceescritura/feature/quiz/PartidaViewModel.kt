@@ -231,17 +231,23 @@ class PartidaViewModel @Inject constructor(
         }
     }
 
-    /** En ordenar: añade el elemento a la lista del jugador o, si ya estaba, lo quita. */
-    fun tocarElemento(elemento: String) {
+    /** Orden que lleva el jugador en ordenar; hasta que mueve algo, el barajado inicial. */
+    private fun ordenActual(s: SesionJuego): List<String> = orden.ifEmpty { s.disposicionActual }
+
+    /** En ordenar: mueve el elemento de la posición [desde] a la posición [hacia]. */
+    fun moverElemento(desde: Int, hacia: Int) {
         val s = sesion ?: return
         if (s.resultadoActual != null) return
-        orden = if (elemento in orden) orden - elemento else orden + elemento
+        val lista = ordenActual(s).toMutableList()
+        if (desde !in lista.indices || hacia !in lista.indices) return
+        lista.add(hacia, lista.removeAt(desde))
+        orden = lista
         publicar()
     }
 
     fun comprobarOrden() {
         val s = sesion ?: return
-        if (orden.size == s.disposicionActual.size) responder(Respuesta.Orden(orden))
+        responder(Respuesta.Orden(ordenActual(s)))
     }
 
     fun siguiente() {
@@ -307,7 +313,7 @@ class PartidaViewModel @Inject constructor(
             modo = modo,
             pregunta = s.pregunta,
             disposicion = s.disposicionActual,
-            orden = orden,
+            orden = ordenActual(s),
             respuestaDada = respuestaDada,
             resultado = s.resultadoActual,
             esUltima = s.esUltima,
