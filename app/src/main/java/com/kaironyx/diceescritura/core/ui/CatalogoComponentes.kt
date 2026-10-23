@@ -73,6 +73,12 @@ fun CatalogoComponentes(modifier: Modifier = Modifier) {
             InsigniaNivel(10)
         }
 
+        Seccion(R.string.catalogo_lampara)
+        Row(horizontalArrangement = Arrangement.spacedBy(Espacio.m), verticalAlignment = Alignment.CenterVertically) {
+            Lampara(encendida = true)
+            Lampara(encendida = false)
+        }
+
         Seccion(R.string.catalogo_jardin)
         JardinNivel(nivel = 4, celebrar = true)
 

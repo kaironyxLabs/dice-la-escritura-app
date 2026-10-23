@@ -47,6 +47,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.JardinNivel
+import com.kaironyx.diceescritura.core.ui.Lampara
 import androidx.compose.ui.text.style.TextAlign
 import com.kaironyx.diceescritura.core.theme.Espacio
 import com.kaironyx.diceescritura.core.ui.ChipCita
@@ -372,6 +373,25 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
                 Text(
                     stringResource(R.string.nivel_nombre, nivel.numero, nivel.nombre),
                     style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                )
+            }
+        }
+        if (estado.modo == ModoJuego.RETO_DIARIO && estado.racha != null) {
+            TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 2) {
+                Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+                    Lampara(encendida = true, celebrar = true, tamano = 96.dp)
+                }
+                Text(
+                    stringResource(R.string.reto_celebracion),
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                )
+                Text(
+                    pluralStringResource(R.plurals.racha_dias, estado.racha, estado.racha),
+                    style = MaterialTheme.typography.bodyLarge,
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Center,
                 )

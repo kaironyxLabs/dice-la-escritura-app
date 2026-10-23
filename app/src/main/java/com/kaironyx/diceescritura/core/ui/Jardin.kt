@@ -90,7 +90,7 @@ fun JardinNivel(nivel: Int, celebrar: Boolean, modifier: Modifier = Modifier) {
 
 /** Destellos que salen del centro y se desvanecen (una sola vez). */
 @Composable
-private fun Destellos(modifier: Modifier = Modifier) {
+internal fun Destellos(modifier: Modifier = Modifier) {
     val avance = remember { Animatable(0f) }
     LaunchedEffect(Unit) { avance.animateTo(1f, tween(1600, easing = LinearEasing)) }
     Canvas(modifier) {
