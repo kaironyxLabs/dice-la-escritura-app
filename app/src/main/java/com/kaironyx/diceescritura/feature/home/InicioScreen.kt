@@ -50,6 +50,7 @@ import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.BarraProgresoAnimada
 import com.kaironyx.diceescritura.core.ui.BotonDorado
 import com.kaironyx.diceescritura.core.ui.PlantaNivel
+import com.kaironyx.diceescritura.core.ui.Lampara
 import com.kaironyx.diceescritura.core.ui.PuntosReto
 import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
@@ -181,8 +182,13 @@ private fun TarjetaNivel(estado: EstadoNivel, onNiveles: () -> Unit) {
 @Composable
 private fun TarjetaReto(estado: InicioUiState, onReto: () -> Unit) {
     TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 5) {
-        Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
-        TextoRacha(estado.racha)
+        Row(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            Lampara(encendida = estado.racha.completadoHoy, tamano = 64.dp)
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(stringResource(R.string.reto_titulo), style = MaterialTheme.typography.titleLarge)
+                TextoRacha(estado.racha)
+            }
+        }
         when (val reto = estado.reto) {
             EstadoReto.SinEmpezar -> {
                 Text(stringResource(R.string.reto_sin_empezar), style = MaterialTheme.typography.bodyMedium)

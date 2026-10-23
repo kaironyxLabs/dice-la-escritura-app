@@ -132,6 +132,7 @@
         <item quantity="other">Completaste el reto de hoy: %1$d de %2$d correctas.</item>
         <item quantity="many">Completaste el reto de hoy: %1$d de %2$d correctas.</item>
     </plurals>
+    <string name="reto_celebracion">¡Reto de hoy completado!</string>
     <string name="reto_boton_empezar">Empezar el reto de hoy</string>
     <string name="reto_boton_continuar">Continuar el reto</string>
     <string name="reto_ya_completado_aviso">Ya completaste el reto de hoy. Mañana habrá uno nuevo.</string>
@@ -241,6 +242,7 @@
     <string name="catalogo_citas">Citas</string>
     <string name="catalogo_cita_uno">Romanos 3:23</string>
     <string name="catalogo_cita_dos">Salmos 119:105</string>
+    <string name="catalogo_lampara">Lámpara de la racha (encendida y apagada)</string>
     <string name="catalogo_jardin">Jardín y celebración de nivel</string>
     <string name="catalogo_progreso">Progreso e insignias</string>
     <string name="catalogo_progreso_descripcion">Avance de muestra: 40 %%</string>

@@ -76,6 +76,8 @@ sealed interface PartidaUiState {
         val aprobado: Boolean?,
         val nivelNuevo: Nivel?,
         val porcentajeAprobacion: Int,
+        /** Días de racha tras completar el reto diario; nulo en los demás modos. */
+        val racha: Int? = null,
     ) : PartidaUiState
 }
 
@@ -279,7 +281,11 @@ class PartidaViewModel @Inject constructor(
                 aprobado = resultado.aprobado
                 if (resultado.aprobado) nivelNuevo = gestor.nivel(progreso.ascender().nivel)
             }
-            if (modo == ModoJuego.RETO_DIARIO && fecha != null) retos.completar(fecha)
+            var racha: Int? = null
+            if (modo == ModoJuego.RETO_DIARIO && fecha != null) {
+                retos.completar(fecha)
+                racha = retos.observarRacha().first().actual
+            }
             progreso.guardarSesion(
                 SesionTerminada(
                     tipo = when (modo) {
@@ -301,6 +307,7 @@ class PartidaViewModel @Inject constructor(
                 aprobado = aprobado,
                 nivelNuevo = nivelNuevo,
                 porcentajeAprobacion = gestor.config.examenAprobacionPorcentaje,
+                racha = racha,
             )
         }
     }
