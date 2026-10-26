@@ -43,6 +43,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.BuildConfig
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
+import com.kaironyx.diceescritura.feature.ayuda.TarjetaAyuda
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.notifications.Notificaciones
 import java.time.LocalDate
@@ -119,6 +120,7 @@ fun AjustesScreen(onCatalogo: (() -> Unit)? = null, viewModel: AjustesViewModel 
             )
         }
         TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 9) { SeccionRespaldo(viewModel) }
+        TarjetaAyuda(semilla = 6)
         TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 2) { SeccionAcerca() }
         if (onCatalogo != null) {
             OutlinedButton(onClick = onCatalogo, modifier = Modifier.fillMaxWidth()) {

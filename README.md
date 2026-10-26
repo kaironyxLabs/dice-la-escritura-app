@@ -48,6 +48,7 @@ El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se 
 - `docs/PROMPTS_MEDALLONES.md`: prompts de Gemini de las ocho ilustraciones de los medallones de categoría, ya generadas e integradas en el Inicio (26-oct, D-018).
 - `docs/TEXTO_BIBLICO.md` registra que Nehemías 8:1 y Juan 8:1 empiezan con «8 1 » igual que en BibleGateway (26-oct): se dan por correctos.
 - `docs/PLAN_INMERSION.md` (etapa U8: más pergamino, ornamentos y escenas ilustradas de las historias) y `docs/PROMPTS_ILUSTRACIONES.md` (unas 70 ilustraciones para Gemini). Ya hechos en código: filete dorado con volutas en las hojas y separador ornamental.
+- Ayuda y comentarios (27-oct): tarjeta en Ajustes para reportar un error o enviar un comentario. No usa red: arma el correo (con datos técnicos opcionales y visibles: versión de la app, teléfono y Android; nunca nombre, avance ni texto bíblico) y abre la app de correo del teléfono. El destino está en `CORREO_CONTACTO` (`feature/ayuda/AyudaComentarios.kt`). Probado en el TCL con Gmail.
 - `docs/INSTALACION.md` incluye la sección «Actualizar la app» (versionCode, misma firma, migraciones de Room).
 - `docs/PLAN_DESARROLLO.md`: lo que falta para terminar, por etapas. Con `docs/PLAN_CUENTA_LOCAL.md` (perfil local con nombre y avatar) y `docs/PLAN_REFACTOR_UI.md` (rediseño de la interfaz).
 - Release probado el 26-oct-2026: `assembleRelease` (R8 activo, firmado) instalado en el TCL (Android 12) y 300 eventos de monkey sin cierres ni errores de clases (`versionName` 0.1.0).
