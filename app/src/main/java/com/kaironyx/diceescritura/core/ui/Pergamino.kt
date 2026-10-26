@@ -27,6 +27,9 @@ import androidx.compose.ui.draw.drawWithCache
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.annotation.DrawableRes
+import androidx.compose.foundation.Image
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.graphics.ImageShader
 import androidx.compose.ui.graphics.Outline
 import androidx.compose.ui.graphics.Path
@@ -39,6 +42,7 @@ import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.graphics.drawscope.translate
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
@@ -225,8 +229,8 @@ fun BotonDorado(texto: String, onClick: () -> Unit, modifier: Modifier = Modifie
 }
 
 /**
- * Medallón circular con aro dorado. Por ahora lleva un [icono] sobre un cielo suave; la ilustración
- * de época de cada categoría se pondrá aquí cuando exista.
+ * Medallón circular con aro dorado. Lleva un [icono] sobre un cielo suave (se usa en el catálogo de
+ * componentes); las categorías usan [MedallonIlustrado].
  */
 @Composable
 fun Medallon(icono: ImageVector, modifier: Modifier = Modifier, tamano: Dp = 92.dp) {
@@ -241,6 +245,21 @@ fun Medallon(icono: ImageVector, modifier: Modifier = Modifier, tamano: Dp = 92.
     ) {
         Icon(icono, contentDescription = null, tint = Pergamino.TintaSuave, modifier = Modifier.size(tamano * 0.46f))
     }
+}
+
+/** Medallón con la ilustración de época de una categoría ([ilustracion] es un drawable cuadrado), recortada en círculo con el aro dorado. */
+@Composable
+fun MedallonIlustrado(@DrawableRes ilustracion: Int, modifier: Modifier = Modifier, tamano: Dp = 92.dp) {
+    Image(
+        painter = painterResource(ilustracion),
+        contentDescription = null,
+        contentScale = ContentScale.Crop,
+        modifier = modifier
+            .size(tamano)
+            .border(3.dp, Brush.verticalGradient(listOf(Pergamino.OroClaro, Pergamino.Oro)), CircleShape)
+            .padding(4.dp)
+            .clip(CircleShape),
+    )
 }
 
 /** Cabecera de pergamino con el nombre de la app en tipografía de manuscrito y borde rasgado abajo. */

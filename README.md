@@ -45,7 +45,7 @@ El texto de la RVR1960 tiene derechos de autor y no está en el repositorio. Se 
 - `docs/DECISIONES.md`: decisiones de diseño y sus motivos.
 - `docs/MANUAL_USUARIO.md`: manual de usuario detallado.
 - `docs/CONTRASTE_CONFESION.md` suma un cruce (26-oct) de los versículos de apoyo con las notas al pie del PDF: el 85 % coincide y se listan los demás.
-- `docs/PROMPTS_MEDALLONES.md`: prompts de Gemini para las ocho ilustraciones de los medallones de categoría (pendientes de generar por el usuario).
+- `docs/PROMPTS_MEDALLONES.md`: prompts de Gemini de las ocho ilustraciones de los medallones de categoría, ya generadas e integradas en el Inicio (26-oct, D-018).
 - `docs/INSTALACION.md` incluye la sección «Actualizar la app» (versionCode, misma firma, migraciones de Room).
 - `docs/PLAN_DESARROLLO.md`: lo que falta para terminar, por etapas. Con `docs/PLAN_CUENTA_LOCAL.md` (perfil local con nombre y avatar) y `docs/PLAN_REFACTOR_UI.md` (rediseño de la interfaz).
 - Release probado el 26-oct-2026: `assembleRelease` (R8 activo, firmado) instalado en el TCL (Android 12) y 300 eventos de monkey sin cierres ni errores de clases (`versionName` 0.1.0).
