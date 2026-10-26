@@ -2,6 +2,11 @@ package com.kaironyx.diceescritura.feature.home
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.clickable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -228,11 +233,32 @@ private fun TextoRacha(racha: Racha) {
         )
     }
     if (racha.graciaDisponibleEstaSemana) {
-        Text(
-            stringResource(R.string.racha_gracia),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            HojaGracia(Modifier.size(18.dp))
+            Text(
+                stringResource(R.string.racha_gracia),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+
+/** Hoja de olivo dibujada en código: marca el día de gracia disponible. */
+@Composable
+private fun HojaGracia(modifier: Modifier = Modifier) {
+    val verde = MaterialTheme.colorScheme.primary
+    Canvas(modifier) {
+        val w = size.width
+        val h = size.height
+        val hoja = Path().apply {
+            moveTo(w * 0.12f, h * 0.88f)
+            cubicTo(w * 0.0f, h * 0.35f, w * 0.55f, h * 0.0f, w * 0.92f, h * 0.08f)
+            cubicTo(w * 1.0f, h * 0.55f, w * 0.55f, h * 1.0f, w * 0.12f, h * 0.88f)
+            close()
+        }
+        drawPath(hoja, verde)
+        drawLine(Color.White.copy(alpha = 0.8f), Offset(w * 0.18f, h * 0.84f), Offset(w * 0.78f, h * 0.22f), strokeWidth = w * 0.07f)
     }
 }
 
