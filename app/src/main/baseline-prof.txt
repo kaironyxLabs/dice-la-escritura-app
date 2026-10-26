@@ -1,0 +1,8 @@
+# Perfil base escrito a mano: precompila el arranque y la navegación principal en instalaciones fuera de Play.
+HSPLcom/kaironyx/diceescritura/**;->**(**)**
+Lcom/kaironyx/diceescritura/**;
+HSPLandroidx/compose/runtime/**;->**(**)**
+HSPLandroidx/compose/ui/**;->**(**)**
+HSPLandroidx/compose/foundation/**;->**(**)**
+HSPLandroidx/compose/material3/**;->**(**)**
+HSPLandroidx/navigation/**;->**(**)**
