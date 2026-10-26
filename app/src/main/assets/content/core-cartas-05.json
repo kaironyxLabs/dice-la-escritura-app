@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-cartas-0074",
@@ -67,29 +67,6 @@
       "explanation": "Está en Santiago 2:17.",
       "tags": [
         "fe"
-      ],
-      "reviewed": true
-    },
-    {
-      "id": "core-cartas-0077",
-      "module": "core",
-      "category": "cartas",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿Qué carta declara que Dios es amor y que quien no ama no ha conocido a Dios?",
-      "options": [
-        "Juan",
-        "1 Corintios",
-        "Romanos",
-        "1 Juan"
-      ],
-      "answerIndex": 3,
-      "references": [
-        "1 Juan 4:8"
-      ],
-      "explanation": "Está en 1 Juan 4:8.",
-      "tags": [
-        "juan"
       ],
       "reviewed": true
     },

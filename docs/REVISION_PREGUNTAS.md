@@ -1,6 +1,6 @@
 # Revisión de preguntas
 
-Preguntas: 615. Revisadas: 615. Pendientes: 0.
+Preguntas: 610. Revisadas: 610. Pendientes: 0.
 
 Marca con `x` las que hayas revisado (`- [x]`) y ejecuta `python tools/contenido/aplicar_revision.py`.
 Antes de marcar, comprueba cada una: que la respuesta sea la correcta, que las referencias respalden la
@@ -1844,7 +1844,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Filemón 1:10
   - Explicación: Se refiere a Onésimo (Filemón 1:10).
 
-### Lugares y geografía (54)
+### Lugares y geografía (52)
 
 - [x] `core-lugares-0001` (dificultad 1, opción múltiple): ¿En qué ciudad nació Jesús?
   - Nazaret
@@ -2174,14 +2174,6 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 32:24-30
   - Explicación: Lo llamó Peniel (Génesis 32:30).
 
-- [x] `core-lugares-0042` (dificultad 4, opción múltiple): ¿A qué monte subió Moisés para ver la tierra antes de morir?
-  - Al monte Tabor
-  - Al monte Hermón
-  - **Al monte Nebo**  (correcta)
-  - Al monte Carmelo
-  - Referencias: Deuteronomio 34:1; Deuteronomio 34:5
-  - Explicación: Subió al monte Nebo, en la tierra de Moab (Deuteronomio 34:1, 5).
-
 - [x] `core-lugares-0043` (dificultad 4, opción múltiple): ¿Dónde acamparon los israelitas después de subir del Jordán, al lado oriental de Jericó?
   - **En Gilgal**  (correcta)
   - En Hai
@@ -2197,14 +2189,6 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - El Farfar
   - Referencias: 2 Reyes 5:12; 2 Reyes 5:14
   - Explicación: Se zambulló en el Jordán (2 Reyes 5:14); el Abana y el Farfar eran ríos de Damasco (2 Reyes 5:12).
-
-- [x] `core-lugares-0045` (dificultad 4, opción múltiple): ¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?
-  - **Patmos**  (correcta)
-  - Chipre
-  - Malta
-  - Creta
-  - Referencias: Apocalipsis 1:9
-  - Explicación: Estaba en la isla llamada Patmos (Apocalipsis 1:9).
 
 - [x] `core-lugares-0046` (dificultad 4, opción múltiple): Jonás se levantó para huir de la presencia de Jehová. ¿Hacia qué lugar se dirigía?
   - **Tarsis**  (correcta)
@@ -2815,7 +2799,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 10:30
   - Explicación: Descendía de Jerusalén a Jericó (Lucas 10:30).
 
-### Cartas del Nuevo Testamento (78)
+### Cartas del Nuevo Testamento (77)
 
 - [x] `core-cartas-0001` (dificultad 2, opción múltiple): ¿Cuál de estas cartas de Pablo desarrolla de forma extensa la justificación por la fe?
   - **Romanos**  (correcta)
@@ -3414,14 +3398,6 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Santiago 2:17
   - Explicación: Está en Santiago 2:17.
 
-- [x] `core-cartas-0077` (dificultad 4, opción múltiple): ¿Qué carta declara que Dios es amor y que quien no ama no ha conocido a Dios?
-  - Juan
-  - 1 Corintios
-  - Romanos
-  - **1 Juan**  (correcta)
-  - Referencias: 1 Juan 4:8
-  - Explicación: Está en 1 Juan 4:8.
-
 - [x] `core-cartas-0078` (dificultad 4, opción múltiple): ¿Qué carta enumera como fruto del Espíritu amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza?
   - Filipenses
   - **Gálatas**  (correcta)
@@ -3430,7 +3406,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Gálatas 5:22-23
   - Explicación: Está en Gálatas 5:22-23.
 
-### ¿Dónde está escrito? (88)
+### ¿Dónde está escrito? (86)
 
 - [x] `core-donde_escrito-0001` (dificultad 1, opción múltiple): ¿En qué libro se encuentra el relato de la creación del mundo en seis días?
   - **Génesis**  (correcta)
@@ -4056,14 +4032,6 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jueces 6:37; Jueces 6:39
   - Explicación: Se relata en Jueces 6:37-40.
 
-- [x] `core-donde_escrito-0079` (dificultad 4, opción múltiple): ¿En qué libro dice una mujer moabita a su suegra que su pueblo será el pueblo de ella y su Dios, el Dios de ella?
-  - 1 Samuel
-  - **Rut**  (correcta)
-  - Ester
-  - Jueces
-  - Referencias: Rut 1:16
-  - Explicación: Está en Rut 1:16.
-
 - [x] `core-donde_escrito-0080` (dificultad 4, opción múltiple): ¿En qué libro se postra un hombre en tierra y adora, y bendice el nombre de Jehová?
   - Eclesiastés
   - Lamentaciones
@@ -4111,14 +4079,6 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - **Marcos**  (correcta)
   - Referencias: Marcos 10:46
   - Explicación: Solo Marcos 10:46 lo nombra.
-
-- [x] `core-donde_escrito-0086` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que un jefe de publicanos llamado Zaqueo subió a un sicómoro para ver a Jesús?
-  - Mateo
-  - Marcos
-  - **Lucas**  (correcta)
-  - Juan
-  - Referencias: Lucas 19:2-4
-  - Explicación: Se relata en Lucas 19:2-4.
 
 - [x] `core-donde_escrito-0087` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que Jesús llamó a gran voz a Lázaro y el muerto salió con las manos y los pies atados con vendas?
   - **Juan**  (correcta)

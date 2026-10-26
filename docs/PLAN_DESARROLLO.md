@@ -7,7 +7,7 @@ Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada 
 **Hecho**
 - Hitos H0 a H8: app completa en lo funcional (niveles, partidas, reto diario, racha, repetición espaciada, memorizar, progreso, ajustes, recordatorio, exportar e importar, módulo de la Confesión).
 - Texto de la RVR1960 cerrado, igualado a BibleGateway; la app lo lee por libro.
-- 615 preguntas (518 base y 97 de la Confesión), contrastadas con el texto local de la RVR1960 y con tu PDF de la Confesión. Todas aprobadas por ti (26-oct-2026), igual que los 159 pasajes de Memorizar.
+- 610 preguntas (513 base y 97 de la Confesión), contrastadas con el texto local de la RVR1960 y con tu PDF de la Confesión. Todas aprobadas por ti (26-oct-2026), igual que los 159 pasajes de Memorizar.
 - Tras cada respuesta la app muestra la respuesta correcta, su justificación bíblica y la invitación a comprobarla en la Biblia física (impresa).
 - 160 pruebas JVM, 11 instrumentadas, importador con 87 pruebas; lint sin avisos; build de release con R8.
 - Probada a mano en dos teléfonos (Xiaomi y TCL). Última versión instalada en el Xiaomi, con el avance en cero, para tu prueba manual.

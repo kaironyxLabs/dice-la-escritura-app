@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-donde_escrito-0078",
@@ -20,29 +20,6 @@
         "Jueces 6:39"
       ],
       "explanation": "Se relata en Jueces 6:37-40.",
-      "tags": [
-        "jueces"
-      ],
-      "reviewed": true
-    },
-    {
-      "id": "core-donde_escrito-0079",
-      "module": "core",
-      "category": "donde_escrito",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué libro dice una mujer moabita a su suegra que su pueblo será el pueblo de ella y su Dios, el Dios de ella?",
-      "options": [
-        "1 Samuel",
-        "Rut",
-        "Ester",
-        "Jueces"
-      ],
-      "answerIndex": 1,
-      "references": [
-        "Rut 1:16"
-      ],
-      "explanation": "Está en Rut 1:16.",
       "tags": [
         "jueces"
       ],
@@ -181,29 +158,6 @@
         "Marcos 10:46"
       ],
       "explanation": "Solo Marcos 10:46 lo nombra.",
-      "tags": [
-        "evangelios"
-      ],
-      "reviewed": true
-    },
-    {
-      "id": "core-donde_escrito-0086",
-      "module": "core",
-      "category": "donde_escrito",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué Evangelio se relata que un jefe de publicanos llamado Zaqueo subió a un sicómoro para ver a Jesús?",
-      "options": [
-        "Mateo",
-        "Marcos",
-        "Lucas",
-        "Juan"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Lucas 19:2-4"
-      ],
-      "explanation": "Se relata en Lucas 19:2-4.",
       "tags": [
         "evangelios"
       ],

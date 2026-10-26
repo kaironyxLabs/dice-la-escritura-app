@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-lugares-0038",
@@ -94,30 +94,6 @@
       "reviewed": true
     },
     {
-      "id": "core-lugares-0042",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿A qué monte subió Moisés para ver la tierra antes de morir?",
-      "options": [
-        "Al monte Tabor",
-        "Al monte Hermón",
-        "Al monte Nebo",
-        "Al monte Carmelo"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Deuteronomio 34:1",
-        "Deuteronomio 34:5"
-      ],
-      "explanation": "Subió al monte Nebo, en la tierra de Moab (Deuteronomio 34:1, 5).",
-      "tags": [
-        "moises"
-      ],
-      "reviewed": true
-    },
-    {
       "id": "core-lugares-0043",
       "module": "core",
       "category": "lugares",
@@ -162,29 +138,6 @@
       "tags": [
         "reyes",
         "profetas"
-      ],
-      "reviewed": true
-    },
-    {
-      "id": "core-lugares-0045",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?",
-      "options": [
-        "Patmos",
-        "Chipre",
-        "Malta",
-        "Creta"
-      ],
-      "answerIndex": 0,
-      "references": [
-        "Apocalipsis 1:9"
-      ],
-      "explanation": "Estaba en la isla llamada Patmos (Apocalipsis 1:9).",
-      "tags": [
-        "apocalipsis"
       ],
       "reviewed": true
     },
