@@ -15,3 +15,37 @@ Se extrajo el texto, se separó en capítulos y párrafos y se comparó cada una
 - Títulos de `confesion-capitulos.json` y la pregunta de orden `-0013` ahora usan los títulos del PDF.
 
 `contentVersion` subió en los dos archivos del módulo. `reviewed` sigue en `false` en todas.
+
+## Cruce con las notas al pie (26-oct-2026)
+
+Se comparó cada versículo de apoyo (`references`) de las preguntas con las notas al pie del párrafo que cita `confessionRef` en `lbcos.pdf` (cotejo automático por libro y capítulo, sin transcribir nada). De 165 versículos, 140 (85 %) aparecen en las notas de su párrafo. Siete preguntas no se pudieron cotejar porque la extracción no encontró notas para su párrafo (`-0003`, `-0013`, `-0034`, `-0035`, `-0090`, `-0091`, `-0092`).
+
+Los 25 versículos que no figuran en las notas de su párrafo (no es un error de doctrina: son textos de apoyo que eligió la pregunta, no los de la edición) son:
+
+| Pregunta | Párrafo | Versículo |
+|---|---|---|
+| `-0005` | 8.2 | Colosenses 2:9 |
+| `-0011` | 25.1 | Mateo 19:4-6 |
+| `-0015` | 1.9 | 2 Pedro 1:20-21 |
+| `-0022` | 5.1 | Salmos 103:19 |
+| `-0023` | 5.2 | Mateo 10:29-30 |
+| `-0028` | 7.1 | Job 35:7-8 |
+| `-0029` | 7.2 | Romanos 3:20-21 |
+| `-0031` | 8.2 | Mateo 1:20 |
+| `-0032` | 8.1 | Hechos 4:12 |
+| `-0038` | 10.3 | Hechos 4:12 |
+| `-0050` | 15.3 | Zacarías 12:10 |
+| `-0055` | 16.5 | Efesios 2:8-9 |
+| `-0057` | 17.2 | 2 Timoteo 2:19 |
+| `-0058` | 17.3 | Salmos 89:31-32 |
+| `-0059` | 18.1 | Job 8:13-14 |
+| `-0061` | 18.3 | Isaías 50:10 |
+| `-0067` | 20.4 | Juan 3:5-8 y Efesios 2:1-5 |
+| `-0072` | 22.3 | 1 Timoteo 2:5 |
+| `-0073` | 23.2 | Deuteronomio 10:20 y Mateo 5:34-37 |
+| `-0075` | 23.1 | Jeremías 4:2 |
+| `-0084` | 27.2 | 1 Pedro 4:10 |
+| `-0088` | 28.2 | Mateo 28:19 |
+| `-0095` | 31.2 | Job 19:26-27 |
+
+(Los ids van precedidos de `confesion1689-confesion`.) No se cambió ninguna pregunta: estas 97 ya están revisadas por ti. Si prefieres que los versículos de apoyo coincidan siempre con los de la edición, se puede sustituir cada uno por el de la nota al pie, pero es decisión tuya.
