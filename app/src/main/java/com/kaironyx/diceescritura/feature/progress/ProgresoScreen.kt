@@ -244,6 +244,13 @@ private fun FilaLogro(estado: EstadoLogro) {
                 color = if (estado.conseguido) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant,
             )
             Text(descripcion, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (!estado.conseguido) {
+                Text(
+                    stringResource(R.string.logro_avance_corto, estado.avance, estado.logro.meta),
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
     }
 }

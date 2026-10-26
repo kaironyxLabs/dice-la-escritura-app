@@ -35,6 +35,8 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -346,8 +348,11 @@ private fun AccesoAyuda() {
     var abierto by rememberSaveable { mutableStateOf(false) }
     TextButton(onClick = { abierto = true }) { Text(stringResource(R.string.inicio_algo_falla)) }
     if (abierto) {
-        ModalBottomSheet(onDismissRequest = { abierto = false }) {
-            Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 24.dp)) {
+        ModalBottomSheet(
+            onDismissRequest = { abierto = false },
+            sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        ) {
+            Column(Modifier.imePadding().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 24.dp)) {
                 TarjetaAyuda()
             }
         }

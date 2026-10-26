@@ -6,6 +6,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.ui.Alignment
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -107,8 +109,10 @@ fun EscenaIlustrada(escena: EscenaHistoria, modifier: Modifier = Modifier) {
             contentDescription = titulo,
             contentScale = ContentScale.Crop,
             modifier = Modifier
+                .widthIn(max = 420.dp)
                 .fillMaxWidth()
                 .aspectRatio(1f)
+                .align(Alignment.CenterHorizontally)
                 .clip(RoundedCornerShape(12.dp)),
         )
         Text(
