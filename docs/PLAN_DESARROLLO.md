@@ -7,7 +7,7 @@ Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada 
 **Hecho**
 - Hitos H0 a H8: app completa en lo funcional (niveles, partidas, reto diario, racha, repetición espaciada, memorizar, progreso, ajustes, recordatorio, exportar e importar, módulo de la Confesión).
 - Texto de la RVR1960 cerrado, igualado a BibleGateway; la app lo lee por libro.
-- 539 preguntas (442 base y 97 de la Confesión), contrastadas con el texto local de la RVR1960 y con tu PDF de la Confesión. Revisadas por ti: 473; pendientes: 66 nuevas de cartas y "¿dónde está escrito?" (15-oct).
+- 615 preguntas (518 base y 97 de la Confesión), contrastadas con el texto local de la RVR1960 y con tu PDF de la Confesión. Revisadas por ti: 473; pendientes: 66 nuevas de cartas y "¿dónde está escrito?" (15-oct) y 76 de nivel alto (26-oct).
 - Tras cada respuesta la app muestra la respuesta correcta, su justificación bíblica y la invitación a comprobarla en la Biblia física (impresa).
 - 160 pruebas JVM, 11 instrumentadas, importador con 87 pruebas; lint sin avisos; build de release con R8.
 - Probada a mano en dos teléfonos (Xiaomi y TCL). Última versión instalada en el Xiaomi, con el avance en cero, para tu prueba manual.
@@ -30,7 +30,7 @@ Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada 
 
 ## 2. Etapa B: calidad y contenido
 
-1. **Más contenido para los niveles altos.** Hoy los niveles 6 a 10 se distinguen poco: hay pocas preguntas de dificultad 4 y 5. Meta: al menos 25 preguntas de dificultad 4 y 5 por categoría. Regla: cada pregunta nace del pasaje leído en la RVR1960 (o del PDF de la Confesión), no de memoria.
+1. **Más contenido para los niveles altos.** Hoy los niveles 6 a 10 se distinguen poco: hay pocas preguntas de dificultad 4 y 5. Meta: al menos 25 preguntas de dificultad 4 y 5 por categoría (cumplida el 26-oct en las siete categorías base). Regla: cada pregunta nace del pasaje leído en la RVR1960 (o del PDF de la Confesión), no de memoria.
 2. **Preguntas duplicadas o muy parecidas.** Lista en `docs/REVISION_PREVIA.md`: unificar o diferenciar.
 3. **Sesgo de longitud en el módulo base.** Es menor que antes, pero queda; se revisa por categorías.
 4. **Confesión:** cruzar los versículos de apoyo de cada pregunta con las notas al pie de tu PDF.

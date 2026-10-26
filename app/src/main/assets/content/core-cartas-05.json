@@ -1,0 +1,120 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-cartas-0074",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta exhorta a vestirse de toda la armadura de Dios para estar firmes contra las asechanzas del diablo?",
+      "options": [
+        "Colosenses",
+        "Filipenses",
+        "Efesios",
+        "Gálatas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 6:11"
+      ],
+      "explanation": "Está en Efesios 6:11.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0075",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta define la fe como la certeza de lo que se espera y la convicción de lo que no se ve?",
+      "options": [
+        "Hebreos",
+        "Santiago",
+        "Romanos",
+        "1 Pedro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 11:1"
+      ],
+      "explanation": "Está en Hebreos 11:1.",
+      "tags": [
+        "fe"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0076",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta afirma que la fe, si no tiene obras, es muerta en sí misma?",
+      "options": [
+        "Santiago",
+        "Romanos",
+        "Hebreos",
+        "Gálatas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Santiago 2:17"
+      ],
+      "explanation": "Está en Santiago 2:17.",
+      "tags": [
+        "fe"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0077",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta declara que Dios es amor y que quien no ama no ha conocido a Dios?",
+      "options": [
+        "Juan",
+        "1 Corintios",
+        "Romanos",
+        "1 Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Juan 4:8"
+      ],
+      "explanation": "Está en 1 Juan 4:8.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-cartas-0078",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué carta enumera como fruto del Espíritu amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza?",
+      "options": [
+        "Filipenses",
+        "Gálatas",
+        "Efesios",
+        "Colosenses"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Gálatas 5:22-23"
+      ],
+      "explanation": "Está en Gálatas 5:22-23.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": false
+    }
+  ]
+}

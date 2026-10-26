@@ -1,0 +1,284 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-personajes-0074",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba el ama de Rebeca, que murió y fue sepultada al pie de Bet-el?",
+      "options": [
+        "Séfora",
+        "Noemí",
+        "Débora",
+        "Miriam"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 35:8"
+      ],
+      "explanation": "Su ama se llamaba Débora (Génesis 35:8).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0075",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba la mujer de Amram, madre de Aarón y de Moisés?",
+      "options": [
+        "Miriam",
+        "Elisabet",
+        "Jocabed",
+        "Séfora"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 6:20"
+      ],
+      "explanation": "Amram tomó por mujer a Jocabed (Éxodo 6:20).",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0076",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cómo se llamaba el suegro de Moisés, sacerdote de Madián?",
+      "options": [
+        "Elí",
+        "Jetro",
+        "Labán",
+        "Amram"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 3:1"
+      ],
+      "explanation": "Moisés apacentaba las ovejas de Jetro, su suegro (Éxodo 3:1).",
+      "tags": [
+        "exodo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0077",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Con quién se casó Rut la moabita?",
+      "options": [
+        "Con Mahlón",
+        "Con Elimelec",
+        "Con Booz",
+        "Con Obed"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Rut 4:13"
+      ],
+      "explanation": "Booz tomó a Rut y ella fue su mujer (Rut 4:13).",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0078",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "Además de Ana, ¿cómo se llamaba la otra mujer de su marido, que sí tenía hijos?",
+      "options": [
+        "Mical",
+        "Penina",
+        "Abigail",
+        "Ahinoam"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Samuel 1:2"
+      ],
+      "explanation": "La otra mujer se llamaba Penina (1 Samuel 1:2).",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0079",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaba el general del ejército de Saúl, hijo de Ner?",
+      "options": [
+        "Abner",
+        "Benaía",
+        "Amasa",
+        "Joab"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 14:50"
+      ],
+      "explanation": "Era Abner, hijo de Ner, tío de Saúl (1 Samuel 14:50).",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0080",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién envió mensajeros por todas las tribus de Israel para que dijeran «reina en Hebrón»?",
+      "options": [
+        "Joab",
+        "Adonías",
+        "Absalón",
+        "Simei"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Samuel 15:10"
+      ],
+      "explanation": "Fue Absalón (2 Samuel 15:10).",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0081",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cómo se llamaban la abuela y la madre de Timoteo, en quienes habitó primero la fe no fingida?",
+      "options": [
+        "Lidia y Priscila",
+        "Loida y Eunice",
+        "Dorcas y Lidia",
+        "Febe y Junias"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Timoteo 1:5"
+      ],
+      "explanation": "Eran Loida, su abuela, y Eunice, su madre (2 Timoteo 1:5).",
+      "tags": [
+        "pablo",
+        "cartas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0082",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué matrimonio vendió una heredad y sustrajo parte del precio antes de ponerlo a los pies de los apóstoles?",
+      "options": [
+        "Joaquín y Ana",
+        "Ananías y Safira",
+        "Aquila y Priscila",
+        "Zacarías e Elisabet"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 5:1-2"
+      ],
+      "explanation": "Fueron Ananías y Safira su mujer (Hechos 5:1-2).",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0083",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿A los pies de qué maestro fue instruido Pablo, según su propio testimonio?",
+      "options": [
+        "Caifás",
+        "Nicodemo",
+        "Anás",
+        "Gamaliel"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 22:3"
+      ],
+      "explanation": "Dijo haber sido instruido a los pies de Gamaliel (Hechos 22:3).",
+      "tags": [
+        "pablo",
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0084",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Quién, hombre rico de Arimatea y discípulo de Jesús, pidió a Pilato el cuerpo de Jesús?",
+      "options": [
+        "Nicodemo",
+        "Lázaro",
+        "José",
+        "Bernabé"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 27:57-58"
+      ],
+      "explanation": "Fue José de Arimatea (Mateo 27:57-58).",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-personajes-0085",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿A quién llamó Pablo «mi hijo», a quien engendró en sus prisiones?",
+      "options": [
+        "A Epafras",
+        "A Tíquico",
+        "A Tito",
+        "A Onésimo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Filemón 1:10"
+      ],
+      "explanation": "Se refiere a Onésimo (Filemón 1:10).",
+      "tags": [
+        "pablo",
+        "cartas"
+      ],
+      "reviewed": false
+    }
+  ]
+}

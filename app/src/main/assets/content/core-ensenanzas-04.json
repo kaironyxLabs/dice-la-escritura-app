@@ -1,0 +1,328 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-ensenanzas-0055",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola del sembrador, ¿qué ocurrió con la semilla que cayó entre espinos?",
+      "options": [
+        "Fue arrastrada por la lluvia",
+        "Se secó porque no tenía raíz",
+        "Los espinos crecieron y la ahogaron",
+        "Se la comieron las aves"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 13:7"
+      ],
+      "explanation": "Los espinos la ahogaron (Mateo 13:7).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0056",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola del sembrador, ¿cuánto fruto dio la semilla que cayó en buena tierra?",
+      "options": [
+        "A ciento, a sesenta y a treinta por uno",
+        "A mil por uno",
+        "A doce por uno",
+        "A diez, a veinte y a treinta por uno"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 13:8"
+      ],
+      "explanation": "Dio fruto a ciento, a sesenta y a treinta por uno (Mateo 13:8).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0057",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de las diez vírgenes, ¿cuántas eran prudentes?",
+      "options": [
+        "Siete",
+        "Tres",
+        "Cinco",
+        "Dos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 25:1-2"
+      ],
+      "explanation": "Cinco eran prudentes y cinco insensatas (Mateo 25:2).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0058",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de la oveja perdida, ¿cuántas ovejas tenía en total el hombre?",
+      "options": [
+        "Cincuenta",
+        "Setenta",
+        "Doce",
+        "Cien"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 15:4"
+      ],
+      "explanation": "Tenía cien ovejas y dejó noventa y nueve para buscar la perdida (Lucas 15:4).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0059",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de la dracma perdida, ¿cuántas dracmas tenía la mujer?",
+      "options": [
+        "Cien",
+        "Doce",
+        "Diez",
+        "Cinco"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 15:8"
+      ],
+      "explanation": "Tenía diez dracmas (Lucas 15:8).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0060",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué le ocurrió a la casa edificada sobre la arena cuando vinieron lluvia, ríos y vientos?",
+      "options": [
+        "Se inundó, pero fue reparada",
+        "Los vientos solo movieron el techo",
+        "Cayó, y fue grande su ruina",
+        "Quedó firme porque era grande"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 7:26-27"
+      ],
+      "explanation": "Cayó y fue grande su ruina (Mateo 7:27).",
+      "tags": [
+        "sermon-monte",
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0061",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En la parábola de la gran cena, ¿qué dijo haber comprado el segundo invitado que se excusó?",
+      "options": [
+        "Una casa",
+        "Una hacienda",
+        "Cinco yuntas de bueyes",
+        "Diez ovejas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 14:18-19"
+      ],
+      "explanation": "Dijo que había comprado cinco yuntas de bueyes (Lucas 14:19).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0062",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En la parábola de los dos deudores, ¿cuánto debía el que más debía?",
+      "options": [
+        "Diez mil talentos",
+        "Mil denarios",
+        "Quinientos denarios",
+        "Cincuenta denarios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 7:41"
+      ],
+      "explanation": "Uno debía quinientos denarios y el otro cincuenta (Lucas 7:41).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0063",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué dijo Jesús que no se puede esconder?",
+      "options": [
+        "Una lámpara bajo la mesa",
+        "Un árbol en el desierto",
+        "Una ciudad asentada sobre un monte",
+        "Un tesoro bajo tierra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 5:14"
+      ],
+      "explanation": "Dijo que una ciudad asentada sobre un monte no se puede esconder (Mateo 5:14).",
+      "tags": [
+        "sermon-monte"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0064",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola de los obreros de la viña, ¿qué convino el padre de familia con los obreros de la mañana?",
+      "options": [
+        "Dos denarios al día",
+        "Medio denario por hora",
+        "Un talento al mes",
+        "Un denario al día"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 20:1-2"
+      ],
+      "explanation": "Convino con ellos un denario al día (Mateo 20:2).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0065",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "En la parábola del fariseo y el publicano, ¿cuántas veces a la semana decía el fariseo que ayunaba?",
+      "options": [
+        "Una vez",
+        "Dos veces",
+        "Tres veces",
+        "Cada día"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 18:11-12"
+      ],
+      "explanation": "El fariseo dijo que ayunaba dos veces a la semana (Lucas 18:12).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0066",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola del fariseo y el publicano, ¿qué hacía el publicano mientras oraba, sin atreverse a alzar los ojos?",
+      "options": [
+        "Rasgaba sus vestidos",
+        "Alzaba las manos al cielo",
+        "Se golpeaba el pecho",
+        "Se postraba en tierra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 18:13"
+      ],
+      "explanation": "Se golpeaba el pecho y pedía a Dios que fuera propicio a él, pecador (Lucas 18:13).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0067",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola del rico insensato, ¿qué decidió hacer con sus graneros cuando la cosecha fue abundante?",
+      "options": [
+        "Venderlos y comprar más tierra",
+        "Repartir el grano entre los pobres",
+        "Dejarlos como estaban",
+        "Derribarlos y edificar otros mayores"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 12:17-18"
+      ],
+      "explanation": "Decidió derribar sus graneros y edificar mayores (Lucas 12:18).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-ensenanzas-0068",
+      "module": "core",
+      "category": "ensenanzas",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "En la parábola del buen samaritano, ¿hacia qué ciudad descendía de Jerusalén el hombre que cayó en manos de ladrones?",
+      "options": [
+        "Hacia Emaús",
+        "Hacia Betania",
+        "Hacia Samaria",
+        "Hacia Jericó"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 10:30"
+      ],
+      "explanation": "Descendía de Jerusalén a Jericó (Lucas 10:30).",
+      "tags": [
+        "parabolas"
+      ],
+      "reviewed": false
+    }
+  ]
+}
