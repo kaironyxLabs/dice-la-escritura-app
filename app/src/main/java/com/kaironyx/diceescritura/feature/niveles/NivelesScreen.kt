@@ -24,9 +24,9 @@ import com.kaironyx.diceescritura.core.theme.Espacio
 import com.kaironyx.diceescritura.core.ui.BotonSecundario
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.ui.PlantaNivel
-import com.kaironyx.diceescritura.core.ui.TarjetaContenido
 import com.kaironyx.diceescritura.domain.model.Categoria
 import com.kaironyx.diceescritura.domain.model.Nivel
+import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
 import com.kaironyx.diceescritura.feature.nombreRes
 
 /** Mapa de los diez niveles: cada uno con su planta, lo que desbloquea y si ya se alcanzó. */
@@ -69,7 +69,7 @@ private fun FilaNivel(nivel: Nivel, alcanzado: Boolean, esActual: Boolean) {
         else -> stringResource(R.string.niveles_bloqueado)
     }
     val descripcion = stringResource(R.string.niveles_descripcion_planta, nivel.numero, nivel.nombre, estadoTexto)
-    TarjetaContenido(modifier = Modifier.fillMaxWidth().semantics(mergeDescendants = true) {}) {
+    TarjetaPergamino(modifier = Modifier.fillMaxWidth().semantics(mergeDescendants = true) {}, semilla = nivel.numero) {
         Row(horizontalArrangement = Arrangement.spacedBy(Espacio.m), verticalAlignment = Alignment.CenterVertically) {
             PlantaNivel(nivel.numero, tamano = 72.dp, descripcion = descripcion, bloqueada = !alcanzado)
             Column(verticalArrangement = Arrangement.spacedBy(Espacio.xs)) {

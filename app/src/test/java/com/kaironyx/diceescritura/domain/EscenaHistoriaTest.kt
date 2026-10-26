@@ -13,6 +13,16 @@ class EscenaHistoriaTest {
         assertEquals(EscenaHistoria.JOSE_EGIPTO, EscenaHistoria.para(listOf("Génesis 41:40")))
     }
 
+    @Test fun `el versiculo decide la escena dentro del capitulo`() {
+        assertEquals(EscenaHistoria.EDEN, EscenaHistoria.para(listOf("Génesis 2:8")))
+        assertEquals(EscenaHistoria.CREACION, EscenaHistoria.para(listOf("Génesis 2:2")))
+        assertEquals(EscenaHistoria.BABEL, EscenaHistoria.para(listOf("Génesis 11:2-4")))
+        assertNull(EscenaHistoria.para(listOf("Génesis 11:31")))
+        assertEquals(EscenaHistoria.JACOB_ESCALERA, EscenaHistoria.para(listOf("Génesis 28:12")))
+        assertEquals(EscenaHistoria.JACOB_ESCALERA, EscenaHistoria.para(listOf("Génesis 28:19")))
+        assertNull(EscenaHistoria.para(listOf("Génesis 28:5")))
+    }
+
     @Test fun `un rango que cruza capitulos toma la primera escena`() {
         assertEquals(EscenaHistoria.CREACION, EscenaHistoria.para(listOf("Génesis 1:1-2:3")))
     }
