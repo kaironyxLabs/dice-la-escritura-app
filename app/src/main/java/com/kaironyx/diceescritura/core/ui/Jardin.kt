@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -66,9 +65,7 @@ fun JardinNivel(nivel: Int, celebrar: Boolean, modifier: Modifier = Modifier) {
             for (n in primero..nivel) {
                 val actual = n == nivel
                 val tamano = if (actual) grande else chica
-                // La planta dibuja su línea de suelo al 90 % de su alto: la celda mide justo eso y el resto
-                // desborda hacia abajo, así todas las líneas coinciden con el borde inferior de la fila.
-                Box(Modifier.height(tamano * 0.9f).wrapContentHeight(align = Alignment.Top, unbounded = true)) {
+                Box(Modifier.height(tamano)) {
                     PlantaNivel(
                         numero = n,
                         tamano = tamano,
@@ -76,7 +73,7 @@ fun JardinNivel(nivel: Int, celebrar: Boolean, modifier: Modifier = Modifier) {
                             Modifier.graphicsLayer {
                                 scaleX = crecimiento.value
                                 scaleY = crecimiento.value
-                                transformOrigin = TransformOrigin(0.5f, 0.9f)
+                                transformOrigin = TransformOrigin(0.5f, 0.5f)
                             }
                         } else {
                             Modifier

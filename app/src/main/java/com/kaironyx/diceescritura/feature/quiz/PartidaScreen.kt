@@ -46,7 +46,10 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.TarjetaPergamino
+import com.kaironyx.diceescritura.core.ui.BannerCategoria
+import com.kaironyx.diceescritura.core.ui.EscenaIlustrada
 import com.kaironyx.diceescritura.core.ui.JardinNivel
+import com.kaironyx.diceescritura.domain.usecase.EscenaHistoria
 import com.kaironyx.diceescritura.core.ui.Lampara
 import androidx.compose.ui.text.style.TextAlign
 import com.kaironyx.diceescritura.core.theme.Espacio
@@ -151,6 +154,9 @@ private fun PreguntaEnCurso(
                 .padding(horizontal = 24.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
+            if (estado.modo == ModoJuego.CATEGORIA && !pantallaBaja) {
+                BannerCategoria(estado.pregunta.categoria)
+            }
             TarjetaContenido(modifier = Modifier.fillMaxWidth()) {
                 Text(estado.pregunta.enunciado, style = MaterialTheme.typography.titleLarge)
                 pistaCapitulo(estado.pregunta)?.let {
@@ -167,6 +173,9 @@ private fun PreguntaEnCurso(
                 is Contenido.Ordenar -> Ordenar(estado, contenido, onMoverElemento, onComprobarOrden)
             }
             estado.resultado?.let { Retroalimentacion(estado, it) }
+            if (estado.resultado != null && estado.pregunta.categoria in CATEGORIAS_CON_ESCENA) {
+                EscenaHistoria.para(estado.pregunta.referencias)?.let { EscenaIlustrada(it) }
+            }
             if (estado.resultado != null && pantallaBaja) BotonSiguiente(estado, onSiguiente, Modifier)
         }
         if (estado.resultado != null && !pantallaBaja) {
@@ -176,6 +185,9 @@ private fun PreguntaEnCurso(
 }
 
 private const val ALTURA_PANTALLA_BAJA_DP = 480
+
+/** Categorías de relato en las que, tras responder, se muestra la escena ilustrada si la hay. */
+private val CATEGORIAS_CON_ESCENA = setOf(Categoria.HISTORIA, Categoria.PERSONAJES, Categoria.LUGARES, Categoria.ENSENANZAS)
 
 @Composable
 private fun BotonSiguiente(estado: PartidaUiState.EnCurso, onSiguiente: () -> Unit, modifier: Modifier) {
