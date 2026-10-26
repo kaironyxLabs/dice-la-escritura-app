@@ -19,11 +19,14 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.dp
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.ui.BarraTituloPergamino
@@ -100,7 +103,18 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
                                     }
                                 },
                                 icon = { Icon(item.icono, contentDescription = null, modifier = Modifier.size(28.dp)) },
-                                label = { Text(etiqueta, style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.SemiBold)) },
+                                label = {
+                                    // Con fuente muy grande la etiqueta no se parte: la barra limita su escala en 1,3.
+                                    val d = LocalDensity.current
+                                    CompositionLocalProvider(LocalDensity provides Density(d.density, d.fontScale.coerceAtMost(1.3f))) {
+                                        Text(
+                                            etiqueta,
+                                            style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.SemiBold),
+                                            maxLines = 1,
+                                            softWrap = false,
+                                        )
+                                    }
+                                },
                                 colors = NavigationBarItemDefaults.colors(
                                     indicatorColor = Pergamino.OroClaro.copy(alpha = 0.35f),
                                     selectedIconColor = Pergamino.Oro,
