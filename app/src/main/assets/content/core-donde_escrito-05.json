@@ -1,0 +1,259 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-donde_escrito-0078",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se relata que un juez pidió como señal que el rocío estuviera solo en un vellón de lana?",
+      "options": [
+        "1 Samuel",
+        "Jueces",
+        "Rut",
+        "Josué"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jueces 6:37",
+        "Jueces 6:39"
+      ],
+      "explanation": "Se relata en Jueces 6:37-40.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0079",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro dice una mujer moabita a su suegra que su pueblo será el pueblo de ella y su Dios, el Dios de ella?",
+      "options": [
+        "1 Samuel",
+        "Rut",
+        "Ester",
+        "Jueces"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Rut 1:16"
+      ],
+      "explanation": "Está en Rut 1:16.",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0080",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se postra un hombre en tierra y adora, y bendice el nombre de Jehová?",
+      "options": [
+        "Eclesiastés",
+        "Lamentaciones",
+        "Salmos",
+        "Job"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Job 1:20-21"
+      ],
+      "explanation": "Está en Job 1:20-21.",
+      "tags": [
+        "sabiduria"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0081",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se compara la palabra de Dios con una lámpara a los pies y una lumbrera al camino?",
+      "options": [
+        "Proverbios",
+        "Isaías",
+        "Eclesiastés",
+        "Salmos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 119:105"
+      ],
+      "explanation": "Está en Salmos 119:105.",
+      "tags": [
+        "poesia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0082",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro se aconseja fiarse de Jehová de todo corazón y no apoyarse en la propia prudencia?",
+      "options": [
+        "Eclesiastés",
+        "Job",
+        "Proverbios",
+        "Salmos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 3:5-6"
+      ],
+      "explanation": "Está en Proverbios 3:5-6.",
+      "tags": [
+        "sabiduria"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0083",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro profético se promete que los que esperan a Jehová tendrán nuevas fuerzas y levantarán alas como las águilas?",
+      "options": [
+        "Oseas",
+        "Isaías",
+        "Ezequiel",
+        "Jeremías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Isaías 40:31"
+      ],
+      "explanation": "Está en Isaías 40:31.",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0084",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué libro lee el sacerdote Esdras la ley delante de la plaza, desde el alba hasta el mediodía?",
+      "options": [
+        "Esdras",
+        "Ester",
+        "2 Crónicas",
+        "Nehemías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Nehemías 8:2-3"
+      ],
+      "explanation": "Se relata en Nehemías 8:2-3.",
+      "tags": [
+        "restauracion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0085",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿En qué Evangelio se nombra a Bartimeo, el ciego hijo de Timeo, sentado junto al camino cerca de Jericó?",
+      "options": [
+        "Lucas",
+        "Juan",
+        "Mateo",
+        "Marcos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Marcos 10:46"
+      ],
+      "explanation": "Solo Marcos 10:46 lo nombra.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0086",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué Evangelio se relata que un jefe de publicanos llamado Zaqueo subió a un sicómoro para ver a Jesús?",
+      "options": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 19:2-4"
+      ],
+      "explanation": "Se relata en Lucas 19:2-4.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0087",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué Evangelio se relata que Jesús llamó a gran voz a Lázaro y el muerto salió con las manos y los pies atados con vendas?",
+      "options": [
+        "Juan",
+        "Mateo",
+        "Lucas",
+        "Marcos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 11:43-44"
+      ],
+      "explanation": "Se relata en Juan 11:43-44.",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-donde_escrito-0088",
+      "module": "core",
+      "category": "donde_escrito",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué libro dice el Señor que está a la puerta y llama, y que entrará a cenar con quien le abra?",
+      "options": [
+        "Hebreos",
+        "Santiago",
+        "Juan",
+        "Apocalipsis"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 3:20"
+      ],
+      "explanation": "Está en Apocalipsis 3:20.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    }
+  ]
+}

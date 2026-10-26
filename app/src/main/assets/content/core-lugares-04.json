@@ -1,0 +1,402 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-lugares-0038",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde sepultó Abraham a Sara, su mujer?",
+      "options": [
+        "En la cueva de Adulam",
+        "En el valle de Josafat",
+        "En un sepulcro junto a Siquem",
+        "En la cueva de Macpela"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 23:19"
+      ],
+      "explanation": "Fue sepultada en la cueva de Macpela (Génesis 23:19).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0039",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué tierra hallaron una llanura los que luego quisieron edificar una ciudad y una torre cuya cúspide llegara al cielo?",
+      "options": [
+        "Moab",
+        "Egipto",
+        "Madián",
+        "Sinar"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 11:2-4"
+      ],
+      "explanation": "Se establecieron en la tierra de Sinar (Génesis 11:2).",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0040",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuál era el nombre primero de la ciudad que Jacob llamó Bet-el?",
+      "options": [
+        "Hai",
+        "Gilgal",
+        "Mizpa",
+        "Luz"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 28:19"
+      ],
+      "explanation": "Luz era el nombre primero de la ciudad (Génesis 28:19).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0041",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué nombre dio Jacob al lugar donde luchó con un varón hasta el alba?",
+      "options": [
+        "Sucot",
+        "Mizpa",
+        "Peniel",
+        "Mahanaim"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 32:24-30"
+      ],
+      "explanation": "Lo llamó Peniel (Génesis 32:30).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0042",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué monte subió Moisés para ver la tierra antes de morir?",
+      "options": [
+        "Al monte Tabor",
+        "Al monte Hermón",
+        "Al monte Nebo",
+        "Al monte Carmelo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Deuteronomio 34:1",
+        "Deuteronomio 34:5"
+      ],
+      "explanation": "Subió al monte Nebo, en la tierra de Moab (Deuteronomio 34:1, 5).",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0043",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde acamparon los israelitas después de subir del Jordán, al lado oriental de Jericó?",
+      "options": [
+        "En Gilgal",
+        "En Hai",
+        "En Mizpa",
+        "En Silo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 4:19"
+      ],
+      "explanation": "Acamparon en Gilgal (Josué 4:19).",
+      "tags": [
+        "conquista"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0044",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Naamán se zambulló siete veces en un río para quedar limpio. ¿Cuál era?",
+      "options": [
+        "El Jordán",
+        "El Cedrón",
+        "El Abana",
+        "El Farfar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 5:12",
+        "2 Reyes 5:14"
+      ],
+      "explanation": "Se zambulló en el Jordán (2 Reyes 5:14); el Abana y el Farfar eran ríos de Damasco (2 Reyes 5:12).",
+      "tags": [
+        "reyes",
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0045",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?",
+      "options": [
+        "Patmos",
+        "Chipre",
+        "Malta",
+        "Creta"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Apocalipsis 1:9"
+      ],
+      "explanation": "Estaba en la isla llamada Patmos (Apocalipsis 1:9).",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0046",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Jonás se levantó para huir de la presencia de Jehová. ¿Hacia qué lugar se dirigía?",
+      "options": [
+        "Tarsis",
+        "Egipto",
+        "Damasco",
+        "Nínive"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jonás 1:3"
+      ],
+      "explanation": "Huía hacia Tarsis (Jonás 1:3).",
+      "tags": [
+        "profetas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0047",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿De qué ciudad salió Taré con su hijo Abram para ir a la tierra de Canaán?",
+      "options": [
+        "Damasco",
+        "Ur de los caldeos",
+        "Babilonia",
+        "Nínive"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 11:31"
+      ],
+      "explanation": "Salieron de Ur de los caldeos (Génesis 11:31).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0048",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué región preguntó Jesús a sus discípulos quién decían los hombres que era el Hijo del Hombre?",
+      "options": [
+        "En la región de Jericó",
+        "En la región de Cesarea de Filipo",
+        "En la región de Betsaida",
+        "En la región de Capernaum"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 16:13"
+      ],
+      "explanation": "Ocurrió en la región de Cesarea de Filipo (Mateo 16:13).",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0049",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué valle acamparon Saúl y los hombres de Israel frente a los filisteos, cuando salió el paladín Goliat?",
+      "options": [
+        "En el valle de Ela",
+        "En el valle de Josafat",
+        "En el valle de Acor",
+        "En el valle de Jezreel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 17:2",
+        "1 Samuel 17:4"
+      ],
+      "explanation": "Acamparon en el valle de Ela (1 Samuel 17:2).",
+      "tags": [
+        "monarquia"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0050",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Dónde hizo Jesús el principio de sus señales, en una boda?",
+      "options": [
+        "En Capernaum",
+        "En Betania",
+        "En Caná de Galilea",
+        "En Nazaret"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 2:1",
+        "Juan 2:11"
+      ],
+      "explanation": "Fue en Caná de Galilea (Juan 2:11).",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0051",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿A qué aldea iban dos de los discípulos el mismo día de la resurrección, a sesenta estadios de Jerusalén?",
+      "options": [
+        "Betania",
+        "Efraín",
+        "Betfagé",
+        "Emaús"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 24:13"
+      ],
+      "explanation": "Iban a una aldea llamada Emaús (Lucas 24:13).",
+      "tags": [
+        "resurreccion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0052",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué monte, en Jerusalén, comenzó Salomón a edificar la casa de Jehová?",
+      "options": [
+        "En el monte Tabor",
+        "En el monte Moriah",
+        "En el monte Gerizim",
+        "En el monte Carmelo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Crónicas 3:1"
+      ],
+      "explanation": "Fue en el monte Moriah (2 Crónicas 3:1).",
+      "tags": [
+        "monarquia",
+        "templo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0053",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿De qué ciudad era Lidia, vendedora de púrpura, a quien el Señor abrió el corazón mientras Pablo hablaba?",
+      "options": [
+        "De Tesalónica",
+        "De Tiatira",
+        "De Éfeso",
+        "De Corinto"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 16:14"
+      ],
+      "explanation": "Era de la ciudad de Tiatira (Hechos 16:14).",
+      "tags": [
+        "hechos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-lugares-0054",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿De qué aldea eran María y Marta, hermanas de Lázaro?",
+      "options": [
+        "De Nazaret",
+        "De Betfagé",
+        "De Caná",
+        "De Betania"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 11:1"
+      ],
+      "explanation": "Eran de Betania (Juan 11:1).",
+      "tags": [
+        "evangelios"
+      ],
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-historia-0067",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué edad tenía Noé cuando el diluvio de las aguas vino sobre la tierra?",
+      "options": [
+        "Ciento veinte años",
+        "Novecientos cincuenta años",
+        "Seiscientos años",
+        "Cuatrocientos años"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 7:6"
+      ],
+      "explanation": "Tenía seiscientos años (Génesis 7:6).",
+      "tags": [
+        "diluvio"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0068",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué ocurrió con Enoc, que caminó con Dios?",
+      "options": [
+        "Murió en el diluvio",
+        "Fue hecho rey de la tierra",
+        "Fue herido por el furor de Jehová",
+        "Desapareció, porque Dios se lo llevó"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 5:24"
+      ],
+      "explanation": "Desapareció porque Dios se lo llevó (Génesis 5:24).",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0069",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos años vivió Matusalén?",
+      "options": [
+        "Novecientos sesenta y nueve años",
+        "Ciento sesenta y nueve años",
+        "Novecientos doce años",
+        "Setecientos setenta y siete años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 5:27"
+      ],
+      "explanation": "Vivió novecientos sesenta y nueve años (Génesis 5:27).",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0070",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Cuando Abraham intercedió por Sodoma, ¿por cuántos justos dijo el Señor que no destruiría la ciudad, en su última petición?",
+      "options": [
+        "Por diez",
+        "Por veinte",
+        "Por cinco",
+        "Por cuarenta y cinco"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 18:32"
+      ],
+      "explanation": "Su última petición terminó en diez justos (Génesis 18:32).",
+      "tags": [
+        "patriarcas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0071",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿En qué se convirtieron las aguas del río cuando Moisés y Aarón alzaron la vara ante el faraón?",
+      "options": [
+        "En sangre",
+        "En fuego",
+        "En vino",
+        "En lodo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 7:20"
+      ],
+      "explanation": "Todas las aguas del río se convirtieron en sangre (Éxodo 7:20).",
+      "tags": [
+        "exodo",
+        "plagas"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0072",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Hasta qué día del mes debía guardarse el cordero antes de inmolarlo, en la Pascua de Egipto?",
+      "options": [
+        "Hasta el día siete",
+        "Hasta el día catorce",
+        "Hasta el día diez",
+        "Hasta el día quince"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 12:6"
+      ],
+      "explanation": "Debían guardarlo hasta el día catorce del mes (Éxodo 12:6).",
+      "tags": [
+        "exodo",
+        "pascua"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0073",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Con qué arma improvisada mató Sansón a mil hombres?",
+      "options": [
+        "Con una estaca de tienda",
+        "Con una quijada de asno",
+        "Con una honda",
+        "Con una espada de bronce"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jueces 15:15"
+      ],
+      "explanation": "Mató a mil hombres con una quijada de asno fresca (Jueces 15:15).",
+      "tags": [
+        "jueces"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0074",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Cuando los filisteos capturaron el arca de Dios, ¿dónde la pusieron en Asdod?",
+      "options": [
+        "En la casa de Dagón",
+        "En un sepulcro de Ecrón",
+        "En la casa de Faraón",
+        "En el campamento de Gat"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 5:1-2"
+      ],
+      "explanation": "La metieron en la casa de Dagón, junto a Dagón (1 Samuel 5:2).",
+      "tags": [
+        "monarquia",
+        "arca"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0075",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Qué le ocurrió a Uza cuando extendió la mano al arca de Dios, mientras la llevaban en un carro?",
+      "options": [
+        "Cayó muerto junto al arca",
+        "Fue sanado de lepra",
+        "Fue llevado cautivo",
+        "Quedó ciego"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Samuel 6:6-7"
+      ],
+      "explanation": "Dios lo hirió y cayó muerto junto al arca (2 Samuel 6:7).",
+      "tags": [
+        "monarquia",
+        "arca"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0076",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos años tardó Salomón en edificar la casa de Jehová?",
+      "options": [
+        "Siete años",
+        "Trece años",
+        "Tres años",
+        "Cuarenta años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 6:38"
+      ],
+      "explanation": "La edificó en siete años (1 Reyes 6:38).",
+      "tags": [
+        "monarquia",
+        "templo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0077",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Durante la sequía, ¿qué le mandó Dios a Elías que hicieran los cuervos junto al arroyo de Querit?",
+      "options": [
+        "Que le avisaran del peligro",
+        "Que le dieran de comer pan y carne",
+        "Que le trajeran agua del Jordán",
+        "Que lo llevaran al monte Carmelo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 17:4-6"
+      ],
+      "explanation": "Los cuervos le traían pan y carne por la mañana y por la tarde (1 Reyes 17:6).",
+      "tags": [
+        "profetas",
+        "reyes"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0078",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Qué palabras trazó la mano en la pared durante el banquete del rey Belsasar?",
+      "options": [
+        "SHALOM, SHALOM, ADONAI",
+        "MENE, MENE, TEKEL, UPARSIN",
+        "ALEFA, ALEFA, OMEGA",
+        "HOSANNA, HOSANNA, AMÉN"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 5:5",
+        "Daniel 5:25"
+      ],
+      "explanation": "La escritura decía MENE, MENE, TEKEL, UPARSIN (Daniel 5:25).",
+      "tags": [
+        "profetas",
+        "daniel"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0079",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Cuando se firmó el edicto contra orar a otro dios, ¿cuántas veces al día oraba Daniel con las ventanas abiertas hacia Jerusalén?",
+      "options": [
+        "Siete veces al día",
+        "Una vez al día",
+        "Solo al amanecer",
+        "Tres veces al día"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 6:10"
+      ],
+      "explanation": "Se arrodillaba y oraba tres veces al día (Daniel 6:10).",
+      "tags": [
+        "profetas",
+        "daniel"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0080",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿De cuántos codos de altura mandó Amán preparar la horca para Mardoqueo?",
+      "options": [
+        "De setenta codos",
+        "De treinta codos",
+        "De diez codos",
+        "De cincuenta codos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ester 5:14"
+      ],
+      "explanation": "La horca era de cincuenta codos de altura (Ester 5:14).",
+      "tags": [
+        "ester"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-historia-0081",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "Tras su encuentro con el Señor camino a Damasco, ¿cuántos días estuvo Saulo sin ver?",
+      "options": [
+        "Cuarenta días",
+        "Siete días",
+        "Un día",
+        "Tres días"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 9:8-9"
+      ],
+      "explanation": "Estuvo tres días sin ver (Hechos 9:9).",
+      "tags": [
+        "hechos",
+        "pablo"
+      ],
+      "reviewed": false
+    }
+  ]
+}

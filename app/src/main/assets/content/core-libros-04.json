@@ -1,0 +1,51 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-libros-0063",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Daniel?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "8"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 12:1"
+      ],
+      "explanation": "Daniel tiene doce capítulos.",
+      "tags": [
+        "estructura"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "core-libros-0064",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Éxodo?",
+      "options": [
+        "36",
+        "50",
+        "40",
+        "27"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 40:1"
+      ],
+      "explanation": "Éxodo tiene cuarenta capítulos.",
+      "tags": [
+        "estructura"
+      ],
+      "reviewed": false
+    }
+  ]
+}
