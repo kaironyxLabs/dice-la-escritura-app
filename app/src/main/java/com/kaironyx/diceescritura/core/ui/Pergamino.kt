@@ -7,7 +7,9 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -176,7 +178,58 @@ fun Modifier.hojaPergamino(semilla: Int = 7): Modifier {
             drawPath(camino, brush = textura)
             quemarBorde(camino, grosor = 9.dp.toPx(), intensidad = 0.25f)
             drawPath(camino, color = Pergamino.Quemado.copy(alpha = 0.3f), style = Stroke(width = 1.dp.toPx()))
+            dibujarOrnamento(margen, margenAbajo)
         }
+    }
+}
+
+/** Filete interior dorado con un rombo y una voluta en cada esquina, como en un manuscrito iluminado. */
+private fun androidx.compose.ui.graphics.drawscope.DrawScope.dibujarOrnamento(margen: Float, margenAbajo: Float) {
+    val dentro = 11.dp.toPx()
+    val izq = margen + dentro
+    val arr = margen + dentro
+    val der = size.width - margen - dentro
+    val aba = size.height - margenAbajo - dentro
+    if (der - izq < 60.dp.toPx() || aba - arr < 40.dp.toPx()) return
+    val oro = Pergamino.Oro.copy(alpha = 0.38f)
+    val fino = Stroke(width = 0.8.dp.toPx())
+    drawRect(oro, topLeft = Offset(izq, arr), size = androidx.compose.ui.geometry.Size(der - izq, aba - arr), style = fino)
+    val r = 4.dp.toPx()
+    listOf(Offset(izq, arr) to (1f to 1f), Offset(der, arr) to (-1f to 1f), Offset(izq, aba) to (1f to -1f), Offset(der, aba) to (-1f to -1f)).forEach { (p, d) ->
+        val rombo = Path().apply {
+            moveTo(p.x, p.y - r); lineTo(p.x + r, p.y); lineTo(p.x, p.y + r); lineTo(p.x - r, p.y); close()
+        }
+        drawPath(rombo, Pergamino.Oro.copy(alpha = 0.55f))
+        // Voluta hacia el interior de la hoja.
+        val volta = Path().apply {
+            moveTo(p.x + d.first * 7.dp.toPx(), p.y)
+            cubicTo(
+                p.x + d.first * 16.dp.toPx(), p.y + d.second * 1.dp.toPx(),
+                p.x + d.first * 18.dp.toPx(), p.y + d.second * 11.dp.toPx(),
+                p.x + d.first * 11.dp.toPx(), p.y + d.second * 10.dp.toPx(),
+            )
+        }
+        drawPath(volta, oro, style = Stroke(width = 1.dp.toPx(), cap = androidx.compose.ui.graphics.StrokeCap.Round))
+    }
+}
+
+/** Separador ornamental: filetes a los lados de un rombo, para dividir secciones dentro de una hoja. */
+@Composable
+fun OrnamentoDivisor(modifier: Modifier = Modifier) {
+    Canvas(modifier.fillMaxWidth().height(14.dp)) {
+        val y = size.height / 2
+        val c = size.width / 2
+        val oro = Pergamino.Oro.copy(alpha = 0.55f)
+        val hueco = 14.dp.toPx()
+        drawLine(oro, Offset(0f, y), Offset(c - hueco, y), strokeWidth = 1.dp.toPx())
+        drawLine(oro, Offset(c + hueco, y), Offset(size.width, y), strokeWidth = 1.dp.toPx())
+        val r = 5.dp.toPx()
+        val rombo = Path().apply {
+            moveTo(c, y - r); lineTo(c + r, y); lineTo(c, y + r); lineTo(c - r, y); close()
+        }
+        drawPath(rombo, Pergamino.Oro)
+        drawCircle(oro, 2.dp.toPx(), Offset(c - hueco + 2.dp.toPx(), y))
+        drawCircle(oro, 2.dp.toPx(), Offset(c + hueco - 2.dp.toPx(), y))
     }
 }
 

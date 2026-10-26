@@ -23,6 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import com.kaironyx.diceescritura.core.theme.PasajeFontFamily
 import com.kaironyx.diceescritura.core.ui.MedallonIlustrado
+import com.kaironyx.diceescritura.core.ui.OrnamentoDivisor
 import com.kaironyx.diceescritura.core.ui.Pergamino
 import com.kaironyx.diceescritura.feature.nombreRes
 import androidx.compose.material3.Button
@@ -106,6 +107,7 @@ fun InicioContenido(
             )
             BotonDorado(stringResource(R.string.boton_examen), onClick = onExamen)
         }
+        OrnamentoDivisor()
         Text(stringResource(R.string.boton_jugar_categoria), style = MaterialTheme.typography.headlineSmall)
         if (categorias == null) EstadoCargando() else CuadriculaCategorias(categorias, onElegirCategoria)
     }
