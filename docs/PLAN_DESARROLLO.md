@@ -13,12 +13,16 @@ Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada 
 - Probada a mano en dos teléfonos (Xiaomi y TCL). Última versión instalada en el Xiaomi, con el avance en cero, para tu prueba manual.
 - Repositorio privado en GitHub (`kaironyxLabs/lampara-app`) con CI.
 
+**Actualización 26-oct-2026**
+- Cuenta local (un perfil por teléfono) y rediseño U0 a U7 hechos; la app es siempre clara (D-017).
+- Release firmado con R8 probado en el TCL (300 eventos de monkey sin fallos).
+- Contenido de nivel alto: las siete categorías base superan las 25 preguntas de dificultad 4 y 5.
+
 **No está hecho**
-- Tu prueba manual exhaustiva de la versión instalada (en curso).
-- Cuenta local con nombre y avatar, y todo lo que cuelga de ella.
-- Rediseño visual y de interacción.
-- Firma y entrega de la versión de release.
-- Varios temas de contenido y calidad (abajo).
+- Tu prueba manual de la versión actual y tu revisión de las preguntas nuevas.
+- Medallones con las ilustraciones que generes.
+- Entrega a tu círculo cercano (ver `docs/INSTALACION.md`, sección «Actualizar la app»).
+- Del contenido: duplicados temáticos y sesgo de longitud (tocan preguntas que ya revisaste, así que esperan tu OK), cruce de la Confesión con las notas al pie y más pasajes para Memorizar.
 
 ## 1. Etapa A: cerrar lo que ya existe (prioridad inmediata)
 

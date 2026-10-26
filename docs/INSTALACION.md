@@ -50,6 +50,16 @@ Android 8 (API 26) o superior. Copia el APK al teléfono y ábrelo (permite inst
 
 La app no usa internet: el manifiesto no declara el permiso `INTERNET` (una prueba y el CI lo verifican). Solo pide, en contexto y si activas el recordatorio, el permiso de notificaciones.
 
+## Actualizar la app
+
+Para publicar una versión nueva sin que nadie pierda su avance:
+1. Sube `versionCode` (y `versionName`) en `app/build.gradle.kts`.
+2. Firma con el mismo keystore: con otra clave Android rechaza la actualización y habría que desinstalar.
+3. Si cambias el esquema de Room, sube `version` en `DiceEscrituraDatabase`, escribe la migración y guarda el esquema exportado (`exportSchema = true`). Hoy el esquema es la versión 2 (migración 1→2 probada en un TCL real).
+4. El contenido de preguntas y pasajes viaja dentro del APK y se lee de los assets en cada arranque; el avance guarda solo ids y referencias, así que añadir preguntas no exige migrar nada. Sube `contentVersion` del archivo que cambies. Nunca reutilices el id de una pregunta con otro significado.
+5. Instala encima con `adb install -r` o abriendo el APK; el avance se conserva. Antes de repartirlo, prueba la actualización sobre una versión anterior.
+6. Como respaldo, cada persona puede exportar su avance desde Ajustes antes de actualizar.
+
 ## Hook de git (regla del README)
 Para que cada merge exija el README al día, en cada clon del repositorio: `git config core.hooksPath tools/hooks` y `git config merge.ff false`. Sus pruebas: `python -m pytest tools/hooks`.
 
