@@ -153,3 +153,6 @@ Copia no oficial hecha en Word en 2000, con texto extraíble. Confirmados por el
 - Correcciones aplicadas: 1073; versículos pendientes: 0
 - Anomalías sin resolver: 0
 <!-- importacion:fin -->
+
+## Nehemías 8:1 y Juan 8:1 (26-oct-2026)
+En `fuentes/rvr1960.json` estos dos versículos empiezan con «8 1 » (el número del capítulo seguido del 1). Se comparó con BibleGateway (RVR1960), la fuente de referencia del usuario: la página muestra exactamente lo mismo (el «8» grande del capítulo y el «1» del versículo se leen juntos). Por indicación del usuario, al coincidir con la fuente se da por correcto y no se modifica; no hay entrada en `correcciones.json`. Ningún pasaje de Memorizar ni versículo citado por las preguntas es 8:1 de estos libros.
