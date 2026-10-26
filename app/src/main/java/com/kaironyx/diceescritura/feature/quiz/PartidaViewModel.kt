@@ -78,6 +78,8 @@ sealed interface PartidaUiState {
         val porcentajeAprobacion: Int,
         /** Días de racha tras completar el reto diario; nulo en los demás modos. */
         val racha: Int? = null,
+        /** Categoría de la partida; nulo en el examen y el reto diario. */
+        val categoria: Categoria? = null,
     ) : PartidaUiState
 }
 
@@ -308,6 +310,7 @@ class PartidaViewModel @Inject constructor(
                 nivelNuevo = nivelNuevo,
                 porcentajeAprobacion = gestor.config.examenAprobacionPorcentaje,
                 racha = racha,
+                categoria = if (modo == ModoJuego.CATEGORIA) categoria else null,
             )
         }
     }

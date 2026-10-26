@@ -3,7 +3,9 @@ package com.kaironyx.diceescritura.core.ui
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
@@ -81,13 +83,15 @@ fun Logro.sello(): Int = when (this) {
 /** Banner panorámico de una categoría; el borde inferior se funde con el pergamino. Es decorativo. */
 @Composable
 fun BannerCategoria(categoria: Categoria, modifier: Modifier = Modifier) {
+    // En horizontal el ancho sobra: el alto se limita y el banner queda centrado.
+    Box(modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
     Image(
         painter = painterResource(categoria.banner()),
         contentDescription = null,
         contentScale = ContentScale.Crop,
-        modifier = modifier
-            .fillMaxWidth()
+        modifier = Modifier
             .aspectRatio(3.2f)
+            .heightIn(max = 140.dp)
             .graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }
             .drawWithContent {
                 drawContent()
@@ -97,6 +101,7 @@ fun BannerCategoria(categoria: Categoria, modifier: Modifier = Modifier) {
                 )
             },
     )
+    }
 }
 
 /** Escena ilustrada de una historia con su pie, marco dorado y esquinas suaves. */

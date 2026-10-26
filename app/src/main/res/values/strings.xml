@@ -202,7 +202,7 @@
     <!-- Acerca de -->
     <string name="ajustes_acerca_titulo">Acerca de</string>
     <string name="ajustes_acerca_version">Dice la Escritura, versión %1$s</string>
-    <string name="ajustes_acerca_descripcion">App para aprender la Biblia un poco cada día, sin conexión. Sin anuncios, sin analíticas y sin cuentas: tus datos viven solo en este teléfono. El texto bíblico es la Reina-Valera 1960 y lo aporta cada usuario. Tipografías Inter y Source Serif 4 bajo licencia SIL Open Font 1.1.</string>
+    <string name="ajustes_acerca_descripcion">App para aprender la Biblia un poco cada día, sin conexión. Sin anuncios, sin analíticas y sin cuentas: tus datos viven solo en este teléfono. El texto bíblico es la Reina-Valera 1960, que tiene derechos de autor: esta copia es solo para uso personal y no debe redistribuirse. Tipografías Inter y Source Serif 4 bajo licencia SIL Open Font 1.1.</string>
 
     <!-- Ajustes y recordatorio -->
     <string name="ajustes_contenido_titulo">Contenido</string>
@@ -280,8 +280,8 @@
     <string name="catalogo_explicacion">Explicación breve que remite al pasaje.</string>
     <string name="ayuda_titulo">Ayuda y comentarios</string>
     <string name="ayuda_descripcion">¿Algo no funciona o tienes una idea? Cuéntanos. Se abrirá tu app de correo con el mensaje listo; tú decides si lo envías.</string>
-    <string name="ayuda_tipo_error">Reportar un error</string>
-    <string name="ayuda_tipo_comentario">Enviar un comentario</string>
+    <string name="ayuda_tipo_error">Reportar error</string>
+    <string name="ayuda_tipo_comentario">Comentario</string>
     <string name="ayuda_pista_error">¿Qué pasó y en qué pantalla?</string>
     <string name="ayuda_pista_comentario">Tu comentario o sugerencia</string>
     <string name="ayuda_datos_tecnicos">Adjuntar datos técnicos (versión de la app y del teléfono)</string>

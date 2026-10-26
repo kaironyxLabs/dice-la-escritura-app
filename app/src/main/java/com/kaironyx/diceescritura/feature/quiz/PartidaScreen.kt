@@ -173,7 +173,7 @@ private fun PreguntaEnCurso(
                 is Contenido.Ordenar -> Ordenar(estado, contenido, onMoverElemento, onComprobarOrden)
             }
             estado.resultado?.let { Retroalimentacion(estado, it) }
-            if (estado.resultado != null && estado.pregunta.categoria in CATEGORIAS_CON_ESCENA) {
+            if (estado.resultado != null && estado.pregunta.categoria in CATEGORIAS_CON_ESCENA && estado.pregunta.contenido !is Contenido.Ordenar) {
                 EscenaHistoria.para(estado.pregunta.referencias)?.let { EscenaIlustrada(it) }
             }
             if (estado.resultado != null && pantallaBaja) BotonSiguiente(estado, onSiguiente, Modifier)
@@ -379,6 +379,7 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
             stringResource(if (subio) R.string.nivel_subiste else R.string.resultado_titulo),
             style = MaterialTheme.typography.headlineMedium,
         )
+        estado.categoria?.let { BannerCategoria(it) }
         if (subio && nivel != null) {
             TarjetaPergamino(modifier = Modifier.fillMaxWidth(), semilla = 3) {
                 JardinNivel(nivel = nivel.numero, celebrar = true)
