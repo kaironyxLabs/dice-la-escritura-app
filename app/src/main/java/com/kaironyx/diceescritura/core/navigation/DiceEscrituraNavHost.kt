@@ -8,6 +8,13 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.material3.NavigationRail
+import androidx.compose.material3.NavigationRailItem
+import androidx.compose.material3.NavigationRailItemDefaults
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -81,27 +88,30 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
     val actual = entrada?.destination
 
     val esPrincipal = actual != null && DestinoPrincipal.entries.any { actual.hasRoute(it.destino::class) }
+    // En horizontal el alto sobra poco: sin título y con la navegación en un riel lateral.
+    val compacto = LocalConfiguration.current.screenHeightDp < 480
+    val navegar: (DestinoPrincipal) -> Unit = { item ->
+        navController.navigate(item.destino) {
+            popUpTo(navController.graph.findStartDestination().id) { saveState = true }
+            launchSingleTop = true
+            restoreState = true
+        }
+    }
     Scaffold(
         modifier = Modifier.fondoPergamino(),
         containerColor = Color.Transparent,
         topBar = {
-            if (esPrincipal) BarraTituloPergamino(stringResource(R.string.app_name))
+            if (esPrincipal && !compacto) BarraTituloPergamino(stringResource(R.string.app_name))
         },
         bottomBar = {
-            if (!actual.sinBarra()) {
+            if (!compacto && !actual.sinBarra()) {
                 Box(Modifier.fondoBarraInferior()) {
                     NavigationBar(containerColor = Color.Transparent, tonalElevation = 0.dp) {
                         DestinoPrincipal.entries.forEach { item ->
                             val etiqueta = stringResource(item.etiqueta)
                             NavigationBarItem(
                                 selected = actual?.hasRoute(item.destino::class) == true,
-                                onClick = {
-                                    navController.navigate(item.destino) {
-                                        popUpTo(navController.graph.findStartDestination().id) { saveState = true }
-                                        launchSingleTop = true
-                                        restoreState = true
-                                    }
-                                },
+                                onClick = { navegar(item) },
                                 icon = { Icon(item.icono, contentDescription = null, modifier = Modifier.size(28.dp)) },
                                 label = {
                                     // Con fuente muy grande la etiqueta no se parte: la barra limita su escala en 1,3.
@@ -130,56 +140,79 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
         },
     ) { padding ->
         val animar = rememberAnimacionesActivas()
-        NavHost(
-            navController = navController,
-            startDestination = inicio,
-            modifier = Modifier.padding(padding),
-            enterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { it / 12 } else EnterTransition.None },
-            exitTransition = { if (animar) fadeOut(tween(160)) else ExitTransition.None },
-            popEnterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { -it / 12 } else EnterTransition.None },
-            popExitTransition = { if (animar) fadeOut(tween(160)) + slideOutHorizontally(tween(220)) { it / 12 } else ExitTransition.None },
-        ) {
-            composable<Destino.Onboarding> {
-                OnboardingScreen(
-                    alTerminar = {
-                        navController.navigate(Destino.Inicio) {
-                            popUpTo(Destino.Onboarding) { inclusive = true }
-                        }
-                    },
-                )
+        Row(Modifier.padding(padding).fillMaxSize()) {
+            if (compacto && !actual.sinBarra()) {
+                NavigationRail(containerColor = Color.Transparent) {
+                    Spacer(Modifier.weight(1f))
+                    DestinoPrincipal.entries.forEach { item ->
+                        NavigationRailItem(
+                            selected = actual?.hasRoute(item.destino::class) == true,
+                            onClick = { navegar(item) },
+                            icon = { Icon(item.icono, contentDescription = null, modifier = Modifier.size(24.dp)) },
+                            label = { Text(stringResource(item.etiqueta), style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.SemiBold), maxLines = 1, softWrap = false) },
+                            colors = NavigationRailItemDefaults.colors(
+                                indicatorColor = Pergamino.OroClaro.copy(alpha = 0.35f),
+                                selectedIconColor = Pergamino.Oro,
+                                selectedTextColor = Pergamino.Oro,
+                                unselectedIconColor = Pergamino.TintaSuave,
+                                unselectedTextColor = Pergamino.TintaSuave,
+                            ),
+                        )
+                    }
+                    Spacer(Modifier.weight(1f))
+                }
             }
-            composable<Destino.Inicio> {
-                InicioScreen(
-                    onElegirCategoria = { navController.navigate(Destino.Partida(categoria = it.id)) },
-                    onExamen = { navController.navigate(Destino.Partida(examen = true)) },
-                    onReto = { navController.navigate(Destino.Partida(reto = true)) },
-                    onPerfil = { navController.navigate(Destino.Perfil) },
-                    onNiveles = { navController.navigate(Destino.Niveles) },
-                )
-            }
-            composable<Destino.Niveles> {
-                NivelesScreen(alVolver = { navController.popBackStack() })
-            }
-            composable<Destino.Perfil> {
-                PerfilScreen(alVolver = { navController.popBackStack() })
-            }
-            composable<Destino.Partida> {
-                PartidaScreen(onSalir = { navController.popBackStack(Destino.Inicio, inclusive = false) })
-            }
-            composable<Destino.Memorizar> {
-                MemorizarScreen(onPracticar = { navController.navigate(Destino.Practica(it)) })
-            }
-            composable<Destino.Practica> {
-                PracticaScreen(onSalir = { navController.popBackStack() })
-            }
-            composable<Destino.Progreso> { ProgresoScreen() }
-            composable<Destino.Ajustes> {
-                AjustesScreen(
-                    onCatalogo = if (BuildConfig.DEBUG) ({ navController.navigate(Destino.Catalogo) }) else null,
-                )
-            }
-            if (BuildConfig.DEBUG) {
-                composable<Destino.Catalogo> { CatalogoComponentes() }
+            NavHost(
+                navController = navController,
+                startDestination = inicio,
+                modifier = Modifier.weight(1f).fillMaxHeight(),
+                enterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { it / 12 } else EnterTransition.None },
+                exitTransition = { if (animar) fadeOut(tween(160)) else ExitTransition.None },
+                popEnterTransition = { if (animar) fadeIn(tween(220)) + slideInHorizontally(tween(220)) { -it / 12 } else EnterTransition.None },
+                popExitTransition = { if (animar) fadeOut(tween(160)) + slideOutHorizontally(tween(220)) { it / 12 } else ExitTransition.None },
+            ) {
+                composable<Destino.Onboarding> {
+                    OnboardingScreen(
+                        alTerminar = {
+                            navController.navigate(Destino.Inicio) {
+                                popUpTo(Destino.Onboarding) { inclusive = true }
+                            }
+                        },
+                    )
+                }
+                composable<Destino.Inicio> {
+                    InicioScreen(
+                        onElegirCategoria = { navController.navigate(Destino.Partida(categoria = it.id)) },
+                        onExamen = { navController.navigate(Destino.Partida(examen = true)) },
+                        onReto = { navController.navigate(Destino.Partida(reto = true)) },
+                        onPerfil = { navController.navigate(Destino.Perfil) },
+                        onNiveles = { navController.navigate(Destino.Niveles) },
+                    )
+                }
+                composable<Destino.Niveles> {
+                    NivelesScreen(alVolver = { navController.popBackStack() })
+                }
+                composable<Destino.Perfil> {
+                    PerfilScreen(alVolver = { navController.popBackStack() })
+                }
+                composable<Destino.Partida> {
+                    PartidaScreen(onSalir = { navController.popBackStack(Destino.Inicio, inclusive = false) })
+                }
+                composable<Destino.Memorizar> {
+                    MemorizarScreen(onPracticar = { navController.navigate(Destino.Practica(it)) })
+                }
+                composable<Destino.Practica> {
+                    PracticaScreen(onSalir = { navController.popBackStack() })
+                }
+                composable<Destino.Progreso> { ProgresoScreen() }
+                composable<Destino.Ajustes> {
+                    AjustesScreen(
+                        onCatalogo = if (BuildConfig.DEBUG) ({ navController.navigate(Destino.Catalogo) }) else null,
+                    )
+                }
+                if (BuildConfig.DEBUG) {
+                    composable<Destino.Catalogo> { CatalogoComponentes() }
+                }
             }
         }
     }
