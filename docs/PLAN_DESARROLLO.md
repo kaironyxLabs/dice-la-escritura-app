@@ -91,3 +91,12 @@ Detalle en `docs/PLAN_REFACTOR_UI.md`. Resumen:
 - Decisiones: ¿un solo perfil o varios? ¿id de paquete definitivo? ¿aprobamos los 108 pasajes de memorizar?
 - Material gráfico si tienes alguno que quieras usar (logotipo, imágenes). Si no, las ilustraciones se dibujan como gráficos vectoriales propios.
 - Autorización para usar el TCL cuando quieras que lo pruebe.
+
+## 9. Estado real al 26-oct-2026 (qué falta de verdad)
+Hecho: etapas B (contenido aprobado, 513 base + 97 Confesión, 159 pasajes), C (perfil local), D (rediseño pergamino, medallones, niveles, sellos, banners y 8 escenas), E (firma respaldada, release probado en el TCL, instrucciones de instalación) y la ayuda por correo (en Ajustes y en el Inicio).
+
+Falta:
+1. **Ilustraciones por generar** (tuyas): 16 escenas desde `escena_mar_rojo`, 6 parábolas y 4 piezas de bienvenida y resultado (ver `docs/PLAN_INMERSION.md`). Yo las integro al recibirlas.
+2. **Pruebas manuales** (tuyas), una pasada completa con el APK nuevo; lo que encuentres se corrige por lotes.
+3. **Repartir el APK** a tu círculo cercano (lo haces tú, con `docs/INSTALACION.md`).
+4. Opcional: banner de categoría en el resultado de la partida y letra capital en la práctica de pasajes.
