@@ -1,5 +1,6 @@
 package com.kaironyx.diceescritura.feature.home
 
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -11,21 +12,12 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.DateRange
-import androidx.compose.material.icons.filled.Email
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Place
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Star
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import com.kaironyx.diceescritura.core.theme.PasajeFontFamily
-import com.kaironyx.diceescritura.core.ui.IconoLibro
-import com.kaironyx.diceescritura.core.ui.Medallon
+import com.kaironyx.diceescritura.core.ui.MedallonIlustrado
 import com.kaironyx.diceescritura.core.ui.Pergamino
 import com.kaironyx.diceescritura.feature.nombreRes
 import androidx.compose.material3.Button
@@ -273,7 +265,7 @@ private fun LosaCategoria(item: ItemCategoria, onClick: () -> Unit, modifier: Mo
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            Medallon(item.categoria.icono())
+            MedallonIlustrado(item.categoria.medallon())
             Text(
                 stringResource(item.categoria.nombreRes()),
                 style = MaterialTheme.typography.titleMedium.copy(
@@ -299,13 +291,14 @@ private fun LosaCategoria(item: ItemCategoria, onClick: () -> Unit, modifier: Mo
 }
 
 /** Icono provisional de cada categoría, hasta que exista su ilustración. */
-private fun Categoria.icono(): ImageVector = when (this) {
-    Categoria.LIBROS -> IconoLibro
-    Categoria.HISTORIA -> Icons.Filled.DateRange
-    Categoria.PERSONAJES -> Icons.Filled.Person
-    Categoria.LUGARES -> Icons.Filled.Place
-    Categoria.ENSENANZAS -> Icons.Filled.Star
-    Categoria.CARTAS -> Icons.Filled.Email
-    Categoria.DONDE_ESTA_ESCRITO -> Icons.Filled.Search
-    Categoria.CONFESION -> Icons.Filled.Info
+@DrawableRes
+private fun Categoria.medallon(): Int = when (this) {
+    Categoria.LIBROS -> R.drawable.medallon_libros
+    Categoria.HISTORIA -> R.drawable.medallon_historia
+    Categoria.PERSONAJES -> R.drawable.medallon_personajes
+    Categoria.LUGARES -> R.drawable.medallon_lugares
+    Categoria.ENSENANZAS -> R.drawable.medallon_ensenanzas
+    Categoria.CARTAS -> R.drawable.medallon_cartas
+    Categoria.DONDE_ESTA_ESCRITO -> R.drawable.medallon_donde_escrito
+    Categoria.CONFESION -> R.drawable.medallon_confesion
 }
