@@ -42,9 +42,8 @@ class PasajesTest {
     }
 
     @Test
-    fun `los primeros 108 pasajes estan revisados por el usuario`() {
-        // Los pasajes mem-109 en adelante esperan su revisión (reviewed: false).
-        assertTrue(real.pasajes.filter { it.id.substring(4).toInt() <= 108 }.all { it.revisado })
+    fun `todos los pasajes estan revisados por el usuario`() {
+        assertTrue(real.pasajes.all { it.revisado })
     }
 
     @Test

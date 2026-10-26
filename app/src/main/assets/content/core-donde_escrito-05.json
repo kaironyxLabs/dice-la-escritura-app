@@ -23,7 +23,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0079",
@@ -46,7 +46,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0080",
@@ -69,7 +69,7 @@
       "tags": [
         "sabiduria"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0081",
@@ -92,7 +92,7 @@
       "tags": [
         "poesia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0082",
@@ -115,7 +115,7 @@
       "tags": [
         "sabiduria"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0083",
@@ -138,7 +138,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0084",
@@ -161,7 +161,7 @@
       "tags": [
         "restauracion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0085",
@@ -184,7 +184,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0086",
@@ -207,7 +207,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0087",
@@ -230,7 +230,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-donde_escrito-0088",
@@ -253,7 +253,7 @@
       "tags": [
         "apocalipsis"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

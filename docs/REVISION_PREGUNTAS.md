@@ -1,6 +1,6 @@
 # Revisión de preguntas
 
-Preguntas: 615. Revisadas: 473. Pendientes: 142.
+Preguntas: 615. Revisadas: 615. Pendientes: 0.
 
 Marca con `x` las que hayas revisado (`- [x]`) y ejecuta `python tools/contenido/aplicar_revision.py`.
 Antes de marcar, comprueba cada una: que la respuesta sea la correcta, que las referencias respalden la
@@ -507,7 +507,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Nahúm 1:1; Hageo 1:1
   - Explicación: Después de Miqueas siguen Nahúm, Habacuc, Sofonías y Hageo.
 
-- [ ] `core-libros-0063` (dificultad 4, opción múltiple): ¿Cuántos capítulos tiene el libro de Daniel?
+- [x] `core-libros-0063` (dificultad 4, opción múltiple): ¿Cuántos capítulos tiene el libro de Daniel?
   - 10
   - **12**  (correcta)
   - 14
@@ -515,7 +515,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Daniel 12:1
   - Explicación: Daniel tiene doce capítulos.
 
-- [ ] `core-libros-0064` (dificultad 4, opción múltiple): ¿Cuántos capítulos tiene el libro de Éxodo?
+- [x] `core-libros-0064` (dificultad 4, opción múltiple): ¿Cuántos capítulos tiene el libro de Éxodo?
   - 36
   - 50
   - **40**  (correcta)
@@ -1045,7 +1045,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Reyes 18:13; 2 Reyes 19:35-36
   - Explicación: Senaquerib volvió a Nínive después de que el ángel de Jehová hirió su campamento.
 
-- [ ] `core-historia-0067` (dificultad 4, opción múltiple): ¿Qué edad tenía Noé cuando el diluvio de las aguas vino sobre la tierra?
+- [x] `core-historia-0067` (dificultad 4, opción múltiple): ¿Qué edad tenía Noé cuando el diluvio de las aguas vino sobre la tierra?
   - Ciento veinte años
   - Novecientos cincuenta años
   - **Seiscientos años**  (correcta)
@@ -1053,7 +1053,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 7:6
   - Explicación: Tenía seiscientos años (Génesis 7:6).
 
-- [ ] `core-historia-0068` (dificultad 4, opción múltiple): ¿Qué ocurrió con Enoc, que caminó con Dios?
+- [x] `core-historia-0068` (dificultad 4, opción múltiple): ¿Qué ocurrió con Enoc, que caminó con Dios?
   - Murió en el diluvio
   - Fue hecho rey de la tierra
   - Fue herido por el furor de Jehová
@@ -1061,7 +1061,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 5:24
   - Explicación: Desapareció porque Dios se lo llevó (Génesis 5:24).
 
-- [ ] `core-historia-0069` (dificultad 5, opción múltiple): ¿Cuántos años vivió Matusalén?
+- [x] `core-historia-0069` (dificultad 5, opción múltiple): ¿Cuántos años vivió Matusalén?
   - **Novecientos sesenta y nueve años**  (correcta)
   - Ciento sesenta y nueve años
   - Novecientos doce años
@@ -1069,7 +1069,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 5:27
   - Explicación: Vivió novecientos sesenta y nueve años (Génesis 5:27).
 
-- [ ] `core-historia-0070` (dificultad 4, opción múltiple): Cuando Abraham intercedió por Sodoma, ¿por cuántos justos dijo el Señor que no destruiría la ciudad, en su última petición?
+- [x] `core-historia-0070` (dificultad 4, opción múltiple): Cuando Abraham intercedió por Sodoma, ¿por cuántos justos dijo el Señor que no destruiría la ciudad, en su última petición?
   - **Por diez**  (correcta)
   - Por veinte
   - Por cinco
@@ -1077,7 +1077,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 18:32
   - Explicación: Su última petición terminó en diez justos (Génesis 18:32).
 
-- [ ] `core-historia-0071` (dificultad 4, opción múltiple): ¿En qué se convirtieron las aguas del río cuando Moisés y Aarón alzaron la vara ante el faraón?
+- [x] `core-historia-0071` (dificultad 4, opción múltiple): ¿En qué se convirtieron las aguas del río cuando Moisés y Aarón alzaron la vara ante el faraón?
   - **En sangre**  (correcta)
   - En fuego
   - En vino
@@ -1085,7 +1085,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Éxodo 7:20
   - Explicación: Todas las aguas del río se convirtieron en sangre (Éxodo 7:20).
 
-- [ ] `core-historia-0072` (dificultad 5, opción múltiple): ¿Hasta qué día del mes debía guardarse el cordero antes de inmolarlo, en la Pascua de Egipto?
+- [x] `core-historia-0072` (dificultad 5, opción múltiple): ¿Hasta qué día del mes debía guardarse el cordero antes de inmolarlo, en la Pascua de Egipto?
   - Hasta el día siete
   - **Hasta el día catorce**  (correcta)
   - Hasta el día diez
@@ -1093,7 +1093,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Éxodo 12:6
   - Explicación: Debían guardarlo hasta el día catorce del mes (Éxodo 12:6).
 
-- [ ] `core-historia-0073` (dificultad 4, opción múltiple): ¿Con qué arma improvisada mató Sansón a mil hombres?
+- [x] `core-historia-0073` (dificultad 4, opción múltiple): ¿Con qué arma improvisada mató Sansón a mil hombres?
   - Con una estaca de tienda
   - **Con una quijada de asno**  (correcta)
   - Con una honda
@@ -1101,7 +1101,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jueces 15:15
   - Explicación: Mató a mil hombres con una quijada de asno fresca (Jueces 15:15).
 
-- [ ] `core-historia-0074` (dificultad 4, opción múltiple): Cuando los filisteos capturaron el arca de Dios, ¿dónde la pusieron en Asdod?
+- [x] `core-historia-0074` (dificultad 4, opción múltiple): Cuando los filisteos capturaron el arca de Dios, ¿dónde la pusieron en Asdod?
   - **En la casa de Dagón**  (correcta)
   - En un sepulcro de Ecrón
   - En la casa de Faraón
@@ -1109,7 +1109,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Samuel 5:1-2
   - Explicación: La metieron en la casa de Dagón, junto a Dagón (1 Samuel 5:2).
 
-- [ ] `core-historia-0075` (dificultad 4, opción múltiple): ¿Qué le ocurrió a Uza cuando extendió la mano al arca de Dios, mientras la llevaban en un carro?
+- [x] `core-historia-0075` (dificultad 4, opción múltiple): ¿Qué le ocurrió a Uza cuando extendió la mano al arca de Dios, mientras la llevaban en un carro?
   - **Cayó muerto junto al arca**  (correcta)
   - Fue sanado de lepra
   - Fue llevado cautivo
@@ -1117,7 +1117,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Samuel 6:6-7
   - Explicación: Dios lo hirió y cayó muerto junto al arca (2 Samuel 6:7).
 
-- [ ] `core-historia-0076` (dificultad 5, opción múltiple): ¿Cuántos años tardó Salomón en edificar la casa de Jehová?
+- [x] `core-historia-0076` (dificultad 5, opción múltiple): ¿Cuántos años tardó Salomón en edificar la casa de Jehová?
   - **Siete años**  (correcta)
   - Trece años
   - Tres años
@@ -1125,7 +1125,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Reyes 6:38
   - Explicación: La edificó en siete años (1 Reyes 6:38).
 
-- [ ] `core-historia-0077` (dificultad 4, opción múltiple): Durante la sequía, ¿qué le mandó Dios a Elías que hicieran los cuervos junto al arroyo de Querit?
+- [x] `core-historia-0077` (dificultad 4, opción múltiple): Durante la sequía, ¿qué le mandó Dios a Elías que hicieran los cuervos junto al arroyo de Querit?
   - Que le avisaran del peligro
   - **Que le dieran de comer pan y carne**  (correcta)
   - Que le trajeran agua del Jordán
@@ -1133,7 +1133,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Reyes 17:4-6
   - Explicación: Los cuervos le traían pan y carne por la mañana y por la tarde (1 Reyes 17:6).
 
-- [ ] `core-historia-0078` (dificultad 5, opción múltiple): ¿Qué palabras trazó la mano en la pared durante el banquete del rey Belsasar?
+- [x] `core-historia-0078` (dificultad 5, opción múltiple): ¿Qué palabras trazó la mano en la pared durante el banquete del rey Belsasar?
   - SHALOM, SHALOM, ADONAI
   - **MENE, MENE, TEKEL, UPARSIN**  (correcta)
   - ALEFA, ALEFA, OMEGA
@@ -1141,7 +1141,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Daniel 5:5; Daniel 5:25
   - Explicación: La escritura decía MENE, MENE, TEKEL, UPARSIN (Daniel 5:25).
 
-- [ ] `core-historia-0079` (dificultad 4, opción múltiple): Cuando se firmó el edicto contra orar a otro dios, ¿cuántas veces al día oraba Daniel con las ventanas abiertas hacia Jerusalén?
+- [x] `core-historia-0079` (dificultad 4, opción múltiple): Cuando se firmó el edicto contra orar a otro dios, ¿cuántas veces al día oraba Daniel con las ventanas abiertas hacia Jerusalén?
   - Siete veces al día
   - Una vez al día
   - Solo al amanecer
@@ -1149,7 +1149,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Daniel 6:10
   - Explicación: Se arrodillaba y oraba tres veces al día (Daniel 6:10).
 
-- [ ] `core-historia-0080` (dificultad 5, opción múltiple): ¿De cuántos codos de altura mandó Amán preparar la horca para Mardoqueo?
+- [x] `core-historia-0080` (dificultad 5, opción múltiple): ¿De cuántos codos de altura mandó Amán preparar la horca para Mardoqueo?
   - De setenta codos
   - De treinta codos
   - De diez codos
@@ -1157,7 +1157,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Ester 5:14
   - Explicación: La horca era de cincuenta codos de altura (Ester 5:14).
 
-- [ ] `core-historia-0081` (dificultad 4, opción múltiple): Tras su encuentro con el Señor camino a Damasco, ¿cuántos días estuvo Saulo sin ver?
+- [x] `core-historia-0081` (dificultad 4, opción múltiple): Tras su encuentro con el Señor camino a Damasco, ¿cuántos días estuvo Saulo sin ver?
   - Cuarenta días
   - Siete días
   - Un día
@@ -1748,7 +1748,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 9:36-41
   - Explicación: Pedro oró y Tabita abrió los ojos y se incorporó.
 
-- [ ] `core-personajes-0074` (dificultad 5, opción múltiple): ¿Cómo se llamaba el ama de Rebeca, que murió y fue sepultada al pie de Bet-el?
+- [x] `core-personajes-0074` (dificultad 5, opción múltiple): ¿Cómo se llamaba el ama de Rebeca, que murió y fue sepultada al pie de Bet-el?
   - Séfora
   - Noemí
   - **Débora**  (correcta)
@@ -1756,7 +1756,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 35:8
   - Explicación: Su ama se llamaba Débora (Génesis 35:8).
 
-- [ ] `core-personajes-0075` (dificultad 5, opción múltiple): ¿Cómo se llamaba la mujer de Amram, madre de Aarón y de Moisés?
+- [x] `core-personajes-0075` (dificultad 5, opción múltiple): ¿Cómo se llamaba la mujer de Amram, madre de Aarón y de Moisés?
   - Miriam
   - Elisabet
   - **Jocabed**  (correcta)
@@ -1764,7 +1764,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Éxodo 6:20
   - Explicación: Amram tomó por mujer a Jocabed (Éxodo 6:20).
 
-- [ ] `core-personajes-0076` (dificultad 4, opción múltiple): ¿Cómo se llamaba el suegro de Moisés, sacerdote de Madián?
+- [x] `core-personajes-0076` (dificultad 4, opción múltiple): ¿Cómo se llamaba el suegro de Moisés, sacerdote de Madián?
   - Elí
   - **Jetro**  (correcta)
   - Labán
@@ -1772,7 +1772,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Éxodo 3:1
   - Explicación: Moisés apacentaba las ovejas de Jetro, su suegro (Éxodo 3:1).
 
-- [ ] `core-personajes-0077` (dificultad 4, opción múltiple): ¿Con quién se casó Rut la moabita?
+- [x] `core-personajes-0077` (dificultad 4, opción múltiple): ¿Con quién se casó Rut la moabita?
   - Con Mahlón
   - Con Elimelec
   - **Con Booz**  (correcta)
@@ -1780,7 +1780,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Rut 4:13
   - Explicación: Booz tomó a Rut y ella fue su mujer (Rut 4:13).
 
-- [ ] `core-personajes-0078` (dificultad 5, opción múltiple): Además de Ana, ¿cómo se llamaba la otra mujer de su marido, que sí tenía hijos?
+- [x] `core-personajes-0078` (dificultad 5, opción múltiple): Además de Ana, ¿cómo se llamaba la otra mujer de su marido, que sí tenía hijos?
   - Mical
   - **Penina**  (correcta)
   - Abigail
@@ -1788,7 +1788,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Samuel 1:2
   - Explicación: La otra mujer se llamaba Penina (1 Samuel 1:2).
 
-- [ ] `core-personajes-0079` (dificultad 5, opción múltiple): ¿Cómo se llamaba el general del ejército de Saúl, hijo de Ner?
+- [x] `core-personajes-0079` (dificultad 5, opción múltiple): ¿Cómo se llamaba el general del ejército de Saúl, hijo de Ner?
   - **Abner**  (correcta)
   - Benaía
   - Amasa
@@ -1796,7 +1796,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Samuel 14:50
   - Explicación: Era Abner, hijo de Ner, tío de Saúl (1 Samuel 14:50).
 
-- [ ] `core-personajes-0080` (dificultad 4, opción múltiple): ¿Quién envió mensajeros por todas las tribus de Israel para que dijeran «reina en Hebrón»?
+- [x] `core-personajes-0080` (dificultad 4, opción múltiple): ¿Quién envió mensajeros por todas las tribus de Israel para que dijeran «reina en Hebrón»?
   - Joab
   - Adonías
   - **Absalón**  (correcta)
@@ -1804,7 +1804,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Samuel 15:10
   - Explicación: Fue Absalón (2 Samuel 15:10).
 
-- [ ] `core-personajes-0081` (dificultad 5, opción múltiple): ¿Cómo se llamaban la abuela y la madre de Timoteo, en quienes habitó primero la fe no fingida?
+- [x] `core-personajes-0081` (dificultad 5, opción múltiple): ¿Cómo se llamaban la abuela y la madre de Timoteo, en quienes habitó primero la fe no fingida?
   - Lidia y Priscila
   - **Loida y Eunice**  (correcta)
   - Dorcas y Lidia
@@ -1812,7 +1812,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Timoteo 1:5
   - Explicación: Eran Loida, su abuela, y Eunice, su madre (2 Timoteo 1:5).
 
-- [ ] `core-personajes-0082` (dificultad 4, opción múltiple): ¿Qué matrimonio vendió una heredad y sustrajo parte del precio antes de ponerlo a los pies de los apóstoles?
+- [x] `core-personajes-0082` (dificultad 4, opción múltiple): ¿Qué matrimonio vendió una heredad y sustrajo parte del precio antes de ponerlo a los pies de los apóstoles?
   - Joaquín y Ana
   - **Ananías y Safira**  (correcta)
   - Aquila y Priscila
@@ -1820,7 +1820,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 5:1-2
   - Explicación: Fueron Ananías y Safira su mujer (Hechos 5:1-2).
 
-- [ ] `core-personajes-0083` (dificultad 5, opción múltiple): ¿A los pies de qué maestro fue instruido Pablo, según su propio testimonio?
+- [x] `core-personajes-0083` (dificultad 5, opción múltiple): ¿A los pies de qué maestro fue instruido Pablo, según su propio testimonio?
   - Caifás
   - Nicodemo
   - Anás
@@ -1828,7 +1828,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 22:3
   - Explicación: Dijo haber sido instruido a los pies de Gamaliel (Hechos 22:3).
 
-- [ ] `core-personajes-0084` (dificultad 4, opción múltiple): ¿Quién, hombre rico de Arimatea y discípulo de Jesús, pidió a Pilato el cuerpo de Jesús?
+- [x] `core-personajes-0084` (dificultad 4, opción múltiple): ¿Quién, hombre rico de Arimatea y discípulo de Jesús, pidió a Pilato el cuerpo de Jesús?
   - Nicodemo
   - Lázaro
   - **José**  (correcta)
@@ -1836,7 +1836,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 27:57-58
   - Explicación: Fue José de Arimatea (Mateo 27:57-58).
 
-- [ ] `core-personajes-0085` (dificultad 5, opción múltiple): ¿A quién llamó Pablo «mi hijo», a quien engendró en sus prisiones?
+- [x] `core-personajes-0085` (dificultad 5, opción múltiple): ¿A quién llamó Pablo «mi hijo», a quien engendró en sus prisiones?
   - A Epafras
   - A Tíquico
   - A Tito
@@ -2142,7 +2142,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Juan 5:2-9
   - Explicación: Junto al estanque de Betesda, Jesús ordenó al paralítico que se levantara y caminara.
 
-- [ ] `core-lugares-0038` (dificultad 4, opción múltiple): ¿Dónde sepultó Abraham a Sara, su mujer?
+- [x] `core-lugares-0038` (dificultad 4, opción múltiple): ¿Dónde sepultó Abraham a Sara, su mujer?
   - En la cueva de Adulam
   - En el valle de Josafat
   - En un sepulcro junto a Siquem
@@ -2150,7 +2150,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 23:19
   - Explicación: Fue sepultada en la cueva de Macpela (Génesis 23:19).
 
-- [ ] `core-lugares-0039` (dificultad 4, opción múltiple): ¿En qué tierra hallaron una llanura los que luego quisieron edificar una ciudad y una torre cuya cúspide llegara al cielo?
+- [x] `core-lugares-0039` (dificultad 4, opción múltiple): ¿En qué tierra hallaron una llanura los que luego quisieron edificar una ciudad y una torre cuya cúspide llegara al cielo?
   - Moab
   - Egipto
   - Madián
@@ -2158,7 +2158,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 11:2-4
   - Explicación: Se establecieron en la tierra de Sinar (Génesis 11:2).
 
-- [ ] `core-lugares-0040` (dificultad 5, opción múltiple): ¿Cuál era el nombre primero de la ciudad que Jacob llamó Bet-el?
+- [x] `core-lugares-0040` (dificultad 5, opción múltiple): ¿Cuál era el nombre primero de la ciudad que Jacob llamó Bet-el?
   - Hai
   - Gilgal
   - Mizpa
@@ -2166,7 +2166,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 28:19
   - Explicación: Luz era el nombre primero de la ciudad (Génesis 28:19).
 
-- [ ] `core-lugares-0041` (dificultad 4, opción múltiple): ¿Qué nombre dio Jacob al lugar donde luchó con un varón hasta el alba?
+- [x] `core-lugares-0041` (dificultad 4, opción múltiple): ¿Qué nombre dio Jacob al lugar donde luchó con un varón hasta el alba?
   - Sucot
   - Mizpa
   - **Peniel**  (correcta)
@@ -2174,7 +2174,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 32:24-30
   - Explicación: Lo llamó Peniel (Génesis 32:30).
 
-- [ ] `core-lugares-0042` (dificultad 4, opción múltiple): ¿A qué monte subió Moisés para ver la tierra antes de morir?
+- [x] `core-lugares-0042` (dificultad 4, opción múltiple): ¿A qué monte subió Moisés para ver la tierra antes de morir?
   - Al monte Tabor
   - Al monte Hermón
   - **Al monte Nebo**  (correcta)
@@ -2182,7 +2182,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Deuteronomio 34:1; Deuteronomio 34:5
   - Explicación: Subió al monte Nebo, en la tierra de Moab (Deuteronomio 34:1, 5).
 
-- [ ] `core-lugares-0043` (dificultad 4, opción múltiple): ¿Dónde acamparon los israelitas después de subir del Jordán, al lado oriental de Jericó?
+- [x] `core-lugares-0043` (dificultad 4, opción múltiple): ¿Dónde acamparon los israelitas después de subir del Jordán, al lado oriental de Jericó?
   - **En Gilgal**  (correcta)
   - En Hai
   - En Mizpa
@@ -2190,7 +2190,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Josué 4:19
   - Explicación: Acamparon en Gilgal (Josué 4:19).
 
-- [ ] `core-lugares-0044` (dificultad 4, opción múltiple): Naamán se zambulló siete veces en un río para quedar limpio. ¿Cuál era?
+- [x] `core-lugares-0044` (dificultad 4, opción múltiple): Naamán se zambulló siete veces en un río para quedar limpio. ¿Cuál era?
   - **El Jordán**  (correcta)
   - El Cedrón
   - El Abana
@@ -2198,7 +2198,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Reyes 5:12; 2 Reyes 5:14
   - Explicación: Se zambulló en el Jordán (2 Reyes 5:14); el Abana y el Farfar eran ríos de Damasco (2 Reyes 5:12).
 
-- [ ] `core-lugares-0045` (dificultad 4, opción múltiple): ¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?
+- [x] `core-lugares-0045` (dificultad 4, opción múltiple): ¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?
   - **Patmos**  (correcta)
   - Chipre
   - Malta
@@ -2206,7 +2206,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Apocalipsis 1:9
   - Explicación: Estaba en la isla llamada Patmos (Apocalipsis 1:9).
 
-- [ ] `core-lugares-0046` (dificultad 4, opción múltiple): Jonás se levantó para huir de la presencia de Jehová. ¿Hacia qué lugar se dirigía?
+- [x] `core-lugares-0046` (dificultad 4, opción múltiple): Jonás se levantó para huir de la presencia de Jehová. ¿Hacia qué lugar se dirigía?
   - **Tarsis**  (correcta)
   - Egipto
   - Damasco
@@ -2214,7 +2214,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jonás 1:3
   - Explicación: Huía hacia Tarsis (Jonás 1:3).
 
-- [ ] `core-lugares-0047` (dificultad 4, opción múltiple): ¿De qué ciudad salió Taré con su hijo Abram para ir a la tierra de Canaán?
+- [x] `core-lugares-0047` (dificultad 4, opción múltiple): ¿De qué ciudad salió Taré con su hijo Abram para ir a la tierra de Canaán?
   - Damasco
   - **Ur de los caldeos**  (correcta)
   - Babilonia
@@ -2222,7 +2222,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 11:31
   - Explicación: Salieron de Ur de los caldeos (Génesis 11:31).
 
-- [ ] `core-lugares-0048` (dificultad 4, opción múltiple): ¿En qué región preguntó Jesús a sus discípulos quién decían los hombres que era el Hijo del Hombre?
+- [x] `core-lugares-0048` (dificultad 4, opción múltiple): ¿En qué región preguntó Jesús a sus discípulos quién decían los hombres que era el Hijo del Hombre?
   - En la región de Jericó
   - **En la región de Cesarea de Filipo**  (correcta)
   - En la región de Betsaida
@@ -2230,7 +2230,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 16:13
   - Explicación: Ocurrió en la región de Cesarea de Filipo (Mateo 16:13).
 
-- [ ] `core-lugares-0049` (dificultad 4, opción múltiple): ¿En qué valle acamparon Saúl y los hombres de Israel frente a los filisteos, cuando salió el paladín Goliat?
+- [x] `core-lugares-0049` (dificultad 4, opción múltiple): ¿En qué valle acamparon Saúl y los hombres de Israel frente a los filisteos, cuando salió el paladín Goliat?
   - **En el valle de Ela**  (correcta)
   - En el valle de Josafat
   - En el valle de Acor
@@ -2238,7 +2238,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Samuel 17:2; 1 Samuel 17:4
   - Explicación: Acamparon en el valle de Ela (1 Samuel 17:2).
 
-- [ ] `core-lugares-0050` (dificultad 4, opción múltiple): ¿Dónde hizo Jesús el principio de sus señales, en una boda?
+- [x] `core-lugares-0050` (dificultad 4, opción múltiple): ¿Dónde hizo Jesús el principio de sus señales, en una boda?
   - En Capernaum
   - En Betania
   - **En Caná de Galilea**  (correcta)
@@ -2246,7 +2246,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Juan 2:1; Juan 2:11
   - Explicación: Fue en Caná de Galilea (Juan 2:11).
 
-- [ ] `core-lugares-0051` (dificultad 4, opción múltiple): ¿A qué aldea iban dos de los discípulos el mismo día de la resurrección, a sesenta estadios de Jerusalén?
+- [x] `core-lugares-0051` (dificultad 4, opción múltiple): ¿A qué aldea iban dos de los discípulos el mismo día de la resurrección, a sesenta estadios de Jerusalén?
   - Betania
   - Efraín
   - Betfagé
@@ -2254,7 +2254,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 24:13
   - Explicación: Iban a una aldea llamada Emaús (Lucas 24:13).
 
-- [ ] `core-lugares-0052` (dificultad 4, opción múltiple): ¿En qué monte, en Jerusalén, comenzó Salomón a edificar la casa de Jehová?
+- [x] `core-lugares-0052` (dificultad 4, opción múltiple): ¿En qué monte, en Jerusalén, comenzó Salomón a edificar la casa de Jehová?
   - En el monte Tabor
   - **En el monte Moriah**  (correcta)
   - En el monte Gerizim
@@ -2262,7 +2262,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Crónicas 3:1
   - Explicación: Fue en el monte Moriah (2 Crónicas 3:1).
 
-- [ ] `core-lugares-0053` (dificultad 5, opción múltiple): ¿De qué ciudad era Lidia, vendedora de púrpura, a quien el Señor abrió el corazón mientras Pablo hablaba?
+- [x] `core-lugares-0053` (dificultad 5, opción múltiple): ¿De qué ciudad era Lidia, vendedora de púrpura, a quien el Señor abrió el corazón mientras Pablo hablaba?
   - De Tesalónica
   - **De Tiatira**  (correcta)
   - De Éfeso
@@ -2270,7 +2270,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 16:14
   - Explicación: Era de la ciudad de Tiatira (Hechos 16:14).
 
-- [ ] `core-lugares-0054` (dificultad 4, opción múltiple): ¿De qué aldea eran María y Marta, hermanas de Lázaro?
+- [x] `core-lugares-0054` (dificultad 4, opción múltiple): ¿De qué aldea eran María y Marta, hermanas de Lázaro?
   - De Nazaret
   - De Betfagé
   - De Caná
@@ -2703,7 +2703,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 25:15
   - Explicación: A uno dio cinco talentos, a otro dos y a otro uno, a cada uno según su capacidad.
 
-- [ ] `core-ensenanzas-0055` (dificultad 4, opción múltiple): En la parábola del sembrador, ¿qué ocurrió con la semilla que cayó entre espinos?
+- [x] `core-ensenanzas-0055` (dificultad 4, opción múltiple): En la parábola del sembrador, ¿qué ocurrió con la semilla que cayó entre espinos?
   - Fue arrastrada por la lluvia
   - Se secó porque no tenía raíz
   - **Los espinos crecieron y la ahogaron**  (correcta)
@@ -2711,7 +2711,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 13:7
   - Explicación: Los espinos la ahogaron (Mateo 13:7).
 
-- [ ] `core-ensenanzas-0056` (dificultad 4, opción múltiple): En la parábola del sembrador, ¿cuánto fruto dio la semilla que cayó en buena tierra?
+- [x] `core-ensenanzas-0056` (dificultad 4, opción múltiple): En la parábola del sembrador, ¿cuánto fruto dio la semilla que cayó en buena tierra?
   - **A ciento, a sesenta y a treinta por uno**  (correcta)
   - A mil por uno
   - A doce por uno
@@ -2719,7 +2719,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 13:8
   - Explicación: Dio fruto a ciento, a sesenta y a treinta por uno (Mateo 13:8).
 
-- [ ] `core-ensenanzas-0057` (dificultad 4, opción múltiple): En la parábola de las diez vírgenes, ¿cuántas eran prudentes?
+- [x] `core-ensenanzas-0057` (dificultad 4, opción múltiple): En la parábola de las diez vírgenes, ¿cuántas eran prudentes?
   - Siete
   - Tres
   - **Cinco**  (correcta)
@@ -2727,7 +2727,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 25:1-2
   - Explicación: Cinco eran prudentes y cinco insensatas (Mateo 25:2).
 
-- [ ] `core-ensenanzas-0058` (dificultad 4, opción múltiple): En la parábola de la oveja perdida, ¿cuántas ovejas tenía en total el hombre?
+- [x] `core-ensenanzas-0058` (dificultad 4, opción múltiple): En la parábola de la oveja perdida, ¿cuántas ovejas tenía en total el hombre?
   - Cincuenta
   - Setenta
   - Doce
@@ -2735,7 +2735,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 15:4
   - Explicación: Tenía cien ovejas y dejó noventa y nueve para buscar la perdida (Lucas 15:4).
 
-- [ ] `core-ensenanzas-0059` (dificultad 4, opción múltiple): En la parábola de la dracma perdida, ¿cuántas dracmas tenía la mujer?
+- [x] `core-ensenanzas-0059` (dificultad 4, opción múltiple): En la parábola de la dracma perdida, ¿cuántas dracmas tenía la mujer?
   - Cien
   - Doce
   - **Diez**  (correcta)
@@ -2743,7 +2743,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 15:8
   - Explicación: Tenía diez dracmas (Lucas 15:8).
 
-- [ ] `core-ensenanzas-0060` (dificultad 4, opción múltiple): ¿Qué le ocurrió a la casa edificada sobre la arena cuando vinieron lluvia, ríos y vientos?
+- [x] `core-ensenanzas-0060` (dificultad 4, opción múltiple): ¿Qué le ocurrió a la casa edificada sobre la arena cuando vinieron lluvia, ríos y vientos?
   - Se inundó, pero fue reparada
   - Los vientos solo movieron el techo
   - **Cayó, y fue grande su ruina**  (correcta)
@@ -2751,7 +2751,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 7:26-27
   - Explicación: Cayó y fue grande su ruina (Mateo 7:27).
 
-- [ ] `core-ensenanzas-0061` (dificultad 5, opción múltiple): En la parábola de la gran cena, ¿qué dijo haber comprado el segundo invitado que se excusó?
+- [x] `core-ensenanzas-0061` (dificultad 5, opción múltiple): En la parábola de la gran cena, ¿qué dijo haber comprado el segundo invitado que se excusó?
   - Una casa
   - Una hacienda
   - **Cinco yuntas de bueyes**  (correcta)
@@ -2759,7 +2759,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 14:18-19
   - Explicación: Dijo que había comprado cinco yuntas de bueyes (Lucas 14:19).
 
-- [ ] `core-ensenanzas-0062` (dificultad 5, opción múltiple): En la parábola de los dos deudores, ¿cuánto debía el que más debía?
+- [x] `core-ensenanzas-0062` (dificultad 5, opción múltiple): En la parábola de los dos deudores, ¿cuánto debía el que más debía?
   - Diez mil talentos
   - Mil denarios
   - **Quinientos denarios**  (correcta)
@@ -2767,7 +2767,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 7:41
   - Explicación: Uno debía quinientos denarios y el otro cincuenta (Lucas 7:41).
 
-- [ ] `core-ensenanzas-0063` (dificultad 4, opción múltiple): ¿Qué dijo Jesús que no se puede esconder?
+- [x] `core-ensenanzas-0063` (dificultad 4, opción múltiple): ¿Qué dijo Jesús que no se puede esconder?
   - Una lámpara bajo la mesa
   - Un árbol en el desierto
   - **Una ciudad asentada sobre un monte**  (correcta)
@@ -2775,7 +2775,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 5:14
   - Explicación: Dijo que una ciudad asentada sobre un monte no se puede esconder (Mateo 5:14).
 
-- [ ] `core-ensenanzas-0064` (dificultad 4, opción múltiple): En la parábola de los obreros de la viña, ¿qué convino el padre de familia con los obreros de la mañana?
+- [x] `core-ensenanzas-0064` (dificultad 4, opción múltiple): En la parábola de los obreros de la viña, ¿qué convino el padre de familia con los obreros de la mañana?
   - Dos denarios al día
   - Medio denario por hora
   - Un talento al mes
@@ -2783,7 +2783,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 20:1-2
   - Explicación: Convino con ellos un denario al día (Mateo 20:2).
 
-- [ ] `core-ensenanzas-0065` (dificultad 5, opción múltiple): En la parábola del fariseo y el publicano, ¿cuántas veces a la semana decía el fariseo que ayunaba?
+- [x] `core-ensenanzas-0065` (dificultad 5, opción múltiple): En la parábola del fariseo y el publicano, ¿cuántas veces a la semana decía el fariseo que ayunaba?
   - Una vez
   - **Dos veces**  (correcta)
   - Tres veces
@@ -2791,7 +2791,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 18:11-12
   - Explicación: El fariseo dijo que ayunaba dos veces a la semana (Lucas 18:12).
 
-- [ ] `core-ensenanzas-0066` (dificultad 4, opción múltiple): En la parábola del fariseo y el publicano, ¿qué hacía el publicano mientras oraba, sin atreverse a alzar los ojos?
+- [x] `core-ensenanzas-0066` (dificultad 4, opción múltiple): En la parábola del fariseo y el publicano, ¿qué hacía el publicano mientras oraba, sin atreverse a alzar los ojos?
   - Rasgaba sus vestidos
   - Alzaba las manos al cielo
   - **Se golpeaba el pecho**  (correcta)
@@ -2799,7 +2799,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 18:13
   - Explicación: Se golpeaba el pecho y pedía a Dios que fuera propicio a él, pecador (Lucas 18:13).
 
-- [ ] `core-ensenanzas-0067` (dificultad 4, opción múltiple): En la parábola del rico insensato, ¿qué decidió hacer con sus graneros cuando la cosecha fue abundante?
+- [x] `core-ensenanzas-0067` (dificultad 4, opción múltiple): En la parábola del rico insensato, ¿qué decidió hacer con sus graneros cuando la cosecha fue abundante?
   - Venderlos y comprar más tierra
   - Repartir el grano entre los pobres
   - Dejarlos como estaban
@@ -2807,7 +2807,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 12:17-18
   - Explicación: Decidió derribar sus graneros y edificar mayores (Lucas 12:18).
 
-- [ ] `core-ensenanzas-0068` (dificultad 4, opción múltiple): En la parábola del buen samaritano, ¿hacia qué ciudad descendía de Jerusalén el hombre que cayó en manos de ladrones?
+- [x] `core-ensenanzas-0068` (dificultad 4, opción múltiple): En la parábola del buen samaritano, ¿hacia qué ciudad descendía de Jerusalén el hombre que cayó en manos de ladrones?
   - Hacia Emaús
   - Hacia Betania
   - Hacia Samaria
@@ -3171,7 +3171,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Filipenses 4:8
   - Explicación: Pablo anima a ocupar la mente en lo virtuoso y digno de alabanza.
 
-- [ ] `core-cartas-0046` (dificultad 1, opción múltiple): ¿En qué carta se afirma que la paga del pecado es muerte, pero que el don de Dios es vida eterna?
+- [x] `core-cartas-0046` (dificultad 1, opción múltiple): ¿En qué carta se afirma que la paga del pecado es muerte, pero que el don de Dios es vida eterna?
   - Hebreos
   - Gálatas
   - **Romanos**  (correcta)
@@ -3179,7 +3179,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Romanos 6:23
   - Explicación: Romanos contrasta la paga del pecado, que es la muerte, con la vida eterna que Dios da en Cristo.
 
-- [ ] `core-cartas-0047` (dificultad 1, opción múltiple): ¿Qué carta dice que todo lo podemos en Cristo, quien nos fortalece?
+- [x] `core-cartas-0047` (dificultad 1, opción múltiple): ¿Qué carta dice que todo lo podemos en Cristo, quien nos fortalece?
   - Colosenses
   - Efesios
   - Gálatas
@@ -3187,7 +3187,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Filipenses 4:13
   - Explicación: Pablo escribe a los filipenses que él puede todo por la fortaleza que recibe de Cristo.
 
-- [ ] `core-cartas-0048` (dificultad 1, opción múltiple): ¿En qué carta se exhorta a estar siempre gozosos, orar sin cesar y dar gracias en todo?
+- [x] `core-cartas-0048` (dificultad 1, opción múltiple): ¿En qué carta se exhorta a estar siempre gozosos, orar sin cesar y dar gracias en todo?
   - 2 Tesalonicenses
   - **1 Tesalonicenses**  (correcta)
   - Filemón
@@ -3195,7 +3195,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Tesalonicenses 5:16-18
   - Explicación: Al final de la primera carta a los tesalonicenses, Pablo pide gozo constante, oración continua y gratitud en toda circunstancia.
 
-- [ ] `core-cartas-0049` (dificultad 2, opción múltiple): ¿Qué carta dice que será salvo quien confiese con su boca que Jesús es el Señor y crea en su corazón que Dios lo resucitó?
+- [x] `core-cartas-0049` (dificultad 2, opción múltiple): ¿Qué carta dice que será salvo quien confiese con su boca que Jesús es el Señor y crea en su corazón que Dios lo resucitó?
   - Hebreos
   - Santiago
   - **Romanos**  (correcta)
@@ -3203,7 +3203,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Romanos 10:9
   - Explicación: Romanos une la confesión de Jesús como Señor con la fe en su resurrección para la salvación.
 
-- [ ] `core-cartas-0050` (dificultad 2, opción múltiple): ¿En qué carta se promete que Dios es fiel y justo para perdonar nuestros pecados si los confesamos?
+- [x] `core-cartas-0050` (dificultad 2, opción múltiple): ¿En qué carta se promete que Dios es fiel y justo para perdonar nuestros pecados si los confesamos?
   - Hebreos
   - **1 Juan**  (correcta)
   - Romanos
@@ -3211,7 +3211,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Juan 1:9
   - Explicación: La primera carta de Juan enseña que Dios perdona y limpia a quienes confiesan sus pecados.
 
-- [ ] `core-cartas-0051` (dificultad 2, opción múltiple): ¿Qué carta advierte que Dios no puede ser burlado y que lo que el hombre siembre, eso mismo segará?
+- [x] `core-cartas-0051` (dificultad 2, opción múltiple): ¿Qué carta advierte que Dios no puede ser burlado y que lo que el hombre siembre, eso mismo segará?
   - Romanos
   - Filipenses
   - **Gálatas**  (correcta)
@@ -3219,7 +3219,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Gálatas 6:7
   - Explicación: Pablo recuerda a los gálatas que cada uno cosecha lo que siembra.
 
-- [ ] `core-cartas-0052` (dificultad 2, opción múltiple): ¿Qué carta afirma que Jesucristo es el mismo ayer, hoy y por los siglos?
+- [x] `core-cartas-0052` (dificultad 2, opción múltiple): ¿Qué carta afirma que Jesucristo es el mismo ayer, hoy y por los siglos?
   - Santiago
   - Judas
   - 1 Pedro
@@ -3227,7 +3227,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hebreos 13:8
   - Explicación: Hebreos destaca que Jesucristo no cambia.
 
-- [ ] `core-cartas-0053` (dificultad 2, opción múltiple): ¿En qué carta se invita a echar sobre el Señor toda ansiedad, porque él tiene cuidado de nosotros?
+- [x] `core-cartas-0053` (dificultad 2, opción múltiple): ¿En qué carta se invita a echar sobre el Señor toda ansiedad, porque él tiene cuidado de nosotros?
   - 1 Juan
   - **1 Pedro**  (correcta)
   - 2 Pedro
@@ -3235,7 +3235,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Pedro 5:7
   - Explicación: Pedro anima a los creyentes a confiar al Señor sus preocupaciones porque él cuida de ellos.
 
-- [ ] `core-cartas-0054` (dificultad 2, opción múltiple): ¿Qué carta indica que quien tenga falta de sabiduría se la pida a Dios, que da a todos abundantemente y sin reproche?
+- [x] `core-cartas-0054` (dificultad 2, opción múltiple): ¿Qué carta indica que quien tenga falta de sabiduría se la pida a Dios, que da a todos abundantemente y sin reproche?
   - 1 Pedro
   - 2 Pedro
   - **Santiago**  (correcta)
@@ -3243,7 +3243,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Santiago 1:5
   - Explicación: Santiago anima a pedir sabiduría a Dios, quien la da con generosidad.
 
-- [ ] `core-cartas-0055` (dificultad 2, opción múltiple): ¿En qué carta se dice que toda la Escritura es inspirada por Dios y útil para enseñar, corregir e instruir?
+- [x] `core-cartas-0055` (dificultad 2, opción múltiple): ¿En qué carta se dice que toda la Escritura es inspirada por Dios y útil para enseñar, corregir e instruir?
   - 1 Timoteo
   - Hebreos
   - Tito
@@ -3251,7 +3251,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Timoteo 3:16
   - Explicación: Pablo enseña a Timoteo que la Escritura procede de Dios y sirve para formar al creyente.
 
-- [ ] `core-cartas-0056` (dificultad 2, opción múltiple): ¿Qué carta pide no estar afanosos por nada y presentar a Dios las peticiones con oración y acción de gracias?
+- [x] `core-cartas-0056` (dificultad 2, opción múltiple): ¿Qué carta pide no estar afanosos por nada y presentar a Dios las peticiones con oración y acción de gracias?
   - 1 Tesalonicenses
   - **Filipenses**  (correcta)
   - Efesios
@@ -3259,7 +3259,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Filipenses 4:6-7
   - Explicación: Pablo promete a los filipenses que la paz de Dios guardará sus corazones cuando oren en vez de afanarse.
 
-- [ ] `core-cartas-0057` (dificultad 3, opción múltiple): ¿En qué carta se ordena a los maridos amar a sus mujeres como Cristo amó a la iglesia y se entregó por ella?
+- [x] `core-cartas-0057` (dificultad 3, opción múltiple): ¿En qué carta se ordena a los maridos amar a sus mujeres como Cristo amó a la iglesia y se entregó por ella?
   - Gálatas
   - Colosenses
   - 1 Corintios
@@ -3267,7 +3267,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Efesios 5:25
   - Explicación: Efesios propone el amor sacrificial de Cristo por su iglesia como modelo para el esposo.
 
-- [ ] `core-cartas-0058` (dificultad 3, opción múltiple): ¿Qué carta pide ser benignos y misericordiosos, perdonándose unos a otros como Dios perdonó en Cristo?
+- [x] `core-cartas-0058` (dificultad 3, opción múltiple): ¿Qué carta pide ser benignos y misericordiosos, perdonándose unos a otros como Dios perdonó en Cristo?
   - 1 Tesalonicenses
   - Gálatas
   - **Efesios**  (correcta)
@@ -3275,7 +3275,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Efesios 4:32
   - Explicación: Pablo basa el perdón entre los creyentes en el perdón que Dios les dio en Cristo.
 
-- [ ] `core-cartas-0059` (dificultad 3, opción múltiple): ¿En qué carta se asegura que Dios, que es fiel, no permite ser tentados más de lo que podemos resistir y da la salida?
+- [x] `core-cartas-0059` (dificultad 3, opción múltiple): ¿En qué carta se asegura que Dios, que es fiel, no permite ser tentados más de lo que podemos resistir y da la salida?
   - 2 Corintios
   - Hebreos
   - **1 Corintios**  (correcta)
@@ -3283,7 +3283,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Corintios 10:13
   - Explicación: Pablo consuela a los corintios con la fidelidad de Dios frente a la tentación.
 
-- [ ] `core-cartas-0060` (dificultad 3, opción múltiple): ¿Qué carta dice que nadie tenga en poco la juventud del destinatario, sino que sea ejemplo de los creyentes?
+- [x] `core-cartas-0060` (dificultad 3, opción múltiple): ¿Qué carta dice que nadie tenga en poco la juventud del destinatario, sino que sea ejemplo de los creyentes?
   - 2 Timoteo
   - Filemón
   - Tito
@@ -3291,7 +3291,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Timoteo 4:12
   - Explicación: Pablo anima a Timoteo a ser ejemplo en palabra, conducta, amor, espíritu, fe y pureza.
 
-- [ ] `core-cartas-0061` (dificultad 3, opción múltiple): ¿En qué carta recuerda Pablo que Dios no dio espíritu de cobardía, sino de poder, de amor y de dominio propio?
+- [x] `core-cartas-0061` (dificultad 3, opción múltiple): ¿En qué carta recuerda Pablo que Dios no dio espíritu de cobardía, sino de poder, de amor y de dominio propio?
   - **2 Timoteo**  (correcta)
   - 1 Timoteo
   - Tito
@@ -3299,7 +3299,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Timoteo 1:7
   - Explicación: Pablo anima a Timoteo a no avergonzarse ni temer, recordando lo que Dios le dio.
 
-- [ ] `core-cartas-0062` (dificultad 3, opción múltiple): ¿Qué carta afirma que el Señor no retarda su promesa, sino que es paciente, no queriendo que nadie perezca?
+- [x] `core-cartas-0062` (dificultad 3, opción múltiple): ¿Qué carta afirma que el Señor no retarda su promesa, sino que es paciente, no queriendo que nadie perezca?
   - **2 Pedro**  (correcta)
   - 1 Juan
   - 1 Pedro
@@ -3307,7 +3307,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Pedro 3:9
   - Explicación: Pedro explica que la aparente tardanza del Señor es paciencia para dar lugar al arrepentimiento.
 
-- [ ] `core-cartas-0063` (dificultad 3, opción múltiple): ¿En qué carta se habla de una gran nube de testigos y de correr con paciencia la carrera puestos los ojos en Jesús?
+- [x] `core-cartas-0063` (dificultad 3, opción múltiple): ¿En qué carta se habla de una gran nube de testigos y de correr con paciencia la carrera puestos los ojos en Jesús?
   - 1 Pedro
   - **Hebreos**  (correcta)
   - Santiago
@@ -3315,7 +3315,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hebreos 12:1-2
   - Explicación: Hebreos anima a correr la carrera de la fe mirando a Jesús, autor y consumador de la fe.
 
-- [ ] `core-cartas-0064` (dificultad 3, opción múltiple): ¿Qué carta de Pablo menciona en su saludo inicial a los obispos y diáconos de la iglesia a la que escribe?
+- [x] `core-cartas-0064` (dificultad 3, opción múltiple): ¿Qué carta de Pablo menciona en su saludo inicial a los obispos y diáconos de la iglesia a la que escribe?
   - Efesios
   - **Filipenses**  (correcta)
   - Gálatas
@@ -3323,7 +3323,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Filipenses 1:1
   - Explicación: El saludo de Filipenses se dirige a los santos en Filipos, con los obispos y diáconos.
 
-- [ ] `core-cartas-0065` (dificultad 3, opción múltiple): ¿A quiénes se dirige la carta de Santiago?
+- [x] `core-cartas-0065` (dificultad 3, opción múltiple): ¿A quiénes se dirige la carta de Santiago?
   - A las iglesias de Galacia
   - A los santos y fieles en Éfeso
   - A Timoteo, verdadero hijo en la fe
@@ -3331,7 +3331,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Santiago 1:1
   - Explicación: Santiago saluda a las doce tribus que están en la dispersión.
 
-- [ ] `core-cartas-0066` (dificultad 4, opción múltiple): ¿A quiénes dirige Pedro su primera carta?
+- [x] `core-cartas-0066` (dificultad 4, opción múltiple): ¿A quiénes dirige Pedro su primera carta?
   - **A los expatriados de la dispersión en el Ponto, Galacia, Capadocia, Asia y Bitinia**  (correcta)
   - A todos los que están en Roma, amados de Dios
   - A las doce tribus que están en la dispersión
@@ -3339,22 +3339,22 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Pedro 1:1
   - Explicación: Pedro escribe a creyentes expatriados y dispersos por varias regiones de Asia Menor.
 
-- [ ] `core-cartas-0067` (dificultad 1, verdadero o falso): En su carta a los gálatas, Pablo se dirige a la iglesia de Corinto.
+- [x] `core-cartas-0067` (dificultad 1, verdadero o falso): En su carta a los gálatas, Pablo se dirige a la iglesia de Corinto.
   - Respuesta: **falso**
   - Referencias: Gálatas 1:2
   - Explicación: Gálatas va dirigida a las iglesias de Galacia; la iglesia de Corinto recibe las cartas a los corintios.
 
-- [ ] `core-cartas-0068` (dificultad 2, verdadero o falso): La carta a los Hebreos comienza diciendo que Dios ha hablado en estos postreros días por el Hijo.
+- [x] `core-cartas-0068` (dificultad 2, verdadero o falso): La carta a los Hebreos comienza diciendo que Dios ha hablado en estos postreros días por el Hijo.
   - Respuesta: **verdadero**
   - Referencias: Hebreos 1:1-2
   - Explicación: Hebreos abre contrastando lo dicho por los profetas con lo que Dios habló por medio de su Hijo.
 
-- [ ] `core-cartas-0069` (dificultad 2, verdadero o falso): Pablo llama a Timoteo «verdadero hijo en la fe» al comienzo de la primera carta que le escribe.
+- [x] `core-cartas-0069` (dificultad 2, verdadero o falso): Pablo llama a Timoteo «verdadero hijo en la fe» al comienzo de la primera carta que le escribe.
   - Respuesta: **verdadero**
   - Referencias: 1 Timoteo 1:2
   - Explicación: El saludo de 1 Timoteo lo llama verdadero hijo en la fe.
 
-- [ ] `core-cartas-0070` (dificultad 1, ordenar): Ordena estas cartas de Pablo, de Romanos a Gálatas, según aparecen en el Nuevo Testamento.
+- [x] `core-cartas-0070` (dificultad 1, ordenar): Ordena estas cartas de Pablo, de Romanos a Gálatas, según aparecen en el Nuevo Testamento.
   - Orden correcto:
     1. Romanos
     2. 1 Corintios
@@ -3363,7 +3363,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Romanos 1:1; 1 Corintios 1:1; 2 Corintios 1:1; Gálatas 1:1
   - Explicación: El orden en la Biblia es Romanos, 1 Corintios, 2 Corintios y Gálatas.
 
-- [ ] `core-cartas-0071` (dificultad 2, ordenar): Ordena estas cartas de Pablo, de Gálatas a Colosenses, según aparecen en el Nuevo Testamento.
+- [x] `core-cartas-0071` (dificultad 2, ordenar): Ordena estas cartas de Pablo, de Gálatas a Colosenses, según aparecen en el Nuevo Testamento.
   - Orden correcto:
     1. Gálatas
     2. Efesios
@@ -3372,7 +3372,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Gálatas 1:1; Efesios 1:1; Filipenses 1:1; Colosenses 1:1
   - Explicación: El orden en la Biblia es Gálatas, Efesios, Filipenses y Colosenses.
 
-- [ ] `core-cartas-0072` (dificultad 3, ordenar): Ordena estas cartas según aparecen en el Nuevo Testamento.
+- [x] `core-cartas-0072` (dificultad 3, ordenar): Ordena estas cartas según aparecen en el Nuevo Testamento.
   - Orden correcto:
     1. 1 Tesalonicenses
     2. 1 Timoteo
@@ -3381,7 +3381,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Tesalonicenses 1:1; 1 Timoteo 1:1; Tito 1:1; Hebreos 1:1
   - Explicación: El orden en la Biblia es 1 Tesalonicenses, 1 Timoteo, Tito y Hebreos.
 
-- [ ] `core-cartas-0073` (dificultad 3, ordenar): Ordena estas cartas generales según aparecen en el Nuevo Testamento.
+- [x] `core-cartas-0073` (dificultad 3, ordenar): Ordena estas cartas generales según aparecen en el Nuevo Testamento.
   - Orden correcto:
     1. Santiago
     2. 1 Pedro
@@ -3390,7 +3390,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Santiago 1:1; 1 Pedro 1:1; 1 Juan 1:1; Judas 1
   - Explicación: El orden en la Biblia es Santiago, 1 Pedro, 1 Juan y Judas.
 
-- [ ] `core-cartas-0074` (dificultad 4, opción múltiple): ¿Qué carta exhorta a vestirse de toda la armadura de Dios para estar firmes contra las asechanzas del diablo?
+- [x] `core-cartas-0074` (dificultad 4, opción múltiple): ¿Qué carta exhorta a vestirse de toda la armadura de Dios para estar firmes contra las asechanzas del diablo?
   - Colosenses
   - Filipenses
   - **Efesios**  (correcta)
@@ -3398,7 +3398,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Efesios 6:11
   - Explicación: Está en Efesios 6:11.
 
-- [ ] `core-cartas-0075` (dificultad 4, opción múltiple): ¿Qué carta define la fe como la certeza de lo que se espera y la convicción de lo que no se ve?
+- [x] `core-cartas-0075` (dificultad 4, opción múltiple): ¿Qué carta define la fe como la certeza de lo que se espera y la convicción de lo que no se ve?
   - **Hebreos**  (correcta)
   - Santiago
   - Romanos
@@ -3406,7 +3406,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hebreos 11:1
   - Explicación: Está en Hebreos 11:1.
 
-- [ ] `core-cartas-0076` (dificultad 4, opción múltiple): ¿Qué carta afirma que la fe, si no tiene obras, es muerta en sí misma?
+- [x] `core-cartas-0076` (dificultad 4, opción múltiple): ¿Qué carta afirma que la fe, si no tiene obras, es muerta en sí misma?
   - **Santiago**  (correcta)
   - Romanos
   - Hebreos
@@ -3414,7 +3414,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Santiago 2:17
   - Explicación: Está en Santiago 2:17.
 
-- [ ] `core-cartas-0077` (dificultad 4, opción múltiple): ¿Qué carta declara que Dios es amor y que quien no ama no ha conocido a Dios?
+- [x] `core-cartas-0077` (dificultad 4, opción múltiple): ¿Qué carta declara que Dios es amor y que quien no ama no ha conocido a Dios?
   - Juan
   - 1 Corintios
   - Romanos
@@ -3422,7 +3422,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Juan 4:8
   - Explicación: Está en 1 Juan 4:8.
 
-- [ ] `core-cartas-0078` (dificultad 4, opción múltiple): ¿Qué carta enumera como fruto del Espíritu amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza?
+- [x] `core-cartas-0078` (dificultad 4, opción múltiple): ¿Qué carta enumera como fruto del Espíritu amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza?
   - Filipenses
   - **Gálatas**  (correcta)
   - Efesios
@@ -3744,7 +3744,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jeremías 29:11
   - Explicación: En su carta a los desterrados, Jeremías transmite la promesa de un futuro y una esperanza.
 
-- [ ] `core-donde_escrito-0040` (dificultad 1, opción múltiple): ¿En qué libro de la Biblia se encuentra el salmo que comienza afirmando que el Señor es mi pastor y nada me faltará?
+- [x] `core-donde_escrito-0040` (dificultad 1, opción múltiple): ¿En qué libro de la Biblia se encuentra el salmo que comienza afirmando que el Señor es mi pastor y nada me faltará?
   - Proverbios
   - **Salmos**  (correcta)
   - Isaías
@@ -3752,7 +3752,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Salmos 23:1
   - Explicación: El Salmo 23 compara al Señor con un pastor que cuida de su oveja.
 
-- [ ] `core-donde_escrito-0041` (dificultad 1, opción múltiple): ¿En qué libro se relata que un hombre estuvo tres días y tres noches dentro de un gran pez?
+- [x] `core-donde_escrito-0041` (dificultad 1, opción múltiple): ¿En qué libro se relata que un hombre estuvo tres días y tres noches dentro de un gran pez?
   - Ester
   - Daniel
   - Josué
@@ -3760,7 +3760,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jonás 1:17
   - Explicación: El libro de Jonás cuenta cómo Dios preparó un gran pez que tragó al profeta.
 
-- [ ] `core-donde_escrito-0042` (dificultad 1, opción múltiple): ¿En qué libro se relata que Daniel fue echado en el foso de los leones?
+- [x] `core-donde_escrito-0042` (dificultad 1, opción múltiple): ¿En qué libro se relata que Daniel fue echado en el foso de los leones?
   - Jonás
   - **Daniel**  (correcta)
   - Esdras
@@ -3768,7 +3768,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Daniel 6:16-22
   - Explicación: Daniel 6 cuenta cómo Dios envió su ángel y cerró la boca de los leones.
 
-- [ ] `core-donde_escrito-0043` (dificultad 1, opción múltiple): ¿En qué libro se cuenta que los hermanos de José lo vendieron a unos mercaderes que lo llevaron a Egipto?
+- [x] `core-donde_escrito-0043` (dificultad 1, opción múltiple): ¿En qué libro se cuenta que los hermanos de José lo vendieron a unos mercaderes que lo llevaron a Egipto?
   - Números
   - **Génesis**  (correcta)
   - Éxodo
@@ -3776,7 +3776,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 37:23-28
   - Explicación: Génesis 37 narra cómo sus hermanos lo vendieron por veinte piezas de plata.
 
-- [ ] `core-donde_escrito-0044` (dificultad 1, opción múltiple): ¿En qué libro se relata que los israelitas atravesaron el mar en seco, con las aguas como muro a ambos lados?
+- [x] `core-donde_escrito-0044` (dificultad 1, opción múltiple): ¿En qué libro se relata que los israelitas atravesaron el mar en seco, con las aguas como muro a ambos lados?
   - Deuteronomio
   - Josué
   - Números
@@ -3784,7 +3784,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Éxodo 14:21-22
   - Explicación: Éxodo 14 cuenta que el Señor abrió el mar para que su pueblo pasara en seco.
 
-- [ ] `core-donde_escrito-0045` (dificultad 2, opción múltiple): ¿En qué libro se relata que Dios pidió a Abraham que ofreciera a su hijo Isaac en un monte de la tierra de Moriah?
+- [x] `core-donde_escrito-0045` (dificultad 2, opción múltiple): ¿En qué libro se relata que Dios pidió a Abraham que ofreciera a su hijo Isaac en un monte de la tierra de Moriah?
   - **Génesis**  (correcta)
   - Éxodo
   - Hebreos
@@ -3792,7 +3792,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Génesis 22:1-12
   - Explicación: Génesis 22 narra la prueba de Abraham y cómo el ángel del Señor detuvo su mano.
 
-- [ ] `core-donde_escrito-0046` (dificultad 2, opción múltiple): ¿En qué libro dice una mujer a su suegra que el pueblo y el Dios de ella serán los suyos?
+- [x] `core-donde_escrito-0046` (dificultad 2, opción múltiple): ¿En qué libro dice una mujer a su suegra que el pueblo y el Dios de ella serán los suyos?
   - **Rut**  (correcta)
   - Ester
   - Jueces
@@ -3800,7 +3800,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Rut 1:16
   - Explicación: En Rut, una moabita decide quedarse con Noemí y adoptar su pueblo y su Dios.
 
-- [ ] `core-donde_escrito-0047` (dificultad 2, opción múltiple): ¿En qué libro una reina pide a su pueblo ayunar tres días antes de presentarse ante el rey sin haber sido llamada?
+- [x] `core-donde_escrito-0047` (dificultad 2, opción múltiple): ¿En qué libro una reina pide a su pueblo ayunar tres días antes de presentarse ante el rey sin haber sido llamada?
   - Nehemías
   - Rut
   - Daniel
@@ -3808,7 +3808,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Ester 4:16
   - Explicación: Ester decide acudir al rey aunque eso fuera contra la ley.
 
-- [ ] `core-donde_escrito-0048` (dificultad 2, opción múltiple): ¿En qué libro se relata que a Sansón le cortaron las siete guedejas y los filisteos lo apresaron?
+- [x] `core-donde_escrito-0048` (dificultad 2, opción múltiple): ¿En qué libro se relata que a Sansón le cortaron las siete guedejas y los filisteos lo apresaron?
   - 1 Samuel
   - **Jueces**  (correcta)
   - Josué
@@ -3816,7 +3816,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jueces 16:19-21
   - Explicación: Jueces 16 cuenta cómo Sansón perdió su fuerza y fue llevado a Gaza.
 
-- [ ] `core-donde_escrito-0049` (dificultad 2, opción múltiple): ¿En qué libro unge Samuel a David entre sus hermanos?
+- [x] `core-donde_escrito-0049` (dificultad 2, opción múltiple): ¿En qué libro unge Samuel a David entre sus hermanos?
   - Rut
   - 2 Samuel
   - 1 Reyes
@@ -3824,7 +3824,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Samuel 16:12-13
   - Explicación: En 1 Samuel 16, el Espíritu del Señor vino sobre David desde el día en que fue ungido.
 
-- [ ] `core-donde_escrito-0050` (dificultad 2, opción múltiple): ¿En qué libro se relata el juicio de Salomón entre dos mujeres que disputaban por un niño vivo?
+- [x] `core-donde_escrito-0050` (dificultad 2, opción múltiple): ¿En qué libro se relata el juicio de Salomón entre dos mujeres que disputaban por un niño vivo?
   - **1 Reyes**  (correcta)
   - 1 Samuel
   - 2 Reyes
@@ -3832,7 +3832,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 1 Reyes 3:16-27
   - Explicación: Salomón descubrió quién era la madre por la compasión de la mujer que pidió que no mataran al niño.
 
-- [ ] `core-donde_escrito-0051` (dificultad 2, opción múltiple): ¿En qué libro se cuenta cómo se reconstruyó el muro de Jerusalén en cincuenta y dos días?
+- [x] `core-donde_escrito-0051` (dificultad 2, opción múltiple): ¿En qué libro se cuenta cómo se reconstruyó el muro de Jerusalén en cincuenta y dos días?
   - Daniel
   - Esdras
   - **Nehemías**  (correcta)
@@ -3840,7 +3840,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Nehemías 2:17; Nehemías 6:15
   - Explicación: Nehemías animó al pueblo a edificar el muro y la obra se terminó en cincuenta y dos días.
 
-- [ ] `core-donde_escrito-0052` (dificultad 2, opción múltiple): ¿En qué Evangelio se relata que Pedro pidió a Jesús ir hacia él caminando sobre las aguas?
+- [x] `core-donde_escrito-0052` (dificultad 2, opción múltiple): ¿En qué Evangelio se relata que Pedro pidió a Jesús ir hacia él caminando sobre las aguas?
   - Marcos
   - Juan
   - **Mateo**  (correcta)
@@ -3848,7 +3848,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 14:28-29
   - Explicación: Solo Mateo cuenta que Pedro descendió de la barca y anduvo sobre las aguas.
 
-- [ ] `core-donde_escrito-0053` (dificultad 2, opción múltiple): ¿En qué Evangelio se relata que Zaqueo, jefe de los publicanos, subió a un sicómoro para ver a Jesús?
+- [x] `core-donde_escrito-0053` (dificultad 2, opción múltiple): ¿En qué Evangelio se relata que Zaqueo, jefe de los publicanos, subió a un sicómoro para ver a Jesús?
   - Mateo
   - Marcos
   - **Lucas**  (correcta)
@@ -3856,7 +3856,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 19:2-6
   - Explicación: Lucas cuenta que Jesús vio a Zaqueo en el árbol y se hospedó en su casa.
 
-- [ ] `core-donde_escrito-0054` (dificultad 2, opción múltiple): ¿En qué Evangelio dice Jesús: «Yo soy el buen pastor»?
+- [x] `core-donde_escrito-0054` (dificultad 2, opción múltiple): ¿En qué Evangelio dice Jesús: «Yo soy el buen pastor»?
   - Mateo
   - Lucas
   - **Juan**  (correcta)
@@ -3864,7 +3864,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Juan 10:11
   - Explicación: En Juan 10, Jesús se presenta como el buen pastor que da su vida por las ovejas.
 
-- [ ] `core-donde_escrito-0055` (dificultad 2, opción múltiple): ¿En qué Evangelio dice Jesús que él es el camino, la verdad y la vida?
+- [x] `core-donde_escrito-0055` (dificultad 2, opción múltiple): ¿En qué Evangelio dice Jesús que él es el camino, la verdad y la vida?
   - **Juan**  (correcta)
   - Marcos
   - Mateo
@@ -3872,7 +3872,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Juan 14:6
   - Explicación: En Juan 14, Jesús afirma que nadie viene al Padre sino por él.
 
-- [ ] `core-donde_escrito-0056` (dificultad 2, opción múltiple): ¿En qué libro se relata la muerte de Esteban, apedreado mientras pedía que el Señor no tomara en cuenta ese pecado?
+- [x] `core-donde_escrito-0056` (dificultad 2, opción múltiple): ¿En qué libro se relata la muerte de Esteban, apedreado mientras pedía que el Señor no tomara en cuenta ese pecado?
   - Romanos
   - Lucas
   - Apocalipsis
@@ -3880,7 +3880,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 7:59-60
   - Explicación: Hechos 7 narra la muerte de Esteban.
 
-- [ ] `core-donde_escrito-0057` (dificultad 2, opción múltiple): ¿En qué libro se relata que Felipe explicó las Escrituras a un funcionario etíope que leía al profeta Isaías?
+- [x] `core-donde_escrito-0057` (dificultad 2, opción múltiple): ¿En qué libro se relata que Felipe explicó las Escrituras a un funcionario etíope que leía al profeta Isaías?
   - **Hechos**  (correcta)
   - Lucas
   - Juan
@@ -3888,7 +3888,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 8:26-31
   - Explicación: Hechos 8 cuenta el encuentro de Felipe con el etíope en el camino a Gaza.
 
-- [ ] `core-donde_escrito-0058` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata a un hombre rico y un mendigo llamado Lázaro que murieron y tuvieron destinos distintos?
+- [x] `core-donde_escrito-0058` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata a un hombre rico y un mendigo llamado Lázaro que murieron y tuvieron destinos distintos?
   - **Lucas**  (correcta)
   - Mateo
   - Marcos
@@ -3896,7 +3896,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 16:19-23
   - Explicación: Lucas 16 relata el contraste entre el rico y Lázaro, llevado al seno de Abraham.
 
-- [ ] `core-donde_escrito-0059` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata que Elisabet dijo que su hijo se llamaría Juan, y no como su padre?
+- [x] `core-donde_escrito-0059` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata que Elisabet dijo que su hijo se llamaría Juan, y no como su padre?
   - **Lucas**  (correcta)
   - Marcos
   - Mateo
@@ -3904,7 +3904,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 1:57-60
   - Explicación: Lucas 1 cuenta el nacimiento de Juan, hijo de Elisabet y Zacarías.
 
-- [ ] `core-donde_escrito-0060` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata la parábola de un hombre que entregó cinco, dos y un talento a sus siervos antes de irse lejos?
+- [x] `core-donde_escrito-0060` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata la parábola de un hombre que entregó cinco, dos y un talento a sus siervos antes de irse lejos?
   - Juan
   - Marcos
   - **Mateo**  (correcta)
@@ -3912,7 +3912,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 25:14-15
   - Explicación: Mateo 25 reparte los talentos a cada siervo conforme a su capacidad.
 
-- [ ] `core-donde_escrito-0061` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata la parábola de diez vírgenes, cinco prudentes y cinco insensatas, que esperaban al esposo?
+- [x] `core-donde_escrito-0061` (dificultad 3, opción múltiple): ¿En qué Evangelio se relata la parábola de diez vírgenes, cinco prudentes y cinco insensatas, que esperaban al esposo?
   - Juan
   - Marcos
   - **Mateo**  (correcta)
@@ -3920,7 +3920,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Mateo 25:1-4
   - Explicación: Mateo 25 contrasta a las que llevaron aceite con las que no.
 
-- [ ] `core-donde_escrito-0062` (dificultad 3, opción múltiple): ¿En qué libro se relata que un carcelero preguntó a Pablo y a Silas qué debía hacer para ser salvo, tras un terremoto?
+- [x] `core-donde_escrito-0062` (dificultad 3, opción múltiple): ¿En qué libro se relata que un carcelero preguntó a Pablo y a Silas qué debía hacer para ser salvo, tras un terremoto?
   - Lucas
   - Romanos
   - **Hechos**  (correcta)
@@ -3928,7 +3928,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 16:25-31
   - Explicación: Hechos 16 cuenta que el carcelero preguntó cómo ser salvo y recibió respuesta de Pablo y Silas.
 
-- [ ] `core-donde_escrito-0063` (dificultad 3, opción múltiple): ¿En qué libro habla Pablo a los atenienses en el Areópago sobre un altar «al Dios no conocido»?
+- [x] `core-donde_escrito-0063` (dificultad 3, opción múltiple): ¿En qué libro habla Pablo a los atenienses en el Areópago sobre un altar «al Dios no conocido»?
   - **Hechos**  (correcta)
   - Filipenses
   - 1 Corintios
@@ -3936,7 +3936,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Hechos 17:22-23
   - Explicación: Hechos 17 recoge el discurso de Pablo en Atenas.
 
-- [ ] `core-donde_escrito-0064` (dificultad 3, opción múltiple): ¿En qué libro un general sirio se lava siete veces en el Jordán y queda limpio de su lepra?
+- [x] `core-donde_escrito-0064` (dificultad 3, opción múltiple): ¿En qué libro un general sirio se lava siete veces en el Jordán y queda limpio de su lepra?
   - 2 Samuel
   - 1 Reyes
   - Levítico
@@ -3944,7 +3944,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: 2 Reyes 5:10-14
   - Explicación: 2 Reyes 5 cuenta cómo Naamán obedeció la palabra del profeta Eliseo.
 
-- [ ] `core-donde_escrito-0065` (dificultad 3, opción múltiple): ¿En qué libro se relata que doce hombres exploraron Canaán y diez de ellos desanimaron al pueblo?
+- [x] `core-donde_escrito-0065` (dificultad 3, opción múltiple): ¿En qué libro se relata que doce hombres exploraron Canaán y diez de ellos desanimaron al pueblo?
   - **Números**  (correcta)
   - Josué
   - Deuteronomio
@@ -3952,7 +3952,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Números 13:1-3; Números 13:30-33
   - Explicación: Números 13 narra que solo Caleb animó a subir y tomar la tierra.
 
-- [ ] `core-donde_escrito-0066` (dificultad 3, opción múltiple): ¿En qué libro dice Moisés a Israel que el Señor es uno y que debe amarlo con todo el corazón, el alma y las fuerzas?
+- [x] `core-donde_escrito-0066` (dificultad 3, opción múltiple): ¿En qué libro dice Moisés a Israel que el Señor es uno y que debe amarlo con todo el corazón, el alma y las fuerzas?
   - Números
   - **Deuteronomio**  (correcta)
   - Levítico
@@ -3960,7 +3960,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Deuteronomio 6:4-5
   - Explicación: Deuteronomio 6 contiene este mandato central para Israel.
 
-- [ ] `core-donde_escrito-0067` (dificultad 3, opción múltiple): ¿En qué libro cruza el pueblo el Jordán en seco mientras los sacerdotes sostienen el arca del pacto?
+- [x] `core-donde_escrito-0067` (dificultad 3, opción múltiple): ¿En qué libro cruza el pueblo el Jordán en seco mientras los sacerdotes sostienen el arca del pacto?
   - **Josué**  (correcta)
   - Éxodo
   - Números
@@ -3968,7 +3968,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Josué 3:14-17
   - Explicación: Josué 3 cuenta que las aguas se detuvieron hasta que todo Israel pasó.
 
-- [ ] `core-donde_escrito-0068` (dificultad 3, opción múltiple): ¿En qué libro se afirma que todo tiene su tiempo y que todo lo que se quiere debajo del cielo tiene su hora?
+- [x] `core-donde_escrito-0068` (dificultad 3, opción múltiple): ¿En qué libro se afirma que todo tiene su tiempo y que todo lo que se quiere debajo del cielo tiene su hora?
   - **Eclesiastés**  (correcta)
   - Salmos
   - Proverbios
@@ -3976,7 +3976,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Eclesiastés 3:1
   - Explicación: Eclesiastés 3 reflexiona sobre los tiempos de la vida.
 
-- [ ] `core-donde_escrito-0069` (dificultad 3, opción múltiple): ¿En qué libro profético invita el Señor a traer todos los diezmos al alfolí y probarlo?
+- [x] `core-donde_escrito-0069` (dificultad 3, opción múltiple): ¿En qué libro profético invita el Señor a traer todos los diezmos al alfolí y probarlo?
   - Amós
   - Hageo
   - Zacarías
@@ -3984,7 +3984,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Malaquías 3:10
   - Explicación: Malaquías 3 llama al pueblo a traer los diezmos y promete bendición abundante.
 
-- [ ] `core-donde_escrito-0070` (dificultad 4, opción múltiple): ¿En qué libro se dice que las misericordias del Señor son nuevas cada mañana y grande es su fidelidad?
+- [x] `core-donde_escrito-0070` (dificultad 4, opción múltiple): ¿En qué libro se dice que las misericordias del Señor son nuevas cada mañana y grande es su fidelidad?
   - Jeremías
   - Salmos
   - Isaías
@@ -3992,7 +3992,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lamentaciones 3:22-23
   - Explicación: Lamentaciones 3 recuerda, en medio del dolor, la fidelidad y las misericordias del Señor.
 
-- [ ] `core-donde_escrito-0071` (dificultad 4, opción múltiple): ¿En qué libro profético se anuncia que de Belén Efrata saldrá el que será Señor en Israel?
+- [x] `core-donde_escrito-0071` (dificultad 4, opción múltiple): ¿En qué libro profético se anuncia que de Belén Efrata saldrá el que será Señor en Israel?
   - Oseas
   - **Miqueas**  (correcta)
   - Nahúm
@@ -4000,7 +4000,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Miqueas 5:2
   - Explicación: Miqueas 5 señala a Belén como el lugar de donde vendría el gobernante de Israel.
 
-- [ ] `core-donde_escrito-0072` (dificultad 4, opción múltiple): ¿En qué libro profético se afirma que el justo por su fe vivirá?
+- [x] `core-donde_escrito-0072` (dificultad 4, opción múltiple): ¿En qué libro profético se afirma que el justo por su fe vivirá?
   - Amós
   - Sofonías
   - Joel
@@ -4008,7 +4008,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Habacuc 2:4
   - Explicación: Habacuc 2 contrasta al orgulloso con el justo que vive por su fe.
 
-- [ ] `core-donde_escrito-0073` (dificultad 4, opción múltiple): ¿En qué libro profético promete el Señor derramar su Espíritu sobre toda carne, para que hijos e hijas profeticen?
+- [x] `core-donde_escrito-0073` (dificultad 4, opción múltiple): ¿En qué libro profético promete el Señor derramar su Espíritu sobre toda carne, para que hijos e hijas profeticen?
   - Amós
   - Oseas
   - Malaquías
@@ -4016,7 +4016,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Joel 2:28
   - Explicación: Joel 2 anuncia el derramamiento del Espíritu del Señor.
 
-- [ ] `core-donde_escrito-0074` (dificultad 4, opción múltiple): ¿En qué libro profético se anuncia a un rey justo y humilde que viene cabalgando sobre un asno?
+- [x] `core-donde_escrito-0074` (dificultad 4, opción múltiple): ¿En qué libro profético se anuncia a un rey justo y humilde que viene cabalgando sobre un asno?
   - Malaquías
   - Joel
   - Hageo
@@ -4024,7 +4024,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Zacarías 9:9
   - Explicación: Zacarías 9 invita a la hija de Sion a alegrarse por la venida de su rey.
 
-- [ ] `core-donde_escrito-0075` (dificultad 4, opción múltiple): ¿En qué libro se establece el día en que el pueblo debe afligir su alma y se hace expiación por sus pecados?
+- [x] `core-donde_escrito-0075` (dificultad 4, opción múltiple): ¿En qué libro se establece el día en que el pueblo debe afligir su alma y se hace expiación por sus pecados?
   - Números
   - Éxodo
   - Deuteronomio
@@ -4032,7 +4032,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Levítico 16:29-30
   - Explicación: Levítico 16 regula el día de la expiación.
 
-- [ ] `core-donde_escrito-0076` (dificultad 5, opción múltiple): ¿En qué libro profético se pide que corra el juicio como las aguas y la justicia como impetuoso arroyo?
+- [x] `core-donde_escrito-0076` (dificultad 5, opción múltiple): ¿En qué libro profético se pide que corra el juicio como las aguas y la justicia como impetuoso arroyo?
   - **Amós**  (correcta)
   - Joel
   - Miqueas
@@ -4040,7 +4040,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Amós 5:24
   - Explicación: Amós 5 reclama justicia en lugar de religiosidad vacía.
 
-- [ ] `core-donde_escrito-0077` (dificultad 5, opción múltiple): ¿En qué libro profético se resume lo que el Señor pide: hacer justicia, amar misericordia y humillarse ante Dios?
+- [x] `core-donde_escrito-0077` (dificultad 5, opción múltiple): ¿En qué libro profético se resume lo que el Señor pide: hacer justicia, amar misericordia y humillarse ante Dios?
   - **Miqueas**  (correcta)
   - Amós
   - Habacuc
@@ -4048,7 +4048,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Miqueas 6:8
   - Explicación: Miqueas 6 resume lo que Dios requiere del hombre.
 
-- [ ] `core-donde_escrito-0078` (dificultad 4, opción múltiple): ¿En qué libro se relata que un juez pidió como señal que el rocío estuviera solo en un vellón de lana?
+- [x] `core-donde_escrito-0078` (dificultad 4, opción múltiple): ¿En qué libro se relata que un juez pidió como señal que el rocío estuviera solo en un vellón de lana?
   - 1 Samuel
   - **Jueces**  (correcta)
   - Rut
@@ -4056,7 +4056,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Jueces 6:37; Jueces 6:39
   - Explicación: Se relata en Jueces 6:37-40.
 
-- [ ] `core-donde_escrito-0079` (dificultad 4, opción múltiple): ¿En qué libro dice una mujer moabita a su suegra que su pueblo será el pueblo de ella y su Dios, el Dios de ella?
+- [x] `core-donde_escrito-0079` (dificultad 4, opción múltiple): ¿En qué libro dice una mujer moabita a su suegra que su pueblo será el pueblo de ella y su Dios, el Dios de ella?
   - 1 Samuel
   - **Rut**  (correcta)
   - Ester
@@ -4064,7 +4064,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Rut 1:16
   - Explicación: Está en Rut 1:16.
 
-- [ ] `core-donde_escrito-0080` (dificultad 4, opción múltiple): ¿En qué libro se postra un hombre en tierra y adora, y bendice el nombre de Jehová?
+- [x] `core-donde_escrito-0080` (dificultad 4, opción múltiple): ¿En qué libro se postra un hombre en tierra y adora, y bendice el nombre de Jehová?
   - Eclesiastés
   - Lamentaciones
   - Salmos
@@ -4072,7 +4072,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Job 1:20-21
   - Explicación: Está en Job 1:20-21.
 
-- [ ] `core-donde_escrito-0081` (dificultad 4, opción múltiple): ¿En qué libro se compara la palabra de Dios con una lámpara a los pies y una lumbrera al camino?
+- [x] `core-donde_escrito-0081` (dificultad 4, opción múltiple): ¿En qué libro se compara la palabra de Dios con una lámpara a los pies y una lumbrera al camino?
   - Proverbios
   - Isaías
   - Eclesiastés
@@ -4080,7 +4080,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Salmos 119:105
   - Explicación: Está en Salmos 119:105.
 
-- [ ] `core-donde_escrito-0082` (dificultad 4, opción múltiple): ¿En qué libro se aconseja fiarse de Jehová de todo corazón y no apoyarse en la propia prudencia?
+- [x] `core-donde_escrito-0082` (dificultad 4, opción múltiple): ¿En qué libro se aconseja fiarse de Jehová de todo corazón y no apoyarse en la propia prudencia?
   - Eclesiastés
   - Job
   - **Proverbios**  (correcta)
@@ -4088,7 +4088,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Proverbios 3:5-6
   - Explicación: Está en Proverbios 3:5-6.
 
-- [ ] `core-donde_escrito-0083` (dificultad 4, opción múltiple): ¿En qué libro profético se promete que los que esperan a Jehová tendrán nuevas fuerzas y levantarán alas como las águilas?
+- [x] `core-donde_escrito-0083` (dificultad 4, opción múltiple): ¿En qué libro profético se promete que los que esperan a Jehová tendrán nuevas fuerzas y levantarán alas como las águilas?
   - Oseas
   - **Isaías**  (correcta)
   - Ezequiel
@@ -4096,7 +4096,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Isaías 40:31
   - Explicación: Está en Isaías 40:31.
 
-- [ ] `core-donde_escrito-0084` (dificultad 5, opción múltiple): ¿En qué libro lee el sacerdote Esdras la ley delante de la plaza, desde el alba hasta el mediodía?
+- [x] `core-donde_escrito-0084` (dificultad 5, opción múltiple): ¿En qué libro lee el sacerdote Esdras la ley delante de la plaza, desde el alba hasta el mediodía?
   - Esdras
   - Ester
   - 2 Crónicas
@@ -4104,7 +4104,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Nehemías 8:2-3
   - Explicación: Se relata en Nehemías 8:2-3.
 
-- [ ] `core-donde_escrito-0085` (dificultad 5, opción múltiple): ¿En qué Evangelio se nombra a Bartimeo, el ciego hijo de Timeo, sentado junto al camino cerca de Jericó?
+- [x] `core-donde_escrito-0085` (dificultad 5, opción múltiple): ¿En qué Evangelio se nombra a Bartimeo, el ciego hijo de Timeo, sentado junto al camino cerca de Jericó?
   - Lucas
   - Juan
   - Mateo
@@ -4112,7 +4112,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Marcos 10:46
   - Explicación: Solo Marcos 10:46 lo nombra.
 
-- [ ] `core-donde_escrito-0086` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que un jefe de publicanos llamado Zaqueo subió a un sicómoro para ver a Jesús?
+- [x] `core-donde_escrito-0086` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que un jefe de publicanos llamado Zaqueo subió a un sicómoro para ver a Jesús?
   - Mateo
   - Marcos
   - **Lucas**  (correcta)
@@ -4120,7 +4120,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Lucas 19:2-4
   - Explicación: Se relata en Lucas 19:2-4.
 
-- [ ] `core-donde_escrito-0087` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que Jesús llamó a gran voz a Lázaro y el muerto salió con las manos y los pies atados con vendas?
+- [x] `core-donde_escrito-0087` (dificultad 4, opción múltiple): ¿En qué Evangelio se relata que Jesús llamó a gran voz a Lázaro y el muerto salió con las manos y los pies atados con vendas?
   - **Juan**  (correcta)
   - Mateo
   - Lucas
@@ -4128,7 +4128,7 @@ Si dudas de una pregunta, déjala sin marcar y bórrala o corrígela en el JSON.
   - Referencias: Juan 11:43-44
   - Explicación: Se relata en Juan 11:43-44.
 
-- [ ] `core-donde_escrito-0088` (dificultad 4, opción múltiple): ¿En qué libro dice el Señor que está a la puerta y llama, y que entrará a cenar con quien le abra?
+- [x] `core-donde_escrito-0088` (dificultad 4, opción múltiple): ¿En qué libro dice el Señor que está a la puerta y llama, y que entrará a cenar con quien le abra?
   - Hebreos
   - Santiago
   - Juan
