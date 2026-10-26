@@ -297,4 +297,5 @@
     <string name="escena_jose_egipto">José en Egipto</string>
     <string name="escena_zarza">La zarza ardiendo</string>
     <string name="escena_pascua">La Pascua</string>
+    <string name="inicio_algo_falla">¿Algo no funciona? Cuéntanos</string>
 </resources>

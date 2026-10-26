@@ -31,7 +31,14 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import com.kaironyx.diceescritura.feature.ayuda.TarjetaAyuda
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -98,6 +105,7 @@ fun InicioContenido(
             return@Column
         }
         Saludo(estado.persona, onPerfil)
+        AccesoAyuda()
         TarjetaNivel(estado.nivel, onNiveles)
         TarjetaReto(estado, onReto)
         if (estado.nivel.examenDisponible) {
@@ -329,4 +337,19 @@ private fun Categoria.medallon(): Int = when (this) {
     Categoria.CARTAS -> R.drawable.medallon_cartas
     Categoria.DONDE_ESTA_ESCRITO -> R.drawable.medallon_donde_escrito
     Categoria.CONFESION -> R.drawable.medallon_confesion
+}
+
+/** Enlace discreto para reportar un error o dar un comentario sin ir a Ajustes: abre la misma tarjeta de ayuda. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun AccesoAyuda() {
+    var abierto by rememberSaveable { mutableStateOf(false) }
+    TextButton(onClick = { abierto = true }) { Text(stringResource(R.string.inicio_algo_falla)) }
+    if (abierto) {
+        ModalBottomSheet(onDismissRequest = { abierto = false }) {
+            Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 24.dp)) {
+                TarjetaAyuda()
+            }
+        }
+    }
 }
