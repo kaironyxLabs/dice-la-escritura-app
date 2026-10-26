@@ -33,3 +33,15 @@ Cada imagen se reduce a WebP (unos 30 a 60 KB por pieza a 512 o 1024 px), de mod
 ## Decisiones tuyas
 1. ¿Empezamos por el lote 1? (recomendado: es lo que más se nota y más rápido se integra).
 2. ¿Quieres que las escenas lleven un pie de texto o solo la imagen?
+
+## Estado de las ilustraciones (26-oct)
+Carpeta de origen del usuario: `Downloads\Ilustraciones` (los medallones están en `Downloads\Medallones`). Ya generadas e integradas: 8 banners, 10 niveles, 9 sellos y 8 escenas (`escena_creacion` a `escena_pascua`), convertidas a WebP en `res/drawable-nodpi`.
+
+**Deuda: dónde retomar.** Lista completa en `docs/PROMPTS_ILUSTRACIONES.md`, sección «Lote 2 — Escenas de historias». Se quedó en `escena_pascua`; sigue **`escena_mar_rojo`** y, en este orden: sinai, mana, jerico, gedeon, david_goliat, templo, elias_carmelo, daniel_leones, horno, jonas, ester, nehemias_muros, belen, pentecostes, damasco. Después el lote 3 (6 parábolas) y el lote 4 (3 láminas de bienvenida y `fondo_resultado`).
+
+Para sumar una escena nueva: copiar el WebP (800 px) a `drawable-nodpi`, añadir su caso en `EscenaHistoria` (libro y capítulos), en `Ilustraciones.kt` (imagen y título) y su texto en `strings.xml`.
+
+## Integrado
+- U8.1 banner de categoría en la partida (con fundido al pergamino).
+- U8.2 escena tras responder (Historia, Personajes, Lugares, Enseñanzas), enlazada por el capítulo de la referencia; con pie de texto.
+- U8.3 niveles ilustrados (Inicio, Niveles, celebración) y sellos de logros (Progreso).

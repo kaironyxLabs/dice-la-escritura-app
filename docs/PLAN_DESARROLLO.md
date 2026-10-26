@@ -11,7 +11,7 @@ Fecha: 14/10/2026. Este documento reúne lo pendiente, ordenado en etapas. Cada 
 - Tras cada respuesta la app muestra la respuesta correcta, su justificación bíblica y la invitación a comprobarla en la Biblia física (impresa).
 - 160 pruebas JVM, 11 instrumentadas, importador con 87 pruebas; lint sin avisos; build de release con R8.
 - Probada a mano en dos teléfonos (Xiaomi y TCL). Última versión instalada en el Xiaomi, con el avance en cero, para tu prueba manual.
-- Repositorio privado en GitHub (`kaironyxLabs/lampara-app`) con CI.
+- Repositorio privado en GitHub (`kaironyxLabs/dice-la-escritura-app`) con CI.
 
 **Actualización 26-oct-2026**
 - Cuenta local (un perfil por teléfono) y rediseño U0 a U7 hechos; la app es siempre clara (D-017).

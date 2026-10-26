@@ -289,4 +289,12 @@
     <string name="ayuda_asunto_error">Dice la Escritura: reporte de error</string>
     <string name="ayuda_asunto_comentario">Dice la Escritura: comentario</string>
     <string name="ayuda_sin_correo">No encontramos una app de correo. Escríbenos a %1$s.</string>
+    <string name="escena_creacion">La creación</string>
+    <string name="escena_eden">El jardín del Edén</string>
+    <string name="escena_babel">La torre de Babel</string>
+    <string name="escena_abraham_estrellas">Abraham y las estrellas</string>
+    <string name="escena_jacob_escalera">La escalera de Jacob</string>
+    <string name="escena_jose_egipto">José en Egipto</string>
+    <string name="escena_zarza">La zarza ardiendo</string>
+    <string name="escena_pascua">La Pascua</string>
 </resources>

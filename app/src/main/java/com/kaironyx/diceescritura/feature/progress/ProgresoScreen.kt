@@ -33,7 +33,12 @@ import com.kaironyx.diceescritura.domain.usecase.Logro
 import com.kaironyx.diceescritura.domain.usecase.EstadoLogro
 import com.kaironyx.diceescritura.core.ui.Pergamino
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.Image
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import com.kaironyx.diceescritura.core.ui.sello
 import androidx.compose.ui.Alignment
 import androidx.compose.material3.Icon
 import androidx.compose.material.icons.filled.Check
@@ -223,30 +228,15 @@ private fun FilaLogro(estado: EstadoLogro) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        val oro = Brush.verticalGradient(listOf(Pergamino.OroClaro, Pergamino.Oro))
-        Box(
+        Image(
+            painter = painterResource(estado.logro.sello()),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
             modifier = Modifier
-                .size(52.dp)
-                .clip(CircleShape)
-                .then(
-                    if (estado.conseguido) {
-                        Modifier.background(oro)
-                    } else {
-                        Modifier.border(2.dp, MaterialTheme.colorScheme.outlineVariant, CircleShape)
-                    },
-                ),
-            contentAlignment = Alignment.Center,
-        ) {
-            if (estado.conseguido) {
-                Icon(Icons.Filled.Check, contentDescription = null, tint = Pergamino.TintaSuave)
-            } else {
-                Text(
-                    stringResource(R.string.logro_avance_corto, estado.avance, estado.logro.meta),
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-        }
+                .size(60.dp)
+                .alpha(if (estado.conseguido) 1f else 0.35f)
+                .clip(CircleShape),
+        )
         Column(Modifier.weight(1f)) {
             Text(
                 titulo,
