@@ -278,4 +278,15 @@
     <string name="catalogo_acierto">Correcto</string>
     <string name="catalogo_error">Incorrecto</string>
     <string name="catalogo_explicacion">Explicación breve que remite al pasaje.</string>
+    <string name="ayuda_titulo">Ayuda y comentarios</string>
+    <string name="ayuda_descripcion">¿Algo no funciona o tienes una idea? Cuéntanos. Se abrirá tu app de correo con el mensaje listo; tú decides si lo envías.</string>
+    <string name="ayuda_tipo_error">Reportar un error</string>
+    <string name="ayuda_tipo_comentario">Enviar un comentario</string>
+    <string name="ayuda_pista_error">¿Qué pasó y en qué pantalla?</string>
+    <string name="ayuda_pista_comentario">Tu comentario o sugerencia</string>
+    <string name="ayuda_datos_tecnicos">Adjuntar datos técnicos (versión de la app y del teléfono)</string>
+    <string name="ayuda_enviar">Preparar el correo</string>
+    <string name="ayuda_asunto_error">Dice la Escritura: reporte de error</string>
+    <string name="ayuda_asunto_comentario">Dice la Escritura: comentario</string>
+    <string name="ayuda_sin_correo">No encontramos una app de correo. Escríbenos a %1$s.</string>
 </resources>
