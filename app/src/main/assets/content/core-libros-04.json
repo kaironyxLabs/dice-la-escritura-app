@@ -22,7 +22,7 @@
       "tags": [
         "estructura"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-libros-0064",
@@ -45,7 +45,7 @@
       "tags": [
         "estructura"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

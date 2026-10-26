@@ -22,7 +22,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0056",
@@ -45,7 +45,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0057",
@@ -68,7 +68,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0058",
@@ -91,7 +91,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0059",
@@ -114,7 +114,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0060",
@@ -138,7 +138,7 @@
         "sermon-monte",
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0061",
@@ -161,7 +161,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0062",
@@ -184,7 +184,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0063",
@@ -207,7 +207,7 @@
       "tags": [
         "sermon-monte"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0064",
@@ -230,7 +230,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0065",
@@ -253,7 +253,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0066",
@@ -276,7 +276,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0067",
@@ -299,7 +299,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-ensenanzas-0068",
@@ -322,7 +322,7 @@
       "tags": [
         "parabolas"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

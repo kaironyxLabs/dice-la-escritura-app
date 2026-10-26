@@ -22,7 +22,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0047",
@@ -45,7 +45,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0048",
@@ -68,7 +68,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0049",
@@ -91,7 +91,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0050",
@@ -114,7 +114,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0051",
@@ -137,7 +137,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0052",
@@ -160,7 +160,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0053",
@@ -183,7 +183,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0054",
@@ -206,7 +206,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0055",
@@ -230,7 +230,7 @@
         "pablo",
         "escritura"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0056",
@@ -253,7 +253,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0057",
@@ -276,7 +276,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0058",
@@ -299,7 +299,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0059",
@@ -322,7 +322,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0060",
@@ -345,7 +345,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0061",
@@ -368,7 +368,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0062",
@@ -391,7 +391,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0063",
@@ -414,7 +414,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0064",
@@ -437,7 +437,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0065",
@@ -460,7 +460,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0066",
@@ -483,7 +483,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0067",
@@ -500,7 +500,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0068",
@@ -517,7 +517,7 @@
       "tags": [
         "generales"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0069",
@@ -534,7 +534,7 @@
       "tags": [
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0070",
@@ -560,7 +560,7 @@
         "pablo",
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0071",
@@ -586,7 +586,7 @@
         "pablo",
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0072",
@@ -611,7 +611,7 @@
       "tags": [
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-cartas-0073",
@@ -637,7 +637,7 @@
         "generales",
         "orden"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "questions": [
     {
       "id": "core-lugares-0038",
@@ -22,7 +22,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0039",
@@ -45,7 +45,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0040",
@@ -68,7 +68,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0041",
@@ -91,31 +91,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
-    },
-    {
-      "id": "core-lugares-0042",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿A qué monte subió Moisés para ver la tierra antes de morir?",
-      "options": [
-        "Al monte Tabor",
-        "Al monte Hermón",
-        "Al monte Nebo",
-        "Al monte Carmelo"
-      ],
-      "answerIndex": 2,
-      "references": [
-        "Deuteronomio 34:1",
-        "Deuteronomio 34:5"
-      ],
-      "explanation": "Subió al monte Nebo, en la tierra de Moab (Deuteronomio 34:1, 5).",
-      "tags": [
-        "moises"
-      ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0043",
@@ -138,7 +114,7 @@
       "tags": [
         "conquista"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0044",
@@ -163,30 +139,7 @@
         "reyes",
         "profetas"
       ],
-      "reviewed": false
-    },
-    {
-      "id": "core-lugares-0045",
-      "module": "core",
-      "category": "lugares",
-      "type": "multiple_choice",
-      "difficulty": 4,
-      "question": "¿En qué isla estaba el apóstol Juan cuando recibió la revelación escrita en el Apocalipsis?",
-      "options": [
-        "Patmos",
-        "Chipre",
-        "Malta",
-        "Creta"
-      ],
-      "answerIndex": 0,
-      "references": [
-        "Apocalipsis 1:9"
-      ],
-      "explanation": "Estaba en la isla llamada Patmos (Apocalipsis 1:9).",
-      "tags": [
-        "apocalipsis"
-      ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0046",
@@ -209,7 +162,7 @@
       "tags": [
         "profetas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0047",
@@ -232,7 +185,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0048",
@@ -255,7 +208,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0049",
@@ -279,7 +232,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0050",
@@ -303,7 +256,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0051",
@@ -326,7 +279,7 @@
       "tags": [
         "resurreccion"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0052",
@@ -350,7 +303,7 @@
         "monarquia",
         "templo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0053",
@@ -373,7 +326,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-lugares-0054",
@@ -396,7 +349,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

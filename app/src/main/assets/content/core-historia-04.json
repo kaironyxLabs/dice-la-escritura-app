@@ -22,7 +22,7 @@
       "tags": [
         "diluvio"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0068",
@@ -45,7 +45,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0069",
@@ -68,7 +68,7 @@
       "tags": [
         "origenes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0070",
@@ -91,7 +91,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0071",
@@ -115,7 +115,7 @@
         "exodo",
         "plagas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0072",
@@ -139,7 +139,7 @@
         "exodo",
         "pascua"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0073",
@@ -162,7 +162,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0074",
@@ -186,7 +186,7 @@
         "monarquia",
         "arca"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0075",
@@ -210,7 +210,7 @@
         "monarquia",
         "arca"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0076",
@@ -234,7 +234,7 @@
         "monarquia",
         "templo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0077",
@@ -258,7 +258,7 @@
         "profetas",
         "reyes"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0078",
@@ -283,7 +283,7 @@
         "profetas",
         "daniel"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0079",
@@ -307,7 +307,7 @@
         "profetas",
         "daniel"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0080",
@@ -330,7 +330,7 @@
       "tags": [
         "ester"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-historia-0081",
@@ -354,7 +354,7 @@
         "hechos",
         "pablo"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }

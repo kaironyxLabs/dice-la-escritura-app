@@ -22,7 +22,7 @@
       "tags": [
         "patriarcas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0075",
@@ -45,7 +45,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0076",
@@ -68,7 +68,7 @@
       "tags": [
         "exodo"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0077",
@@ -91,7 +91,7 @@
       "tags": [
         "jueces"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0078",
@@ -114,7 +114,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0079",
@@ -137,7 +137,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0080",
@@ -160,7 +160,7 @@
       "tags": [
         "monarquia"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0081",
@@ -184,7 +184,7 @@
         "pablo",
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0082",
@@ -207,7 +207,7 @@
       "tags": [
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0083",
@@ -231,7 +231,7 @@
         "pablo",
         "hechos"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0084",
@@ -254,7 +254,7 @@
       "tags": [
         "evangelios"
       ],
-      "reviewed": false
+      "reviewed": true
     },
     {
       "id": "core-personajes-0085",
@@ -278,7 +278,7 @@
         "pablo",
         "cartas"
       ],
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }
