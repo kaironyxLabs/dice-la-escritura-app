@@ -416,7 +416,9 @@ private fun Resultado(estado: PartidaUiState.Terminada, onSalir: () -> Unit) {
                 style = MaterialTheme.typography.titleLarge,
             )
             if (estado.modo != ModoJuego.EXAMEN) {
-                Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
+                if (estado.resumen.xpGanado > 0 || estado.xpPerdido == 0) {
+                    Text(stringResource(R.string.resultado_xp, estado.resumen.xpGanado), style = MaterialTheme.typography.bodyLarge)
+                }
                 if (estado.xpPerdido > 0) {
                     Text(
                         stringResource(R.string.resultado_xp_tope, estado.xpPerdido),

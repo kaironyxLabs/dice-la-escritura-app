@@ -21,6 +21,7 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.kaironyx.diceescritura.R
 import com.kaironyx.diceescritura.core.theme.Espacio
+import com.kaironyx.diceescritura.core.ui.BotonDorado
 import com.kaironyx.diceescritura.core.ui.BotonSecundario
 import com.kaironyx.diceescritura.core.ui.EstadoCargando
 import com.kaironyx.diceescritura.core.ui.PlantaNivel
@@ -31,7 +32,7 @@ import com.kaironyx.diceescritura.feature.nombreRes
 
 /** Mapa de los diez niveles: cada uno con su planta, lo que desbloquea y si ya se alcanzó. */
 @Composable
-fun NivelesScreen(alVolver: () -> Unit, viewModel: NivelesViewModel = hiltViewModel()) {
+fun NivelesScreen(alVolver: () -> Unit, onExamen: () -> Unit = {}, viewModel: NivelesViewModel = hiltViewModel()) {
     val estado by viewModel.estado.collectAsStateWithLifecycle()
     val actual = estado
     Column(modifier = Modifier.fillMaxSize()) {
@@ -44,13 +45,28 @@ fun NivelesScreen(alVolver: () -> Unit, viewModel: NivelesViewModel = hiltViewMo
             EstadoCargando()
             return@Column
         }
+        if (actual.examenDisponible) {
+            Column(
+                modifier = Modifier.padding(horizontal = Espacio.l, vertical = Espacio.s),
+                verticalArrangement = Arrangement.spacedBy(Espacio.s),
+            ) {
+                Text(stringResource(R.string.niveles_examen_listo), style = MaterialTheme.typography.bodyLarge)
+                BotonDorado(stringResource(R.string.boton_examen), onClick = onExamen)
+            }
+        }
         LazyColumn(
             modifier = Modifier.weight(1f),
             contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = Espacio.l, vertical = Espacio.s),
             verticalArrangement = Arrangement.spacedBy(Espacio.m),
         ) {
             items(actual.niveles, key = { it.numero }) { nivel ->
-                FilaNivel(nivel, alcanzado = nivel.numero <= actual.actual, esActual = nivel.numero == actual.actual)
+                val anterior = actual.niveles.firstOrNull { it.numero == nivel.numero - 1 }
+                FilaNivel(
+                    nivel,
+                    alcanzado = nivel.numero <= actual.actual,
+                    esActual = nivel.numero == actual.actual,
+                    xpBarraAnterior = nivel.umbralXp - (anterior?.umbralXp ?: 0),
+                )
             }
         }
         BotonSecundario(
@@ -62,7 +78,7 @@ fun NivelesScreen(alVolver: () -> Unit, viewModel: NivelesViewModel = hiltViewMo
 }
 
 @Composable
-private fun FilaNivel(nivel: Nivel, alcanzado: Boolean, esActual: Boolean) {
+private fun FilaNivel(nivel: Nivel, alcanzado: Boolean, esActual: Boolean, xpBarraAnterior: Int) {
     val estadoTexto = when {
         esActual -> stringResource(R.string.niveles_actual)
         alcanzado -> stringResource(R.string.niveles_superado)
@@ -82,7 +98,7 @@ private fun FilaNivel(nivel: Nivel, alcanzado: Boolean, esActual: Boolean) {
                 Text(estadoTexto, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
                 if (!alcanzado) {
                     Text(
-                        stringResource(R.string.niveles_requisito, nivel.umbralXp),
+                        stringResource(R.string.niveles_requisito, xpBarraAnterior),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )

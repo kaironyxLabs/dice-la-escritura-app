@@ -109,7 +109,6 @@ fun InicioContenido(
         Saludo(estado.persona, onPerfil)
         AccesoAyuda()
         TarjetaNivel(estado.nivel, onNiveles)
-        TarjetaReto(estado, onReto)
         if (estado.nivel.examenDisponible) {
             Text(
                 stringResource(R.string.examen_disponible),
@@ -117,6 +116,7 @@ fun InicioContenido(
             )
             BotonDorado(stringResource(R.string.boton_examen), onClick = onExamen)
         }
+        TarjetaReto(estado, onReto)
         OrnamentoDivisor()
         Text(stringResource(R.string.boton_jugar_categoria), style = MaterialTheme.typography.headlineSmall)
         if (categorias == null) EstadoCargando() else CuadriculaCategorias(categorias, onElegirCategoria)

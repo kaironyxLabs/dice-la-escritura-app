@@ -231,7 +231,8 @@
         <item quantity="many">%1$d de %2$d respuestas correctas</item>
     </plurals>
     <string name="resultado_xp">XP ganado: %1$d</string>
-    <string name="resultado_xp_tope">La barra del nivel está llena: %1$d XP no se sumaron. Presenta el examen de ascenso para seguir avanzando.</string>
+    <string name="resultado_xp_tope">La barra de tu nivel ya está llena, así que estos %1$d XP no se suman. Para seguir subiendo, presenta el examen de ascenso: está en Inicio, justo debajo de tu nivel.</string>
+    <string name="niveles_examen_listo">Tu barra está llena. Presenta el examen de ascenso para pasar al nivel siguiente.</string>
     <string name="nivel_subiste">¡Subiste de nivel!</string>
     <string name="nivel_nombre">Nivel %1$d: %2$s</string>
     <string name="examen_no_aprobado">No alcanzaste el %1$d %% esta vez. Puedes repetir el examen cuando quieras.</string>
@@ -246,7 +247,7 @@
     <string name="niveles_actual">Nivel actual</string>
     <string name="niveles_superado">Nivel alcanzado</string>
     <string name="niveles_bloqueado">Aún sin alcanzar</string>
-    <string name="niveles_requisito">Requiere %1$d XP y aprobar el examen anterior.</string>
+    <string name="niveles_requisito">Para llegar: llena la barra del nivel anterior (%1$d XP) y aprueba su examen de ascenso.</string>
     <string name="niveles_desbloquea">Desbloquea: %1$s</string>
     <string name="niveles_dificultad">Preguntas de hasta dificultad %1$d.</string>
     <string name="niveles_descripcion_planta">Nivel %1$d, %2$s. %3$s.</string>
