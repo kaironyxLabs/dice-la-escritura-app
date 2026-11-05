@@ -1,0 +1,1651 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-cartas-0079",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué carta dice Pablo que no se avergüenza del evangelio, poder de Dios para salvación a todo el que cree?",
+      "options": [
+        "Gálatas",
+        "Efesios",
+        "Romanos",
+        "Filipenses"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 1:16-17"
+      ],
+      "explanation": "Añade que el justo por la fe vivirá.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0080",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué tenemos para con Dios al ser justificados por la fe, según Romanos 5:1?",
+      "options": [
+        "Herencia",
+        "Paz",
+        "Autoridad",
+        "Gloria"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 5:1-2"
+      ],
+      "explanation": "Es por medio de nuestro Señor Jesucristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0081",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Romanos 8:1, ¿qué hay para los que están en Cristo Jesús?",
+      "options": [
+        "Ninguna prueba",
+        "Ninguna duda",
+        "Ninguna tentación",
+        "Ninguna condenación"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Romanos 8:1"
+      ],
+      "explanation": "Son los que andan conforme al Espíritu.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0082",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Romanos 8:38-39, ¿de qué nada nos podrá separar?",
+      "options": [
+        "De la tierra prometida",
+        "Del amor de Dios que es en Cristo Jesús",
+        "De la iglesia local",
+        "De la ley de Moisés"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 8:38-39"
+      ],
+      "explanation": "Ni la muerte, ni la vida, ni ángeles, ni principados.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0083",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué pide Pablo en Romanos 12:1 que presentemos a Dios?",
+      "options": [
+        "Nuestros bienes materiales",
+        "Nuestras oraciones por la mañana",
+        "Nuestros cuerpos en sacrificio vivo",
+        "Ofrendas de los primeros frutos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Romanos 12:1-2"
+      ],
+      "explanation": "Es nuestro culto racional.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0084",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Romanos 12:2, ¿cómo debemos ser transformados?",
+      "options": [
+        "Por la separación del mundo",
+        "Por la renovación de nuestro entendimiento",
+        "Por el ayuno continuo",
+        "Por el estudio de la ley"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 12:1-2"
+      ],
+      "explanation": "No debemos conformarnos a este siglo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0085",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Romanos 13:10, ¿cuál es el cumplimiento de la ley?",
+      "options": [
+        "El amor",
+        "El sacrificio",
+        "La obediencia",
+        "La santidad"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Romanos 13:8-10"
+      ],
+      "explanation": "El que ama al prójimo ha cumplido la ley.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0086",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice Romanos 15:4 que se escribió para nuestra enseñanza?",
+      "options": [
+        "Las historias de los reyes",
+        "Las cosas que se escribieron antes",
+        "Las leyes de los sacerdotes",
+        "Las cartas de los apóstoles"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 15:4"
+      ],
+      "explanation": "Para que tengamos esperanza por la paciencia y la consolación de las Escrituras.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0087",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué es la palabra de la cruz para los que se pierden, según 1 Corintios 1:18?",
+      "options": [
+        "Tinieblas",
+        "Escándalo",
+        "Locura",
+        "Misterio"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 1:18"
+      ],
+      "explanation": "Para los que se salvan es poder de Dios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0088",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué se propuso Pablo no saber entre los corintios sino a Jesucristo y a éste…?",
+      "options": [
+        "Glorificado",
+        "Nacido en Belén",
+        "Crucificado",
+        "Resucitado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 2:1-2"
+      ],
+      "explanation": "No fue con excelencia de palabras.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0089",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 1 Corintios 3:6, ¿quién da el crecimiento?",
+      "options": [
+        "Dios",
+        "Apolos",
+        "La iglesia",
+        "Pablo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 3:6-7"
+      ],
+      "explanation": "Pablo plantó y Apolos regó.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0090",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 1 Corintios 10:13, ¿qué da Dios junto con la tentación?",
+      "options": [
+        "El perdón inmediato",
+        "Una señal en el cielo",
+        "La salida, para que podamos soportar",
+        "Un ángel que nos guarde"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 10:13"
+      ],
+      "explanation": "Fiel es Dios, que no permitirá ser tentados más de lo que podemos resistir.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0091",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Jesús sobre el pan en la noche en que fue entregado, según 1 Corintios 11:24?",
+      "options": [
+        "Esto es mi cuerpo; haced esto en memoria de mí",
+        "Esto es el maná del cielo",
+        "Esto es la nueva ley",
+        "Esto es la ofrenda de paz"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 11:23-26"
+      ],
+      "explanation": "Es el relato de la cena del Señor.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0092",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 1 Corintios 12:12, ¿con qué compara Pablo a Cristo y los creyentes?",
+      "options": [
+        "Con un cuerpo con muchos miembros",
+        "Con un rebaño y sus ovejas",
+        "Con un templo y sus piedras",
+        "Con una vid y sus ramas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 12:12-14"
+      ],
+      "explanation": "Todos fuimos bautizados en un cuerpo por un solo Espíritu.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0093",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué dice 1 Corintios 13 que es el mayor de los tres que permanecen?",
+      "options": [
+        "La esperanza",
+        "La paciencia",
+        "El amor",
+        "La fe"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 13:13"
+      ],
+      "explanation": "Permanecen la fe, la esperanza y el amor.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0094",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 1 Corintios 13:4, ¿cómo es el amor?",
+      "options": [
+        "Sufrido y benigno",
+        "Santo y justo",
+        "Sabio y fuerte",
+        "Lento y callado"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 13:1-8"
+      ],
+      "explanation": "No tiene envidia ni es jactancioso.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0095",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quiénes dice 1 Corintios 15 que apareció Cristo resucitado, además de a Cefas?",
+      "options": [
+        "A los doce y a más de quinientos hermanos a la vez",
+        "A las mujeres y a los ancianos",
+        "A los sacerdotes y a los escribas",
+        "Solo a los doce"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 15:3-8"
+      ],
+      "explanation": "Apareció también a Jacobo y al último de todos, a Pablo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0096",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué es el aguijón de la muerte, según 1 Corintios 15:56?",
+      "options": [
+        "El pecado",
+        "El sepulcro",
+        "La carne",
+        "La ley"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 15:55-57"
+      ],
+      "explanation": "Gracias a Dios, que nos da la victoria por Jesucristo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0097",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 2 Corintios 4:7, ¿en qué tenemos el tesoro?",
+      "options": [
+        "En cofres de cedro",
+        "En vasijas de oro",
+        "En vasos de barro",
+        "En odres nuevos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Corintios 4:7-9"
+      ],
+      "explanation": "Para que la excelencia del poder sea de Dios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0098",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 2 Corintios 5:17, ¿qué es el que está en Cristo?",
+      "options": [
+        "Un siervo fiel",
+        "Un hombre justo",
+        "Una nueva criatura",
+        "Un hijo del reino"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Corintios 5:17-19"
+      ],
+      "explanation": "Las cosas viejas pasaron; todas son hechas nuevas.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0099",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién ama Dios, según 2 Corintios 9:7?",
+      "options": [
+        "Al que da primero",
+        "Al dador alegre",
+        "Al que da más",
+        "Al que da en secreto"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Corintios 9:6-7"
+      ],
+      "explanation": "Cada uno dé como propuso en su corazón.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0100",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas veces rogó Pablo al Señor que quitara de él el aguijón en su carne?",
+      "options": [
+        "Tres veces",
+        "Una vez",
+        "Doce veces",
+        "Siete veces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Corintios 12:7-9"
+      ],
+      "explanation": "El Señor le respondió: Bástate mi gracia.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0101",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo el Señor a Pablo sobre su aguijón en la carne?",
+      "options": [
+        "Que su poder se perfecciona en la debilidad",
+        "Que lo olvidara",
+        "Que lo quitaría pronto",
+        "Que era un castigo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Corintios 12:7-9"
+      ],
+      "explanation": "Pablo se gloriaría en sus debilidades.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0102",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué carta escribe Pablo «con Cristo estoy juntamente crucificado»?",
+      "options": [
+        "Filipenses",
+        "Colosenses",
+        "Gálatas",
+        "Romanos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Gálatas 2:20"
+      ],
+      "explanation": "Añade que ya no vive él, sino Cristo en él.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0103",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estas cualidades es parte del fruto del Espíritu, según Gálatas 5:22-23?",
+      "options": [
+        "Sabiduría",
+        "Mansedumbre",
+        "Poder",
+        "Sacrificio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Gálatas 5:22-23"
+      ],
+      "explanation": "También amor, gozo, paz, paciencia, benignidad, bondad, fe y templanza.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0104",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas cualidades enumera Pablo como fruto del Espíritu en Gálatas 5:22-23?",
+      "options": [
+        "Doce",
+        "Siete",
+        "Cinco",
+        "Nueve"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Gálatas 5:22-23"
+      ],
+      "explanation": "Amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0105",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Gálatas 6:7, ¿qué segará el hombre?",
+      "options": [
+        "Lo que ofrece",
+        "Lo que desea",
+        "Lo que hereda",
+        "Lo que sembrare"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Gálatas 6:7-9"
+      ],
+      "explanation": "Dios no puede ser burlado.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0106",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Efesios 2:8, ¿por qué somos salvos?",
+      "options": [
+        "Por gracia, por medio de la fe",
+        "Por sacrificios",
+        "Por obras de justicia",
+        "Por el cumplimiento de la ley"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Efesios 2:8-10"
+      ],
+      "explanation": "Esto no es de nosotros, es don de Dios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0107",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Para qué fuimos creados en Cristo Jesús, según Efesios 2:10?",
+      "options": [
+        "Para adorar en el templo",
+        "Para reinar",
+        "Para buenas obras",
+        "Para ser jueces"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 2:8-10"
+      ],
+      "explanation": "Dios las preparó de antemano.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0108",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estos ministerios menciona Efesios 4:11?",
+      "options": [
+        "Evangelistas",
+        "Diáconos",
+        "Escribas",
+        "Levitas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Efesios 4:11-13"
+      ],
+      "explanation": "También apóstoles, profetas, pastores y maestros.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0109",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la armadura de Dios, ¿qué es la espada del Espíritu?",
+      "options": [
+        "La palabra de Dios",
+        "La verdad",
+        "La fe",
+        "La oración"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Efesios 6:10-17"
+      ],
+      "explanation": "También se menciona el escudo de la fe y el yelmo de la salvación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0110",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la armadura de Dios de Efesios 6, ¿con qué se ciñen los lomos?",
+      "options": [
+        "Con la fe",
+        "Con la paz",
+        "Con la verdad",
+        "Con la justicia"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 6:10-17"
+      ],
+      "explanation": "La coraza es la justicia.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0111",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Filipenses 2, ¿qué forma tomó Cristo al despojarse a sí mismo?",
+      "options": [
+        "Forma de profeta",
+        "Forma de rey",
+        "Forma de ángel",
+        "Forma de siervo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Filipenses 2:5-8"
+      ],
+      "explanation": "Se humilló hasta la muerte, y muerte de cruz.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0112",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dice Pablo en Filipenses 3:13-14 que hace, olvidando lo que queda atrás?",
+      "options": [
+        "Guarda silencio",
+        "Prosigue a la meta, al premio del supremo llamamiento",
+        "Descansa de sus trabajos",
+        "Regresa a su ciudad"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Filipenses 3:13-14"
+      ],
+      "explanation": "Se extiende a lo que está delante.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0113",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué guardará nuestros corazones según Filipenses 4:7?",
+      "options": [
+        "La paz de Dios",
+        "El amor de Dios",
+        "La gloria de Dios",
+        "La sabiduría de Dios"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filipenses 4:6-7"
+      ],
+      "explanation": "Sobrepasa todo entendimiento.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0114",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué carta se lee «todo lo puedo en Cristo que me fortalece»?",
+      "options": [
+        "Romanos",
+        "Colosenses",
+        "Gálatas",
+        "Filipenses"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Filipenses 4:13"
+      ],
+      "explanation": "Es Filipenses 4:13.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0115",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo llama Colosenses 1:15 a Cristo?",
+      "options": [
+        "La luz del mundo",
+        "El pan de vida",
+        "La imagen del Dios invisible",
+        "El resplandor de la gloria"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Colosenses 1:15-17"
+      ],
+      "explanation": "También lo llama primogénito de toda creación.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0116",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Colosenses 3:14, ¿qué es el vínculo perfecto?",
+      "options": [
+        "La fe",
+        "La verdad",
+        "La paz",
+        "El amor"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Colosenses 3:12-14"
+      ],
+      "explanation": "Debemos vestirnos de amor sobre todas las cosas.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0117",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En 1 Tesalonicenses 5:17, ¿qué manda Pablo?",
+      "options": [
+        "Orar sin cesar",
+        "Cantar con alegría",
+        "Ayunar cada semana",
+        "Leer cada día"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Tesalonicenses 5:16-18"
+      ],
+      "explanation": "También: estad siempre gozosos y dad gracias en todo.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0118",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué decía Pablo a los tesalonicenses sobre el que no quiere trabajar?",
+      "options": [
+        "Que sea corregido",
+        "Que tampoco coma",
+        "Que sea echado de la iglesia",
+        "Que reciba ayuda"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Tesalonicenses 3:10"
+      ],
+      "explanation": "Lo ordenaba cuando estaba con ellos.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0119",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 1 Timoteo 2:5, ¿quién es el único mediador entre Dios y los hombres?",
+      "options": [
+        "Los sacerdotes",
+        "Jesucristo hombre",
+        "Los ángeles",
+        "Moisés"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Timoteo 2:5"
+      ],
+      "explanation": "Hay un solo Dios.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0120",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué debía Timoteo ser ejemplo de los creyentes, según 1 Timoteo 4:12?",
+      "options": [
+        "En fuerza y valor",
+        "En edad y sabiduría",
+        "En riquezas y honra",
+        "En palabra, conducta, amor, espíritu, fe y pureza"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Timoteo 4:12"
+      ],
+      "explanation": "Nadie debía tener en poco su juventud.",
+      "tags": [
+        "pablo",
+        "timoteo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0121",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dice 1 Timoteo 6:10 que es raíz de todos los males?",
+      "options": [
+        "La ignorancia",
+        "El amor al dinero",
+        "La envidia",
+        "El orgullo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Timoteo 6:10"
+      ],
+      "explanation": "Algunos se extraviaron de la fe por codiciarlo.",
+      "tags": [
+        "pablo",
+        "timoteo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0122",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 2 Timoteo 3:16, ¿para qué es útil toda Escritura?",
+      "options": [
+        "Para enseñar, redargüir, corregir e instruir en justicia",
+        "Para ofrecer sacrificios",
+        "Para predecir el futuro",
+        "Para gobernar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Timoteo 3:16-17"
+      ],
+      "explanation": "Es inspirada por Dios.",
+      "tags": [
+        "pablo",
+        "timoteo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0123",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dice Pablo que ha guardado al final de su carrera, según 2 Timoteo 4:7?",
+      "options": [
+        "El pacto",
+        "La fe",
+        "La ley",
+        "La promesa"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Timoteo 4:7-8"
+      ],
+      "explanation": "También peleó la buena batalla y acabó la carrera.",
+      "tags": [
+        "pablo",
+        "timoteo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0124",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué se ha manifestado para salvación a todos los hombres, según Tito 2:11?",
+      "options": [
+        "El amor de Dios",
+        "El nombre de Dios",
+        "La gracia de Dios",
+        "La gloria de Dios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Tito 2:11-12"
+      ],
+      "explanation": "Nos enseña a vivir sobria, justa y piadosamente.",
+      "tags": [
+        "pablo",
+        "tito"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0125",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo pide Pablo a Filemón que reciba a Onésimo, según Filemón 16?",
+      "options": [
+        "Como más que esclavo, como hermano amado",
+        "Como a un siervo fiel",
+        "Como un hijo adoptado",
+        "Como un huésped temporal"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filemón 1:15-16"
+      ],
+      "explanation": "Onésimo era el esclavo de Filemón.",
+      "tags": [
+        "pablo",
+        "filemon"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0126",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo define Hebreos 11:1 a la fe?",
+      "options": [
+        "Como la suma de buenas obras",
+        "Como la certeza de lo que se espera y la convicción de lo que no se ve",
+        "Como la esperanza de un reino",
+        "Como la obediencia a la ley"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 11:1-6"
+      ],
+      "explanation": "Sin fe es imposible agradar a Dios.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0127",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién ofreció a Dios un sacrificio más excelente que Caín, según Hebreos 11:4?",
+      "options": [
+        "Abel",
+        "Enoc",
+        "Abraham",
+        "Noé"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 11:1-6"
+      ],
+      "explanation": "Fue por la fe.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0128",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue traspuesto para no ver muerte, según Hebreos 11:5?",
+      "options": [
+        "Elías",
+        "Noé",
+        "Enoc",
+        "Moisés"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hebreos 11:1-6"
+      ],
+      "explanation": "Antes de ser traspuesto tuvo testimonio de haber agradado a Dios.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0129",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Hebreos 12:2, ¿en quién debemos poner los ojos?",
+      "options": [
+        "En los profetas",
+        "En los ángeles",
+        "En Moisés, el siervo de Dios",
+        "En Jesús, autor y consumador de la fe"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hebreos 12:1-2"
+      ],
+      "explanation": "Corramos con paciencia la carrera que tenemos por delante.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0130",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Hebreos 13:8, Jesucristo es el mismo…",
+      "options": [
+        "En la ley y en la gracia",
+        "Ayer, hoy y por los siglos",
+        "En el cielo y en la tierra",
+        "Desde el principio hasta el fin"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 13:8"
+      ],
+      "explanation": "Es una afirmación sobre su inmutabilidad.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0131",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Santiago 1:5, ¿qué debe hacer quien tenga falta de sabiduría?",
+      "options": [
+        "Estudiar la ley",
+        "Buscarla en los ancianos",
+        "Pedirla a Dios",
+        "Esperar con paciencia"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Santiago 1:2-5"
+      ],
+      "explanation": "Dios da a todos abundantemente y sin reproche.",
+      "tags": [
+        "santiago"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0132",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice Santiago 2:17 de la fe que no tiene obras?",
+      "options": [
+        "Que es imperfecta",
+        "Que es débil",
+        "Que está muerta en sí misma",
+        "Que es suficiente"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Santiago 2:14-17"
+      ],
+      "explanation": "Pone el ejemplo de decir a un hermano necesitado: id en paz, sin darle lo necesario.",
+      "tags": [
+        "santiago"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0133",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con qué compara Santiago a la lengua en Santiago 3:5?",
+      "options": [
+        "Con una semilla pequeña",
+        "Con un pequeño fuego que enciende un gran bosque",
+        "Con un río que se desborda",
+        "Con una espada de dos filos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Santiago 3:5-8"
+      ],
+      "explanation": "Ningún hombre puede domar la lengua.",
+      "tags": [
+        "santiago"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0134",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 1 Pedro 2:9, ¿qué es el pueblo de Dios?",
+      "options": [
+        "Pueblo disperso",
+        "Siervos de la casa",
+        "Resto fiel",
+        "Linaje escogido, real sacerdocio, nación santa"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Pedro 2:9"
+      ],
+      "explanation": "Es pueblo adquirido por Dios.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0135",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según 1 Pedro 5:7, ¿qué debemos echar sobre Dios?",
+      "options": [
+        "Nuestras deudas",
+        "Nuestros pecados",
+        "Toda nuestra ansiedad",
+        "Nuestras ofrendas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Pedro 5:7-8"
+      ],
+      "explanation": "Porque él tiene cuidado de nosotros.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0136",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con qué compara 1 Pedro 5:8 al diablo?",
+      "options": [
+        "Con un león rugiente",
+        "Con un lobo",
+        "Con una serpiente",
+        "Con un dragón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Pedro 5:7-8"
+      ],
+      "explanation": "Anda buscando a quien devorar.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0137",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 2 Pedro 3:8, ¿cuánto es un día para el Señor?",
+      "options": [
+        "Como siete días",
+        "Como un instante",
+        "Como mil años",
+        "Como cien años"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Pedro 3:8-9"
+      ],
+      "explanation": "Y mil años como un día.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0138",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hace Dios, según 1 Juan 1:9, si confesamos nuestros pecados?",
+      "options": [
+        "Perdona y limpia de toda maldad",
+        "Nos aparta del pecado",
+        "Nos prueba con fuego",
+        "Nos da una señal"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Juan 1:8-9"
+      ],
+      "explanation": "Es fiel y justo.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0139",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué dice 1 Juan 4:8 que es Dios?",
+      "options": [
+        "Amor",
+        "Verdad",
+        "Justicia",
+        "Luz"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Juan 4:7-10"
+      ],
+      "explanation": "El que no ama no ha conocido a Dios.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0140",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 1 Juan 4:10, ¿cómo se muestra el amor?",
+      "options": [
+        "En que Dios nos amó y envió a su Hijo en propiciación por nuestros pecados",
+        "En que nosotros amamos a Dios primero",
+        "En que guardamos sus mandamientos",
+        "En que sufrimos por su nombre"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Juan 4:7-10"
+      ],
+      "explanation": "No en que nosotros hayamos amado a Dios.",
+      "tags": [
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0141",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué pide Judas 1:3 que se haga por la fe dada una vez a los santos?",
+      "options": [
+        "Defenderla en silencio",
+        "Contender ardientemente",
+        "Esconderla",
+        "Compartirla con prudencia"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Judas 1:3"
+      ],
+      "explanation": "Judas había querido escribir sobre la común salvación.",
+      "tags": [
+        "judas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0142",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué isla estaba Juan cuando recibió el Apocalipsis?",
+      "options": [
+        "Patmos",
+        "Chipre",
+        "Malta",
+        "Creta"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Apocalipsis 1:9-11"
+      ],
+      "explanation": "Estaba allí por causa de la palabra de Dios.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0143",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A cuántas iglesias fue enviado el libro del Apocalipsis, según Apocalipsis 1:11?",
+      "options": [
+        "Doce",
+        "Diez",
+        "Cuatro",
+        "Siete"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 1:9-11"
+      ],
+      "explanation": "Entre ellas, Éfeso, Esmirna y Laodicea.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0144",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde dice Jesús que está en Apocalipsis 3:20?",
+      "options": [
+        "En la ventana",
+        "En el trono",
+        "En el camino",
+        "A la puerta, llamando"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 3:20"
+      ],
+      "explanation": "Si alguno abre, entrará y cenará con él.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0145",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué enjugará Dios, según Apocalipsis 21:4?",
+      "options": [
+        "Todo pecado",
+        "Toda deuda",
+        "Toda enfermedad",
+        "Toda lágrima de los ojos de ellos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 21:1-4"
+      ],
+      "explanation": "Ya no habrá muerte, ni llanto, ni dolor.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0146",
+      "module": "core",
+      "category": "cartas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dos letras griegas usa Jesús para describirse en Apocalipsis 22:13?",
+      "options": [
+        "Alfa y Delta",
+        "Pi y Omega",
+        "Alfa y Omega",
+        "Alfa y Beta"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Apocalipsis 22:12-13"
+      ],
+      "explanation": "Es el principio y el fin, el primero y el último.",
+      "tags": [
+        "apocalipsis"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0147",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Según Efesios 2:8-9, somos salvos por gracia mediante la fe, no por obras.",
+      "answer": true,
+      "references": [
+        "Efesios 2:8-10"
+      ],
+      "explanation": "Para que nadie se gloríe.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0148",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Según Santiago 2:17, la fe sin obras está viva.",
+      "answer": false,
+      "references": [
+        "Santiago 2:14-17"
+      ],
+      "explanation": "Santiago dice que está muerta en sí misma.",
+      "tags": [
+        "santiago"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0149",
+      "module": "core",
+      "category": "cartas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "En 1 Corintios 13, Pablo afirma que sin amor no sirve de nada ni hablar lenguas ni repartir bienes a los pobres.",
+      "answer": true,
+      "references": [
+        "1 Corintios 13:1-8"
+      ],
+      "explanation": "Sin amor, nada soy.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-cartas-0150",
+      "module": "core",
+      "category": "cartas",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estas cartas de Pablo, de Efesios a 2 Tesalonicenses, según aparecen.",
+      "items": [
+        "Efesios",
+        "Filipenses",
+        "Colosenses",
+        "1 Tesalonicenses"
+      ],
+      "references": [
+        "Efesios 1:1",
+        "Filipenses 1:1",
+        "Colosenses 1:1",
+        "1 Tesalonicenses 1:1"
+      ],
+      "explanation": "Siguen Gálatas, Efesios, Filipenses, Colosenses y 1 Tesalonicenses.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}
