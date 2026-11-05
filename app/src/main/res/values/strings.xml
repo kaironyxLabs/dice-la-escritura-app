@@ -88,6 +88,11 @@
     <string name="cat_ensenanzas">Enseñanzas y parábolas de Jesús</string>
     <string name="cat_cartas">Cartas del Nuevo Testamento</string>
     <string name="cat_donde_escrito">¿Dónde está escrito?</string>
+    <string name="cat_profetas">Profetas y profecías</string>
+    <string name="cat_sabiduria">Salmos y sabiduría</string>
+    <string name="cat_milagros">Milagros y señales</string>
+    <string name="cat_ley_pactos">La ley y los pactos</string>
+    <string name="cat_hechos">Hechos y la iglesia primitiva</string>
     <string name="cat_confesion">Confesión Bautista de 1689</string>
     <string name="categoria_bloqueada">Se desbloquea en el nivel %1$d</string>
     <plurals name="preguntas_disponibles">

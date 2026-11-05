@@ -1,0 +1,1474 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-milagros-0001",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué se convirtieron las aguas del río de Egipto cuando Aarón alzó la vara?",
+      "options": [
+        "En vino",
+        "En fuego",
+        "En sangre",
+        "En barro"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 7:19-20"
+      ],
+      "explanation": "Fue la primera plaga de Egipto.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0002",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué cubrió la tierra de Egipto cuando Aarón extendió su mano sobre las aguas?",
+      "options": [
+        "Ranas",
+        "Moscas",
+        "Langostas",
+        "Serpientes"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 8:6"
+      ],
+      "explanation": "Fue la segunda plaga.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0003",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué se convirtió el polvo de la tierra de Egipto cuando Aarón lo golpeó con su vara?",
+      "options": [
+        "En arena ardiente",
+        "En ceniza",
+        "En sangre",
+        "En piojos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 8:16-17"
+      ],
+      "explanation": "Los piojos cubrieron a hombres y bestias.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0004",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la plaga del ganado, ¿qué ocurrió con los animales de los israelitas?",
+      "options": [
+        "Murió la mitad",
+        "Murieron todos",
+        "Murieron solo los más jóvenes",
+        "No murió ninguno"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 9:3-6"
+      ],
+      "explanation": "Jehová hizo separación entre el ganado de Israel y el de Egipto.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0005",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué esparció Moisés hacia el cielo para que produjera úlceras en hombres y bestias?",
+      "options": [
+        "Ceniza de un horno",
+        "Sal",
+        "Polvo del desierto",
+        "Agua del Nilo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 9:8-10"
+      ],
+      "explanation": "Fue la plaga de sarpullido con úlceras.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0006",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué mezclado con el granizo cayó sobre Egipto en la séptima plaga?",
+      "options": [
+        "Piedras de hielo azul",
+        "Sangre",
+        "Ceniza",
+        "Fuego"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 9:23-25"
+      ],
+      "explanation": "El granizo destrozó la hierba y desgajó los árboles.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0007",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué trajo la langosta sobre Egipto, según Éxodo 10?",
+      "options": [
+        "Una tormenta de arena",
+        "Un viento oriental",
+        "Un fuego en el cielo",
+        "Un viento del mar"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 10:13-15"
+      ],
+      "explanation": "Consumió toda la hierba y el fruto de los árboles.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0008",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días duraron las densas tinieblas sobre Egipto?",
+      "options": [
+        "Tres días",
+        "Un día",
+        "Siete días",
+        "Cuarenta días"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 10:21-22"
+      ],
+      "explanation": "Eran tinieblas tan densas que se podían palpar.",
+      "tags": [
+        "plagas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0009",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué ocurrió a la medianoche en la última plaga de Egipto?",
+      "options": [
+        "Cayó granizo",
+        "Murieron todos los primogénitos",
+        "Murió el ganado",
+        "Se oscureció el cielo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 12:29-30"
+      ],
+      "explanation": "No había casa donde no hubiese un muerto.",
+      "tags": [
+        "plagas",
+        "pascua"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0010",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo retirar el mar para que Israel pasara en seco?",
+      "options": [
+        "Un terremoto",
+        "Un recio viento oriental",
+        "La vara de Aarón",
+        "Un fuego del cielo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 14:21-22"
+      ],
+      "explanation": "Las aguas fueron como muro a derecha y a izquierda.",
+      "tags": [
+        "mar-rojo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0011",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué echó Moisés en las aguas amargas de Mara para endulzarlas?",
+      "options": [
+        "Un árbol que Jehová le mostró",
+        "Un ramo de olivo",
+        "Un puñado de maná",
+        "Sal"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 15:23-25"
+      ],
+      "explanation": "Allí Dios les dio estatutos y ordenanzas.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0012",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué cubrió el campamento por la tarde, antes de que descendiera el maná por la mañana?",
+      "options": [
+        "Langostas",
+        "Nubes de polvo",
+        "Codornices",
+        "Pájaros pequeños sin plumas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 16:13-15"
+      ],
+      "explanation": "Por la mañana el rocío dejó una cosa menuda sobre el desierto.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0013",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Moisés con la peña en Horeb para que saliera agua?",
+      "options": [
+        "Le echó aceite",
+        "La golpeó con su vara",
+        "Le habló con voz alta",
+        "La rodeó siete veces"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 17:5-6"
+      ],
+      "explanation": "Lo hizo en presencia de los ancianos de Israel.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0014",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ocurrió con la vara de Aarón que estaba en el tabernáculo del testimonio?",
+      "options": [
+        "Se volvió de oro",
+        "Se partió en dos",
+        "Se convirtió en serpiente",
+        "Reverdeció, echó flores y produjo almendras"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Números 17:8"
+      ],
+      "explanation": "Era la vara de la casa de Leví.",
+      "tags": [
+        "desierto",
+        "aaron"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0015",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Números 21, ¿qué debían hacer los mordidos por las serpientes ardientes para vivir?",
+      "options": [
+        "Beber agua de una peña",
+        "Cruzar el Jordán",
+        "Mirar la serpiente de bronce sobre el asta",
+        "Untarse con aceite"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Números 21:8-9"
+      ],
+      "explanation": "Moisés la hizo y la puso sobre un asta.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0016",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién habló a Balaam cuando éste azotó tres veces a su asna?",
+      "options": [
+        "Un ángel con espada",
+        "El asna, porque Jehová abrió su boca",
+        "Una voz del cielo",
+        "Un sacerdote moabita"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Números 22:28"
+      ],
+      "explanation": "El asna le preguntó qué le había hecho.",
+      "tags": [
+        "balaam"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0017",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ocurrió con las aguas del Jordán cuando los sacerdotes con el arca mojaron sus pies en la orilla?",
+      "options": [
+        "Se secaron durante siete años",
+        "Se congelaron",
+        "Se dividieron en cuatro ríos",
+        "Se detuvieron como en un montón y el pueblo pasó en seco"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Josué 3:14-17"
+      ],
+      "explanation": "Los sacerdotes quedaron firmes en medio del Jordán.",
+      "tags": [
+        "josue"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0018",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántas veces dieron vuelta a Jericó el séptimo día?",
+      "options": [
+        "Una",
+        "Siete",
+        "Doce",
+        "Tres"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Josué 6:15-20"
+      ],
+      "explanation": "El muro se derrumbó cuando el pueblo gritó.",
+      "tags": [
+        "josue",
+        "jerico"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0019",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue la única persona de Jericó cuya casa se salvó, según la orden de Josué?",
+      "options": [
+        "Un sacerdote cananeo",
+        "Rahab, la ramera",
+        "Caleb",
+        "El rey de Jericó"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Josué 6:15-20"
+      ],
+      "explanation": "Rahab había escondido a los mensajeros.",
+      "tags": [
+        "josue",
+        "jerico"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0020",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué pidió Josué que se detuviera en Gabaón?",
+      "options": [
+        "La lluvia",
+        "El viento",
+        "El sol",
+        "Una nube"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Josué 10:12-13"
+      ],
+      "explanation": "La luna se paró en el valle de Ajalón.",
+      "tags": [
+        "josue"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0021",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la primera prueba del vellón, ¿qué esperó Gedeón?",
+      "options": [
+        "Que el vellón se volviera de oro",
+        "Que lloviera sobre toda la tierra menos el vellón",
+        "Que el rocío cayera solo sobre el vellón y la tierra quedara seca",
+        "Que el vellón ardiera sin consumirse"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jueces 6:36-40"
+      ],
+      "explanation": "En la segunda prueba pidió lo contrario: solo el vellón seco.",
+      "tags": [
+        "gedeon"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0022",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas veces se tendió Elías sobre el hijo de la viuda para que reviviera?",
+      "options": [
+        "Doce",
+        "Tres",
+        "Una",
+        "Siete"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 17:17-22"
+      ],
+      "explanation": "Jehová oyó su voz y el alma del niño volvió.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0023",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué tenía en casa la viuda que clamó a Eliseo por sus deudas?",
+      "options": [
+        "Una vasija de aceite",
+        "Un tesoro oculto",
+        "Dos ovejas",
+        "Un saco de harina"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 4:1-7"
+      ],
+      "explanation": "El aceite llenó todas las vasijas prestadas.",
+      "tags": [
+        "eliseo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0024",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cuando Eliseo se tendió sobre el hijo de la sunamita, ¿cuántas veces estornudó el niño?",
+      "options": [
+        "Siete",
+        "Dos",
+        "Cuatro",
+        "Tres"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 4:32-35"
+      ],
+      "explanation": "Luego el niño abrió sus ojos.",
+      "tags": [
+        "eliseo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0025",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Eliseo para que el hacha prestada subiera del agua?",
+      "options": [
+        "Oró de rodillas en la orilla",
+        "Se zambulló en el agua",
+        "Sopló sobre el agua",
+        "Cortó un palo y lo echó al lugar; el hierro flotó"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Reyes 6:5-7"
+      ],
+      "explanation": "El hierro flotó y el hombre lo tomó.",
+      "tags": [
+        "eliseo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0026",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué señal dio Jehová a Ezequías por medio de Isaías?",
+      "options": [
+        "Una estrella apareció en el cielo",
+        "La sombra retrocedió diez grados en el reloj de Acaz",
+        "La luna se volvió roja",
+        "El sol se detuvo un día entero"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Reyes 20:9-11"
+      ],
+      "explanation": "Ezequías había dicho que lo difícil era que retrocediera.",
+      "tags": [
+        "isaias",
+        "ezequias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0027",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas personas vio Nabucodonosor caminando en medio del horno de fuego?",
+      "options": [
+        "Siete",
+        "Tres",
+        "Dos",
+        "Cuatro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 3:24-27"
+      ],
+      "explanation": "El cuarto era semejante a hijo de los dioses.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0028",
+      "module": "core",
+      "category": "milagros",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los tres amigos de Daniel salieron del horno con las ropas quemadas.",
+      "answer": false,
+      "references": [
+        "Daniel 3:24-27"
+      ],
+      "explanation": "Sus ropas estaban intactas y ni olor de fuego tenían.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0029",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué ciudad hizo Jesús su primera señal al convertir el agua en vino?",
+      "options": [
+        "Nazaret",
+        "Betania",
+        "Caná de Galilea",
+        "Capernaum"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "Fue en unas bodas y manifestó su gloria.",
+      "tags": [
+        "jesus",
+        "senales"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0030",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas tinajas de piedra había en las bodas de Caná?",
+      "options": [
+        "Seis",
+        "Tres",
+        "Doce",
+        "Cuatro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "Servían para los ritos de purificación de los judíos.",
+      "tags": [
+        "jesus",
+        "senales"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0031",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién sanó Jesús a distancia con las palabras «Ve, tu hijo vive»?",
+      "options": [
+        "Al hijo de un oficial del rey en Capernaum",
+        "A un niño de Naín",
+        "Al siervo de un centurión",
+        "A la hija de Jairo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 4:46-53"
+      ],
+      "explanation": "El oficial creyó y volvió a su casa.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0032",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos años llevaba enfermo el hombre que Jesús sanó junto al estanque de Betesda?",
+      "options": [
+        "Doce",
+        "Dieciocho",
+        "Cuarenta",
+        "Treinta y ocho"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 5:2-9"
+      ],
+      "explanation": "Jesús le dijo: levántate, toma tu lecho y anda.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0033",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos panes de cebada y cuántos pececillos tenía el muchacho en la multiplicación de los cinco mil?",
+      "options": [
+        "Siete panes y unos peces",
+        "Tres panes y cinco peces",
+        "Cinco panes y dos pececillos",
+        "Dos panes y un pez"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 6:5-13"
+      ],
+      "explanation": "Sobraron doce cestas de pedazos.",
+      "tags": [
+        "jesus",
+        "multiplicacion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0034",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas cestas de pedazos sobraron tras alimentar a los cinco mil?",
+      "options": [
+        "Cuatro",
+        "Veinte",
+        "Siete",
+        "Doce"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 6:5-13"
+      ],
+      "explanation": "Jesús ordenó recoger los pedazos para que no se perdiera nada.",
+      "tags": [
+        "jesus",
+        "multiplicacion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0035",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el relato de los cuatro mil, ¿cuántas canastas llenas sobraron?",
+      "options": [
+        "Doce",
+        "Siete",
+        "Tres",
+        "Cuatro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 15:32-38"
+      ],
+      "explanation": "Habían comido cuatro mil hombres, sin contar mujeres y niños.",
+      "tags": [
+        "jesus",
+        "multiplicacion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0036",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Jesús al ver el mar agitado desde la orilla, según Juan 6:16-21?",
+      "options": [
+        "Ordenó a Pedro que remara",
+        "Calmó la tempestad desde el monte",
+        "Pidió a los discípulos regresar",
+        "Anduvo sobre el mar hacia la barca"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 6:16-21"
+      ],
+      "explanation": "Les dijo: Yo soy; no temáis.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0037",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde mandó Jesús al ciego de nacimiento que se lavara?",
+      "options": [
+        "En el estanque de Betesda",
+        "En el mar de Galilea",
+        "En el estanque de Siloé",
+        "En el río Jordán"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 9:1-7"
+      ],
+      "explanation": "Hizo lodo con saliva y untó sus ojos.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0038",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué dijo Jesús a gran voz ante el sepulcro de Lázaro?",
+      "options": [
+        "Efata",
+        "Talita cumi",
+        "Lázaro, ven fuera",
+        "Levántate y anda"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 11:38-44"
+      ],
+      "explanation": "Lázaro salió atado de manos y pies con vendas.",
+      "tags": [
+        "jesus",
+        "lazaro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0039",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días llevaba muerto Lázaro cuando Jesús llegó al sepulcro, según Marta?",
+      "options": [
+        "Cuatro días",
+        "Siete días",
+        "Tres días",
+        "Un día"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Juan 11:38-44"
+      ],
+      "explanation": "Marta dijo que ya hedía.",
+      "tags": [
+        "jesus",
+        "lazaro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0040",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué hizo Jesús ante la tempestad que se levantó en el mar mientras dormía en la barca?",
+      "options": [
+        "Oró toda la noche",
+        "Pidió a Pedro que achicara el agua",
+        "Mandó llevar la barca a la orilla",
+        "Reprendió a los vientos y al mar, y se hizo grande bonanza"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 8:23-27"
+      ],
+      "explanation": "Los hombres se maravillaron de que los vientos le obedecieran.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0041",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo el leproso a Jesús antes de ser limpiado?",
+      "options": [
+        "Señor, si quieres, puedes limpiarme",
+        "Hijo de David, sálvame",
+        "Rabí, ¿quién pecó?",
+        "Maestro, ten misericordia"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 8:1-3"
+      ],
+      "explanation": "Jesús lo tocó y dijo: Quiero; sé limpio.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0042",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Jesús primero al paralítico que le trajeron en una cama?",
+      "options": [
+        "Levántate y anda",
+        "Ve y lávate",
+        "Ven y sígueme",
+        "Ten ánimo, hijo; tus pecados te son perdonados"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 9:1-7"
+      ],
+      "explanation": "Después le mandó levantarse y volver a su casa.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0043",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo hicieron llegar a Jesús al paralítico, según Marcos 2?",
+      "options": [
+        "Lo llevaron en una barca",
+        "Descubrieron el techo y bajaron el lecho",
+        "Lo cargaron por la puerta principal",
+        "Lo bajaron por un muro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Marcos 2:3-12"
+      ],
+      "explanation": "Cuatro hombres cargaban al paralítico.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0044",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué tocó la mujer enferma de flujo de sangre?",
+      "options": [
+        "Sus pies",
+        "El borde del manto de Jesús",
+        "Su cinto",
+        "Su mano"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Mateo 9:18-25"
+      ],
+      "explanation": "Llevaba doce años enferma; Jesús le dijo que su fe la había salvado.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0045",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Mateo 9, ¿qué dijo Jesús de la hija del principal que había muerto?",
+      "options": [
+        "Que no estaba muerta, sino dormida",
+        "Que viviría al tercer día",
+        "Que debía ser enterrada pronto",
+        "Que estaba en el Seol"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 9:18-25"
+      ],
+      "explanation": "La tomó de la mano y la niña se levantó.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0046",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ocurrió cuando Pedro vio el fuerte viento mientras caminaba hacia Jesús sobre el agua?",
+      "options": [
+        "Perdió el equilibrio y cayó del todo",
+        "Llegó hasta Jesús sin dudar",
+        "Se volvió a la barca",
+        "Tuvo miedo y comenzó a hundirse"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 14:25-31"
+      ],
+      "explanation": "Jesús extendió la mano y lo asió.",
+      "tags": [
+        "jesus",
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0047",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Jesús en Mateo 17, ¿dónde hallaría Pedro la moneda para pagar el impuesto?",
+      "options": [
+        "En la red",
+        "En una bolsa del templo",
+        "En la boca del primer pez que sacó",
+        "En el suelo de la barca"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 17:24-27"
+      ],
+      "explanation": "Era un estatero, para pagar por Jesús y por él.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0048",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde vivía el hombre poseído con espíritu inmundo en la región de los gadarenos?",
+      "options": [
+        "En una casa abandonada",
+        "En los sepulcros",
+        "En una cueva del desierto",
+        "En una torre"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Marcos 5:1-13"
+      ],
+      "explanation": "Nadie podía atarle, ni con cadenas.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0049",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué nombre dio el espíritu inmundo cuando Jesús le preguntó cómo se llamaba?",
+      "options": [
+        "Satanás",
+        "Beelzebú",
+        "Legión",
+        "Abadón"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Marcos 5:1-13"
+      ],
+      "explanation": "Dijo: porque somos muchos.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0050",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué entraron los espíritus inmundos al salir del hombre?",
+      "options": [
+        "En asnos",
+        "En un hato de cerdos",
+        "En ovejas",
+        "En camellos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Marcos 5:1-13"
+      ],
+      "explanation": "Eran como dos mil, y se precipitaron al mar.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0051",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué palabra dijo Jesús al sordo y tartamudo, que significa «sé abierto»?",
+      "options": [
+        "Efata",
+        "Abba",
+        "Talita",
+        "Eloí"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Marcos 7:31-35"
+      ],
+      "explanation": "Al momento fueron abiertos sus oídos.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0052",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas veces puso Jesús las manos sobre el ciego de Betsaida para que viera con claridad?",
+      "options": [
+        "Dos veces",
+        "Siete veces",
+        "Una vez",
+        "Tres veces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Marcos 8:22-25"
+      ],
+      "explanation": "Primero veía a los hombres como árboles que andaban.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0053",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Lucas 5, ¿qué pasó cuando Simón echó la red en la palabra de Jesús?",
+      "options": [
+        "La barca se hundió por completo",
+        "Encerraron tanta cantidad de peces que se rompía la red",
+        "No pescaron nada de nuevo",
+        "Pescaron un solo pez grande"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lucas 5:4-7"
+      ],
+      "explanation": "Llenaron dos barcas, de modo que se hundían.",
+      "tags": [
+        "jesus",
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0054",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién resucitó Jesús en la puerta de la ciudad de Naín?",
+      "options": [
+        "Al hijo único de una viuda",
+        "A la hija de Jairo",
+        "A Lázaro",
+        "A un joven rico"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Lucas 7:11-15"
+      ],
+      "explanation": "Jesús se compadeció y dijo: Joven, a ti te digo, levántate.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0055",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "De los diez leprosos limpiados, ¿cuántos volvieron a dar gracias a Jesús?",
+      "options": [
+        "Cinco",
+        "Los diez",
+        "Tres",
+        "Uno, que era samaritano"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 17:11-17"
+      ],
+      "explanation": "Jesús preguntó por los otros nueve.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0056",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos años llevaba encorvada la mujer sanada en la sinagoga en día de reposo?",
+      "options": [
+        "Siete",
+        "Doce",
+        "Treinta y ocho",
+        "Dieciocho"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 13:10-13"
+      ],
+      "explanation": "Jesús la llamó y le dijo que era libre de su enfermedad.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0057",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué parte del cuerpo tenía seca el hombre sanado por Jesús en la sinagoga, según Mateo 12?",
+      "options": [
+        "Una mano",
+        "La lengua",
+        "Un pie",
+        "Un ojo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 12:9-13"
+      ],
+      "explanation": "Jesús enseñó que es lícito hacer el bien en el día de reposo.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0058",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué le ocurrió al siervo del sumo sacerdote cuando uno le cortó la oreja derecha?",
+      "options": [
+        "Fue llevado preso",
+        "Se quedó sordo",
+        "Murió desangrado",
+        "Jesús tocó su oreja y lo sanó"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 22:50-51"
+      ],
+      "explanation": "Jesús dijo: Basta ya; dejad.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0059",
+      "module": "core",
+      "category": "milagros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué le pasó a la higuera a la que Jesús dijo que nunca más naciera fruto de ella?",
+      "options": [
+        "Dio frutos fuera de tiempo",
+        "Quedó cubierta de hojas",
+        "Fue cortada por sus discípulos",
+        "Se secó en seguida"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Mateo 21:18-19"
+      ],
+      "explanation": "Jesús tenía hambre y solo halló hojas.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0060",
+      "module": "core",
+      "category": "milagros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "Jesús convirtió agua en vino en las bodas de Caná.",
+      "answer": true,
+      "references": [
+        "Juan 2:1-11"
+      ],
+      "explanation": "Fue el principio de sus señales.",
+      "tags": [
+        "jesus",
+        "senales"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0061",
+      "module": "core",
+      "category": "milagros",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Jesús dijo a Felipe que no podían alimentar a la multitud porque no había nada que comer cerca.",
+      "answer": false,
+      "references": [
+        "Juan 6:5-13"
+      ],
+      "explanation": "Jesús preguntó para probar a Felipe, pues ya sabía lo que haría.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0062",
+      "module": "core",
+      "category": "milagros",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los discípulos reconocieron de inmediato a Jesús cuando lo vieron andar sobre el mar en la cuarta vigilia, según Mateo 14.",
+      "answer": false,
+      "references": [
+        "Mateo 14:25-31"
+      ],
+      "explanation": "Pensaron que era un fantasma y se turbaron.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0063",
+      "module": "core",
+      "category": "milagros",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estas plagas de Egipto en el orden en que ocurrieron.",
+      "items": [
+        "Sangre",
+        "Ranas",
+        "Piojos",
+        "Moscas"
+      ],
+      "references": [
+        "Éxodo 7:20",
+        "Éxodo 8:6",
+        "Éxodo 8:17",
+        "Éxodo 8:24"
+      ],
+      "explanation": "Las primeras cuatro plagas fueron sangre, ranas, piojos y moscas.",
+      "tags": [
+        "plagas",
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-milagros-0064",
+      "module": "core",
+      "category": "milagros",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estas otras plagas de Egipto, de la muerte del ganado a las langostas, según su orden.",
+      "items": [
+        "Ganado muerto",
+        "Úlceras",
+        "Granizo",
+        "Langostas"
+      ],
+      "references": [
+        "Éxodo 9:6",
+        "Éxodo 9:10",
+        "Éxodo 9:23",
+        "Éxodo 10:13"
+      ],
+      "explanation": "Siguieron: ganado, úlceras, granizo y langostas.",
+      "tags": [
+        "plagas",
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}

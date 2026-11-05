@@ -1,0 +1,570 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-profetas-0001",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué profeta anunció que la virgen concebiría y daría a luz un hijo llamado Emanuel?",
+      "options": [
+        "Isaías",
+        "Ezequiel",
+        "Jeremías",
+        "Daniel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 7:14"
+      ],
+      "explanation": "Lo anunció Isaías como señal de parte del Señor.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0002",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estos títulos recibe el niño anunciado en Isaías 9:6?",
+      "options": [
+        "Rey de reyes",
+        "Pastor de Israel",
+        "Príncipe de Paz",
+        "Sumo Sacerdote"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 9:6"
+      ],
+      "explanation": "Isaías 9:6 lo llama Admirable, Consejero, Dios Fuerte, Padre Eterno y Príncipe de Paz.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0003",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué profeta señaló a Belén Efrata como el lugar de donde saldría el que sería Señor en Israel?",
+      "options": [
+        "Nahúm",
+        "Amós",
+        "Miqueas",
+        "Oseas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Miqueas 5:2"
+      ],
+      "explanation": "Miqueas nombra a Belén Efrata, pequeña entre las familias de Judá.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0004",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Zacarías 9:9, ¿cómo vendría el rey a Jerusalén?",
+      "options": [
+        "Sobre un caballo blanco",
+        "Humilde, sobre un asno",
+        "Llevado en litera por sus siervos",
+        "En un carro de guerra"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Zacarías 9:9"
+      ],
+      "explanation": "El rey vendría justo, salvador y humilde, cabalgando sobre un asno.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0005",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Joel 2:28, ¿qué prometió Dios derramar sobre toda carne?",
+      "options": [
+        "Su ira",
+        "Su gloria",
+        "Su Espíritu",
+        "Su paz"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Joel 2:28"
+      ],
+      "explanation": "Dios prometió derramar su Espíritu, y profetizarían hijos e hijas.",
+      "tags": [
+        "espiritu"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0006",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿A qué ciudad mandó Dios a Jonás a pregonar contra su maldad?",
+      "options": [
+        "Tiro",
+        "Babilonia",
+        "Damasco",
+        "Nínive"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jonás 1:2"
+      ],
+      "explanation": "Dios le dijo que fuera a Nínive, aquella gran ciudad.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0007",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Hacia dónde huyó Jonás para alejarse de la presencia de Jehová?",
+      "options": [
+        "Tarsis",
+        "Tiro",
+        "Damasco",
+        "Egipto"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jonás 1:3"
+      ],
+      "explanation": "Jonás descendió a Jope y tomó una nave rumbo a Tarsis.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0008",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Sadrac, Mesac y Abed-nego dijeron al rey que, aunque su Dios no los librara, no adorarían la estatua.",
+      "answer": true,
+      "references": [
+        "Daniel 3:16-18"
+      ],
+      "explanation": "Afirmaron que su Dios podía librarlos, y que aun si no lo hacía no servirían a los dioses del rey.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0009",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Cuando Daniel supo que el edicto estaba firmado, ¿hacia dónde daban las ventanas abiertas de su cámara donde oraba?",
+      "options": [
+        "Hacia Babilonia",
+        "Hacia el monte Carmelo",
+        "Hacia Jerusalén",
+        "Hacia Egipto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Daniel 6:10"
+      ],
+      "explanation": "Oraba tres veces al día con las ventanas abiertas hacia Jerusalén.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0010",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Jeremías 31:33, ¿dónde escribiría Dios su ley en el nuevo pacto?",
+      "options": [
+        "En tablas de piedra",
+        "En el corazón de su pueblo",
+        "En un rollo guardado en el templo",
+        "En las puertas de las casas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jeremías 31:31-33"
+      ],
+      "explanation": "Dios dijo que pondría su ley en su mente y la escribiría en su corazón.",
+      "tags": [
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0011",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "En la visión de Ezequiel, ¿de qué estaba lleno el valle donde lo puso el Espíritu de Jehová?",
+      "options": [
+        "De huesos",
+        "De espinos",
+        "De ovejas",
+        "De agua"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Ezequiel 37:1-4"
+      ],
+      "explanation": "Era un valle lleno de huesos secos en gran manera.",
+      "tags": [
+        "ezequiel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0012",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Habacuc 2:4, ¿cómo vivirá el justo?",
+      "options": [
+        "Por su fe",
+        "Por su sabiduría",
+        "Por sus obras",
+        "Por su sacrificio"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Habacuc 2:4"
+      ],
+      "explanation": "El justo por su fe vivirá.",
+      "tags": [
+        "fe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0013",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Malaquías 3:1 habla de un mensajero que prepararía el camino delante del Señor.",
+      "answer": true,
+      "references": [
+        "Malaquías 3:1"
+      ],
+      "explanation": "Dios dice que envía a su mensajero para preparar el camino.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0014",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué se dedicaba Amós antes de que Jehová lo mandara a profetizar a Israel?",
+      "options": [
+        "Era pescador en el mar",
+        "Era soldado del rey",
+        "Era sacerdote en Betel",
+        "Era boyero y recogía higos silvestres"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Amós 7:14-15"
+      ],
+      "explanation": "Amós dijo que no era profeta ni hijo de profeta, sino boyero.",
+      "tags": [
+        "amos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0015",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Oseas 11:1, ¿de dónde llamó Dios a su hijo?",
+      "options": [
+        "De Babilonia",
+        "De Egipto",
+        "De Siria",
+        "De Ur de los caldeos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Oseas 11:1"
+      ],
+      "explanation": "Dios amó a Israel cuando era muchacho y de Egipto llamó a su hijo.",
+      "tags": [
+        "oseas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0016",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué año vio Isaías al Señor sentado sobre un trono alto y sublime?",
+      "options": [
+        "El año en que murió el rey Uzías",
+        "El año en que cayó Samaria",
+        "El año en que comenzó a reinar Ezequías",
+        "El año en que murió el rey Acaz"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 6:1"
+      ],
+      "explanation": "Isaías 6:1 sitúa la visión el año de la muerte de Uzías.",
+      "tags": [
+        "isaias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0017",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En la visión de Isaías 6, ¿cuántas alas tenía cada serafín?",
+      "options": [
+        "Dos",
+        "Seis",
+        "Cuatro",
+        "Ocho"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Isaías 6:2"
+      ],
+      "explanation": "Cada serafín tenía seis alas.",
+      "tags": [
+        "isaias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0018",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo fue llevado Elías al cielo?",
+      "options": [
+        "En un torbellino, con un carro de fuego y caballos de fuego",
+        "Sobre una nube luminosa",
+        "Mientras dormía en el monte Horeb",
+        "Sin pasar por la muerte, caminando hacia el Jordán"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 2:11"
+      ],
+      "explanation": "Un carro de fuego con caballos de fuego los apartó, y Elías subió en un torbellino.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0019",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "En el monte Carmelo, ¿qué cayó del cielo tras la oración de Elías?",
+      "options": [
+        "Fuego de Jehová",
+        "Granizo",
+        "Maná",
+        "Lluvia"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 18:36-39"
+      ],
+      "explanation": "El fuego consumió el holocausto, la leña, las piedras y el polvo.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0020",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Isaías 53 dice que el siervo fue herido por nuestras rebeliones y molido por nuestros pecados.",
+      "answer": true,
+      "references": [
+        "Isaías 53:3-6"
+      ],
+      "explanation": "El pasaje afirma que fue herido y molido por rebeliones y pecados ajenos.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0021",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Isaías 53:6, ¿a qué se compara a todos nosotros por habernos descarriado?",
+      "options": [
+        "A aves",
+        "A piedras",
+        "A ovejas",
+        "A hojas secas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 53:3-6"
+      ],
+      "explanation": "Todos nos descarriamos como ovejas, cada cual por su camino.",
+      "tags": [
+        "isaias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0022",
+      "module": "core",
+      "category": "profetas",
+      "type": "ordering",
+      "difficulty": 1,
+      "question": "Ordena estos profetas mayores según aparecen en el Antiguo Testamento.",
+      "items": [
+        "Isaías",
+        "Jeremías",
+        "Ezequiel",
+        "Daniel"
+      ],
+      "references": [
+        "Isaías 1:1",
+        "Jeremías 1:1",
+        "Ezequiel 1:1",
+        "Daniel 1:1"
+      ],
+      "explanation": "El orden es Isaías, Jeremías (y Lamentaciones), Ezequiel y Daniel.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0023",
+      "module": "core",
+      "category": "profetas",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos profetas menores, los primeros del libro de los Doce, según aparecen en el Antiguo Testamento.",
+      "items": [
+        "Oseas",
+        "Joel",
+        "Amós",
+        "Abdías"
+      ],
+      "references": [
+        "Oseas 1:1",
+        "Joel 1:1",
+        "Amós 1:1",
+        "Abdías 1:1"
+      ],
+      "explanation": "Los doce profetas menores abren con Oseas, Joel, Amós y Abdías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0024",
+      "module": "core",
+      "category": "profetas",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos profetas menores, de Jonás a Habacuc, según aparecen en el Antiguo Testamento.",
+      "items": [
+        "Jonás",
+        "Miqueas",
+        "Nahúm",
+        "Habacuc"
+      ],
+      "references": [
+        "Jonás 1:1",
+        "Miqueas 1:1",
+        "Nahúm 1:1",
+        "Habacuc 1:1"
+      ],
+      "explanation": "Siguen el orden Jonás, Miqueas, Nahúm y Habacuc.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0025",
+      "module": "core",
+      "category": "profetas",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos profetas menores, los últimos del Antiguo Testamento, según aparecen en él.",
+      "items": [
+        "Sofonías",
+        "Hageo",
+        "Zacarías",
+        "Malaquías"
+      ],
+      "references": [
+        "Sofonías 1:1",
+        "Hageo 1:1",
+        "Zacarías 1:1",
+        "Malaquías 1:1"
+      ],
+      "explanation": "Cierran el Antiguo Testamento Sofonías, Hageo, Zacarías y Malaquías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}

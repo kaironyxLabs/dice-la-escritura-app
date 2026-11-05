@@ -1,0 +1,1051 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-profetas-0026",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Cuando Dios llamó a Jeremías, ¿qué excusa dio el profeta?",
+      "options": [
+        "Que era tartamudo y de lengua torpe",
+        "Que ya era muy anciano",
+        "Que era un niño y no sabía hablar",
+        "Que era extranjero en Judá"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jeremías 1:4-8"
+      ],
+      "explanation": "Jeremías dijo que era un niño; Dios le respondió que lo enviaría y estaría con él.",
+      "tags": [
+        "jeremias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0027",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A casa de qué artesano mandó Dios a Jeremías para hacerle oír sus palabras?",
+      "options": [
+        "Del herrero",
+        "Del tejedor",
+        "Del alfarero",
+        "Del carpintero"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jeremías 18:1-6"
+      ],
+      "explanation": "Dios comparó a Israel con el barro en la mano del alfarero.",
+      "tags": [
+        "jeremias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0028",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según la carta de Jeremías, ¿cuántos años debían cumplirse en Babilonia antes de que Dios visitara a su pueblo?",
+      "options": [
+        "Setenta",
+        "Siete",
+        "Cuarenta",
+        "Cien"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jeremías 29:10-11"
+      ],
+      "explanation": "Dios prometió visitarlos y hacerlos volver cuando se cumplieran setenta años.",
+      "tags": [
+        "jeremias",
+        "exilio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0029",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuánto pagó Jeremías por la heredad de su primo Hanameel en Anatot?",
+      "options": [
+        "Treinta siclos de plata",
+        "Diecisiete siclos de plata",
+        "Cien monedas de oro",
+        "Diez ovejas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jeremías 32:6-9"
+      ],
+      "explanation": "Jeremías pesó el dinero: diecisiete siclos de plata.",
+      "tags": [
+        "jeremias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0030",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cuando Jehudí leyó el rollo de Jeremías ante el rey, ¿qué hizo el rey con el rollo?",
+      "options": [
+        "Lo rasgó y lo echó al fuego del brasero",
+        "Lo mandó guardar en el templo",
+        "Lo enterró en el patio",
+        "Lo entregó a los sacerdotes para copiarlo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jeremías 36:21-23"
+      ],
+      "explanation": "El rey lo rasgó con un cortaplumas de escriba hasta que se consumió en el fuego.",
+      "tags": [
+        "jeremias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0031",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Junto a qué río estaba Ezequiel entre los cautivos cuando se abrieron los cielos y vio visiones de Dios?",
+      "options": [
+        "El Quebar",
+        "El Nilo",
+        "El Éufrates",
+        "El Jordán"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Ezequiel 1:1-3"
+      ],
+      "explanation": "Ezequiel estaba en tierra de los caldeos, junto al río Quebar.",
+      "tags": [
+        "ezequiel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0032",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué decía lo escrito en el rollo que Ezequiel vio en la mano extendida hacia él?",
+      "options": [
+        "Genealogías de Israel",
+        "Cánticos de alabanza",
+        "Los diez mandamientos",
+        "Endechas, lamentaciones y ayes"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ezequiel 2:8-10"
+      ],
+      "explanation": "El rollo estaba escrito por delante y por detrás.",
+      "tags": [
+        "ezequiel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0033",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la visión del valle de huesos, ¿a quién representaban esos huesos?",
+      "options": [
+        "A los profetas de Baal",
+        "A la casa de Israel",
+        "A los soldados de Faraón",
+        "A los ejércitos de Babilonia"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Ezequiel 37:11-14"
+      ],
+      "explanation": "Dios dijo que los huesos eran toda la casa de Israel y que pondría en ellos su Espíritu.",
+      "tags": [
+        "ezequiel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0034",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el sueño de Nabucodonosor interpretado por Daniel, ¿de qué material era la cabeza de la gran imagen?",
+      "options": [
+        "De plata",
+        "De bronce",
+        "De hierro",
+        "De oro fino"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 2:31-35"
+      ],
+      "explanation": "La cabeza era de oro fino; el pecho y brazos, de plata.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0035",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la visión de la imagen, ¿de qué estaban hechos sus pies?",
+      "options": [
+        "En parte de hierro y en parte de barro cocido",
+        "De bronce puro",
+        "De piedra labrada",
+        "De oro y plata"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 2:31-35"
+      ],
+      "explanation": "Los pies, en parte de hierro y en parte de barro, fueron heridos por una piedra cortada sin mano.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0036",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué le ocurrió al rey Nabucodonosor tras jactarse de la gran Babilonia que había edificado?",
+      "options": [
+        "Quedó mudo durante siete años",
+        "Fue echado de entre los hombres y comió hierba como los bueyes",
+        "Fue vencido por los medos esa misma noche",
+        "Murió de repente en su palacio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 4:28-33"
+      ],
+      "explanation": "Su reino le fue quitado hasta que reconoció que el Altísimo tiene el dominio.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0037",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué vio el rey Belsasar en la pared del palacio durante el banquete?",
+      "options": [
+        "Los dedos de una mano que escribía",
+        "Una nube de fuego",
+        "Un ángel con espada",
+        "Un león de piedra"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 5:5-6"
+      ],
+      "explanation": "El rey palideció y sus rodillas daban una contra otra.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0038",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según la interpretación de Daniel, ¿qué significaba TEKEL?",
+      "options": [
+        "Tu reino ha sido roto y dado a otros",
+        "Tu reino ha sido contado y terminado",
+        "Tu casa será destruida",
+        "Pesado has sido en balanza y fuiste hallado falto"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 5:25-28"
+      ],
+      "explanation": "Tekel: pesado en balanza y hallado falto.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0039",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Daniel, ¿qué hizo Dios para que los leones no le hicieran daño?",
+      "options": [
+        "Hizo abrir las puertas del foso",
+        "Hizo caer un sueño profundo sobre los leones",
+        "Envió un fuego alrededor del foso",
+        "Envió su ángel, que cerró la boca de los leones"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Daniel 6:16-23"
+      ],
+      "explanation": "Daniel salió sin lesión alguna porque había confiado en su Dios.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0040",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la visión de Daniel 7:13, ¿quién venía con las nubes del cielo?",
+      "options": [
+        "Un carro de fuego",
+        "Un anciano con una vara",
+        "Uno como un hijo de hombre",
+        "Un ángel con una trompeta"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Daniel 7:13-14"
+      ],
+      "explanation": "Se le dio dominio, gloria y reino eterno sobre todos los pueblos.",
+      "tags": [
+        "daniel",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0041",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué libros halló Daniel los años de la desolación de Jerusalén?",
+      "options": [
+        "En los escritos de Moisés",
+        "En los escritos del profeta Jeremías",
+        "En los salmos de David",
+        "En los libros de Isaías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Daniel 9:1-2"
+      ],
+      "explanation": "Daniel entendió que las desolaciones durarían setenta años según Jeremías.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0042",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días dijo Jonás que faltaban para que Nínive fuera destruida?",
+      "options": [
+        "Cien",
+        "Siete",
+        "Cuarenta",
+        "Tres"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jonás 3:4-5"
+      ],
+      "explanation": "Los ninivitas creyeron a Dios, proclamaron ayuno y se vistieron de cilicio.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0043",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto tiempo estuvo Jonás en el vientre del gran pez?",
+      "options": [
+        "Siete días",
+        "Tres días y tres noches",
+        "Un día y una noche",
+        "Cuarenta días"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jonás 1:15-17"
+      ],
+      "explanation": "Jehová tenía preparado un gran pez que lo tragó.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0044",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué preparó Dios para dar sombra a Jonás fuera de Nínive?",
+      "options": [
+        "Una calabacera",
+        "Una higuera",
+        "Una tienda de pieles",
+        "Una palmera"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jonás 4:6-8"
+      ],
+      "explanation": "Un gusano la hirió y se secó al día siguiente.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0045",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Isaías 40:3, ¿dónde clama la voz que dice «preparad camino a Jehová»?",
+      "options": [
+        "En la puerta de la ciudad",
+        "En el monte Sion",
+        "En el desierto",
+        "En el templo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 40:3-5"
+      ],
+      "explanation": "La voz clama en el desierto para enderezar calzada a nuestro Dios.",
+      "tags": [
+        "isaias",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0046",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Isaías 40:31, ¿qué harán los que esperan en Jehová?",
+      "options": [
+        "Edificarán muros de piedra",
+        "Levantarán alas como las águilas",
+        "Heredarán toda la tierra",
+        "Verán el rostro de Dios"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Isaías 40:31"
+      ],
+      "explanation": "Tendrán nuevas fuerzas, correrán y no se cansarán.",
+      "tags": [
+        "isaias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0047",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Isaías 11:1, ¿de qué tronco saldría una vara?",
+      "options": [
+        "Del tronco de Aarón",
+        "Del tronco de Jacob",
+        "Del tronco de Abraham",
+        "Del tronco de Isaí"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Isaías 11:1-2"
+      ],
+      "explanation": "Un vástago retoñaría de las raíces de Isaí, el padre de David.",
+      "tags": [
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0048",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dice Isaías 35:5 que ocurrirá con los ojos de los ciegos?",
+      "options": [
+        "Serán sanados con barro",
+        "Serán curados por los sacerdotes",
+        "Serán abiertos",
+        "Serán cubiertos de luz"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Isaías 35:5-6"
+      ],
+      "explanation": "Se abrirán los oídos de los sordos, saltará el cojo y cantará la lengua del mudo.",
+      "tags": [
+        "isaias",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0049",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Isaías 61:1, ¿a quiénes fue enviado el ungido a predicar buenas nuevas?",
+      "options": [
+        "A los abatidos",
+        "A los ricos",
+        "A los reyes",
+        "A los sacerdotes"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 61:1"
+      ],
+      "explanation": "También a vendar a los quebrantados y a publicar libertad a los cautivos.",
+      "tags": [
+        "isaias",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0050",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cuando el rey Ezequías enfermó de muerte y oró, ¿cuántos años añadió Dios a sus días?",
+      "options": [
+        "Diez",
+        "Quince",
+        "Siete",
+        "Veinte"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Isaías 38:1-5"
+      ],
+      "explanation": "Dios oyó su oración y vio sus lágrimas.",
+      "tags": [
+        "isaias",
+        "ezequias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0051",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos soldados asirios mató el ángel de Jehová en el campamento?",
+      "options": [
+        "Cien mil",
+        "Quince mil",
+        "Trescientos mil",
+        "Ciento ochenta y cinco mil"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Isaías 37:36"
+      ],
+      "explanation": "Por la mañana todo eran cuerpos de muertos.",
+      "tags": [
+        "isaias",
+        "ezequias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0052",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué trajeron los cuervos a Elías junto al arroyo de Querit?",
+      "options": [
+        "Higos y dátiles",
+        "Pescado y miel",
+        "Pan y carne",
+        "Solo agua"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 17:1-6"
+      ],
+      "explanation": "Los cuervos le traían pan y carne por la mañana y por la tarde.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0053",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué ciudad envió Dios a Elías, donde una viuda lo sustentó?",
+      "options": [
+        "Samaria",
+        "Sarepta de Sidón",
+        "Jericó",
+        "Betel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Reyes 17:8-16"
+      ],
+      "explanation": "La harina de la tinaja no escaseó ni el aceite menguó.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0054",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En el monte Horeb, ¿en qué manera habló Jehová a Elías?",
+      "options": [
+        "En el fuego",
+        "En el terremoto",
+        "En un silbo apacible y delicado",
+        "En el viento recio"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 19:11-13"
+      ],
+      "explanation": "Jehová no estaba en el viento, ni en el terremoto, ni en el fuego.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0055",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas veces mandó Eliseo a Naamán lavarse en el Jordán para quedar limpio de la lepra?",
+      "options": [
+        "Una",
+        "Tres",
+        "Siete",
+        "Doce"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Reyes 5:10-14"
+      ],
+      "explanation": "Naamán se zambulló siete veces y su carne quedó como la de un niño.",
+      "tags": [
+        "eliseo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0056",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cuando el criado de Eliseo vio el ejército que sitiaba la ciudad, ¿qué vio al abrirle Dios los ojos?",
+      "options": [
+        "Una nube sobre la ciudad",
+        "Un ángel con una espada",
+        "Un muro de fuego",
+        "El monte lleno de caballos y carros de fuego alrededor de Eliseo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Reyes 6:15-17"
+      ],
+      "explanation": "Eliseo le dijo que eran más los que estaban con ellos.",
+      "tags": [
+        "eliseo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0057",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántas veces llamó Jehová a Samuel antes de que Elí entendiera que era Dios quien lo llamaba?",
+      "options": [
+        "Dos",
+        "Tres",
+        "Siete",
+        "Cuatro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Samuel 3:1-10"
+      ],
+      "explanation": "A la cuarta, Samuel respondió: Habla, porque tu siervo oye.",
+      "tags": [
+        "samuel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0058",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A casa de quién envió Dios a Samuel para ungir al nuevo rey de Israel?",
+      "options": [
+        "De Jonatán, en Micmas",
+        "De Elí, en Silo",
+        "De Saúl, en Gabaa",
+        "De Isaí, en Belén"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 16:1-13"
+      ],
+      "explanation": "Samuel ungió a David, el menor, que apacentaba las ovejas.",
+      "tags": [
+        "samuel",
+        "david"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0059",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 1 Samuel 16:7, ¿qué mira Jehová, a diferencia del hombre?",
+      "options": [
+        "El linaje",
+        "Las obras visibles",
+        "El corazón",
+        "La estatura"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Samuel 16:1-13"
+      ],
+      "explanation": "El hombre mira lo que está delante de sus ojos, pero Jehová mira el corazón.",
+      "tags": [
+        "samuel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0060",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué historia usó el profeta Natán para confrontar a David?",
+      "options": [
+        "La del sembrador y la semilla",
+        "La del rico que tomó la única corderita del pobre",
+        "La del rey que perdonó una deuda",
+        "La del hijo pródigo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Samuel 12:1-7"
+      ],
+      "explanation": "Natán le dijo a David: Tú eres aquel hombre.",
+      "tags": [
+        "natan",
+        "david"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0061",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con quién se casó el profeta Oseas por mandato de Jehová?",
+      "options": [
+        "Con Ester, hija de Abihail",
+        "Con Gomer, hija de Diblaim",
+        "Con Rut, hija de Moab",
+        "Con Débora, hija de Lapidot"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Oseas 1:2-3"
+      ],
+      "explanation": "El matrimonio de Oseas ilustraba la infidelidad del pueblo.",
+      "tags": [
+        "oseas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0062",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Miqueas 6:8, ¿qué pide Jehová del hombre?",
+      "options": [
+        "Ofrecer mil holocaustos",
+        "Hacer justicia, amar misericordia y humillarse ante su Dios",
+        "Construir un templo",
+        "Guardar solo el sábado"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Miqueas 6:8"
+      ],
+      "explanation": "Dios ya declaró lo que es bueno y lo que pide.",
+      "tags": [
+        "miqueas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0063",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con qué se regocijará Jehová sobre su pueblo, según Sofonías 3:17?",
+      "options": [
+        "Con sacrificios",
+        "Con trompetas",
+        "Con ayunos",
+        "Con cánticos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Sofonías 3:17"
+      ],
+      "explanation": "Jehová está en medio de ti, poderoso, y se gozará con alegría.",
+      "tags": [
+        "sofonias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0064",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué reprochó el profeta Hageo al pueblo por habitar en casas artesonadas?",
+      "options": [
+        "Que la casa de Dios estaba desierta",
+        "Que habían cobrado intereses",
+        "Que no guardaban el sábado",
+        "Que habían dejado la ley"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hageo 1:3-4"
+      ],
+      "explanation": "Hageo llamó a reconstruir el templo.",
+      "tags": [
+        "hageo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0065",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Zacarías 4:6, ¿con qué se logra la obra, a diferencia de ejército o fuerza?",
+      "options": [
+        "Con muros altos",
+        "Con sabiduría humana",
+        "Con oro y plata",
+        "Con el Espíritu de Jehová"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Zacarías 4:6"
+      ],
+      "explanation": "La palabra fue dirigida a Zorobabel.",
+      "tags": [
+        "zacarias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0066",
+      "module": "core",
+      "category": "profetas",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Contra qué nación se dirige la visión de Abdías?",
+      "options": [
+        "Edom",
+        "Filistea",
+        "Moab",
+        "Amón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Abdías 1:1-3"
+      ],
+      "explanation": "Abdías reprende la soberbia de Edom, que moraba en las hendiduras de las peñas.",
+      "tags": [
+        "abdias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0067",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Según Nahúm 1:7, Jehová es bueno y fortaleza en el día de la angustia.",
+      "answer": true,
+      "references": [
+        "Nahúm 1:7"
+      ],
+      "explanation": "Nahúm añade que conoce a los que en él confían.",
+      "tags": [
+        "nahum"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0068",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Elías pidió que cayera fuego del cielo sobre el sacrificio para que el pueblo reconociera a Jehová como Dios.",
+      "answer": true,
+      "references": [
+        "1 Reyes 18:36-39"
+      ],
+      "explanation": "El pueblo se postró y reconoció que Jehová es el Dios.",
+      "tags": [
+        "elias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0069",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Daniel salió del foso de los leones con heridas leves.",
+      "answer": false,
+      "references": [
+        "Daniel 6:16-23"
+      ],
+      "explanation": "Ninguna lesión se halló en él.",
+      "tags": [
+        "daniel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0070",
+      "module": "core",
+      "category": "profetas",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Jonás se alegró cuando Dios perdonó a Nínive, pues eso era lo que él deseaba.",
+      "answer": false,
+      "references": [
+        "Jonás 4:1-3"
+      ],
+      "explanation": "Jonás se enojó y llegó a desear la muerte; Dios usó la calabacera para enseñarle.",
+      "tags": [
+        "jonas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-profetas-0071",
+      "module": "core",
+      "category": "profetas",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estos episodios del libro de Daniel según aparecen en él.",
+      "items": [
+        "La estatua de oro de Nabucodonosor",
+        "El banquete de Belsasar",
+        "Daniel en el foso de los leones",
+        "La visión de las cuatro bestias"
+      ],
+      "references": [
+        "Daniel 3:1",
+        "Daniel 5:1",
+        "Daniel 6:16",
+        "Daniel 7:1"
+      ],
+      "explanation": "En Daniel: la estatua (cap. 3), el banquete (cap. 5), el foso (cap. 6) y las bestias (cap. 7).",
+      "tags": [
+        "daniel",
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}
