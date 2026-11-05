@@ -109,7 +109,6 @@ fun InicioContenido(
         Saludo(estado.persona, onPerfil)
         AccesoAyuda()
         TarjetaNivel(estado.nivel, onNiveles)
-        TarjetaReto(estado, onReto)
         if (estado.nivel.examenDisponible) {
             Text(
                 stringResource(R.string.examen_disponible),
@@ -117,6 +116,7 @@ fun InicioContenido(
             )
             BotonDorado(stringResource(R.string.boton_examen), onClick = onExamen)
         }
+        TarjetaReto(estado, onReto)
         OrnamentoDivisor()
         Text(stringResource(R.string.boton_jugar_categoria), style = MaterialTheme.typography.headlineSmall)
         if (categorias == null) EstadoCargando() else CuadriculaCategorias(categorias, onElegirCategoria)
@@ -338,6 +338,11 @@ private fun Categoria.medallon(): Int = when (this) {
     Categoria.ENSENANZAS -> R.drawable.medallon_ensenanzas
     Categoria.CARTAS -> R.drawable.medallon_cartas
     Categoria.DONDE_ESTA_ESCRITO -> R.drawable.medallon_donde_escrito
+    Categoria.PROFETAS -> R.drawable.medallon_historia
+    Categoria.SABIDURIA -> R.drawable.medallon_libros
+    Categoria.MILAGROS -> R.drawable.medallon_ensenanzas
+    Categoria.LEY_PACTOS -> R.drawable.medallon_lugares
+    Categoria.HECHOS -> R.drawable.medallon_cartas
     Categoria.CONFESION -> R.drawable.medallon_confesion
 }
 

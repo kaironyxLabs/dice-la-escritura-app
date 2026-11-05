@@ -96,7 +96,7 @@ class GestorNivelesTest {
         assertEquals(setOf(Categoria.LIBROS, Categoria.HISTORIA, Categoria.PERSONAJES, Categoria.CONFESION),
             gestor.categoriasDesbloqueadas(1))
         assertTrue(Categoria.LUGARES in gestor.categoriasDesbloqueadas(2))
-        assertEquals(Categoria.entries.toSet(), gestor.categoriasDesbloqueadas(5))
+        assertEquals(Categoria.entries.toSet(), gestor.categoriasDesbloqueadas(10))
         assertEquals(1, gestor.nivel(1).dificultadMaxima)
         assertEquals(5, gestor.nivel(10).dificultadMaxima)
         assertEquals(2, gestor.nivelQueDesbloquea(Categoria.LUGARES)?.numero)

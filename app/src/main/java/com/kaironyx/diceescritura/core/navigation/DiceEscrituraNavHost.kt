@@ -190,7 +190,10 @@ fun DiceEscrituraNavHost(raiz: RaizViewModel = hiltViewModel()) {
                     )
                 }
                 composable<Destino.Niveles> {
-                    NivelesScreen(alVolver = { navController.popBackStack() })
+                    NivelesScreen(
+                        alVolver = { navController.popBackStack() },
+                        onExamen = { navController.navigate(Destino.Partida(examen = true)) },
+                    )
                 }
                 composable<Destino.Perfil> {
                     PerfilScreen(alVolver = { navController.popBackStack() })

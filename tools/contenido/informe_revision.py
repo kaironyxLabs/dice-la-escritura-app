@@ -25,6 +25,11 @@ NOMBRES_CATEGORIA = {
     "ensenanzas": "Enseñanzas y parábolas de Jesús",
     "cartas": "Cartas del Nuevo Testamento",
     "donde_escrito": "¿Dónde está escrito?",
+    "profetas": "Profetas y profecías",
+    "sabiduria": "Salmos y sabiduría",
+    "milagros": "Milagros y señales",
+    "ley_pactos": "La ley y los pactos",
+    "hechos": "Hechos y la iglesia primitiva",
     "confesion": "Confesión Bautista de 1689",
 }
 ORDEN_CATEGORIAS = list(NOMBRES_CATEGORIA)

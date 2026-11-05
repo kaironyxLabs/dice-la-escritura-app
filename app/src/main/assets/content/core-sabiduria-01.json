@@ -1,0 +1,1720 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-sabiduria-0001",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según el Salmo 23:1, ¿quién es Jehová para el salmista?",
+      "options": [
+        "Su juez",
+        "Su escudero",
+        "Su rey guerrero",
+        "Su pastor"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 23:1-4"
+      ],
+      "explanation": "Jehová es mi pastor; nada me faltará.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0002",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el Salmo 23, ¿qué infundía aliento al salmista en el valle de sombra de muerte?",
+      "options": [
+        "Un cántico de los ángeles",
+        "La compañía de sus amigos",
+        "La vara y el cayado del pastor",
+        "Una lámpara encendida"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 23:1-4"
+      ],
+      "explanation": "No temería mal alguno porque Dios estaba con él.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0003",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según el Salmo 1, ¿a qué se parece el hombre que medita en la ley de Jehová de día y de noche?",
+      "options": [
+        "A una casa sobre el monte",
+        "A una lámpara sobre el candelero",
+        "A un árbol plantado junto a corrientes de aguas",
+        "A una roca firme en el desierto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 1:1-3"
+      ],
+      "explanation": "Da su fruto en su tiempo y su hoja no cae.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0004",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 19:1, ¿qué cuentan los cielos?",
+      "options": [
+        "La gloria de Dios",
+        "Las cuentas de los justos",
+        "Los años de los reyes",
+        "La historia de Israel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 19:1-2"
+      ],
+      "explanation": "El firmamento anuncia la obra de sus manos.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0005",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "El Salmo 22:1 comienza con las palabras «Dios mío, Dios mío, ¿por qué me has desamparado?».",
+      "answer": true,
+      "references": [
+        "Salmos 22:1"
+      ],
+      "explanation": "Es el clamor con que inicia el Salmo 22.",
+      "tags": [
+        "salmos",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0006",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En el Salmo 22:18, ¿qué hicieron con los vestidos del que sufría?",
+      "options": [
+        "Los repartieron entre sí y echaron suertes sobre su ropa",
+        "Los lavaron en el río",
+        "Los guardaron en el templo",
+        "Los quemaron en el fuego"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 22:16-18"
+      ],
+      "explanation": "Horadaron sus manos y sus pies, y repartieron sus vestidos.",
+      "tags": [
+        "salmos",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0007",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 24:1, ¿de quién es la tierra y su plenitud?",
+      "options": [
+        "De los sacerdotes",
+        "De los hijos de Adán",
+        "De los reyes",
+        "De Jehová"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 24:1"
+      ],
+      "explanation": "De Jehová es la tierra y los que en ella habitan.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0008",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el Salmo 27:1, ¿qué es Jehová para el salmista, además de su salvación?",
+      "options": [
+        "Su escudero",
+        "Su tesoro",
+        "Su luz",
+        "Su sombra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 27:1"
+      ],
+      "explanation": "Por eso no temería a nadie.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0009",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según el Salmo 32:1, ¿quién es bienaventurado?",
+      "options": [
+        "Aquel que reina sobre muchos",
+        "Aquel que no tiene deudas",
+        "Aquel que vence a sus enemigos",
+        "Aquel cuya transgresión ha sido perdonada"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 32:1-2"
+      ],
+      "explanation": "También aquel a quien Jehová no culpa de iniquidad.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0010",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 34:8, ¿qué se nos invita a hacer para ver que Jehová es bueno?",
+      "options": [
+        "Gustar",
+        "Cantar",
+        "Esperar",
+        "Ayunar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 34:8"
+      ],
+      "explanation": "Gustad, y ved que es bueno Jehová.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0011",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 37:5, ¿qué debemos encomendar a Jehová?",
+      "options": [
+        "Nuestros ahorros",
+        "Nuestro camino",
+        "Nuestros enemigos",
+        "Nuestro sueño"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 37:4-5"
+      ],
+      "explanation": "Con confianza, y él hará.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0012",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el Salmo 42:1, ¿con qué compara el salmista su sed de Dios?",
+      "options": [
+        "Con el águila que busca su nido",
+        "Con la oveja perdida",
+        "Con el camello en el desierto",
+        "Con el ciervo que brama por las corrientes de aguas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 42:1"
+      ],
+      "explanation": "Su alma clama por Dios.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0013",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según el Salmo 46:1, ¿qué es Dios para nosotros en las tribulaciones?",
+      "options": [
+        "Nuestro pronto auxilio",
+        "Nuestro juez",
+        "Nuestro maestro",
+        "Nuestro mensajero"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 46:1-2"
+      ],
+      "explanation": "Dios es amparo y fortaleza.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0014",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué mandato da Dios en el Salmo 46:10?",
+      "options": [
+        "Cantad un cántico nuevo",
+        "Estad quietos y conoced que yo soy Dios",
+        "Id y haced discípulos",
+        "Levantad vuestras manos"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 46:10"
+      ],
+      "explanation": "Dios será exaltado entre las naciones.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0015",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el Salmo 51, ¿qué pide el salmista que Dios cree en él?",
+      "options": [
+        "Un corazón limpio",
+        "Un reino grande",
+        "Una casa nueva",
+        "Un ejército fuerte"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 51:10"
+      ],
+      "explanation": "También pide un espíritu recto renovado.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0016",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 51:4, ¿contra quién reconoce el salmista haber pecado?",
+      "options": [
+        "Contra su padre",
+        "Contra su pueblo",
+        "Contra sus enemigos",
+        "Contra Dios solamente"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 51:1-4"
+      ],
+      "explanation": "Contra ti, contra ti solo he pecado.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0017",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 90:1, ¿qué ha sido el Señor para su pueblo de generación en generación?",
+      "options": [
+        "Pastor",
+        "Juez",
+        "Maestro",
+        "Refugio"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 90:1-2"
+      ],
+      "explanation": "Desde el siglo y hasta el siglo, tú eres Dios.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0018",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En el Salmo 91, ¿cómo se describe el cuidado de Dios al comparar su protección con un ave?",
+      "options": [
+        "Con su vuelo te guiará",
+        "Con sus garras te levantará",
+        "Con su canto te guardará",
+        "Con sus plumas te cubrirá y debajo de sus alas estarás seguro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 91:1-4"
+      ],
+      "explanation": "Su verdad es escudo y adarga.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0019",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según el Salmo 100:3, ¿a qué se compara al pueblo de Dios?",
+      "options": [
+        "A los árboles del bosque",
+        "A las piedras del templo",
+        "A las estrellas del cielo",
+        "A las ovejas de su prado"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 100:1-3"
+      ],
+      "explanation": "Pueblo suyo somos, y ovejas de su prado.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0020",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "En el Salmo 103:2, ¿qué no debe olvidar el alma?",
+      "options": [
+        "Ninguno de los beneficios de Jehová",
+        "Las deudas pendientes",
+        "Los pecados del pasado",
+        "Los nombres de los profetas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 103:1-5"
+      ],
+      "explanation": "Dios perdona, sana, rescata y corona de favores.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0021",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 119:9, ¿con qué limpiará el joven su camino?",
+      "options": [
+        "Con ofrecer sacrificios",
+        "Con viajar al templo",
+        "Con ayunar cada semana",
+        "Con guardar la palabra de Dios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 119:9-11"
+      ],
+      "explanation": "El salmista guarda los dichos de Dios en su corazón para no pecar.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0022",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según el Salmo 119:105, ¿qué es la palabra de Dios para los pies del salmista?",
+      "options": [
+        "Una roca",
+        "Una espada",
+        "Una lámpara",
+        "Un escudo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 119:105"
+      ],
+      "explanation": "También es lumbrera a su camino.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0023",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 121:2, ¿de dónde viene el socorro del salmista?",
+      "options": [
+        "De los montes de Jerusalén",
+        "De Jehová, que hizo los cielos y la tierra",
+        "De los ejércitos de Israel",
+        "De los sacerdotes del templo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 121:1-2"
+      ],
+      "explanation": "Alzó sus ojos a los montes, pero su socorro viene de Jehová.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0024",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice el Salmo 127:1 que es en vano si Jehová no lo edifica?",
+      "options": [
+        "El trabajo de los que edifican la casa",
+        "El camino de los viajeros",
+        "La siembra de los labradores",
+        "El reinado de los reyes"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 127:1"
+      ],
+      "explanation": "También es en vano velar la guardia si Jehová no guarda la ciudad.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0025",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 133:1, ¿qué es bueno y delicioso?",
+      "options": [
+        "Dormir bajo la higuera",
+        "Comer a la mesa del rey",
+        "Habitar los hermanos juntos en armonía",
+        "Cantar en el templo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 133:1"
+      ],
+      "explanation": "La armonía entre hermanos es buena y deliciosa.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0026",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según el Salmo 139:7-10, ¿adónde puede huir el salmista de la presencia de Dios?",
+      "options": [
+        "A ningún lugar: allí también está Dios",
+        "A los cielos",
+        "Al extremo del mar",
+        "Al Seol"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 139:7-10"
+      ],
+      "explanation": "Dios está en los cielos, en el Seol y en el extremo del mar.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0027",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué instrumentos se mencionan en el Salmo 150 para alabar a Dios?",
+      "options": [
+        "Solo trompetas de plata",
+        "Bocina, salterio, arpa, pandero, cuerdas, flautas y címbalos",
+        "Solo tambores de guerra",
+        "Solo el arpa y la flauta"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 150:1-6"
+      ],
+      "explanation": "El salmo termina con: todo lo que respira alabe a Jah.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0028",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 137, ¿dónde se sentaban los cautivos a llorar acordándose de Sion?",
+      "options": [
+        "Junto al mar Muerto",
+        "Junto al Nilo",
+        "Junto a los ríos de Babilonia",
+        "Junto al río Jordán"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 137:1-3"
+      ],
+      "explanation": "Colgaron sus arpas en los sauces.",
+      "tags": [
+        "salmos",
+        "exilio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0029",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según el Salmo 118:22, ¿en qué vino a convertirse la piedra que desecharon los edificadores?",
+      "options": [
+        "En cabeza del ángulo",
+        "En un monumento",
+        "En el altar del templo",
+        "En el muro de la ciudad"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 118:22-24"
+      ],
+      "explanation": "Es obra de Jehová y maravillosa a nuestros ojos.",
+      "tags": [
+        "salmos",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0030",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo Jehová a «mi Señor» según el Salmo 110:1?",
+      "options": [
+        "Que tomara la espada",
+        "Que subiera al monte",
+        "Que edificara el templo",
+        "Que se sentara a su diestra"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 110:1"
+      ],
+      "explanation": "Hasta que ponga a sus enemigos por estrado de sus pies.",
+      "tags": [
+        "salmos",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0031",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ocurre, según el Salmo 16:10, con el santo de Dios?",
+      "options": [
+        "No verá corrupción",
+        "Vivirá mil años",
+        "Será hecho rey de las naciones",
+        "Será levantado a los cielos en carro de fuego"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 16:10-11"
+      ],
+      "explanation": "Dios no dejará su alma en el Seol.",
+      "tags": [
+        "salmos",
+        "mesias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0032",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 84:10, ¿qué es mejor que mil días fuera de los atrios de Dios?",
+      "options": [
+        "Una noche en el desierto",
+        "Un día en sus atrios",
+        "Una semana de fiesta",
+        "Un año en el palacio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 84:10"
+      ],
+      "explanation": "El salmista prefiere estar a la puerta de la casa de su Dios.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0033",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según el Salmo 55:22, ¿qué debemos echar sobre Jehová?",
+      "options": [
+        "Nuestras redes",
+        "Nuestra carga",
+        "Nuestras vestiduras",
+        "Nuestros dones"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 55:22"
+      ],
+      "explanation": "Y él nos sustentará.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0034",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué pide el salmista con las palabras «de lo profundo, oh Jehová, a ti clamo»?",
+      "options": [
+        "Que Dios destruya a sus enemigos",
+        "Que Dios envíe lluvia",
+        "Que Dios edifique el templo",
+        "Que Dios oiga la voz de su súplica"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 130:1-4"
+      ],
+      "explanation": "En Dios hay perdón, para que sea reverenciado.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0035",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según el Salmo 3:5, ¿por qué despertó el salmista tras dormir?",
+      "options": [
+        "Porque sonó la trompeta",
+        "Porque Jehová lo sustentaba",
+        "Porque amaneció temprano",
+        "Porque un ángel lo despertó"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 3:1-5"
+      ],
+      "explanation": "Aun con muchos adversarios, Dios era su escudo.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0036",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según el Salmo 63:1, ¿cuándo busca el salmista a Dios?",
+      "options": [
+        "De madrugada",
+        "Al mediodía",
+        "Al caer la tarde",
+        "Solo en el sábado"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 63:1"
+      ],
+      "explanation": "Su alma tiene sed de Dios en tierra seca y árida.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0037",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quién tiene el salmista en los cielos, según el Salmo 73:25?",
+      "options": [
+        "A sus antepasados",
+        "A los profetas",
+        "A los ángeles",
+        "Solo a Dios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 73:25-26"
+      ],
+      "explanation": "Fuera de Dios nada desea en la tierra.",
+      "tags": [
+        "salmos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0038",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "ordering",
+      "difficulty": 1,
+      "question": "Ordena estos libros poéticos y de sabiduría según aparecen en la Biblia.",
+      "items": [
+        "Job",
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés"
+      ],
+      "references": [
+        "Job 1:1",
+        "Salmos 1:1",
+        "Proverbios 1:1",
+        "Eclesiastés 1:1"
+      ],
+      "explanation": "Después de Job vienen Salmos, Proverbios, Eclesiastés y Cantares.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0039",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 1:7, ¿cuál es el principio de la sabiduría?",
+      "options": [
+        "El temor de Jehová",
+        "La experiencia de los ancianos",
+        "El conocimiento de las leyes",
+        "La riqueza"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Proverbios 1:7"
+      ],
+      "explanation": "Los insensatos desprecian la sabiduría y la enseñanza.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0040",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice Proverbios 3:5 que no debemos hacer?",
+      "options": [
+        "Aprender de los sabios",
+        "Apoyarnos en nuestra propia prudencia",
+        "Descansar en el día de reposo",
+        "Servir a los demás"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 3:5-6"
+      ],
+      "explanation": "Debemos fiarnos de Jehová de todo corazón.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0041",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 4:23, ¿qué debemos guardar sobre toda cosa guardada?",
+      "options": [
+        "El corazón",
+        "Los tesoros",
+        "La lengua",
+        "Los mandamientos escritos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Proverbios 4:23"
+      ],
+      "explanation": "Porque de él mana la vida.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0042",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué animal propone Proverbios 6:6 que mire el perezoso para ser sabio?",
+      "options": [
+        "La ovejita",
+        "El buey",
+        "La hormiga",
+        "La abeja"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 6:6-8"
+      ],
+      "explanation": "Prepara en el verano su comida.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0043",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 13:20, ¿qué le pasa al que anda con sabios?",
+      "options": [
+        "Será rico",
+        "Será sabio",
+        "Será temido",
+        "Será anciano"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 13:20"
+      ],
+      "explanation": "Pero el que se junta con necios será quebrantado.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0044",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 15:1, ¿qué quita la ira?",
+      "options": [
+        "El oro",
+        "El silencio",
+        "La blanda respuesta",
+        "El tiempo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 15:1"
+      ],
+      "explanation": "La palabra áspera hace subir el furor.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0045",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué viene antes de la caída, según Proverbios 16:18?",
+      "options": [
+        "La pobreza",
+        "La envidia",
+        "La altivez de espíritu",
+        "La enfermedad"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 16:18"
+      ],
+      "explanation": "Antes del quebrantamiento está la soberbia.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0046",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 16:9, ¿quién endereza los pasos del hombre?",
+      "options": [
+        "Sus padres",
+        "Jehová",
+        "El rey",
+        "Los consejeros"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 16:9"
+      ],
+      "explanation": "El corazón del hombre piensa su camino.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0047",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 17:17, ¿cuándo ama el amigo?",
+      "options": [
+        "Solo en la juventud",
+        "Solo cuando lo necesitan",
+        "En todo tiempo",
+        "Solo en la abundancia"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 17:17"
+      ],
+      "explanation": "Es como un hermano en tiempo de angustia.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0048",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Con qué compara Proverbios 18:10 el nombre de Jehová?",
+      "options": [
+        "Con una torre fuerte",
+        "Con una montaña alta",
+        "Con un escudo de bronce",
+        "Con un río de vida"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Proverbios 18:10"
+      ],
+      "explanation": "El justo corre a él y es levantado.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0049",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 22:1, ¿qué es de más estima que las muchas riquezas?",
+      "options": [
+        "La fuerza de la juventud",
+        "La amistad de reyes",
+        "La sabiduría de los años",
+        "El buen nombre"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Proverbios 22:1"
+      ],
+      "explanation": "La buena fama vale más que la plata y el oro.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0050",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Proverbios 22:6, ¿qué debe hacerse con el niño en su camino?",
+      "options": [
+        "Instruirlo",
+        "Enviarlo lejos",
+        "Dejarlo libre",
+        "Corregirlo solo de joven"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Proverbios 22:6"
+      ],
+      "explanation": "Aun cuando fuere viejo no se apartará de él.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0051",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 27:17, ¿con qué se aguza el hierro?",
+      "options": [
+        "Con piedra",
+        "Con fuego",
+        "Con agua",
+        "Con hierro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Proverbios 27:17"
+      ],
+      "explanation": "Así el hombre aguza el rostro de su amigo.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0052",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 28:13, ¿quién alcanzará misericordia?",
+      "options": [
+        "El que los encubre con cuidado",
+        "El que los compensa con ofrendas",
+        "El que confiesa sus pecados y se aparta",
+        "El que los olvida pronto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 28:13"
+      ],
+      "explanation": "El que encubre sus pecados no prosperará.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0053",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 29:18, ¿qué ocurre sin profecía?",
+      "options": [
+        "El pueblo se arrepiente",
+        "El pueblo se dispersa",
+        "El pueblo prospera",
+        "El pueblo se desenfrena"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Proverbios 29:18"
+      ],
+      "explanation": "Bienaventurado el que guarda la ley.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0054",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 31:30, ¿qué mujer será alabada?",
+      "options": [
+        "La más rica",
+        "La más hermosa",
+        "La que teme a Jehová",
+        "La más joven"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 31:30"
+      ],
+      "explanation": "Engañosa es la gracia y vana la hermosura.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0055",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice Proverbios 19:17 de quien da al pobre?",
+      "options": [
+        "Que recibirá honra de los hombres",
+        "Que será pobre",
+        "Que presta a Jehová",
+        "Que perderá su casa"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 19:17"
+      ],
+      "explanation": "Dios le pagará el bien que ha hecho.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0056",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Proverbios 25:21, ¿qué debemos hacer si el que nos aborrece tiene hambre?",
+      "options": [
+        "Pedirle cuentas",
+        "Darle de comer pan",
+        "Esperar que Dios lo castigue",
+        "Evitar su casa"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 25:21-22"
+      ],
+      "explanation": "También si tiene sed, darle de beber agua.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0057",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quién se atribuye el comienzo de la gran colección que empieza con «Los proverbios de Salomón» en el capítulo 10?",
+      "options": [
+        "A Ezequías",
+        "A David",
+        "A Salomón",
+        "A Agur"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Proverbios 10:1"
+      ],
+      "explanation": "El hijo sabio alegra al padre.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0058",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Proverbios 14:12 afirma que hay camino que al hombre le parece derecho, pero su fin es camino de muerte.",
+      "answer": true,
+      "references": [
+        "Proverbios 14:12"
+      ],
+      "explanation": "Es una advertencia contra confiarse del propio parecer.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0059",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué tierra vivía Job?",
+      "options": [
+        "En la tierra de Uz",
+        "En la tierra de Moab",
+        "En la tierra de Gosén",
+        "En la tierra de Madián"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Job 1:1-3"
+      ],
+      "explanation": "Era varón perfecto y recto, temeroso de Dios.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0060",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Job 1, ¿cuántos hijos e hijas tenía Job?",
+      "options": [
+        "Cinco hijos y cinco hijas",
+        "Tres hijos y siete hijas",
+        "Siete hijos y tres hijas",
+        "Doce hijos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Job 1:1-3"
+      ],
+      "explanation": "Era el hombre más grande de todos los orientales.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0061",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Job tras perder sus bienes y sus hijos?",
+      "options": [
+        "Maldito sea el día en que nací",
+        "¿Dónde está mi Redentor?",
+        "Jehová dio y Jehová quitó; bendito sea su nombre",
+        "Dios me ha olvidado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Job 1:20-22"
+      ],
+      "explanation": "En todo esto no pecó Job ni atribuyó a Dios despropósito.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0062",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué enfermedad hirió a Job desde la planta del pie hasta la coronilla?",
+      "options": [
+        "Lepra",
+        "Fiebre del desierto",
+        "Ceguera",
+        "Una sarna maligna"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Job 2:7-10"
+      ],
+      "explanation": "Se sentó en medio de ceniza y se rascaba con un tiesto.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0063",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Cuando la mujer de Job le dijo que maldijera a Dios, ¿qué le respondió?",
+      "options": [
+        "Que pidiera perdón a sus amigos",
+        "Que Dios los había abandonado",
+        "Que hablaba como mujer insensata y que debían recibir también el mal",
+        "Que la dejaría ir"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Job 2:7-10"
+      ],
+      "explanation": "En todo esto no pecó Job con sus labios.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0064",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Job 19:25, ¿qué sabía Job?",
+      "options": [
+        "Que su enfermedad era un castigo",
+        "Que su Redentor vive",
+        "Que moriría pronto",
+        "Que sus amigos tenían razón"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Job 19:25-27"
+      ],
+      "explanation": "Aseguró que en su carne vería a Dios.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0065",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En Job 38, ¿desde dónde respondió Jehová a Job?",
+      "options": [
+        "Desde un torbellino",
+        "Desde el monte Sinaí",
+        "Desde la zarza",
+        "Desde una nube de fuego"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Job 38:1-7"
+      ],
+      "explanation": "Le preguntó dónde estaba cuando fundaba la tierra.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0066",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Al final del libro, ¿cuántas ovejas tuvo Job?",
+      "options": [
+        "Catorce mil",
+        "Siete mil",
+        "Veinte mil",
+        "Mil"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Job 42:10-12"
+      ],
+      "explanation": "Jehová bendijo su postrer estado más que el primero.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0067",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Después de qué quitó Jehová la aflicción de Job, según Job 42:10?",
+      "options": [
+        "Cuando regresó a su tierra",
+        "Cuando oró por sus amigos",
+        "Cuando ofreció mil holocaustos",
+        "Cuando se arrepintió de su orgullo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Job 42:10-12"
+      ],
+      "explanation": "Jehová aumentó al doble todo lo que había sido de Job.",
+      "tags": [
+        "job"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0068",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo llama el escritor de Eclesiastés a todo lo que se hace debajo del sol?",
+      "options": [
+        "Esperanza",
+        "Gracia",
+        "Vanidad",
+        "Gloria"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Eclesiastés 1:2-3"
+      ],
+      "explanation": "Vanidad de vanidades, dijo el Predicador.",
+      "tags": [
+        "eclesiastes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0069",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Eclesiastés 3:1, ¿qué tiene su tiempo?",
+      "options": [
+        "Solo el reinado",
+        "Solo la guerra",
+        "Todo lo que se quiere debajo del cielo",
+        "Solo la siembra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Eclesiastés 3:1-8"
+      ],
+      "explanation": "Hay tiempo de nacer, de morir, de llorar, de reír, de callar y de hablar.",
+      "tags": [
+        "eclesiastes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0070",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Eclesiastés 12:1, ¿cuándo debemos acordarnos de nuestro Creador?",
+      "options": [
+        "En la vejez",
+        "En el día de la muerte",
+        "En los días de la juventud",
+        "En el día de reposo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Eclesiastés 12:1"
+      ],
+      "explanation": "Antes que vengan los días malos.",
+      "tags": [
+        "eclesiastes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0071",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál es el fin del discurso oído, según Eclesiastés 12:13?",
+      "options": [
+        "Teme a Dios y guarda sus mandamientos",
+        "Come, bebe y alégrate",
+        "Edifica casas y siembra viñas",
+        "Sirve al rey y a los dioses"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Eclesiastés 12:13"
+      ],
+      "explanation": "Esto es el todo del hombre.",
+      "tags": [
+        "eclesiastes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0072",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Eclesiastés 4:12, ¿qué no se rompe pronto?",
+      "options": [
+        "La cadena de bronce",
+        "El yugo de los bueyes",
+        "El cordón de tres dobleces",
+        "El muro de piedra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Eclesiastés 4:9-12"
+      ],
+      "explanation": "Mejores son dos que uno.",
+      "tags": [
+        "eclesiastes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0073",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En Cantares 2:1, ¿con qué flor se compara la amada?",
+      "options": [
+        "La vid y la higuera",
+        "El almendro y la granada",
+        "La rosa de Sarón y el lirio de los valles",
+        "El cedro del Líbano y la palmera"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Cantares 2:1-2"
+      ],
+      "explanation": "Ella dice: yo soy la rosa de Sarón, y el lirio de los valles.",
+      "tags": [
+        "cantares"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0074",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Cantares 8:7, ¿qué no podrán apagar las muchas aguas?",
+      "options": [
+        "El amor",
+        "La lámpara del templo",
+        "El fuego del altar",
+        "La luz del candelero"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Cantares 8:6-7"
+      ],
+      "explanation": "Los ríos tampoco lo ahogarán.",
+      "tags": [
+        "cantares"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-sabiduria-0075",
+      "module": "core",
+      "category": "sabiduria",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Proverbios 26:11 compara al necio que repite su necedad con un perro que vuelve a su vómito.",
+      "answer": true,
+      "references": [
+        "Proverbios 26:11"
+      ],
+      "explanation": "La imagen subraya la repetición de la necedad.",
+      "tags": [
+        "proverbios"
+      ],
+      "reviewed": true
+    }
+  ]
+}

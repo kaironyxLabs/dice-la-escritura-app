@@ -1,0 +1,1659 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-hechos-0001",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué dijo Jesús que recibirían sus discípulos cuando viniera sobre ellos el Espíritu Santo?",
+      "options": [
+        "Un nuevo templo",
+        "Poder para ser sus testigos",
+        "Autoridad sobre los reyes",
+        "Riquezas para la obra"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 1:8-11"
+      ],
+      "explanation": "Serían testigos en Jerusalén, Judea, Samaria y hasta lo último de la tierra.",
+      "tags": [
+        "ascension"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0002",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué tres lugares nombró Jesús, antes de «lo último de la tierra», como alcance del testimonio de sus discípulos?",
+      "options": [
+        "Galilea, Samaria, Siria",
+        "Jerusalén, Judea, Samaria",
+        "Judea, Samaria, Egipto",
+        "Jerusalén, Galilea, Decápolis"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 1:8-11"
+      ],
+      "explanation": "El texto menciona Jerusalén, toda Judea, Samaria y hasta lo último de la tierra.",
+      "tags": [
+        "ascension"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0003",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué les ocultó de la vista a los discípulos cuando Jesús fue alzado?",
+      "options": [
+        "Una columna de fuego",
+        "Una niebla del monte",
+        "Un torbellino",
+        "Una nube"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 1:8-11"
+      ],
+      "explanation": "Dos varones con vestiduras blancas les dijeron que vendría como lo habían visto irse.",
+      "tags": [
+        "ascension"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0004",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue escogido por suerte para ocupar el lugar de Judas entre los apóstoles?",
+      "options": [
+        "Bernabé",
+        "José Barsabás",
+        "Silas",
+        "Matías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 1:23-26"
+      ],
+      "explanation": "Fue contado con los once apóstoles.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0005",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué día llegó el Espíritu Santo sobre los discípulos en Jerusalén?",
+      "options": [
+        "La fiesta de los tabernáculos",
+        "El día de Pentecostés",
+        "El día de la expiación",
+        "El día de la Pascua"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 2:1-4"
+      ],
+      "explanation": "Estaban todos unánimes juntos.",
+      "tags": [
+        "pentecostes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0006",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se apareció el Espíritu en Pentecostés?",
+      "options": [
+        "Una paloma sobre la cabeza de cada uno",
+        "Una luz brillante sobre Pedro",
+        "Una nube en la casa",
+        "Lenguas repartidas como de fuego sobre cada uno"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 2:1-4"
+      ],
+      "explanation": "Antes vino un estruendo como de viento recio.",
+      "tags": [
+        "pentecostes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0007",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Pedro cuando algunos pensaron que los discípulos estaban ebrios en Pentecostés?",
+      "options": [
+        "Que estaban cansados del camino",
+        "Que Dios los había llenado de vino nuevo",
+        "Que era la hora tercera del día",
+        "Que era el día de reposo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 2:14-16"
+      ],
+      "explanation": "Dijo que lo que ocurría era lo dicho por el profeta Joel.",
+      "tags": [
+        "pedro",
+        "pentecostes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0008",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántas personas se añadieron aquel día tras el mensaje de Pedro?",
+      "options": [
+        "Doce mil",
+        "Mil doscientas",
+        "Unas tres mil",
+        "Quinientas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 2:37-42"
+      ],
+      "explanation": "Perseveraban en la doctrina de los apóstoles, la comunión, el partimiento del pan y las oraciones.",
+      "tags": [
+        "pedro",
+        "pentecostes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0009",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hacían los creyentes con sus propiedades y bienes, según Hechos 2:44-45?",
+      "options": [
+        "Los entregaban al sumo sacerdote",
+        "Los dividían por partes iguales",
+        "Los guardaban para la fiesta",
+        "Los vendían y repartían a todos según la necesidad de cada uno"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 2:44-47"
+      ],
+      "explanation": "Tenían en común todas las cosas.",
+      "tags": [
+        "iglesia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0010",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde pedía limosna el cojo de nacimiento que sanaron Pedro y Juan?",
+      "options": [
+        "En el estanque de Betesda",
+        "En el pórtico de Salomón",
+        "A la puerta del templo llamada la Hermosa",
+        "En la puerta de las ovejas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 3:1-8"
+      ],
+      "explanation": "Pedro le dijo que no tenía plata ni oro, pero le dio lo que tenía.",
+      "tags": [
+        "pedro",
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0011",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué respondió Pedro al cojo que pedía limosna?",
+      "options": [
+        "En el nombre de Jesucristo de Nazaret, levántate y anda",
+        "Sígueme al templo",
+        "Ve y lávate siete veces",
+        "Pide a Dios y serás sanado"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 3:1-8"
+      ],
+      "explanation": "El hombre entró saltando y alabando a Dios.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0012",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué molestó a los sacerdotes y saduceos cuando Pedro y Juan hablaban al pueblo?",
+      "options": [
+        "Que sanaban en día de reposo",
+        "Que predicaban fuera del templo",
+        "Que anunciaban en Jesús la resurrección de entre los muertos",
+        "Que cobraban por sus sanidades"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 4:1-4"
+      ],
+      "explanation": "Los pusieron en la cárcel hasta el día siguiente.",
+      "tags": [
+        "pedro",
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0013",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué reconocieron los líderes en Pedro y Juan, hombres sin letras?",
+      "options": [
+        "Que eran fariseos",
+        "Que habían estado con Jesús",
+        "Que eran sacerdotes",
+        "Que venían de Galilea"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 4:13"
+      ],
+      "explanation": "Se maravillaban de su denuedo.",
+      "tags": [
+        "pedro",
+        "juan"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0014",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué significa el sobrenombre Bernabé, según Hechos 4:36?",
+      "options": [
+        "Hijo del trueno",
+        "Hijo del pacto",
+        "Hijo de consolación",
+        "Hijo de la paz"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 4:32-37"
+      ],
+      "explanation": "Era levita, natural de Chipre.",
+      "tags": [
+        "bernabe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0015",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hicieron Ananías y Safira?",
+      "options": [
+        "Dieron todo a los pobres",
+        "Vendieron una heredad y trajeron solo una parte, fingiendo traerlo todo",
+        "Se negaron a vender sus bienes",
+        "Robaron el dinero de los apóstoles"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 5:1-5"
+      ],
+      "explanation": "Pedro les dijo que habían mentido al Espíritu Santo, es decir, a Dios.",
+      "tags": [
+        "iglesia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0016",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué esperaban los enfermos al ser sacados a las calles cuando pasaba Pedro?",
+      "options": [
+        "Que al menos su sombra cayera sobre alguno de ellos",
+        "Que los ungiera con aceite",
+        "Que los llamara por nombre",
+        "Que los tocara su manto"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 5:12-16"
+      ],
+      "explanation": "Muchos venían de ciudades vecinas y todos eran sanados.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0017",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién sacó a los apóstoles de la cárcel pública durante la noche?",
+      "options": [
+        "El tribuno romano",
+        "Un ángel del Señor",
+        "Un terremoto",
+        "Los fieles de Jerusalén"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 5:17-20"
+      ],
+      "explanation": "Les mandó anunciar en el templo todas las palabras de esta vida.",
+      "tags": [
+        "apostoles"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0018",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos varones fueron escogidos para servir a las mesas, según Hechos 6?",
+      "options": [
+        "Setenta",
+        "Siete",
+        "Doce",
+        "Tres"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 6:1-6"
+      ],
+      "explanation": "Los apóstoles querían dedicarse a la oración y al ministerio de la palabra.",
+      "tags": [
+        "diaconos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0019",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuál de estos hombres fue uno de los siete elegidos en Hechos 6?",
+      "options": [
+        "Bernabé",
+        "Matías",
+        "Silas",
+        "Esteban"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 6:1-6"
+      ],
+      "explanation": "Era un varón lleno de fe y del Espíritu Santo.",
+      "tags": [
+        "diaconos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0020",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué vio Esteban antes de ser apedreado?",
+      "options": [
+        "Los cielos abiertos y a Jesús a la diestra de Dios",
+        "Un ángel con espada",
+        "Un carro de caballos de fuego",
+        "Una nube de fuego"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 7:54-60"
+      ],
+      "explanation": "Dijo que veía al Hijo del Hombre a la diestra de Dios.",
+      "tags": [
+        "esteban"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0021",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A los pies de quién pusieron sus ropas los testigos que apedrearon a Esteban?",
+      "options": [
+        "De Pedro",
+        "De un joven llamado Saulo",
+        "De Bernabé",
+        "De Gamaliel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 7:54-60"
+      ],
+      "explanation": "Esteban oró: Señor, no les tomes en cuenta este pecado.",
+      "tags": [
+        "esteban",
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0022",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ocurrió con los creyentes tras la gran persecución en Jerusalén?",
+      "options": [
+        "Fueron llevados presos a Roma",
+        "Se escondieron en el templo",
+        "Fueron esparcidos y anunciaban el evangelio por todas partes",
+        "Huyeron a Egipto"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 8:1-4"
+      ],
+      "explanation": "Saulo asolaba la iglesia casa por casa.",
+      "tags": [
+        "persecucion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0023",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué leía el eunuco etíope en su carro cuando Felipe se le acercó?",
+      "options": [
+        "Los salmos de David",
+        "Las cartas de Pablo",
+        "La ley de Moisés",
+        "Al profeta Isaías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 8:26-31"
+      ],
+      "explanation": "Felipe le preguntó si entendía lo que leía.",
+      "tags": [
+        "felipe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0024",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Para quién trabajaba el eunuco etíope que Felipe encontró?",
+      "options": [
+        "Para el procónsul Sergio Paulo",
+        "Para Faraón",
+        "Para Candace, reina de los etíopes",
+        "Para Herodes"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 8:26-31"
+      ],
+      "explanation": "Estaba sobre todos sus tesoros y había venido a Jerusalén para adorar.",
+      "tags": [
+        "felipe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0025",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Felipe tras el bautismo del eunuco?",
+      "options": [
+        "El Espíritu del Señor lo arrebató",
+        "Fue a Damasco",
+        "Regresó a Jerusalén",
+        "Se quedó con el eunuco"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 8:36-39"
+      ],
+      "explanation": "El eunuco siguió gozoso su camino.",
+      "tags": [
+        "felipe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0026",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Hacia qué ciudad iba Saulo cuando le rodeó un resplandor del cielo?",
+      "options": [
+        "Damasco",
+        "Tarso",
+        "Antioquía",
+        "Jerusalén"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 9:1-9"
+      ],
+      "explanation": "Iba con cartas para las sinagogas.",
+      "tags": [
+        "pablo",
+        "conversion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0027",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué dijo la voz del cielo a Saulo en el camino?",
+      "options": [
+        "Saulo, Saulo, ¿por qué me persigues?",
+        "Saulo, sígueme",
+        "Ve a Jerusalén y espera",
+        "Levántate y anda"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 9:1-9"
+      ],
+      "explanation": "Era Jesús, a quien él perseguía.",
+      "tags": [
+        "pablo",
+        "conversion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0028",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días estuvo Saulo sin ver en Damasco?",
+      "options": [
+        "Cuarenta",
+        "Un día",
+        "Siete",
+        "Tres"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 9:1-9"
+      ],
+      "explanation": "En ese tiempo no comió ni bebió.",
+      "tags": [
+        "pablo",
+        "conversion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0029",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue enviado por el Señor a orar por Saulo para que recobrara la vista?",
+      "options": [
+        "Pedro",
+        "Bernabé",
+        "Ananías, un discípulo de Damasco",
+        "Felipe"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 9:10-19"
+      ],
+      "explanation": "Saulo recibió la vista y fue bautizado.",
+      "tags": [
+        "pablo",
+        "conversion"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0030",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué calle de Damasco estaba la casa donde oraba Saulo?",
+      "options": [
+        "En la calle de los Plateros",
+        "En la calle llamada Derecha",
+        "En la calle del Mercado",
+        "En la calle Real"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 9:10-19"
+      ],
+      "explanation": "Era la casa de Judas.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0031",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién resucitó Pedro en Jope?",
+      "options": [
+        "A Lázaro",
+        "A la hija de Jairo",
+        "A Tabita, también llamada Dorcas",
+        "A Eutico"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 9:36-41"
+      ],
+      "explanation": "Era una discípula que abundaba en buenas obras.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0032",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué oficio tenía Cornelio?",
+      "options": [
+        "Era mercader de púrpura",
+        "Era publicano en Cesarea",
+        "Era centurión de la compañía Italiana",
+        "Era sumo sacerdote"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 10:1-6"
+      ],
+      "explanation": "Era piadoso y hacía muchas limosnas.",
+      "tags": [
+        "cornelio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0033",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En casa de quién se hospedaba Pedro en Jope?",
+      "options": [
+        "De Cornelio",
+        "De Lidia",
+        "De Simón, un curtidor",
+        "De Dorcas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 10:1-6"
+      ],
+      "explanation": "La casa estaba junto al mar.",
+      "tags": [
+        "pedro",
+        "cornelio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0034",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué vio Pedro en su visión en la azotea?",
+      "options": [
+        "Un gran lienzo con toda clase de animales",
+        "Un trono sobre las nubes",
+        "Un río de fuego",
+        "Una escalera hacia el cielo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 10:9-16"
+      ],
+      "explanation": "Una voz le mandó levantarse, matar y comer.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0035",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas veces se repitió la visión del lienzo a Pedro?",
+      "options": [
+        "Tres veces",
+        "Dos veces",
+        "Siete veces",
+        "Una vez"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 10:9-16"
+      ],
+      "explanation": "La voz le dijo que no llamara común a lo que Dios limpió.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0036",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ocurrió mientras Pedro hablaba en casa de Cornelio?",
+      "options": [
+        "El Espíritu Santo cayó sobre todos los que oían",
+        "Cayó fuego del cielo",
+        "Un ángel apareció en la sala",
+        "Se abrió una puerta en el cielo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 10:44-48"
+      ],
+      "explanation": "Los fieles de la circuncisión se quedaron atónitos de que los gentiles también lo recibieran.",
+      "tags": [
+        "pedro",
+        "cornelio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0037",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿En qué ciudad se llamó cristianos a los discípulos por primera vez?",
+      "options": [
+        "Antioquía",
+        "Éfeso",
+        "Roma",
+        "Jerusalén"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 11:19-26"
+      ],
+      "explanation": "Bernabé fue a buscar a Saulo a Tarso.",
+      "tags": [
+        "antioquia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0038",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién fue a buscar Bernabé a Tarso para llevarlo a Antioquía?",
+      "options": [
+        "A Saulo",
+        "A Silas",
+        "A Marcos",
+        "A Timoteo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 11:19-26"
+      ],
+      "explanation": "Estuvieron allí todo un año enseñando.",
+      "tags": [
+        "bernabe",
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0039",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué apóstol, hermano de Juan, fue muerto a espada por Herodes?",
+      "options": [
+        "Pedro",
+        "Felipe",
+        "Jacobo",
+        "Andrés"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 12:1-10"
+      ],
+      "explanation": "Herodes también prendió a Pedro.",
+      "tags": [
+        "herodes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0040",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué ocurrió con las cadenas de Pedro la noche anterior a su juicio?",
+      "options": [
+        "Fueron cortadas por un guardia",
+        "Se le cayeron de las manos cuando el ángel lo despertó",
+        "Se fundieron por una luz",
+        "Fueron quitadas por la iglesia"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 12:1-10"
+      ],
+      "explanation": "Pedro dormía entre dos soldados.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0041",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo murió Herodes tras aceptar que el pueblo lo aclamara como voz de Dios?",
+      "options": [
+        "Un ángel del Señor lo hirió y expiró comido de gusanos",
+        "Cayó en batalla",
+        "Fue asesinado por sus guardias",
+        "Murió ahogado"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 12:21-23"
+      ],
+      "explanation": "No dio la gloria a Dios.",
+      "tags": [
+        "herodes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0042",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hacían los profetas y maestros de Antioquía cuando el Espíritu Santo habló?",
+      "options": [
+        "Distribuían alimentos a los pobres",
+        "Escribían cartas a las iglesias",
+        "Celebraban la fiesta de la Pascua",
+        "Ministraban al Señor y ayunaban"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 13:1-5"
+      ],
+      "explanation": "El Espíritu apartó a Bernabé y a Saulo para su obra.",
+      "tags": [
+        "antioquia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0043",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A qué isla navegaron primero Bernabé y Saulo?",
+      "options": [
+        "Chipre",
+        "Rodas",
+        "Creta",
+        "Malta"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 13:1-5"
+      ],
+      "explanation": "Juan los acompañaba como ayudante.",
+      "tags": [
+        "viajes-pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0044",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué le ocurrió al mago Elimas que resistía a Bernabé y a Saulo?",
+      "options": [
+        "Quedó ciego por algún tiempo",
+        "Fue sanado de una enfermedad",
+        "Perdió la voz",
+        "Fue echado de la isla"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 13:6-12"
+      ],
+      "explanation": "El procónsul Sergio Paulo creyó al ver lo sucedido.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0045",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo la gente de Listra cuando Pablo sanó al cojo de nacimiento?",
+      "options": [
+        "Los expulsaron de la ciudad",
+        "Quisieron apedrearlos",
+        "Quisieron adorarlos como dioses, llamando a Bernabé Júpiter y a Pablo Mercurio",
+        "Los nombraron jueces de la ciudad"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 14:8-13"
+      ],
+      "explanation": "El sacerdote de Júpiter trajo toros y guirnaldas.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0046",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué le hicieron a Pablo algunos judíos de Antioquía y de Iconio en Listra?",
+      "options": [
+        "Lo exiliaron a Chipre",
+        "Lo apedrearon y lo arrastraron fuera de la ciudad",
+        "Lo encarcelaron",
+        "Lo azotaron con varas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 14:19-20"
+      ],
+      "explanation": "Los discípulos lo rodearon y se levantó.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0047",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué enseñaban algunos que venían de Judea a los hermanos de Antioquía?",
+      "options": [
+        "Que debían guardar solo el sábado",
+        "Que debían dejar la ley",
+        "Que Pablo era un falso apóstol",
+        "Que sin circuncidarse no podían ser salvos"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 15:1-2"
+      ],
+      "explanation": "Pablo y Bernabé subieron a Jerusalén a tratar la cuestión.",
+      "tags": [
+        "concilio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0048",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Hechos 15:19-20, ¿de qué debían apartarse los gentiles que se convertían?",
+      "options": [
+        "De las contaminaciones de los ídolos, de fornicación, de ahogado y de sangre",
+        "De los banquetes de los gentiles",
+        "De toda comida impura",
+        "De la carne de cerdo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 15:19-20"
+      ],
+      "explanation": "Santiago propuso no inquietar a los gentiles.",
+      "tags": [
+        "concilio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0049",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué vio Pablo en la visión de noche que lo llevó a pasar a Macedonia?",
+      "options": [
+        "Un ángel con una carta",
+        "Una mujer que lloraba",
+        "Una luz sobre Filipos",
+        "Un varón macedonio que le pedía ayuda"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 16:9-10"
+      ],
+      "explanation": "Dieron por cierto que Dios los llamaba.",
+      "tags": [
+        "viajes-pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0050",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿De qué ciudad era Lidia, la vendedora de púrpura?",
+      "options": [
+        "De Tiatira",
+        "De Corinto",
+        "De Éfeso",
+        "De Filipos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 16:14-15"
+      ],
+      "explanation": "Adoraba a Dios y el Señor abrió su corazón.",
+      "tags": [
+        "lidia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0051",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hacían Pablo y Silas a medianoche en la cárcel de Filipos?",
+      "options": [
+        "Llorar por sus cadenas",
+        "Orar y cantar himnos a Dios",
+        "Predicar a los presos",
+        "Dormir en silencio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 16:25-31"
+      ],
+      "explanation": "Un terremoto abrió las puertas y soltó las cadenas.",
+      "tags": [
+        "silas",
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0052",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Qué respondieron Pablo y Silas al carcelero que preguntó qué debía hacer para ser salvo?",
+      "options": [
+        "Guarda la ley de Moisés",
+        "Cree en el Señor Jesucristo, y serás salvo, tú y tu casa",
+        "Bautízate en el río",
+        "Ofrece un sacrificio"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 16:25-31"
+      ],
+      "explanation": "Ocurrió en Filipos.",
+      "tags": [
+        "pablo",
+        "silas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0053",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué hizo Pablo durante tres días de reposo en la sinagoga de Tesalónica?",
+      "options": [
+        "Predicar en la plaza",
+        "Ofrecer sacrificios",
+        "Discutir con ellos por medio de las Escrituras que el Cristo debía padecer y resucitar",
+        "Leer la ley en voz alta"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 17:1-4"
+      ],
+      "explanation": "Algunos judíos y muchos griegos piadosos creyeron.",
+      "tags": [
+        "viajes-pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0054",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué decía la inscripción del altar que Pablo vio en Atenas?",
+      "options": [
+        "A Júpiter el grande",
+        "Al Dios de los dioses",
+        "Al Dios no conocido",
+        "Al Dios de Israel"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 17:22-23"
+      ],
+      "explanation": "Pablo habló en el Areópago.",
+      "tags": [
+        "pablo",
+        "atenas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0055",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué hacían los de Berea cada día, según Hechos 17:11?",
+      "options": [
+        "Ayunaban y oraban",
+        "Reunían ofrendas",
+        "Escudriñaban las Escrituras para ver si estas cosas eran así",
+        "Enseñaban a otros"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 17:11"
+      ],
+      "explanation": "Eran más nobles que los de Tesalónica.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0056",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué oficio compartían Pablo, Aquila y Priscila?",
+      "options": [
+        "Pescar",
+        "Fabricar lámparas",
+        "Hacer tiendas",
+        "Trabajar el cuero"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 18:1-3"
+      ],
+      "explanation": "Se conocieron en Corinto.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0057",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué platero hizo disturbio en Éfeso por temor a perder su negocio?",
+      "options": [
+        "Tercio",
+        "Demetrio",
+        "Alejandro",
+        "Gayo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 19:23-28"
+      ],
+      "explanation": "Hacía templecillos de plata de Diana.",
+      "tags": [
+        "pablo",
+        "efeso"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0058",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué le ocurrió al joven Eutico mientras Pablo hablaba hasta la medianoche?",
+      "options": [
+        "Salió de la reunión",
+        "Se quedó dormido y lo despertaron",
+        "Fue sanado de una enfermedad",
+        "Cayó desde el tercer piso y Pablo lo levantó vivo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 20:7-12"
+      ],
+      "explanation": "Estaba sentado en la ventana, rendido de sueño.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0059",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué palabras de Jesús recordó Pablo en su despedida a los ancianos de Éfeso?",
+      "options": [
+        "Dad a César lo que es de César",
+        "Más bienaventurado es dar que recibir",
+        "Velad y orad",
+        "Amaos unos a otros"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 20:35"
+      ],
+      "explanation": "Pablo enseñó a ayudar a los necesitados.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0060",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Por qué se alborotó la multitud contra Pablo en el templo, según Hechos 21?",
+      "options": [
+        "Porque cobraba por sus enseñanzas",
+        "Creyeron que había metido a griegos en el templo",
+        "Porque predicaba de noche",
+        "Porque había sanado en día de reposo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 21:27-33"
+      ],
+      "explanation": "Habían visto con él en la ciudad a Trófimo, de Éfeso.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0061",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A los pies de qué maestro fue instruido Pablo?",
+      "options": [
+        "Gamaliel",
+        "Nicodemo",
+        "Hillel",
+        "Caifás"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 22:3"
+      ],
+      "explanation": "Pablo nació en Tarso de Cilicia.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0062",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo Agripa a Pablo tras oír su defensa?",
+      "options": [
+        "Por poco me persuades a ser cristiano",
+        "Te libero por este discurso",
+        "Eres un loco",
+        "Que te vaya bien"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 26:28"
+      ],
+      "explanation": "Fue la respuesta del rey Agripa.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0063",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué ocurrió con las personas del barco tras encallar la nave en el viaje de Pablo a Roma?",
+      "options": [
+        "Murieron los presos",
+        "Se perdieron la mitad",
+        "Todos se salvaron saliendo a tierra",
+        "Solo Pablo se salvó"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Hechos 27:41-44"
+      ],
+      "explanation": "El centurión impidió que mataran a los presos.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0064",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se llamaba la isla donde naufragó Pablo?",
+      "options": [
+        "Creta",
+        "Chipre",
+        "Patmos",
+        "Malta"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hechos 28:1-6"
+      ],
+      "explanation": "Una víbora se le prendió en la mano y no le hizo daño.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0065",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué concluyeron los habitantes de Malta al ver que la víbora no dañó a Pablo?",
+      "options": [
+        "Que era un dios",
+        "Que era un profeta",
+        "Que era un criminal castigado",
+        "Que era un médico"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hechos 28:1-6"
+      ],
+      "explanation": "Antes pensaron que era homicida.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0066",
+      "module": "core",
+      "category": "hechos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuánto tiempo permaneció Pablo en una casa alquilada en Roma?",
+      "options": [
+        "Cinco años",
+        "Dos años enteros",
+        "Seis meses",
+        "Diez años"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hechos 28:30-31"
+      ],
+      "explanation": "Predicaba el reino de Dios abiertamente y sin impedimento.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0067",
+      "module": "core",
+      "category": "hechos",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Hechos afirma que a los discípulos se les llamó cristianos por primera vez en Antioquía.",
+      "answer": true,
+      "references": [
+        "Hechos 11:19-26"
+      ],
+      "explanation": "Es el primer lugar donde se les llamó así.",
+      "tags": [
+        "antioquia"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0068",
+      "module": "core",
+      "category": "hechos",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "En Hechos 2, Pedro dijo que los discípulos estaban ebrios.",
+      "answer": false,
+      "references": [
+        "Hechos 2:14-16"
+      ],
+      "explanation": "Pedro negó que estuvieran ebrios.",
+      "tags": [
+        "pedro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0069",
+      "module": "core",
+      "category": "hechos",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Hechos 9 relata que Saulo recibió la vista después de que le cayeron de los ojos como escamas.",
+      "answer": true,
+      "references": [
+        "Hechos 9:10-19"
+      ],
+      "explanation": "Fue tras la oración de Ananías.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0070",
+      "module": "core",
+      "category": "hechos",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Los de Berea recibieron la palabra con desinterés y escepticismo.",
+      "answer": false,
+      "references": [
+        "Hechos 17:11"
+      ],
+      "explanation": "La recibieron con toda solicitud y escudriñaban las Escrituras.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0071",
+      "module": "core",
+      "category": "hechos",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos acontecimientos de Hechos según ocurren en el libro.",
+      "items": [
+        "La ascensión de Jesús",
+        "La venida del Espíritu en Pentecostés",
+        "La muerte de Esteban",
+        "La conversión de Saulo"
+      ],
+      "references": [
+        "Hechos 1:9",
+        "Hechos 2:4",
+        "Hechos 7:60",
+        "Hechos 9:3"
+      ],
+      "explanation": "Siguen este orden en los capítulos 1, 2, 7 y 9.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-hechos-0072",
+      "module": "core",
+      "category": "hechos",
+      "type": "ordering",
+      "difficulty": 3,
+      "question": "Ordena estos lugares de los viajes de Pablo según el orden en que aparecen en Hechos.",
+      "items": [
+        "Chipre",
+        "Listra",
+        "Filipos",
+        "Atenas"
+      ],
+      "references": [
+        "Hechos 13:4",
+        "Hechos 14:8",
+        "Hechos 16:12",
+        "Hechos 17:22"
+      ],
+      "explanation": "Chipre (cap. 13), Listra (14), Filipos (16) y Atenas (17).",
+      "tags": [
+        "pablo",
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}

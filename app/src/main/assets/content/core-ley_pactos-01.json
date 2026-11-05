@@ -1,0 +1,1295 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-ley_pactos-0001",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál fue la señal del pacto que Dios hizo con Noé y con todo ser viviente?",
+      "options": [
+        "El arco en las nubes",
+        "Una estrella en el cielo",
+        "Una columna de fuego",
+        "Una paloma blanca"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 9:8-13"
+      ],
+      "explanation": "Dios prometió no volver a destruir la tierra con aguas de diluvio.",
+      "tags": [
+        "noe",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0002",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué prometió Dios a Noé con su pacto?",
+      "options": [
+        "No exterminar más toda carne con aguas de diluvio",
+        "Levantarle un reino eterno",
+        "Hacerlo padre de muchas naciones",
+        "Dar una tierra a sus hijos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 9:8-13"
+      ],
+      "explanation": "Es un pacto con Noé, sus descendientes y todo ser viviente.",
+      "tags": [
+        "noe",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0003",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué le dijo Dios a Abram que contara para ilustrar su descendencia?",
+      "options": [
+        "Las ovejas de su rebaño",
+        "Los días de su vida",
+        "Las estrellas",
+        "Los granos de arena de su tierra"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 15:5-6"
+      ],
+      "explanation": "Abram creyó a Jehová y le fue contado por justicia.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0004",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la ceremonia del pacto con Abram, ¿qué pasó por entre los animales divididos?",
+      "options": [
+        "Un ángel con espada",
+        "Una paloma blanca",
+        "Un viento recio",
+        "Un horno humeando y una antorcha de fuego"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 15:17-18"
+      ],
+      "explanation": "Dios prometió dar a su descendencia la tierra hasta el Éufrates.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0005",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué edad tenía Abram cuando Dios le habló de su pacto y le dijo «anda delante de mí y sé perfecto»?",
+      "options": [
+        "Cien años",
+        "Ochenta y seis años",
+        "Setenta y cinco años",
+        "Noventa y nueve años"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 17:1-2"
+      ],
+      "explanation": "Dios se presentó como el Dios Todopoderoso.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0006",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál fue la señal del pacto entre Dios y Abraham?",
+      "options": [
+        "El arco iris",
+        "La Pascua",
+        "La circuncisión",
+        "El sábado"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 17:10-12"
+      ],
+      "explanation": "Todo varón sería circuncidado a los ocho días.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0007",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué edad debía circuncidarse a todo varón según el pacto con Abraham?",
+      "options": [
+        "A los trece años",
+        "A los ocho días",
+        "A los siete años",
+        "Al cumplir veinte años"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 17:10-12"
+      ],
+      "explanation": "Incluía al nacido en casa y al comprado por dinero.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0008",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En Génesis 22:18, ¿qué serían benditas en la simiente de Abraham?",
+      "options": [
+        "Todas las naciones de la tierra",
+        "Todas las tribus de Israel",
+        "Los hijos de Isaac",
+        "Los que guardaran la ley"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 22:17-18"
+      ],
+      "explanation": "Dios lo dijo por cuanto Abraham obedeció a su voz.",
+      "tags": [
+        "abraham",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0009",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué prometió Dios a David según 2 Samuel 7:16?",
+      "options": [
+        "Que su casa y su reino serían afirmados para siempre",
+        "Que sus enemigos serían destruidos en un día",
+        "Que su hijo edificaría una ciudad",
+        "Que su pueblo no sería dispersado"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Samuel 7:12-16"
+      ],
+      "explanation": "Dios dijo que afirmaría el trono de su reino.",
+      "tags": [
+        "david",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0010",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 2 Samuel 7:13, ¿quién edificaría casa al nombre de Dios?",
+      "options": [
+        "El rey Saúl",
+        "El profeta Natán",
+        "Un descendiente de David",
+        "Los sacerdotes de Leví"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Samuel 7:12-16"
+      ],
+      "explanation": "Dios dijo: Yo le seré a él padre, y él me será a mí hijo.",
+      "tags": [
+        "david",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0011",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué prometió Dios en el nuevo pacto, según Jeremías 31 y Hebreos 8?",
+      "options": [
+        "Un nuevo pacto con la casa de Israel y la casa de Judá",
+        "Un reino sobre las naciones",
+        "Una nueva tierra en el desierto",
+        "Un nuevo templo de oro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 8:6-8",
+        "Jeremías 31:31"
+      ],
+      "explanation": "Hebreos presenta a Cristo como mediador de un mejor pacto.",
+      "tags": [
+        "nuevo-pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0012",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Lucas 22:20, ¿qué dijo Jesús que era la copa?",
+      "options": [
+        "La copa de la ira",
+        "La copa del reino",
+        "El nuevo pacto en su sangre",
+        "El cáliz de la bendición"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 22:19-20"
+      ],
+      "explanation": "Lo dijo en la última cena, al partir el pan.",
+      "tags": [
+        "jesus",
+        "nuevo-pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0013",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Dios que serían los israelitas si guardaban su pacto?",
+      "options": [
+        "Los dueños de toda la tierra",
+        "Los reyes de las naciones",
+        "Su especial tesoro, un reino de sacerdotes y gente santa",
+        "Los jueces del mundo"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 19:3-6"
+      ],
+      "explanation": "Lo dijo desde el monte, recordando cómo los tomó sobre alas de águilas.",
+      "tags": [
+        "sinai"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0014",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "Según Éxodo 20, ¿cuál es el primer mandamiento?",
+      "options": [
+        "Acuérdate del día de reposo",
+        "Honra a tu padre y a tu madre",
+        "No tendrás dioses ajenos delante de mí",
+        "No matarás"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 20:1-17"
+      ],
+      "explanation": "Es el primero de los diez mandamientos.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0015",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué promesa acompaña al mandamiento de honrar a padre y madre?",
+      "options": [
+        "Que serás rico",
+        "Que tus días se alarguen en la tierra",
+        "Que tendrás hijos numerosos",
+        "Que tu casa será edificada"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 20:1-17"
+      ],
+      "explanation": "Dios promete larga vida en la tierra que les daba.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0016",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dice el mandamiento sobre el día de reposo?",
+      "options": [
+        "Descansa solo el primer día",
+        "Ofrece un cordero cada sábado",
+        "Acuérdate del día de reposo para santificarlo",
+        "Guarda el sábado con ayuno"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 20:1-17"
+      ],
+      "explanation": "Dios hizo los cielos y la tierra en seis días y reposó en el séptimo.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0017",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuántos mandamientos recibió Moisés en tablas de piedra?",
+      "options": [
+        "Siete",
+        "Diez",
+        "Doce",
+        "Cinco"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Deuteronomio 4:13"
+      ],
+      "explanation": "Dios los escribió en dos tablas de piedra.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0018",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Con qué fueron escritas las dos tablas del testimonio?",
+      "options": [
+        "Con el dedo de Dios",
+        "Con la mano de Moisés",
+        "Con tinta del desierto",
+        "Con un cincel de bronce"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 31:15-18"
+      ],
+      "explanation": "Dios las dio a Moisés en el monte Sinaí.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0019",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué hizo Moisés con las tablas cuando vio el becerro y las danzas?",
+      "options": [
+        "Las arrojó y las quebró al pie del monte",
+        "Las rompió sobre el altar",
+        "Las escondió en una cueva",
+        "Las entregó a Aarón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 32:15-19"
+      ],
+      "explanation": "Ardió la ira de Moisés.",
+      "tags": [
+        "mandamientos",
+        "becerro"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0020",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días y noches estuvo Moisés con Jehová cuando escribió las palabras del pacto?",
+      "options": [
+        "Veinte",
+        "Siete",
+        "Cuarenta",
+        "Tres"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 34:27-28"
+      ],
+      "explanation": "No comió pan ni bebió agua.",
+      "tags": [
+        "sinai"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0021",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En la ceremonia del pacto de Éxodo 24, ¿qué esparció Moisés sobre el pueblo?",
+      "options": [
+        "La sangre del pacto",
+        "Agua del peñasco",
+        "Aceite de la unción",
+        "Ceniza del altar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 24:3-8"
+      ],
+      "explanation": "El pueblo respondió: Haremos todas las cosas que Jehová ha dicho.",
+      "tags": [
+        "sinai",
+        "pacto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0022",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántas columnas edificó Moisés al pie del monte, según las tribus de Israel?",
+      "options": [
+        "Doce",
+        "Siete",
+        "Cuarenta",
+        "Diez"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 24:3-8"
+      ],
+      "explanation": "También edificó un altar.",
+      "tags": [
+        "sinai"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0023",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿De qué madera mandó Dios hacer el arca?",
+      "options": [
+        "De ciprés",
+        "De cedro",
+        "De olivo",
+        "De acacia"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 25:8-10"
+      ],
+      "explanation": "Medía dos codos y medio de largo.",
+      "tags": [
+        "tabernaculo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0024",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo se llamaba la tapa de oro fino del arca, con dos querubines?",
+      "options": [
+        "Arca del testimonio",
+        "Candelero",
+        "Velo",
+        "Propiciatorio"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 25:17-22"
+      ],
+      "explanation": "Allí Dios decía que hablaría con Moisés.",
+      "tags": [
+        "tabernaculo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0025",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos querubines de oro había sobre el propiciatorio?",
+      "options": [
+        "Dos",
+        "Cuatro",
+        "Uno",
+        "Seis"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 25:17-22"
+      ],
+      "explanation": "Extendían las alas y sus rostros se miraban.",
+      "tags": [
+        "tabernaculo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0026",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A quién escogió Dios para ser sacerdote junto con sus hijos?",
+      "options": [
+        "A Aarón",
+        "A Eleazar solo",
+        "A Caleb",
+        "A Josué"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 28:1-4"
+      ],
+      "explanation": "Eran Nadab, Abiú, Eleazar e Itamar.",
+      "tags": [
+        "sacerdocio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0027",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál de estas vestiduras era parte del traje sagrado del sacerdote?",
+      "options": [
+        "El turbante persa",
+        "El cíngulo de plata",
+        "El efod",
+        "La toga"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 28:1-4"
+      ],
+      "explanation": "Incluía también pectoral, manto, túnica bordada, mitra y cinturón.",
+      "tags": [
+        "sacerdocio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0028",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue llenado del Espíritu de Dios para construir el tabernáculo, de la tribu de Judá?",
+      "options": [
+        "Eleazar",
+        "Bezaleel",
+        "Hur",
+        "Aholiab"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 35:30-35"
+      ],
+      "explanation": "Con él colaboró Aholiab, de la tribu de Dan.",
+      "tags": [
+        "tabernaculo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0029",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De qué tribu era Aholiab, ayudante de Bezaleel?",
+      "options": [
+        "De Judá",
+        "De Leví",
+        "De Benjamín",
+        "De Dan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 35:30-35"
+      ],
+      "explanation": "Ambos fueron llenos de sabiduría para toda obra de arte.",
+      "tags": [
+        "tabernaculo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0030",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué día del mes séptimo se hacía expiación por los pecados del pueblo?",
+      "options": [
+        "A los siete días",
+        "A los quince días",
+        "A los catorce días",
+        "A los diez días"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Levítico 16:29-30"
+      ],
+      "explanation": "Debían afligir sus almas y no hacer ninguna obra.",
+      "tags": [
+        "fiestas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0031",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cuál es el segundo gran mandamiento, tomado de Levítico 19:18?",
+      "options": [
+        "Honrar a los ancianos",
+        "No codiciar",
+        "Guardar el sábado",
+        "Amar al prójimo como a ti mismo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Levítico 19:18",
+        "Mateo 22:39"
+      ],
+      "explanation": "Jesús lo cita al responder sobre el gran mandamiento.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0032",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué día del primer mes se celebraba la Pascua?",
+      "options": [
+        "A los catorce días",
+        "A los diez días",
+        "A los quince días",
+        "A los veintiún días"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Levítico 23:5-6"
+      ],
+      "explanation": "Al día siguiente comenzaba la fiesta de los panes sin levadura.",
+      "tags": [
+        "fiestas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0033",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días dura la fiesta de los tabernáculos?",
+      "options": [
+        "Siete días",
+        "Tres días",
+        "Cuarenta días",
+        "Diez días"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Levítico 23:34-36"
+      ],
+      "explanation": "Se celebra en el mes séptimo, con santa convocación el primer día.",
+      "tags": [
+        "fiestas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0034",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cada cuántos años se celebraba el jubileo?",
+      "options": [
+        "A los cincuenta años, tras siete semanas de años",
+        "Cada diez años",
+        "Cada cuarenta años",
+        "Cada siete años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Levítico 25:8-10"
+      ],
+      "explanation": "Se pregonaba libertad y cada uno volvía a su posesión.",
+      "tags": [
+        "fiestas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0035",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Levítico 11:3, ¿qué señales debía tener un animal para poder comerse?",
+      "options": [
+        "Cuernos y cola larga",
+        "Pezuña hendida y que rumie",
+        "Pelo y patas largas",
+        "Alas y cuatro patas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Levítico 11:1-3"
+      ],
+      "explanation": "Dios habló a Moisés y a Aarón.",
+      "tags": [
+        "levitico"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0036",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "question": "¿Cómo termina la bendición sacerdotal de Números 6?",
+      "options": [
+        "Jehová te dé la tierra",
+        "Jehová alce sobre ti su rostro y ponga en ti paz",
+        "Jehová te llene de gozo",
+        "Jehová te guarde de todo mal"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Números 6:24-26"
+      ],
+      "explanation": "Empieza: Jehová te bendiga y te guarde.",
+      "tags": [
+        "numeros"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0037",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué debe amar Israel con todo su corazón, alma y fuerzas, según el Shemá de Deuteronomio 6?",
+      "options": [
+        "A Jehová su Dios",
+        "A la tierra prometida",
+        "A su prójimo",
+        "A la ley de Moisés"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Deuteronomio 6:4-9"
+      ],
+      "explanation": "Las palabras debían repetirse a los hijos y escribirse en los postes.",
+      "tags": [
+        "deuteronomio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0038",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Deuteronomio 6:9, ¿dónde debían escribirse las palabras del Señor?",
+      "options": [
+        "En los postes de la casa y en las puertas",
+        "En los muros de la ciudad",
+        "En tablas de bronce en el templo",
+        "En el borde de los vestidos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Deuteronomio 6:4-9"
+      ],
+      "explanation": "También las ataban como señal en la mano.",
+      "tags": [
+        "deuteronomio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0039",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Deuteronomio 8:3, ¿de qué más vive el hombre, aparte del pan?",
+      "options": [
+        "De la sabiduría de los ancianos",
+        "Del trabajo de sus manos",
+        "De todo lo que sale de la boca de Jehová",
+        "De la ley escrita"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Deuteronomio 8:3"
+      ],
+      "explanation": "Dios los sustentó con maná.",
+      "tags": [
+        "deuteronomio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0040",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "En Deuteronomio 30:19, ¿qué dos cosas puso Dios delante del pueblo para que escogieran?",
+      "options": [
+        "El oro y la plata",
+        "La vida y la muerte, la bendición y la maldición",
+        "El templo y la tienda",
+        "La paz y la guerra"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Deuteronomio 30:19-20"
+      ],
+      "explanation": "Les pidió escoger la vida.",
+      "tags": [
+        "deuteronomio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0041",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cada cuántos años, en la fiesta de los tabernáculos, debía leerse la ley ante todo Israel?",
+      "options": [
+        "Cada siete años",
+        "Cada año",
+        "Cada cincuenta años",
+        "Cada diez años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Deuteronomio 31:9-13"
+      ],
+      "explanation": "Debían oír varones, mujeres, niños y extranjeros.",
+      "tags": [
+        "deuteronomio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0042",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué edad tenía Moisés cuando murió?",
+      "options": [
+        "Ciento diez años",
+        "Cien años",
+        "Ciento cuarenta años",
+        "Ciento veinte años"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Deuteronomio 34:5-7"
+      ],
+      "explanation": "Sus ojos nunca se oscurecieron.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0043",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué tierra murió Moisés?",
+      "options": [
+        "En la tierra de Canaán",
+        "En la tierra de Moab",
+        "En la tierra de Madián",
+        "En Egipto"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Deuteronomio 34:5-7"
+      ],
+      "explanation": "Nadie conoce el lugar de su sepultura hasta hoy.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0044",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según 2 Crónicas 7:14, ¿qué debe hacer el pueblo de Dios para que él perdone sus pecados y sane su tierra?",
+      "options": [
+        "Ayunar cuarenta días",
+        "Reconstruir el templo",
+        "Humillarse, orar, buscar su rostro y convertirse de sus malos caminos",
+        "Ofrecer mil holocaustos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Crónicas 7:14"
+      ],
+      "explanation": "Dios oiría desde los cielos.",
+      "tags": [
+        "cronicas"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0045",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo Jesús que había venido a hacer con la ley y los profetas?",
+      "options": [
+        "No abrogar, sino cumplir",
+        "Reemplazar",
+        "Resumir",
+        "Ampliar con nuevos mandamientos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 5:17-18"
+      ],
+      "explanation": "Ni una jota ni una tilde pasará de la ley hasta que todo se cumpla.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0046",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "Según Jesús, ¿cuál es el primero y grande mandamiento?",
+      "options": [
+        "Honrar a padre y madre",
+        "Santificar el sábado",
+        "Amar al Señor con todo el corazón, alma y mente",
+        "No matarás"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 22:35-40"
+      ],
+      "explanation": "El segundo es semejante: amar al prójimo como a ti mismo.",
+      "tags": [
+        "jesus"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0047",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Gálatas 3:24, ¿qué ha sido la ley para llevarnos a Cristo?",
+      "options": [
+        "Nuestro escudo",
+        "Nuestro ayo",
+        "Nuestra herencia",
+        "Nuestro reino"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Gálatas 3:24-26"
+      ],
+      "explanation": "Es para que fuésemos justificados por la fe.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0048",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Gálatas 3:17, ¿cuántos años después del pacto con Abraham vino la ley?",
+      "options": [
+        "Cuatrocientos",
+        "Quinientos",
+        "Cien",
+        "Cuatrocientos treinta"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Gálatas 3:17-19"
+      ],
+      "explanation": "Pablo dice que la ley no invalida la promesa.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0049",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Romanos 7:7, ¿por medio de qué conoció Pablo el pecado?",
+      "options": [
+        "Por la ley",
+        "Por la tradición de los ancianos",
+        "Por su conciencia",
+        "Por los profetas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Romanos 7:7"
+      ],
+      "explanation": "Pablo menciona el mandamiento «No codiciarás».",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0050",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Hebreos 9:12, ¿por medio de qué sangre entró Cristo una vez para siempre en el Lugar Santísimo?",
+      "options": [
+        "Por sangre de becerros",
+        "Por sangre de machos cabríos",
+        "Por sangre de corderos pascuales",
+        "Por su propia sangre"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Hebreos 9:11-14"
+      ],
+      "explanation": "Obtuvo eterna redención.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0051",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Hebreos 10:1, ¿qué tenía la ley?",
+      "options": [
+        "La sombra de los bienes venideros",
+        "La plenitud de los tiempos",
+        "La imagen misma de las cosas",
+        "La gloria del templo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 10:1"
+      ],
+      "explanation": "Los sacrificios repetidos no pueden perfeccionar a quienes se acercan.",
+      "tags": [
+        "hebreos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0052",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "true_false",
+      "difficulty": 2,
+      "question": "Según Éxodo 20, los israelitas debían trabajar seis días y reposar el séptimo.",
+      "answer": true,
+      "references": [
+        "Éxodo 20:1-17"
+      ],
+      "explanation": "El día de reposo es para Jehová, y reposan también siervos y extranjeros.",
+      "tags": [
+        "mandamientos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0053",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "Según Génesis 17, solo los hijos de Abraham debían ser circuncidados, no los siervos comprados.",
+      "answer": false,
+      "references": [
+        "Génesis 17:10-12"
+      ],
+      "explanation": "El pacto incluye al nacido en casa y al comprado por dinero.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0054",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "true_false",
+      "difficulty": 3,
+      "question": "La ley fue dada antes del pacto con Abraham, según Gálatas 3.",
+      "answer": false,
+      "references": [
+        "Gálatas 3:17-19"
+      ],
+      "explanation": "La ley vino cuatrocientos treinta años después del pacto con Abraham.",
+      "tags": [
+        "pablo"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0055",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena estos pactos de Dios según el orden en que aparecen en la Biblia.",
+      "items": [
+        "Con Noé",
+        "Con Abraham",
+        "Con Moisés en el Sinaí",
+        "Con David"
+      ],
+      "references": [
+        "Génesis 9:9",
+        "Génesis 17:2",
+        "Éxodo 24:8",
+        "2 Samuel 7:16"
+      ],
+      "explanation": "Aparecen en Génesis (Noé, Abraham), Éxodo (Sinaí) y 2 Samuel (David).",
+      "tags": [
+        "pacto",
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-ley_pactos-0056",
+      "module": "core",
+      "category": "ley_pactos",
+      "type": "ordering",
+      "difficulty": 2,
+      "question": "Ordena los primeros cinco libros de la ley (Pentateuco).",
+      "items": [
+        "Génesis",
+        "Éxodo",
+        "Levítico",
+        "Números"
+      ],
+      "references": [
+        "Génesis 1:1",
+        "Éxodo 1:1",
+        "Levítico 1:1",
+        "Números 1:1"
+      ],
+      "explanation": "Después de Números viene Deuteronomio.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    }
+  ]
+}

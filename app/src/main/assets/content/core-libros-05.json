@@ -1,0 +1,3294 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-libros-0065",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Reyes?",
+      "options": [
+        "19",
+        "21",
+        "22",
+        "24"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Reyes 1"
+      ],
+      "explanation": "1 Reyes tiene 22 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0066",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Miqueas?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "4"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Miqueas 1"
+      ],
+      "explanation": "Miqueas tiene 7 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0067",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Tito?",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "3"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Tito 1"
+      ],
+      "explanation": "Tito tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0068",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Filipenses?",
+      "options": [
+        "6",
+        "2",
+        "4",
+        "1"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Filipenses 1"
+      ],
+      "explanation": "Filipenses tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0069",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Job?",
+      "options": [
+        "44",
+        "41",
+        "40",
+        "42"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Job 1"
+      ],
+      "explanation": "Job tiene 42 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0070",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Josué?",
+      "options": [
+        "22",
+        "24",
+        "21",
+        "23"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Josué 1"
+      ],
+      "explanation": "Josué tiene 24 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0071",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Sofonías?",
+      "options": [
+        "5",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Sofonías 1"
+      ],
+      "explanation": "Sofonías tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0072",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Números?",
+      "options": [
+        "34",
+        "33",
+        "36",
+        "37"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Números 1"
+      ],
+      "explanation": "Números tiene 36 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0073",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Efesios?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "8"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 1"
+      ],
+      "explanation": "Efesios tiene 6 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0074",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Romanos?",
+      "options": [
+        "13",
+        "17",
+        "14",
+        "16"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Romanos 1"
+      ],
+      "explanation": "Romanos tiene 16 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0075",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Reyes?",
+      "options": [
+        "25",
+        "26",
+        "24",
+        "22"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Reyes 1"
+      ],
+      "explanation": "2 Reyes tiene 25 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0076",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Jonás?",
+      "options": [
+        "5",
+        "1",
+        "6",
+        "4"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Jonás 1"
+      ],
+      "explanation": "Jonás tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0077",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Malaquías?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "4"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Malaquías 1"
+      ],
+      "explanation": "Malaquías tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0078",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Santiago?",
+      "options": [
+        "7",
+        "3",
+        "5",
+        "4"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Santiago 1"
+      ],
+      "explanation": "Santiago tiene 5 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0079",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Timoteo?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "6"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Timoteo 1"
+      ],
+      "explanation": "2 Timoteo tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0080",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Nehemías?",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "14"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Nehemías 1"
+      ],
+      "explanation": "Nehemías tiene 13 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0081",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Zacarías?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "11"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Zacarías 1"
+      ],
+      "explanation": "Zacarías tiene 14 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0082",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Ezequiel?",
+      "options": [
+        "45",
+        "49",
+        "47",
+        "48"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ezequiel 1"
+      ],
+      "explanation": "Ezequiel tiene 48 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0083",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Oseas?",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "11"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Oseas 1"
+      ],
+      "explanation": "Oseas tiene 14 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0084",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Ester?",
+      "options": [
+        "12",
+        "10",
+        "7",
+        "11"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Ester 1"
+      ],
+      "explanation": "Ester tiene 10 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0085",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Pedro?",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Pedro 1"
+      ],
+      "explanation": "1 Pedro tiene 5 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0086",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Lucas?",
+      "options": [
+        "22",
+        "25",
+        "23",
+        "24"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Lucas 1"
+      ],
+      "explanation": "Lucas tiene 24 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0087",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Tesalonicenses?",
+      "options": [
+        "6",
+        "2",
+        "5",
+        "3"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Tesalonicenses 1"
+      ],
+      "explanation": "1 Tesalonicenses tiene 5 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0088",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Mateo?",
+      "options": [
+        "28",
+        "30",
+        "27",
+        "26"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 1"
+      ],
+      "explanation": "Mateo tiene 28 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0089",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Deuteronomio?",
+      "options": [
+        "36",
+        "34",
+        "33",
+        "32"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Deuteronomio 1"
+      ],
+      "explanation": "Deuteronomio tiene 34 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0090",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Colosenses?",
+      "options": [
+        "4",
+        "6",
+        "2",
+        "1"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Colosenses 1"
+      ],
+      "explanation": "Colosenses tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0091",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Samuel?",
+      "options": [
+        "28",
+        "32",
+        "33",
+        "31"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Samuel 1"
+      ],
+      "explanation": "1 Samuel tiene 31 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0092",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de Jueces?",
+      "options": [
+        "23",
+        "21",
+        "18",
+        "19"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jueces 1"
+      ],
+      "explanation": "Jueces tiene 21 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0093",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Marcos?",
+      "options": [
+        "16",
+        "15",
+        "13",
+        "17"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Marcos 1"
+      ],
+      "explanation": "Marcos tiene 16 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0094",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Gálatas?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Gálatas 1"
+      ],
+      "explanation": "Gálatas tiene 6 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0095",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de Cantares?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "5"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Cantares 1"
+      ],
+      "explanation": "Cantares tiene 8 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0096",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Juan?",
+      "options": [
+        "6",
+        "2",
+        "5",
+        "4"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Juan 1"
+      ],
+      "explanation": "1 Juan tiene 5 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0097",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Rut?",
+      "options": [
+        "1",
+        "4",
+        "6",
+        "3"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Rut 1"
+      ],
+      "explanation": "Rut tiene 4 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0098",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Joel?",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "3"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Joel 1"
+      ],
+      "explanation": "Joel tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0099",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Timoteo?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Timoteo 1"
+      ],
+      "explanation": "1 Timoteo tiene 6 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0100",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Crónicas?",
+      "options": [
+        "33",
+        "35",
+        "36",
+        "38"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Crónicas 1"
+      ],
+      "explanation": "2 Crónicas tiene 36 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0101",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Corintios?",
+      "options": [
+        "13",
+        "14",
+        "16",
+        "17"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Corintios 1"
+      ],
+      "explanation": "1 Corintios tiene 16 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0102",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "question": "¿Cuántos capítulos tiene el libro de Proverbios?",
+      "options": [
+        "33",
+        "31",
+        "28",
+        "32"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 1"
+      ],
+      "explanation": "Proverbios tiene 31 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0103",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Tesalonicenses?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "1"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Tesalonicenses 1"
+      ],
+      "explanation": "2 Tesalonicenses tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0104",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Samuel?",
+      "options": [
+        "21",
+        "23",
+        "26",
+        "24"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Samuel 1"
+      ],
+      "explanation": "2 Samuel tiene 24 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0105",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Pedro?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "1"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Pedro 1"
+      ],
+      "explanation": "2 Pedro tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0106",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos capítulos tiene el libro de 1 Crónicas?",
+      "options": [
+        "30",
+        "26",
+        "29",
+        "28"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Crónicas 1"
+      ],
+      "explanation": "1 Crónicas tiene 29 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0107",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos capítulos tiene el libro de Habacuc?",
+      "options": [
+        "3",
+        "1",
+        "6",
+        "5"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Habacuc 1"
+      ],
+      "explanation": "Habacuc tiene 3 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0108",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos capítulos tiene el libro de 2 Corintios?",
+      "options": [
+        "15",
+        "12",
+        "11",
+        "13"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Corintios 1"
+      ],
+      "explanation": "2 Corintios tiene 13 capítulos.",
+      "tags": [
+        "capitulos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0109",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Corintios en la Biblia?",
+      "options": [
+        "Juan",
+        "Hechos",
+        "Gálatas",
+        "2 Corintios"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Corintios 1"
+      ],
+      "explanation": "2 Corintios sigue a 1 Corintios.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0110",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Filemón en la Biblia?",
+      "options": [
+        "1 Pedro",
+        "Hebreos",
+        "1 Juan",
+        "2 Juan"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 1"
+      ],
+      "explanation": "Hebreos sigue a Filemón.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0111",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Rut en la Biblia?",
+      "options": [
+        "1 Samuel",
+        "Josué",
+        "2 Reyes",
+        "Deuteronomio"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Samuel 1"
+      ],
+      "explanation": "1 Samuel sigue a Rut.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0112",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Oseas en la Biblia?",
+      "options": [
+        "Miqueas",
+        "Joel",
+        "Ezequiel",
+        "Nahúm"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Joel 1"
+      ],
+      "explanation": "Joel sigue a Oseas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0113",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Pedro en la Biblia?",
+      "options": [
+        "Filemón",
+        "3 Juan",
+        "Hebreos",
+        "2 Pedro"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Pedro 1"
+      ],
+      "explanation": "2 Pedro sigue a 1 Pedro.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0114",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Santiago en la Biblia?",
+      "options": [
+        "1 Pedro",
+        "2 Timoteo",
+        "Filemón",
+        "1 Timoteo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Pedro 1"
+      ],
+      "explanation": "1 Pedro sigue a Santiago.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0115",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Samuel en la Biblia?",
+      "options": [
+        "2 Samuel",
+        "Nehemías",
+        "Deuteronomio",
+        "2 Crónicas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Samuel 1"
+      ],
+      "explanation": "2 Samuel sigue a 1 Samuel.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0116",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Jonás en la Biblia?",
+      "options": [
+        "Amós",
+        "Miqueas",
+        "Abdías",
+        "Oseas"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Miqueas 1"
+      ],
+      "explanation": "Miqueas sigue a Jonás.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0117",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Ester en la Biblia?",
+      "options": [
+        "Esdras",
+        "Job",
+        "Nehemías",
+        "Jeremías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Job 1"
+      ],
+      "explanation": "Job sigue a Ester.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0119",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 2 Reyes en la Biblia?",
+      "options": [
+        "Esdras",
+        "Ester",
+        "1 Crónicas",
+        "Salmos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "1 Crónicas 1"
+      ],
+      "explanation": "1 Crónicas sigue a 2 Reyes.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0120",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Colosenses en la Biblia?",
+      "options": [
+        "Tito",
+        "1 Tesalonicenses",
+        "Efesios",
+        "2 Timoteo"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Tesalonicenses 1"
+      ],
+      "explanation": "1 Tesalonicenses sigue a Colosenses.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0121",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 2 Juan en la Biblia?",
+      "options": [
+        "3 Juan",
+        "1 Juan",
+        "Hebreos",
+        "Apocalipsis"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "3 Juan 1"
+      ],
+      "explanation": "3 Juan sigue a 2 Juan.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0122",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 2 Pedro en la Biblia?",
+      "options": [
+        "Apocalipsis",
+        "1 Juan",
+        "Filemón",
+        "2 Juan"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Juan 1"
+      ],
+      "explanation": "1 Juan sigue a 2 Pedro.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0123",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Juan en la Biblia?",
+      "options": [
+        "3 Juan",
+        "1 Pedro",
+        "Judas",
+        "2 Juan"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Juan 1"
+      ],
+      "explanation": "2 Juan sigue a 1 Juan.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0124",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Job en la Biblia?",
+      "options": [
+        "Salmos",
+        "Cantares",
+        "Eclesiastés",
+        "2 Crónicas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 1"
+      ],
+      "explanation": "Salmos sigue a Job.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0125",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Nehemías en la Biblia?",
+      "options": [
+        "2 Reyes",
+        "Job",
+        "2 Crónicas",
+        "Ester"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Ester 1"
+      ],
+      "explanation": "Ester sigue a Nehemías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0126",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Números en la Biblia?",
+      "options": [
+        "Deuteronomio",
+        "Josué",
+        "2 Samuel",
+        "Jueces"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Deuteronomio 1"
+      ],
+      "explanation": "Deuteronomio sigue a Números.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0128",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Lucas en la Biblia?",
+      "options": [
+        "Mateo",
+        "Gálatas",
+        "Juan",
+        "Romanos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 1"
+      ],
+      "explanation": "Juan sigue a Lucas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0129",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Proverbios en la Biblia?",
+      "options": [
+        "Ester",
+        "Ezequiel",
+        "Salmos",
+        "Eclesiastés"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Eclesiastés 1"
+      ],
+      "explanation": "Eclesiastés sigue a Proverbios.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0131",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Marcos en la Biblia?",
+      "options": [
+        "Sofonías",
+        "Mateo",
+        "Lucas",
+        "Romanos"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 1"
+      ],
+      "explanation": "Lucas sigue a Marcos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0132",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Deuteronomio en la Biblia?",
+      "options": [
+        "Josué",
+        "Números",
+        "Jueces",
+        "Rut"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 1"
+      ],
+      "explanation": "Josué sigue a Deuteronomio.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0133",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Gálatas en la Biblia?",
+      "options": [
+        "Filipenses",
+        "Colosenses",
+        "Efesios",
+        "Juan"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Efesios 1"
+      ],
+      "explanation": "Efesios sigue a Gálatas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0134",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Ezequiel en la Biblia?",
+      "options": [
+        "Daniel",
+        "Lamentaciones",
+        "Jeremías",
+        "Abdías"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 1"
+      ],
+      "explanation": "Daniel sigue a Ezequiel.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0135",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Crónicas en la Biblia?",
+      "options": [
+        "1 Samuel",
+        "1 Reyes",
+        "2 Crónicas",
+        "Proverbios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Crónicas 1"
+      ],
+      "explanation": "2 Crónicas sigue a 1 Crónicas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0136",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Mateo en la Biblia?",
+      "options": [
+        "Romanos",
+        "Marcos",
+        "Habacuc",
+        "Malaquías"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Marcos 1"
+      ],
+      "explanation": "Marcos sigue a Mateo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0137",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 1 Timoteo en la Biblia?",
+      "options": [
+        "Colosenses",
+        "2 Timoteo",
+        "Efesios",
+        "1 Pedro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "2 Timoteo 1"
+      ],
+      "explanation": "2 Timoteo sigue a 1 Timoteo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0138",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Efesios en la Biblia?",
+      "options": [
+        "Colosenses",
+        "2 Corintios",
+        "Filipenses",
+        "1 Corintios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Filipenses 1"
+      ],
+      "explanation": "Filipenses sigue a Efesios.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0139",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Esdras en la Biblia?",
+      "options": [
+        "2 Crónicas",
+        "Eclesiastés",
+        "Cantares",
+        "Nehemías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Nehemías 1"
+      ],
+      "explanation": "Nehemías sigue a Esdras.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0140",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Abdías en la Biblia?",
+      "options": [
+        "Sofonías",
+        "Jonás",
+        "Amós",
+        "Ezequiel"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Jonás 1"
+      ],
+      "explanation": "Jonás sigue a Abdías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0141",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de Romanos en la Biblia?",
+      "options": [
+        "Gálatas",
+        "1 Corintios",
+        "Colosenses",
+        "Juan"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "1 Corintios 1"
+      ],
+      "explanation": "1 Corintios sigue a Romanos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0142",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro viene justo después de 3 Juan en la Biblia?",
+      "options": [
+        "Judas",
+        "1 Juan",
+        "2 Juan",
+        "Apocalipsis"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Judas 1"
+      ],
+      "explanation": "Judas sigue a 3 Juan.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0143",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Jeremías en la Biblia?",
+      "options": [
+        "Isaías",
+        "Joel",
+        "Amós",
+        "Ezequiel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 1"
+      ],
+      "explanation": "Isaías precede a Jeremías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0144",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Ezequiel en la Biblia?",
+      "options": [
+        "Isaías",
+        "Lamentaciones",
+        "Joel",
+        "Amós"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Lamentaciones 1"
+      ],
+      "explanation": "Lamentaciones precede a Ezequiel.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0146",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Lamentaciones en la Biblia?",
+      "options": [
+        "Salmos",
+        "Amós",
+        "Jeremías",
+        "Daniel"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Jeremías 1"
+      ],
+      "explanation": "Jeremías precede a Lamentaciones.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0147",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Levítico en la Biblia?",
+      "options": [
+        "Josué",
+        "1 Samuel",
+        "Rut",
+        "Éxodo"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 1"
+      ],
+      "explanation": "Éxodo precede a Levítico.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0148",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Amós en la Biblia?",
+      "options": [
+        "Habacuc",
+        "Joel",
+        "Abdías",
+        "Lamentaciones"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Joel 1"
+      ],
+      "explanation": "Joel precede a Amós.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0149",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de 1 Timoteo en la Biblia?",
+      "options": [
+        "Santiago",
+        "Gálatas",
+        "2 Corintios",
+        "2 Tesalonicenses"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "2 Tesalonicenses 1"
+      ],
+      "explanation": "2 Tesalonicenses precede a 1 Timoteo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0150",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Abdías en la Biblia?",
+      "options": [
+        "Joel",
+        "Oseas",
+        "Sofonías",
+        "Amós"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Amós 1"
+      ],
+      "explanation": "Amós precede a Abdías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0151",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de 2 Reyes en la Biblia?",
+      "options": [
+        "1 Reyes",
+        "Job",
+        "1 Crónicas",
+        "2 Crónicas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Reyes 1"
+      ],
+      "explanation": "1 Reyes precede a 2 Reyes.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0152",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Gálatas en la Biblia?",
+      "options": [
+        "2 Corintios",
+        "Lucas",
+        "1 Timoteo",
+        "Efesios"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Corintios 1"
+      ],
+      "explanation": "2 Corintios precede a Gálatas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0153",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Apocalipsis en la Biblia?",
+      "options": [
+        "1 Juan",
+        "3 Juan",
+        "1 Pedro",
+        "Judas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Judas 1"
+      ],
+      "explanation": "Judas precede a Apocalipsis.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0154",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Sofonías en la Biblia?",
+      "options": [
+        "Joel",
+        "Mateo",
+        "Habacuc",
+        "Zacarías"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Habacuc 1"
+      ],
+      "explanation": "Habacuc precede a Sofonías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0155",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Malaquías en la Biblia?",
+      "options": [
+        "Zacarías",
+        "Nahúm",
+        "Hechos",
+        "Jonás"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Zacarías 1"
+      ],
+      "explanation": "Zacarías precede a Malaquías.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0156",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de 1 Reyes en la Biblia?",
+      "options": [
+        "1 Samuel",
+        "Josué",
+        "2 Samuel",
+        "Rut"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Samuel 1"
+      ],
+      "explanation": "2 Samuel precede a 1 Reyes.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0157",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de 2 Tesalonicenses en la Biblia?",
+      "options": [
+        "1 Timoteo",
+        "Gálatas",
+        "Santiago",
+        "1 Tesalonicenses"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "1 Tesalonicenses 1"
+      ],
+      "explanation": "1 Tesalonicenses precede a 2 Tesalonicenses.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0158",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Colosenses en la Biblia?",
+      "options": [
+        "Filipenses",
+        "2 Timoteo",
+        "Efesios",
+        "Gálatas"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Filipenses 1"
+      ],
+      "explanation": "Filipenses precede a Colosenses.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0159",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Éxodo en la Biblia?",
+      "options": [
+        "Génesis",
+        "Josué",
+        "Levítico",
+        "Deuteronomio"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 1"
+      ],
+      "explanation": "Génesis precede a Éxodo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0160",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Santiago en la Biblia?",
+      "options": [
+        "Hebreos",
+        "2 Timoteo",
+        "2 Juan",
+        "Filemón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Hebreos 1"
+      ],
+      "explanation": "Hebreos precede a Santiago.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0161",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Oseas en la Biblia?",
+      "options": [
+        "Daniel",
+        "Amós",
+        "Eclesiastés",
+        "Ezequiel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Daniel 1"
+      ],
+      "explanation": "Daniel precede a Oseas.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0162",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Hechos en la Biblia?",
+      "options": [
+        "Romanos",
+        "1 Corintios",
+        "Juan",
+        "Efesios"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Juan 1"
+      ],
+      "explanation": "Juan precede a Hechos.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0163",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Nahúm en la Biblia?",
+      "options": [
+        "Miqueas",
+        "Jonás",
+        "Zacarías",
+        "Joel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Miqueas 1"
+      ],
+      "explanation": "Miqueas precede a Nahúm.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0164",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Hageo en la Biblia?",
+      "options": [
+        "Juan",
+        "Marcos",
+        "Nahúm",
+        "Sofonías"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Sofonías 1"
+      ],
+      "explanation": "Sofonías precede a Hageo.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0165",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Esdras en la Biblia?",
+      "options": [
+        "Job",
+        "2 Samuel",
+        "2 Crónicas",
+        "Ester"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "2 Crónicas 1"
+      ],
+      "explanation": "2 Crónicas precede a Esdras.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0166",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Habacuc en la Biblia?",
+      "options": [
+        "Nahúm",
+        "Marcos",
+        "Oseas",
+        "Hageo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Nahúm 1"
+      ],
+      "explanation": "Nahúm precede a Habacuc.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0167",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Rut en la Biblia?",
+      "options": [
+        "Jueces",
+        "Números",
+        "Josué",
+        "1 Samuel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Jueces 1"
+      ],
+      "explanation": "Jueces precede a Rut.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0168",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Jueces en la Biblia?",
+      "options": [
+        "Josué",
+        "Números",
+        "1 Reyes",
+        "2 Samuel"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Josué 1"
+      ],
+      "explanation": "Josué precede a Jueces.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0169",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Filemón en la Biblia?",
+      "options": [
+        "Tito",
+        "1 Timoteo",
+        "2 Timoteo",
+        "Santiago"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Tito 1"
+      ],
+      "explanation": "Tito precede a Filemón.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0170",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué libro está justo antes de Tito en la Biblia?",
+      "options": [
+        "2 Timoteo",
+        "1 Pedro",
+        "Filemón",
+        "1 Tesalonicenses"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "2 Timoteo 1"
+      ],
+      "explanation": "2 Timoteo precede a Tito.",
+      "tags": [
+        "orden"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0171",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos versículos tiene Salmos 117 en la Reina-Valera 1960?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "2"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 117"
+      ],
+      "explanation": "Salmos 117 tiene 2 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0172",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos versículos tiene Salmos 119 en la Reina-Valera 1960?",
+      "options": [
+        "178",
+        "174",
+        "177",
+        "176"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 119"
+      ],
+      "explanation": "Salmos 119 tiene 176 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0173",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Salmos 23 en la Reina-Valera 1960?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 23"
+      ],
+      "explanation": "Salmos 23 tiene 6 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0174",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Salmos 1 en la Reina-Valera 1960?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Salmos 1"
+      ],
+      "explanation": "Salmos 1 tiene 6 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0175",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos versículos tiene Salmos 100 en la Reina-Valera 1960?",
+      "options": [
+        "7",
+        "6",
+        "4",
+        "5"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 100"
+      ],
+      "explanation": "Salmos 100 tiene 5 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0176",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Salmos 150 en la Reina-Valera 1960?",
+      "options": [
+        "5",
+        "8",
+        "7",
+        "6"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Salmos 150"
+      ],
+      "explanation": "Salmos 150 tiene 6 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0177",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Juan 3 en la Reina-Valera 1960?",
+      "options": [
+        "35",
+        "37",
+        "38",
+        "36"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 3"
+      ],
+      "explanation": "Juan 3 tiene 36 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0178",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos versículos tiene Mateo 5 en la Reina-Valera 1960?",
+      "options": [
+        "48",
+        "46",
+        "49",
+        "50"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Mateo 5"
+      ],
+      "explanation": "Mateo 5 tiene 48 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0179",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos versículos tiene Lucas 1 en la Reina-Valera 1960?",
+      "options": [
+        "81",
+        "79",
+        "80",
+        "77"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Lucas 1"
+      ],
+      "explanation": "Lucas 1 tiene 80 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0180",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Génesis 1 en la Reina-Valera 1960?",
+      "options": [
+        "33",
+        "29",
+        "31",
+        "28"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 1"
+      ],
+      "explanation": "Génesis 1 tiene 31 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0181",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Génesis 50 en la Reina-Valera 1960?",
+      "options": [
+        "24",
+        "28",
+        "26",
+        "23"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 50"
+      ],
+      "explanation": "Génesis 50 tiene 26 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0182",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Éxodo 20 en la Reina-Valera 1960?",
+      "options": [
+        "23",
+        "28",
+        "25",
+        "26"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 20"
+      ],
+      "explanation": "Éxodo 20 tiene 26 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0183",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene 1 Corintios 13 en la Reina-Valera 1960?",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "14"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "1 Corintios 13"
+      ],
+      "explanation": "1 Corintios 13 tiene 13 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0184",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Romanos 8 en la Reina-Valera 1960?",
+      "options": [
+        "41",
+        "39",
+        "36",
+        "37"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Romanos 8"
+      ],
+      "explanation": "Romanos 8 tiene 39 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0185",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Isaías 53 en la Reina-Valera 1960?",
+      "options": [
+        "12",
+        "10",
+        "9",
+        "14"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Isaías 53"
+      ],
+      "explanation": "Isaías 53 tiene 12 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0186",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Hebreos 11 en la Reina-Valera 1960?",
+      "options": [
+        "38",
+        "40",
+        "39",
+        "41"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Hebreos 11"
+      ],
+      "explanation": "Hebreos 11 tiene 40 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0187",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Salmos 91 en la Reina-Valera 1960?",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Salmos 91"
+      ],
+      "explanation": "Salmos 91 tiene 16 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0188",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Proverbios 31 en la Reina-Valera 1960?",
+      "options": [
+        "33",
+        "31",
+        "32",
+        "28"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Proverbios 31"
+      ],
+      "explanation": "Proverbios 31 tiene 31 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0189",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Apocalipsis 22 en la Reina-Valera 1960?",
+      "options": [
+        "22",
+        "19",
+        "23",
+        "21"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Apocalipsis 22"
+      ],
+      "explanation": "Apocalipsis 22 tiene 21 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0190",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Mateo 6 en la Reina-Valera 1960?",
+      "options": [
+        "36",
+        "33",
+        "34",
+        "35"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Mateo 6"
+      ],
+      "explanation": "Mateo 6 tiene 34 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0191",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "question": "¿Cuántos versículos tiene Juan 1 en la Reina-Valera 1960?",
+      "options": [
+        "48",
+        "50",
+        "53",
+        "51"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Juan 1"
+      ],
+      "explanation": "Juan 1 tiene 51 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0192",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Romanos 12 en la Reina-Valera 1960?",
+      "options": [
+        "21",
+        "18",
+        "20",
+        "23"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Romanos 12"
+      ],
+      "explanation": "Romanos 12 tiene 21 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0193",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Salmos 121 en la Reina-Valera 1960?",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "7"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Salmos 121"
+      ],
+      "explanation": "Salmos 121 tiene 8 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0194",
+      "module": "core",
+      "category": "libros",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos versículos tiene Job 1 en la Reina-Valera 1960?",
+      "options": [
+        "23",
+        "22",
+        "20",
+        "19"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Job 1"
+      ],
+      "explanation": "Job 1 tiene 22 versículos.",
+      "tags": [
+        "versiculos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0195",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Rut pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Rut 1"
+      ],
+      "explanation": "Rut está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0196",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Joel pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Joel 1"
+      ],
+      "explanation": "Joel está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0197",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Joel pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Joel 1"
+      ],
+      "explanation": "Joel está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0198",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Nahúm pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Nahúm 1"
+      ],
+      "explanation": "Nahúm está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0199",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Nahúm pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Nahúm 1"
+      ],
+      "explanation": "Nahúm está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0200",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Hageo pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Hageo 1"
+      ],
+      "explanation": "Hageo está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0201",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Hageo pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Hageo 1"
+      ],
+      "explanation": "Hageo está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0202",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Ester pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Ester 1"
+      ],
+      "explanation": "Ester está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0203",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Ester pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Ester 1"
+      ],
+      "explanation": "Ester está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0204",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Lamentaciones pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Lamentaciones 1"
+      ],
+      "explanation": "Lamentaciones está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0205",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Lamentaciones pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Lamentaciones 1"
+      ],
+      "explanation": "Lamentaciones está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0206",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Abdías pertenece al Antiguo Testamento.",
+      "answer": true,
+      "references": [
+        "Abdías 1"
+      ],
+      "explanation": "Abdías está en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0207",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Abdías pertenece al Nuevo Testamento.",
+      "answer": false,
+      "references": [
+        "Abdías 1"
+      ],
+      "explanation": "Abdías está en el Antiguo Testamento, no en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0208",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Tito pertenece al Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "Tito 1"
+      ],
+      "explanation": "Tito está en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0209",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Tito pertenece al Antiguo Testamento.",
+      "answer": false,
+      "references": [
+        "Tito 1"
+      ],
+      "explanation": "Tito está en el Nuevo Testamento, no en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0210",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Judas pertenece al Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "Judas 1"
+      ],
+      "explanation": "Judas está en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0211",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Judas pertenece al Antiguo Testamento.",
+      "answer": false,
+      "references": [
+        "Judas 1"
+      ],
+      "explanation": "Judas está en el Nuevo Testamento, no en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0212",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Filemón pertenece al Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "Filemón 1"
+      ],
+      "explanation": "Filemón está en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0213",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Filemón pertenece al Antiguo Testamento.",
+      "answer": false,
+      "references": [
+        "Filemón 1"
+      ],
+      "explanation": "Filemón está en el Nuevo Testamento, no en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0214",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de 3 Juan pertenece al Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "3 Juan 1"
+      ],
+      "explanation": "3 Juan está en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0215",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de 3 Juan pertenece al Antiguo Testamento.",
+      "answer": false,
+      "references": [
+        "3 Juan 1"
+      ],
+      "explanation": "3 Juan está en el Nuevo Testamento, no en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0216",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Hebreos pertenece al Nuevo Testamento.",
+      "answer": true,
+      "references": [
+        "Hebreos 1"
+      ],
+      "explanation": "Hebreos está en el Nuevo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-libros-0217",
+      "module": "core",
+      "category": "libros",
+      "type": "true_false",
+      "difficulty": 1,
+      "question": "El libro de Hebreos pertenece al Antiguo Testamento.",
+      "answer": false,
+      "references": [
+        "Hebreos 1"
+      ],
+      "explanation": "Hebreos está en el Nuevo Testamento, no en el Antiguo Testamento.",
+      "tags": [
+        "testamentos"
+      ],
+      "reviewed": true
+    }
+  ]
+}

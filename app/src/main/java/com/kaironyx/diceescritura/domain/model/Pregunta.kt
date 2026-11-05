@@ -19,6 +19,11 @@ enum class Categoria(val id: String, val modulo: Modulo) {
     ENSENANZAS("ensenanzas", Modulo.CORE),
     CARTAS("cartas", Modulo.CORE),
     DONDE_ESTA_ESCRITO("donde_escrito", Modulo.CORE),
+    PROFETAS("profetas", Modulo.CORE),
+    SABIDURIA("sabiduria", Modulo.CORE),
+    MILAGROS("milagros", Modulo.CORE),
+    LEY_PACTOS("ley_pactos", Modulo.CORE),
+    HECHOS("hechos", Modulo.CORE),
     CONFESION("confesion", Modulo.CONFESION_1689),
     ;
 

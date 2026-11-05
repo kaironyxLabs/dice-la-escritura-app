@@ -1,0 +1,1047 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-historia-0082",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué se dedicaban Caín y Abel?",
+      "options": [
+        "Caín era pastor y Abel, labrador",
+        "Ambos eran constructores",
+        "Ambos eran pescadores",
+        "Caín era labrador de la tierra y Abel, pastor de ovejas"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 4:1-8"
+      ],
+      "explanation": "Cada uno trajo una ofrenda a Jehová.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0083",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos años vivió Enoc en total, antes de que Dios se lo llevara?",
+      "options": [
+        "Cuatrocientos cuarenta",
+        "Trescientos sesenta y cinco",
+        "Ciento veinte",
+        "Novecientos sesenta y nueve"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 5:21-24"
+      ],
+      "explanation": "Caminó con Dios y desapareció, porque se lo llevó Dios.",
+      "tags": [
+        "origenes"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0084",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuáles eran las dimensiones de largo del arca de Noé?",
+      "options": [
+        "Trescientos codos",
+        "Cien codos",
+        "Cincuenta codos",
+        "Seiscientos codos"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 6:14-16"
+      ],
+      "explanation": "Su anchura era de cincuenta codos y su altura de treinta.",
+      "tags": [
+        "noe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0085",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De qué madera mandó Dios construir el arca?",
+      "options": [
+        "De gofer",
+        "De acacia",
+        "De ciprés",
+        "De cedro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 6:14-16"
+      ],
+      "explanation": "Debía calafatearse con brea por dentro y por fuera.",
+      "tags": [
+        "noe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0086",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos días y noches llovió sobre la tierra en el diluvio?",
+      "options": [
+        "Ciento cincuenta",
+        "Siete",
+        "Cuarenta",
+        "Doce"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 7:11-12"
+      ],
+      "explanation": "Se rompieron las fuentes del grande abismo.",
+      "tags": [
+        "noe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0087",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Sobre qué montes reposó el arca al fin del diluvio?",
+      "options": [
+        "Los montes de Ararat",
+        "El monte Sinaí",
+        "El monte Carmelo",
+        "El monte Moriah"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 8:4"
+      ],
+      "explanation": "Reposó en el mes séptimo, a los diecisiete días.",
+      "tags": [
+        "noe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0088",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué traía la paloma en el pico cuando volvió a Noé por la tarde?",
+      "options": [
+        "Un puñado de trigo",
+        "Una hoja de olivo",
+        "Una flor del campo",
+        "Una rama de higuera"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 8:11"
+      ],
+      "explanation": "Noé entendió que las aguas se habían retirado.",
+      "tags": [
+        "noe"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0089",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿De qué ciudad salió Taré con Abram, Lot y Sarai para ir a Canaán?",
+      "options": [
+        "Ur de los caldeos",
+        "Harán",
+        "Babilonia",
+        "Nínive"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 11:27-32"
+      ],
+      "explanation": "Llegaron hasta Harán y se quedaron allí.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0090",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué edad tenía Abram cuando salió de Harán?",
+      "options": [
+        "Setenta y cinco años",
+        "Noventa y nueve años",
+        "Cien años",
+        "Cincuenta años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 12:1-4"
+      ],
+      "explanation": "Dios le había dicho: vete de tu tierra.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0091",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué hicieron Abram y Lot para evitar el altercado entre sus pastores?",
+      "options": [
+        "Se separaron: Lot escogió la llanura del Jordán",
+        "Dividieron el ganado en dos partes iguales",
+        "Se fueron juntos a Egipto",
+        "Hicieron un pacto con Melquisedec"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 13:8-12"
+      ],
+      "explanation": "Abram acampó en Canaán y Lot habitó hasta Sodoma.",
+      "tags": [
+        "abraham",
+        "lot"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0092",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿A quién dio Abram los diezmos de todo tras su victoria?",
+      "options": [
+        "A Lot",
+        "A Abimelec",
+        "A Melquisedec, rey de Salem",
+        "Al rey de Sodoma"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 14:18-20"
+      ],
+      "explanation": "Melquisedec era sacerdote del Dios Altísimo.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0093",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos años llevaba Abram habitando en Canaán cuando Sarai le dio por mujer a Agar?",
+      "options": [
+        "Siete años",
+        "Cinco años",
+        "Diez años",
+        "Veinte años"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 16:1-4"
+      ],
+      "explanation": "Agar era la sierva egipcia de Sarai.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0094",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué destruyó a Sodoma y Gomorra?",
+      "options": [
+        "Un terremoto",
+        "Un diluvio",
+        "Azufre y fuego del cielo",
+        "Una plaga de langostas"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 19:24-26"
+      ],
+      "explanation": "La mujer de Lot miró atrás y se volvió estatua de sal.",
+      "tags": [
+        "lot"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0095",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué edad tenía Abraham cuando nació Isaac?",
+      "options": [
+        "Cien años",
+        "Setenta y cinco años",
+        "Ciento veinte años",
+        "Noventa años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 21:1-5"
+      ],
+      "explanation": "Fue circuncidado a los ocho días.",
+      "tags": [
+        "abraham",
+        "isaac"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0096",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿A qué tierra mandó Dios a Abraham a ofrecer a Isaac en holocausto?",
+      "options": [
+        "A la tierra de Gosén",
+        "A la tierra de Madián",
+        "A la tierra de Moriah",
+        "A la tierra de Canaán"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 22:1-3"
+      ],
+      "explanation": "Abraham se levantó muy de mañana y cortó leña.",
+      "tags": [
+        "abraham",
+        "isaac"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0097",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Dónde estaba Isaac cuando vio llegar los camellos con Rebeca?",
+      "options": [
+        "En el pozo de Beerseba",
+        "En el templo",
+        "En la puerta de su tienda",
+        "En el campo, meditando a la hora de la tarde"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 24:61-67"
+      ],
+      "explanation": "Isaac la trajo a la tienda de su madre Sara.",
+      "tags": [
+        "isaac",
+        "rebeca"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0098",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Por qué se llamó Edom a Esaú?",
+      "options": [
+        "Porque nació rojo",
+        "Porque vivía en tierra roja",
+        "Porque era pelirrojo",
+        "Porque pidió el guiso rojo de Jacob"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 25:29-34"
+      ],
+      "explanation": "Vendió su primogenitura por pan y lentejas.",
+      "tags": [
+        "esau"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0099",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué quiere decir Esaú al afirmar que Jacob lo «suplantó»?",
+      "options": [
+        "Que lo traicionó con los egipcios",
+        "Que le quitó a su esposa",
+        "Que huyó con su ganado",
+        "Que le quitó su primogenitura y su bendición"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 27:34-36"
+      ],
+      "explanation": "Dijo que bien llamaron su nombre Jacob.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0100",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué vio Jacob en su sueño en Bet-el?",
+      "options": [
+        "Un río de fuego",
+        "Una escalera que tocaba el cielo con ángeles subiendo y descendiendo",
+        "Un carro de fuego",
+        "Un trono sobre una nube"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 28:10-13"
+      ],
+      "explanation": "Jehová estaba en lo alto de la escalera.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0101",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos años sirvió Jacob a Labán por Raquel la primera vez?",
+      "options": [
+        "Siete años",
+        "Veinte años",
+        "Tres años",
+        "Catorce años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 29:16-20"
+      ],
+      "explanation": "Le parecieron como pocos días porque la amaba.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0102",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué nombre recibió Jacob tras luchar con el varón hasta el alba?",
+      "options": [
+        "Judá",
+        "Efraín",
+        "Edom",
+        "Israel"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 32:24-28"
+      ],
+      "explanation": "Se le descoyuntó el muslo mientras luchaba.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0103",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo llamó Raquel a su hijo al morir, y cómo lo llamó Jacob?",
+      "options": [
+        "Efraín, pero Jacob lo llamó Manasés",
+        "Zabulón, pero Jacob lo llamó Isacar",
+        "Benoni, pero Jacob lo llamó Benjamín",
+        "Gad, pero Jacob lo llamó Aser"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 35:16-19"
+      ],
+      "explanation": "Raquel fue sepultada en el camino de Efrata, que es Belén.",
+      "tags": [
+        "jacob",
+        "raquel"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0104",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Por qué se pusieron celosos los hermanos de José?",
+      "options": [
+        "Porque era el favorito de Faraón",
+        "Porque su padre lo amaba más y le hizo una túnica de diversos colores",
+        "Porque José era mayor que ellos",
+        "Porque José era rico"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 37:3-4"
+      ],
+      "explanation": "José era hijo de su vejez.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0105",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Por cuántas piezas de plata vendieron a José a los ismaelitas?",
+      "options": [
+        "Treinta",
+        "Cien",
+        "Diez",
+        "Veinte"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 37:26-28"
+      ],
+      "explanation": "Judá propuso venderlo en lugar de matarlo.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0106",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién compró a José en Egipto?",
+      "options": [
+        "Potifar, capitán de la guardia de Faraón",
+        "Un mercader madianita",
+        "El mayordomo de Faraón",
+        "El rey de Egipto"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 39:1-2"
+      ],
+      "explanation": "Jehová estaba con José y fue próspero.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0107",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué edad tenía José cuando fue presentado delante de Faraón?",
+      "options": [
+        "Treinta años",
+        "Cuarenta años",
+        "Veinte años",
+        "Diecisiete años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 41:41-46"
+      ],
+      "explanation": "Faraón lo puso sobre toda la tierra de Egipto.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0108",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué nombre egipcio le dio Faraón a José?",
+      "options": [
+        "Efraín",
+        "Asenat",
+        "Zafnat-panea",
+        "Potifera"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 41:41-46"
+      ],
+      "explanation": "Le dio por mujer a Asenat.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0109",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué dijo José a sus hermanos sobre por qué Dios lo había enviado a Egipto?",
+      "options": [
+        "Para castigarlos",
+        "Para enseñarles a trabajar",
+        "Para unir a sus hijos",
+        "Para preservar la vida"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 45:4-8"
+      ],
+      "explanation": "Dijo que no lo habían enviado ellos, sino Dios.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0110",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué mandó José que hicieran con sus huesos?",
+      "options": [
+        "Que los esparcieran en el mar",
+        "Que los llevaran con ellos al salir de Egipto",
+        "Que los pusieran en el templo",
+        "Que los enterraran en Egipto"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 50:24-26"
+      ],
+      "explanation": "José murió a los ciento diez años.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0111",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos meses escondió su madre al niño Moisés?",
+      "options": [
+        "Cuarenta días",
+        "Un año",
+        "Siete",
+        "Tres"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 2:1-10"
+      ],
+      "explanation": "Luego lo puso en una arquilla de juncos junto al río.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0112",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién encontró la arquilla donde estaba Moisés?",
+      "options": [
+        "Una criada de Aarón",
+        "Una mujer madianita",
+        "La esposa de Jetro",
+        "La hija de Faraón"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 2:1-10"
+      ],
+      "explanation": "Le puso por nombre Moisés porque de las aguas lo sacó.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0113",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Por qué huyó Moisés a Madián?",
+      "options": [
+        "Porque Faraón lo desterró",
+        "Porque Aarón lo traicionó",
+        "Porque mató a un egipcio y Faraón procuró matarlo",
+        "Porque quería casarse con una madianita"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 2:11-15"
+      ],
+      "explanation": "Moisés mató a un egipcio que golpeaba a un hebreo.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0114",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Qué dijo Dios a Moisés desde la zarza que hiciera con su calzado?",
+      "options": [
+        "Que lo llevara a Faraón",
+        "Que lo dejara en la zarza",
+        "Que lo atara",
+        "Que se lo quitara, porque el lugar era tierra santa"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 3:1-6"
+      ],
+      "explanation": "Moisés cubrió su rostro porque tuvo miedo de mirar a Dios.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0115",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué se convirtió la vara de Moisés cuando la echó en tierra?",
+      "options": [
+        "En una paloma",
+        "En una culebra",
+        "En una piedra",
+        "En una antorcha"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 4:1-5"
+      ],
+      "explanation": "Al tomarla por la cola, volvió a ser vara.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0116",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Qué edad tenía Moisés cuando él y Aarón hablaron a Faraón?",
+      "options": [
+        "Ochenta años",
+        "Cien años",
+        "Sesenta años",
+        "Cuarenta años"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 7:7"
+      ],
+      "explanation": "Aarón tenía ochenta y tres.",
+      "tags": [
+        "moises",
+        "aaron"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0117",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cómo guiaba Jehová al pueblo de día y de noche en el desierto?",
+      "options": [
+        "Con una columna de nube de día y una de fuego de noche",
+        "Con una vara luminosa",
+        "Con una estrella en el cielo",
+        "Con un ángel con espada"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 13:20-22"
+      ],
+      "explanation": "Nunca se apartó de delante del pueblo.",
+      "tags": [
+        "desierto"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0118",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Mientras Josué peleaba contra Amalec, ¿qué ocurría cuando Moisés alzaba su mano?",
+      "options": [
+        "Caía fuego del cielo",
+        "Amalec huía de inmediato",
+        "Israel prevalecía",
+        "El enemigo se rendía"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Éxodo 17:8-13"
+      ],
+      "explanation": "Aarón y Hur sostenían sus manos cuando se cansaban.",
+      "tags": [
+        "moises",
+        "josue"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0119",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién aconsejó a Moisés que delegara el juicio del pueblo en jefes de millares, centenas, cincuenta y diez?",
+      "options": [
+        "Jetro, su suegro",
+        "Aarón",
+        "Josué",
+        "Caleb"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 18:13-24"
+      ],
+      "explanation": "Moisés oyó su voz e hizo todo lo que dijo.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0120",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "Según Números 12:3, ¿cómo era Moisés comparado con todos los hombres de la tierra?",
+      "options": [
+        "Muy sabio",
+        "Muy rico",
+        "Muy fuerte",
+        "Muy manso"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Números 12:1-3"
+      ],
+      "explanation": "Aarón y María habían hablado contra él.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0121",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuántos días duró el reconocimiento de la tierra de Canaán por los doce espías?",
+      "options": [
+        "Cuarenta días",
+        "Siete días",
+        "Veinte días",
+        "Tres meses"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 13:25-33"
+      ],
+      "explanation": "Volvieron con fruto de la tierra.",
+      "tags": [
+        "espias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0122",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quiénes dijeron «subamos luego, y tomemos posesión de ella» entre los espías?",
+      "options": [
+        "Caleb",
+        "Moisés",
+        "Hur y Caleb",
+        "Josué y Aarón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 13:25-33"
+      ],
+      "explanation": "Los otros dijeron que el pueblo era más fuerte.",
+      "tags": [
+        "espias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0123",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Cuántos años debía andar Israel en el desierto, un año por cada día del reconocimiento?",
+      "options": [
+        "Veinte años",
+        "Cien años",
+        "Cuarenta años",
+        "Siete años"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Números 14:30-34"
+      ],
+      "explanation": "Solo Caleb y Josué entrarían a la tierra de los de aquella generación.",
+      "tags": [
+        "espias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0124",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Por qué no pudo entrar Moisés a la tierra prometida?",
+      "options": [
+        "Porque golpeó la peña en lugar de hablarle como Dios mandó",
+        "Porque dudó en el Mar Rojo",
+        "Porque mató a un egipcio",
+        "Porque adoró un becerro"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 20:7-12"
+      ],
+      "explanation": "Dios dijo que no creyeron en él para santificarlo.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0125",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Ante quién puso Moisés a Josué para darle el cargo?",
+      "options": [
+        "Ante Jetro",
+        "Ante el sacerdote Eleazar y toda la congregación",
+        "Ante Caleb y los ancianos",
+        "Ante Aarón y los jueces"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Números 27:18-23"
+      ],
+      "explanation": "Pondría sobre él sus manos.",
+      "tags": [
+        "josue"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-historia-0126",
+      "module": "core",
+      "category": "historia",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Desde qué monte vio Moisés la tierra de Canaán antes de morir?",
+      "options": [
+        "Desde el monte Hor",
+        "Desde el monte Carmelo",
+        "Desde el monte Nebo",
+        "Desde el monte Sinaí"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Deuteronomio 32:48-52"
+      ],
+      "explanation": "Estaba frente a Jericó, en la tierra de Moab.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    }
+  ]
+}

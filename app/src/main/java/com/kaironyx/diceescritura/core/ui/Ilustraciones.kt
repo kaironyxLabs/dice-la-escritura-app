@@ -40,6 +40,12 @@ fun Categoria.banner(): Int = when (this) {
     Categoria.ENSENANZAS -> R.drawable.banner_ensenanzas
     Categoria.CARTAS -> R.drawable.banner_cartas
     Categoria.DONDE_ESTA_ESCRITO -> R.drawable.banner_donde_escrito
+    // Banners provisionales de las categorías nuevas, hasta que existan sus ilustraciones.
+    Categoria.PROFETAS -> R.drawable.banner_historia
+    Categoria.SABIDURIA -> R.drawable.banner_libros
+    Categoria.MILAGROS -> R.drawable.banner_ensenanzas
+    Categoria.LEY_PACTOS -> R.drawable.banner_lugares
+    Categoria.HECHOS -> R.drawable.banner_cartas
     Categoria.CONFESION -> R.drawable.banner_confesion
 }
 

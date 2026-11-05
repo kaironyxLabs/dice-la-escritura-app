@@ -13,5 +13,10 @@ fun Categoria.nombreRes(): Int = when (this) {
     Categoria.ENSENANZAS -> R.string.cat_ensenanzas
     Categoria.CARTAS -> R.string.cat_cartas
     Categoria.DONDE_ESTA_ESCRITO -> R.string.cat_donde_escrito
+    Categoria.PROFETAS -> R.string.cat_profetas
+    Categoria.SABIDURIA -> R.string.cat_sabiduria
+    Categoria.MILAGROS -> R.string.cat_milagros
+    Categoria.LEY_PACTOS -> R.string.cat_ley_pactos
+    Categoria.HECHOS -> R.string.cat_hechos
     Categoria.CONFESION -> R.string.cat_confesion
 }
