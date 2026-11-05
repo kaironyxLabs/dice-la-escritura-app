@@ -1,0 +1,213 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-personajes-0086",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién fue la madre de Benjamín?",
+      "options": [
+        "Raquel",
+        "Bilha",
+        "Zilpa",
+        "Lea"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 35:16-19"
+      ],
+      "explanation": "Murió al darlo a luz.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0087",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién propuso a sus hermanos vender a José en lugar de matarlo?",
+      "options": [
+        "Simeón",
+        "Rubén",
+        "Judá",
+        "Leví"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 37:26-28"
+      ],
+      "explanation": "Dijo que era su hermano, su propia carne.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0088",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién era Melquisedec?",
+      "options": [
+        "Sacerdote de Baal",
+        "Rey de Salem y sacerdote del Dios Altísimo",
+        "Hermano de Abram",
+        "Rey de Sodoma"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 14:18-20"
+      ],
+      "explanation": "Bendijo a Abram con pan y vino.",
+      "tags": [
+        "melquisedec"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0089",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién era Agar?",
+      "options": [
+        "La sierva egipcia de Sarai",
+        "La hermana de Lot",
+        "La hija de Labán",
+        "La madre de Rebeca"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 16:1-4"
+      ],
+      "explanation": "Concibió de Abram, que la recibió por mujer.",
+      "tags": [
+        "agar"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0090",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién fue la esposa que Faraón dio a José?",
+      "options": [
+        "Tamar, hija de Judá",
+        "Asenat, hija de Potifera, sacerdote de On",
+        "Zilpa, hija de Labán",
+        "Séfora, hija de Jetro"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 41:41-46"
+      ],
+      "explanation": "Potifera era sacerdote de On.",
+      "tags": [
+        "jose"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0091",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién era Hur, que sostuvo las manos de Moisés junto a Aarón?",
+      "options": [
+        "Un hombre que subió con Moisés al collado",
+        "El general de Josué",
+        "Un sacerdote de Madián",
+        "El suegro de Moisés"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 17:8-13"
+      ],
+      "explanation": "Pusieron una piedra bajo Moisés y sostuvieron sus manos.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0092",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Quién era Eleazar, junto a quien se puso a Josué?",
+      "options": [
+        "El sacerdote",
+        "El general de Israel",
+        "El suegro de Moisés",
+        "El juez del pueblo"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 27:18-23"
+      ],
+      "explanation": "Josué consultaría por el juicio del Urim.",
+      "tags": [
+        "sacerdocio"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0093",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se llamaba la hija de Labán de ojos delicados, hermana mayor de Raquel?",
+      "options": [
+        "Lea",
+        "Zilpa",
+        "Dina",
+        "Tamar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 29:16-20"
+      ],
+      "explanation": "Raquel era la menor.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-personajes-0094",
+      "module": "core",
+      "category": "personajes",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Quién era Lot respecto a Abram?",
+      "options": [
+        "Su siervo",
+        "Su sobrino, hijo de su hermano Harán",
+        "Su hermano menor",
+        "Su cuñado"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Génesis 11:27-32"
+      ],
+      "explanation": "Harán murió antes que su padre Taré en Ur.",
+      "tags": [
+        "abraham",
+        "lot"
+      ],
+      "reviewed": true
+    }
+  ]
+}

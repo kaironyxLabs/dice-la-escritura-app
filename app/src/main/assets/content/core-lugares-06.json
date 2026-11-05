@@ -1,0 +1,258 @@
+{
+  "contentVersion": 1,
+  "questions": [
+    {
+      "id": "core-lugares-0055",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde murió Taré, padre de Abram?",
+      "options": [
+        "En Harán",
+        "En Ur de los caldeos",
+        "En Egipto",
+        "En Canaán"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 11:27-32"
+      ],
+      "explanation": "Vivió doscientos cinco años.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0056",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué región estaba la tienda de Abraham cuando se le aparecieron tres varones?",
+      "options": [
+        "En el desierto de Parán",
+        "En los montes de Moriah",
+        "En el encinar de Mamre",
+        "En el valle de Sidim"
+      ],
+      "answerIndex": 2,
+      "references": [
+        "Génesis 18:1-2"
+      ],
+      "explanation": "Estaba sentado a la puerta de su tienda en el calor del día.",
+      "tags": [
+        "abraham"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0057",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué región habitaba Isaac cuando salió a meditar al campo en la tarde?",
+      "options": [
+        "En el Neguev",
+        "En Mamre",
+        "En Betel",
+        "En Gerar"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 24:61-67"
+      ],
+      "explanation": "Venía del pozo del Viviente-que-me-ve.",
+      "tags": [
+        "isaac"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0058",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿De qué lugar salió Jacob rumbo a Harán, cuando soñó la escalera?",
+      "options": [
+        "De Betel",
+        "De Hebrón",
+        "De Siquem",
+        "De Beerseba"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Génesis 28:10-13"
+      ],
+      "explanation": "Llegó a un lugar donde durmió con una piedra por cabecera.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0059",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cuál es el otro nombre de Efrata, donde fue sepultada Raquel?",
+      "options": [
+        "Belén",
+        "Jerusalén",
+        "Betel",
+        "Hebrón"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Génesis 35:16-19"
+      ],
+      "explanation": "Fue sepultada en el camino de Efrata.",
+      "tags": [
+        "jacob"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0060",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿Dónde habitó Moisés tras huir de Faraón?",
+      "options": [
+        "En la tierra de Madián",
+        "En Moab",
+        "En Canaán",
+        "En Edom"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Éxodo 2:11-15"
+      ],
+      "explanation": "Moisés huyó de delante de Faraón.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0061",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "question": "¿En qué monte se le apareció a Moisés la zarza ardiendo?",
+      "options": [
+        "En Carmelo",
+        "En Horeb, monte de Dios",
+        "En Nebo",
+        "En Moriah"
+      ],
+      "answerIndex": 1,
+      "references": [
+        "Éxodo 3:1-6"
+      ],
+      "explanation": "Apacentaba las ovejas de Jetro.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0062",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué lugar peleó Amalec contra Israel?",
+      "options": [
+        "En Etam",
+        "En Cades",
+        "En Sucot",
+        "En Refidim"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Éxodo 17:8-13"
+      ],
+      "explanation": "Josué dirigió la batalla.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0063",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué desierto estaba Cades, donde los espías regresaron con su informe?",
+      "options": [
+        "En el desierto de Parán",
+        "En el desierto de Sinaí",
+        "En el desierto de Sur",
+        "En el desierto de Zin"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Números 13:25-33"
+      ],
+      "explanation": "Mostraron el fruto de la tierra.",
+      "tags": [
+        "espias"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0064",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿Cómo se llamaron las aguas donde Moisés y Aarón no santificaron a Dios, en el desierto de Zin?",
+      "options": [
+        "Aguas de Meriba de Cades",
+        "Aguas de Elim",
+        "Aguas de Cades-barnea",
+        "Aguas de Mara"
+      ],
+      "answerIndex": 0,
+      "references": [
+        "Deuteronomio 32:48-52"
+      ],
+      "explanation": "Por eso Moisés vio la tierra pero no entró.",
+      "tags": [
+        "moises"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "core-lugares-0065",
+      "module": "core",
+      "category": "lugares",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "question": "¿En qué monte murió Aarón?",
+      "options": [
+        "En el monte Nebo",
+        "En el monte Sinaí",
+        "En el monte Carmelo",
+        "En el monte Hor"
+      ],
+      "answerIndex": 3,
+      "references": [
+        "Deuteronomio 32:48-52"
+      ],
+      "explanation": "Fue unido a su pueblo, como luego Moisés.",
+      "tags": [
+        "aaron"
+      ],
+      "reviewed": true
+    }
+  ]
+}
